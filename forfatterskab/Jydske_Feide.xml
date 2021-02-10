@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="JyF">Den Jydske Feyde (1746)</title>
+                <author>Ludvig Holberg</author>
+                <editor>
+                    <persName/>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>1746</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace/>
+                <availability>
+                    <p rend="head">Tekststatus:</p>
+                    <p>Ikke punktkommenteret</p>
+                    <p>Variantapparat er under udarbejdelse</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Ludvig Holbergs Mindre Poetiske Skrifter</title>, <date>1746</date>. Benyttet eksemplar: Det Kgl. Bibliotek, M, 38582, 8vo, Ex. 1.</witness>
+                    <witness xml:id="a"><title key="none">Den Jydske Feide</title>, 1729. Benyttet eksemplar: Det Kgl. Bibliotek, 53,-318, 8vo.</witness>
+                    <witness xml:id="ms.1">afskrift ved Morten Seehuus. Det Kgl. Bibliotek, GKS 799, fol.</witness>
+                    <witness xml:id="ms.2">afskrift ved Hans Gram. Det Kgl. Bibliotek, NKS 489, I, fol.</witness>
+                    <witness xml:id="ms.3">anonym afskrift, har tilhørt Bolle Luxdorph. Det Kgl. Bibliotek, NKS 820, 4vo.</witness> 
+                    <witness xml:id="ms.4">ukendt afskrift  [NKS 1770 b (20) fol.?], inddraget af Liebenberg i dennes udgave af <title key="none">Mindre Poetiske Skrifter</title>, 1866.</witness>
+                    <witness xml:id="udg1767"><title key="none">Baron Ludvig Holbergs mindre Poetiske Skrifter</title>, 1767.</witness>
+                    <witness xml:id="Rahbek"><title key="none">Ludvig Holbergs udvalgte Skrifter</title>, bd. 8,  1806.</witness>
+                    <witness xml:id="Liebenberg"><title key="none">Ludvig Holbergs Mindre Poetiske Skrifter</title>, 1866.</witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg. Carl S. Petersen, bd. 5, 1920. Tekstgrundlaget for SS er Seehuus’ afskrift (ms. 1) og ikke <title key="none">Mindre Poetiske Skrifter</title> som i LHS. I det tekstkritiske apparat fraviges derfor det sædvanlige princip om dokumentation af afvigelser fra SS. Det underforstås altså at SS stemmer overens med Seehuus’ afskrift og derfor kan afvige fra LHS.</witness>
+                   </listWit>
+            </sourceDesc>
+        </fileDesc>        
+        <profileDesc>
+            <langUsage>
+                <language ident="dan">dansk</language>
+            </langUsage>
+        </profileDesc>        
+        <revisionDesc>
+            <change when="2015-06-17" who="fgj">indført alle tekstvidnerne i listWit</change>
+            <change when="2015-06-16" who="fgj">foreløbig er tekstrettelserne kodet som bagatelrettelser indtil der er taget stilling til sigler for 1729 og de fire mss.</change>
+            <change when="2015-06-15" who="fgj">læst mod Mindre Poetiske Skrifter, tekstkritik mangler kodning. Indsat faksimilelinks</change>
+            <change when="2015-06-15" who="fgj">Nærværende fil vil rumme versionen fra MPS 1746. 1729-versionen findes i filen Jydske_Feide1729.page, som hidtil havde heddet Jydske_Feide.page</change>
+            <change when="2014-12-01" who="ng">strukturopmærkning</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-01-24" who="fgj">tilføjelse af tekststatus</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i første div</change>
+            <change when="2012-03-03" who="fgj">filen oprettet som Jydske_Feide.page, teksten klippet fra SS-scanningen men ellers ikke bearbejdet ud over indførelse af div-struktur mv.</change>
+         </revisionDesc>
+    </teiHeader>    
+    <facsimile>
+        <graphic n="273" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00278.jpg" xml:id="p261"/>
+        <graphic n="274" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00279.jpg" xml:id="p262"/>
+        <graphic n="275" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00280.jpg" xml:id="p263"/>
+        <graphic n="276" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00281.jpg" xml:id="p264"/>
+        <graphic n="277" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00282.jpg" xml:id="p265"/>
+        <graphic n="278" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00283.jpg" xml:id="p266"/>
+        <graphic n="279" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00284.jpg" xml:id="p267"/>
+        <graphic n="280" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00285.jpg" xml:id="p268"/>
+        <graphic n="281" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00286.jpg" xml:id="p269"/>
+        <graphic n="282" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00287.jpg" xml:id="p270"/>
+    </facsimile>    
+    <text xml:lang="dan" xml:id="JyF" type="orig" subtype="JyF" n="/tekster/Jydske_Feide/Jydske_Feide.page">
+            <front>
+                <titlePage xml:id="start" n="[Titelblad]">
+                    <pb ed="A" n="261" facs="p261"/>
+                    <docTitle>
+                        <titlePart type="main">Den <lb/>Jydske Feyde.</titlePart>
+                    </docTitle>   
+                    <pb ed="A" n="262" facs="p262"/>
+                </titlePage>             
+            </front>
+        <body>
+            <div xml:id="chap" n="Den Jydske Feyde">  
+                <pb ed="A" n="263" facs="p263"/>
+                <lg>
+                    <l><w><hi rend="init">J</hi>eg</w> siunger om en Krig, som en retfærdig Iver</l>
+                    <l>I Norden tændte op, et bittert Had beskriver,</l>
+                    <l rend="indent">En tærend Lue, som af heele Limfiords Vand,</l>
+                    <l rend="indent">Af Norske Bierges Snee og Iis ey slukkes kand.</l>
+                    <l n="5"><w>Krigs-Guden</w> selv til Fred man bringe kand med Lempe,</l>
+                    <l>Den største <w>Ilde-Brand</w> af Vand sig lader dempe;</l>
+                    <l rend="indent">Men her mod denne Ild jeg finder ingen Trøst,</l>
+                    <l rend="indent">Thi den har fæstet Rod i <w><hi rend="ant">Philosophi</hi>sk</w> Brøst.</l>
+                    <l>Siig mig, <hi rend="ant">o Musa</hi>, hvad var Tønder til den Lue,</l>
+                    <l n="10">Som synes hele Land med blodig Krig at true?</l>
+                    <l rend="indent">Hvad Aarsag givet har til saadan Bitterhed,</l>
+                    <l rend="indent">Som planter <w>Krigs-Standart</w> og bryder gyldne Fred?</l>
+                    <l>Vor dyre Norden var med Fred og Velstand kronet,</l>
+                    <l>Et <w>Naboe-Rige</w> med et andet var forsonet;</l>
+                    <l rend="indent" n="15">I ædle <w><hi rend="ant">Cimber-</hi>Land</w> alt smilede og loe,</l>
+                    <l rend="indent">Hver høsted Frugten af den Himmelsendte Roe.</l>
+                    <l>See da! En <w><hi rend="ant">Cimbri</hi>sk</w> Helt skiult under <hi rend="ant">Levi</hi> Kiole,</l>
+                    <l>Der blive vil et Lys paa <hi rend="ant">Wiborgs</hi> høye Skole,</l>
+                    <l rend="indent"><pb ed="A" n="264" facs="p264"/>Sit lærde Fornavn fandt i <w>Skue-Spil</w> at staae</l>
+                    <l rend="indent">Blandt hundred Navne som nødvendig bruges maa.</l>
+                    <l>Sligt udi Geistligt Bryst optændte heftig Vrede,</l>
+                    <l>Han sagde, jeg mig maa til ævig Krig berede;</l>
+                    <l rend="indent">Mit Magistralske Navn, som jeg i <w>Romer-Dragt</w></l>
+                    <l rend="indent">Saa ziirlig pyntet har, ey skikker sig til <app type="tc"><lem><corr resp="a">Act</corr></lem><rdg wit="A">Agt</rdg><rdg wit="a ms.3 ms.4"><hi rend="ant">Act.</hi></rdg><rdg wit="ms.1"><hi rend="ant">Act</hi><note type="last">(med sletning af punktum)</note></rdg><rdg resp="udg1767">Agt</rdg><rdg resp="Rahbek Liebenberg">Act<note type="last">(med antikva i Liebenberg)</note></rdg></app></l>
+                    <l n="25">I skiemtsom <app type="tc"><lem><corr resp="Liebenberg"><w>Skue-Spil</w>. Man</corr></lem><rdg wit="a A ms.3 ms.4">Skue-Spil man</rdg><rdg wit="ms.1">Skuespill. Mand</rdg><rdg resp="udg1767">Skue-Spil man</rdg><rdg resp="Rahbek">Skuespil; man</rdg><rdg resp="Liebenberg">Skue-Spil. Man</rdg></app> burde heller flette</l>
+                    <l>Ti <w>Laurbær-Krandse</w> og en <w>Ære-Støtte</w> sætte</l>
+                    <l rend="indent">For den, der kand sit Navn faae endt <hi rend="ant">in <hi rend="it">us</hi> vel <app type="tc"><lem><corr resp="a"><hi rend="it">es</hi>,</corr></lem><rdg wit="A"><hi rend="it">es</hi></rdg><rdg wit="a ms.3"><hi rend="ant">Es,</hi></rdg><rdg wit="ms.1 ms.2"><hi rend="ant">Es</hi></rdg><rdg resp="udg1767"><hi rend="it">es</hi></rdg><rdg resp="Rahbek Liebenberg"><hi rend="ant_it">es,</hi></rdg></app></hi></l>
+                    <l rend="indent">Omstøbe <w>Landsbye-Peêr</w> til en <hi rend="ant">Petreides</hi>.</l>
+                    <l>Sligt Navn maa aldrig paa en <w>Skue-Plads</w> fremtrine,</l>
+                    <l n="30">I Spidsen af Postill det dannet er at skinne,</l>
+                    <l rend="indent">At staae med gylden Stil paa Bog af tvende Fag,</l>
+                    <l rend="indent"><pb ed="SS" n="148"/>Som prægtig Smykke paa en Foliantes Bag.</l>
+                    <l>Mit Blod ophidset er, af Bitterhed jeg revner,</l>
+                    <l>Hvis inden stakket Tiid jeg saadan Spot ey hevner;</l>
+                    <l rend="indent" n="35">En Helt med geistlig Dragt, som tapissered er,</l>
+                    <l rend="indent">For det som mindre er, ey nogen gir Qvarteer.</l>
+                    <l>Til <w>Studii-Kammeret</w> han derpaa ivrig haster,</l>
+                    <l>Og der Concepter til et <w>Feyde-Brev</w> udkaster,</l>
+                    <l rend="indent">Da som af Trojæ Hest, af Hiernen flyder ned,</l>
+                    <l rend="indent" n="40">Alt hvad som høylærd <w>Rust-Kammer</w> haver Sted.</l>
+                    <l><pb ed="A" n="265" facs="p265"/>Man paa Papiret seer i hast stridbare <hi rend="ant">Phraser</hi>,</l>
+                    <l>Som til <w>Slagt-Ordning</w> han med spidse Pen afpasser;</l>
+                    <l rend="indent">Men see! hvad skeede? da han <w>Feyde-Brevet</w> skrev,</l>
+                    <l rend="indent"><hi rend="ant">Musei janua</hi> heel sagte aabned blev.</l>
+                    <l n="45">En yndig Frue strax i Kammeret indtræder</l>
+                    <l>Med <w>Olje-Green</w> i Hand, og svøbt i hvide Klæder,</l>
+                    <l rend="indent">Af Ansigt Straaler gik som af en <w>Middags-Sol</w>,</l>
+                    <l rend="indent">Hun nærmede sig til den Magistralske Stol,</l>
+                    <l>Og sagde: Cimbrers Lys og Jyllands klare Øye!</l>
+                    <l n="50">Jeg Freds Gudinde er, som dig til Fred vil bøye.</l>
+                    <l rend="indent">Hvad Orm, hvad Furie til Strid dig egget har,</l>
+                    <l rend="indent">At du saa løselig dit Sværd af Skeden târ?</l>
+                    <l>Kand saadan ringe Sag en Mand til Krig forlede,</l>
+                    <l>Hvis lærde Hierne er Philosophiens Sæde?</l>
+                    <l rend="indent" n="55">Hvis hellig Stemme nys en <w>Freds-Basune</w> var,</l>
+                    <l rend="indent">Der mod <w>U-eenighed</w> saa tidt prædiket har.</l>
+                    <l>Du torned’ nys mod Had, nu selv din Næste hader,</l>
+                    <l>Fordømte Hevnen, men den selv nu Tømmen lader.</l>
+                    <l rend="indent">Du Fred Prædiker er; men Freden bryde vil,</l>
+                    <l rend="indent" n="60">Allene for du seer dit Navn i <w>Skue-Spil</w>.</l>
+                    <l>Slig Tale demped lidt den Philosophisk Heede,</l>
+                    <l>Min Helt tvivlraadig stod imellem Skam og Vrede,</l>
+                    <l rend="indent">Tre gange kastede paa lærde Bord sin Pen,</l>
+                    <l rend="indent">Tre gange han den tog i ivrig Haand igien.</l>
+                    <l n="65"><pb ed="A" n="266" facs="p266"/>Ret som en voxen Eeg, den hvasse Øx vil fælde,</l>
+                    <l>Staaer som tvivlraadig til hvad Side den skal helde,</l>
+                    <l rend="indent">Saa vor høylærde Mand tvivlraadig længe stod,</l>
+                    <l rend="indent">Gudinden raabte Fred, Poeten raabte Blod.</l>
+                    <l><pb ed="SS" n="149"/>Den Vankelmodighed dog ikke vared længe,</l>
+                    <l n="70">En nye Gudinde man blev var sig at indtrænge,</l>
+                    <l rend="indent">Hvis Gang afpasset var, saa hvert et <w>Fode-Fied</w></l>
+                    <l rend="indent">Udtrykked Orden og Methodisk Zirlighed.</l>
+                    <l><hi rend="ant">Pedanteria</hi> man den samme Frue kalder,</l>
+                    <l>Hvis Alter offres paa af all slags Stand og Alder;</l>
+                    <l rend="indent" n="75">For Scepter fletted Riis i mavre Haand blev seed;</l>
+                    <l rend="indent">Som tegner Herredom og Eenvolds Myndighed.</l>
+                    <l>Hun brugte Klæder ey som denne Tids Matroner,</l>
+                    <l>Alt sammenflikket var udaf Citationer,</l>
+                    <l rend="indent">Saae ud, som Bredden af en lærd Tevtonisk Bog,</l>
+                    <l rend="indent" n="80">Der siger intet, men i <app type="tc"><lem wit="a">Øyne</lem>
+                        <rdg wit="A">Øyne,</rdg><rdg wit="ms.1">Øjne</rdg><rdg wit="ms.2">øjnen’</rdg><rdg resp="udg1767">Øyne,</rdg><rdg resp="Rahbek">Øjne</rdg><rdg resp="Liebenberg">Øyne</rdg></app> stikker dog.</l>
+                    <l>En lang Parenthesis med <w>Skole-Støv</w> brodered,</l>
+                    <l>Bar <w>Fruer-Kiolens</w> Svantz paa samme Viis staffered,</l>
+                    <l rend="indent">I Luften svævede Latinske, Grædske Ord,</l>
+                    <l rend="indent">Som raabte Knald og Fald, Død, Nederlag, og Mord.</l>
+                    <l n="85">Frue <hi rend="ant">Contumacia</hi> bedekked høyre Side,</l>
+                    <l>For hende alting veeg, hun kand ey Modstand lide,</l>
+                    <l rend="indent"><pb ed="A" n="267" facs="p267"/>Ved venstre Side gik Hr. <hi rend="ant">Fastus</hi> fræk og suur,</l>
+                    <l rend="indent">Med Castellanske Trin som efter Tablatur.</l>
+                    <l>Gudindens Følge var en Skok <hi rend="ant">Distinctioner</hi>,</l>
+                    <l n="90">Som stedse mumlede udi adskilte Toner,</l>
+                    <l rend="indent">Til sidst <hi rend="ant">Idea</hi> gik heel liden som en Dverg,</l>
+                    <l rend="indent">Og Troppen sluttes af Poeten Phoenixberg.</l>
+                    <l>I slig Procession Gudinden sig henlister</l>
+                    <l>Til <w>Blek-broderet</w> Bord, og siger: Hr. Magister!</l>
+                    <l rend="indent" n="95">(Om gradueret Navn og Titel gives maa</l>
+                    <l rend="indent">Til den, fra ædle Æt der har vanslægtet saa.)</l>
+                    <l>Du skinned nys som Sol blandt frække <w>Skole-Kiemper</w>,</l>
+                    <l>Men nu blir lunken, og din ædle Iver dæmper,</l>
+                    <l rend="indent">Uværdig Undersaat! vanarted Phoebi Æt,</l>
+                    <l rend="indent" n="100">Er sligt Philosophie anstændigt? er det ret?</l>
+                    <l>At eftergive Feyl, at lade Vrede falde?</l>
+                    <l>Frisk op, tag Sværdet fat, lad virke lærde Galde.</l>
+                    <l rend="indent">Lad see Parnassi Søn du est, som du var før,</l>
+                    <l rend="indent">Lad klinge <w>Krigs-Basun</w> og Hiernens Tromme rør,</l>
+                    <l n="105">Bring udi Felten frem en Skok af Syllogismer,</l>
+                    <l><pb ed="SS" n="150"/>Lad regne, hagle ned stridbareste Sophismer,</l>
+                    <l rend="indent"><hi rend="ant">Celarent</hi>, <hi rend="ant">Barbara</hi>, <hi rend="ant">Darii</hi>, <hi rend="ant">Ferio</hi>,</l>
+                    <l rend="indent">Og tusind slige Ting, som i din Pande boe.</l>
+                    <l>Grib an med samled Magt den <w>Spotte-Fugl</w>, Misdæder,</l>
+                    <l n="110">Sæt i Baroco den Apollinis Forræder,</l>
+                    <l rend="indent"><pb ed="A" n="268" facs="p268"/>Der drevet haver Spill med Philosophisk Navn,</l>
+                    <l rend="indent">Spar ikke Liv, det er Philosophiens Gavn.</l>
+                    <l>Jeg siger med et Ord: føer Krig, bliv ved at hade,</l>
+                    <l>Med mindre du blant os vil Borgerskab forlade;</l>
+                    <l rend="indent" n="115">I vore Tider jo mod <w>Skole-Lov</w> det er</l>
+                    <l rend="indent">For en Philosopho at plante strax Gevær.</l>
+                    <l>Stem op, Calliope! umag dig at afmale,</l>
+                    <l>Hvad Virkning giordes af Gudindens zirlig Tale,</l>
+                    <l rend="indent">Til inderste Kallun i <w>Øye-blik</w> den drev,</l>
+                    <l rend="indent" n="120">Det hele lærde Blod bevæget oprørsk blev.</l>
+                    <l>Han paa sin Concordantz ærværdig Fingre lagde,</l>
+                    <l>Og disse hellig Ord med <w>Torden-Røst</w> udsagde:</l>
+                    <l rend="indent">Jeg sværger, at jeg ey beqvemmer mig til Fred,</l>
+                    <l rend="indent">Men jeg mig hevne skal i tredje, fierde Led.</l>
+                    <l n="125">Thi før man fede Sild i <w>Vester-Hav</w> skal savne,</l>
+                    <l>Før store Skibe skal i Wiborgs Porte stavne,</l>
+                    <l rend="indent">Før Vand skal blive Ild, før Nat skal blive Dag,</l>
+                    <l rend="indent">Før Procurator skal forlige mindste <app type="tc"><lem>Sag,</lem><rdg wit="A">Sag.</rdg></app></l>
+                    <l>Ja før skal Kræmere og Kiøbmænd <w>Told-Svig</w> lade,</l>
+                    <l n="130">Før jeg skal slutte Fred, og holde op at hade.</l>
+                    <l rend="indent">Hand satt’ for vreden Mund, <w>Hiert-styrkende</w> Pocal,</l>
+                    <l rend="indent">Den tømmed, slog i tu som til et <w>Krigs-Signal</w>.</l>
+                    <l>En slig Begyndelse tog denne store Feyde,</l>
+                    <l>Som ingen kand min Helt mod <w>Folke-Ret</w> bebreyde,</l>
+                    <l rend="indent" n="135"><pb ed="A" n="269" facs="p269"/>Thi den paa Snapsting blev raabt ud høytidelig,</l>
+                    <l rend="indent">Da man skrev ** Aar fra store <w>Pølse-Krig</w>.</l>
+                </lg>
+                <lg>
+                    <head><app type="tc"><lem><corr resp="ed">Betænkning</corr></lem><rdg wit="A">Betækning</rdg></app> over Krigen.</head>
+                    <l><w><hi rend="init">H</hi>vad</w> Udfald denne Krig vil i vor Norden vinde,</l>
+                    <l>Det os Erfarenhed den store Lærerinde</l>
+                    <l rend="indent">Allene viise vil. Her ellers tvistes om,</l>
+                    <l rend="indent" n="140"><pb ed="SS" n="151"/>Blant Lærde, Læge, hvad man fælde skal for Dom,</l>
+                    <l>Hvo udaf Parterne bør kaldes Freds forstørrer,</l>                   
+                    <l>Hvo udaf disse to retfærdig Harnisk fører,</l>
+                    <l rend="indent">Endeel vil holde for, Poeten uret skeer,</l>
+                    <l rend="indent">Som ingen udi sær, men heele Jord beleer.</l>
+                    <l n="145">De sige: man vil snart i Landet Skialdre savne,</l>
+                    <l>Hvis man i <w>Skue-Spil</w> ey bruge maa Fornavne.</l>
+                    <l rend="indent">I mine Tanker dog bør een, der skrive vil,</l>
+                    <l rend="indent">Ey tegne noget Navn i skiemtsom <w>Skue-Spil</w>,</l>
+                    <l>Som bruges i det Land, hvor Digteren har hiemme,</l>
+                    <l n="150">Sligt til indbyrdes Krig kun tiener at forfremme;</l>
+                    <l rend="indent">Paa Landets Navne han en Liste have maa,</l>
+                    <l rend="indent">Saa kand han sikker frem og uden Fare gaae.</l>
+                    <l><pb ed="A" n="270" facs="p270"/>Men som vor Autor har kun agtet saadant føye,</l>
+                    <l>Og disse Regler ey har stedse havt for Øye,</l>
+                    <l rend="indent" n="155">Saa synes, at han ey af Ret har mindste Skin,</l>
+                    <l rend="indent">Og derfor til Tractat bør giøre første Trin.</l>
+                    <l>Hvis ikke bør man ham all Skyld og Aarsag give,</l>
+                    <l>Til hver en Draabe Blod, som da udøst kand blive.</l>
+                    <l rend="indent">Jeg taler upartisk. Jeg ellers er en Ven</l>
+                    <l rend="indent" n="160">Og redebon Client udaf <hi rend="sch">Hans Mikkelsen</hi>.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

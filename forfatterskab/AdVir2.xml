@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="AdVir2">Ad virum perillustrem epistola secunda</title>
+                <author>Ludvig Holberg</author>
+                <editor>Finn Gredal Jensen</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>1737</date></edition>
+            </editionStmt>
+           <publicationStmt>
+                <pubPlace/>
+                <availability><p/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Ludovici Holbergii Opuscula quædam Latina</title>, Leipzig <date>1737</date>, s. 213-228. Benyttet eksemplar: Det Kgl. Bibliotek, Bl. S. 17765, 8vo.</witness>
+                    <witness xml:id="OratFrIV"><title key="none">Oratio Funebris in obitum Friderici Qvarti</title>, 1747.</witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg. Carl S. Petersen, bd. 9, 1928. NB: Afvigelser fra udgaven <title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>
+                    <witness xml:id="Kragelund"><title key="none">Ludvig Holbergs tre Levnedsbreve 1728-1743</title>, udg. A. Kragelund, 1965.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-11-30" who="fgj">konjektur s. 220 cœlo &gt; alto</change>
+            <change when="2015-02-08" who="fgj">nogle justeringer af SS- og Kragelund-krediteringer i noter. Tekst og komm. offentliggjort</change>
+            <change when="2013-12-02" who="fgj">justeringer af tekstkritikken efter ksp's læsning</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-01-24" who="fgj">tilføjet tekststatus, kursiver i listWit</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change when="2012-07-01" who="fgj">indsat faksimilelinks til KB</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+            <change when="2012-06-13" who="fgj">filen omdøbt til AdVir2.page</change>
+            <change when="2012-03-22" who="fgj">indsat kommentar-seg til Københavns brand (s. 217-223)</change>
+            <change when="2011-12-02" who="fgj">indsat nye div-attributter</change>
+            <change when="2011-10-18" who="fgj">afsluttet samme</change>
+            <change when="2011-09-27" who="fgj">indledt korrektur og emendering</change>
+            <change when="2010-08-27" who="fgj">filen flyttet til repositoriet, mappen levnedsbreve</change>
+            <change when="2010-07-17" who="fgj">filen omdøbt fra levnedsbrev_2.xml til AdVirPerII.page</change>
+            <change when="2009-08-19" who="ng">førstekorrektur efter SS</change>
+            <change when="2009-08-13" who="fgj">filen oprettet og let tilrettet</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic n="217" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00222.jpg" xml:id="p213"/>
+        <graphic n="218" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00223.jpg" xml:id="p214"/>
+        <graphic n="219" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00224.jpg" xml:id="p215"/>
+        <graphic n="220" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00225.jpg" xml:id="p216"/>
+        <graphic n="221" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00226.jpg" xml:id="p217"/>
+        <graphic n="222" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00227.jpg" xml:id="p218"/>
+        <graphic n="223" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00228.jpg" xml:id="p219"/>
+        <graphic n="224" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00229.jpg" xml:id="p220"/>
+        <graphic n="225" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00230.jpg" xml:id="p221"/>
+        <graphic n="226" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00231.jpg" xml:id="p222"/>
+        <graphic n="227" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00232.jpg" xml:id="p223"/>
+        <graphic n="228" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00233.jpg" xml:id="p224"/>
+        <graphic n="229" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00234.jpg" xml:id="p225"/>
+        <graphic n="230" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00235.jpg" xml:id="p226"/>
+        <graphic n="231" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00236.jpg" xml:id="p227"/>
+        <graphic n="232" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_opusculalatina_1737/bright/opusclat_1737_00237.jpg" xml:id="p228"/> 
+    </facsimile>
+
+    <text xml:lang="lat" xml:id="AdVir2" type="orig" subtype="AdVir2" n="/tekster/levnedsbreve/AdVir2.page">
+
+        <front>
+                 <titlePage xml:id="start" n="[Titelblad]">
+                <pb ed="A" n="213" facs="p213"/>
+                <pb ed="SS" n="165"/>    
+                <docAuthor>LVDOVICI HOLBERGII</docAuthor>
+                <docTitle>
+                    <titlePart type="main"><hi rend="small">AD</hi><lb/> VIRVM<lb/> PERILLVSTREM</titlePart>
+                    <titlePart type="sub"><hi rend="it">EPISTOLA SECVNDA.</hi></titlePart>
+                </docTitle>
+                  <pb ed="A" n="214" facs="p214"/>
+                 </titlePage>
+       </front>
+
+        <body>
+            <div xml:id="chap" n="Ad virum perillustrem epistola secunda">
+                <pb ed="A" n="215" facs="p215"/>
+                <pb ed="SS" n="167"/>
+                <p rend="noIndent"><w><hi rend="init">Q</hi>Vamvis</w> integrum jam Octennium nullum inter
+                    nos literarum fuerit commercium, pristinam tamen amicitiam tanto temporis
+                    intervallo non <app type="tc"><lem><corr resp="SS">refriguisse, sed</corr></lem>
+                        <rdg wit="A">refriguisse. Sed<note type="last">(<q>Sed</q> in initio lineae positum)</note></rdg>
+                        <rdg resp="SS">refriguisse, sed</rdg></app> memorem te adhuc mei 
+                    <app type="tc"><lem><corr resp="SS">testatur</corr></lem><rdg wit="A">testatus</rdg>
+                        <rdg resp="SS">testatur</rdg></app> allata mihi nuper epistola 
+                    <app type="tc"><lem><corr resp="SS">tua</corr></lem><rdg wit="A">tuâ</rdg>
+                        <rdg resp="SS">tua</rdg><rdg resp="Kragelund">tuâ</rdg></app>, in qva ardenter 
+                    petis, ut reliqvum vitæ meæ cursum Stylo perseqvar, ac
+                    qvid porro in literis a me elaboratum sit, tibi indicem.</p>
+                
+                
+                
+                <p rend="indent">Relicto <seg type="komm" target="p215-11"/>bellatorio isto scribendi genere, qvod per aliqvot annos me
+                    exercuit, ad pristinas occupationes animum revoco; Nam licet, <seg type="komm" target="p215-14"/>renatis paulò post
+                    ludis scenicis, ab amicis sæpe solicitarer novas comminisci fabulas, tenax tamen
+                    propositi, syrtibus, qvas nuper evaseram, denuo me committere nolui, <seg type="komm" target="p215-17"/>contentus
+                    fabulis nonnullis qvæ limam maximè poscebant, manum emendatricem addere,
+                    novasqve qvas paratas habui, Gregi Comœdorum dono dare. Inde ad opus sæpius
+                    <app type="tc"><lem><corr resp="SS"><w>inter<shy/><pb ed="A" n="216" facs="p216"/>missum</w></corr></lem>
+                        <rdg wit="A">inter-<note type="last">(<q>missum</q> in custode legitur)</note></rdg>
+                        </app> 
+                    regredior, scilicet <seg type="komm" target="p216-1"/>descriptionem
+                    Ecclesiasticam &amp; politicam Daniæ ac Norvegiæ. Sed, dum hac occupatione
+                    distineor, prodiêre incertis autoribus Silli qvidam in <seg type="komm" target="p216-4"/>societatem Jndiæ
+                    Orientalis; Nam, cum commercium Jndicum temporum injuriâ adeo labefactatum
+                    esset, ut videretur diu stare neqvire, ni <app type="tc">
+                        <lem><corr resp="Kragelund">tempestivè</corr></lem>
+                        <rdg wit="A">tempestivê</rdg>
+                        <rdg resp="SS">tempestivê</rdg>
+                        <rdg resp="Kragelund">tempestivè<note type="last">(deest in
+                            app.)</note></rdg>
+                    </app> sublevaretur, nutanti societati novo aliqvo ac salutari Commento
+                    suppetias ire moliebantur Commercii ejusdem Directores, <app type="tc">
+                        <lem><corr resp="ed">eumqve</corr></lem>
+                        <rdg wit="A">cumqve</rdg>
+                        <rdg resp="SS">cumqve</rdg>
+                        <rdg resp="Kragelund">eumqve</rdg>
+                    </app> in finem <app type="tc">
+                        <lem><corr resp="SS">novos</corr></lem>
+                        <rdg wit="A">novas</rdg>
+                        <rdg resp="SS">novos</rdg>
+                    </app> e vicinis gentibus mercatores in societatem trahere conabantur. Hinc
+                    nonnulli, qvi incrementum Commercii Septentrionalis invidis oculis intuentur, ut
+                    a conferenda in societatem hanc <app type="tc">
+                        <lem><corr resp="ed">pecuniâ</corr></lem>
+                        <rdg wit="A">pecunià</rdg>
+                        <rdg resp="SS">pecunià</rdg>
+                        <rdg resp="Kragelund">pecunia<note type="last">(deest in
+                            app.)</note></rdg>
+                    </app> alios <app type="tc">
+                        <lem><corr resp="SS">absterrerent</corr></lem>
+                        <rdg wit="A">absternerent</rdg>
+                        <rdg resp="SS">absterrerent</rdg>
+                    </app>, conamina ista vana &amp; inania deprædicabant. <app type="tc">
+                        <lem><corr resp="SS">Invitor</corr></lem>
+                        <rdg wit="A">Inator</rdg>
+                        <rdg resp="SS">Invitor</rdg>
+                    </app> ego scripto apologetico Calumniis his obviam ire; Sed, cum <app type="tc">
+                        <lem><corr resp="SS">in</corr></lem>
+                        <rdg wit="A">an</rdg>
+                        <rdg resp="SS">in</rdg>
+                    </app> re mercatoria parùm versatus sim, <seg type="komm" target="p216-20"/>spartam hanc diu deprecabar, precibus
+                    tamen amicorum expugnatus operi manum admoveo, ac 
+                    <seg type="komm" target="p216-22"/>dialogum latinum edo, qvi mox
+                    in danicum idioma, deinde in Germanicum, curantibus societatis Directoribus,
+                    versus est.</p>
+                <p rend="indent"><seg type="komm" target="p216-26"/>Dialogum hunc secutus est 
+                    mox alius altioris indaginis, qviqve a
+                    Mercatoribus regiæ hujus urbis tanto applausu <app type="tc">
+                        <lem><corr resp="SS">exceptus</corr></lem>
+                        <rdg wit="A">exeptus</rdg>
+                        <rdg resp="SS">exceptus<note type="last">(deest in app.)</note></rdg>
+                    </app> fuit, ut <pb ed="A" n="217" facs="p217"/>non deessent, qvi insigni aliqvo præmio
+                    compensandam autoris operam judicabant. Sed, cum de conferendis Symbolis in
+                    Basilica mercatorum ageretur, prudenter judicabant nonnulli, cum scriptor
+                    mercenarius nunqvam fuissem, acceptiorem mihi fore simplicem gratiarum actionem.
+                    Neqve ii falsi sunt judicio; Nam abundè mihi sufficit nuda, qvæ verbis fit,
+                    gratitudinis <app type="tc">
+                        <lem wit="A">testatio.</lem>
+                        
+                        <rdg resp="SS">testatio<note type="last">(<q>testatio.</q> legit SS in app.)</note></rdg>
+                        <rdg resp="Kragelund">testatio.</rdg></app></p>
+                
+                
+                
+                
+                <p rend="indent"><app type="tc">
+                        <lem>
+                            <corr resp="ed"><seg type="komm" target="p217-10"/>Jam ad atrum illum diem,</corr>
+                        </lem>
+                        <rdg wit="A">
+                            <note>litteris cursivis in</note>
+                        </rdg>
+                        <rdg resp="SS Kragelund">
+                            <note>litteris cursivis in</note>
+                        </rdg>
+                    </app>
+                </p>
+                <lg rend="it"><l>– – – – – Quanquam animus
+                    meminisse horret</l></lg>
+                
+                               
+                <p rend="noIndent"><pb ed="SS" n="168"/><seg type="komm" target="p217-12"/>qvô potior 
+                    pars regiæ hujus civitatis, cum præcipuis Templis ac
+                    tota <app type="tc">
+                        <lem wit="OratFrIV">Academia,<note type="last">(legitur <q>academia,</q>)</note></lem>
+                        <rdg wit="A">Academia</rdg>
+                        <rdg resp="SS Kragelund">Academia</rdg>
+                        <note>(sine virgula; vide comm.)</note>
+                    </app> in cinerem redacta fuit. <seg type="komm" target="p217-14"/>Qvæ enim tam <app type="tc">
+                        <lem wit="OratFrIV">tragica</lem>
+                        <rdg wit="A">tragicà</rdg>
+                        <rdg resp="SS Kragelund">tragicà</rdg></app>, tam poetica, et qvanqvam in re vera &amp; recenti tam fabulosa 
+                        <app type="tc">
+                        <lem wit="A OratFrIV">materia?</lem>
+                        <rdg resp="SS">materia;</rdg>
+                    </app> Exarsit <app type="tc">
+                        <lem><corr resp="ed">incendium</corr></lem>
+                        <rdg wit="A">in cendium</rdg>
+                        
+                    </app> <seg type="komm" target="p217-17"/>paulò post primam facem ab occidua urbis Regione, 
+                    <seg type="komm" target="p217-18"/>latiusqve mox sparsum
+                    est primum <app type="tc">
+                        <lem><corr resp="SS">violentiâ</corr></lem>
+                        <rdg wit="A">volentiâ</rdg>
+                        <rdg resp="SS">violentiâ</rdg>
+                        <note>(vide comm.)</note>
+                    </app> venti, deinde stupore hominum, qvi insolitâ ac inexspectata hac
+                    calamitate perculsi, otiosi ac immobiles tanti mali spectatores persistebant.
+                    Namqve eâ dexteritate heic coerceri solent ignes, ut, licet crebra qvotannis
+                    sint incendia, rarò tamen usu veniat, ut integra domus absumatur. Igitur, qvo
+                    inexspectatior hæc calamitas accidit, eò magis attoniti homines qvævis pejora
+                    ominabantur. <seg type="komm" target="p217-28"/>Audires ululatum fœminarum, infantium 
+                        <pb ed="A" n="218" facs="p218"/>qviritatus, clamores virorum: 
+                    <seg type="komm" target="p218-1">Nec defuêre, qvi fictis mentitisqve terroribus
+                    vera pericula augebant, qviqve subornatos esse incendiarios falsò sed
+                    credentibus nuntiabant</seg>: <seg type="komm" target="p218-4"/>Neqve iis, qvorum officium est ignem compescere, 
+                    animus magis constabat. <seg type="komm" target="p218-6"/>Currebant qvasi lymphati, alterque in alterius
+                    ministerium invasit. <seg type="komm" target="p218-8"/>Nullus in publico erat sipho, nulla hama, nullum deniqve
+                    instrumentum ad incendia compescenda, tanto terrore cunctorum animos insolita
+                    pervaserat calamitas.</p>
+                <p rend="indent"><seg type="komm" target="p218-12"/>Peragit interim cœli mandata furor ignis. 
+                    Non saxeas ædes sed casas
+                    stramineas diceres, tanta rapiditate tam privata qvàm publica ædificia soluta
+                    horrendo cum fragore ruebant. Qvò remotior qvis ab incendio erat, eò graviorem
+                    jacturam passus est. Nam ii quorum ædes prima nocte conflagrabant,
+                    opes &amp; utensilia servarunt, accurrentibus ac ministeria certatim
+                    offerentibus amicis; at procedente tempore, cum etiam ii, <app type="tc">
+                        <lem><corr resp="Kragelund">qvi</corr></lem>
+                        <rdg wit="A">qvi,</rdg>
+                        <rdg resp="SS">qvi,<note type="last">(<q>qvi</q> sine virgula commendat SS in app.)</note></rdg>
+                        <rdg resp="Kragelund">qvi</rdg>
+                    </app> in remotioribus urbis regionibus habitabant, de propriis rebus Servandis
+                    soliciti essent, alter alteri opem ferre nequibat; qvippe, cum, nemine
+                    inhibente, <seg type="komm" target="p218-25a"/>incendium novas vires sumere, 
+                    <seg type="komm" target="p218-25b"/>ac diversas simul urbis regiones ardere
+                    viderent, <seg type="komm" target="p218-27"/>urbem penitus deploratam tanquam non revisuri <app type="tc">
+                        <lem><corr resp="Kragelund">relinqvunt</corr></lem><rdg wit="A">reliqvunt</rdg><rdg resp="SS">reliqvunt</rdg>
+                        <rdg resp="Kragelund">relinqvunt</rdg><note type="last">(vide comm.)</note></app>.</p>
+                   <lg rend="it">
+                    <l><pb ed="A" n="219" facs="p219"/><seg type="komm" target="p219-1"/>Huic fuga per 
+                        portas, illi magis unda probatur</l>
+                    <l>Et <app type="tc">
+                            <lem wit="A">patriâ</lem>
+                            <rdg resp="SS Kragelund">patrià<note>legunt</note></rdg>
+                        </app> est pontus jam tutior – – – –
+                        –</l>
+                    <l>Quantùm quisque timet, tantum fugit, ocior igne</l>
+                    <l>Hos inter motus populus, miserabile 
+                        <app type="tc"><lem><corr resp="ed">dictu</corr></lem><rdg wit="A">dicta</rdg><rdg resp="SS">dictu</rdg></app>,</l>
+                    <l>Quò mens icta jubet desertâ ducitur urbe.</l>
+                </lg>
+                <p rend="noIndent">Postquam integrum biduum tanta rabie sævierat ignis, ut tota fere
+                    vetus Hafnia cum parte Novæ in cinerem redacta esset, tandem Cives quasi veterno
+                        excitati, incredibili alacritate 
+                    <seg type="komm" target="p219-10"/>tarditatem gravitate compensaturi pro reliquiis
+                    incensæ urbis pectora opponebant. 
+                    <seg type="komm" target="p219-11"/>Nullus ordo, nulla ætas, nullus sexus 
+                    labores maxime improbos subire recusabat, 
+                    <seg type="komm" target="p219-13"/>hortante ac præeunte ipso Rege cum 
+                    <pb ed="SS" n="169"/>hæreditario Principe, jam Augustissimo nostro Rege, cunctisque qui
+                    aderant Regni Proceribus.</p>
+                <p rend="indent">Innotuit tunc maximè quid humana ingenia comminisci, quid numerosæ
+                    manus ac sociatæ vires, auxiliante Deo, efficere possunt, nam ubicunque opus
+                    aggrediuntur, sistitur ignis. <seg type="komm" target="p219-21"/>Consumpta
+                    <app type="tc"><lem wit="OratFrIV">sunt<note type="last">(sine virgula)</note></lem>
+                        <rdg wit="A">sunt,</rdg>
+                    <rdg resp="SS Kragelund">sunt,</rdg></app> tristissimo
+                    hoc incendio Templa B. Virginis, S. Spiritus, S. Petri, S.
+                    Trinitatis, cum publica Academiæ bibliotheca, Turris Astronomica cum globo ac
+                    instrumentis magni Tychonis, Curia senatorum, Nosocomia, tota Academia cum
+                    ædibus Professorum publicis, Communitas Regia centum pauperum studiosorum
+                    altrix, quatuor <pb ed="A" n="220" facs="p220"/>splendida Collegia sc. Regium,
+                    Walckendorfianum, Medicæum, &amp; Elersianum, &amp; innumera alia, quæ dicere
+                    non attinet in tanta notitia; <app type="tc">
+                        <lem><corr resp="ed">Solum</corr></lem>
+                        <rdg wit="A">Solu<hi rend="it">m</hi></rdg>
+                    </app> Consistorium, ubi senatus Professorum haberi
+                    solet, in ista Universali Academiæ calamitate, interque tot circumjacentium
+                    &amp; contiguorum ædificiorum strages, 
+                        ab injuria ignis intactum stetit, adeo ut
+                    de celeberrima hac Universitate dici posset:</p>
+                <lg rend="it"><l><seg type="komm" target="p220-10"/>Hic seges ubi Troja fuit.</l></lg>
+                <p rend="noIndent">Extincto tandem incendio magnitudinem mali,
+                    ac gravissimam rerum jacturam primùm sentire cœperunt homines; Nam, <seg type="komm" target="p220-13"/>qui nuper
+                    opibus affluxerant, ad mendicitatem jam redacti, veterem luxum ac <app type="tc"><lem><corr resp="SS">superfluam</corr></lem>
+                        <rdg wit="A">superfluum</rdg><rdg resp="SS">superfluam<note type="last">(deest in app.)</note></rdg>
+                        <rdg resp="Kragelund">superfluum</rdg></app>
+                    utensilium copiam nimis sero damnabant; evanuere opes, 
+                   quarum vana imago animo
+                    oberrabat, quarum sola memoria, velut 
+                    <app type="tc"><lem><corr resp="ed">alto</corr></lem><rdg wit="A">cœlo</rdg>
+                        <rdg resp="SS">cœlo</rdg></app> 
+                    experrectis somno restabat. 
+                    <app type="tc"><lem><corr resp="SS">Vidisses</corr></lem>
+                        <rdg wit="A">Vidisset</rdg>
+                        <rdg resp="SS">Vidisses</rdg>
+                    </app> eorum</p>
+                <lg rend="it"><l><seg type="komm" target="p220-20"/>Pinguia crura luto,</l></lg>
+                <p rend="noIndent">Qui 
+                    nuper cedente turba <seg type="komm" target="p220-21"/>curribus sublimes vehebantur, 
+                    <seg type="komm" target="p220-22"/>sportulasque jam petere, qui nuper
+                    dabant. <seg type="komm" target="p220-23"/>Gloriari possum in ista rerum transformatione animam mihi satis
+                    constitisse; nam ab incunabulis miræ frugalitati adsuetus, ad quemvis fortunæ
+                    asperioris adspectum non trepido quantum <app type="tc">
+                        <lem><corr resp="SS">ii,</corr></lem>
+                        <rdg wit="A">ii.</rdg>
+                        <rdg resp="SS">ii,</rdg>
+                    </app></p>
+                <lg rend="it"><l>– – – –
+                    –
+                    <seg type="komm" target="p220-28"/>Quibus in <app type="tc">
+                        <lem><corr resp="ed">solo</corr></lem>
+                        <rdg wit="A">sola</rdg>
+                        <rdg resp="SS">solo</rdg>
+                    </app> vivendi causa palato est.</l></lg>     
+                <p rend="noIndent"><pb ed="A" n="221" facs="p221"/>Magis 
+                    me torquebat <seg type="komm" target="p221-1"/>loci quam fortunæ mutatio, cum disjunctum me
+                    viderem ab antiquis hospitibus,
+                    ejectumque
+                    veteri musæo, ubi magnam ætatis partem inter pugillares ac libellos jucundissima
+                    quiete transmiseram; <app type="tc">
+                        <lem><corr resp="ed">angebat</corr></lem>
+                        <rdg wit="A">augebat</rdg>
+                        <rdg resp="SS">angebat</rdg>
+                    </app> me igitur loci magis quam bonorum jactura, 
+                    <seg type="komm" target="p221-7"/>cum nihil sit, quo magis
+                    delector, quam silentio ac quiete, nihilque, quo animus magis alitur, quam
+                    disposito vitæ genere. Disposita mihi omnia erant, otium, negotium, somnus,
+                    vigiliæ, seria, nugæ, tamque parva quam magna ordine quodam ac veluti orbe
+                    circumagi solebant. Percurrebam aliquot dies cunctos servatæ Urbis angulos,
+                        <w>commo<pb ed="SS" n="170"/>dum</w> hospitium quærens, quod tandem nactus quæ
+                    turbata ac confusa erant compono, ac paulatim ad vetera vitæ instituta
+                    revertor.</p>
+                <p rend="indent"><seg type="komm" target="p221-18"/>Inter clades maxime illustres, quæque novas in historiis Epochas
+                    pariunt, numerari debet incendium Hafniense. Quippe Regia hæc civitas, si quidem
+                    solam magnitudinem spectes, multis, si verò pondus, paucis aliis urbibus cedit,
+                    cum quicquid ad decus &amp; robur utriusque Regni spectat, heic tanquam in
+                    centro cernatur. Emicuere tunc maxime virtutes Divi Regis, ejusdemque benignitas
+                    in universali hac calamitate conspiciendam se præbuit. 
+                    <seg type="komm" target="p221-28"/>Ibit in secula, quâ
+                    solertia in istis <pb ed="A" n="222" facs="p222"/>angustiis 
+                    <seg type="komm" target="p222-1"/>affluentiam annonæ curavit, qua
+                    munificentia tam singulos quam Universos proseqvutus est, quave alacritate
+                    <seg type="komm" target="p222-3"/>casibus intercessit, ac fortunæ occursavit 
+                    adeo, ut videretur <app type="tc">
+                        <lem wit="OratFrIV">id</lem>
+                        <rdg wit="A">ad</rdg>                        
+                        
+                    </app> malum ævo nostro contigisse, ut eo spatiosior campus pietati regiæ
+                    daretur.</p>
+                <p rend="indent">A tempore incendii nullus fere dies per integras tres septimanas a
+                    periculo immunis erat. Nam accurrentibus sæpe ad periculum unius domus,
+                    nunciatur, <app type="tc">
+                        <lem><corr resp="ed">aliam</corr></lem>
+                        <rdg wit="A">aIiam</rdg>
+                    </app> collucere. <seg type="komm" target="p222-11"/>Hinc novæ suspiciones, novæ vaticinationes, novi 
+                        <app type="tc"><lem><corr resp="ed">rumores,</corr></lem><rdg wit="A">rumores</rdg>
+                            <rdg resp="SS Kragelund">rumores</rdg><note>(sine virgula)</note></app> diræ
+                    tristesque noctes per metum vigilabantur. Hi miraculo rei stupentes defixis in
+                    terram oculis totius urbis interitum vaticinabantur, illi <app type="tc">
+                        <lem wit="A">irâ</lem>
+                        <rdg resp="SS">ira<note type="last">(deest in app.)</note></rdg>
+                        <rdg resp="Kragelund">irà<note>legit</note></rdg>
+                    </app> intumescentes <seg type="komm" target="p222-16"/>incendiarios 
+                    ad pœnam deposcebant. Mihi vero inexpectata
+                    hæc non accidebant, experientiâ edocto, concatenata hæc esse mala, magnumque
+                    incendium aliud ex se gignere solere; 
+                    <seg type="komm" target="p222-22"/>ita bis memini accidisse Bergis Norvegiæ,
+                    ubi incolæ ejusdem has clades sæpius experti post ingens incendium ad nova se
+                    parant.</p>
+                <p rend="indent">Cessantibus tandem his malis, cum de restauranda urbe consilia
+                    agerentur, innotuit vel maximè, quanta Consiliariorum multitudine laborat
+                    Metropolis nostra, quippe quot capita tot consilia, quot manus tot architecti,
+                    <pb ed="A" n="223" facs="p223"/>quot domus tot senacula; diceres totam urbem in ingens
+                    Collegium <app type="tc">
+                        <lem><corr resp="SS">politicum</corr></lem>
+                        <rdg wit="A">politicam</rdg>
+                        <rdg resp="SS">politicum</rdg>
+                    </app> transformatam, tanta politicorum seges e cineribus incensæ urbis nasci
+                    videbatur. Nullus erat nauta qui non ultra ventos, nullus sutor qui non ultra
+                        crepidas sapiebat. Largam imprimis disputandi materiam præbuere debita, vulgo
+                        <hi rend="it">prioritates</hi>, quibus unaquæque fere domus onerata est. Hi
+                    expungenda vetera nomina, illi retinenda existimabant; nec deerant quibus
+                    temperamentum placebat. Taceo alia, quæ non minori animorum motu
+                    agitabantur.</p>
+                <p rend="indent">In hoc consiliorum æstu ego, 
+                    ne solus viderer asymbolus ac solus
+                    otiose agere, <seg type="komm" target="p223-14"/>dissertationes 
+                    aliquot componebam, quibus curatius examinantur
+                    quæstiones maxime agitatæ. Audivi postea, non semel perlectas fuisse a Rege,
+                    &amp; lætabar tanti principis encomio ornatas.</p>
+                
+                
+                
+                
+                <p rend="indent">Finitis tandem his turbis, quæ ab insigni adeo rerum mutatione
+                    vulgo <pb ed="SS" n="171"/>nascuntur, studiis me reddens subsequenti hyeme
+                    ultimam manum operi, quod diu meditatus eram, imposui, quodque tandem anno 1729.
+                    sub titulo: Descriptionis Regnorum Daniæ &amp; Norwegiæ prodiit in <app type="tc"><lem><corr resp="SS">quarto</corr></lem>
+                    <rdg wit="A">quanto</rdg><rdg resp="SS">quarto<note type="last">(deest in app.)</note></rdg>
+                       </app>
+                    continens paginas 744. <seg type="komm" target="p223-25"/><app type="tc">
+                        <lem><corr resp="ed">Ter</corr></lem>
+                        <rdg wit="A">Tér</rdg>
+                        <rdg resp="SS Kragelund">Tér</rdg>
+                    </app> biennii spatio recusum fuit hoc opus; nam extant duæ editiones Danicæ
+                    &amp; una germanico <pb ed="A" n="224" facs="p224"/>idiomate. Hoc veluti stimulo incendor
+                    ad majora conamina, accingor ad scribendam Danicæ gentis historiam a Regni <app type="tc">
+                        <lem><corr resp="ed">incunabulis</corr></lem>
+                        <rdg wit="A">incunabalis</rdg>
+                    </app> ad tempora nostra deducendam, opus
+                    desperatum, &amp; ab aliis hucusque intactum, cum omnes, qui ad hanc operam
+                    patriæ præstandam curas extenderunt, a spinoso hoc itinere pedem subito
+                    retraxerint. At, cum inter scopulos sæpe navigare juvet, ac solitus sim inter
+                    spinas eluctari, ex ipsa rei difficultate stimulor experiri, 
+                    <seg type="komm" target="p224-11"/>quid humeri
+                    valerent in tanta mole subeunda.</p>
+                <p rend="indent"><seg type="komm" target="p224-13"/>Totum opus in tres 
+                    tomos descripsi, quorum primus continens
+                    historiam gentis nostræ a Regni primordio usque ad Christ. 2. prodiit Anno 1732.
+                    in quarto pag. 856. In hac prima parte fontes, e quibus historiam suam hausit
+                    Celeberrimus <seg type="komm" target="p224-18"/>Huitfeldius sedulo pervestigavi, 
+                    eorundemque ope non paucos errores
+                    castigavi, ac lacunas passim implevi. Codices tam manuscriptos quam impressos,
+                    &amp; Diplomata, e quibus pleraque sunt desumpta, in præfamine operis indicavi,
+                    &amp; monstrant autores, qui margines libri passim implent, quique maximam
+                    partem Coætanei sunt, quanto ad historiam hanc pertexendam mihi opus fuerit
+                    apparatu. Sequenti anno editus est alter Tomus pag. 922. cujus dimidia fere pars
+                    <pb ed="A" n="225" facs="p225"/>complectitur solas Christiani 4. res gestas. Hausta
+                    sunt pleraque e manuscriptis maximam partem autographis, imprimis ex ipsis Magni
+                    Regis epistolis propria manu exaratis, id quod opus istud maximè commendabile
+                    reddet. Tertius tomus, comprehendens solam Friderici 3. historiam pag. 702.
+                    præter indicem in omnes tres tomos &amp; 
+                    <seg type="komm" target="p224-23"/>præmissam dissertationem de historicis
+                    septentrionalibus, prodiit tandem anno 1735. Maxima etiam hujus tomi pars e
+                    diplomatibus, epistolis, aliisque manuscriptis desumpta est, adeo ut dicere
+                    possim novam, &amp; hucusque incognitam gentis nostræ historiam, in lucem me
+                    protulisse.</p>
+                <p rend="indent">Videbam, antequam rem tantæ molis aggrederer, opus mihi esse
+                    ingenti manuscriptorum apparatu, hinc ad investiganda historica monumenta 
+                    <seg type="komm" target="p225-18"/>totius Regni angulos circumreptare 
+                    cogor, certatimque Omnes de conatu meo certiores
+                    facti, mira facilitate, quicquid manuscriptorum habebant, mihi præbuerunt.</p>
+                
+                
+                
+                <p rend="indent">Dum historici hujus operis labore me exerceo, 
+                    <seg type="komm" target="p225-23"/>nova fit editio <app type="tc">
+                        <lem><corr resp="ed">comœdiarum</corr></lem>
+                        <rdg wit="A">comædiarum</rdg>
+                        <rdg resp="SS">comœdiarum<note type="last">(deest in app.)</note></rdg>
+                        <rdg resp="Kragelund">comædiarum</rdg>
+                    </app> tam impressarum quàm hactenus ineditarum. Complectitur novissima hæc
+                    editio viginti quinque fabulas, totumque opus in quinque tomos divisum <app type="tc">
+                        <lem><corr resp="ed">est.</corr></lem>
+                        <rdg wit="A">est,</rdg>
+                        <rdg resp="SS">est,<note type="last">(<q>est.</q> commendat SS
+                            in app.)</note></rdg>
+                        <rdg resp="Kragelund">est.</rdg>
+                    </app> <pb ed="SS" n="172"/><seg type="komm" target="p225-27"/>Tituli 
+                    posteriorum, quæ nunquam exhibitæ fuerunt, sunt 1)
+                        <hi rend="it">Erasmus Montanus</hi>, sive Rasmus <app type="tc">
+                        <lem><corr resp="SS">Berg</corr></lem>
+                        <rdg wit="A">Burg</rdg>
+                        <rdg resp="SS">Berg</rdg><note>(vide comm.)</note></app>. 
+                    2) <hi rend="it">Invisibiles</hi>. 3) <hi rend="it">Honesta</hi>
+                    <pb ed="A" n="226" facs="p226"/><app type="tc">
+                        <lem><corr resp="SS"><hi rend="it">Ambitio</hi></corr></lem>
+                        <rdg wit="A">Ambitio<note type="last">(litteris non cursivis)</note></rdg>
+                        <rdg resp="SS">Ambitio<note type="last">(litteris
+                            cursivis)</note></rdg>
+                    </app>, <app type="tc">
+                        <lem wit="A">quâ</lem>
+                        <rdg resp="SS">qua<note>legit</note></rdg>
+                        <rdg resp="Kragelund">quâ</rdg>
+                    </app> salsè perstringuntur titulorum Captatores, qui sub nomine honestæ
+                    ambitionis <app type="tc"><lem><corr resp="SS">vanos</corr></lem>
+                        <rdg wit="A">vanas</rdg>
+                        <rdg resp="SS">vanos<note type="last">(deest in app.)</note></rdg>
+                        <rdg resp="Kragelund">vanas</rdg></app> honores aucupantur. 
+                    4) <hi rend="it">Felix Naufragium</hi>
+                    &amp; 5) <hi rend="it">Terror Panicus</hi>. Argumenta istarum fabularum exponere
+                    supersedeo, sufficit ut dicam, omnes philosophicas esse ac morales, quamvis
+                    tituli plerique <app type="tc">
+                        <lem wit="A">nil,</lem>
+                        <rdg resp="SS Kragelund">nil,<note type="last">(<q>nil</q> commendat SS
+                                in app.)</note></rdg>
+                    </app> præter nugas polliceri
+                    videantur.
+                    
+                    
+                    
+                    <seg type="komm" target="p226-8"/>In priori epistola mentio facta est opusculi, 
+                    sub titulo Introductionis ad jus naturæ
+                    &amp; gentium. Indicavi, quamnam sortem habuerit idem opus, sed quod frigidè
+                    primùm exceptum fuerat, post annorum aliquot intervallum avidos adeo emptores
+                    nactum est, ut primæ <app type="tc"><lem><corr resp="SS">editionis</corr></lem>
+                    <rdg wit="A">editionis,</rdg><rdg resp="SS">editionis</rdg></app> 
+                    exemplaribus brevi <app type="tc">
+                        <lem><corr resp="ed">distractis</corr></lem>
+                        <rdg wit="A">disttractis</rdg>
+                        
+                    </app>, bis postea recusum sit. Tertia &amp; novissima editio facta est anno
+                    1734 prioribus longe locupletior, quo circa titulum mutavi, locoque
+                    Introductionis, systema Juris naturæ &amp; gentium nominare sustinui. Ultimæ
+                    huic editioni annexus est Index, quo destitutæ erant duæ priores.</p>
+                
+                
+                
+                <p rend="indent">Patet ex hoc
+                    vitæ meæ curriculo, otiosè me non vixisse, sed <app type="tc">
+                        <lem><corr resp="Kragelund">quantacunque</corr></lem>
+                        <rdg wit="A">quandocunque</rdg>
+                        <rdg resp="SS">quandocunque</rdg>
+                        <rdg resp="Kragelund">quantacunque</rdg>
+                    </app> tibi aliisque laudatoribus meis videri potest sedulitas mea, a nota tamen
+                    desidiæ ægre me vindico apud eos, qui
+                    studia alio, quam nos,  <seg type="komm" target="p226-26"/>metiuntur pede,
+                    quique in <seg type="komm" target="p226-27"/>exercitiis declamatoriis ac disputatoriis 
+                    omnem laudem ponunt. Nam, cum in Universitatibus quibusdam principatum 
+                    <w>te<pb ed="A" n="227" facs="p227"/>neat</w>
+                    Dialectica, facilè conjicere potes inter athletas nonnullos, quorum sola trophæa
+                    e strage &amp; spoliis opponentium eriguntur, non magnam 
+                    <seg type="komm" target="p227-4"/>studiorum meorum ac
+                    lucubrationum haberi rationem. 
+                    Quando &amp; quoties de promovendis studiis
+                    agitur, consentio cum aliis literatis, quando verò de modo &amp; mediis, haud
+                    raro dissentio, cum ea, quæ nonnulli ardenter commendant, totidem literarum
+                    sufflamina mihi videntur.</p>
+                <p rend="indent">Et quoniam in novissima tua epistola quæras de sorte mea ac
+                    occupationibus præsentibus, necesse est, ut &amp; in hac re curiositati tuæ
+                    satisfaciam. Antiquum vitæ genus servo, &amp;, quamvis auctæ in tantum sint
+                    facultates meæ, ut lautiùs solito vivere possem, a veteri tamen instituto non
+                    recedo. Hinc, si post tot annorum intercapedinem in nostra divertereris, nihil
+                    in me mutatum ac <app type="tc">
+                        <lem><corr resp="ed">insolitum</corr></lem>
+                        <rdg wit="A">insolitam</rdg>
+                        <rdg resp="SS">insolitum</rdg>
+                    </app> reperires, præter senilem magis faciem ac rugosiorem frontem, nam per
+                    integros viginti annos idem sum. Videres me adhuc more solito urbem absque
+                    custode corporis pedibus <seg type="komm" target="p227-23a"/>perreptare, 
+                    <seg type="komm" target="p227-23b"/>lutoque aspergi quadrigarum, quibus
+                    sublimes vehuntur alii, olim mei æquales, sed jam maximam partem Perillustres ac
+                    generosi Heroes. Nam vana ista titulorum venatio, quam olim, cum incola
+                    civitatis nostræ esses, adeo damnabas, in tantum hodie excrevit, 
+                    <seg type="komm" target="p227-29"/>ut faciliùs sit
+                    heroes quam <w>ho<pb ed="A" n="228" facs="p228"/>mines</w> invenire. 
+                    Sed missa hæc facio, &amp; ad
+                    me <pb ed="SS" n="173"/>ipsum revertor. Sunt, apud quos vitæ meæ simplicitas
+                    parsimoniæ ac tenacitatis nomen accipit. Sed, ut ab ista me nota vindicem,
+                    tantum quotannis pauperibus do, quantum alendo otioso pedissequo &amp; actionum
+                    herilium speculatori impendi solet, lautè habito, nitidè vestior, libros
+                    frequenter emo, &amp; ut omnis tollatur 
+                    suspicio, <seg type="komm" target="p228-9"/>totas meas facultates Usui
+                    publico destinavi. Schema Fundationis jam dudum a me conceptum est iis, quorum
+                    consiliis regor monstratum, qui non nihil exinde commodi redundaturum
+                    ominantur.</p>
+                <p rend="indent">Studeo adhuc, quantum virium tenuitas permittit, scribo, lego ac
+                    meditor, quantum licet in civitate rerum earum feracissima, quæ a studendi
+                    conamine avocare possint, &amp;, quod mireris, in isto strepitu tanquam in
+                    secessu vivo. Binas tantum aut tres horas pomeridianas reficiendi corporis
+                    gratiâ ambulationi aut amicis do, quod reliquum est inter Musas et Musicam
+                    unicas meas delicias partior.</p>
+                <p rend="indent">In juventutis gratiam 
+                    <seg type="komm" target="p228-23"/>præcepta nuper edidi historica &amp;
+                    Geographica, quæ tam in scholis utriusque Regni, quam in Universitate a
+                    tyronibus leguntur. Hæc si aliis meis operibus adjiciuntur, haud contemnendi
+                    catalogi speciem exhibebunt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

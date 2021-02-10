@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="NP">Nye-Aars Prologus til en Comoedie</title>
+                <author>Ludvig Holberg</author>
+                <editor>Niels Grotum Sørensen</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace/>
+                <availability>
+                    <p/> 
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">Nye-Aars Prologus til en Comoedie allerunderdanigst præsentered af den heele Danske Bande, <date>1723</date>.</witness>
+                    
+                    <witness xml:id="Schwarz">Lomme Bog for Skuespilyndere udgivet af Friderich Schwarz, Instructeur og Kongl. Skuespiller, 1786.</witness>
+                    <witness xml:id="Rahbek">Ludvig Holbergs udvalgte Skrifter, Udgivne ved K. L. Rahbek, Sjette Del: Bilag til Holbergs Comedier, 1806.</witness>
+                    <witness xml:id="Liebenberg">Ludvig Holbergs Comedier, udgivne for det Holbergske Samfund af F.L. Liebenberg, Ottende Bind: Tillæg til Den Danske Skueplads, 1854.</witness>
+                    <witness xml:id="Liebenberg1870">Holbergs Comedier i tre Bind udgivne ved F. L. Liebenberg, Tredie Bind, 1870.</witness>
+                    <witness xml:id="Martensen">Holbergs Komedier udgivne af Julius Martensen, Fjerde Bind, 1898.</witness>
+                    <witness xml:id="SS">Ludvig Holbergs Samlede Skrifter, udg. Carl S. Petersen, bd. 3, 1915. NB: Afvigelser fra udgaven <title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>
+                    
+               </listWit>
+            </sourceDesc>
+        </fileDesc>        
+        <profileDesc>
+            <langUsage>
+                <language ident="dan"/>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2017-01-18" who="fgj">kodet manglende facs i forbindelse med sideskift</change>
+            <change when="2015-10-09" who="pz">to rettelser foretaget: s. A3v: to indryk i Sganarells replik "Vulcani Poësie ..."; s. 'mit Hiærne' &gt; 'min Hiærne' </change>
+            <change when="2015-08-14" who="fgj">faksimilelinks</change>
+            <change when="2014-12-17" who="ng">rettet xml:id="Liebenberg1870"</change>
+            <change when="2014-12-15" who="ng">rettet kommentarhenvisning</change>
+            <change when="2014-12-11" who="ng">justeret tekstkritik efter konsultation af Schwarz</change>
+            <change when="2014-12-04" who="ng">justeret opmærkning: rend-placeringer og afsluttende signaturer</change>
+            <change when="2014-12-03" who="ng">tekstkritik, eksperiment m. opmærkning af afsluttende signaturer</change>
+            <change when="2014-12-01" who="ng">strukturopmærkning</change>
+            <change when="2013-11-22" who="ksp">forsøgsvis indsat faksimilelink A1r til faksimile ved NB Oslo</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-01-24" who="fgj">tilføjet tekststatus. Læst mod SS og kodet teksten indtil A3r. Ellers oprydning i filen, men resten mangler at læses og versene at kodes</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit. Filen mangler finpudsning og validering</change>
+            <change when="2011-01-13">FGJ: filen omdøbt fra Nytaarsprolog.xml til .page og flyttet til repositoriet</change>
+            <change when="2009-04-03">FGJ: filen oprettet</change>
+        </revisionDesc>        
+    </teiHeader>
+ <facsimile>
+    
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_05.jpg" xml:id="A1r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_06.jpg" xml:id="A1v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_07.jpg" xml:id="A2r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_08.jpg" xml:id="A2v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_09.jpg" xml:id="A3r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_10.jpg" xml:id="A3v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_11.jpg" xml:id="A4r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_12.jpg" xml:id="A4v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_13.jpg" xml:id="B1r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_14.jpg" xml:id="B1v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_15.jpg" xml:id="B2r"/>
+  <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nytaarsprolog/holberg_nytaarsprolog_1723_16.jpg" xml:id="B2v"/>
+    
+  </facsimile>
+    
+    
+    
+    <text xml:lang="dan" xml:id="NP" type="orig" subtype="NP" n="/tekster/skuespill/Nytaarsprolog/Nytaarsprolog.page">
+        <front>
+            <titlePage xml:id="start" n="[Titelblad]">
+                <pb ed="A" n="A1r" facs="A1r"/><pb ed="SS" n="603"/>
+                <docTitle>
+                    <titlePart type="main">
+                        <w>Nye-Aars</w>
+                        <lb/><hi rend="amt"> PROLOGUS</hi>
+                        <lb/>TIl
+                        <lb/>En <hi rend="ant">COMOEDIE</hi>
+                    </titlePart>
+                    <titlePart type="sub">
+                        Allerunderdanigst <hi rend="ant">præsentered</hi>
+                        <lb/>Af
+                        <lb/>Den heele Danske Bande
+                        <lb/>1723.</titlePart>
+                </docTitle>
+            </titlePage>
+        </front>
+        <body>
+            <div xml:id="act" n="Prologus">
+                <pb ed="A" n="A1v" facs="A1v"/>
+                <pb ed="SS" n="605"/>
+                <head><hi rend="ant">Prologus.</hi></head>
+                <p><stage><w><hi rend="init">S</hi>aa</w> snart Dekket trækkes op, indkommer <seg type="komm" target="pA1v-3"/><hi rend="ant">Apollo, Æsculapius, Mercurius, Mars, Vulcanus, Momus, <app type="tc"><lem wit="A">Cupido.</lem><rdg resp="Liebenberg">Cupido, Bellona.</rdg><rdg resp="Martensen">Cupido og Bellona.</rdg></app></hi></stage></p>
+                <sp>
+                    <stage><hi rend="ant">Sganarell</hi> besat med <hi rend="ant">Almanacker</hi> kommer frem, og vil begynde sit <w>Nyt-Aars</w> Ønske: Seer sig om og blir vahr <hi rend="ant">Apollo,</hi> begynder at zittre, men dog søger at bringe sin Tale frem saaledes med skelvende Røst og Gebærder:</stage>
+                    <l>See Soelen vender om, det nye Aar nu frembryder,</l>
+                    <p><stage>Hand seer sig om igien, og blir vahr <hi rend="ant">Æsculapius,</hi> blir meer bange, <hi rend="ant">repeterer Verset</hi> igien skelvendes, seer sig atter om, og fornemmer <hi rend="ant">Cupido</hi> komme, skelver og raaber paa <hi rend="ant">Suffleuren:</hi></stage> Hvad følger efter frembryder? <stage><hi rend="ant">Repeterer Verset</hi> igien, seer sig om, da <hi rend="ant">Mars</hi> og <hi rend="ant">Vulcanus</hi> kommer frem. Hand kommer derover gandske fra sig self, og raaber:</stage> Hvad meer <hi rend="ant">Monsr. Hammer?</hi> Aa jeg stakkels Menniske! jeg kunde min <hi rend="ant">Rolle</hi> paa mine Fingre, men disse mange <seg type="komm" target="pA1v-19"/><app type="tc"><lem><corr resp="Liebenberg">Guder og Gudinder</corr></lem><rdg wit="A">Guder og</rdg><rdg resp="Liebenberg">Guder og Gudinder</rdg><rdg resp="Schwarz">Guder og</rdg><rdg resp="Rahbek">Guder</rdg></app> har drevet ald min Forstand og ald min Veltalenhed ned i mine Knæe. <hi rend="ant">Courage Sganarell,</hi> forsøg end engang.</p>
+                    <pb ed="A" n="A2r" facs="A2r"/>
+                    <lg>
+                        <l>See Soelen vender om, det nye Aar nu frembryder,</l>
+                        <l>I dette Bande vi fast alle ere Jyder,</l>
+                    </lg>
+                    <p>Ney, det var intet ret. See der kommer ogsaa <hi rend="ant">Momus;</hi> Nu er jeg ikke god for at sige min Meening paa <hi rend="ant">Prosa</hi> meer end paa Vers.</p>
+                    <stage>(Hand tar sit Tørklæde op og græder:)</stage>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Mercurius.</hi></speaker>
+                    <lg>
+                        <l><w><hi rend="init">J</hi>Eg</w> er Mercurius, som udaf Luftens Rige</l>
+                        <l>Mig foretâer i Dag paa Jorden at nedstige,</l>
+                        <l rend="indent">At see, hvor her gaar til, jeg gierne vide vil,</l>
+                        <l rend="indent">Hvad ondt, hvad got mand hør paa disse Skue Spil.</l>
+                        <l>Thi gaar kun alting til paa en tilbørlig Maade,</l>
+                        <l>Maa skee <hi rend="ant">Monarchen</hi> vel beviise vil den Naade</l>
+                        <l rend="indent">Nu, saasom Rigerne Hand kroned har med Fred,</l>
+                        <l rend="indent">Paa denne ringe Grund at stige stundom ned.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Momus.</hi></speaker>
+                    <lg>
+                        <l>Da anderledis skal mand <w>Skue-Spil</w> udføre,</l>
+                        <l>Alt hvad jeg hører her, det skurrer mig i Øre,</l>
+                        <l rend="indent">Et Stykke bedre vel end som et andet gaar,</l>
+                        <l rend="indent">Men af det Beste jeg dog Vrid i Livet faar.</l>
+                    </lg>
+                </sp>
+                <pb ed="SS" n="606"/>
+                <sp>
+                    <speaker><hi rend="ant">Sganarell.</hi></speaker>
+                    <lg>
+                        <l><seg type="komm" target="pA2r-22"/>Her <hi rend="ant">Momus</hi> er sig lig og fører gammel tale,</l>
+                        <l>Man aldrig har ham seet med anden Pensel male,</l>
+                        <l rend="indent">Jeg troer, vor <w>Skue-Spil</w> just derfor prises maa,</l>
+                        <l rend="indent">Naar mand en <hi rend="ant">Momus</hi> seer paa Nakken deraf slaa.</l>
+                        <l>Thi hvis man hørte ham en anden Snak at føre,</l>
+                        <l>Det kunde vores Sag desmere mißtænkt giøre,</l>
+                        <l rend="indent">Naar andre græder, da allene <hi rend="ant">Momus</hi> leer,</l>
+                        <l rend="indent">Naar andre frydes, hand til Graad anledning seer.</l>                      
+                        <l><pb ed="A" n="A2v" facs="A2v"/>Mand derfor med hans Dom sig ikke lader nøye,</l>
+                        <l>Naar Avind laster, man det agter ikkun føye,</l>
+                        <l rend="indent">Spørg andre Guder ad, som tale med Beskeed,</l>
+                    </lg>
+                    <stage>Til <hi rend="ant">Spectatores:</hi></stage>
+                    <l rend="indent">Nu flyder for mig Vers, det volder jeg blev vreed.</l>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Mars.</hi></speaker>
+                    <lg>
+                        <l>Jeg efterfølger <hi rend="ant">Momum</hi> ey,</l>
+                        <l rend="indent">Og laster for at laste,</l>
+                        <l>Men gaar den sikre <w>Middel-Vey</w>,</l>
+                        <l rend="indent">Ej alting vil forkaste,</l>
+                        <l>Ey lukker Øye, Øre til,</l>
+                        <l rend="indent">Naar noget høres, viises,</l>
+                        <l>Som udi disse <w>Skue-Spil</w></l>
+                        <l rend="indent">Fortienne kand at prises;</l>
+                        <l>Men derudi jeg intet seer,</l>
+                        <l rend="indent">Som <hi rend="ant">Marti</hi> kand fornøye,</l>
+                        <l>Her giør mand kun <hi rend="ant">Comœdier</hi></l>
+                        <l rend="indent">For Øre, ej for Øye.</l>
+                        <l>Hos andre mand dog Stykker seer,</l>
+                        <l rend="indent">Som meere har at sige,</l>
+                        <l>Nu Kiemper, nu Beleyringer,</l>
+                        <l rend="indent">Nu <w>Jomfru-Rov</w> og Krige,</l>
+                        <l>Nu een der af Fortvilelse</l>
+                        <l rend="indent">Sig Livet vil fratage,</l>
+                        <l>Nu Folk omskabt til Steen, til Træ,</l>
+                        <l rend="indent">I Luften gloend’ Drage:</l>
+                        <l>Men her i disse <w>Skue-Spil</w></l>
+                        <pb ed="SS" n="607"/>
+                        <l rend="indent">Mand hør kun Skiemt, <hi rend="ant">Morale,</hi></l>
+                        <l>Som intet andet tienner til</l>
+                        <l rend="indent">End dysse Folk i dvale.</l>
+                    </lg>
+                </sp>
+                <pb ed="A" n="A3r" facs="A3r"/>
+                <sp>
+                    <speaker><hi rend="ant">Sganarell.</hi></speaker>
+                    <lg>
+                        <l>Hvis ene slige <w>Skue-Spil</w></l>
+                        <l rend="indent">Kand <hi rend="ant">Martis</hi> Hierte glæde,</l>
+                        <l>Jeg gierne Vey ham viise vil</l>
+                        <l rend="indent">Hen i <w>Brolegger-Stræde</w>.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Æsculapius.</hi></speaker>
+                    <lg>
+                        <l>Jeg som <w>Krigs-Guden</w> ej vil alt saa nøye regne,</l>
+                        <l>Jeg vil kun tale lidt paa <hi rend="ant"><w>Doctor-Gradens</w></hi> vegne,</l>
+                        <l rend="indent">Hvi kommer det, at mand i hver <hi rend="ant">Comœdie</hi></l>
+                        <l rend="indent">Indfører <hi rend="ant">Doctore</hi> for dennem at belee?</l>
+                        <l>Det synes ligesom, mand Stykker ej kand spille,</l>
+                        <l>Med mindre <hi rend="ant">Doctorne</hi> mand sette skal en Pille,</l>
+                        <l rend="indent">De gode Mænd i hver <hi rend="ant">Comœdie</hi> tienne maa</l>
+                        <l rend="indent">Til Folkes <w>Tids-Fordriv</w>. I min Tid var ej saa.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Sganarell.</hi></speaker>
+                    <lg>
+                        <l>Hr. <hi rend="ant">Doctor,</hi> bliv ej vreed, vi skiemter og med andre</l>
+                        <l>Fra en <app type="tc"><lem><corr resp="Rahbek">til</corr></lem><rdg wit="A">og</rdg><rdg resp="Rahbek">til</rdg><rdg resp="SS">og</rdg></app> anden Stand vi med <hi rend="ant">Satiren</hi> vandre,</l>
+                        <l rend="indent">Nu paa en <hi rend="ant">Doctor,</hi> nu igien en <hi rend="ant">Advocat,</hi></l>
+                        <l rend="indent">Ræt som det falde kand, vi pleyer tage fat.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Cupido.</hi></speaker>
+                    <lg>
+                        <l>Paa dette <w>Skue-Spil</w> jeg intet har at giøre,</l>
+                        <l>Thi jeg om Elskov faar lidt eller intet høre,</l>
+                        <l rend="indent">En gandske Vinter ej <hi rend="ant">Cupido</hi> bliver nævnt,</l>
+                        <l rend="indent">Og naar en elsker, da hand elsker kun saa jævnt.</l>
+                        <l>Nej, vil mand <w>Skue-Spil</w> <hi rend="ant">Cupido</hi> skal behage,</l>
+                        <l>Da maa der høres i hvert Stykke Elskovs Klage,</l>
+                        <l rend="indent">Da maa en unger Svend udøse Suk for Søe,</l>
+                        <l rend="indent">For Skov, for Bierg, for Træ, ja udaf Elskov døe.</l>
+                        <l>Thi udi <w>Skue-Spil</w> er Siælen <hi rend="ant">Pastorale,</hi></l>
+                        <l>Ej andet høres her end mavert tørt <hi rend="ant">Morale,</hi></l>           
+                        <l rend="indent"><pb ed="A" n="A3v" facs="A3v"/>Jeg her mit Herredom at gaa til Grunde seer,</l>
+                        <l rend="indent">Thi end ved Giftermaal ej sluttes stykket meer.</l>
+                    </lg>
+                </sp>
+                <pb ed="SS" n="608"/>
+                <sp>
+                    <speaker><hi rend="ant">Sganarell.</hi></speaker>
+                    <lg>
+                        <l>Saaledes <seg type="komm" target="pA3r-4"/><app type="tc"><lem wit="A"><w>Skue-Spiel</w></lem><rdg resp="Schwarz">Skuespil</rdg><rdg resp="Liebenberg">Skue-Spil</rdg></app> blev øved fordom Dage,</l>
+                        <l>Da Giække pleyede sig Livet at fratage,</l>
+                        <l rend="indent">Nu Folk kun Ægteskab af <hi rend="ant">Interesse</hi> giør,</l>
+                        <l rend="indent">Om Elskov derfor vi kun lidet mælde tør.</l>
+                        <l>Foruden dette vi <hi rend="ant">Acteurs</hi> er mesten Jyder</l>
+                        <l>Af stor Koldsindighed. Ad Aare dog vi byder</l>
+                        <l rend="indent">Maa skee <hi rend="ant">Cupido</hi> selv til en <hi rend="ant">Tragœdie</hi></l>
+                        <l rend="indent">Paa et og andet Mord, som hand kand faa at see.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Vulcanus.</hi></speaker>
+                    <lg>
+                        <l>Jeg gaar paa <hi rend="ant">Comœdien</hi> somme Tide,</l>
+                        <l>Sær naar jeg faar at vide,</l>
+                        <l>At mand blæser paa <hi rend="ant">Trompetter,</hi></l>
+                        <l>Da gir jeg min Mark og mig en Time paa <app type="tc"><lem wit="A">Gallerie</lem><rdg resp="Rahbek">Galleriet</rdg></app> sætter,</l>
+                        <l>Naar <hi rend="ant">Musiquen</hi> endet er, gaar jeg bort,</l>
+                        <l>Thi <hi rend="ant">Comœdien</hi> i sig selv agter jeg ikke stort.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Sganarell.</hi></speaker>
+                    <lg>
+                        <l><hi rend="ant">Vulcani Poësie</hi> tilkiende noksom giver,</l>
+                        <l>At af <hi rend="ant">Comœdier</hi> hand aldrig elsker bliver,</l>
+                        <l rend="indent"><seg type="komm" target="pA3v-22"/><app type="tc"><lem><corr resp="Liebenberg">Dog hvad <seg type="komm" target="pA3v-22a"/><hi rend="ant">Critiqve</hi> og hvad anden Skiønsomhed</corr></lem><rdg resp="Liebenberg"><note type="last">ikke indrykket i A</note></rdg></app></l>
+                        <l rend="indent"><app type="tc"><lem><corr resp="Liebenberg">Kand ventes af en grov og upoleret Smed.</corr></lem><rdg resp="Liebenberg"><note type="last">ikke indrykket i A</note></rdg></app></l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Bellona.</hi></speaker>
+                    <lg>
+                        <l>At føre <w>Skue-Spil</w> saaledes ind i Landet,</l>
+                        <l>Jeg holder fore kand ej tienne fast til andet</l>
+                        <l rend="indent">End styrte tapper Folk hen i Qvindagtighed,</l>
+                        <l rend="indent">Med mange Stæder, som mand seer tilforn er skeed.</l>
+                        <l>Hvor <hi rend="ant">Pallas</hi> føres ind der maa <hi rend="ant">Bellona</hi> vige,</l>
+                        <l>Som dog fra Arilds Tid i dette <w><app type="tc"><lem><corr resp="ed">Tvilling-Rige</corr></lem><rdg wit="A">Tvilling.Rige</rdg></app></w></l>                
+                        <l rend="indent"><pb ed="A" n="A4r" facs="A4r"/>Sit sæde haver haft, bedækked med sin Skiold</l>
+                        <l rend="indent">Sit kiære Norden, end mod <app type="tc"><lem wit="A"><w><hi rend="ant">Romer-Franker-</hi>Vold</w></lem><rdg resp="Schwarz">Romer, – Franker – Vold</rdg><rdg resp="Liebenberg">Romer-, Franker-Vold</rdg></app>.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Apollo.</hi></speaker>
+                    <lg>
+                        <l>Hør, giver lidet Lyd! Lad <hi rend="ant">Phœbus</hi> og saa tale,</l>
+                        <l>Hvo som Qvindagtig tør <hi rend="ant">Minerva</hi> vel afmale,</l>
+                        <l rend="indent">Der sine Sønner til Fuldkomne Stridsmænd giør,</l>
+                        <l rend="indent">Der Pen saavel som Sværd i Haanden altid før,</l>
+                        <pb ed="SS" n="609"/>
+                        <l>I hvilken <hi rend="ant">Musæ</hi> sig med <hi rend="ant">Marte</hi> maa foreene,</l>
+                        <l>Som paa et Træ, hvor man seer poodet to slags Grene,</l>
+                        <l rend="indent">En <hi rend="ant">Cæsar</hi> ungdoms Tid med Pennen jo bortdrev,</l>
+                        <l rend="indent">Og Mester over Rom ved dapper Viisdom blev.</l>
+                        <l>En <hi rend="ant">Alexander</hi>, som fik verdens <w>Herre-Domme</w>,</l>
+                        <l>Med Sværd i Haanden gik, med Bøger i sin Lomme,</l>
+                        <l rend="indent">I Nordens Konge vi jo mærker Tapperhed</l>
+                        <l rend="indent">Med Viisdom samlet, ja en <hi rend="ant">Salomon</hi> i <app type="tc"><lem wit="A">Fred.</lem><rdg resp="Rahbek SS">Fred,</rdg></app></l>
+                        <l>En <hi rend="ant">David</hi> udi Krig Kong <hi rend="ant">FRIDERIC</hi> mon hede,</l>
+                        <l>Tænk derfor ej, at det forgiæves er at lede</l>
+                        <l rend="indent">Paa et Sted Viisdom, Moed, her seer du begge toe</l>
+                        <l rend="indent">I <w>Danner-Kongens</w> Bryst endrægtelig at boe.</l>
+                        <l>See an <hi rend="ant">Minervæ</hi> Stad <hi rend="ant">Athenen</hi>, hvo kand sige,</l>
+                        <l>Om den var meere stor i Fred end udi Krige,</l>
+                        <l rend="indent">Hvo <hi rend="ant">decidere</hi> tør, om Verdens Øye Rom</l>
+                        <l rend="indent">Til saadan Vælde meer ved Sværd end Viisdom kom?</l>
+                        <l>Mon <hi rend="ant">Aristophanes Athenen</hi> har fordervet,</l>
+                        <l>Mon hand ej heller har den Lavrbærkrantz forhværvet?</l>
+                        <l rend="indent">Mon <hi rend="ant">Plautus</hi> Rom har giort Qvindagtig og forsagt</l>
+                        <l rend="indent"><hi rend="ant">Moliêre</hi> ved sin Pen har svækket Frankrigs Magt?</l>
+                        <l>Jeg hader og beleer de Spaamænd og <hi rend="ant">Propheter,</hi></l>
+                        <l>Som ansee <app type="tc"><lem><corr resp="ed"><w>Skue-Spil</w></corr></lem><rdg wit="A">Skue Spil</rdg></app> for landet som <hi rend="ant">Cometer,</hi></l>
+                        <l rend="indent">Der true Folk med ondt, da digt og <w>Skue-Spil</w>,</l>
+                        <l rend="indent">Om i Historien mand efterblade vil,</l>                        
+                        <l><pb ed="A" n="A4v" facs="A4v"/>Er heller frugter af et <app type="tc"><lem><corr resp="Schwarz">Riges Magt</corr></lem><rdg wit="A">Riges-Magt</rdg><rdg resp="Schwarz">Riges Magt</rdg></app> og Ære,</l>
+                        <l>Og viiser, Sproget bør blandt andre Sprog florere</l>
+                        <l rend="indent">Som Land for andre Land, saa med <hi rend="ant">Athenen</hi> gik,</l>
+                        <l rend="indent">Jo meere den blev stor, meer Høyhed Sproget fik.</l>
+                        <l>I Sprogets Ziirlighed, i Herredom tillige</l>
+                        <l>Rom har jo taget til. See udi Frankerige,</l>
+                        <l rend="indent">Hvor Sprog og Magten mand tillige voxe seer,</l>
+                        <l rend="indent">Hvor Digt og <hi rend="ant">Poësie</hi> af Velstand Poder er.</l>
+                        <l>Af en <hi rend="ant">Augusto</hi> en <hi rend="ant">Virgilius</hi> udspringer,</l>
+                        <l>Med en <hi rend="ant">Lovis le grand</hi> et Land <hi rend="ant">Moliere</hi> bringer,</l>
+                        <l rend="indent">Med en <hi rend="ant">Elisabeth</hi> en <hi rend="ant">Dryden</hi> spirer op,</l>
+                        <l rend="indent">En sætter Land i Floer, en Sprog paa Ærens Top.</l>
+                        <l>Men herpaa Spørsmaal jeg kand vente mig at høre:</l>
+                        <pb ed="SS" n="610"/>
+                        <l>Til Sprogets Tarv hvad kand slig <w>Skue-spill</w> vel <app type="tc"><lem><corr resp="ed">giøre?</corr></lem><rdg wit="A">giøre⸮</rdg></app></l>
+                        <l rend="indent">Det <hi rend="ant">cultiveres</hi> kand jo ved Historier,</l>
+                        <l rend="indent">Med andre Skrifter og ved Talen udi sær.</l>
+                        <l>Sandt nok, men Skuespill var rette Form og <seg type="komm" target="pA4v-17"/>Smede,</l>
+                        <l>Hvor Sproget dannet blev saa vel i <app type="tc"><lem><corr resp="ed">fordum</corr></lem><rdg wit="A">for um</rdg></app> Tide,</l>
+                        <l rend="indent">Som det blir i vor Tid; thi uden <w>Digte-Konst</w></l>
+                        <l rend="indent">Og uden <w>Skue-spill</w> arbeydes sligt omsonst.</l>
+                        <l>Jeg derforuden og kand viise anden Nytte</l>
+                        <l>For at giendrive Dem, som <w>Skue-Spill</w> ey skytte,</l>
+                        <l rend="indent">Som bitter Medicin en sund <hi rend="ant">Comœdie</hi> er,</l>
+                        <l rend="indent">Som en <w><hi rend="ant">Chirurgi</hi>sk</w> Kniv, der heeler, naar den skiær.</l>
+                        <l>Der saarer Hierterne, men tit Forstanden læger,</l>
+                        <l>Der først til Hevn, men strax til Kierlighed beveger,</l>
+                        <l rend="indent">En deraf bliver vreed, som seer sin <hi rend="ant">Characteêr,</hi></l>
+                        <l rend="indent">Sig ændrer siden, og sin forrig Feil beleer.</l>
+                        <l>En <hi rend="ant">Aristophanes Athenen</hi> derfor dyrket,</l>
+                        <l>Thi den holdt <app type="tc"><lem><corr resp="ed">fore,</corr></lem><rdg wit="A">fore,,</rdg></app> at hand Staden havde styrket</l>
+                        <l rend="indent">Meer med <hi rend="ant">Comœdier,</hi> ja større Tømme lagt</l>
+                        <l rend="indent">Paa Folkets Daarlighed, end Sverdet Riis og <app type="tc"><lem wit="A">Magt.</lem><rdg resp="Martensen SS">Magt,</rdg></app></l>                      
+                        <l><pb ed="A" n="B1r" facs="B1r"/>Skiønt gamle <w>Skue-spill</w> saa kydske og saa reene,</l>
+                        <l>Som disse ikke var. Men følger dem kun eene</l>
+                        <l rend="indent">I Nordens Børn i det, som ret og lofligt er,</l>
+                        <l rend="indent">Belee den heele Jord, men ingen udi sær.</l>
+                        <l>Hold, som til denne Tid, kun med <hi rend="ant">Satiren</hi> Maade,</l>
+                        <l>Saa vindes Priis hos Folk, hos <w>Danner-Kongen</w> Naade,</l>
+                        <l rend="indent">Maa skee <hi rend="ant">Monarchen</hi> saa, naar Tiden lader til,</l>
+                        <l rend="indent">Et Øye kaste tør til disse <app type="tc"><lem><corr resp="ed"><w>Skue-spill</w>.</corr></lem><rdg wit="A">Skue-spill-</rdg></app></l>
+                    </lg>
+                </sp>
+                <sp>
+                    <p><stage>Derpaa gaae de alle ud og da <hi rend="ant">Sganarell</hi> nu vil fortsette sin forige Tale, blir hand vahr <hi rend="ant">Thalia</hi> og siger:</stage> Der kommer <hi rend="ant">Thalia,</hi> Hun forstaar Handværket bedre, Hun talede <app type="tc"><lem><corr resp="Liebenberg">saa vel</corr></lem><rdg wit="A">saavel</rdg><rdg resp="Liebenberg">saa vel</rdg><rdg resp="SS">saavel</rdg></app> for os da dend første <hi rend="ant">Comœdie</hi> af os blev spilled.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Thalia.</hi></speaker>
+                    <lg>
+                        <l>Gir agt Indbyggere i dette ædle Rige,</l>
+                        <l>Sær denne Hovedstad, tillader mig at sige,</l>
+                        <l rend="indent">At da jeg første gang paa dette Sted fremstod,</l>
+                        <l rend="indent">Jeg fandt en <w>Hierte-Angst</w> og Gysen i mit Blod.</l>
+                        <l>Skiønt selv <hi rend="ant">Apollo</hi> mig i Munden Ordet lagde,</l>
+                        <pb ed="SS" n="611"/>
+                        <l>Skønt Eders Hænders Lyd gav Tegn, at jeg behagde.</l>
+                        <l rend="indent">Jeg dog, nu mine <hi rend="ant">Vers</hi> har liden Fynd og Klem,</l>
+                        <l rend="indent">I Dag med større Mod til Eder træder frem.</l>
+                        <l>Da stod jeg skelvendes og torde neppe vente,</l>
+                        <l>At mine Løfter slig et Udfald skulle rente,</l>
+                        <l rend="indent">Thi Eders ædle Sprog var som i Dvale lagt,</l>
+                        <l rend="indent">Og for at sige sandt, plat kommen i Foragt.</l>
+                        <l>Men i den korte Tid I haver mig besøget,</l>
+                        <l>Jeg glæder mig at see vor Tales Ziir forøget.</l>
+                        <l rend="indent">Jeg seer dets Herlighed hver Dag at tage til,</l>
+                        <l rend="indent">Nu Fremmede vor Sprog og gierne høre vil.</l>
+                        <l>Det fryder mig og høyt, at I har self befundet,</l>
+                        <l>At mine Løfter har ey ilde været grundet,</l>                       
+                        <l rend="indent"><pb ed="A" n="B1v" facs="B1v"/>Ja at min ringe Flid dog ikke var omsonst,</l>
+                        <l rend="indent">Da jeg til Sproget har lagt Øvelse og Konst.</l>
+                        <l>Dog at det gaar saa vel, det kand jeg ey tilskrive</l>
+                        <l>Mig og mit Selskabs Flid; det vilde med os blive</l>
+                        <l rend="indent">Til lutter Daarlighed, hvis ey en større Magt</l>
+                        <l rend="indent">I dette spæde Værk os Haanden hafde ragt;</l>
+                        <l>Mit Haab allene er paa Kongens Naade grundet</l>
+                        <l>For Sprogets Opkomst, som beskytter vi har fundet,</l>
+                        <l rend="indent">Da og ved denne Soel slig Glands for mig oprant,</l>
+                        <l rend="indent">At hos Hans største Mænd jeg ogsaa Ynde fandt.</l>
+                        <l>Og om <app type="tc"><lem><corr resp="Rahbek">min</corr></lem><rdg wit="A">mit</rdg><rdg resp="Rahbek">min</rdg><rdg resp="SS">mit</rdg></app> Hiærne har et klygtig Værk udspundet,</l>
+                        <l>Da volder det, at jeg Tilhørere har fundet,</l>
+                        <l rend="indent">Som veed at prise Got, som veed at vrage tant,</l>
+                        <l rend="indent">En meere skiønsom Flok mand aldrig samled fandt.</l>
+                        <l>I har dog midlertid og mærket, at min Skare</l>
+                        <l>Med mig har <app type="tc"><lem><corr resp="ed">ingen</corr></lem><rdg wit="A">ingeu</rdg></app> Flid og Umag villet spare,</l>
+                        <l rend="indent">Med et og andet Spil jeg har som i et Speil</l>
+                        <l rend="indent">Viist mangens Daarlighed, og hvor mand tager feil;</l>
+                        <l>Men saasom Sandhed er ey altid god at høre,</l>
+                        <l>Saa har jeg mange Ting for Eder ladt fremføre</l>
+                        <l rend="indent"><app type="tc"><lem><corr resp="Rahbek">Af</corr></lem><rdg wit="A">At</rdg><rdg resp="Rahbek">Af</rdg></app> fremmed Giækkerie; Dog tænkker aldrig paa,</l>
+                        <l rend="indent">At egne Feil jo til mit Arbeyd kand forslaa.</l>
+                        <l>Gid I saa flittig vil herefter os besøge,</l>
+                        <l>Som I er flittig nok vor Arbeyd at forøge,</l>
+                        <pb ed="SS" n="612"/>
+                        <l rend="indent">Gid kun vor <w>Skue-Platz</w> saalenge maa bestaa,</l>
+                        <l rend="indent">Som Folk vil Daarlighed og store Feil begaa.</l>
+                        <l>Vi Kongens Naade bør i dette Værk erkiende,</l>
+                        <l>Og med Taksigelse os mod Hans Throne vende</l>
+                        <l rend="indent">Til Kilden, hvorfra ned de Naades Strømme gaar,</l>
+                        <l rend="indent">Der Vandet har vor Jord det forbigangne <app type="tc"><lem><corr resp="Liebenberg">Aar,</corr></lem><rdg wit="A">Aar.</rdg><rdg resp="Liebenberg">Aar,</rdg><rdg resp="Schwarz">Aar;</rdg></app></l>
+                        <l>Vor Sprog har gived Vext og hiulpet som af Dvale,</l>
+                        <l>Os obned Munden, og tilladet frit at tale,</l>                       
+                        <l rend="indent"><pb ed="A" n="B2r" facs="B2r"/>Os baned Veyen til at skrive det paa <app type="tc"><lem><corr resp="ed">Dansk</corr></lem><rdg wit="A">D ansk</rdg><rdg resp="Schwarz SS">Dansk,</rdg></app></l>
+                        <l rend="indent">Som mand med mindre Fynd før læsede paa Fransk.</l>
+                        <l>Tænk Konge, at saa tit mand taler om de Dyder,</l>
+                        <l>De Ædelsteene, som Din Krone saa bepryder</l>
+                        <l rend="indent">Din Møye, Gudsfrygt, Flid, Din Mildhed, Tapperhed,</l>
+                        <l rend="indent">Aarvaagenhed i Krig, Rætferdighed i <app type="tc"><lem><corr resp="Liebenberg">Fred;</corr></lem><rdg wit="A">Fred.</rdg><rdg resp="Liebenberg">Fred;</rdg><rdg resp="Schwarz">Fred.</rdg><rdg resp="Rahbek">Fred –</rdg><rdg resp="Martensen SS">Fred,</rdg></app></l>
+                        <l>Vær viß paa, naar mand skal en Krønick derom skrive,</l>
+                        <l>At aldrig <hi rend="big">Dette</hi> da vil udelukket blive:</l>
+                        <l rend="indent"><hi rend="big">Da Vælde, Herlighed, i Riget fæstet Roed,</hi></l>
+                        <l rend="indent"><hi rend="big">I samme Konges Tid kom Sproget og paa Foed.</hi></l>
+                    </lg>
+                </sp>
+                <sp>
+                    <p><stage>Naar <hi rend="ant">Thalia</hi> har endet sin Tale, siger <hi rend="ant">Sganarel,</hi></stage> vi takke skyldigst <hi rend="ant">Madame</hi> paa <hi rend="ant">Comœdiernes</hi> Vegne, nu vil jeg da selv ikkuns slutte med 2 eller 3 Ord.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">Sganarell.</hi></speaker>
+                    <lg>
+                        <l>Vort <hi rend="big">Danske Moders Maal</hi> i Aar en <hi rend="big">Moder</hi> bliver,</l>
+                        <l>Og med <w><hi rend="ant">Comœdie-</hi>Kunst</w> sit første <hi rend="ant">Foster</hi> giver,</l>
+                        <l rend="indent"><hi rend="ant">Hver Stand</hi> kand skue frit sit Levnet derudi,</l>
+                        <l rend="indent">Som er et Dyders og <w>U-dyders</w> Skilleri.</l>                        
+                        <l rend="big"><pb ed="A" n="B2v" facs="B2v"/>Du Landets Fader vær da Barnets <w>Foster-Fader</w>,</l>
+                        <l>Vi vores Flid udi Din Naade overlader,</l>
+                        <l rend="indent">Imidlertid vi med <hi rend="big">et Hierte alle</hi> staar,</l>
+                        <l rend="indent">Og ønsker <hi rend="big">Kongens Huus et glædeligt <w>Nyt-Aar</w>!</hi></l>
+                    </lg>
+                </sp>
+                <lb/>
+                <table rows="5" cols="2">
+                    <row>
+                        <cell><hi rend="ant">Joh. Ulsöe.</hi></cell>
+                        <cell><hi rend="ant">Peter Hald.</hi></cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="ant">Magnus Schou.</hi></cell>
+                        <cell><hi rend="ant">Jens Höberg.</hi></cell>
+                    </row>
+                    <row>
+                        <cell><hi rend="ant">J.W. Gram.</hi></cell>
+                        <cell><hi rend="ant">Henrich Wegner.</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="indent"><hi rend="ant"><app type="tc"><lem><corr resp="ed">Pilloy.</corr></lem><rdg wit="A">Pilloy</rdg></app></hi></cell>
+                        <cell/>
+                    </row>
+                    <lb/>
+                    <lb/>
+                    <row>
+                        <cell rend="center"><hi rend="ant"><hi rend="big">P. Sparkjær.</hi><lb/>Componist af Musiquen.</hi></cell>
+                        <cell rend="center"><hi rend="ant"><hi rend="big">Rasmus <app type="tc"><lem><corr resp="ed">Hammer.</corr></lem><rdg wit="A">Hammer</rdg></app></hi><lb/>Copiist og Dicteur.</hi></cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

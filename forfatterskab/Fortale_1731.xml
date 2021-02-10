@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="FortDaSkue1">Fortale til Den Danske Skue-Plads</title>
+                <author>Ludvig Holberg</author>
+                <editor>Finn Gredal Jensen</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace/>
+                <availability>
+                    <p rend="head">Tekststatus:</p>
+                    <p>Ikke punktkommenteret</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Den Danske Skue-Plads. Deelt udi 5. Tomer, Første Tome</title>, <date>1731</date>.</witness>
+                    <witness xml:id="B">Optryk af A, 1742.</witness>
+                    
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg. Carl S. Petersen, bd. 4, Kbh. 1917. NB: Afvigelser fra udgaven <title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>        
+        <profileDesc>
+            <langUsage>
+                <language ident="dan"/>
+            </langUsage>
+        </profileDesc>
+             <revisionDesc>
+                 <change when="2015-08-10" who="ng">tekstkritik</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+             <change when="2013-01-24" who="fgj">justeret listWit, indsat tekststatus, kontrollæst teksten og kodet den ene tekstrettelse, men B mangler tjek</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change when="2012-07-11" who="fgj">indsat faksimilelinks til KB (foreløbig også til titelbladet til tome 1)</change>             
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i div</change>
+            <change when="2011-01-13" who="fgj">fil flyttet til repositorium, omdøbt fra fortale_1731.xml til Fortale_1731.page</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic n="1" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads1_1731/Ny_dan_skue_t1_00006.jpg" xml:id="i"/>
+        <graphic n="2" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads1_1731/Ny_dan_skue_t1_00007.jpg" xml:id="ii"/>
+        <graphic n="3" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads1_1731/Ny_dan_skue_t1_00008.jpg" xml:id="iii"/>
+        <graphic n="4" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads1_1731/Ny_dan_skue_t1_00009.jpg" xml:id="iv"/>
+    </facsimile>
+    
+    <text xml:lang="dan" xml:id="FortDaSkue1" type="orig" subtype="FortDaSkue1" n="/tekster/skuespill/Fortale_1731/Fortale_1731.page">
+        <body>
+            <div xml:id="start" n="[Fortale til Den Danske Skue-Plads]">
+                <pb ed="A" n="i" facs="i"/>
+                <lb/>
+                <pb ed="A" n="ii" facs="ii"/>
+                <pb ed="A" n="iii" facs="iii"/>
+                <pb ed="SS" n="5"/>
+                <p rend="noIndent"><w><hi rend="init">J</hi>eg</w> haver her efter adskillige got Folks Begiæring paa ny oplagt de Danske <w>Original-Comoedier</w>, endeel, saasom faa havde dem ret samlede, eendeel ogsaa, efterdi de vare af ulige Tryk og Formater formedelst de adskillige Editioner som deraf ere giorte baade af Autore selv og andre. Til de forhen trykte har jeg lagt 10 andre, hvoraf de fleste have været spillede, men ikke tilforn ved Trykken publicerede; saa at denne Samling bestaaer af 25 Comoedier, som ere deelte udi 5. <app type="tc"><lem wit="B"><hi rend="ant">Tomer</hi>.</lem><rdg wit="A"><hi rend="ant">Tomer</hi>,</rdg></app> Den <pb ed="A" n="iv" facs="iv"/><app type="tc"><lem wit="B"><hi rend="ant">approbation</hi></lem><rdg wit="A"><hi rend="ant">aprobation</hi></rdg><rdg resp="SS"><hi rend="ant">aprobation</hi></rdg></app>, samme Comoedier have fundet saa vel af Indlændiske som af Fremmede, og den Lykke de have at blive oversatte paa andre Sprog, har ikke lidet opmuntret mig til dette nye Oplag, hvilket, saasom <hi rend="ant">Actionerne</hi> ophøre, kand tiene til et Beviis paa hvad man udi den slags <w>Skrive-maade</w> her i Landet har kundet bringe til veje.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

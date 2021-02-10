@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><?xml-stylesheet type="text/xml" href="holberg.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="dan">		
+		<fileDesc>
+			<titleStmt>
+				<title key="Usynl">De u-synlige</title>
+				<author>Ludvig Holberg</author>
+			</titleStmt>
+			<editionStmt>
+				<edition/>
+			</editionStmt>
+			<publicationStmt>
+				<pubPlace/>
+				<availability>
+					<p rend="head"/>
+					<p/>      
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="A">Den Danske Skue-Plads, Femte Tome, <date>1731</date>.</witness>
+					<witness xml:id="B">Optryk af B, 1742.</witness>
+					<witness xml:id="SS">Ludvig Holbergs Samlede Skrifter, udgivne af Carl S. Petersen, bd. 4, 1917</witness>
+					<witness xml:id="udg1758"><title key="none">Den Danske Skue-Plads</title>, 1758. Benyttet eksemplar: Nasjonalbiblioteket, Oslo, Holb. 76:8.</witness>
+					
+				</listWit>
+			</sourceDesc>
+		</fileDesc>		
+		<profileDesc>
+			<langUsage>
+				<language ident="dan">dansk</language>
+			</langUsage>
+		</profileDesc>		
+		<revisionDesc>
+			<change when="2016-11-21" who="fgj">korrekturfejl Arleqv &gt; Arleqv. (J8v, l. 3), bekræfte &gt; bekræfte. (K3v)</change>
+			<change when="2015-10-15" who="fgj">kodet manglende antikvaer på titelbladet</change>
+			<change when="2014-11-05" who="ha">emendering afsluttet; kommentarrevision påbegyndt</change>
+			<change when="2014-10-27" who="ha">emendering påbegyndt</change>
+			<change when="2014-01-30">forskellige justeringer, anbringelse af sideskift mv.</change>
+                                 <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+			<change when="2013-01-24" who="fgj">tilføjelse af tekststatus</change>
+			<change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+			<change when="2012-08-28" who="amj">indsat faksimilereferencer</change>
+			<change when="2012-08-24" who="fgj">indsat faksimileliste</change>
+			<change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+			<change when="2011-12-05" who="rbn">indsat nye div-værdier</change>
+			<change when="2011-09-08" who="rbn">indsat nye div-værdier</change>
+			<change when="2010-10-24">FGJ: lagt teksten i Plone</change>
+			<change when="2010-10-24">AMJ har SS-korrekturlæst teksten og lagt den op i repositoriet</change>
+			<change when="2009-02-12" who="ng">filen oprettet, rudimentær strukturopmærkning</change>
+		</revisionDesc>		
+	</teiHeader>
+	
+	<facsimile>
+		<graphic n="113" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00117.jpg" xml:id="H2r"/>
+		<graphic n="114" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00118.jpg" xml:id="H2v"/>
+		<graphic n="115" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00119.jpg" xml:id="H3r"/>
+		<graphic n="116" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00120.jpg" xml:id="H3v"/>
+		<graphic n="117" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00121.jpg" xml:id="H4r"/>
+		<graphic n="118" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00122.jpg" xml:id="H4v"/>
+		<graphic n="119" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00123.jpg" xml:id="H5r"/>
+		<graphic n="120" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00124.jpg" xml:id="H5v"/>
+		<graphic n="121" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00125.jpg" xml:id="H6r"/>
+		<graphic n="122" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00126.jpg" xml:id="H6v"/>
+		<graphic n="123" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00127.jpg" xml:id="H7r"/>
+		<graphic n="124" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00128.jpg" xml:id="H7v"/>
+		<graphic n="125" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00129.jpg" xml:id="H8r"/>
+		<graphic n="126" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00130.jpg" xml:id="H8v"/>
+		<graphic n="127" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00131.jpg" xml:id="J1r"/>
+		<graphic n="128" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00132.jpg" xml:id="J1v"/>
+		<graphic n="129" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00133.jpg" xml:id="J2r"/>
+		<graphic n="130" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00134.jpg" xml:id="J2v"/>
+		<graphic n="131" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00135.jpg" xml:id="J3r"/>
+		<graphic n="132" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00136.jpg" xml:id="J3v"/>
+		<graphic n="133" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00137.jpg" xml:id="J4r"/>
+		<graphic n="134" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00138.jpg" xml:id="J4v"/>
+		<graphic n="135" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00139.jpg" xml:id="J5r"/>
+		<graphic n="136" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00140.jpg" xml:id="J5v"/>
+		<graphic n="137" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00141.jpg" xml:id="J6r"/>
+		<graphic n="138" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00142.jpg" xml:id="J6v"/>
+		<graphic n="139" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00143.jpg" xml:id="J7r"/>
+		<graphic n="140" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00144.jpg" xml:id="J7v"/>
+		<graphic n="141" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00145.jpg" xml:id="J8r"/>
+		
+		<graphic n="142" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00148.jpg" xml:id="J8v"/>
+		<graphic n="143" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00149.jpg" xml:id="K1r"/>
+		<graphic n="144" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00150.jpg" xml:id="K1v"/>
+		<graphic n="145" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00151.jpg" xml:id="K2r"/>
+		<graphic n="146" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00152.jpg" xml:id="K2v"/>
+		<graphic n="147" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00153.jpg" xml:id="K3r"/>
+		<graphic n="148" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00154.jpg" xml:id="K3v"/>
+		<graphic n="149" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00155.jpg" xml:id="K4r"/>
+		<graphic n="150" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00156.jpg" xml:id="K4v"/>
+		<graphic n="151" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00157.jpg" xml:id="K5r"/>
+		<graphic n="152" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00158.jpg" xml:id="K5v"/>
+		<graphic n="153" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00159.jpg" xml:id="K6r"/>
+		<graphic n="154" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00160.jpg" xml:id="K6v"/>
+		<graphic n="155" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00161.jpg" xml:id="K7r"/>
+		<graphic n="156" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00162.jpg" xml:id="K7v"/>
+				
+	</facsimile>
+	
+	<text xml:lang="dan" xml:id="Usynl" type="orig" subtype="Usynl" n="/tekster/skuespill/De_u-synlige/De_u-synlige.page">
+		
+		
+		<front>
+			<titlePage xml:id="start" n="[Titelblad]">
+				<pb ed="A" n="H2r" facs="H2r"/>	
+				<pb ed="SS" n="487"/>
+				<docTitle>
+					<titlePart type="main">De <w>u-synlige</w></titlePart>
+					<lb/>
+					<titlePart type="sub"><hi rend="ant">COMOEDIE</hi> <lb/>udi <lb/>Tre <hi rend="ant">ACTER</hi>.</titlePart>
+				</docTitle>
+			</titlePage>
+			<div xml:id="castlist" n="[Rolleliste]">
+			<pb ed="A" n="H2v" facs="H2v"/>
+			<pb ed="SS" n="488"/>
+			<castList rend="center">
+				<head><seg type="komm" target="H2v-1"/><w>Hoved-Personerne</w> <lb/>i <hi rend="ant">Comœdien</hi>.</head>
+				<castItem>
+					<role>Leander.</role>
+				</castItem>
+				<castItem>
+					<role>Arleqvin hans Tiener.</role>
+				</castItem>
+				<castItem>
+					<role>Colombine Arleqvins Fæstemøe.</role>
+				</castItem>
+				<castItem>
+					<role>Leanders <w>U-synlige</w>.</role>
+				</castItem>
+				<castItem>
+					<role>Arleqvins <w>U-synlige</w>.</role>
+				</castItem>
+				<castItem>
+					<role>Hendes Broder.</role>
+				</castItem>
+			</castList>
+			</div>	
+		</front>
+	
+		<body>
+			<div type="act" xml:id="act1" n="Første akt">
+				<pb ed="A" n="H3r" facs="H3r"/>
+				<pb ed="SS" n="489"/>
+				<head><seg type="komm" target="H3r-1"/><hi rend="ant"><app type="tc"><lem><corr resp="ed">Actus</corr></lem><rdg wit="A">Actus.</rdg></app> I.</hi></head>
+				<div type="scene" xml:id="act1sc1" n="Scene 1">
+					<head><seg type="komm" target="H3r-2"/><hi rend="ant">Scen. 1.</hi></head>
+					<stage>Leander, Arleqvin.</stage>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p><w><hi rend="init">J</hi>eg</w> kand sværge dyrt paa, Herre, at, hvis jeg ikke hafde hørt jer Røst, havde <app type="tc"><lem><corr resp="Udg1758">jeg</corr></lem><rdg wit="A B ">jeg,</rdg><rdg resp="udg1758">jeg</rdg><rdg resp="SS">jeg,</rdg></app> umueligt kunde kiende jer igien, saadan er I forandret paa een Maaneds Tid, medens jeg har været borte.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ach dig synes kun saa Harleqvin!</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Da jeg reisede bort Herre, var I saa <seg type="komm" target="H3r-12"/>fæd som en Forpagter; men nu seer I ikke anderledes ud, end en vandrende Ridder, en <seg type="komm" target="H3r-14"/><hi rend="ant">Don Qvichot</hi>; Enten maa Herren have været syg, eller han maa være <seg type="komm" target="H3r-23"/>forliebt.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Een af Deelene, Harleqvin!</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Har herren da været syg?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Nei jeg har ikke.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Saa er herren da forliebt?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Det kand nok være.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>I hvem er herren da forliebt?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg veed <seg type="komm" target="H3r-29"/>min troe ikke.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Hvilken underlig Snak er det?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Underlig eller ey, saa er det dog saa.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Ey hold dog op at skiemte, Herre! men er hun skiøn?</p>
+					</sp>
+					<pb ed="SS" n="490"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg veed i Sandhed ikke.</p>
+					</sp>
+					<pb ed="A" n="H3v" facs="H3v"/>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Jeg kand nok <seg type="komm" target="H3v-2"/>slutte, hvordan det hænger sammen. Der er <seg type="komm" target="H3v-3"/>sluttet en Forlovelse mellem hendes og jere Venner, saa at I kiender hinanden ikke, uden af deres Beskrivelse.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg hører nok, at du kiender mig ikke ret endnu. Jeg frier min troe aldrig ved <seg type="komm" target="H3v-7"/><app type="tc"><lem><corr resp="udg1758">Commissionairer.</corr></lem><rdg wit="A">Commissionairer</rdg><rdg resp="SS">Commissionairer</rdg><rdg resp="udg1758">Commissionairer.</rdg></app></p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>I frier ikke selv og I frier ikke ved Commissionaire, og dog blir I forlovet. Det er jo en mørk Tale, som aldrig kand løses. Det er jo ligesom jeg vilde sige: Jeg <seg type="komm" target="H3v-11"/>saaler aldrig mine Hoser, jeg lar dem ey heller saale ved andre, og dog <app type="tc"><lem><corr resp="udg1758">blive de</corr></lem><rdg wit="A B">blive</rdg><rdg resp="udg1758">blive de</rdg><rdg resp="SS">blive</rdg></app> saalede.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Naar du kommer med saadan <seg type="komm" target="H3v-14"/>Lignelse Harleqvin! maatte du i det ringeste sige <hi rend="ant"><seg type="komm" target="H3v-15"/>sans comparaison</hi>.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Jeg kand ikke tale latin Herre! og jeg veed ikke <seg type="komm" target="H3v-17"/>at give det ret paa vort <seg type="komm" target="H3v-18"/>Maal, derfor maa Herren have mig undskyldt. Men har hun da <seg type="komm" target="H3v-19"/>Midler?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>I <seg type="komm" target="H3v-21"/>gemeene Folk spør altid strax efter Penge.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>I fornemme Folk, min troe ligesaa, med Herrens <seg type="komm" target="H3v-23"/>Permission, Ach sig mig dog Herre! om hun har Midler?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p><seg type="komm" target="H3v-26"/>Gid jeg faae skam om jeg veed.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Hvad fanden er da dette. Er hun gammel?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ney jeg troer ikke, at hun skal være gammel.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Herren kand jo nogenledes see paa hendes Ansigt, om hun er gammel?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg har jo sagt dig, at jeg aldrig har seet hende.</p>
+					</sp>
+					<pb ed="SS" n="491"/>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Og I er endda forliebt?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ja dødelig forliebt.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>						
+						<p><pb ed="A" n="H4r" facs="H4r"/>Hvorfor Dievelen forlieber I jer ogsaa ikke udi <seg type="komm" target="H4r-1"/>Keyserens Daatter i Misisippi.</p>
+					</sp>
+					<sp>
+						<speaker>Leand.</speaker>
+						<p>Jeg kommer til at <seg type="komm" target="H4r-4"/>hielpe dig af Drømmen, Harleqvin! I gemene Folk gaar lige til, og vi andre fornemme Folk <seg type="komm" target="H4r-5"/>defilerer. Hos jer bestaaer den hele <seg type="komm" target="H4r-6"/>Act af et Spørsmaal: Vil hun have mig, og et Giensvar, Ja eller nei. Men vi, som finde ingen Sødhed udi det som vi uden Møye kand komme til, udvælge den vanskeligste og forhinderligste Vey at komme til vort Maal.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Saa maa da <seg type="komm" target="H4r-12"/><hi rend="ant">Seigneur <seg type="komm" target="H4r-12b"/>Per Gante</hi> have været en meget fornemme Mand; thi man siger om dem, som <seg type="komm" target="H4r-13"/>laverer saaledes uden Nødvendighed til maalet, at de gaaer <hi rend="ant">per Gantes</hi> gienvey, men hvordan det er eller ey, saa maa I enten selv have beseet eller ved andre ladet besigtige den, som I er bleven forliebt udi.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Som jeg siger dig Harleqvin, ingen af Deelene.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Har herren da ey heller seet hendes <seg type="komm" target="H4r-20"/>Kaaberstykke?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hverken Original eller Copie.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p><seg type="komm" target="H4r-24"/>Adieu Herre! jeg er gal, som staaer her og hører paa <seg type="komm" target="H4r-24b"/>slig <w>Pølse-Snak</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Leander</speaker>
+						<p>Du vil ikke give mig <seg type="komm" target="H4r-27"/>stunder at forklare mig. Den Person, som jeg har forliebet mig udi, <seg type="komm" target="H4r-28"/>tilstæder mig allene at tale med sig. I en heel Maaned, som jeg har <seg type="komm" target="H4r-29"/>giordt Amour, har jeg ikke kundet <seg type="komm" target="H4r-30"/>formaae hende til at tage Masqven af for at beskue hendes Skiønhed.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Men hvordan pokker kan Herren da være bleven forliebt i hende?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Den Haardhed, hun har <seg type="komm" target="H4r-36"/>beteet mig, langt fra at giøre mig kaaldsindig, har forøget min Kierlighed i saadan Grad, at jeg er gandske fra mig selv.</p>
+					</sp>
+					<pb ed="SS" n="492"/>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det er noget forbandet galt <seg type="komm" target="H4r-40"/>Tøy, Herre! Det kand jo <pb ed="A" n="H4v" facs="H4v"/>hende sig, at, naar I nu engang skal holde Bryllup, og hun tager Masken af, da bliver den udi jer Indbildning gudommelige Nymphe forvandled til en <seg type="komm" target="H4v-3"/><w>Maren-Amme</w>, og i steden for en <seg type="komm" target="H4v-4"/>Rosen-lebed Mund kommer I til at kysse en <seg type="komm" target="H4v-4b"/><w>Jordemoder-Flab</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Det er jeg ikke bange for. Jeg er forsikkred om at det er en <seg type="komm" target="H4v-8"/>Model af Deylighed og Yndest.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jeg tænkte ligeledes <seg type="komm" target="H4v-10"/>forgangen, Herre, da jeg kiøbte <w>u-beseed</w> en halv <seg type="komm" target="H4v-11"/>Fierding Smør, men da jeg slog Fierdingen op, fandt jeg den fylded med <seg type="komm" target="H4v-12"/>Fæt.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvilke nogle <seg type="komm" target="H4v-14"/>tølpelagtige grove Lignelser.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Hvor grove de ere, saa ere de dog <seg type="komm" target="H4v-16"/>Grundige, Naturen har givet os Øyne, fordi vi skal see os for, og Hænder, fordi vi skal føle os for, <seg type="komm" target="H4v-18"/>saa giorde jeg førend jeg forlovede mig med Colombine.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg kand forsikkre dig om, at hvor skiøn hun end kunde være, saa havde jeg ikke elsket hende halv Delen saa meget, hvis hun strax havde ladet sig see.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det er <seg type="komm" target="H4v-25"/>en spansk Maade at blive forliebt paa, som jeg ikke begriber. Men fortæl mig Herre! hvorledes alt dette er tilgaaet?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p><seg type="komm" target="H4v-29"/>Ungefehr for en Maaned siden, da jeg udi tusmørket gik og spadserede udi en Have, blev et Vindue opladet, og jeg hørdte en <seg type="komm" target="H4v-31"/>angenem <w>Engle-Røst</w>, som nævnede mig ved Navn, og spurdte: Hvi jeg gik i saa dybe Tanker. Jeg blev strax slagen af Røstens Sødhed, og bad inderligen, at jeg maatte nyde hendes deylig Ansigt at see. Men forgieves. Efter lang Kierligheds Tale lovede hun <seg type="komm" target="H4v-35"/>anden Dag ved samme <w>Klokke-slet</w> at unde mig hendes Conversation, men med samme haarde Vilkor. Jeg forsømmede ikke at møde, og fandt jeg udi den anden Samtale, at hun var mig ikke <seg type="komm" target="H4v-38"/>ugenegen. Hun lovede at demaskerere sig, naar Tid var, og bad mig indstændig ikke at anmode hende om det som hun for vigtige Aarsager ikke endnu <pb ed="A" n="H5r" facs="H5r"/>kunde føye mig udi. Jeg har ogsaa rettet mig derefter og <seg type="komm" target="H5r-2"/>continueret vore Samqvemme med samme Vilkor. Endelig for <pb ed="SS" n="493"/>14 Dage siden, da jeg var allene udi en <seg type="komm" target="H5r-3"/><w>Spadsere-Have</w>, blev jeg af 8 maskerede <seg type="komm" target="H5r-4"/>Cavaliers <seg type="komm" target="H5r-4b"/>uformodentligen omringed, hvilke uden at tale et Ord, førdte mig med Magt udi en prægtig <app type="tc"><lem><corr resp="1758">Vogn,</corr></lem><rdg wit="A B">Vogn</rdg><rdg resp="SS">Vogn</rdg><rdg resp="udg1758">Vogn,</rdg></app> <seg type="komm" target="H5r-6"/>agede mig <seg type="komm" target="H5r-6b"/>uden Byen, og holdte stille <seg type="komm" target="H5r-6c"/>for et deyligt <seg type="komm" target="H5r-6d"/><w>Lyst-Huus</w>, hvor jeg blev med stor <seg type="komm" target="H5r-7"/>Pomp modtagen. Jeg blev bragt af et herligt <seg type="komm" target="H5r-8"/>Gemak ind udi et andet, og det med største Taushed. Endelig blev jeg indladet paa en Sal, hvor der stod et dekked Bord; <seg type="komm" target="H5r-10"/>sigted fuld med delicate Retter. Jeg tænkte ved mig selv! Ach Himmel hvad er dog det.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Blev da Herren <seg type="komm" target="H5r-13"/>alterered?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg kunde for Skræk og <seg type="komm" target="H5r-15"/>Alteration <seg type="komm" target="H5r-15b"/>ingen Sands have.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Da kand jeg ikke blive saa alterered for et Bord, sigted fuld af Retter.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg vidste ikke, hvor jeg var, Harleqvin, og hvad jeg skulde giøre.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Hvad jeg skulde giøre? jeg skulde have sat mig ned, og <seg type="komm" target="H5r-21"/>ikke givet en eneste Ret Qvarteer. Men hvorledes gik det ellers videre Herre?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Strax derpaa indtraadde en Dame, hvis lige jeg aldrig saae udi <seg type="komm" target="H5r-25"/>Yndest og Deilighed, som sat sig ned ved Bordet, og ved et Vink gav tilkiende, at jeg skulde giøre det samme. Hvilket jeg giorde.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det troer jeg nok, det er jo alle de Herligheder et Menniske kand forlange i denne <seg type="komm" target="H5r-30"/>usele Verden.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hun bad mig med en venlig Mine at spise, men mit Hierte var saa <seg type="komm" target="H5r-33"/>bespendt af Frygt og Forskrækkelse, at jeg intet kunde smage.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jeg kand blive gal over saadan Snak herre, skulde mit Hierte blive bespændt af det at man sat mig paa en Fløjels <pb ed="A" n="H5v" facs="H5v"/>Stol, og bær mig Mad, Viin og smukke Piger til, da maatte jeg have et slyngelagtigt Hierte, og var <seg type="komm" target="H5v-2"/>ikke værd at lignes ved en Østers.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hold op med din slyngelagtige Critiqve, og giv mig Tid at fortælle Resten. Efter at hun havde spiiset lidt udi største Taushed, gav hun et Vink til hendes <seg type="komm" target="H5v-7"/>Domestiqver <pb ed="SS" n="494"/>at gaae til side. Da saadan Ordre var efterlevet, begynte hun dybt at sukke, og endelig brød ud udi disse Ord: Cavallier! Jeg veed, hvor eders Tanker er henne, og jeg haver udspioneret hvem I elsker. Men I elsker forgiæves. Hun <seg type="komm" target="H5v-11"/>haaber ogsaa forgieves at nyde Frugt af jer Kierlighed; thi hun har en Rival, som hun er alt for afmægtig at imodstaae. Jeg spurdte skiælvende, hvo den Rival var? Hun svarede: det fik jeg nok at vide, og derpaa giorde et vitløftig <seg type="komm" target="H5v-15"/>Portrait paa samme Rivale, beskrev hendes Velstand, <seg type="komm" target="H5v-16"/>Byrd, Skiønhed og Yndest, og med stor Høflighed raadede mig fra at elske den, jeg havde fæstet mig Hierte til. Men all den Tale bevægede mig ikke; thi jeg svarede uforskrekked: Naadige Frue! Endskiønt samme Rivale udi Yndest og Skiønhed lignede Eders Naade selv, saa kunde dog intet uden Døden skille mig ved <seg type="komm" target="H5v-21"/>min usynlige. Hvorpaa hun med en vreed Mine reisede sig, og gik bort, ladende mig allene nogen Tid, som for at nøye overveye det giordte Forslag. Derefter kom en ærbar gammel Dame ind, som tog mig ved Haanden og sagde: Jeg ynker eders Tilstand; thi I maa vide, at hun aldrig lader <w>u-hævned</w> passere den Foragt I har ladet see mod hende. Jeg svarede, at det skulde smerte mig at have givet Fruen mindste Leylighed til Fortørnelse, og at jeg aldeles ikke vidste hvorudi den Foragt bestod. Min Herre! sagde hun da: Det er forgiæves at I stiller jer saa <seg type="komm" target="H5v-30"/>enfoldig an; thi min Frue er alt forvel informeret om jer Forstand, at hun skulde troe, at I ikke havde begrebet hendes Meeening, nemlig at den Dame, som hun saa høyt <seg type="komm" target="H5v-33"/>recommenderede, var hende selv. Nu gir jeg dig at betænke Harleqvin! hvilken Tilstand disse Ord bragte mig udi.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Gir Herren mig det at betænke, saa betænker jeg det saaledes, at I strax besluttede at lade jer <w>U-synlige</w> blive usynlig til Dommedag, og med Glæde at omfavne det <seg type="komm" target="H5v-39"/><w>Liggendefæe</w>, som i saae at være <seg type="komm" target="H5v-40"/><hi rend="ant">solide</hi>.</p>
+					</sp>
+					<pb ed="A" n="H6r" facs="H6r"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ney Harleqvin, den <seg type="komm" target="H6r-2"/>Estime, jeg havde fattet for hende, blev ved saadant Tilbud forvandled til Foragt.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p><seg type="komm" target="H6r-5"/>Saa lystig. Jeg har aldrig min Livstid kiendet saadan forbanded underlig <seg type="komm" target="H6r-6"/>Gout. Hør Herre! En viiser jer en kostbar Perle paa et Bord, og graver en anden, som I ikke veed om den er ægte eller <w>u-ægte</w>, ned i en Møding og <seg type="komm" target="H6r-8"/>gir jer Vall at tage, hvilken jer lyster. Hvad tog I da helst?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg tog heldst den, som laae paa Bordet.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Nei herre! i Dievels Skind ney! I <seg type="komm" target="H6r-13"/>grov heller i Mødingen efter den <w>u-ægte</w>, saa viit som jeg kand begribe, thi – –</p>
+					</sp>
+					<pb ed="SS" n="495"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Denne Lignelse passer sig her ikke.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Og jeg meener jo. Men, Herre, efterdi I er saa forliebt i Masker! hvorfor forlieber I jer ikke i en <seg type="komm" target="H6r-19"/><w>Hue-blok</w>?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hold Munden, og lad mig fuldføre Historien. Efter at den største Forskrækkelse var gaaed forbi, tog jeg Mod til mig igien og sagde reent ud, at jeg tusind gange heller vilde døe end forlade min Usynlige. Den gamle Dame ynkedes over min <seg type="komm" target="H6r-25"/>Forstokkenhed, og søgte af yderste Magt at bringe mig paa andre Tanker, forestillende mig paa en Side den Velstand og Herlighed, jeg kunde nyde, og paa den anden Side hendes Frues Vrede, som ikke kunde stilles, uden med mit Blod. Men <seg type="komm" target="H6r-29"/>det endelige Svar var Piinebenk, Fængsel, og Død aldeles ikke kunde bevege mig. Hvorpaa hun gik sukkende bort, ladende mig allene <seg type="komm" target="H6r-32"/>paa Salen; hvor jeg stod og forventede min <w>Døds-Dom</w>. Endelig træder de samme 8 Cavaliers ind <app type="tc"><lem><corr resp="udg1758">igien,</corr></lem><rdg wit="A B">igien</rdg><rdg resp="SS">igien</rdg><rdg resp="udg1758">igien,</rdg></app> binder for mine Øyen, og fører mig bort udi en <seg type="komm" target="H6r-33"/>Carosse. Jeg meente det var til <seg type="komm" target="H6r-34"/>Retterstædet. Men da jeg var ført ud af Carossen, og <seg type="komm" target="H6r-35"/>fornam, at jeg var <seg type="komm" target="H6r-35b"/>forladt alleene, løsede jeg Kluden fra Øyene, og da merkede, at jeg var udi Sikkerhed paa samme Sted, hvorfra jeg var bleven bortført, og som det var just ved samme Tid min Usynlige havde stævnet mig til sig, gik jeg derhen, og fortaalte hvad mig var <seg type="komm" target="H6r-39"/>vederfared. Hun hørte det an med Forskrækkelse, formanede mig til <seg type="komm" target="H6r-40"/><w>Bestandig<pb ed="A" n="H6v" facs="H6v"/>hed</w>, som hun forsikrede, at jeg mig ikke skulde <seg type="komm" target="H6v-1"/>fortryde paa. Men det var mig ey heller denne gang mueligt at nyde hendes <seg type="komm" target="H6v-3"/>Aasiun.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Og Herren elsker hende endnu lige høyt?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ja end meer end <seg type="komm" target="H6v-6"/>tilforn; thi just denne <seg type="komm" target="H6v-6b"/>Conduite som vilde <seg type="komm" target="H6v-7"/>forarge en anden, er <seg type="komm" target="H6v-7b"/>Tønder til min Elskov. Men nu haaber jeg strax at nyde Frugten af min Bestandighed; thi hun har lovet ved denne Time at lade sig her indfinde, dog med Vilkor, at hendes Ansigt bliver skiuled.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Hvilke Herlige Frugter? At hun efter saadan Bestandighed og udstanden <w>Livs-Fare</w> beviser jer den Ære at I maa see hende udi <seg type="komm" target="H6v-14"/>den anden Ende. Hør Herre! kommer hun hid uden <seg type="komm" target="H6v-15"/>Geleide, saa skal hun demasqvere sig, om hun blev gal; thi her er vist nok Bedrageri under, og vil ikke Herren <seg type="komm" target="H6v-17"/>tage hende Masken fra, saa vil jeg.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvis nogen understod sig dertil, skulle det koste hans Liv, om det end var min egen <pb ed="SS" n="496"/>Broder. Ney jeg vil med Taalmodighed <seg type="komm" target="H6v-21"/>opbie Tiden. Men der seer jeg een kommer. Det er uden tvil hende.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Hun har min troe, en smuk Taille. Er hun saa smuk for som bag, saa kunde jeg selv blive forliebt i hende, hvor <seg type="komm" target="H6v-25"/>koldsindig jeg end er.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act1sc2" n="Scene 2">
+					<head><hi rend="ant">Scen. 2.</hi></head>
+					<stage>Leander. Harleqvin. Den Usynlige.</stage>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hid indtil min Herre! har jeg ikke talet med ham uden langt fra, men nu jo større <seg type="komm" target="H6v-31"/>Prøver jeg merker af hans Bestandighed, jo meer Frihed giver jeg ham at nærme sig til min Person.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Den <seg type="komm" target="H6v-34"/><hi rend="ant">Faveur</hi>, min allerkiæreste Jomfru beviser mig i Dag, foraarsager mig stor Glæde og bestyrkker mig i min Forhaabning at see engang min Troeskab belønned.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hid intil har I seet, at jeg aldrig har feylet i mine giordte Løfter, bliv kun ved at elske med Bestandighed. I skal see at <pb ed="A" n="H7r" facs="H7r"/>I har ikke elsket forgieves. I skal ikke fortryde paa med <w>Livs-Fare</w> at have forkasted andre prægtige Tilbud, og foragtet <seg type="komm" target="H7r-3"/>Originaler for at henge ved den som <app type="tc"><lem><corr resp="udg1758">I</corr></lem><rdg wit="A B">i</rdg><rdg resp="SS">i</rdg><rdg resp="udg1758">I</rdg></app> hid indtil ikkun har seet <seg type="komm" target="H7r-4"/>udi Skygge.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg skal <seg type="komm" target="H7r-6"/>helligen udi alting efterleve min Jomfrues Ordre, og hvor brændende min Længsel er at see det Ansigt, hvis Skygge har betaget mig min Frihed, og den Mund, hvis Lyd allene har opvakt saadan hæftig Kierlighed udi mit Hierte, saa dog skal jeg <seg type="komm" target="H7r-10"/>uden Fortrydelse <seg type="komm" target="H7r-10b"/>opbie Tiden indtil min Jomfru finder for got at aabne mine Øyen for at see den Herlighed, som jeg udi Indbildning allene har mættet mig med. Jeg understaaer mig allene denne gang at <seg type="komm" target="H7r-13"/>tilbede mig den Frihed at kysse paa min Jomfrues deilige Haand.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg kand endnu ikke tilstæde ham den Frihed.</p>
+					</sp>
+					<sp>
+						<speaker>Leander <stage>(paa knæ.)</stage></speaker>
+						<p>Allerkiæreste Jomfrue! frist mig dog ikke <seg type="komm" target="H7r-16"/>over min Formue; men tillad jer troe Tiener – – – –</p>
+					</sp>
+					<pb ed="SS" n="497"/>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ach Jomfrue vær dog ikke saa forbandet haard og betænk, at min Herre er dog ingen <seg type="komm" target="H7r-20"/>Vestfalsk Skinke eller Hollandsk Ost; men – – –</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ach Himmel! <seg type="komm" target="H7r-25"/>hvo er det som taler. Jeg er forraad.</p>
+					</sp>
+					<sp>
+						<speaker>Leander <stage>(reisende sig.)</stage></speaker>
+						<p>Vil du tie din Forrædder! Det er min gamle Tiener allerkiæreste Jomfrue, som jeg <seg type="komm" target="H7r-28"/>ikke har undseet mig at tage med; thi han er enfoldig, og dum som et umælende Creatur, og har intet andet Menniskeligt uden den <seg type="komm" target="H7r-30"/>udvortes Skabning.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq. <stage>(sagte)</stage></speaker>
+						<p>Hvilket forbanded Folk i denne Bye, som <seg type="komm" target="H7r-32"/>skiønner saa lidt paa gode Hoveder. Umælende Beest! ha! ha jeg maa lee deraf, thi jeg er min tro et af de beste Hoveder <seg type="komm" target="H7r-34"/>i det ringeste her i Gaden.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Men derimod er han oprigtig, saa jeg kand betroe ham <seg type="komm" target="H7r-37"/>al min Velfærd.</p>
+					</sp>
+					<pb ed="A" n="H7v" facs="H7v"/>
+					<sp>
+						<speaker>Harleq. <stage>(sagte)</stage></speaker>
+						<p>Det kan <seg type="komm" target="H7v-2"/>endeligen lade sig høre: men umælende Beest, fy for tusind Diævle!</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvis det er kun jer Tiener, saa er <seg type="komm" target="H7v-5"/>intet herudi forseed. Men jeg beder for den Kierlighed der er os imellem, at I denne gang ikke meer <seg type="komm" target="H7v-7"/>paastaaer begiærdte <hi rend="ant">Faveur</hi>, som Sømmelighed og andre Aarsager <seg type="komm" target="H7v-8"/>tilstæder mig endnu ikke at <seg type="komm" target="H7v-8b"/>accordere. Jeg har ikke lang Tid tilbage at holde mig saa <seg type="komm" target="H7v-9"/>indgetaagen. Maaskee, at I udi denne Dag skal fuldkommeligen naae jer Ønskes Maal.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ach hvilken glædelig Tidende! Jeg skal efterleve hendes Befalning, og aldrig <seg type="komm" target="H7v-13"/>for Tiden begiære nogen Faveur; thi jo høyere jeg elsker min Jomfru, jo større Fornøyelse finder jeg udi at adlyde hende <seg type="komm" target="H7v-15"/>end ogsaa udi de allerhaardeste <seg type="komm" target="H7v-15b"/>Ordres.</p>
+					</sp>
+					<sp>
+						<speaker>Dend Usynlige.</speaker>
+						<p>Jeg skiønner paa min Herres Lydighed, og er forsikred, at det er allene <seg type="komm" target="H7v-18"/>Effect af Hans oprigtige Kiærlighed. I vilde vel tænke med jer selv, hvortil tiener at plage en Beiler efter saa store viiste Prøver? Hvortil tiener at opsætte <seg type="komm" target="H7v-20"/>Contractens Fuldbyrdelse, efter at den er engang slutted. Men jo vanskeligere Veyen er, jo behageligere er det, <pb ed="SS" n="498"/>naar man kommer til Maaled. Vi <seg type="komm" target="H7v-23"/>skiønnede ikke paa Foraared, dersom vi ingen Vinter havde, de Frugter, som vi finder paa Marken, smager os ikke saa vel som de, hvilke vi med Besværlighed selv plukke af Træet. Men lader os gaae lidt hen udi en anden Allee, for at tale videre sammen.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Harleqvin! bliv du der staaende til jeg kommer tilbage.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act1sc3" n="Scene 3">
+					<head><hi rend="ant">Scen. 3.</hi></head>
+					<sp>
+						<speaker>Harleqvin <stage>(alleene.)</stage></speaker>
+						<p>Hun har ret derudi, at de Frugter som ligger paa Marken, smage ikke halv saa vel, som de, hvilke man med Besværlighed selv plukke af Træet, Det har jeg selv merket; Iligemaade at Maden smager mig aldrig bedre end paa <seg type="komm" target="H7v-35"/>en Bededags Aften. Jeg seer af disse forliebte Folkes Opførsel, at de vil gaae langt fornøyeligere til Brudeseng end jeg og Colombine. <seg type="komm" target="H7v-38"/>Vi har gaaet alt formeget lige til, og den Tøite <pb ed="A" n="H8r" facs="H8r"/>var alt forhastig med at give mig sin <seg type="komm" target="H8r-1"/>Troe. Jeg elsker hende, det er sant, men min Kierlighed er kun en slyngelagtig Kierlighed mod min Herres; thi om Colombine døde i Dag eller i Morgen, hang jeg mig derudover strax ikke af Fortvilelse. Men hvad kand være Aarsag til saadan lunken Elskov uden det, at jeg ingen Umag har haft med at vinde den. Thi saa snart som jeg lokkede, hoppede hun; da jeg sagde: Vil du være min Hustrue? sagde hun <seg type="komm" target="H8r-8"/>ja nok, da jeg bad om et Kys, rakte hun mig strax Flabben; og da jeg bad hende om Frihed at <seg type="komm" target="H8r-10"/>føle paa hendes Bryst: Sagde hun gierne min Snut; og derudi bestaaer al Ulykken. Vil hun blive ved, at være <seg type="komm" target="H8r-11"/>saa troe, saa troer jeg at jeg faaer meer og meer Afsmag for hende; thi – – men der kommer hun <seg type="komm" target="H8r-13"/>min troe. See engang hvor forbanded <seg type="komm" target="H8r-14"/>Coqvette hun seer ud.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act1sc4" n="Scene 4">
+					<head><hi rend="ant">Scen. 4.</hi></head>
+					<stage>Harleqvin, Colombine.</stage>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p><seg type="komm" target="H8r-18"/>Est du der, min allerkiereste Harleqvin?</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Ja her er jeg! kom og kys mig engang. <stage>(sagte)</stage> nu skal man see, om hun ikke strax rækker Snuden frem.</p>
+						<stage>(Colombine vil kysse.) </stage>
+					</sp>
+					<sp>
+						<speaker>Harleqvin. <stage>(vendende Hovedet fra.)</stage></speaker>
+						<p>Jeg vilde sige: <seg type="komm" target="H8r-24"/>Lad mig føle dine Bryster.</p>
+					</sp>
+					<pb ed="SS" n="499"/>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Gierne min Engel! Du har at befale.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin. <stage>(sagte.)</stage></speaker>
+						<p>Gid du faar skam dit <seg type="komm" target="H8r-28"/>barmhiertige Best! Hør Colombine. Vi kand i Vinter ikke holde Bryllup for visse Aarsager.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Ikke i Vinter?</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Ney! og maaskee heller ikke tilkommende Foraar.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Ey heller tilkommende Foraar?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Og maaskee ey heller tilkommende Sommer.</p>
+					</sp>
+					<pb ed="A" n="H8v" facs="H8v"/>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Ey heller tilkommende Sommer? </p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Og maaskee ey heller tilkommende <seg type="komm" target="H8v-4"/>Høst.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb. <stage>(grædende.)</stage></speaker>
+						<p>Ey heller tilkommende Høst, men hvorfor?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq. <stage>(Vrengende efter hende)</stage></speaker>
+						<p>Men hvorfor? Fordi det er din egen skyld.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Er jeg <seg type="komm" target="H8v-10"/>skyld, at Bryllupet blir <seg type="komm" target="H8v-10b"/>opsat?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det siger jeg ikke: men det bliver dog opsat.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Af hvad Aarsag da?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>See hvor hun staaer her og fleber. Af hvad Aarsag da? af Aarsag, at jo vanskeligere Veyen er, jo behageligere er det, naar man kommer til Maalet.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Hvad vil det sige?</p>
+					</sp>
+					<pb ed="SS" n="500"/>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det vil sige paa anden danske: Vi skiønner ikke paa Foraaret uden vi først har Vinter.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Vi har jo nu Vinter.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jo vist har vi Vinter <stage>(sagte)</stage> hvilket forbanded Kødhoved.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Hvad vil dog al den Snak sige?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Den vil <seg type="komm" target="H8v-31"/>ungefehr sige saa meget, som at de Frugter, vi finde paa Træt smage ikke saa vel som de vi med Besværlighed plukke paa Marken.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Du maa forklare dine Ord <seg type="komm" target="H8v-35"/>renere, om du vil at jeg skal forstaae dig.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Vil du endelig have fuldkommen reen Forklaring, da udtolker jeg Ordene saaledes. De Ord: vi skiønner ikke paa <w>For<pb ed="A" n="J1r" facs="J1r"/>aar</w> uden vi først har Vinter, betyder paa got og oprigtig Dansk at du est en <seg type="komm" target="J1r-2"/>Carnali.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Hvad? Er jeg en Carnali! hvad ont har jeg giort at du <seg type="komm" target="J1r-5"/>handler saa ilde med mig. Ach det skulde aldrig have <seg type="komm" target="J1r-5b"/>fortrydet mig, hvis jeg ikke havde elsked dig saa højt.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det er just Ulykken at du har elsket mig saa høyt.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Er det Ulykken?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ja i tusind pokkers Navn. Det er Ulykken, <seg type="komm" target="J1r-11"/>hvor for dievelen, var du ikke usynlig først.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Jeg troer han er reent gal.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ney min troe er jeg ikke gal, men har været gal tilforn. Hør Colombine! <seg type="komm" target="J1r-18"/>det første jeg søgte at faae dig i Tale, blev det mig ikke da strax tilladt.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Jo vist.</p>
+					</sp>
+					<pb ed="SS" n="501"/>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Da jeg sagde: vil du have mig, svarede du ikke strax ja?</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Jeg erindrer ikke rettere.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jo jeg erindrer det nok jeg selv. Var du synlig eller usynlig, da jeg friede til dig?</p>
+					</sp>
+					<sp>
+						<speaker><app type="tc"><lem><corr resp="ed">Colomb.</corr></lem><rdg wit="A">Eolomb.</rdg></app></speaker>
+						<p>Hvilken forbanded Snak, <seg type="komm" target="J1r-30"/>naar har jeg været usynlig.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det er just Ulykken, Adieu mit Barn! <seg type="komm" target="J1r-32"/>hils dine Forældre.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Bie din Forrædder! du skal forklare mig hvo der har forført dig til at forlade mig.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Intet uden <seg type="komm" target="J1r-37"/>den <app type="tc"><lem wit="B">sunde</lem><rdg wit="A">sande</rdg></app> Fornuft har forført mig.</p>
+						
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Hvad? Raader den sunde Fornuft os at forlade dem, som elske os? Raader den sunde Fornuft os at bryde vort <w>Ægteskabs-Løfte</w>?</p>
+					</sp>
+					<pb ed="A" n="J1v" facs="J1v"/>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Du est en <seg type="komm" target="J1v-2"/>Taadse mit Barn! og veed ikke hvad den sunde Fornuft er; thi havde du vidst hvad den sunde <app type="tc"><lem wit="B">Fornuft</lem><rdg wit="A">Fornunft</rdg></app> var, saa havde du imod den sunde Fornuft ikke været uvidende i den sunde Fornuft, nemlig, at jo vanskeligere Veyen er, jo behageligere er det at komme til Maalet, saa havde du vidst, at Vinteren er ikke angenem, uden efter Foraaret, saa havde du vidst, at det er bedre at <seg type="komm" target="J1v-8"/>klyve udi Træet, end at klyve paa den <seg type="komm" target="J1v-8b"/>slette Jord.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Men hvad Pokker vil da alt dette sige?</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Hør Colombine. Jeg skal strax hielpe dig af Drømmen. Da jeg kom tilbage fra Landet, fant jeg min Herre Leander <seg type="komm" target="J1v-13"/>fast <seg type="komm" target="J1v-14"/>daarekiiste forliebt, og det udi en Person som han aldrig har seet.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Det gaaer over min Forstand.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jeg troer det nok Colombine! Det er just Ulykken, at du har saadan <w>Hønse-For<pb ed="SS" n="502"/>stand</w>. Havde du vist at stille dig an som samme Dame, havde min Kierlighed været ligesaa heftig.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Hvorledes fører hun sig da op?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Den første Uge fik han allene Lov at tale med hende langt fra, den anden Uge at see hende bag til, den 3die Uge for til; men alt under Maske. Og er han endnu ey efter stor bevist Troeskab og Bestandighed tilladt at kysse paa hendes Haand. Dette er noget andet end vil du have mig? Ja nok; thi saaledes frier umælende Bester til hinanden, og derfore leve udi Ægteskab sammen som Hund og Kat. Ney Kierlighed skal gaae frem <w>grad-viis</w>, saa varer den længst. Det Træ som vi plukker af Frugten. Ney jeg vil sige, den pluk som vi Fructer af – – ey nu kand jeg ikke hitte paa det igien: Med et Ord at sige Colombine, der blir intet af noget Ægteskab mellem os! thi jeg vil have en der kand giøre mig ligesaa forliebt, som denne Usynlige har giort min Herre.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Fattes der ikke andet? Saa skal jeg gierne giøre mig usynlig en heel Maaned.</p>
+					</sp>
+					<pb ed="A" n="J2r" facs="J2r"/>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Det hielper nu ikke om du giorde dig usynlig hundrede Aar; thi nu veed jeg, at du giør det allene af <seg type="komm" target="J2r-3"/>Coqveterie. Adieu Colombine! Hils dine Forældre.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act1sc5" n="Scene 5">
+					<head>Scen. 5.</head>
+					<stage>Colombine, Magdelone.</stage>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Ach jeg elendige Menniske, der skal see min Troeskab saa ilde belønned.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>See, est du her allene Colombine? har du <seg type="komm" target="J2r-11"/>vel talet med din Kiæreste, nyeligen?</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Jo disvær! jeg har talet med den Forræder.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Hvad nu!</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Ach Magdelone! mit Hierte vil briste af Forbittrelse, naar jeg tænker paa, hvorledes han tog imod mig.</p>
+					</sp>
+					<pb ed="SS" n="503"/>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Hvordan da? Fortæl mig noget <app type="tc"><lem><corr resp="ed">derom.</corr></lem><rdg wit="A">derom</rdg></app></p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Hand sagde, at han ingen Kiærlighed kunde bære til mig, efterdi jeg saa let havde ladet mig overtale til at elske ham. Han vil efter sin Herres Exempel frie <seg type="komm" target="J2r-25"/>paa Romansk.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Hvordan er det at frie paa Romansk?</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Det er at hans <seg type="komm" target="J2r-29"/>Maitresse skulle stille sig haard og <seg type="komm" target="J2r-29b"/>indgetogen an mod ham, alle Tider være masqvered, og ikke tilstede ham at see sit Ansigt, førend <w>Bryllups-Dagen</w> kommer.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Hvorfor vil han have hende saadan?</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Han siger, at saadan Opførsel lægger grundvold til en <seg type="komm" target="J2r-35"/>ret brændende Kierlighed, hvorpaa han har seet Prøve udi hans Herre. Ach jeg elendige Menniske! jeg kand ikke leve, uden jeg faaer Hevn paa ham.</p>
+					</sp>
+					<pb ed="A" n="J2v" facs="J2v"/>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Giv dig tilfreds mit Barn, jeg skal nok skaffe dig Hevn. Jeg skal komme Karlen til at krybe til Kaarset.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Hvorledes Magdelone?</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Kom hiem med mig, saa skal vi <seg type="komm" target="J2v-7"/>overlegge Sagen.</p>
+					</sp>
+				</div>
+			</div>
+			<div type="act" xml:id="act2" n="Anden akt">
+				<head><hi rend="ant">Actus II.</hi></head>
+				<div type="scene" xml:id="act2sc1" n="Scene 1">
+					<head><hi rend="ant">Scen. 1.</hi></head>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Nu maa jeg <seg type="komm" target="J2v-11"/>gaae mine Sager an paa en anden maade, og træde i min Herres Fodspor, for at nyde den Sødhed, som man finder at jage efter Vildt. Denne Spadsergang her skal være min <w>Vild-Bane</w>, skiønt her plejer ogsaa at komme tamme Dyr, men dem gaaer jeg forbi; alt hvad som <app type="tc"><lem><corr resp="Rahbek">Colombiniserer</corr></lem><rdg wit="A B">Comlombiniserer</rdg><rdg resp="Rahbek">colombiniserer</rdg></app>, og løber efter mig, det vender <pb ed="SS" n="504"/>jeg Ryg, og alt hvad som vender mig Ryg, løber jeg efter. Jeg maa gaae lidt længer ind udi Alleerne der <seg type="komm" target="J2v-18"/>sporrer jeg nok nogle op. Men seer jeg ikke der et Fruentimmer som er <seg type="komm" target="J2v-19"/>bedekt. Ach Himmel! jeg er alt <seg type="komm" target="J2v-20"/>slagen; thi hun seer vild ud som en <seg type="komm" target="J2v-20b"/><w>Skov-Kat</w>. Gaaer hun saa allene skiønne Jomfru?</p>
+					</sp>
+					<sp>
+						<speaker>Den <w>U-synlige</w>.</speaker>
+						<p>Jeg elsker Eenlighed, <seg type="komm" target="J2v-23"/>Cavallier!</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Jeg er ogsaa for Eenlighed skiønne Jomfrue! men jeg kand ikke nægte, at, naar jeg har den Lykke at treffe saadan <seg type="komm" target="J2v-26"/>angenem Person, jeg jo da faaer Lyst at <seg type="komm" target="J2v-27"/>engrassere mig.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvorledes kand I dømme om de Ting, Cavallier! som I ikke har seet.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Det er sant. Jeg har ikke seet hende, men hendes Nærværelses <seg type="komm" target="J2v-33"/>Tønder har anstukket mit Hiertens <seg type="komm" target="J2v-33b"/>Svovelstikker, og sat mit hele Legeme udi saadan Ildebrand, som hele <seg type="komm" target="J2v-34"/>Pebling Søes <w>iis-kiølende</w> Vande ikke kand udslukke; Ja, det som <pb ed="A" n="J3r" facs="J3r"/>meere er, det heele Oceanus, som Poeterne tilskrive den Kraft at – – kort sagt; jeg vil være en Carnalli om hun ikke er et af de allerskiønneste Mennisker paa Jorden. Det maa jeg forstaae.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvad min Skabning er angaaende, da maa jeg være fornøyet med Himlens Gave.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Men allerskiønneste Usynlighed! hvortil tiener Deylighed, naar den altid skal ligge skiuled under en maske. <seg type="komm" target="J3r-10"/>Tilsted hendes forliebte <seg type="komm" target="J3r-11"/>Serviteur og <seg type="komm" target="J3r-11b"/><hi rend="ant">tres humble valet</hi> at nyde en liden Glimt af hendes Ansigts Sol.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hold inde med saadan Begiering, Cavalier, det strider mod al <seg type="komm" target="J3r-15"/>Modestighed at forlange saadant af en Dame udi allerførste Conversation.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Forlad mig allerskiønneste Usynlighed, min Dristighed; men maa da hendes forliebte troe Tiener ikke nyde den Lyksalighed at kysse paa hendes <w>snee-hvide</w> Haand?</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ey min Herre! jeg undres over, at han understaaer sig at begiære <seg type="komm" target="J3r-23"/>slige Ting. Jeg vilde heller døe, end tillade en fremmed Cavalier saadan Frihed. Ney, her vil meer Opvartning giøres, flere Suk udøses og længer Tid <seg type="komm" target="J3r-25"/>opbies, førend man kommer saa vit.</p>
+					</sp>
+					<pb ed="SS" n="505"/>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Maa jeg da ikke nyde den Lykke at see allene hendes blotte Haands <seg type="komm" target="J3r-29"/>Alebesterhed?</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ikke det heller.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Vil hun da ikke <seg type="komm" target="J3r-33"/>tee mig ringeste <w>Naades-Tegn</w>, at jeg ikke skal døe af Fortvilelse.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Forlad mig min Herre, at jeg gaar; vort Kiøns Sømmelighed tilstæder mig ikke at tale længer med ham.</p>
+					</sp>
+					<sp>
+						<stage>(Harleqvin paa Knæ 
+							
+							<app type="tc"><lem><corr resp="ed">grædende.)</corr></lem><rdg wit="A">grædende.]</rdg></app></stage>					
+						<p><pb ed="A" n="J3v" facs="J3v"/>Ach guddommelige Gudinde! <seg type="komm" target="J3v-1"/>forbarmer jer dog over jer troe Tiener, og forlad mig ikke gandske Trøstesløs.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg ønsker at det stod i min Magt at trøste ham.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Vist staaer det udi hendes Magt. Det koster kun at aabne hendes rosenlæbed mund for at sige et trøsteligt Ord;</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvad Ord vil I da at jeg skal sige?</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Allene at I vil kalde mig jer søde Engel, eller sige: Giv dig tilfreds min Snut, det skal blive got.</p>
+					</sp>
+					<sp>
+						<speaker>Den <app type="tc"><lem wit="B">Usynlige</lem><rdg wit="A">Usygelige</rdg></app>.</speaker>
+						<p>Ach Himmel! hvad hører jeg! Mit hele Legem skielver, og jeg er <seg type="komm" target="J3v-15"/>færdig at <seg type="komm" target="J3v-15b"/>falde af Afmagt. Ach! gid min <seg type="komm" target="J3v-15c"/>Terne var ved Haanden; der kunde ledsage mig bort.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Ach steenhiertede Deylighed! har I da ingen Samvittighed at myrde et uskyldigt Menniske, og een, som tilbeder jer som en Gudinde?</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det er langt fra, at jeg vil hans eller nogens Undergang.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Befaler I mig da at leve?</p>
+					</sp>
+					<pb ed="SS" n="506"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg har ingen Magt at befale ham noget.</p>
+					</sp>
+					<sp>
+						<speaker><stage><app type="tc"><lem><corr resp="ed">(Harleqvin</corr></lem><rdg wit="A">[Harlequin</rdg></app> <seg type="komm" target="J3v-27"/>trækkende sin Dolk, og sættende den for Brysted.)</stage></speaker>
+						<p>See da, her er et Pant paa min Kierlighed, og viid, at I er aarsag til min Død.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hold inde Ridder! Jeg befaler jer at leve. Stat op igien og fortvil ikke aldeles. Naar jeg seer videre Prøver paa jer Troeskab, skal jeg ogsaa <seg type="komm" target="J3v-34"/>accordere eder andre smaa <seg type="komm" target="J3v-34b"/>Faveurs. Alt hvad jeg kand love jer denne gang, er, at I skal om en Time finde mig staaende udi Vinduet af dette Huus. Adieu saa længe.</p>
+						<stage><app type="tc"><lem><corr resp="ed">(Hun</corr></lem><rdg wit="A">[Hun</rdg></app> gaar bort.)</stage>
+					</sp>
+				</div>
+				
+				<div type="scene" xml:id="act2sc2" n="Scene 2">
+					<pb ed="A" n="J4r" facs="J4r"/>
+					<head><hi rend="ant">Scen. 2.</hi></head>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Ach Himmel! det er noget andet end Colombines hverdags Kierlighed, nu føler jeg først hvad det er at være forliebt. Jeg veed ikke om det er raadeligt at aabenbare denne nye Elskov for min Herre; thi det kunde <seg type="komm" target="J4r-6"/>hende sig, at han blev forliebt i hende, og <seg type="komm" target="J4r-7"/>stak mig ud; Thi det er et af de deyligste skabte Ting paa Jorden. Ach jeg glemmer aldrig de <w>purpur-røde</w> Kinder, de <w>rosen-tegnede</w> Læber, de <app type="tc"><lem><corr resp="ed"><w>Diamant-skinnende</w></corr></lem><rdg wit="A"><w>Diamant-skinnede</w></rdg></app> Øyen, de <w>allebaster-hvide</w> hænder. Dog hvad staaer jeg her og snakker? Jeg har jo endnu intet seet deraf men min <seg type="komm" target="J4r-11"/>Geist tilsiger mig at jeg faaer alt saadant at see; thi saa snart hun sagde at hendes Modestighed ikke tillod at blotte sin Haand, var det ligesom jeg allerede havde seet hendes yndige Skabning fra Top til Taae. De Ord hold inde med saadan Begiering, Cavalier! viser at hun er en <seg type="komm" target="J4r-16"/>Venus. Ach gid den Time var forløben. Jeg maa midlertid hen at <seg type="komm" target="J4r-17"/>lave mig paa noget <seg type="komm" target="J4r-17b"/>Galanterie for at <seg type="komm" target="J4r-18"/>divertere hende uden for Vinduet.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act2sc3" n="Scene 3">
+					<head><hi rend="ant">Scen. 3.</hi></head>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Nu Leander vær ved frit Mod! din Forløsning stunder snart til. Min Usynlige har i Dag forsikret mig, at jeg snart skal nyde Fructen af min troe Bestandighed, og sat denne Ring paa min Finger, som jeg skal forvare som min Øyesteen. Men ach Himmel! hvad seer jeg der! Er det ikke min Usynliges Rivale; Den <app type="tc_var"><lem><corr resp="udg1788">samme Dame</corr></lem><rdg wit="A">same Damme</rdg><rdg wit="B">samme Damme</rdg><rdg resp="udg1788">samme Dame</rdg></app>, som lod mig <seg type="komm" target="J4r-26"/>enlevere for nogle Dage siden; skal jeg blive staaende? Ney det er best at jeg tager Flugten, for ikke at bringes udi Fristelse.</p>
+					</sp>
+				</div>
+				<pb ed="SS" n="507"/>
+				<div type="scene" xml:id="act2sc4" n="Scene 4">
+					<head><hi rend="ant">Scen. 4.</hi></head>
+					<stage>Den Usynlige uden Masqve, Leander.</stage>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Flyer I saaledes for et eensomt <app type="tc"><lem wit="B">ubevæbned</lem><rdg wit="A">ubevæbend</rdg></app> Fruentimmer?</p>
+					</sp>
+					<pb ed="A" n="J4v" facs="J4v"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Kand det Fruentimmer siges at være ubevæbned som Naturen har begavet med saadan Skiønhed.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Efterdi hand finder mig saa skiøn, hvorfor vender han mig da saa haanlig Ryggen?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Just fordi hun er saa skiøn, derfor vender jeg hende Ryg, at hendes <w>Øynes-Straaler</w> ikke skal forblinde mig, og at mit Hierte ikke skal vendes fra den som jeg engang har opoffret det til.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>I har ikke Behov at frygte for Forblindelse, min Herre, efter som en ond Skiebne har saaledes forstokket jer sind, at I foragter en, som I selv holder for at være skiøn, paa hvis Kierlighed I har seet Prøver, og hvis Rigdom og Velstand er jer bekiendt, for at hænge ved en anden, hvis Stand og Vilkor I veed intet af at sige, og hvis Skabning hun selv har givet jer Aarsag at tvile om, i det hun ikke har turt lade sig see med ubedekt Ansigt. Jeg selv er ikke mindre forblinded, I det jeg elsker den, som hader mig.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ach <app type="tc"><lem><corr resp="ed">Naadige</corr></lem><rdg wit="A">Raadige</rdg></app> Frue! jeg beder ved alt det som helligt er, at hun ikke haver de Tanker om sin ringe Tiener. Det er saa langt fra at jeg hader hende, at jeg tvert imod har haft alle mine Sinds Kræfter nødig at imodstaae de Fristelser, hendes Skiønhed og Yndighed har foraarsaget mig. Vær forsikkret om, Naadig Frue! at der er intet Menniske paa Jorden, jeg har <app type="tc"><lem wit="B">større</lem><rdg wit="A">storre</rdg></app> <seg type="komm" target="J4v-29"/>Estime for en hende, ey heller var der noget Menniske paa Jorden, jeg høyere elskede eller opoffrede heller mit Hierte til, hvis det ikke allerede var bort givet til en anden.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Saa er det da hans <seg type="komm" target="J4v-33"/>uryggelige Forsæt at elske den Usynlige.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Intet uden Døden kand skille mig fra hende. Ligesom ogsaa intet uden Døden skal betage mig den Estime, Ærbødighed og Taknemmelighed, jeg er min Naadige <pb ed="SS" n="508"/>Frue Pligtig, som jeg underdanigst beder at ville <seg type="komm" target="J4v-38"/>sætte Prøve paa mig, udi alt hvad som mig kand være mueligt, undtagen den ene Post at forlade den, som jeg saa sterkt er bunden til.</p>
+					</sp>
+					<pb ed="A" n="J5r" facs="J5r"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Nu vel an da min Herre! jeg vil da ikke friste ham meer. Jeg vil kun allene begiære en liden Gave af ham som jeg vil forvare for at have ham stedse i Erindring.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p><seg type="komm" target="J5r-6"/>Intet er saa kostbart, som jeg jo med Fornøyelse giver hende.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg forlanger intet, som er kostbart. Han maa allene give mig den Ring han bær paa sin Finger.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Det var alt for slet Gave til saadan Dame. Jeg har en langt skiønnere, som jeg vil tilbede mig den Naade at maa være i hendes eye.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det er mig ikke om Kostbarheden at giøre. See der har han <seg type="komm" target="J5r-17"/>min Ring igien, som han skal bære til min Erindring, og det er alt hvad jeg herefter skal forlange af ham.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Men Naadige Frue! denne Ring – – –</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ach Himmel! er det mueligt at han endnu tør tage i <seg type="komm" target="J5r-22"/>Tvilsmaal at nægte mig saadan ringe Ting, efter at han har forsikkret mig saa høyt om den Estime, han bar for mig.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hendes <w>U-naade</w> er mig haardere end Døden, hvorudover jeg tør ikke nægte hendes Begiæring, skiønt denne Ring er det ypperste <seg type="komm" target="J5r-28"/>Klenodie jeg haver.</p>
+						<stage>(De bytte Ringe <app type="tc"><lem><corr resp="ed">sammen.)</corr></lem><rdg wit="A">sammen.]</rdg></app></stage>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Nu gaaer jeg fornøyed bort, og vil stræbe at forglemme den Haardhed, han har ladet see imod en Person paa hvilken mange anseelige Cavaliers Øyne have været henvent.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg haaber, at saasom Himmelen har begavet hende med ligesaa stor Forstand som Skiønhed at hun tilskriver saadant heller min Troeskab mod min Forlovede end en Haardhed.</p>
+					</sp>
+					<pb ed="SS" n="509"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det vil jeg ogsaa giøre, Adieu min Herre. Jeg vil ønske at han <seg type="komm" target="J5r-40"/>stedse maa leve fornøyed med den, han saa høyt elsker.</p>
+					</sp>
+				</div>
+				
+				<div type="scene" xml:id="act2sc5" n="Scene 5">
+					<pb ed="A" n="J5v" facs="J5v"/><head><hi rend="ant">Scen. 5.</hi></head>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Mit Sind er gandske forvirred, at jeg ikke kand <seg type="komm" target="J5v-3"/>besinde mig om jeg har giort vel eller ilde, <seg type="komm" target="J5v-4"/>hvorvel naar jeg tænker mig lidt om, saa kand det ikke forsvares, at jeg haver bortgivet til et andet Fruentimmer det, som jeg har faaet til <w>Kierligheds-Pant</w> af min Kiereste. Men kunde jeg vel afslaae en Begiering til den yndigste Dame paa Jorden hvilken jeg havde <seg type="komm" target="J5v-9"/>opirret ved min Kaaldsindighed, men stillet til freds igien ved saadan Gave. Kunde jeg nægte den noget som jeg nyelig selv havde <seg type="komm" target="J5v-11"/>ombedet at begiære alt hvad <app type="tc"><lem wit="B">mueligt var,</lem><rdg wit="A">mueligt, var</rdg></app> af mig? Ney ingenlunde, dog, var det en <seg type="komm" target="J5v-12"/>muelig Ting at bortskiænke sin Kierestes Gave? burte jeg ikke have sagt hvilken Klenodie det var. Kand jeg med saadan <seg type="komm" target="J5v-14"/>Beskylding bestaae for min Kierestes Øyen. Ach Himmel! hvad haver du giordt Leander! Men jeg maa hitte paa, at den er forlagt eller at den er bortstaalen, eller at den er tagen mig fra med Magt; hvilket sidste jeg med Eed kand bekræfte; thi hvo kunde modstaae saadan Begiering? Men hvad om dette er skeed af List. Hvad om hun har giort dette allene for at sætte Splid mellem mig og min Usynlige; hvorfor skulde hun just begiære den Ring uden hun ved Spioner havde udforsket, hvorfra den var kommen? Ach Ach! jeg er forraad jeg maa løbe efter hende for med grædende <seg type="komm" target="J5v-24"/>Taare at begiære min Gave tilbage, og hvis Bøn ikke kand hielpe, maa jeg – – – –</p>
+						<stage>(Han gaaer ud i <app type="tc"><lem><corr resp="ed">Forvirrelse.)</corr></lem><rdg wit="A">Forvirrelse.]</rdg></app></stage>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act2sc6" n="Scene 6">
+					<head><hi rend="ant">Scen. 6.</hi></head>
+					<sp>
+						<speaker>Harleqin <stage>med en <seg type="komm" target="J5v-28"/>Fiol i Haanden.</stage></speaker>
+						<p><seg type="komm" target="J5v-29"/>Man siger at Poeter fødes, men det er Løgn: thi jeg har ofte <seg type="komm" target="J5v-30"/>tilforn søgt at giøre Vers, men det har aldrig villed lykkes for mig. Nu, siden jeg er bleven forliebt, regner der lutter Rim og Poetiske Indfald over mig, saa at jeg tør vove at giøre Vers <seg type="komm" target="J5v-33"/>i Kapp med den beste <seg type="komm" target="J5v-33b"/>hornet eller <seg type="komm" target="J5v-33c"/>kroned Poet; thi siden jeg forlod min Usynlige, har jeg <seg type="komm" target="J5v-34"/>med liden Umag giordt <seg type="komm" target="J5v-35"/>en temmelig hob Vers, og sat dem udi Melodie for <seg type="komm" target="J5v-35b"/>at siunge <pb ed="A" n="J6r" facs="J6r"/>dem uden for min Kiærestes Vinduer; Til <seg type="komm" target="J6r-1"/>den Ende har jeg taget den <seg type="komm" target="J6r-2"/>Luth med mig, for at giøre min Røst des behageligere. Jeg er ikke synderlig sterk udi Instrumental Musik, det er vist, men Røsten og Poesien skal bøde paa hvad som derudi <seg type="komm" target="J6r-5"/>fattes. Nu maa jeg stemme <pb ed="SS" n="510"/>min Luth først, og siden liste mig under Vinduerne. Kling, kling, kling, kling. Ach jeg elendige Menniske, der sprang <seg type="komm" target="J6r-7"/>Qvinten. Men jeg maa forsøge at spille paa 3 Strenge.</p>
+						<stage>(Han strygger paa Fiolen og mumler sagte sin Vise <seg type="komm" target="J6r-9"/>derhos)</stage>
+						<p>Det gaaer an. Jeg merker at der er meget i Verden, som man ret vel kand undvære, og som tiener kun til Overflød; saa at det er kun Pedanterie at sige: Man kand ikke stryge uden Qvint. Hør engang, hvor denne <w>Qvinte-løse</w> Luth lar sig strygge.</p>
+						<stage><app type="tc"><lem><corr resp="ed">(Han</corr></lem><rdg wit="A">[Han</rdg></app> stryger og mumler igien.)</stage>
+						<p><seg type="komm" target="J6r-16"/>Gid jeg faae skam om jeg min livs Tid har strøyet bedre. Jeg troer Kierlighed giør ogsaa Spillemænd saa vel som den giør Poeter; thi min <w>Instrumental-Musiqve</w> gaaer snart ligesaa <app type="tc"><lem wit="B">vel som</lem><rdg wit="A">velsom</rdg></app> min <seg type="komm" target="J6r-19"/>Vocal. Ach! hvor min Usynlige vil blive fornøjed, naar hun hører mig siunge, og spille paa engang. Nu maa jeg derhen.</p>
+						<stage>(<seg type="komm" target="J6r-22"/>Han synger og <app type="tc"><lem><corr resp="ed">Spiller.)</corr></lem><rdg wit="A">Spiller.]</rdg></app></stage>
+						<lg>
+							<l>Guddommelige Usynlighed,</l>
+							<l>Jeg elsker dig <seg type="komm" target="J6r-24"/>med stor Beskeed,</l>
+							<l>Din Deilighed har giort mig til Træl</l>
+							<l>Saa jeg er færdig at døe af Kierlighed, det svær jeg paa min Siæl,</l>
+						</lg>
+						<lg>
+							<l>Du har mig udi Lenke</l>
+							<l>Det <seg type="komm" target="J6r-28"/>svær jeg uden <seg type="komm" target="J6r-28b"/>Rænke,</l>
+							<l>Og uden <seg type="komm" target="J6r-29"/>Argelist.</l>
+							<l>Gid jeg faae skam er det ikke vist.</l>
+						</lg>
+						<lg>
+							<l>Dit ansigts <w>giennem-trængende</w> Straaler</l>
+							<l>Mit Sind, mine Sandse bedaarer.</l>
+							<l>Lev vel min søde Pindsvin</l>
+							<l>Det ønsker Harleqvin.</l>
+						</lg>
+						<lg>
+							<l>Det Harleqvin han ønsker,</l>
+							<l>Af Hiertens Grund <seg type="komm" target="J6r-36"/>udpønsker</l>
+							<l>Lev vel min søde Pindsvin.</l>
+							<l>Det ønsker Arleqvin.</l>
+						</lg>						
+						<lg>
+							<l><pb ed="A" n="J6v" facs="J6v"/>Lev vel min <seg type="komm" target="J6v-1"/><w>Balsom-bysse</w>,</l>
+							<l>Tilsted mig dig at kysse,</l>
+							<l>Lev vel min søde Pindsvin,</l>
+							<l>Det ønsker din indtil Døden <seg type="komm" target="J6v-4"/><hi rend="ant">votre tres humble</hi> Servitör Harleqvin.</l>
+						</lg>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hand skal have tak for hans Serenade! Jeg vilde ønske at mig maatte <seg type="komm" target="J6v-8"/>meddeles en Copie af de Vers.</p>
+					</sp>
+					<pb ed="SS" n="511"/>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ach min allerskiønneste Usynlighed! Hun giør mig en stor Ære at hun begiærer en Copie af min Hiernes Foster.</p>
+					</sp>
+					
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvad! er det <seg type="komm" target="J6v-13"/>hans eget Hiernes Foster! Det maa jeg bekiende. Han har en <seg type="komm" target="J6v-14"/>ret Poetisk <seg type="komm" target="J6v-14b"/>Geist.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Min Geist er af Naturen ikke saa stor at den kunde bringe noget synderligt frem. Men jeg maa takke min Læremester for saadant.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Af hvem har han da lærdt denne himmelske Kunst!</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Af den store Poet <seg type="komm" target="J6v-22"/>Cupido.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Af Cupido! Jeg meente ellers at <seg type="komm" target="J6v-24"/>Apollo var den beste Lærer.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Hendes Ord i Æren, min deylige Venus! Apollo er kun en <seg type="komm" target="J6v-28"/>Sinkelectie Karl mod Cupido i at giøre Vers. Jeg har aldrig kundet giøre Vers <seg type="komm" target="J6v-29"/>tilforn, førend jeg havde den Ære at <seg type="komm" target="J6v-30"/>komme i Kundskab med Cupido. Men, saa snart jeg blev saared af hans <seg type="komm" target="J6v-31"/><w>Musqvet-Kugler</w>, kom den Poetiske Geist over mig.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvo der haver været hans Læremester, enten det er Apollo eller Cupido, saa maa man tilstaae at han er Poet.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det staaer mig ikke an at roese mig selv eller mit Arbeyde, <pb ed="A" n="J7r" facs="J7r"/>men der ere dog visse Indfald udi denne Viise, som ere <seg type="komm" target="J7r-1"/>uforligelige.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det er intet vissere. <seg type="komm" target="J7r-4"/>Besynderligen den Strophe, som er <seg type="komm" target="J7r-5"/>nest den sidste, hvilken jeg beder Tienstligst, at han vil repetere for mig; thi der er noget derudi, som er mig <seg type="komm" target="J7r-6"/>forhøyt.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Hiertelig gierne.</p>
+						<stage><app type="tc"><lem><corr resp="ed">(han</corr></lem><rdg wit="A">[han</rdg></app> spiller og synger.)</stage>
+						<lg>
+							<l>Det Harleqvin han ønsker.</l>
+							<l>Af Hiertents Grund udpønsker.</l>
+						</lg>
+					</sp>
+					<pb ed="SS" n="512"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hold lidt om han behager. Jeg fatter ikke hvad det Ord udpøndsker vil sige.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det vil ikke meget sige udi <seg type="komm" target="J7r-16"/>solut Stiil, men udi Vers er det et kostbart Ord.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvad vil det da betyde udi Vers?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det saa vel som mange andre Ord betyde intet, naar de ere allene, men naar man lægger det til Ønsker, er det af stor Betydelse, og bliver et fuldkomment Riim. Hvis ikke <seg type="komm" target="J7r-23"/>slige Ord vare, forgik i en Hast toe tredie deler af den Poetiske Verden.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det maa saa være. Jeg formoder ellers, at han holder sit Løfte, og lader mig faae en Copie.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Det skal skee med Fornøyelse; men allerskiønneste Usynlighed! gir hun mig ellers ingen Fortrøstning at jeg snart maa faae hendes Ansigtes Sool at see?</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Alt hvad jeg kand trøste ham med denne gang, er at han i den store Allee skal finde mig igien om et par Timer.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Men maa jeg denne gang ikke nyde hendes <seg type="komm" target="J7r-36"/>Omgængelse længer. Vil hun ikke tilstede mig at jeg maa <seg type="komm" target="J7r-37"/>trine op til hende.</p>
+					</sp>
+					<pb ed="A" n="J7v" facs="J7v"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ach Himmel! hvad hører jeg Cavalier. Jeg vilde heller døe end tilstæde ham saadan Frihed. <seg type="komm" target="J7v-3"/>Stat fra saadan <seg type="komm" target="J7v-3b"/>Prætension, om han ellers ikke aldeles vil forspilde min Gunst. Det er endnu fortilig; men vær forsikred om, at I skal ikke tilbede mig forgiæves, og at jer troe Tieneste skal ikke blive ubelønned. Adieu Cavalier! og lad jer nøye med denne Faveur denne gang.</p>
+						<stage>(Hun lukker Vinduet.)</stage>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Ach! jeg er færdig at revne af Kierlighed; faar jeg ikke hendes Ansigt at see ved første lovede Sammenkomst, døer jeg af Utaalmodighed.</p>
+					</sp>
+				</div>
+			</div>
+			
+			<div type="act" xml:id="act3" n="Tredje akt">
+				<pb ed="SS" n="513"/>
+				<head><hi rend="ant"><app type="tc"><lem><corr resp="ed">Actus</corr></lem><rdg wit="A">Actus.</rdg></app> III.</hi></head>
+				<div type="scene" xml:id="act3sc1" n="Scene 1">
+					<head><hi rend="ant">Scen. 1.</hi></head>
+					<stage>Harleqvin, den Usynlige.</stage>
+					<sp>
+						<p>Ach disse to Timer har været mig 2 <seg type="komm" target="J7v-17"/>Dievels Timer. Og jeg merker endnu, at de ere ikke forløbne, eftersom jeg ikke seer min Skat. Ach I Træer! I Kaalstokke! I <seg type="komm" target="J7v-19"/>Græsbænke! I <seg type="komm" target="J7v-20"/>grønne Urter og <seg type="komm" target="J7v-20b"/>Aspares, <seg type="komm" target="J7v-20c"/>siger mig om min Sool snart oprinder. Men de dumme Hunde svarer ikke et Ord. Ach I Skyer, I Vinde. Bringer mine Sukke til – – – Men der seer jeg noget imellem Træerne. Mon det ikke er hende? Jo vist, giv dig tilfreds Cavalier! Harleqvin du est oven paa.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Har disse to Timer faldet ham lange?</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Ach min himmelske <seg type="komm" target="J7v-28"/>Nymphe! det har været to fordømte Timer for mig; thi jeg vil være en <seg type="komm" target="J7v-29"/>Canaile om – – –</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvor kand han komme til at bruge slige <seg type="komm" target="J7v-31"/>gemene <seg type="komm" target="J7v-31b"/>Expressioner min Cavalier!</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Jeg beder om Forladelse, min Jomfru, jeg fortalede mig. Jeg vilde sige <seg type="komm" target="J7v-35"/><hi rend="ant">Diable me ferme la porte</hi> om disse to Timer ikke har været en Ævighed for mig. Jeg har ikke <seg type="komm" target="J7v-36"/>vist hvordan jeg skulde fordrive den Tid. <seg type="komm" target="J7v-37"/>Nu har jeg taget fat paa <pb ed="A" n="J8r" facs="J8r"/>min Luth, nu har jeg forsøgt at giøre Vers, for at <seg type="komm" target="J8r-1"/>forslaae Tankerne; men alt forgiæves; Thi hun, min søde Smørblomster har altid staaet mig for Øyene.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ey min Herre, det Ord Smørblomster er meget gement, og skurrer i mine Øren. Men apropos. Han lovede mig et <seg type="komm" target="J8r-7"/>Udskrift af sit poetiske Vers.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Jeg har bragt det med mig for at overlevere det udi hendes Elphenbeens Hænder.</p>
+					</sp>
+					<sp>
+						<speaker>Den <w>U-synlige</w>.</speaker>
+						<p>Jeg takker skyldigst.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Men min yndigste Rose! Vil hun ikke endnu vederqvæge mit Hierte med hendes <w>Sol-skinnende</w> Ansigts Blottelse.</p>
+					</sp>
+					<pb ed="SS" n="514"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det er endnu for stor Faveur Cavalier!</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Maa jeg da ikke see hendes <seg type="komm" target="J8r-19"/>blotte <seg type="komm" target="J8r-19b"/>Atlaskes Hænder.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg beder, at han vil slaae sig til Roelighed. Han kand forderve alting ved sin Utaalmodighed. Alt hvad jeg denne gang kand giøre ham til Faveur, er at vise ham en Ende af min lille Finger, en Lykke som ingen Mands Person endnu er <seg type="komm" target="J8r-25"/>vederfared – – – Men ach Himmel! Der hører jeg nogen komme: Jeg maa gaae. Om en Time skal han finde mig her igien.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc2" n="Scene 2">
+					<head><hi rend="ant">Scen. 2.</hi></head>
+					<stage>Leander, Harleqvin.</stage>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ach! Ach! jeg er forraad, <seg type="komm" target="J8r-31"/>hvor vil jeg <seg type="komm" target="J8r-31b"/>bestaae for min Usynlige? Naar hun spør mig om sin Gave. Men der seer jeg Harleqvin, han er gandske henrykt. Hvad bestiller du her?</p>
+					</sp>
+					<sp>
+						<speaker><stage><app type="tc"><lem><corr resp="ed">(Harleqvin</corr></lem><rdg wit="A">[Harleqvin</rdg></app> stirrende paa <app type="tc"><lem><corr resp="ed">Jorden.)</corr></lem><rdg wit="A">Jorden.]</rdg></app></stage></speaker>
+						<p>Ach hvilken deylig proportionered Finger.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvad pokker gaar af dig Harleqvin? </p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Har en halv Finger kundet giort mig saadan Skade, hvad vil det andet, som er meer solide, ikke giøre.</p>
+					</sp>
+					<pb ed="A" n="J8v" facs="J8v"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvad har giort dig Skade?</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Ach skiønne Venus! Vil hun da <seg type="komm" target="J8v-4"/>qvæle mig – – –  Men see Herre! er det han?</p>
+					</sp>
+					<sp>
+						<speaker>Leand.</speaker>
+						<p>Hvad er det du staaer og snakker med dig selv?</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Jeg beder Herren ikke vil <seg type="komm" target="J8v-9"/>fortryde paa, at jeg er bleven ligesaa gal som han.</p>
+					</sp>
+					<pb ed="SS" n="515"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvilken Compliment er det?</p>
+					</sp>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Det er at sige, jeg er bleven paa samme Maade forliebt, som Herren.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>I hvem?</p>
+					</sp>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Udi Foraaret, som er behageligt efter Vinteren.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvilken <w>Pølse-Snak</w>?</p>
+					</sp>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Alt hvad fattig Folk taler, det er <w>Pølse-Snak</w>, men – – –</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg kand sværge paa, at jeg ikke fatter noget af alt det du siger.</p>
+					</sp>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Jeg har ey heller sagt noget i den <seg type="komm" target="J8v-28"/>Henseende, at hand skulde fatte det. Hvorfor skal hand begribe meer mit Frierie end jeg hans?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Men hvem er det du frier til?</p>
+					</sp>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Jeg kand blive gall over saadanne Spørsmaal. Veed jeg hvem jeg frier til? naar jeg frier paa samme Maade som Herren. Den jeg frier til, er lige saa <seg type="komm" target="J8v-36"/>peen som den anden, Herren frier til. Jeg tør ikke beskrive hende ret; thi jeg er bange at Herren skal <seg type="komm" target="J8v-38"/>stikke mig ud.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Er hun da saa skiøn?</p>
+					</sp>
+					<pb ed="A" n="K1r" facs="K1r"/>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Intet Dyr er nogen tid løben af Naturens <seg type="komm" target="K1r-2"/>Bankestok, som er meer fuldkommen udi Skabning. Venus er, <seg type="komm" target="K1r-3"/>gid jeg faae skam, kun en Maren Amme mod hende.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Beskriv mig hende da tydelig, saa skal jeg sige dig om du tar fejl; thi jeg er bedre Kiender end du.</p>
+					</sp>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Først hvad Ansigtet <seg type="komm" target="K1r-9"/>betreffer, det har jeg <seg type="komm" target="K1r-9b"/>endelig ikke seet; men – – –</p>
+					</sp>
+					<pb ed="SS" n="516"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvad har du da seet? Hendes Hals, Bryst eller Hænder.</p>
+					</sp>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Ingen af Delene; men nok er det, at hun er det dejligste Menniske paa Jorden; thi hvordan skulde jeg ellers blive saa forliebt?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg hører nok hvor hen din Tale sigter. Du vil bebreide mig, at jeg frier udi blinde; men <seg type="komm" target="K1r-19"/>tøv lit korn, saa skal du strax see, at jeg ikke har taget fejl.</p>
+					</sp>
+					<sp>
+						<speaker>Arleq.</speaker>
+						<p>Jeg vil ogsaa bede, at Herren vil være <seg type="komm" target="K1r-22"/>overværende, naar min Usynlige tar Masken af, saa skal hand ogsaa see, at jeg ikke har taget fejl.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Saa giør du ogsaa Cour til en masqveret Person? det er noget <w>u-sædvanlig</w> for en gemeen Tiener. Men, Arleqvin! jeg har haft en stor Ulykke siden jeg talede med dig; thi den Ring, som – – – Men der seer jeg min Usynlige komme. Staae still udi en Krog, for at see an Udfaldet.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc3" n="Scene 3">
+					<head><hi rend="ant">Scen. 3.</hi></head>
+					<stage>Den Usynlige. Leander. Arleqvin.</stage>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>I seer, min Herre! at jeg <seg type="komm" target="K1r-34"/>fremturer udi at holde mit Løfte, og at jeg aldrig <seg type="komm" target="K1r-35"/>manqverer noget Minut udi Tiden, som jeg berammer til Sammenkomst, saa at hand kand <seg type="komm" target="K1r-36"/>giøre sin Regning <pb ed="A" n="K1v" facs="K1v"/>af den <hi rend="ant">Accuratesse</hi> jeg har viset udi de smaa <hi rend="ant">Faveurs</hi>, at jeg ogsaa vil være ordholdig udi det som er meere vigtigt.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg er saa forsikred, Madame! om min Lyksalighed, og, om en riig Troeskabs Belønning, at jeg udi det Haab har imodstaaet alle Fristelser.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Men kand hand forvisse mig om, at den skiønne Dame, som bær den hæftige Kiærlighed til ham, ikke har opvakt mindste Elskovs Gnist hos ham; men at hand har kundet modstaa hendes <seg type="komm" target="K1v-11"/>Ansøgning uden Anfægtelse?</p>
+					</sp>
+					<pb ed="SS" n="517"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg kand ikke negte, at samme Dames store Skiønhed og Yndighed giorde jo i Begyndelsen stor <seg type="komm" target="K1v-14"/><hi rend="ant">Impression</hi> udi mit Hierte, og at jeg aldrig havde kundet modstaa den Fristelse, som saadant syntes at ville styrte mig udi, hvis den Troskab, jeg er hende skyldig, og hvis den store Kiærlighed jeg bær til hende ikke havde styrket mig. Jeg haaber ellers, at de Eventyr ikke har opvakt mindste <hi rend="ant">Jalousie</hi> hos hende, Madame; thi, hvis saa er, giør hun sin tro Tiener <w>u-ret</w>, som ved dyreste Eeder tør forsikre, at, hvor stor Dejlighed, <seg type="komm" target="K1v-21"/><app type="tc"><lem><corr resp="Rahbek">han</corr></lem><rdg wit="A B">hun</rdg><rdg resp="Rahbek">han</rdg></app> har fundet hos samme Fruentimmer, den dog ikke har giordt mindste Skaar udi hans første Kiærlighed; men at hand er rede indtil at hade den synlige Skiønhed, for at behage den usynlige.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg troer <seg type="komm" target="K1v-26"/>ufejlbar, min Herre, at hand elsker mig af Hiertet, saa vit det er mueligt, for en vankelmodig Siæl.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ach Himmel! er det mueligt, at jeg skal høre saadan Bebreidelse efter saa store Udviiste Troskabs Prøver.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin <stage>(sagte.)</stage></speaker>
+						<p>Hillement! Hun begynder at faa <seg type="komm" target="K1v-32"/>Skruller i Hovedet; vil det gaae ligesaa til med min Usynlige, saa er jeg <seg type="komm" target="K1v-33"/>ikke ilde opskiørtet.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg har aldrig haft i Sinde at bebreide ham noget, <seg type="komm" target="K1v-36"/>endskiønt jeg vidste at een eller anden Vankelmodighed kunde være ham overkommen; thi jeg veed hvad et Menniske er, og hvor mange Skrøbeligheder det er underkasted; men, efter <pb ed="A" n="K2r" facs="K2r"/>som hand taler om sin Kiærlighed udi saadan høy Grad, da kand jeg ikke forbi gaae at sige ham en Ting, som har foraarsaget en liden <w>U-roelighed</w> hos mig, og forestille ham en Beskyldning, som jeg haaber strax hand skal kunde bevise at være falsk.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvis nogen kand overbevise mig udi ringeste Maade, at have givet hende Anledning til Mistanke, vil jeg selv dømme mig uværdig hendes <seg type="komm" target="K2r-9"/><hi rend="ant">Affection</hi>.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hand kand strax <seg type="komm" target="K2r-11"/>løse Knuden ved at vise mig den Ring jeg nyelig forærede ham.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ach himmel! jeg er forraad.</p>
+						<stage>Falder paa Knæ.</stage>						
+						<p><pb ed="SS" n="518"/>Jeg bekiender reent ud, Madame! at den Ring, som hun gav mig, er ikke alleneste bortkommen men endogsaa, at jeg selv har givet den bort, hvorved jeg ogsaa gierne tilstaaer at have fortient hendes <w>U-gunst</w>; men, naar hun hører Maaden, paa hvilken det er skeed, haaber jeg, at hendes Vrede vil blive <seg type="komm" target="K2r-21"/>stilled igien. Den Dame, som længe har forfuldt mig, kom hid for nogle Timer siden, hvor jeg var alleene, <seg type="komm" target="K2r-23"/>forekastede mig min <seg type="komm" target="K2r-23b"/>Koldsindighed, og <w>U-taknemmelighed</w>, og brugte alle optænkelige Midler til at <app type="tc"><lem><corr resp="ed">vende</corr></lem><rdg wit="A">veude</rdg></app> mit Hierte fra min Usynlige, men alt forgiæves; thi jeg <seg type="komm" target="K2r-25"/>contesterede heller at ville døe, end bryde mit Løfte; hvilket, da hun hørdte, og fornam, at jeg ingenlunde var til at overvinde, begiærede hun en liden Gave af mig, som hun vilde forvare til min Erindring. Kunde jeg vel negte hende saadant? <seg type="komm" target="K2r-29"/>Endeel, for ikke at <seg type="komm" target="K2r-30"/>passere for grov, <w>u-pollered</w> og <w>u-takenemmelig</w>; endeel ogsaa, for at komme derved udaf hendes <seg type="komm" target="K2r-31"/>Strikker. Jeg sagde strax derpaa, uden Betænkning, at hun frit kunde befale mig at give saadan Foræring, som hun forlangede; hvorpaa hun tog mig paa mine Ord, begiærede det, som, jeg mindst tænkte paa, betiente sig af min Forvirrelse, og tog Ringen af min Finger. Jeg kunde ikke <seg type="komm" target="K2r-36"/>sandse efter, <seg type="komm" target="K2r-36b"/>med hvilken Klenodie hun havde skillet mig, førend hun var borte, da betragtede jeg først min <seg type="komm" target="K2r-38"/>daarlige Gierning, da optændtes hos mig saadan Vrede, at jeg løb, for at <seg type="komm" target="K2r-39"/>oplede hende, udi fuld Forsæt <pb ed="A" n="K2v" facs="K2v"/>enten at døe, eller at rive hende Byttet af Hænderne; men disvær! – – –</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Min Herre! all denne Undskyldning kand ikke betage den Mistanke jeg har fattet.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Kand saadan Undskyldning ikke frikiende mig, saa skal mit Lif, mit Blod udslette ald Mistanke.</p>
+						<stage>Hand trækker sin Kaarde.</stage>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hold inde, min Herre! Det er nok spilled. Her seer I Ringen, og her seer I jer Kiæreste og hendes <seg type="komm" target="K2v-12"/>Rivale tillige med.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ach Himmel! Hvad seer jeg? Er hun den selv samme Person?</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ja, min allerkiæreste Leander! jeg har spilled <seg type="komm" target="K2v-18"/><app type="tc"><lem><corr resp="Rahbek">tvende</corr></lem><rdg wit="A B">trende</rdg><rdg resp="Rahbek">tvende</rdg></app> Personer, for at sætte Prøve paa hans Troskab mod mig, om hvilken, <seg type="komm" target="K2v-20"/>saasom jeg nu fuldkommen er forsikred, saa staar intet tilbage, at hand jo strax maa nyde Fructen af sin <seg type="komm" target="K2v-21"/>Bestandighed. Staa op, og lad mig omfavne jer.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Ach min Glæde er saa stor, at jeg ikke veed enten jeg drømmer eller er vaagende.</p>
+						<stage>De omfavner hverandre.</stage>
+					</sp>
+					<pb ed="SS" n="519"/>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Ach hvilket dejligt Menniske! næst min Usynlige, kand der ingen større Skiønhed være paa Jorden.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Hvad synes dig, Arleqvin! har jeg haft saa stor Taalmodighed forgiæves?</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Ney Herre! I har skudt Papegoyen. Jer Troskab er bleven rigelig belønned. I er, næst mig, den lykkeligste Mand paa Jorden.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg vil ønske dig et ligesaa glædeligt Udfald; thi du est en gammel tro Tiener.</p>
+					</sp>
+					<pb ed="A" n="K3r" facs="K3r"/>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Jeg tviler, <seg type="komm" target="K3r-2"/>faa jeg skam, ikke paa Udfaldet. Herren skal ellers have Tak for sit Ønske.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Men allerkiæreste Leander! <seg type="komm" target="K3r-5"/>lar os gaae hen, og sammenkalde vore Venner paa begge Sider, for at komme til en ønskelig Ende.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc4" n="Scene 4">
+					<head><hi rend="ant">Scen. 4.</hi></head>
+					<stage>Arleqvin. Den anden Usynlige.</stage>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Det maa koste hvad det koste vil, saa vil jeg have en Ende herpaa denne Aften; thi min Herres Lyksalighed har saaledes ophidset mit Blod, at, hvis jeg ikke overtaler hende denne gang, at tage Masken af, <seg type="komm" target="K3r-14"/>omkommer jeg mig selv. Men der seer jeg hun kommer.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg priser hans <seg type="komm" target="K3r-17"/><hi rend="ant">Accuratesse</hi>, at møde til <seg type="komm" target="K3r-17b"/>bestævnte Tid og Time; men mig synes, at hand seer noget forvirred ud.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Hun har ret. Jeg har ey heller nogen tid været saa forvirret i mit Sind.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det giør mig ont; men hvad kand være Aarsag dertil?</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>En anden Beilers Lyksalighed; thi hans Usynlige har nu <seg type="komm" target="K3r-26"/>nyligen givet sig tilkiende, og viiset, at under hendes Maske laae skiulet et Ansigt, og en Skabning, hvorved hans <pb ed="SS" n="520"/>lange tro Tieneste er bleven rigelig belønned. Og, <seg type="komm" target="K3r-28"/>som jeg selv har anseet alt saadant, har Kiærlighed taget saadan Overhaand hos mig, at all min Taalmodighed <seg type="komm" target="K3r-30"/>er mig forgaaed.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Bliv kun ved at elske, og at give Prøver paa jer Bestandighed efter samme Persons Exempel, saa skal I høste lige saa søde Frugter.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Men, min Gudinde! frist mig ikke <seg type="komm" target="K3r-36"/>over min Formue.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det være langt fra, at jeg vil friste ham over hans Formue.</p>
+					</sp>
+					<pb ed="A" n="K3v" facs="K3v"/>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Men naar vil hun da giøre mig lykkelig?</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Med Tid og Stunder. Bliv kun ved at haabe.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.<stage>paa Knæ.</stage></speaker>
+						<p>Ach min deilige Usynlighed! Hvis hendes Usynlighed ikke i Dag bliver forvandled Til Synlighed, døer jeg af Utaalmodighed.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hvad? skulde jeg give mig tilkiende, saa hastig? ney, Cavalier! her vil meer til.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Jeg tar Lived af mig selv, <seg type="komm" target="K3v-13"/>hvis jeg ikke faar en naadig Bønhøring.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Det strider jo mod all Ærbarhed.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Strider det mod all Ærbarhed, at redde en tro Beilers <seg type="komm" target="K3v-17"/>Lif? </p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ney, det strider mod Ærbarhed af en Dame af min <seg type="komm" target="K3v-20"/><hi rend="ant">Qvalité</hi> at <seg type="komm" target="K3v-21"/>slaa Chamade ved Første Anfald.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin <stage>trækkende sin Dolk.</stage></speaker>
+						<p>Jeg merker da at hun har lyst at see mit Blod <seg type="komm" target="K3v-23"/>rinde. Ach hun er Aarsag til min Død.</p>
+					</sp>
+					<pb ed="SS" n="521"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Jeg Haaber at I betænker bedre hvad I giør. Men hvis I skrider til saadant blodigt Forsæts Fuldbyrdelse, da maa I vide, at ikke jeg, men I selv er Aarsag til saadan Ulykke, eftersom I begiærer <w>u-muelige</w> Ting.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Ach himmel! er det <w>u-muelige</w> Ting, at blotte sit Ansigt? Adieu Morderinde! <seg type="komm" target="K3v-32"/>hav Omsorg, at jeg kand blive <seg type="komm" target="K3v-32b"/>hæderlig begraven, som en ret Christen, med <seg type="komm" target="K3v-33"/><w>Sang-Klokkerne</w>.</p>
+						<stage>Hand sætter Dolken for Brystet.</stage>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hold inde, Ridder! jeg giver mig; men med visse <seg type="komm" target="K3v-36"/>Conditioner, som hand med Eed maa bekræfte.</p>
+					</sp>
+					<pb ed="A" n="K4r" facs="K4r"/>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Der er intet i Verden, som jeg <seg type="komm" target="K4r-2"/>jo med Eed bekræfter, for at komme i <seg type="komm" target="K4r-3"/>Possession af saadan Skat.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Hand skal da sværge først, at hand <seg type="komm" target="K4r-5"/>ingen Henseende har til min Stand og Vilkor, men at hand elsker mig alleene for min Person.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Jeg svær at jeg elsker hende alleene for hendes Person.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Dernæst, at hand intet Menniske paa Jorden vil elske uden mig, og aldrig at gifte sig efter min Død.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Ja, jeg svær ved alt det, som helligt er, at holde alt saadant.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Stat da op, min Allerkiæreste! og lad mig omfavne dig.</p>
+						<stage>Hun tar Masken af, og viser et gammelt <seg type="komm" target="K4r-18"/>vanskabt Ansigt, og spærrer Munden op for at kysse ham.</stage>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>A – – – – A – – – –</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ach min Allerkiæreste lad mig kysse dig.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>A – – – – A – – – –</p>
+						<stage>Hun tar ham om halsen og kysser ham. Hand skriger og giør Modstand; løber tre gange om <seg type="komm" target="K4r-27"/>Theatret. Den Usynlige faar omsider fat paa Arleqvin, og de falde paa Jorden.</stage>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc5" n="Scene 5">					
+					<pb ed="SS" n="522"/>
+					<head><hi rend="ant"><hi rend="ant">Scen. 5.</hi></hi></head>
+					<stage>Den Usynliges Broder. Arleqvin. Den Usynlige.</stage>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p><seg type="komm" target="K4r-33"/>Hvad er her at bestille! vil den Hund overfalde dig?</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Ney vist ikke, min Herre, langt fra. Hun vil overfalde mig.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Veedst du vel, Karl, hvem du har med at bestille?</p>
+					</sp>
+					<pb ed="A" n="K4v" facs="K4v"/>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ja jeg veed det nok <seg type="komm" target="K4v-2"/>disvær! det er Fandens Moor.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Da skal du faae en <w>U-lykke</w>, driver du spot med min Søster.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ach <seg type="komm" target="K4v-7"/>Monfrere! Staar mig bi mod den Forrædder! han har længe tilbedet mig som en Gudinde og nu vil han forlade mig.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Har han lovet dig Ægteskab min søde Søster!</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ach jo, og det med dyre Eder.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Da skal han fuldbyrde sit Løfte eller ikke komme levende fra Stedet.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jeg har lovet Ægteskab til et Menniske! Men ikke til en underjordisk og vanskabt Trold.</p>
+					</sp>
+					<sp>
+						<speaker><stage><app type="tc"><lem><corr resp="ed">(Den</corr></lem><rdg wit="A">[Den</rdg></app> Usynliges Broder trekkende ud sin Kaarde.)</stage></speaker>
+						<p>Ingen <w>Skields-Ord</w>, fort tag hende om Halsen og kys hende.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq. <stage>(paa Knæ)</stage></speaker>
+						<p>Ach naadige Fandens Mammas Broder! tving mig ikke til at kysse saadant <seg type="komm" target="K4v-32"/>Skabilkenhovet.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ach er det mueligt at jeg skal høre saa ringe Priis blive sat paa mit skiønne Ansigt?</p>
+					</sp>
+					<pb ed="SS" n="523"/>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Han skal ikke allene kysse dig men ægte dig i Dag.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ach min Herre! hav dog Barmhiertighed med mig.</p>
+					</sp>
+					<sp>
+						<speaker><app type="tc"><lem wit="B">Den Usynliges Broder.</lem><rdg wit="A">Den Usynlige.</rdg></app></speaker>
+						<p><seg type="komm" target="K4v-23"/>Fort din Hund! stat op og omfavn hende, eller du skal strax døe for min Haand.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>						
+						<p><pb ed="A" n="K5r" facs="K5r"/>Giv dig tilfreds min Engel! Du skal finde i mig en troe og kydsk Hustrue.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>For Utroeskab er jeg ikke bange min <seg type="komm" target="K5r-4"/>Bengel; thi <seg type="komm" target="K5r-4b"/>ingen forlieber sig i en Maske.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Tør din Forrædder endnu fremture med <w>Skields-Ord</w>?</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ach ney slaae ham ikke. Det kand jeg ikke taale; thi jeg er saa forliebt i ham. Kom kys mig min Snut.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>A – – – – a – – – –</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc6" n="Scene 6">
+					<head><hi rend="ant">Scen. 6.</hi></head>
+					<stage><app type="tc"><lem wit="B">Colombine</lem><rdg wit="A">Comlombine</rdg></app> De andre.</stage>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Hvad er her paa færde? Er det ikke Harleqvin man har fat paa.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ach min allerkiæreste Colombine! Det var en Ulyksalig Time for mig, da jeg vendte dig Ryggen.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Det er mig kiert, at du bliver straffet for din Utroeskab.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ach red mig min deilige Colombine!</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Red dig selv. Du har skuffet mig engang, det skeer ikke oftere.</p>
+					</sp>
+					<pb ed="SS" n="524"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Er hun forlovet med ham, saa staaer jeg fra mine <seg type="komm" target="K5r-28"/>Prætentioner.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Ney han har foragtet mig engang, hvilket jeg aldrig <seg type="komm" target="K5r-31"/>gir ham til.</p>
+					</sp>
+					<pb ed="A" n="K5v" facs="K5v"/>
+					<sp>
+						<speaker>Den Usynlige.</speaker>
+						<p>Ja, efterdi hun ikke vil have ham, saa er han og bliver han min <seg type="komm" target="K5v-3"/>Lifegen.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqin. <stage>(paa Knæ.)</stage></speaker>
+						<p>Ach Allerkiereste <app type="tc"><lem wit="B">Colombine</lem><rdg wit="A">Comlombine</rdg></app>! tag mig til Naade igien.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Slidder sladder.</p>
+					</sp>
+					<sp>
+						<speaker><app type="tc"><lem wit="B">Harleqvin</lem><rdg wit="A">Harliqvin</rdg></app>.</speaker>
+						<p>Forbarm dig over din usle Harleqvin.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Ingen Barmhiertighed.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin. </speaker>
+						<p>Over din Slave.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Ingen Snak.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Over <app type="tc"><lem wit="B">dit</lem><rdg wit="A">det</rdg></app> <seg type="komm" target="K5v-17"/>Beest.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Ney, nu er ingen Naade.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Over din ringe <seg type="komm" target="K5v-21"/>Jordklimp.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Tran, trara.</p>
+					</sp>
+					<sp>
+						<speaker>Arleqvin.</speaker>
+						<p>Over din indtil Døden forbundne ringe Madik, Kaalorm og <seg type="komm" target="K5v-26"/>Oldenborger.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Intet bevæger mig.</p>
+					</sp>
+					<sp>
+						<speaker>Harl.</speaker>
+						<p>See hvor jeg græder. Min Hat er fuld af Taarer.</p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Det er <seg type="komm" target="K5v-32"/>Crocodils Graad.</p>
+					</sp>
+					<sp>
+						<speaker>Harl.</speaker>
+						<p>Kast dog et <w>Naade-blik</w> til mig.</p>
+					</sp>
+					<pb ed="SS" n="525"/>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>I Ævighed ikke.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Lad mig allerunderdanigst kysse Enden af dine allernaadigste Tøfler.</p>
+					</sp>
+					<pb ed="A" n="K6r" facs="K6r"/>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Hverken een eller anden Ende.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Hverken een eller anden Ende?</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Ingen af deelene.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Saa døer jeg da.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p><seg type="komm" target="K6r-10"/>Døe længe nok.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p>Jeg er <seg type="komm" target="K6r-11"/>alt død.</p>
+					</sp>
+					<sp>
+						<speaker>Colomb.</speaker>
+						<p>Det er mig <app type="tc"><lem><corr resp="udg1788">kiert.</corr></lem><rdg wit="A">kiert?</rdg><rdg wit="B">kiært?</rdg><rdg resp="udg1788">kiert.</rdg></app></p>
+					</sp>
+					<sp>
+						<speaker>Harleqv.</speaker>
+						<p><seg type="komm" target="K6r-16"/>Stat stille <w>Vandrings-Mand</w>,</p>
+						<stage>(Sætter Hatten paa <app type="tc"><lem><corr resp="ed">Hovedet.)</corr></lem><rdg wit="A">Hovedet.]</rdg></app></stage>
+						<p>Her under hviiler den ulyksalige Arleqvin, hvilken efter mange Aars hæftige Elskov revnede omsider af Sorg, gak du bort og giør ligesaa.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynl. Broder.</speaker>
+						<p>Tag ham da til Naade igien <seg type="komm" target="K6r-22"/>Mademoiselle. </p>
+					</sp>
+					<sp>
+						<speaker>Colombine.</speaker>
+						<p>Ingenlunde; Thi det er et <seg type="komm" target="K6r-24"/>ustadigt Menniske, som jeg blir bedragen med.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Hun kand forebygge alting ved at foreskrive ham ligesaa sterke <seg type="komm" target="K6r-28"/>Conditioner som hun vil.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Ach jeg vil indgaae alt hvad du forlanger.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynl. Br.</speaker>
+						<p>Lad mig megle derudi og foreskrive ham de Love, som han ved Eed skal forpligte sig at holde. Hør Harleqvin, fald paa Knæ for din Kiæreste først, og bed hende om Forladelse.</p>
+					</sp>
+					<pb ed="A" n="K6v" facs="K6v"/>
+					<pb ed="SS" n="526"/>
+					<sp>
+						<speaker>Harleqv. <stage>(paa Knæ.)</stage></speaker>
+						<p>Ach min allerkiereste Colombine! jeg beder dig om Forladelse.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynl. Br.</speaker>
+						<p><seg type="komm" target="K6v-5"/>Læs nu op efter hvad jeg siger (1) forpligter jeg mig aldrig at tale et haardt Ord til min Kone.</p>
+						<stage><app type="tc"><lem><corr resp="ed">(Harleqvin</corr></lem><rdg wit="A">[Harleqvin</rdg></app> repeterer alleting efter.)</stage>
+						<p>(2) Med god Villie at <seg type="komm" target="K6v-8"/>flye hende alt hvad som er fornødent til Huusholdningen. (3) Om hun skulde faa Lyst til <seg type="komm" target="K6v-9"/><app type="tc"><lem wit="B">Stats</lem><rdg wit="A">Stats-</rdg></app> og <seg type="komm" target="K6v-10"/>Galanterie, ikke nægte hende noget deraf.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Hvad den Artikul angaaer, saa saae jeg gierne at den blev lidt <seg type="komm" target="K6v-13"/>reformeret –</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynl. Br.</speaker>
+						<p>Hvad? hør <seg type="komm" target="K6v-15"/>Ma Soeur træk af med ham.</p>
+						<stage>(Harleqvin repeterer og <seg type="komm" target="K6v-16"/>indgaaer den 3die Artikel.)</stage>
+					</sp>
+					<sp>
+						<speaker>Den Usynl. Broder.</speaker>
+						<p>(4) Lover jeg ingen at elske uden hende. Derimod (5) Vil jeg ikke regne det saa nøye om hun elsker andre.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>Hvad? Vil den <seg type="komm" target="K6v-21"/>Laptaske forlange, at jeg skal lade mig <seg type="komm" target="K6v-21b"/>indrullere for en slet og ret Hanrey? Jeg vil heller <seg type="komm" target="K6v-22"/>bære Musqvet paa Nakken, end <seg type="komm" target="K6v-23"/>Horn udi Panden.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynl. Br.</speaker>
+						<p><seg type="komm" target="K6v-24"/>Gesvind! jeg har ikke stunder at opholde mig her længer.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Monsieur skal ey heller opholde sig for min skyld. Han kand gaae Fanden i Vold naar han behager.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Træk af med ham <hi rend="ant">Ma Soeur</hi>.</p>
+					</sp>
+					<sp>
+						<speaker>Harleqvin.</speaker>
+						<p>A – – – – – – <app type="tc"><lem><corr resp="Rahbek">Derimod</corr></lem><rdg wit="A B">Dermed</rdg><rdg resp="Rahbek">Derimod</rdg></app> vil jeg ikke regne det saa nøye om hun elsker andre, Ach hvilken forbanded Pille for en Mand der er kommen af <seg type="komm" target="K6v-33"/>honnette Folk som jeg.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>(6) Ved det Ord at elske andre <app type="tc"><lem><corr resp="Rahbek">forstaaes – –</corr></lem><rdg wit="A B">forstaaes, at hun er en Akkermær der forlanger saadant.</rdg><rdg resp="Rahbek">forstaaes – –</rdg></app></p>
+					</sp>
+					<sp>
+						<speaker><app type="tc"><lem><corr resp="Rahbek">Harleqvin.</corr></lem><rdg wit="A B"><note>mgl. i</note></rdg><rdg resp="Rahbek"/></app></speaker>
+						<p><app type="tc"><lem><corr resp="Rahbek">At hun er en <seg type="komm" target="K6v-35"/>Akkermær der forlanger saadant.</corr></lem><rdg wit="A B"><note>hører til den foregående replik i</note></rdg><rdg resp="Rahbek"><note type="last">derimod mener, at Harlekin med disse ord afbryder den foregående replikhaver (alle senere udgivere følger Rahbeks rettelse)</note></rdg></app></p>
+					</sp>
+					<pb ed="A" n="K7r" facs="K7r"/>
+					<pb ed="SS" n="527"/>
+					<sp>
+						<speaker>Den Usynliges Broder. <stage>(trækkende paa Kaarden.)</stage></speaker>
+						<p><seg type="komm" target="K7r-2"/>Har du Lyst til Handverkket?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p><seg type="komm" target="K7r-4"/>Qvarteer Monsieur! jeg giver mig paa Naade og Unaade. Men kand der ikke Corrigeres noget udi denne sidste Artikkel.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Ingen ting.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jeg forlanger ingen Forandring <app type="tc"><lem wit="B">udi</lem><rdg wit="A">ud</rdg></app> <seg type="komm" target="K7r-9"/>Materien men allene nogle smaa Ting udi Stilen.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Hvorledes vil han da have det udførdt?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jeg meener uden at vige fra Meningen at forfatte Artikelen saaledes. Ved at elske andre skal forstaaes at hun <seg type="komm" target="K7r-15"/>tilsteder dem samme Frihed som hendes <w>Ægte-Mand</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Got.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Got, nu kommer den lille forandring, som jeg vilde have udi Stiil, nemlig dog forstaaes her ved at <seg type="komm" target="K7r-21"/>bemelte hendes Husbonde Harleqvin haver sig sin Ret i alle maader forbeholden.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Ney Monsieur, det sidste slaaer jeg en Stræg over.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Men Monsieur, mener I da at <seg type="komm" target="K7r-26"/>Ægteskab er en Omgang? Saa at enhver maa brygge <seg type="komm" target="K7r-27"/>vexel viis udi en anden Mands <w>Brygger-Kiedel</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Træk af med ham <hi rend="ant">Ma Soeur</hi>.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>A – – – Ach vær dog naadig Herre og betænk at jeg er af fornemme Slægt og <seg type="komm" target="K7r-33"/>Byrd.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Hvem var hans Fader da?</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Min Fader kiender jeg ikke, men min Moder heedte Magdelone, og min Broder var udi mange Aar <seg type="komm" target="K7r-38"/><app type="tc_var"><lem wit="B">solicitant</lem><rdg wit="A">Solicitans</rdg></app> her i Staden.</p>
+					</sp>
+					<pb ed="A" n="K7v" facs="K7v"/>
+					<pb ed="SS" n="528"/>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Hvad er en Solicitant. Hvad har han om Aaret at leve af.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Han har <app type="tc"><lem><corr resp="Boye">365</corr></lem><rdg wit="A B">165</rdg><rdg resp="Boye">tre hundrede og fem og tredssindstyve</rdg><note type="last">(fulgt af alle senere udgivere)</note></app> Dage om Aaret.</p>
+					</sp>
+					<sp>
+						<speaker>Den Usynliges Broder.</speaker>
+						<p>Det var en anseelig Gage, monsieur gak hiem og hold Bryllop med jer Kiereste og vær forsikret, at hvis I bryder noget af Contracten, da skal I have med mig at bestille.</p>
+					</sp>
+					<sp>
+						<speaker>Harleq.</speaker>
+						<p>Jeg troer at min Kone udi Kraft af den sidste Artikkel faaer meer med ham at bestille. Gid Fanden <seg type="komm" target="K7v-11"/>frie paa Spansk meere.</p>
+					</sp>
+					<lb/>
+					<p rend="center">FINIS.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

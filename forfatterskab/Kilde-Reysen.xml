@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="KR">Kilde-Reysen</title>
+                <author>Ludvig Holberg</author>
+           </titleStmt>
+            <editionStmt>
+                <edition><date>1725</date></edition>
+           </editionStmt>
+        <publicationStmt>
+        <pubPlace/>
+        <availability>
+        <p rend="head"/>
+        <p/>
+        <p/>
+        <p/>      
+       </availability>
+       </publicationStmt>
+            <sourceDesc>
+            <listWit>                               
+            <witness xml:id="A"><title key="none">Hans Mikkelsens Comoedier. Sammenskrevne for Den Danske Skue-Plads. Tredie Tome</title>, <date>1725</date>. Benyttet eksemplar: Det Kgl. Bibliotek, M, 37818, 8vo.</witness>
+            <witness xml:id="B"><title key="none">Den Danske Skue-Plads, Tredie Tome</title>, 1731. Benyttet eksemplar: Det Kgl. Bibliotek, M. 37823, 8vo.</witness>
+            <witness xml:id="C">Optryk af B, 1742.</witness>
+            <witness xml:id="Rahbek"><title key="none">Ludvig Holbergs udvalgte Skrifter</title>, udg. K.L. Rahbek, bd. 3, 1804.</witness>
+                <witness xml:id="Boye"><title key="none">Den danske Skueplads eller Ludvig Holbergs samtlige Comoedier i eet Bind</title>, udg. A.E. Boye, 1843.</witness>
+            <witness xml:id="Liebenberg"><title key="none">Ludvig Holbergs Comedier</title>, udg. F.L. Liebenberg, bd. 3, 1847.</witness>
+            <witness xml:id="Martensen"><title key="none">Holbergs Komedier</title> udg. Julius Martensen, bd. 8, 1891.</witness>
+            <witness xml:id="Brix"><title key="none">Ludvig Holbergs Komedier</title>, udg. Hans Brix, 1930.</witness>
+            <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg. Carl S. Petersen, bd. 3, 1915. NB: Afvigelser fra udgaven 
+            <title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>
+           </listWit>
+           </sourceDesc>
+       </fileDesc>        
+        <profileDesc>
+            <langUsage>
+                <language ident="dan">dansk</language>
+           </langUsage>
+       </profileDesc>        
+    <revisionDesc>
+        <change when="2015-12-03" who="fgj">rettet græsk i III 3 (forkert kodet alfa med spiritus lenis). Andre justeringer af kodning</change>
+        <change when="2015-12-02" who="fgj">justeringer i listWit, flytning af fejlanbragte pb i slutning af replikker og scener</change>
+        <change when="2013-08-05" who="amj">indsættelse af kommentarlinks påbegyndt</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+    <change when="2013-02-04" who="pz">tekstetablering påbegyndt</change>
+        <change when="2013-01-23" who="fgj">diverse oprydning, bl.a. fjernelse af gamle linjemarkeringer fra SS-scanning</change>
+        <change when="2013-01-21" who="fgj">justering af listWit og tilføjelse af tekststatus</change>
+        <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+        <change when="2012-08-27" who="amj">indsat faksimilereferencer</change>
+        <change when="2012-08-24" who="fgj">indsat faksimileliste</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+            <change when="2012-02-06" who="fgj">indsat manglende div-værdier</change>
+          <change when="2011-09-12" who="rbn">nye div-værdier indsat</change> 
+            <change when="2010-11-17">FGJ: let tilretning, gjort filen valid</change>
+            <change when="2010-09-15">FGJ: filen validerer (foreløbig) ikke. Omdøbt fra kilde-reysen.xml til Kilde-Reysen.page og overført til repositorium/plone</change>
+            <change><date/>Camilla Kirchhof har læst mod faksimile</change>
+       </revisionDesc>
+        
+   </teiHeader>
+    
+    <facsimile>
+    <graphic n="151" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_153.jpg" xml:id="K3r"/>
+    <graphic n="152" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_154.jpg" xml:id="K3v"/>
+    <graphic n="153" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_155.jpg" xml:id="K4r"/>
+    <graphic n="154" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_156.jpg" xml:id="K4v"/>
+    <graphic n="155" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_157.jpg" xml:id="K5r"/>
+    <graphic n="156" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_158.jpg" xml:id="K5v"/>
+    <graphic n="157" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_159.jpg" xml:id="K6r"/>
+    <graphic n="158" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_160.jpg" xml:id="K6v"/>
+    <graphic n="159" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_161.jpg" xml:id="K7r"/>
+    <graphic n="160" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_162.jpg" xml:id="K7v"/>
+    <graphic n="161" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_163.jpg" xml:id="K8r"/>
+    <graphic n="162" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_164.jpg" xml:id="K8v"/>
+    <graphic n="163" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_165.jpg" xml:id="L1r"/>
+    <graphic n="164" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_166.jpg" xml:id="L1v"/>
+    <graphic n="165" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_167.jpg" xml:id="L2r"/>
+    <graphic n="166" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_168.jpg" xml:id="L2v"/>
+    <graphic n="167" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_169.jpg" xml:id="L3r"/>
+    <graphic n="168" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_170.jpg" xml:id="L3v"/>
+    <graphic n="169" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_171.jpg" xml:id="L4r"/>
+    <graphic n="170" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_172.jpg" xml:id="L4v"/>
+    <graphic n="171" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_173.jpg" xml:id="L5r"/>
+    <graphic n="172" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_174.jpg" xml:id="L5v"/>
+    <graphic n="173" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_175.jpg" xml:id="L6r"/>
+    <graphic n="174" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_176.jpg" xml:id="L6v"/>
+    <graphic n="175" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_177.jpg" xml:id="L7r"/>
+    <graphic n="176" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_178.jpg" xml:id="L7v"/>
+    <graphic n="177" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_179.jpg" xml:id="L8r"/>
+    <graphic n="178" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_180.jpg" xml:id="L8v"/>
+    <graphic n="179" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_181.jpg" xml:id="M1r"/>
+    <graphic n="180" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_182.jpg" xml:id="M1v"/>
+    <graphic n="181" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_183.jpg" xml:id="M2r"/>
+    <graphic n="182" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_184.jpg" xml:id="M2v"/>
+    <graphic n="183" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_185.jpg" xml:id="M3r"/>
+    <graphic n="184" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_186.jpg" xml:id="M3v"/>
+    <graphic n="185" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_187.jpg" xml:id="M4r"/>
+    <graphic n="186" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier3_1725/hansmick_3t_1725_188.jpg" xml:id="M4v"/>
+    
+   </facsimile>
+    <text xml:lang="dan" xml:id="KR" type="orig" subtype="KR" n="/tekster/skuespill/Kilde-Reysen/Kilde-Reysen.page">
+
+<front>
+
+    <titlePage type="part" xml:id="start" n="[Titelblad]">
+        <pb ed="A" n="K3r" facs="K3r"/><pb ed="SS" n="431"/>
+        <docTitle>    
+    <titlePart type="main"><w>Kilde-Reysen</w></titlePart>
+    <lb/>
+<titlePart type="sub"><hi rend="ant">COMOEDIE</hi>
+<lb/>Udi <lb/><hi rend="ant">3. ACTER.</hi></titlePart></docTitle>
+</titlePage>
+
+    <div xml:id="castlist" n="[Rolleliste]">
+<castList>
+
+    <pb ed="A" n="K3v" facs="K3v"/><pb ed="SS" n="432"/>
+    <head rend="center">Personerne i <hi rend="ant">Comœdien</hi>.</head>
+
+<castItem><role>Jeronimus.</role></castItem>
+    
+    <castItem><role>Leonora.</role></castItem>
+    
+    <castItem><role>Pernille.</role></castItem>
+    
+    <castItem><role>Magdelone.</role></castItem>
+    
+    <castItem><role>Arv.</role></castItem>
+    
+    <castItem><role>Leander.</role></castItem>
+    
+    <castItem><role><app type="tc"><lem><corr resp="ed">Henrich</corr></lem><rdg wit="A B">Henric</rdg></app>.</role></castItem>
+    
+    <castItem><role><seg type="komm" target="K3v-9"/>Doct. Bombastus.</role></castItem>
+    
+<castItem><role>Niels Kudsk.</role></castItem>
+
+<castItem><role>Leonard.</role></castItem>
+
+</castList>
+   </div>
+   </front>
+<body>
+    <div type="act" xml:id="act1" n="Første akt">
+        <div type="scene" xml:id="act1sc1" n="Scene 1">
+     <pb ed="A" n="K4r" facs="K4r"/>      
+     <pb ed="SS" n="433"/> 
+<head><hi rend="ant">Act: I. Scen: 1.</hi></head>
+<stage>Leander. Henrich.</stage>
+     
+<sp><speaker>Leander.</speaker>
+    <p><w><seg type="komm" target="K4r-4"/><hi rend="init">I</hi>kke</w> heller Brev med denne <seg type="komm" target="K4r-4a"/>Post. <seg type="komm" target="K4r-4b"/>Jeg veed aldrig hvad jeg skal siige derom.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Herre! i steden for at <seg type="komm" target="K4r-7"/>ligge og vente her efter Breve, skulle I have reyst liige
+til jer Broer, saa havde I allereede haft den Arv i Hænderne, som er jer tilfalden efter
+jer Fars Død.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Du staaer og snacker <seg type="komm" target="K4r-11"/>hen i Taaget, <seg type="komm" target="K4r-11a"/>ligesom du icke vidste hvad Kierlighed er. 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Jeg veed nock hvad Kierlighed er. Jeg er <seg type="komm" target="K4r-14"/>baget af samme Dey som andre Mennisker, men <seg type="komm" target="K4r-15"/>Interessen træcker dog meest; naar <seg type="komm" target="K4r-17"/>Cupido, som er Gudinde for Kierlighed,
+        siiger: Staae, saa staaer jeg! Men naar <seg type="komm" target="K4r-18"/>Mercurius, som er Gud for Gevinst og Interesse gir <w>Contra-Ordre</w>, og siiger: Gaae, saa reyser jeg. 
+</p></sp>
+<sp><speaker>Leander.</speaker>
+<p>Jeg vilde ønske, at jeg kunde sige det samme; men det er mig icke mueligt at reyse
+    herfra, førend <seg type="komm" target="K4r-22"/>jeg blir denne skiønne Jomfrue mægtig.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Hvordan Pocker vil I blive hende mægtig? 
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Ach Henrich! det er <seg type="komm" target="K4r-27"/>en stoor Post, at hun elsker mig.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="K4r-29"/>Det vil icke meget sige; Naar hendes Far lader hende indsperre, saa kand Herren
+        icke <seg type="komm" target="K4r-30"/>vinde andet ved sin Kierlighed end <seg type="komm" target="K4r-31"/>elske sig en Feber eller Guulsoot paa Halsen. 
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Vi maa bruge <seg type="komm" target="K4r-33"/>Practicker, Henrich, medens den Gamle er paa Landet.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Ey det er en læt Sag; Hvis Herren kun kand skaffe mig Nøgelen først til Porten,
+    dernest til de andre Dørre, og faae een til at slaae en halv Snees <seg type="komm" target="K4r-37"/>Øyen ud paa <w>Port<pb ed="SS" n="434"/>neren</w> 
+
+    <pb ed="A" n="K4v" facs="K4v"/>(thi hand har liige saa mange som <seg type="komm" target="K4v-1"/><app type="tc"><lem><corr resp="Rahbek">Argus)</corr></lem><rdg wit="A B">Argus.)</rdg></app> saa vilde jeg nock skaffe Herren ind
+til hende.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+<p>Du hitter nock paa noget, kiere Henrich!
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Tiden er saa knap, Herre! I hørte jo sidst, da hun talede med jer udaf <seg type="komm" target="K4v-7"/>Vindvet,
+at hendes Far kommer hiem i Aften med hans tilkommende <w>Sviger-Søn</w>. Jeg har
+        nock et <seg type="komm" target="K4v-9"/>beqvem Hoved til <seg type="komm" target="K4v-9a"/>Skielmstycker, uden at roese mig selv; men Tiden er knap,
+        og jeg er icke kiendt her paa Stedet. <seg type="komm" target="K4v-11"/><w>Kammer-Piigen</w> Pernille har, maaskee, <seg type="komm" target="K4v-11a"/>opspundet
+noget, siden vi taledes sidst ved. 
+</p></sp>
+<sp><speaker>Leander.</speaker>
+<p>Hvad er Klocken nu?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Klocken er 4re.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Det er just <seg type="komm" target="K4v-18"/>den bestemte Tiid at faae dem at see i Vinduet. <seg type="komm" target="K4v-19"/>Blir du noget var?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Ja jeg seer <seg type="komm" target="K4v-21"/>alt Gardinerne.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Ey <seg type="komm" target="K4v-23"/>harcelleer dog icke saa meget. 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Det er min Troe ingen Harcellering. Jeg seer alt Gardinerne røres. See der aabnes Vindverne! der er de.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act1sc2" n="Scene 2">
+<head><hi rend="ant">Scen. 2.</hi></head>
+<stage>Leonora. Pernille i Vindvet. Leander. Henrich. 
+</stage>
+<sp><speaker>Leander.</speaker>
+    <p>Ach allersødeste Jomfrue! Er der noget opspundet <seg type="komm" target="K4v-28"/>til min Frelse. Siig: skal jeg
+døe eller leve?
+</p></sp>
+<sp><speaker>Leonora.</speaker>
+    <p><seg type="komm" target="K4v-31"/>Om vor Intrigue vil lyckes, skal vi <seg type="komm" target="K4v-31a"/>komme sammen denne Aften. Her er <seg type="komm" target="K4v-32"/>alt begyndt paa noget, som Pernille best kand sige, hvordan det skal <seg type="komm" target="K4v-33"/>sættes i Verck.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Intriguen er denne: Jomfruen <seg type="komm" target="K4v-35"/>stiller sig an at være falden i en underlig <seg type="komm" target="K4v-36"/>Svaghed,
+at alt, hvad hun taler, er paa Sang.</p></sp>
+
+            <pb ed="A" n="K5r" facs="K5r"/>
+<pb ed="SS" n="435"/>
+<sp><speaker>Henrich.</speaker>
+<p>Det er meget selsom. Kunde I icke finde paa noget andet?
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Det er jo lige meget, naar det er noget, som <seg type="komm" target="K5r-4"/>reyser sig af Hiernens Forvirrelse. <seg type="komm" target="K5r-5"/>Anledning til denne slags Svaghed at digte hende paa, er denne: Hun er en stoor Elskerinde af <seg type="komm" target="K5r-7"/>Opera, hvoraf hun har en god <seg type="komm" target="K5r-7a"/>Samling, som hun daglig øver sig udi, og giør
+        undertiden noget for meget deraf, saa hendes Far har ofte straffet hende derfor; <seg type="komm" target="K5r-9"/>hvorudover dersom hun skal falde udi noget Galskab, er det riimeligt, hun lar det see udi de
+        Ting, som hun har været for meget <seg type="komm" target="K5r-12"/>indtagen af, tilmed har vi alt bildet <seg type="komm" target="K5r-12a"/><w>Gaards-Karlen</w>
+        Arv det ind, som <seg type="komm" target="K5r-13"/>hjertelig <seg type="komm" target="K5r-13a"/><app type="tc"><lem><corr resp="ed">gremmer</corr></lem><rdg wit="A">grcmmer</rdg></app> sig derover, saa at vi maae blive ved det <seg type="komm" target="K5r-14"/>Forsæt. 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Men hvad vil deraf følge?
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Naar den Gamle nu kommer hiem, og forskræckes over den Hendelse, raader jeg
+    ham til at <seg type="komm" target="K5r-19"/>have Bud efter den navnkundige <seg type="komm" target="K5r-20"/>Doctor Bombastus, som med sin Søn 
+    nyelig er kommen her til Byen, for at <seg type="komm" target="K5r-21"/>raadføre sig med dem udi hendes Svaghed.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Ja hvad vil det siige? De <seg type="komm" target="K5r-24"/>gir hende da, maaskee, noget ind at sveede paa, og <seg type="komm" target="K5r-25"/>saa
+er jo vi lige nær.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Ney du skal <seg type="komm" target="K5r-27"/>agere samme Doctor, og din Herre hans Søn, og raade Jeronimus
+        til, <seg type="komm" target="K5r-28"/>saasom det er St. Hans Aften i Aften, at lade hende reyse til <seg type="komm" target="K5r-29"/>Kilden, hvis <seg type="komm" target="K5r-29a"/>Kraft
+        og Dyd du maa <seg type="komm" target="K5r-30"/>afmale paa det beste, hvilcket hand vil <seg type="komm" target="K5r-30a"/>lettelig troe, <seg type="komm" target="K5r-31"/>saavelsom alle
+gamle Folck her i Byen, der af Overtroe giører saadan Reyse St. Hans Aften.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="K5r-34"/>Men, end om hand selv vil reyse med for at have Opsyn med sin Daatter?
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Det er jeg vis paa, at hand icke giør; thi naar hand kommer fra en liden Reyse,
+    er hand saa udmattet, at hand maae have 3 Dages <seg type="komm" target="K5r-39"/>Roelighed <seg type="komm" target="K5r-39a"/>igien. Du kand tilbyde 
+    <pb ed="A" n="K5v" facs="K5v"/>din Tieneste at følge hende, for at see til hun <seg type="komm" target="K5v-1"/>bruger Vandet ret. 
+    Naar I saa <seg type="komm" target="K5v-2"/>kommer sammen, kand I ved Kilden <seg type="komm" target="K5v-3"/>overlegge jere Sager, hvor I vil <seg type="komm" target="K5v-3a"/>retirere jer, indtil hand
+    <seg type="komm" target="K5v-4"/>tilstæder Ægteskab. Jeg saa vel som Huusholdersken Magdelone har ogsaa lige saa
+    stoor <seg type="komm" target="K5v-5"/>Begierlighed at komme ud som Jomfruen, og lige saa vigtige Aarsager. Vi maa
+betiene os af saadanne Leyligheder; thi vi kommer ellers icke ud af Dørren.</p></sp>
+
+
+
+<pb ed="SS" n="436"/>
+<sp><speaker>Henrich.</speaker>
+<p>Men ved hvad Leylighed skal jeg komme ind, naar jeg agerer Doctor Bombastus?
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Jeg skal viise <w>Gaards-Karlen</w> hen i det Huus, hvor I boer, at spørge efter <app type="tc"><lem><corr resp="ed">Docteren</corr></lem><rdg wit="A">Doeteren</rdg></app>, og da maae I begge være <seg type="komm" target="K5v-15"/>udi Bereedskab at følge med. 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Men her er nogen ved Porten.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Det er Arv. <seg type="komm" target="K5v-19"/>Løber da og lar alting være i Beredskab.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act1sc3" n="Scene 3">
+<head><hi rend="ant">Scen. 3.</hi></head>
+<sp><speaker>Arv <stage>alleene.</stage></speaker>
+    <p>Det er <seg type="komm" target="K5v-22"/>noget forbandet Tøy, som vil legge Hr. Jeronimus i Graven. Jeg havde
+aldrig villet troe det, hvis jeg icke havde hørt og seet det selv. Jeg kommer ind og spør,
+om Herren kommer hiem i Aften, da svarer hun mig i <seg type="komm" target="K5v-26"/>Tremulanter saaledes:</p>
+    <lg><l>Hør Ungersvend jeg <seg type="komm" target="K5v-27"/>si – – – – – ger dig,</l> 
+        <l>Hand kommer i Aften <seg type="komm" target="K5v-28"/>vis – – – – – selig.</l></lg>
+<p>Og saaledes blev hun ved at synge til hvad jeg spurdte, hun maae være forhexet eller
+    <seg type="komm" target="K5v-30"/>lave til Barsel med en <app type="tc"><lem><corr resp="ed">ung</corr></lem><rdg wit="A">nng</rdg></app> Spillemand. Jeg har <seg type="komm" target="K5v-31"/>aldrig hørt saadant min Livs Tid,
+    jeg kand icke viide, hvoraf saadant kand komme <seg type="komm" target="K5v-32"/>uden at hun i Tancker maa have ædt
+    op en <w>Node-Bog</w>, og faaet en hob enckelte og dobbelte <seg type="komm" target="K5v-34"/>Fuuser i Maven, som <seg type="komm" target="K5v-34a"/>kommer 
+hende iidelig til at synge. Det er en Ynck at see paa Magdelone og Pernille; thi de
+sidder og græder over denne Hendelse, som de var pidsket. Men der kommer, <seg type="komm" target="K5v-37"/>min <pb ed="A" n="K6r" facs="K6r"/>Troe,
+    Hr. <app type="tc"><lem><corr resp="ed">Jeronimus</corr></lem><rdg wit="A">Joronimus</rdg></app> med Monsr. Leonard. Jeg <seg type="komm" target="K6r-1"/>har icke Hierte at fortælle ham det. Det
+maae enten <app type="tc"><lem><corr resp="ed">Magdelone</corr></lem><rdg wit="A">Magdeloue</rdg></app> eller Pernille giøre.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act1sc4" n="Scene 4">
+<head><hi rend="ant">Scen. 4.</hi></head>
+            <stage>Jeronimus i en <seg type="komm" target="K6r-5"/><w>Reyse-Kiole</w>. Leonard. Arv.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Min kiære <w>Sviger-Søn</w>! Det kand <seg type="komm" target="K6r-7"/>giøres af, medens hand er i Byen denne gang;
+        thi <seg type="komm" target="K6r-8"/><app type="tc"><lem><corr resp="Liebenberg">saa vit</corr></lem><rdg wit="A B C">saa vis</rdg><rdg resp="Rahbek">saavidt</rdg><rdg resp="Liebenberg">saa vit</rdg><rdg resp="Martensen">saa vidt</rdg><rdg resp="SS">saa vis</rdg></app>, som jeg kand see paa hans Gaard, da er hand i Stand at <seg type="komm" target="K6r-9"/>bringe sin Bruud
+hiem, naar det skal være. Men der seer jeg <w>Gaards-Karlen</w> Arv. Nu Arv! hvorledes 
+staaer til udi Huuset?</p></sp>
+
+<pb ed="SS" n="437"/>
+<sp><speaker>Arv.</speaker>
+    <p><seg type="komm" target="K6r-13"/>Vel nock Herre, <seg type="komm" target="K6r-13a"/>men <app type="tc"><lem><corr resp="ed">–</corr></lem><rdg wit="A"><note>trykt som hævet (omvendt?) punktum i </note></rdg></app> – –
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvad vil du sige med dit men? her har, maaskee, <app type="tc"><lem><corr resp="ed">været</corr></lem><rdg wit="A">væeet</rdg></app> nogen for at tale med mig
+    om <seg type="komm" target="K6r-16"/>magtpaaliggende Ting. 
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Ney Herre, men – – –
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Her har, maaskee, været nogen at ville betale Penge; thi mine Debitorer pleyer
+gierne være villige at betale; <app type="tc"><lem><corr resp="ed">naar</corr></lem><rdg wit="A">aaar</rdg></app> de veed, at jeg icke er i Byen. 
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Ney Herre, her har ingen været, men – – –
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvad Fanden vil du da sige med dit men?
+</p></sp>
+<sp><speaker>Arv.</speaker>
+    <p>Aldeelis intet <app type="tc"><lem><corr resp="ed">Herre</corr></lem><rdg wit="A">Heree</rdg></app>. <seg type="komm" target="K6r-28"/>Det er saa min <w>Tale-Maade</w>, men –
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="K6r-30"/>Her maae endelig være hendet noget. <seg type="komm" target="K6r-30a"/>Du maae icke have vel forvaret din Post,
+saa min Daatter, maaskee, har føytet i Byen. Jeg skal nock faae det at viide.
+</p></sp>
+<sp><speaker>Arv.</speaker>
+    <p>Der har, min Troe, icke en Siæl været uden for <w>Gade-Dørren</w> <seg type="komm" target="K6r-35"/>uden den hvide
+        Kat, som jeg pryglede strax ind igien, og svor paa, at jeg skulde <seg type="komm" target="K6r-36"/><app type="var"><lem wit="A">klave</lem><rdg wit="B">Klage</rdg></app> ham for Herren.
+        Hvad mig er betroed forretter jeg <seg type="komm" target="K6r-37"/>troelig, men – – – 
+    </p></sp>
+            <pb ed="A" n="K6v" facs="K6v"/>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Det er dog en Satans men. Er min Datter, maaskee, icke <seg type="komm" target="K6v-3"/>vel? 
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Jo hun er vel nock, men – – –
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="K6v-6"/>Hvad skader hende da; <seg type="komm" target="K6v-6a"/>fort siig.
+</p></sp>
+<sp><speaker>Arv <stage>grædende.</stage></speaker>
+<p>Ach Herre! lad Pernille og Magdelone sige det.</p></sp>
+
+
+<pb ed="SS" n="438"/>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Mit heele Legem skielver. Pernille og Magdelone <seg type="komm" target="K6v-10"/>kommer <seg type="komm" target="K6v-11"/><app type="tc_var"><lem><corr resp="ed">ud</corr></lem><rdg wit="A">nd</rdg><rdg wit="B C">ind</rdg></app>.
+</p></sp>
+<sp><speaker>Leonard.</speaker>
+    <p><seg type="komm" target="K6v-12"/>Altereer jer icke kiære <w>Sviger-Far</w>. Drengen er <seg type="komm" target="K6v-12a"/>eenfoldig. Der er, maaskee, gaaet
+et Kruus eller et Glas i stycker. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ney det er, min Troe, noget andet.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act1sc5" n="Scene 5">
+<head><hi rend="ant">Scen: 5.</hi></head>
+<stage>Jeronimus. Leonard. Magdelone. Pernille. Arv.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Hør Magdelone! Hvad er det for <seg type="komm" target="K6v-19"/>Skielmstycker, I har bedrevet i min Fraværelse?
+</p></sp>
+<sp><speaker>Magdelone.</speaker>
+<p>Vi har, min Troe, intet ont giort.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvordan er det med min Datter?</p></sp> 
+<stage>Magdelone græder.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ach Himmel! hvad er dog dette? Pernille! Hvordan er det med min Datter?</p></sp>
+<stage>Pernille græder.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Arv! <seg type="komm" target="K6v-31"/>fort siig mig hvad det er.</p></sp>
+<stage>Arv græder ogsaa.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="K6v-34"/>I skal faae en Ulycke, hvis I icke strax siger mig det.
+</p></sp>
+<sp><speaker>Magdelone.</speaker>
+<p>Ach Herre! lad Arv sige det.
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Ach Herre! lad Pernille siige det. 
+</p></sp><pb ed="A" n="K7r" facs="K7r"/>
+<sp><speaker>Pernille.</speaker>
+<p>Ach Herre! lad Magdelone sige det.</p></sp>
+
+
+
+<pb ed="SS" n="439"/>
+<sp><speaker>Jeronimus.</speaker>
+<p>Pernille! Jeg befaler dig at siige mig det.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Ach Herre! <seg type="komm" target="K7r-6"/>forskræckes da icke for meget derover: I gaar Nat <app type="tc"><lem><corr resp="ed">mellem</corr></lem><rdg wit="A">mellcm</rdg></app> et og to,
+        var det icke <seg type="komm" target="K7r-7"/>saa Magdelone?</p></sp><sp><speaker>Magdelone <stage>(grædende.)</stage></speaker>
+<p>Jo det var hen ved to.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Da vaagnede Jomfruen op i Forskræckelse, spatzerede frem og tilbage med underlige <seg type="komm" target="K7r-12"/>Gebærder. Da vi spurdte <seg type="komm" target="K7r-13"/>hvad hende skadde, svarede hun os <seg type="komm" target="K7r-13a"/>paa lutter Sang. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hun maae have gaaet i Søvne.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Ach ney Herre! Hun <seg type="komm" target="K7r-17"/>holder ved at synge indtil dette Øyeblick.
+</p></sp>
+<sp><speaker>Arv.</speaker>
+    <p>Da er det en <seg type="komm" target="K7r-19"/>Dievels Syngen, har hun siungen fra den Tiid og til nu. Jeg kom
+    ind i Kammeret om Morgenen, og spurte, om Herren <seg type="komm" target="K7r-21"/>var ventende hiem i Aften, da
+        satte hun sig i Positur ligesom hun vilde <seg type="komm" target="K7r-22"/>agere Comœdie, og svarede i Sang. Jeg kand
+        icke giøre det saavelsom hun; thi jeg har icke lærdt at synge, men det gick <seg type="komm" target="K7r-24 "/>ungefehr saaledes:</p>
+<lg><l>Hør Ungersvend jeg si – – – – – ger dig,</l> 
+<l>Hand kommer i Aften vis – – – – – selig.</l></lg>
+    <p>Herren <seg type="komm" target="K7r-27"/>forlader mig, at jeg synger noget <seg type="komm" target="K7r-27a"/>ilde.
+</p></sp>
+<sp><speaker>Leonard.</speaker>
+<p>Ach Himmel! hvad er dette for en Hendelse.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ach jeg elendige Menniske! hvad hører jeg. Der har vi Frugten af den forbandede
+    <seg type="komm" target="K7r-32"/><w>Opera-Læsning</w>; det Dievelskab har taget saadan Overhaand, at I skal see, hver anden Jomfrue her i Byen vil begynde at synge <seg type="komm" target="K7r-34"/>ligeledes i Steden for at tale.
+</p></sp>
+<sp><speaker>Leonard.</speaker>
+    <p><seg type="komm" target="K7r-37"/>Det var at ønske Hr. Jeronimus, at de vilde. Men <pb ed="A" n="K7v" facs="K7v"/><seg type="komm" target="K7v-1"/>efterdi hans Datter synger <seg type="komm" target="K7v-1a"/>endnu alleene, saa kand det icke <seg type="komm" target="K7v-2"/>passere for andet end en Sygdom eller Galskab.</p></sp>
+
+
+
+<pb ed="SS" n="440"/>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Lad hende strax komme hid. Arv! <seg type="komm" target="K7v-4"/>flye mig et Riis, som jeg vil holde bag Ryggen,
+og siden true hende med, naar jeg seer, at gode Ord icke vil hielpe. Disse <w>Node-Bøger</w>
+        skal <seg type="komm" target="K7v-7"/>og Fanden i Vold. <seg type="komm" target="K7v-7a"/>Jeg skal love for, at der aldrig hvercken <seg type="komm" target="K7v-8"/>enckelte eller dobbelte
+        Fuuser, <app type="tc"><lem><corr resp="ed">hvercken</corr></lem><rdg wit="A">hverckeu</rdg></app> <hi rend="ant">b duur</hi> eller <hi rend="ant">b moll</hi> skal komme <seg type="komm" target="K7v-9"/>inden min Dørtærskel <seg type="komm" target="K7v-10"/>oftere. Hør 
+        Arv! naar den <seg type="komm" target="K7v-10a"/>Mammeselle, som lærer hende at synge, kommer her igien, saa <seg type="komm" target="K7v-11"/>kandst
+        du bede hende paa en høflig Maade, at <seg type="komm" target="K7v-12"/>gaae Døden og Dievlen i Vold. Ach mit
+        Hierte vil <seg type="komm" target="K7v-13"/>bryste af denne ulyckelige Hendelse.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Her er Jomfruen. 
+</p></sp>
+</div>
+        <div type="scene" xml:id="act1sc6" n="Scene 6">
+<head><hi rend="ant">Scen: 6.</hi></head>
+<stage>Leonora. Jeronimus. Magdelone. Pernille. Arv. Leonard.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+<p>Er det sandt, som jeg hører om dig, min Datter, at du har saadanne forbandede
+    <seg type="komm" target="K7v-20"/>Lader, at du svarer Folck i lutter Sang og <seg type="komm" target="K7v-21"/>Tremulanter? hvad Pocker har bragt dig 
+    udi saadanne Griller, hvorved du bringer Skreck i din gamle Far, og <seg type="komm" target="K7v-23"/>prostituerer dig
+over heele Byen.</p></sp>
+<sp><speaker>Leonora <stage>(i <w>Opera-Tone</w>.)</stage></speaker>
+    <lg><l><seg type="komm" target="K7v-25"/>Möchte ich <app type="tc"><lem wit="A B C">doch ich doch</lem><rdg resp="Brix">dich ich dich</rdg></app> </l><l><app type="tc"><lem><corr resp="Martensen">mein</corr></lem><rdg wit="A B C"><note>uden linjeskift i</note></rdg><rdg resp="Martensen"><note>linjeskift indsat af</note></rdg></app> getreuer <seg type="komm" target="K7v-25a"/>Amyntas
+<app type="tc"><lem wit="A B C">noch<note>efter linjeskift i</note></lem></app></l> <l><app type="tc"><lem><corr resp="Martensen">ehe</corr></lem><rdg wit="A B C"><note>uden linjeskift i</note></rdg><rdg resp="Martensen"><note>linjeskift indsat af</note></rdg></app> ich sterbe – – – – wieder sehn.</l></lg> 
+</sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>A – – – – – – og det er paa Tydsk oven i Kiøbet. Kiender du mig icke mit Barn?
+</p></sp>
+<sp><speaker>Leonora.</speaker>
+    <l><seg type="komm" target="K7v-31"/>Ihr seyd mein Vatter, ihr seyd mein Vatter.</l></sp>
+<sp><speaker>Jeronimus <stage>(viisende Riiset.)</stage></speaker> 
+    <p>Seer du det, hvis du icke holder op at <seg type="komm" target="K7v-33"/>harcellere, saa – – 
+</p></sp>
+<sp><speaker>Leonora.</speaker>
+    <lg><l><seg type="komm" target="K7v-35"/>Gestrenger Vatter, gestrenger Vatter, halt</l>
+<l>Das ist ja Tyranney, das ist ja gar Gewalt.</l>
+</lg></sp>
+<sp><speaker>Leonard.</speaker>
+    <p>Jeg er saa <seg type="komm" target="K7v-38"/>altereret, at jeg icke kand staae paa mine <pb ed="A" n="K8r" facs="K8r"/>Been; <seg type="komm" target="K8r-1"/>Adieu min Herre! <seg type="komm" target="K8r-1a"/>Lar
+mig viide, naar der blir bedre med hende.</p></sp>
+
+
+
+
+
+<pb ed="SS" n="441"/>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Ach jeg elendige Menniske, <seg type="komm" target="K8r-4"/>dette vil kræncke mig til Døden.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Er det icke best, at Herren <seg type="komm" target="K8r-6"/>har Bud efter den nye Doctor, som er for nogle Dage
+siden kommen til Byen? 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Veedst du hvor hand boer, saa siig det til Arv, <seg type="komm" target="K8r-9"/>at hand springer der hen.</p></sp>
+<sp><speaker>Pernille <stage>(taler sagte til Arv og hand gaaer.)</stage></speaker>
+    <p>Det skal være en <seg type="komm" target="K8r-12"/>ypperlig Mand, der har giordt stoore <seg type="komm" target="K8r-12a"/>Curer, men hand er noget dyr.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ja jeg har nock hørdt tale om ham. Det er jo Doctor Bombastus, som du meener.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Ja det er den samme. Hand har allereede <seg type="komm" target="K8r-18"/>curert 6 stumme Folck her i Byen. Hand
+        har en Søn med sig, som skal være lige saa <seg type="komm" target="K8r-20"/>sterck som hand selv i <seg type="komm" target="K8r-20a"/>Medicinskabet.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvor har du hørdt alt dette?
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Mammesellen, som har <seg type="komm" target="K8r-24"/>informeret Jomfruen, har fortalt det. Ach gid hand kunde
+        hielpe hende! om jeg skulde selge mine Klæer <seg type="komm" target="K8r-26"/>indtil mit Skiørt, saa vilde jeg giøre det
+for at betale ham. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hand skal nock blive betalt.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Men vil Herren icke forsøge at <seg type="komm" target="K8r-31"/>tale hende meer til, for at høre om hun bliver ved.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Jeg kand icke <seg type="komm" target="K8r-37"/>taale at see paa hende Pernille. Lad hende gaae ind saa lenge til
+Docteren kommer.</p></sp>
+<stage>(Leonora leedes ind.)
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Kand nogens Sorg vel <seg type="komm" target="K8r-41"/>lignes med min. Det er mit <pb ed="A" n="K8v" facs="K8v"/>eeniste Barn, hvis Bryllup
+        jeg havde tenckt at holde <seg type="komm" target="K8v-1"/>i een af Dagene med en fornemme ung Person.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Var det den unge Person som gick bort?</p></sp>
+
+
+
+<pb ed="SS" n="442"/>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ja det var ham.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Hvor boer hand?
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Hand er fra <seg type="komm" target="K8v-10"/>Holsten, hvor hand har arvet anseelige Midler efter sin Far, som
+nyelig er død, og maaskee kand faae dobbelt saa meget, dersom det er sandt, som mand
+siger, at hans Broer er død udenlands. Hand <seg type="komm" target="K8v-13"/>har sat sig her ned udi Landet paa en
+Herregaard, hvor hand har giort alting reede at tage imod <app type="tc"><lem><corr resp="Rahbek">hende.</corr></lem><rdg wit="A B">hende,</rdg><rdg resp="Rahbek">hende.</rdg></app> Jeg veed nock, at
+        denne fremmede <seg type="komm" target="K8v-15"/><w>Straten-Juncker</w>, som talede med hende paa det <seg type="komm" target="K8v-16"/>Assemble for 14 Dage 
+        siden, gaaer og <seg type="komm" target="K8v-16a"/>støver efter hende. Jeg har faaet tilstræckelig Kundskab derom, hvorfor
+        jeg har brugt alle muelige <seg type="komm" target="K8v-18"/>Præcautioner, at han <app type="tc"><lem><corr resp="ed">icke</corr></lem><rdg wit="A">ieke</rdg></app> faaer hvercken hende eller nogen
+        af jer andre i Tale; thi Knægten <seg type="komm" target="K8v-20"/>seer vel ud, og en ung Jomfrue, som hun, er læt at
+forføre.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Er det derfor at Herren har sluttet os inde liigesom i en <w>Muuse-Fælde</w>?
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ja just derfor. Men mon hun skulde have nogen Kierlighed til samme Karl, og
+det samme skulde have bragt hende udi dette Gallskab?
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Ney, jeg har min Troe icke mercket andet end at hun var <seg type="komm" target="K8v-30"/>fornøyet med det <seg type="komm" target="K8v-30a"/>Val,
+som Herren har giort. Men der kommer Docteren og hans Søn.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act1sc7" n="Scene 7">
+<head><hi rend="ant">Scen. 7.</hi></head>
+            <stage>Henrich som Doctor. Leander som <seg type="komm" target="K8v-33"/><app type="tc"><lem><corr resp="ed">Licentiat.</corr></lem><rdg wit="A">Licentiat</rdg></app> Jeronimus. Pernille. Magdelone. Arv.
+                Henrich og Leander <seg type="komm" target="K8v-35"/>giør Pedantiske Complimenter. 
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Om Forladelse, min Herre, at jeg har taget den Dristighed <seg type="komm" target="K8v-38"/>at have Bud efter ham. 
+    </p></sp><pb ed="A" n="L1r" facs="L1r"/>
+<sp><speaker>Henrich.</speaker>
+<p>Alt forladt. Er det hand selv, som er gal, min <app type="var"><lem wit="A">Herre!</lem><rdg wit="B">Herre</rdg></app>
+</p></sp>
+<sp><speaker><app type="tc"><lem><corr resp="ed">Jeronimus.</corr></lem><rdg wit="A">Jeronimus-</rdg></app></speaker>
+    <p>Ney Gud skee lov <seg type="komm" target="L1r-4"/>jeg skader intet Hr. Doctor. Men min eeniste Datter <seg type="komm" target="L1r-5"/>er geraadet
+i en stor Ulycke, om Hr. Doctor kunde hielpe hende, saa – – – </p></sp>
+
+
+<pb ed="SS" n="443"/>
+<sp><speaker>Henrich.</speaker>
+    <p>Det skulde være en farlig stoor Ulycke, som jeg icke skulde kunde hielpe for. <seg type="komm" target="L1r-9"/>Jeg
+        vilde ønske, min Herre, at hand selv <seg type="komm" target="L1r-10"/>havde halvfemtsindstyve Ulycker og Sygdomme
+        paa Halsen, at jeg kunde <seg type="komm" target="L1r-11"/>giøre min Konst probat paa ham.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Jeg tacker skyldigst Hr. Doctor; men <seg type="komm" target="L1r-13"/>det er dog bedre som bedre er.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Det er <seg type="komm" target="L1r-16"/>endelig sandt. Men vil I give mig lov at <seg type="komm" target="L1r-16a"/>bryde jer et Arm eller Been af,
+alleene for at lade see, hvor hastig jeg kand curere igien.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Jeg <seg type="komm" target="L1r-20"/>tviler icke om hans Dygtighed, thi ald Verden kiender Doctor Bombastus;
+    men jeg vil dog icke <seg type="komm" target="L1r-21"/>umage ham med saadanne Bagateller denne gang.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L1r-24"/>Hand maae vel siige Bagateller. Det er noget, som min Søn Licentiat <seg type="komm" target="L1r-25"/>Theophrastus kand giøre i en Haandevending. Kom min Herre, lad mig giøre et Forsøg enten 
+paa hans Arm eller Been.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ney Hr. Doctor, icke denne gang, icke denne gang.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Lad mig da forsøge paa hans <w>Gaards-Karl</w>. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Ja <seg type="komm" target="L1r-33"/>det kand nock skee. Arv kom hid til Docteren.
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>A – – – – – – – – – – 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ey du Nar! Hand curerer dig i samme Øyeblick igien.
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>A – – – – – – – – – – 
+</p></sp><pb ed="A" n="L1v" facs="L1v"/>
+<sp><speaker>Henrich.</speaker>
+<p>Kom kun hid min Søn! du skal see, hvor hastig det er giort. 
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>A – – – – – – – – – – </p></sp>
+
+
+<pb ed="SS" n="444"/>
+<sp><speaker>Henrich.</speaker>
+    <p>Jeg seer nock, at hand <seg type="komm" target="L1v-6"/>icke vil dertil; men hvad er det jer Datter <seg type="komm" target="L1v-7"/>skader?
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hun vil icke tale meere, men alt, hvad hun siger, gaaer paa Sang.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Den Sygdom heeder paa Latin <seg type="komm" target="L1v-11"/><hi rend="ant">Perisangia,</hi> og paa Græsk <hi rend="ant"><seg type="komm" target="L1v-12"/><app type="var"><lem wit="A">Copissisandung</lem><rdg wit="B C">Compissisandung</rdg></app></hi>. Den
+har jeg cureret mange for. Jeg maae føle paa hendes Puls.</p>
+<stage>(føler Pernille paa Pulsen.)</stage>
+    <p>Har hun længe været saa gall? min kiere Jomfrue, <seg type="komm" target="L1v-16"/>giv jer kun tilfreds. Jeg skal nock
+curere jer. 
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Jeg siger tusind Tack, Hr. Doctor, men det er icke <app type="tc"><lem><corr>mig.</corr></lem><rdg wit="A">mig<note type="last">(punktum fejlagtigt trykt på den følgende linje)</note></rdg></app>
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Ney Hr. Doctor, det er min <seg type="komm" target="L1v-20"/>Piige. Lad min Datter strax komme hid.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act1sc8" n="Scene 8">
+<head><hi rend="ant">Scen. 8.</hi></head>
+<stage>Leonora. Personerne af forrige Scene.
+</stage>
+<sp><speaker>Henrich.</speaker>
+    <p>Ja det er ret. <seg type="komm" target="L1v-25"/>Det første jeg kastede mine Øyen paa hende, kunde jeg see, at hun
+har den Svaghed, som kaldes <hi rend="ant">Perisangia.</hi>
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Vil kun Papa <seg type="komm" target="L1v-28"/>give agt paa hendes Næse, paa den <seg type="komm" target="L1v-29"/><hi rend="ant">Circumflex</hi> eller <seg type="komm" target="L1v-29a"/><hi rend="ant">dolus malus,</hi> som hand seer.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Det er ret min Søn. Den <hi rend="ant">Circumflex</hi> <seg type="komm" target="L1v-31"/>gir alleene tilstræckelig tilkiende, at det er
+        en <hi rend="ant">Perisangia.</hi> Jeg maae føle hendes <seg type="komm" target="L1v-33"/><hi rend="ant">pultem.</hi> 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Vil Hr. Doctor icke legge sin Hat fra sig, den <seg type="komm" target="L1v-35"/>incommoderer ham. Arv! Kom hid
+og tag Hr. Doctors Hat. 
+    </p></sp><pb ed="A" n="L2r" facs="L2r"/>
+<sp><speaker>Arv.</speaker>
+<p>A – – – – – – – – – – 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Jeg troer Drengen er gal. <seg type="komm" target="L2r-4"/>Vil du hid at tage Hatten.</p></sp>
+
+
+
+
+
+<pb ed="SS" n="445"/>
+<sp><speaker>Arv.</speaker>
+<p>A – – – – – – – – – – 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Hand er bange for mig; Jeg vil sætte Hatten paa Hovedet. <seg type="komm" target="L2r-9"/>Om Permission min
+        <seg type="komm" target="L2r-9a"/>hierte Jomfrue! Ja Pulsen slaar <seg type="komm" target="L2r-10"/><hi rend="ant">perisangialiter.</hi> Føel Hr. Licentiat og siig mig din
+Meening.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Mig synes Papa, at her er meere <app type="var"><lem wit="A">end</lem><rdg wit="B">ond</rdg></app> een <hi rend="ant">Perisangia,</hi> her er <seg type="komm" target="L2r-14"/>snart en <seg type="komm" target="L2r-14a"/><hi rend="ant">Archisangia.</hi>
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Det er sandt. Pulsen har <seg type="komm" target="L2r-16"/>hart ad en fuldkommen <w><hi rend="ant">Archisangiali</hi>sk</w> Gang, men det 
+er intet. Min Søn skal curere hende min hierte Jomfrue!
+</p></sp>
+<sp><speaker>Leander.</speaker>
+<p>Ja det skal jeg gierne, vil hun kun have Tillid til mig.
+</p></sp>
+<sp><speaker>Leonora.</speaker>
+<lg><l>Jeg stoeler paa dig meest</l> 
+<l rend="indent">I dette og i meere,</l>
+<l>Du min Apollo est</l>
+<l rend="indent">Som eene kand curere.</l></lg>
+</sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvor fælt det er at høre hende svare paa Sang, saa glæder jeg mig dog ved at høre, 
+at hun har Tillid til Licentiaten.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Ja jeg skal <seg type="komm" target="L2r-30"/>give min Hals, om hand icke curerer hende.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p><seg type="komm" target="L2r-32"/>Det er icke en liden Hielp for en Doctor, at Patienten har Tilliid til ham. 
+</p></sp>
+<sp><speaker>Leonora.</speaker>
+    <lg><l>Naar jeg dit <seg type="komm" target="L2r-35"/>Aasiun seer</l>
+<l rend="indent">Forsvinder ald min Smerte,</l>
+<l>Ja alting i mig leer</l>
+<l rend="indent">See jeg dig gir mit Hierte.</l>
+        <l><pb ed="A" n="L2v" facs="L2v"/>Jeg stoeler paa dig meest</l>
+<l rend="indent">I dette og i meere,</l>
+        <l>Du min <seg type="komm" target="L2v-3"/>Apollo <seg type="komm" target="L2v-3a"/>est,</l>
+<l rend="indent">Som eene kand curere.</l></lg></sp>
+
+
+
+
+
+
+
+
+<pb ed="SS" n="446"/>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Det er <seg type="komm" target="L2v-6"/>endelig noget <seg type="komm" target="L2v-6a"/>sterckt, men jeg kand tencke, det er et stycke af et Opera; Jeg
+        mercker Hr. Doctor, at hun er allereede til Forbedring; thi <seg type="komm" target="L2v-8"/>tilforne sang hun <seg type="komm" target="L2v-8a"/>icke uden
+paa Tydsk.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Saa sandt som jeg er <seg type="komm" target="L2v-10"/><hi rend="ant">legitime promoveret Licentiat,</hi> saa skal <seg type="komm" target="L2v-11"/>hand tacke mig.
+        Inden 2 Dage min kiære Jomfrue skal <seg type="komm" target="L2v-12"/>hun føle Virckning af min Dygtighed.
+</p></sp>
+<sp><speaker>Leonora.</speaker>
+<lg><l>Jeg stoeler paa dig meest</l>
+<l rend="indent">I dette og i meere,</l>
+<l>Du min Apollo est</l>
+<l rend="indent">Som eene kand curere.</l></lg></sp>
+            <stage>(Arv staaer <seg type="komm" target="L2v-18"/>imidlertiid og skielver og løber til side, saa tit Docteren nærmer sig
+til ham.)
+</stage>
+<sp><speaker>Henrich.</speaker>
+    <p>Jeg maae conferere lidet med min Søn om Curen. <seg type="komm" target="L2v-22"/><hi rend="ant">Qvid tibi videtur Dominus
+Licentiatus, post molestam senectutem nos habebit humus.</hi>
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p><seg type="komm" target="L2v-25"/><hi rend="ant">Nomen pronomen verbum participium supinum præpositio conjunctio interjectio.</hi> 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L2v-28"/><hi rend="ant">Adjectivum &amp; Substantivum genere numero &amp; pluraliter.</hi>
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p><seg type="komm" target="L2v-31"/><hi rend="ant">Rusticus in via – – si non vis credere gusta.</hi>
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L2v-33"/><hi rend="ant">Gratias qvam maximas ago qvia qvoniam qvando.</hi>
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p><seg type="komm" target="L2v-35"/><hi rend="ant">Tunc tua res agitur, paries cum proximus ardet.</hi></p></sp>
+<stage>(De blir meer og meer hidsig.)</stage>
+    <pb ed="A" n="L3r" facs="L3r"/>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L3r-2"/><hi rend="ant">Alpha beta gamma delta <app type="var"><lem wit="A">ypselon</lem><rdg wit="B">ypsolon</rdg></app> <seg type="komm" target="L3r-2a"/>ponto basta.</hi>
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p><seg type="komm" target="L3r-4"/><hi rend="ant">Ad adversus adversum pro contra extra supra palam <seg type="komm" target="L3r-5"/>archipodialiter <seg type="komm" target="L3r-5a"/>tenus.</hi></p></sp>
+
+
+
+
+
+
+
+
+
+<pb ed="SS" n="447"/>
+<sp><speaker>Arv.</speaker>
+    <p>Gid de kunde <seg type="komm" target="L3r-7"/>komme i Haar sammen, og bryde <app type="var"><lem wit="A">Arme</lem><rdg wit="B">Arm</rdg></app> og Been i tu paa hinanden i steden for paa mig.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L3r-10"/><hi rend="ant">Omnia conando docilis solertia vincit.</hi> 
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p><seg type="komm" target="L3r-12"/><hi rend="ant">Pes aries paries palmes cum limite stipes.</hi>
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L3r-14"/><hi rend="ant">Qvisqvis amat ranam, <app type="var"><lem wit="A">ranam</lem><rdg wit="B"><note>mgl. i</note></rdg></app> putat esse <app type="tc"><lem><corr resp="ed">dianam.</corr></lem><rdg wit="A">dianam</rdg></app></hi>
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Ja øver jer Kunst paa Diana længe nock; thi det er kun en Hund.</p></sp>
+<sp><speaker>Henrich <stage>med knytted Næver.</stage></speaker>
+    <p><seg type="komm" target="L3r-19"/><hi rend="ant">Qvando duo substantiva concurrunt, alterum erat infinitivi.</hi>
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p><seg type="komm" target="L3r-22"/><hi rend="ant">Tytere tu patulæ recubans solertia vincit.</hi>
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Got, got, min Søn, jeg har <seg type="komm" target="L3r-24"/>approberet din Meening fra Begyndelsen. Jeg har
+        kun opponeret saa stærck imod dig for at høre, om du holdt fast <app type="tc"><lem><corr resp="ed">ved</corr></lem><rdg wit="A">ded</rdg></app> dine <seg type="komm" target="L3r-26"/>Principia.
+        Hør min Herre! <seg type="komm" target="L3r-27"/>Efterdi eders Datter skulle <app type="tc"><lem><corr resp="ed">blive</corr></lem><rdg wit="A">blivc</rdg></app> syg og falde udi saadan Gallskab,
+saa er ingen beleyligere Tid for hende end denne. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ach ney, min Herre! Det er den <w>aller-ubeleyligste</w> Tid; Thi hun skulde i disse Dage
+have Bryllup med en fornemme ung Person.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+<p>Ney min Herre! Tidens Beleylighed bestaar der udi, at det er St. Hans Aften 
+i Dag.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="L3r-38"/>Hvad kand det giøre til Sagen? 
+    </p></sp><pb ed="A" n="L3v" facs="L3v"/>
+<sp><speaker>Leander.</speaker>
+    <p><seg type="komm" target="L3v-2"/>Jo hun maa ud til Kilden.</p></sp>
+
+
+
+
+
+<pb ed="SS" n="448"/>
+<sp><speaker>Jeronimus.</speaker>
+<p>Men er der saadan Kraft i det Vand?
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Der er større <seg type="komm" target="L3v-6"/>Lægedom derudi, end nogen skal kunde troe, naar man bruger det
+        paa den rette Maade, og til det rette <w>Klocke-Slet</w>, og ved nogle foregaaende <seg type="komm" target="L3v-8"/>Præparatorier, som for Exempel et lidet Pulver, som <app type="tc"><lem><corr resp="ed">hun</corr></lem><rdg wit="A">hnn</rdg></app> skal <seg type="komm" target="L3v-9"/>tage ind først.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Vil da Hr. Licentiat have den Godhed at følge med.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+<p>Ja hjertelig gierne. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Jeg vilde ogsaa bede, at hand seer til, at ingen anden faaer hende i Tale derude;
+    thi her er kommen en ung <seg type="komm" target="L3v-17"/>Studshane til Byen, som gaaer og <seg type="komm" target="L3v-17a"/>støver efter hende.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L3v-19"/>Det skal have gode Veye. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Hør Pernille og Magdelone! <seg type="komm" target="L3v-21"/>Laver jer strax til, og lar baade Vognen og <seg type="komm" target="L3v-22"/>Chaisen
+spende for; thi nu er Tiden; Vil de behage at træde ind saa lenge, medens Vognen
+spendes for.</p></sp>
+       </div>
+   </div>
+    
+    <div type="act" xml:id="intermedium" n="Intermedium">
+        <head type="h2"><seg type="komm" target="L3v-25"/><hi rend="ant">Intermedium</hi> i steden for den 2den <hi rend="ant">Act</hi>.</head>
+    
+        <p><seg type="komm" target="L3v-26"/><hi rend="ant"><w><hi rend="init">T</hi>heatrum</w></hi> giøres <seg type="komm" target="L3v-26a"/>saa lidet som det kand, saa der præsenteres kun <seg type="komm" target="L3v-27"/>i Førstningen som
+            en Vey til Kilden, hvor hen reyse saa vel Ryttere som <seg type="komm" target="L3v-28"/>Fodfolck med <seg type="komm" target="L3v-28a"/>Spand, Krucker
+            og <seg type="komm" target="L3v-29"/>Bouteiller, og kand een have hengende om sig lutter Krucker, andre lutter Bouteiller.
+            De samme kand fare ud af een Side og komme ind af en anden for at <seg type="komm" target="L3v-32"/>have Anseelse
+af mange Folck. <app type="var"><lem wit="A">2</lem><rdg wit="B">2)</rdg></app> Processioner skeer af Folk som holder Tacten efter Musiqve. Een af 
+            Bønder, som <seg type="komm" target="L3v-34"/>gaaer Sommer i Bye, med Faner og <seg type="komm" target="L3v-34a"/>Mundering og <seg type="komm" target="L3v-34b"/><w>Maj-Greene</w>. Den
+            anden af gamle Kiellinger alle med <seg type="komm" target="L3v-35"/>differente <seg type="komm" target="L3v-36"/>vanskabte Masqver gaaende med deres
+            Krycker efter Tacten og Krucker hengende ved Siden. <seg type="komm" target="L3v-37"/>For dem spilles <pb ed="A" n="L4r" facs="L4r"/>et <seg type="komm" target="L4r-1"/><w>Liire-Stycke</w>.
+            Derpaa aabnes <seg type="komm" target="L4r-1a"/><hi rend="ant">fond de Theatre,</hi> hvor Kilden præsenteres med nogle smaa Telte. Saa
+            snart det aabnes høres samme Øyeblick en stor <seg type="komm" target="L4r-3"/>confus Allarm, nogle raabe, andre snacke, 
+andre svinge og smecke med Pidsker, og Kiellinger slaaes om at komme først til Kilden.
+En blind Mand kommer ind med en <seg type="komm" target="L4r-6"/><w>Bier-Fiol</w>, hvorefter Bønderne dantze. Kilden er
+            et lille Hull paa Gulvet, hvoraf idelig nogle øse Vand, <seg type="komm" target="L4r-8"/>andre med Krucker, andre med
+            deres Hatte. Naar det er mod Enden <seg type="komm" target="L4r-9"/>sluttes <hi rend="ant">fond de Theatre</hi> igien.</p>
+   </div>
+    
+
+    <div type="act" xml:id="act3" n="Tredje akt">
+        <pb ed="SS" n="449"/>
+        <div type="scene" xml:id="act3sc" n="Scene 1">
+<head><hi rend="ant">Act. III. Scen. 1.</hi></head>
+<stage>Jeronimus. Arv.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+<p><w><hi rend="init">H</hi>ør</w> Arv!</p></sp>
+<sp><speaker>Arv <stage>(søvnig stræckende sig.)</stage></speaker> 
+<p>Jeg veed icke, hvorfor vi skal staae op om Natten.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Er det Nat, naar Soelen er oppe?
+</p></sp>
+<sp><speaker>Arv.</speaker>
+    <p>Ey Herre! I kand icke regne Soelen ved St. Hans Tider, hvor <seg type="komm" target="L4r-21"/>hun icke sover 
+en halv Time udi 24. Det kand vi Mennisker icke giøre; thi Soelen sover derimod den
+heele Vinter bort, naar vi maae arbeyde ved Lys.</p></sp>
+            <stage>(Hand <seg type="komm" target="L4r-24"/>gisper og stræcker sig igien.)
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Jeg havde icke staaet saa tilig op, hvis det icke havde været for at <seg type="komm" target="L4r-27"/>erkyndige mig 
+om min Datters Tilstand. Hvad Tiid kom de hiem i Aftes?
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Der er hvercken Hund eller Kat kommen tilbage endnu.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvad Pocker er dette? Er de bleven ude den <app type="tc"><lem><corr resp="ed">heele</corr></lem><rdg wit="A">hecle</rdg></app> Nat? Jeg veed hun kunde jo 
+have drucket Vandet i Aftes, og ligget hiemme i Nat, man curerer jo icke Folck om
+Natten?
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Det er ligesom Sygdommen og Docteren er til Herre. Der kand være visse Sygdomme, som cureres best <pb ed="A" n="L4v" facs="L4v"/>om Natten, og visse <app type="var"><lem wit="A">Doctere</lem><rdg wit="B">Docter</rdg></app>, som icke practicerer, <app type="tc"><lem><corr resp="ed">førend</corr></lem><rdg wit="A">føreud</rdg></app>
+Soelen gaaer ned.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Det er sandt, <seg type="komm" target="L4v-4"/>naar et Menniske kommer en hastig Svaghed saasom <seg type="komm" target="L4v-5"/>Daanelse paa
+om Natten, saa maae man bruge Doctor, men udi langvarig Sygdomme lader man
+Folck sove om Natten. 
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Ey Herre! Docterne forstaaer det best, troe mig, at Docterens Søn havde icke ladet
+    hende ligge ude, hvis hand icke havde vidst, at <seg type="komm" target="L4v-11"/><w>Natte-Kuur</w> havde været hende <seg type="komm" target="L4v-11a"/>tienligt.</p></sp>
+
+<pb ed="SS" n="450"/>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Hun er <seg type="komm" target="L4v-13"/>endelig udi gode Hænder, det er vist, men jeg har dog ingen Roelighed,
+førend jeg seer hende. Jeg maa strax reyse selv derud, hvorvel jeg er meget træt af forrige Reyse. Kom ind Arv! du skal følge mig.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act3sc2" n="Scene 2">
+<head><hi rend="ant"><app type="tc"><lem><corr resp="ed">Scen.</corr></lem><rdg wit="A">Scen</rdg></app> 2.</hi></head>
+<sp><speaker>Henrich.</speaker>
+<p>Min Herre, som er flygtet med Jomfruen fra Kilden, har befalet mig at gaae hid
+    for at <seg type="komm" target="L4v-20"/>holde den Gamle med Snack, <seg type="komm" target="L4v-21"/>at, om hand er <seg type="komm" target="L4v-21a"/>allarmered over deris <seg type="komm" target="L4v-21b"/>Udeværelse
+    i Nat, skal jeg <seg type="komm" target="L4v-22"/>forhindre ham, at hand icke reyser der ud, <seg type="komm" target="L4v-23"/>paa det at de kand faae <seg type="komm" target="L4v-23a"/>desbedre Tiid til at komme i Sikkerhed. De opholdte sig 2 Tiimer ved Kilden, indtil de 
+    <seg type="komm" target="L4v-25"/>saae deres Tempo at komme bort med en <w>Bonde-Vogn</w>. Hr. <seg type="komm" target="L4v-26"/>Jeronimi Kudsk, troer
+jeg nock, leeder endnu efter dem; thi hand tør vel icke komme hiem, førend hand har
+fundet dem igien; men jeg maae bancke paa.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act3sc3" n="Scene 3">
+<head><hi rend="ant">Scen. 3.</hi></head>
+<stage>Henrich. Arv. Jeronimus. 
+</stage>
+<sp><speaker>Henrich.</speaker>
+<p>Hør Cammerad! jeg vil tale et Ord med din Herre.
+</p></sp>
+<sp><speaker>Arv.</speaker>
+<p>Ach Hr. Doctor! Vil I intet ont giøre mig?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Aldeelis intet, min Søn, jeg vil heller giøre dig got end ont, men lad mig faae
+din Herre i Tale. 
+</p></sp><pb ed="A" n="L5r" facs="L5r"/>
+<sp><speaker>Arv.</speaker>
+<p>Hr. Jeronimus! her er Docteren igien.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="L5r-4"/>Hans Tienere, Hr. Doctor! hand kommer ret beleyligt. Jeg er bekymret over min
+        Datters Udeblivelse i Nat, og <seg type="komm" target="L5r-6"/>staaer derfore færdig at reyse ud til Kilden.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p><app type="var"><lem wit="A">Ey!</lem><rdg wit="B C">Fy!</rdg></app> det giøres icke nødigt. I Aften skal I uden Tvivl have jer Datter gandske
+    frisk tilbage, <seg type="komm" target="L5r-9"/>nu fick jeg Bud fra min Søn med en Seddel af dette Indhold:</p> 
+<stage>(Læser Seddelen.)</stage>
+<pb ed="SS" n="451"/>
+    <p><hi rend="ant"><seg type="komm" target="L5r-12"/>Spælamdisimo Kiörivendum <seg type="komm" target="L5r-12a"/>doctus doctior doctissimus.</hi> Ja hand forstaaer,
+maaskee, icke Latin.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ney jeg giør icke Hr. Doctor.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Saa skal jeg da forklare det paa Danske:</p>
+    <p rend="indent2"><seg type="komm" target="L5r-18"/>Høylærde og vidtberømte Hr. Doctor! Høytærede kiere Fader!</p>
+    <p rend="indent"><seg type="komm" target="L5r-20"/>Jeg maae berette ham, hvorvidt der er <seg type="komm" target="L5r-20a"/>avanceret med Curen: Jeg har ordineret
+        to <seg type="komm" target="L5r-21"/>Pulver for Jomfruen, et at bruge <seg type="komm" target="L5r-22"/>for Vandet, et andet efter Vandet. Det første
+        Pulver er den <seg type="komm" target="L5r-23"/>Tinctur, som kaldes – – – 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Et Pulver er jo icke Tinctur?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Jo det kaldes nu Tinctur hos alle nye <seg type="komm" target="L5r-27"/>Autoribus. Jeg maa læse videre: Det første
+        Pulver er den Tinctur kaldet <seg type="komm" target="L5r-29"/><hi rend="ant">Scabhalsiaskomai</hi>, <seg type="komm" target="L5r-29a"/>hvilcken saa snart hun havde taget 
+        ind, blev hun langt verre; thi hun giorde icke andet end sang <seg type="komm" target="L5r-31"/>idelig; derpaa lod jeg
+        hende dricke af Vandet <seg type="komm" target="L5r-31a"/>halvanden Potte og en to og tredivende Deel, hvilcket er den
+        rette Portion, som <seg type="komm" target="L5r-33"/><app type="var"><lem wit="B C">Hipocrates</lem><rdg wit="A">Hiprocrates<note type="last">(jf. to forekomster af <q>Hipocrates</q> i denne og følgende replik)</note></rdg></app> har foreskrevet om dette <w>Kilde-Vands</w> Brug; thi vil
+        man bruge af <seg type="komm" target="L5r-34"/>Helene <w>Kilde-Vand</w>, da siger Hipocrates saaledes: <seg type="komm" target="L5r-35"/><app type="tc"><lem wit="A B C">ἀπο</lem><rdg resp="SS">ἀπὸ</rdg></app> τοῦ <hi rend="ant">Helenu <seg type="komm" target="L5r-36"/>Omikron
+pi ro sigma.</hi> 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Lad os kun <seg type="komm" target="L5r-38"/>gaae forbi hvad Hipocrates siiger. 
+    </p></sp><pb ed="A" n="L5v" facs="L5v"/>
+<sp><speaker>Henrich.</speaker>
+<p>Ja nock; viidere. Derpaa lod jeg hende dricke <app type="tc"><lem wit="A B C">Vandet</lem><rdg resp="Liebenberg">af Vandet</rdg></app> etc. hvoraf hun blev noget
+    bedre, men da hun havde <seg type="komm" target="L5v-4"/>faaet det andet i Livet, faldt hun <seg type="komm" target="L5v-4a"/><app type="tc"><lem wit="A B C">min Søn</lem><rdg resp="Brix">mig</rdg></app> om Halsen, og 
+sagde uden Sang: Ach Hr. Doctor! der faldt mig ligesom en tung Steen fra Hiertet.</p>
+<stage>(Jeronimus græder.)</stage>
+    <p>Hun har derfor <seg type="komm" target="L5v-8"/>icke siden siunget uden 2 eller 3 gange, men jeg haaber, at naar hun
+    ved Middags Tider faaer ind den <seg type="komm" target="L5v-10"/><hi rend="ant">Essentia Scholastica</hi>, som jeg har med, skal hun
+    gandske <seg type="komm" target="L5v-11"/>blive restitueret, og gandske frisk mod Aftenen see hendes kiære Far. Skreved 
+udi største Hast af eders oprigtige Søn</p>
+<p rend="rightMargin"><hi rend="ant">Theophrastus.</hi>
+</p>
+    <p rend="right"><seg type="komm" target="L5v-15"/><hi rend="ant">manu mea propria.</hi></p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Ach Hr. Doctor! det er en behagelig <seg type="komm" target="L5v-17"/>Tidende for mig. Jeg vil da slaae mig til 
+Roelighed, og vente hende i Aften. Hand skal ogsaa blive betalt for sin Umage.</p></sp>
+
+
+<pb ed="SS" n="452"/>
+<sp><speaker>Henrich.</speaker>
+    <p>Vi vil nock <seg type="komm" target="L5v-21"/>komme til rette om Betalningen. Men der er en <seg type="komm" target="L5v-22"/>Lackey.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Vil I tale med nogen?</p></sp>
+<sp><speaker>Lackeyen.</speaker> 
+    <p><app type="tc"><lem><corr resp="ed">Min</corr></lem><rdg wit="A">Miu</rdg></app> Herre Doctor Bombastus er her ude, som vil have den Ære at tale <seg type="komm" target="L5v-27"/>med ham.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>See! der staaer jo jer Herre Doctor Bombastus.</p></sp>
+<sp><speaker>Lackeyen.</speaker>
+<p>Jeg beder om Forladelse. Min Herre er her uden for. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvad Pocker vil det siige. Svar ham at hand skal være mig velkommen.
+</p></sp>
+<sp><speaker>Henrich <stage>(sagte)</stage></speaker>
+    <p><seg type="komm" target="L5v-36"/>Hvo der nu havde en god <seg type="komm" target="L5v-36a"/>Stricke, at jeg kunde <seg type="komm" target="L5v-36b"/>henge mig med mine Forfædre.
+        Men jeg maae <seg type="komm" target="L5v-37"/>holde Ørene stive saa lenge som jeg kand; thi <seg type="komm" target="L5v-38"/>mit Ja er saa got som 
+hans Ney. 
+</p></sp>
+</div>
+        <div type="scene" xml:id="act3sc4" n="Scene 4">
+            <pb ed="A" n="L6r" facs="L6r"/>
+<head><hi rend="ant">Scen. 4.</hi></head>
+<stage>Doct. Bombastus. Henrich. Jeronimus. Arv.
+</stage>
+<sp><speaker>Doct.</speaker>
+    <p>Om Forladelse Herre, at jeg kommer saa <seg type="komm" target="L6r-4"/>tilig. I Aftes meget <seg type="komm" target="L6r-5"/>sildig fick jeg at høre, 
+        at hans kiære Datter var <seg type="komm" target="L6r-6"/>geraadet <app type="tc"><lem><corr resp="ed">udi</corr></lem><rdg wit="A">u di</rdg></app> en Svaghed, og at hand forlangede min Hielp.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvad er hans Navn min Herre?
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Jeg er den bekiendte Doctor Bombastus, som nyelig er kommen. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Om min Datter er falden udi nogen <seg type="komm" target="L6r-12"/><app type="tc"><lem wit="A B C">Vildfarelse</lem><rdg resp="Brix">Vildelse</rdg></app>, saa er icke jeg. Er der ellers
+meer end een Doctor Bombastus?
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Ney her er icke meer end een Doctor Bombastus, og det er jeg.</p></sp>
+<pb ed="SS" n="453"/>
+<sp><speaker>Henrich.</speaker>
+<p>Og jeg siger: Det er jeg.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Er I Doctor Bombastus?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Er I Doctor Bombastus?
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p><seg type="komm" target="L6r-22"/>Hvo tviler om, at jeg er det?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Hvo tviler om, at jeg er det? 
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>I maae være Dievelen.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>I maae være Fanden.
+</p></sp>
+<sp><speaker>Jeronimus <stage>(sagte)</stage></speaker>
+    <p>Her spilles ligesaadan en Comoedie som med <seg type="komm" target="L6r-31"/>Amphitrion og Jupiter.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p>Jeg kand <seg type="komm" target="L6r-34"/>svære paa, min Herre, at det er den underligste Hendelse, mig nogen
+        Tiid er <seg type="komm" target="L6r-35"/>vederfaret.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Og jeg svær paa, min Herre, at det er en Hendelse uden Liige.
+</p></sp> <pb ed="A" n="L6v" facs="L6v"/>
+<sp><speaker>Arv <stage>(sagte)</stage></speaker>
+    <p>Gid jeg var vel ude, thi en af dem er <seg type="komm" target="L6v-2"/>vist nock <seg type="komm" target="L6v-2a"/>Lucifer, som har paataget sig en
+<w>Doctor-Skickelse</w>.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Jeg staaer gandske fortabt.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Og jeg veed icke hvad jeg skal tale eller sige.</p></sp>
+<sp><speaker>Doctor.</speaker>
+<p>Hand tør sige mig i mine aabne Øyne, at hand er Doctor Bombastus. 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Hand tør saa <w>u-forskammed</w> <seg type="komm" target="L6v-12"/>nægte, at jeg icke er det.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p>Jeg svær ved <seg type="komm" target="L6v-14"/>Apollinem, at jeg er Doctor Bombastus og ingen anden.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Og jeg svær ved <seg type="komm" target="L6v-16"/>Cornelius Nepos, at jeg er det og <app type="tc_var"><lem><corr resp="Liebenberg">ingen anden</corr></lem><rdg wit="A B">ingen</rdg><rdg wit="C">ingen – –</rdg><rdg resp="Rahbek Boye">ingen – –</rdg><rdg resp="Liebenberg">ingen anden</rdg></app>.</p></sp>
+<pb ed="SS" n="454"/>
+<sp><speaker>Doct.</speaker>
+<p>Det er en herlig Gud I svær ved.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Hand er ligesaa god som jeres.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Apollo er den Himmelske Læge.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Cornelius Nepos er den Himmelske Apothecker.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p>Min Hr. Jeronimus! hand <seg type="komm" target="L6v-26"/>maae forsickre sig om, at hand er bleven bedragen af 
+denne Mand.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Min Hr. Jeronimus! hand maae forsickre sig paa, at hand blir bedragen af denne
+Mand.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Thi hand er saa <w>u-kyndig</w> udi Medicinen, at hand giør en <w>Historie-Skriver</w> til en
+Apothecker.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Thi hand er saa <w>u-kyndig</w> i Medicinen, at hand giør en <seg type="komm" target="L6v-36"/>Urtegaardsmand til en
+Gud for Lægedom. 
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p>Jeg skal strax <seg type="komm" target="L6v-38"/>bringe for Lyset jer Vankundighed. 
+    </p></sp><pb ed="A" n="L7r" facs="L7r"/>
+<sp><speaker>Henrich.</speaker>
+    <p>Og jeg skal strax viise, <seg type="komm" target="L7r-2"/>at jeg er Karl for <app type="var"><lem wit="A">jer</lem><rdg wit="B C">min</rdg></app> Hat.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p>Jeg vil kun <seg type="komm" target="L7r-4"/>spørge jer de Ting, som jeg kand spørge en <seg type="komm" target="L7r-5"/><w>Skole-pog</w>; hvad kalder I
+        <seg type="komm" target="L7r-5a"/><hi rend="ant">Circulatio sangvinis</hi> paa Dansk?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Det er <seg type="komm" target="L7r-7"/>Smaakopper.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p>Gid du faae <seg type="komm" target="L7r-9"/>Pocker med dine Smaakopper!
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Jeg vil ogsaa spørge jer noget, som jeg kand spørge en <w>Skole-pog</w>: hvad er <seg type="komm" target="L7r-12"/><hi rend="ant"><app type="tc"><lem><corr resp="ed">Essentia</corr></lem><rdg wit="A">Essëntia</rdg></app>
+Scholastica</hi>?
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p>Der er <seg type="komm" target="L7r-14"/>aldrig noget saadant til udi Medicinen.</p></sp>
+
+
+<pb ed="SS" n="455"/>
+<sp><speaker>Henrich.</speaker>
+    <p>Der hører I hans stoore <seg type="komm" target="L7r-16"/>Vankundighed Hr. Jeronimus. Jeg er gall, at jeg gir
+        mig i Snack med saadan <seg type="komm" target="L7r-17"/><hi rend="ant">Idiot</hi>. Hand veed icke hvad <hi rend="ant">Essentia Scholastica</hi> er.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ja saa hører jeg da, at hand ingen Doctor er. 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L7r-22"/><hi rend="ant">Per Jupiter!</hi> det er jo den <seg type="komm" target="L7r-22a"/><hi rend="ant">Essentz</hi>, min Søn har cureret hans Datter med.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Det er sandt. Den anden er en Bedrager.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+    <p>Vil I troe ham min Herre! Nu skal jeg strax <seg type="komm" target="L7r-27"/>blotte ham. <seg type="komm" target="L7r-28"/><hi rend="ant">Qvid tibi videtur de
+Sympatia?</hi>
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p><seg type="komm" target="L7r-30"/><hi rend="ant">Intentum particularis <seg type="komm" target="L7r-30a"/>sub rosa <seg type="komm" target="L7r-30b"/>Kiörivendum Klemmebassiando.</hi>
+</p></sp>
+<sp><speaker>Arv.</speaker>
+    <p>Hand <seg type="komm" target="L7r-33"/>maaler ham min Troe Skieppen fuld.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Hvad Dievelen er det for et Sprog?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+    <p>Det er Arabisk <seg type="komm" target="L7r-37"/>Canaille.
+    </p></sp> <pb ed="A" n="L7v" facs="L7v"/>
+<sp><speaker>Doct.</speaker>
+<p>Hvad siger du din Bedrager.</p></sp>
+            <stage>(De <seg type="komm" target="L7v-3"/>faaer hinanden udi Haar, og medens de brydes, træcker Bombastus <seg type="komm" target="L7v-4"/><w>Doctor-Kioelen</w> over Hovedet paa Henrich, saa hand staar udi sit <seg type="komm" target="L7v-5"/>Liberi.)</stage>
+<sp><speaker>Arv.</speaker>
+    <p>Ach Herre! hvad er dette, <seg type="komm" target="L7v-7"/>vi er om en Hals. Jeg kiender ham. Hand tiener hos
+        den fremmede Person, som har <seg type="komm" target="L7v-9"/>løbet gal efter Jomfruen.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Det vil blive en skiøn Historie. Luck Dørren i Laas, <seg type="komm" target="L7v-12"/>at hand icke kommer ud. Ach
+jeg elendige Menniske! naar jeg seer <app type="var"><lem wit="A">Docteren</lem><rdg wit="B">Doctren</rdg></app>, saa kand jeg let giette, hvem Licentiaten 
+var. Ach Hr. Doctor! her er spillet mig et <app type="var"><lem wit="A">hæsligt</lem><rdg wit="B">hæslig</rdg></app> Puds.</p></sp>
+<pb ed="SS" n="456"/>
+<sp><speaker>Doct.</speaker>
+<p>Det mercker jeg. Men hvordan henger det sammen?
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><app type="var"><lem wit="A">Aabenbar</lem><rdg wit="B">Aabenbare</rdg></app> mig den heele Sag din <seg type="komm" target="L7v-18"/>Skielm, og hvis du tier med noget, skal det
+gaae dig langt verre. 
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Heele Sagen er denne Herre! Jeg var nyelig en af de største Doctere udi Byen,
+    men <seg type="komm" target="L7v-22"/>i et Øyeblick <app type="tc"><lem><corr resp="ed">er</corr></lem><rdg wit="A">cr</rdg></app> bleven forvandlet til en Lackey. Man har adskillige Exempler paa
+    <app type="tc"><lem wit="A">stoore</lem><rdg resp="Liebenberg">større</rdg></app> Forvandelser, at Folck er bleven omskabte til <seg type="komm" target="L7v-24"/>Dyer og Træer.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Hvilcken <seg type="komm" target="L7v-26"/>fortvilet Skielm, hand blir ved at spotte mig. Arv! spring efter 2 stercke
+Karle, der kand binde Hænder og Fødder paa ham.</p></sp>
+<sp><speaker>Henrich <stage> (paa Knæ.)</stage></speaker>
+<p>Ach Herre vær naadig! Jeg skal gierne bekiende alting fra Hoved til Hale. 
+    Den heele <seg type="komm" target="L7v-32"/>Intrigue er opspundet af jer <w>Kammer-Pige</w> Pernille, som har <app type="var"><lem wit="A">brugt</lem><rdg wit="B">bragt</rdg></app> mig til <seg type="komm" target="L7v-33"/>Instrument derudi. 
+    Hun har <seg type="komm" target="L7v-33a"/>fundet for got, at Jomfruen skulde <seg type="komm" target="L7v-34"/>stille sig saa gall an, beordret mig at agere Doctor, 
+    for at raade <seg type="komm" target="L7v-36"/>Herren at skicke <app type="tc"><lem><corr resp="ed">hende</corr></lem><rdg wit="A">heude</rdg></app> ud til Kilden.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="L7v-38"/>Hvo var det, som agerede Licentiat og reyste med hende?
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Hvo kunde det andet være end min Herre?
+</p></sp> <pb ed="A" n="L8r" facs="L8r"/>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ach jeg kand icke meer. Jeg er bange Hr. Doctor, at jeg gaaer fra min Forstand.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Lad icke Sorgen tage Overhaand, min Herre, Ulycken er stoor nock alligevel. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Siig mig din Hund hvor de nu er.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>De flygtede fra Kilden.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Jeg havde aldrig kunnet troe, at min Kudsk, som jeg altid har haft <app type="var"><lem wit="A">saa</lem><rdg wit="B"><note>mgl. i</note></rdg></app> gode Tancker
+om, skulde <app type="var"><lem wit="A">være</lem><rdg wit="B C">været</rdg></app> udi Ledtog med for at spille mig saadant Puds.</p></sp>
+
+
+
+<pb ed="SS" n="457"/>
+<sp><speaker>Henrich.</speaker>
+<p>Kudsken er gandske <w>u-skyldig</w> Herre. Jeg troer at hand løber endnu om, og leeder
+    efter dem; thi de flygtede <seg type="komm" target="L8r-18"/>ham <w>u-afvidende</w> bort med en <w>Bonde-Vogn</w>.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act3sc5" n="Scene 5">
+<head><hi rend="ant">Scen. 5.</hi></head>
+<stage>Kudsken. Docteren. Jeronim. Henrich. Arv. Leonard. 
+</stage>
+<sp><speaker>Kudsken.</speaker>
+    <p>God Morgen Herre! Jeg blev <seg type="komm" target="L8r-22"/>saa mare ude i Nat mod min Villie og har faaet
+        <seg type="komm" target="L8r-23"/>dygtige Rap til.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvordan er fat? <app type="tc"><lem><corr resp="ed">hvor</corr></lem><rdg wit="A">haor</rdg></app> er min Datter? 
+</p></sp>
+<sp><speaker>Kudsken.</speaker>
+    <p>Jeg vil <app type="tc_var"><lem wit="B">siige</lem><rdg wit="A">fiige</rdg><rdg wit="C">sige</rdg></app> Herren reent ud, at jeg vil heller have Opsyn med 10 <seg type="komm" target="L8r-28"/>springske Heste
+end med en eeniste Jomfrue. Jeg veed at holde en Hest i Tøyelen saa vel som nogen
+Kudsk, og jeg vil gierne <seg type="komm" target="L8r-30"/>svare Herren til hans Heste, om de vare ti gange saa mange,
+        men hans Datter og hans Piiger vil jeg icke oftere <seg type="komm" target="L8r-32"/>være Inspecteur over; thi det er 
+Dyr, som have været paa <app type="tc"><lem><corr resp="ed">anden</corr></lem><rdg wit="A">andeu</rdg></app> slags <w>Riide-Skole</w>, og veed at giøre Spring, som jeg
+icke forstaaer mig paa. Jeg har været i Dødsens Angest denne Nat, men det er dog
+faldet vel ud.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Siig mig da, Niels, hvordan det er <seg type="komm" target="L8r-38"/>tilgaaet. 
+    </p></sp><pb ed="A" n="L8v" facs="L8v"/>
+<sp><speaker>Kudsken.</speaker>
+    <p>Da vi kom til Kilden, gav man mig <seg type="komm" target="L8v-2"/>brav at dricke, saa jeg blev (<seg type="komm" target="L8v-3"/>reverenter talt)
+halv fuld. Jeg løb allevegne at see mig om, ey <app type="var"><lem wit="A">tenckende</lem><rdg wit="B">tenkede</rdg></app> paa noget ont; men ret som
+        jeg stood og <seg type="komm" target="L8v-5"/>gabede paa nogle Bønder, <app type="tc"><lem><corr resp="ed">som</corr></lem><rdg wit="A">fom</rdg></app> <seg type="komm" target="L8v-5a"/>reed Sommer i Bye, kom en og <seg type="komm" target="L8v-6"/>vared
+        mig, at Jomfruen med en ung Karl <seg type="komm" target="L8v-7"/>tillige med Pigerne havde sat sig paa Bønder-Vogne og <seg type="komm" target="L8v-8"/>aged bort i fuld Gallop. Jeg løber strax til vores Telt, men finder <seg type="komm" target="L8v-9"/>intet uden
+Doctorens Kiole, hvoraf jeg sluttede, at det maae have været en forklædt Person. Jeg
+tar derfor to stercke Karle af mine Cammerater med mig, og <app type="var"><lem wit="A">kiører</lem><rdg wit="B">kiøre</rdg></app> efter dem, <seg type="komm" target="L8v-12"/>saa jeg
+tænckte Hestene skulde styrte; thi jeg fick at høre, at de havde taget Veyen langs ved
+Stranden for at komme over til Skaane. Omsider traf jeg dem udi <seg type="komm" target="L8v-15"/>den stoore Kroe, 
+hvor den fremmede Person, som havde ageret Doctor, giorde Modstand, og forsvarede
+sig saaledes, at jeg føler det endnu udi Ryg, Hovet og <seg type="komm" target="L8v-17"/>Axler, men maatte dog endelig
+        <seg type="komm" target="L8v-18"/>give sig tabt, og lade sig føre med <seg type="komm" target="L8v-19"/>den heele Bagage til Byen.</p></sp>
+
+
+<pb ed="SS" n="458"/>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ach Niels! du est mig en troe Tiener. Men hvor er de nu?
+</p></sp>
+<sp><speaker>Kudsken.</speaker>
+    <p>Jeg har <seg type="komm" target="L8v-23"/>sluttet dem ind udi det lille Kammer ved <w>Bag-Porten</w>, og sat Skildtvagt
+for dem. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hans Tiener kiære <w>Sviger-Søn</w>! har hand længe været her?
+</p></sp>
+<sp><speaker>Leonard.</speaker>
+    <p>Ney icke ret lenge. Men jeg har <seg type="komm" target="L8v-28"/>imidlertid hørt meer end jeg forlangede at høre.
+Hør Kudsk! synger Jomfruen nu icke meer? 
+</p></sp>
+<sp><speaker>Kudsken.</speaker>
+<p>Ney nu græder hun.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Hendes <seg type="komm" target="L8v-34"/>Svaghed har kun været et Paafund for at komme bort. Jeg <seg type="komm" target="L8v-35"/>holder for,
+        at det er best, at I holder strax Bryllup, saa snart jeg har ladet <seg type="komm" target="L8v-36"/>hudflette Pernille og 
+        henge denne <app type="tc"><lem><corr resp="ed">Knægt</corr></lem><rdg wit="A">Kuægt</rdg></app>, <seg type="komm" target="L8v-37"/>her staaer.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Skal vi straffes, saa maae vi henges begge. 
+</p></sp><pb ed="A" n="M1r" facs="M1r"/>
+<sp><speaker>Leonard.</speaker>
+    <p>Hand forlader mig, Hr. Jeronimus! om jeg <seg type="komm" target="M1r-3"/>tar udi Betænckning at gifte mig 
+med en Jomfrue, der er flygtet med en anden.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Ach jeg har icke et Ord derimod at siige. Lad Magdelone først komme her ind, at
+jeg kand faae den heele Intrigue at høre. Siig hende Niels, at her er en Doctor,
+som forstaaer <seg type="komm" target="M1r-9"/>den soorte Konst, der har sagt alting. 
+</p></sp>
+<sp><speaker>Kudsken <stage>(sagte)</stage></speaker>
+    <p>Det er skiøndt, ved den Leylighed skal hun aabenbare hendes egne <seg type="komm" target="M1r-12"/><app type="var"><lem wit="A">Optøger</lem><rdg wit="B C">Optøgter</rdg></app> ogsaa.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act3sc6" n="Scene 6">
+<head><hi rend="ant">Scen: 6.</hi></head>
+<stage>Magdelone. Personerne af forrige Scene.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Ha ha, <seg type="komm" target="M1r-16a"/>est du der? God Morgen <seg type="komm" target="M1r-16"/>Rufferske. Du est den, som af alle er meest Straf
+        værd; thi jo meer du est <seg type="komm" target="M1r-18"/>kommen til Alder, jo meer har du at forsvare. Jeg har icke
+
+
+<pb ed="SS" n="459"/>
+kaldet dig hid for at faae Oplysning udi noget, thi jeg veed alting til Punct og Pricke;
+men jeg vil høre Bekiendelser af din egen Mund.</p></sp>
+<sp><speaker>Magdelone <stage>(paa Knæ.)</stage></speaker>
+<p>Ach Hr. Jeronimus! straf mig dog icke, som jeg har fortient. Jeg vil gierne bekiende altsammen baade hvad min egen Kierlighed er angaaende, og Jomfruens. 
+</p></sp>
+<sp><speaker>Jeronimus <stage>(sagte.)</stage></speaker>
+<p>Hendes egen Kierlighed. Her faaer jeg fleer Historier at viide end jeg ventede.
+    <stage>(høyt)</stage> Bekiend først om din egen Kierlighed, og <seg type="komm" target="M1r-29"/>stick jntet under Stoel. Denne goode
+Doctor, som her staaer, veed alting, hand skal siige, om du glemmer noget.
+</p></sp>
+<sp><speaker>Magdelone.</speaker>
+    <p>Ach <seg type="komm" target="M1r-33"/>skam faae du Raßmus Skriver for mig du har bedraget i saa mange Aar.
+        Hand har bildet mig ind at brænde af Kierlighed til mig. Jeg har <seg type="komm" target="M1r-35"/>beviist ham meget
+        got, og <seg type="komm" target="M1r-36"/>været mit eget Herskab <w>u-troe</w> for at recke ham Haanden. 
+    </p></sp><pb ed="A" n="M1v" facs="M1v"/>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Alt dette har Docteren sagt mig. Men jeg vil viide <seg type="komm" target="M1v-2"/>i sær, hvad du har taget fra
+ Huuset og foræret ham.
+</p></sp>
+<sp><speaker>Magdelone.</speaker>
+    <p>Jeg har foræret ham nu et Pund <seg type="komm" target="M1v-5"/>Pudder, nu <seg type="komm" target="M1v-5a"/>et knippe Penne, nu et par <seg type="komm" target="M1v-6"/>Bouteiller
+        Viin, og andet smaat <seg type="komm" target="M1v-6a"/>Rageri.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Viidere, videre, angaaende de Penge, som du toog – – 
+</p></sp>
+<sp><speaker>Magdelone.</speaker>
+<p>Hvilcke Penge?
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="M1v-12"/>Nøder du mig til at lade Docteren sige det, saa skal det <seg type="komm" target="M1v-13"/>komme dig høyere at staae. 
+</p></sp>
+<sp><speaker>Magdelone.</speaker>
+    <p>Ach Hr. Doctor! <seg type="komm" target="M1v-15"/>lyv mig icke paa. Hvis jeg havde givet ham andet, skulde jeg min
+        Troe icke <seg type="komm" target="M1v-16"/>dølge det.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Nu nu, lad saa blive derved. 
+</p></sp>
+<sp><speaker>Magdelone.</speaker>
+    <p>Nu havde jeg sat den Skurck Stevne <seg type="komm" target="M1v-20"/>af Vinduet at møde mig ved Kilden. Men
+        det utacknemmelige Skarn, <seg type="komm" target="M1v-21"/>langt fra at komme til mig, <seg type="komm" target="M1v-22"/>diverterede sig lige for min
+Næse med andre unge Piiger. Er det icke saa Hr. <app type="tc"><lem><corr resp="ed">Doctor</corr></lem><rdg resp="A">Doetor</rdg></app>?</p></sp>
+
+
+
+<pb ed="SS" n="460"/>
+<sp><speaker>Doct.</speaker>
+<p><app type="var"><lem wit="A">Jo</lem><rdg wit="BC">Ja</rdg></app> det er saa. Men lad os nu høre noget om Jomfruens Sag.
+</p></sp>
+<sp><speaker>Magdelone.</speaker>
+    <p>Det kand Pernille best siige, som alleene <seg type="komm" target="M1v-28"/>har smeedet <app type="tc"><lem><corr resp="ed">denne</corr></lem><rdg resp="A">deune</rdg></app> Intrigue.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Lad Pernille komme her ind. Man skal nock see, at hun ogsaa har haft <seg type="komm" target="M1v-32"/>nogen særdeelis Interesse ved denne <w>Kilde-Reyse</w>.
+</p></sp>
+</div>
+        <div type="scene" xml:id="act3sc7" n="Scene 7">
+<head><hi rend="ant">Scen. 7.</hi></head>
+<stage>Pernille. Personerne af den forrige Scene.</stage>
+<sp><speaker>Pernille <stage>(faldende paa Knæ.)</stage></speaker>
+    <p>Ach Herre vær naadig. Hvad jeg har <seg type="komm" target="M1v-37"/>opspundet, har <pb ed="A" n="M2r" facs="M2r"/>været <seg type="komm" target="M2r-1"/>af den stoore Kierlighed, jeg har baaret til Jomfruen.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="M2r-3"/>Hvor har I faaet Leylighed at <seg type="komm" target="M2r-3a"/>overlegge dette med den fremmede Person?
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p><seg type="komm" target="M2r-6"/>Vi satte ham stevne at finde os paa visse Tider i Vinduet.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Alt dette har denne goode Doctor sagt mig tillige med den anden Historie, som
+angaaer din egen Person.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+    <p>Ja Herre, jeg tilstaaer, at det er opspundet i mit Hoved for at <seg type="komm" target="M2r-12"/>befordre Jomfruens
+Kierlighed.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Videre, videre. Lad os nu høre Historien om din egen Kierlighed.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Jeg har ingen anden Kierlighed end den, jeg bær til Jomfruen.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Skal Docteren nødes til at <app type="tc"><lem resp="B">siige</lem><rdg resp="A">si ge<note type="last">(med typeudfald af i)</note></rdg></app> det, saa vil det gaae dig ilde. Hr. Doctor! fortæl
+    os det da <seg type="komm" target="M2r-21"/>med den rette Farve.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Historien er denne – – – </p></sp>
+<pb ed="SS" n="461"/>
+<sp><speaker>Pernille.</speaker>
+    <p>Ach ney. <seg type="komm" target="M2r-25"/>Jeg vil nock siige det selv. Personen, som elsker mig, og som satte mig
+        stevne at møde ved Kilden, er en fornemme ung Herre, <seg type="komm" target="M2r-27"/>som kand betale vel en fattig
+Piges Umag, og hvilcken jeg er for ringe til at nægte en liden Tieniste. Hand tar mig
+nock udi Forsvar, om Herren <seg type="komm" target="M2r-30"/>handler ilde med mig; thi – – – 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="M2r-32"/>Alt nock, alt nock. Disse <w>Kilde-Reyser</w> giordtes af <seg type="komm" target="M2r-33"/>Devotion i gamle Dage, men
+nu troer jeg, at hvert andet Telt er et <w>Hore-Huus</w>. Havde jeg fleere Piiger i Huuset,
+        fick jeg fleere Historier at viide. <seg type="komm" target="M2r-35"/>Det skulde aldrig fortryde mig, hvis jeg var en forsømmelig Mand, der gav mit <seg type="komm" target="M2r-37"/><w>Huus-Folck</w> <seg type="komm" target="M2r-37a"/>for meget Tøyelen, men jeg har Opsigt med 
+        dem, <seg type="komm" target="M2r-38"/>slutter dem inde, <seg type="komm" target="M2r-38a"/>at de skal icke forfalde til <seg type="komm" target="M2r-38b"/>Liiderlighed, og <app type="tc"><lem><corr resp="ed">dog er</corr></lem><rdg resp="A">doger</rdg></app> jeg <seg type="komm" target="M2r-39"/>verre brudt
+end nogen anden. 
+</p></sp>
+        <pb ed="A" n="M2v" facs="M2v"/>
+<sp><speaker>Doct.</speaker>
+<p>Ach min Herre! skulde alle <w>Tieniste-Piiger</w>, der af Devotion er reyst til Kilden i
+    Aftes, trues med <seg type="komm" target="M2v-3"/><w>Piine-Benken</w>, vilde <seg type="komm" target="M2v-4"/>deres Navne, som er i samme Stand, som jere 
+    Piiger, giøre et temmelig tyck <seg type="komm" target="M2v-5"/><app type="tc"><lem><corr resp="ed">Catalogus</corr></lem><rdg resp="A">Catalogns</rdg></app>. Ja skulde enhver kun til Straf sætte <seg type="komm" target="M2v-6"/>en Lod
+    udi en af vore <seg type="komm" target="M2v-6a"/>Lotterier, som ingen <seg type="komm" target="M2v-7"/>Fortgang haver, lover jeg for, at det i en Hast skulde
+    blive <seg type="komm" target="M2v-8"/>complet.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Derfor <seg type="komm" target="M2v-10"/>holder jeg for, man burde aldrig lade sine Tienestefolck komme til nogen 
+saadan Forsamling.
+</p></sp>
+<sp><speaker>Doct.</speaker>
+<p>Ach Herre; jo meer man indsperrer dem, jo verre er det. Det er just Tvangen, som
+    <seg type="komm" target="M2v-14"/>formeerer Begierligheden. Jere Piiger skal jo dog paa <seg type="komm" target="M2v-15"/>Bleegedammen et par gange
+    om Aaret, meener hand, at det er altsammen <seg type="komm" target="M2v-16"/><app type="tc"><lem><corr resp="ed">ickun</corr></lem><rdg wit="A">icknn</rdg></app> Klæer, som bliver lagt paa <seg type="komm" target="M2v-17"/>Bleegen. 
+    I saadan fald ere ingen verre end de, som kommer ud af et Buur. <seg type="komm" target="M2v-18"/>Derfor giør I langt
+bedre min Herre, at I gir jere Piiger en sømmelig Frihed.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Ach! <seg type="komm" target="M2v-22"/>det laae Fanden Magt paa Pigerne, hvis min eeneste Datter icke var falden
+        til samme <seg type="komm" target="M2v-23"/>Liderlighed. 
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Hun er icke forfalden til nogen Liderlighed. Hun elsker en Person, som forlanger
+hende til Ægte.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Hand skal ægte <seg type="komm" target="M2v-29"/>Fanden icke min Datter. Den <seg type="komm" target="M2v-29a"/>Landstryger. Lad min Datter strax 
+komme hid.</p></sp>
+<pb ed="SS" n="462"/>
+<sp><speaker>Doct.</speaker>
+<p>Vær icke for streng mod hende, min Herre! Betænck hvad unge Mennisker ere,
+og at Kierlighed er den sterkeste Passion af alle.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="M2v-36"/>Her er icke Kierlighed, Hr. Doctor! her er Liderlighed. <seg type="komm" target="M2v-37"/>Hun stiller sig afsindig for 
+at tage Flugten med en Landstryger. 
+    </p></sp><pb ed="A" n="M3r" facs="M3r"/>
+<sp><speaker>Doct.</speaker>
+    <p>Jo <app type="tc"><lem><corr resp="ed">større</corr></lem><rdg wit="A">størrre</rdg></app> <seg type="komm" target="M3r-2"/>Intrigue hun har spilled, jo sterckere har Passionen været. Men der kommer hun.
+</p></sp>
+</div>
+    
+        <div type="scene" xml:id="act3sc8" n="Scene 8">
+<head><hi rend="ant">Scen. 8.</hi></head>
+<stage>Leonora. Personerne af forrige Scene.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Er hun der <seg type="komm" target="M3r-7"/>Mademoiselle! det er mig kiert, at hun saa lyckelig er bleven cureret.</p></sp>
+<sp><speaker>Leonora <stage>(paa Knæ.)</stage></speaker>
+<p>Ach min allerkiæreste Far! 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Jeg vil icke være Far til <seg type="komm" target="M3r-12"/>saadan <seg type="komm" target="M3r-12a"/><w>Natte-Frøicken</w>. Hver <seg type="komm" target="M3r-13"/>ærlig Mand, der har <seg type="komm" target="M3r-13a"/>slige
+        Børn, kand <seg type="komm" target="M3r-13b"/>med Ret og Billighed <seg type="komm" target="M3r-14"/>slaae Haanden af dem.
+</p></sp>
+<sp><speaker>Leonora.</speaker>
+    <p>Ach jeg bekiender <seg type="komm" target="M3r-16"/>at være falden i en Skrøbelighed. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Skrøbelighed. Ney du skal siige den yderste <seg type="komm" target="M3r-18"/>Liderlighed. Du har <seg type="komm" target="M3r-19"/>stillet dig afsindig
+        an, for at <seg type="komm" target="M3r-19a"/>sætte <w>Vox-Næse</w> paa din Far, og siden løbet bort med en Landstryger, hvorved mig og mit heele Huus er sat <seg type="komm" target="M3r-21"/>saadan <seg type="komm" target="M3r-21a"/>Klick paa, som aldrig kand <seg type="komm" target="M3r-22"/>afstryges.
+</p></sp>
+<sp><speaker>Leonora.</speaker>
+    <p>Det er <seg type="komm" target="M3r-24"/>en smuck skickelig Person, som har <seg type="komm" target="M3r-24a"/>Midler, og er kommen af <seg type="komm" target="M3r-25"/>liige saa got
+Folck som jeg.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hans Gierninger udviiser jo, at hand er en smuck skikkelig Person. Dog hand kand
+    <seg type="komm" target="M3r-28"/>altid <seg type="komm" target="M3r-28a"/>være saadan vanskabt Jomfrue værdt. Jeg skal <seg type="komm" target="M3r-29"/>bruge Øvrighedens Hielp, og <seg type="komm" target="M3r-30"/>lade 
+    dig indslutte, icke fordi du <seg type="komm" target="M3r-30a"/>est <seg type="komm" target="M3r-30b"/>ham for god, men alleene <seg type="komm" target="M3r-31"/>for Conseqvences skyld, at <seg type="komm" target="M3r-31a"/>vanartige Børn skal icke <seg type="komm" target="M3r-32"/>faae deres Villie frem.</p>
+<stage>(Leonora græder.)</stage>
+<pb ed="SS" n="463"/>
+    <p>Græd nu liige saa længe som du har siunget <seg type="komm" target="M3r-34"/>tilforn. See! her staaer denne gode Mand,
+        som jeg havde lovet dig bort til, og som har giort alle <seg type="komm" target="M3r-36"/>Anstalter at tage imod dig.
+        <seg type="komm" target="M3r-37"/>Hand er nu bleven anderledes til Sinds. Og <pb ed="A" n="M3v" facs="M3v"/>jeg kand icke <seg type="komm" target="M3v-1"/>regne ham det til Onde,
+        at hand <seg type="komm" target="M3v-1a"/>tar i Betænckning at gifte sig med een, der har giordt saadan hæslig Gierning. Hør i denne Dag <seg type="komm" target="M3v-3"/>skal du blive indsluttet for din Livs Tiid. I <seg type="komm" target="M3v-4"/>tvende Høytærede
+        <seg type="komm" target="M3v-4a"/>Mammeseller! I skal <seg type="komm" target="M3v-5"/>blive hudfletted. Og I Hr. Selvgiordt Doctor! I skal slippe
+        med at blive hengt. Nu maae jeg til Slutning have fat paa Monsieur selv for at <seg type="komm" target="M3v-7"/>lade
+        ham viide hvad Karl hand er, og siige ham, <seg type="komm" target="M3v-8"/>hvad hand har fortient af mig. <seg type="komm" target="M3v-9"/>Bringer
+ham kun hid.
+</p></sp>
+</div>
+    
+        <div type="scene" xml:id="act3sc9" n="Scene 9">
+            <head><seg type="komm" target="M3v-10"/><hi rend="ant">Scen. ult.</hi></head>
+<stage>Leander. Leonora. Pernille. Magdelone. Henrich. Arv. Jeronimus.
+Doct. Bombastus. Leonard.
+</stage>
+<sp><speaker>Jeronimus.</speaker>
+    <p><seg type="komm" target="M3v-14"/>Hans Tiener Monsieur. Jeg seer paa hans <w>Klæde-Dragt</w>, <seg type="komm" target="M3v-15"/>at hand alt har slaaet
+sig fra Medicinen. Hand skal ellers have Tack for den Umag, hand har haft med min 
+Datter. <seg type="komm" target="M3v-17"/>Hand skal icke have giort det for intet.
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Min Herre! hand <seg type="komm" target="M3v-19"/>maae holde mig for den største <seg type="komm" target="M3v-19a"/>Misdædere, som hand vil, saa
+har jeg dog icke andet giordt end det, som <app type="tc"><lem><corr resp="ed">enhver</corr></lem><rdg wit="A">euhver</rdg></app> ærlig Karl kunde giøre, der falder
+udi saadan heftig Kierlighed. 
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Det er intet, det er intet, Monsieur. Men veed I vel hvad Loven siiger om saadanne Landstrygere, der sniger sig ind udi ærlige Mænds Huuse for at bortrøve deris
+Børn?
+</p></sp>
+<sp><speaker>Leander.</speaker>
+    <p>Jeg er ingen Landstryger. Jeg er fød her i Landet af <seg type="komm" target="M3v-30"/>got Folck, hvilcket jeg skal
+beviise.
+</p></sp>
+<sp><speaker>Leonard.</speaker>
+<p>Denne Røst kiender jeg, Ansigtet ogsaa. Ach Himmel! hvad er det? er det icke min
+    Broer Leander, som er kommen Udenlands fra? Jo det er ham. <seg type="komm" target="M3v-33"/><hi rend="ant">Mon frere Leander!</hi> 
+</p></sp>
+<sp><speaker>Leander.</speaker>
+<p><hi rend="ant">Mon frere Leonard!</hi></p></sp>
+<stage>(De omfavner hinanden.)</stage>
+    <pb ed="A" n="M4r" facs="M4r"/>
+<sp><speaker>Leonard.</speaker>
+<p>Ach min allerkiereste Broer. Er det dig, som er min Rival. Naar var Ankomsten?</p></sp>
+
+
+
+
+
+<pb ed="SS" n="464"/>
+<sp><speaker>Leander.</speaker>
+    <p>Saa snart jeg <app type="tc"><lem><corr resp="ed">fick</corr></lem><rdg wit="A">sick</rdg></app> dit Brev <seg type="komm" target="M4r-5"/>udi Madrit om min Fars Død, gav jeg mig paa
+        Reysen til Holland, hvor jeg <seg type="komm" target="M4r-6"/>gick til Skibs, og kom <seg type="komm" target="M4r-7"/>hid for 3 Uger siden. Hvad som
+        har hindret mig at reyse strax herfra, er denne smucke <app type="tc"><lem><corr resp="ed">Jomfrue</corr></lem><rdg wit="A">Jomfrne</rdg></app>, som jeg <seg type="komm" target="M4r-9"/>forliebede mig
+        udi paa et <seg type="komm" target="M4r-9a"/>Assemblee, og for hvis skyld alle disse Historier ere skeede. 
+</p></sp>
+<sp><speaker>Leonard.</speaker>
+    <p>Min allerkiereste Broer! <seg type="komm" target="M4r-12"/>din Arv staaer til reede for dig hiemme, og min forlovede
+Brud overlader jeg dig gierne, eftersom jeg seer din Kierlighed er saa stoor, og at hendes i alle Maader svarer til din.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Hvad? ere I Brødre?</p></sp>
+        <stage>(De som laae paa Knæ, <app type="tc"><lem><corr resp="ed">reyser</corr></lem><rdg wit="A">reysex</rdg></app> sig, og Henrich sætter sin Hat paa.)</stage>
+<sp><speaker>Henrich.</speaker>
+    <p>Der blir ingen af os hængt denne gang, <seg type="komm" target="M4r-21"/>det skal jeg være Mand for.
+</p></sp>
+<sp><speaker>Pernille.</speaker>
+<p>Jeg troer det icke heller Henrich!
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+    <p>Men siig mig <seg type="komm" target="M4r-26"/>ret Alvor, ere I Brødre?
+</p></sp>
+<sp><speaker>Leonard.</speaker>
+<p>Ja Hr. Jeronimus, det er min ældste og eeneste Broer, som har været 3 Aar 
+udenlands. Jeg tænckte, at hand havde været død, eftersom jeg i lang Tiid intet Brev
+har faaet fra ham, og at hans Arv skulde tilfalde mig. Men saasom jeg ingen Ting i
+Verden har haft meere kiær end denne min Broder, saa er det ingen Penge, jeg med
+større Fornøyelse gir fra mig.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Overlader I ham da jer Brud?
+</p></sp>
+<sp><speaker>Leonard.</speaker>
+    <p>Hr. Jeronimus! <seg type="komm" target="M4r-38"/>omendskiønt Personen havde været fremmed for mig, <seg type="komm" target="M4r-39"/>skulde jeg
+        dog holde det for en <w>Sam<pb ed="A" n="M4v" facs="M4v"/>vittighed</w> at spliide tvende <seg type="komm" target="M4v-1"/>saa høyt foreenede Hierter. Ja
+        vist overlader jeg hende til ham, og <seg type="komm" target="M4v-2"/>tilbeder mig intet andet for denne min <seg type="komm" target="M4v-3"/>Villighed 
+        end at <seg type="komm" target="M4v-3a"/>min Herre vil <seg type="komm" target="M4v-4"/>af Hiertet <seg type="komm" target="M4v-4a"/>forlade dem alle, hvad de har giort.
+</p></sp>
+<sp><speaker>Jeronimus.</speaker>
+<p>Af mit inderste Hierte. Hør Leonora: Jeg kalder dig min Datter igien, og ham
+    Hr. Leander min <w>Sviger-Søn</w>. <seg type="komm" target="M4v-8"/>Lar os glæde os allesammen, og tacke Himmelen, at
+
+<pb ed="SS" n="465"/>
+    dette, som syntes at vilde blive den hæsligste Tragoedie, er ved en <seg type="komm" target="M4v-10"/><w>u-formodentlig</w> Hendelse faldet saa vel ud.
+</p></sp>
+<sp><speaker>Henrich.</speaker>
+<p>Jeg haaber I got Folck, at I holder mig <app type="tc"><lem><corr resp="ed">for</corr></lem><rdg wit="A">sor</rdg></app> den største Doctor i Verden, og at
+    I <seg type="komm" target="M4v-13"/>opreyser mig en <w>Ære-Støtte</w>, fordi jeg har viiset jer Kildens Kraft og <seg type="komm" target="M4v-14"/>Dyd. Denne 
+    goode Jomfrue er dog icke den første, som er bleven cureret ved Kilden, vil <seg type="komm" target="M4v-16"/>og icke blive
+den sidste. Er det icke sandt Pernille?</p></sp>
+</div>
+</div> 
+</body>
+</text>
+</TEI>

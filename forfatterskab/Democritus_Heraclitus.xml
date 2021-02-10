@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="DeHe1721">Democritus og Heraclitus (1721)</title>
+                <author>Ludvig Holberg</author>
+                <editor>Henrik Andersson</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>1721</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace/>
+                <availability>
+                    <p rend="head">Tekststatus:</p>                   
+                    <p>Kommentarer: se Fire Skiemte-Digte</p>           
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="α"><title key="none">Democritus og Heraclitus</title>, <date>1721</date>. Det Kgl. Bibliotek, 53,-317, 8vo.</witness>
+                    <witness xml:id="A"><title key="none">Hans Mikkelsens 4re Skiemte-Digte. Med Tvende Fortaler, samt Zille Hans Dotters Forsvars-Skrift 
+                        for Qvinde-Kiønned</title>, 1722. Det Kgl. Bibliotek, M. 37805, 8vo, ex. 1.</witness>
+                    <witness xml:id="a">Eftertryk af A, 1722.</witness>
+                    <witness xml:id="B"><title key="none">Hans Mikelsens Fire Skiemte-Digte ...</title>, 2. udgave, 1728.</witness>
+                    <witness xml:id="C"><title key="none">Ludvig Holbergs Mindre Poetiske Skrifter ...</title>, 1746. Det Kgl. Bibliotek, M, 38582, 8vo, ex. 1.</witness>
+                    <witness xml:id="Liebenberg"><title key="none">Ludvig Holbergs Mindre Poetiske Skrifter</title>, udg. F.L. Liebenberg, Kbh. 1866.</witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg. Carl S. Petersen, bd. 2, Kbh. 1914. NB: Afvigelser fra udgaven 
+                        <title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dan">dansk</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change> 
+            <change when="2013-01-22" who="fgj">justeret listWit og indsat tekststatus.</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change> 
+            <change when="2012-11-18" who="fgj">justeret (simplificeret) kodning af 'epigraph'</change>
+            <change when="2012-06-23" who="fgj">indsat url'er til KB-faksimiler.</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+            <change when="2012-06-09" who="fgj">ændret værkkode til DeHe1721</change>
+            <change when="2012-02-28" who="fgj">tilføjet typeattributværdi 'last' i elementet note i tc-noter</change>
+            <change when="2012-02-27" who="fgj">indsat div-værdier og flyttet pb til deres rette plads</change>
+            <change when="2010-10-27" who="fgj">kodet titelblad</change>
+            <change when="2010-06-23" who="fgj">ændret pb ed="A" til pb ed="α"</change>
+            <change><date>2009-11-05</date>HA: korrekturrettelser</change>
+            <change><date>2009-08-26</date>Tone Merete Bruvik (TMB): Gjorde filen velformet og valid.</change>
+            <change><date>2009-08-19</date>FGJ: nogle mindre reparationer</change>
+            <change><date>2009-07-02</date>Tone Merete Bruvik: oppdaterte kodingen.</change>
+            <change><date>2009-07-29</date>Henrik Andersson</change>
+        </revisionDesc>
+    </teiHeader>
+    
+  <facsimile> 
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_005.jpg" xml:id="p005"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_006.jpg" xml:id="p006"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_007.jpg" xml:id="p007"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_008.jpg" xml:id="p008"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_009.jpg" xml:id="p009"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_010.jpg" xml:id="p010"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_011.jpg" xml:id="p011"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_012.jpg" xml:id="p012"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_013.jpg" xml:id="p013"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_014.jpg" xml:id="p014"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_015.jpg" xml:id="p015"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_016.jpg" xml:id="p016"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_017.jpg" xml:id="p017"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_018.jpg" xml:id="p018"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_019.jpg" xml:id="p019"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_020.jpg" xml:id="p020"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_021.jpg" xml:id="p021"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_022.jpg" xml:id="p022"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_023.jpg" xml:id="p023"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_024.jpg" xml:id="p024"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_025.jpg" xml:id="p025"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_026.jpg" xml:id="p026"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_027.jpg" xml:id="p027"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_028.jpg" xml:id="p028"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_029.jpg" xml:id="p029"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_030.jpg" xml:id="p030"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_031.jpg" xml:id="p031"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_032.jpg" xml:id="p032"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_033.jpg" xml:id="p033"/>
+      <graphic url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_democritusheraclitus_1721/democr_1722_034.jpg" xml:id="p034"/>
+  </facsimile>
+  
+  <text xml:lang="dan" xml:id="DeHe1721" type="orig" subtype="DeHe1721" n="/tekster/Skiemte-Digte/DeHe/Democritus_Heraclitus.page">
+
+      <front>           
+        <titlePage xml:id="start" n="[Titelblad]">
+                
+            <pb ed="SS" n="425"/><pb ed="α" n="A1r" facs="p005"/>
+           <titlePart type="main"><hi rend="ant">DEMOCRITUS</hi><lb/>
+            og<lb/>
+            <hi rend="ant">HERACLITUS</hi>
+           </titlePart>
+          <lb/>
+            <titlePart type="sub"><hi rend="ant">Satyra (1)</hi></titlePart>
+          <lb/>
+            <titlePart><hi rend="ant">Adressered</hi> til <hi rend="ant">Mag: ***</hi></titlePart>            
+            <epigraph>
+                <lg xml:lang="lat">
+                    <l rend="indent3"><hi rend="ant">– – – – – de sapientibus alter</hi></l>
+                <l><hi rend="ant">Ridebat, qvoties a limine moverat unum</hi></l>
+                <l><hi rend="ant">Protuleratqve pedem, flebat contrarius alter</hi></l>
+                        <l rend="indent3"><hi rend="ant">Juv: Sat: 10.</hi></l>
+                </lg>
+                </epigraph>       
+           <docImprint><date>Tryckt Aar 1721.</date></docImprint>
+        </titlePage>
+        </front>
+ 
+<body> 
+<div xml:id="chap" n="Democritus og Heraclitus">
+<lg>
+    <pb ed="α" n="A2r" facs="p007"/><pb ed="SS" n="427"/>
+<l><w><hi rend="init">N</hi>Aar</w>, Hr: Magister, vi os Mennesker betragte,</l> 
+<l>Vi os mod Dyrene jo meget ædle agte,</l>
+<l>Et prægtigt Lys jo i vort Legeme er sat,</l>
+<l>En Siæl er os betroed, 
+        <app type="var"><lem wit="α">en herlighed, en skat</lem>
+            <rdg wit="B">en Herlighed og Skat</rdg></app>,</l>
+    <l n="5">Guds egen aande, som er stiilet af de viise, </l>
+    <l>Hvis herlighed vi see, og stoore virkning priise,</l>
+    <l>I hvis betragtelse vi som henrykte staa,</l>
+    <l>Vi see, vi føle det, som vi bekiende maa,</l>
+    <l>At være noget, som ej Tunge kand udsiige,</l>
+    <l n="10">Som giør, at Skaberen vi synes ej uliige, </l>
+    <l>Vi yncker Dyrene, dem over Axle seer,</l>
+    <l>Vi sige intet mod et Menneske dog er;</l>
+    <l>Men saadant <w>u-anseet</w> 
+        <app type="var"><lem wit="α">Heraclitus dog</lem>
+        <rdg wit="B C">dog Heraclitus</rdg></app> græder,</l>
+    <l>Thi med vor Skabning han betragter vore sæder,</l>
+    <l n="15">Democritus kand paa de viiseste ej see,</l>
+    <l>Han maa ald Ærbarhed til side sætte, lee.</l>
+    <l>De havde begge ret; Jeg dog den sidstes Latter</l>
+    <l>Meer end den førstes Graad og vaade Øjne skatter;</l>
+    <l><app type="tc"><lem wit="A a">Skiøndt</lem>
+            <rdg wit="α">Skiondt<note type="last">(med <q>Sktøn</q> i kustoden)</note></rdg>
+            <rdg wit="B C">Skiønt</rdg>
+        <rdg resp="SS">Skiønt</rdg></app>, 
+        naar den ene kant paa Mennesket jeg seer;</l>
+    <l n="20">Jeg ej begribe kand hvor af den sidste leer,</l>
+    <l>Og, naar jeg vender det igien paa anden Side,</l><l>
+Jeg strax den førstes Graad og Klynken ej kand lide,</l><l>
+Dog havde begge ret, men uret derudi;</l><l>
+Den første stedse gik i dyb Melancholie,</l>
+    <l n="25"><pb ed="α" n="A2v" facs="p008"/>Den anden altiid loe, ej Aarsag fant at græde.</l><l> 
+De burde stundum lee, og stundum Øjne væde.</l><l>
+Een halv Philosophie jeg mærker hos en hver,</l><l>
+Her jeg kun Latter, der kun suure Øjne seer.</l><l>
+Den er Philosophus, om hvilken man kand sige,</l>
+    <l n="30">Nu leer, nu græder han, nu begge giør tilliige, </l><l>
+Der i hvert Øyeblik tungsindet er og kaad.</l>
+    <l><app type="var"><lem wit="α">Jeg om Heraclito først taler og hans Graad</lem>
+        <rdg wit="B">Om Heraclito først jeg taler om hans Graad</rdg>
+        <rdg wit="C">Om Heraclito først jeg taler og hans Graad</rdg></app>:</l>
+    <l>Og seer af Ondskab Da, hand kaldet er en Daare;</l><l>
+Jeg mærker, at han ej forgiæves fælder Taare;</l>
+    <l n="35">Ja jeg Philosophie i hver en Draabe seer, </l>
+    <l><pb ed="SS" n="428"/>Mig synes Under, at han icke græder meer.</l><l>
+Betragt dig Menneske, betragt og vilde Beester,</l><l>
+Hvorover du af Gud er skabt at være Mester;</l><l>
+See Tigrens grumhed an, see Revens List og svig,</l><l>
+Ja alle Beesters Fejl, de findes jo hos dig.</l><l>
+Som Floderne til Hav, de alle til dig rinde,</l><l>
+Man derfor ej en Bye, en Flæk ej fast kand finde,</l><l>
+Hvor jo tillige med en Kag, en Galge er,</l><l>
+En Byfogd, Bøddel, Lov, Sværd Riis og andet meer;</l><l>
+Som dig din Ondskab kand med Billighed bebrejde,</l><l>
+At med din ædle Siæl du stedse fører Fejde,</l><l>
+En ulv ej æder Ulv, sin mage aldrig rør,</l><l>
+Han heller liider Nød, af Hunger heller døer.</l><l>
+Een Parder aldrig sig med Parder Føde mætter,</l><l>
+    Han Afskye har for Mord, naar han seer <w>Parder-Pletter</w>,</l><l>
+En hungrig Biørn jo gaar en hungrig Biørn forbi,</l><l>
+En Høg mod anden Høg ei øver Tyranni,</l>
+    <l><pb ed="α" n="A3r" facs="p009"/>Skiøndt ingen Love er, der sligt hos dem fordømme,</l><l>
+Skiøndt Byfogd, Bøddel dem ey holde udi Tømme.</l><l>
+    Kald derfor menneske, kald ey en Tiger grum,</l><l>
+Du fælder derved io din egen strenge Dom,</l><l>
+Du finder hos dig selv fast alle Lasters Kilde.</l><l>
+Priis heller Dyrene, stiil dem ey meere vilde.</l><l>
+For dig kun skrives Lov med skarpe Drage Blod,</l><l>
+    Lycurgus, Draco ey er Dyrene imod. </l><l>
+De grumme Love man i Steene lader grave,</l><l>
+For ædle Creatur at holde udi ave,</l><l>
+O menniske, som Gud i skabningen er liig,</l><l>
+Straf, Trudsler, <w>Piine-benk</w> opfunden er for dig,</l><l>
+    For dig, som haver en fornuftig Siæl, at spæge,</l><l>
+Man ofte en Tyran maa tage til en Læge,</l><l>
+Man nødig havde ey en Minos Æacus,</l><l>
+Langt mindre Phalaris og en Tiberius.</l><l>
+Saa skarp en Medecin man skulde ey behøve,</l><l>
+    Hvis Mennesket kun var som Tiger, Biørn og Løve.</l><l>
+Sligt Indfald, siger man, er smugt i Poesie;</l><l>
+    <app type="var"><lem wit="α">Kig udi Skrifter ind, see an et Anarchi</lem>
+    <rdg wit="B">Ansee en Lov-løs Stad/ hvor ingen Tvang er i</rdg></app>;</l>
+    <l><pb ed="SS" n="429"/>Før Frihed ickun ind, løs vore Baand og Kiæder,</l>
+    <l><app type="var"><lem wit="α">Brutalitet</lem>
+<rdg wit="B">Uteerlighed</rdg></app> 
+man meer blant Dyrene ej leeder;</l><l>
+    Een Biørn, en Ulv os da 
+    <app type="var"><lem wit="α">poleret</lem>
+    <rdg wit="B">retsindig</rdg></app> 
+kommer for;</l><l>
+Thi Broders Sværd da mod en Broder draget staar;</l><l>
+    En Fader mod sin Søn, en Søn imod sin Fader </l><l>
+Paatager Harnisk, og til Strid sig føre lader.</l>
+    <l><pb ed="α" n="A3v" facs="p010"/>Hvo anseer uden Lov end det forjætte Land,</l><l>
+Er haard som Flintesteen, hvis han ej græde kand.</l><l>
+Naar Riiset kun er brudt, og Straf ej meer kand temme,</l><l>
+    <app type="tc"><lem><corr resp="ed">Strax</corr></lem>
+        <rdg wit="α">Srax</rdg></app>
+    seer man Mennesker, i <w>Mennesk-Blod</w> at svemme,</l><l>
+Naar Øvrighed har Magt og Lov sin Styrke mist,</l><l>
+See <app type="var"><lem wit="α">af Societet om findes</lem>
+<rdg wit="B">om af Eenighed mand finder</rdg></app> minste Gnist.</l><l>
+Ej Rom kand lignes meer mod de Hyrcanske Skove;</l><l>
+Thi Tigre leve der samdrægtig uden Love;</l><l>
+Athenen tænker meer ej paa 
+    <app type="var"><lem wit="α">Naturens Ret;<lb/> 
+    Thi udi Lybien er meer Moralitet</lem>
+    <rdg wit="B">Naturens Bud; | Thi udi Lybien seer alting bedre ud</rdg></app>:</l><l>
+Der man blandt Løverne Societeter finder,</l><l>
+Naar i Solonis Stad, som Bekke Blodet rinder;</l><l>
+Saa snart som Mosis Lov ej har sin Styrke meer;</l><l>
+    Man i Guds egen Stad en <w>Røver-Kuule</w> seer; </l><l>
+Skiøndt man vil vilde Dyr med sortest 
+    <app type="tc"><lem><corr resp="ed">farve male</corr></lem>
+        <rdg wit="α">farvemale</rdg></app>;</l><l>
+Man 
+    <app type="var"><lem wit="α">intet Paradox dog finder<note type="last">(SS angiver lemmaet uden <q>intet</q>)</note></lem>
+<rdg wit="B">intet selsomt dog skal finde</rdg></app>
+    i min tale;</l><l>
+Skiønt ofte Ulv mod Ulv ophidses, Fejde før,</l><l>
+Med vores Onskab dog ej saadant lignes bør.</l><l>
+    Vel Striid, men intet Had man udi Skove leder, </l><l>
+Men i Athenen, Rom, i stoore ædle Stæder;</l><l>
+End hos udvalde Folk, som givet er Guds Ord;</l><l>
+Man Hovmod, Avind, Had beblandet seer med Mord.</l><l>
+Vi Biørnen kalde vild, vi stræbe Hæst at tæmme,</l><l>
+    Vi holde dem i Tvang, som os kand mest beskiemme;</l><l>
+Det allergraadigste kand nøjes med en Ret;</l><l>
+Lucullus halve Rom aad op, blev dog ei mæt.</l><l>
+    Paa Proviant et Aar sig laver kun en Myre;</l>
+    <l><pb ed="α" n="A4r" facs="p011"/>Men viise Seneca kand her i ej sig styre: </l><l>
+    Dyr er ej <w>Herske-kiær</w>, og nøjes med dets Stand; </l><l>
+Men Alexander jo for trang er Græcken Land.</l><l>
+Ærgiærighed ej Sted hos Tigre har og Løver;</l><l>
+<pb ed="SS" n="430"/>
+Men 
+    <app type="var"><lem wit="α">saadan Passion</lem>
+     <rdg wit="B">slig Begiærlighed</rdg></app>
+    giør Cæsar til en Røver:</l><l>
+For saadant <w>Romer-Bloed</w> man flyde seer, som Elv,</l><l>
+Han ofrer alting op, sin Stad, sin Slegt, sig selv,</l><l>
+Kun for at hærske, for at blive Herre stiilet;</l><l>
+    Han til sin Undergang med Glæde haver iilet, </l><l>
+Skiønt from, beleven, god han af Naturen er,</l><l>
+Af <w>hærske-syge</w> dog Naturen som forsvær.</l><l>
+Vi irre let en Hund, til Fred ham strax dog bøje,</l><l>
+Men en fortørnet Ven sig lader udslaae Øje,</l><l>
+    Han gierne mister et, hvo skulde saadant troe, </l><l>
+Naar den han hader han kun skille kand ved toe.</l><l>
+Man seer jo Beester paa Velgierninger at skiønne,</l><l>
+Men Mennesker med ont Velgiørere belønne;</l><l>
+En Hund for sin Patron tilsætter ofte Liv;</l><l>
+Eet Menneske tit er dog saa haardnacked, stiv:</l><l>
+At det opofrer Liv, og det, som meer er, Ære,</l><l>
+Før end taknemmelig mod andre det vil være.</l><l>
+Een Damon, Pythias man ofte finder ej.</l><l>
+De fleeste derudi gaa heller Nabals Vej</l><l>
+Vi øve Tyranni mod Beesterne, dem døde,</l><l>
+End og uskyldig Faar, som klæde os og føde.</l><l>
+En Koe os giver Mælk, en Oxe træcker Plov,</l><l>
+Til vederlag maa døe, 
+    <app type="var"><lem wit="α">slig</lem>
+    <rdg wit="B">sligt</rdg></app> er Velgiernings Lov.</l><l>
+Hirpinus Pegasus os skaffe <w>Laurbær-Krantze</w>,</l><l>
+I Alderdom maa til Nepotis Mølle Dantze,</l><l>
+Hver Hest den Lycke ej har i sin Alderdom,</l><l>
+Som Incitatus, der Bormester blev i Rom:</l><l>
+    Sligt og ej nødigt er, men ædle Dyr at dræbe,</l>
+    <l><pb ed="α" n="A4v" facs="p012"/>Og udi Alderdom at lade Møller slæbe,</l><l>
+Paa vores Haardhed det kand tiene til et Speil,</l><l>
+Saa Beesterne os selv bebrejde kand vor Fejl.</l><l>
+Men det er best, at jeg den Snak til side sætter,</l><l>
+Thi man for mindre ting faar titul udaf Kiætter,</l><l>
+Jeg seer paa Jorden, og gaar ej fra alfar vej,</l><l>
+Om nogen siger sligt er Synd, jeg siger nej:</l><l>
+Jeg troer med Fæderne, det er en Dyd at myrde</l><l>
+Uskyldigt Creatur, det ellers blev til byrde:</l><l>
+
+
+<pb ed="SS" n="431"/>
+
+Men siger kun, at, om et Lam, en Hest, en Hund,</l><l>
+Som Baalams Esel lidt opløftede sin Mund,</l><l>
+Og vilde viise os, at vi Tyranner vare,</l><l>
+Da ald veltalenhed ej kunde os forsvare,</l><l>
+Vi maatte tilstaa, at den Dyd Barmhiertighed,</l><l>
+Ej iblant 
+    <app type="var"><lem wit="α">Mennesker</lem>
+    <rdg wit="a">Mennisket</rdg>
+    <rdg wit="C">Mennesket</rdg></app>, men vilde Dyr har sted.</l><l>
+Vel kunde svares, hvi tør Dyret dog begiære,</l><l>
+At vi, som mod os selv Tyranner stedse ere,</l><l>
+Som mod hin anden selv bedrive Mord og Rov,</l><l>
+Skal tage udi agt mod Dyr miskunheds Lov.</l><l>
+Vi, som med eget Blood besudle vore Hænder,</l><l>
+Vi, som af mennesk kiød kand viise stumpet Tænder,</l><l>
+    <app type="var"><lem wit="α">Naar saa gaar med os selv, skal Dyr da være fri?</lem>
+      <rdg wit="B">Skal Dyr da være fri/ naar med os self saa gaar/</rdg>
+      </app></l><l>
+        
+        <app type="var"><lem wit="α">I saadant svar bestaar ald vor Apologie</lem>
+    <rdg wit="B">I slig Undskyldning kun vort heele Svar bestaar</rdg></app>.</l><l>
+Jeg eftersøge ej vil alting meget nøje,</l><l>
+Kun paa den beste sted i Verden kaster øye,</l><l>
+Paa Rom, som en Zirat for andre Steder er.</l><l>
+Jeg ald Uteerlighed i kort begreeb der seer.</l><l>
+En Cajus, Nero der jeg seer for en dags føde,</l><l>
+Kun for et Maaltiid fast at legge Steder øde,</l><l>
+Italien Spanien, ja Egypten, Græckenland</l><l>
+Ey et forbandet Svelg, en Strube fylde kand.</l>
+    <l><pb ed="α" n="A5r" facs="p013"/>Af Sylla, Mario udføres landets Kierne.</l><l>
+Man midt i Asien opofrer Livet gierne,</l><l>
+At man en Elephant kand føre fra et sted</l><l>
+Tilbage i Triumph at dræbe andre med.</l><l>
+Jeg seer et Menneske et andets Lem afskiære.</l><l>
+For eens Fornøyelse man lader 10 castrere,</l><l>
+Hvo skulde tro, at end paa et polered Sted,</l><l>
+Stadfæsted var ved Lov en sliig Uteerlighed.</l><l>
+    <app type="var"><lem wit="C">Naar</lem>
+    <rdg wit="α A B b">Naar/</rdg>
+    <rdg resp="SS">Naar/</rdg></app>  
+jeg en Cæsar selv en Mand for alle Qvinder,</l><l>
+Og nu en Qvinde jeg for alle Mænd ham finder,</l><l>
+Jeg tager Afskeed da med Mennesker, jeg flyer,</l><l>
+Til øde stæder hen, til Fugle, vilde Dyr.</l><l>
+Om i den nye Rom, i hellig Peders Sæde,</l><l>
+Sligt endnu gaar i svang, maa andre efterleede.</l><l>
+Den sidste Verden man saa vit maa give ret,</l>
+    <l><pb ed="SS" n="432"/>At den slaar Folk ihiel, og synder meere net,</l><l>
+Men, siger man, 
+    <app type="var"><lem wit="α">et Dyr kand icke raisonnere,</lem>
+      <rdg wit="B">et Dyr er i Naturens Lænker/</rdg></app></l><l>
+    <app type="var"><lem wit="α">
+    Det ellers giorde det og meget andet meere</lem>
+    <rdg wit="B">Det Ondskab øver ey/ som ey paa Ondskab tænker</rdg></app>:</l><l>
+Hvis en fornuftig Siæl til saadant aarsag er,</l><l>
+Gid da lidt mindre Siæl, lidt Dyd vi havde meer:</l><l>
+Gid! [Ach jeg icke veed, om det er syndig Tale,</l><l>
+Om man <w>U-gudeligt</w> sligt ønske kand afmale]</l><l>
+Gid heller Mennesket saa dum som Esel var,</l><l>
+Som Stubben af et Træ, der Siæl og Liv ej har:</l><l>
+Som <w>Marmor-støtte</w>, som Metal, som Kampesteene,</l><l>
+Som haarde Diamant, som Iis, som døde Beene:</l><l>
+Gid hver Politicus, gid hver Philosophus,</l><l>
+Blev til 
+    <app type="var"><lem wit="α">Machine</lem>
+    <rdg wit="B">et Urverk</rdg></app>, til en Keyser Claudius,</l><l>
+        Der intet af sig selv var mægtig til at giøre,</l>
+    <l><pb ed="α" n="A5v" facs="p014"/>Men til det onde sig af kloge lod forføre:</l><l>
+Der, som 
+    <app type="var"><lem wit="α">Machine</lem>
+    <rdg wit="B">et Redskab</rdg></app> sig af andre drive lood:</l><l>
+Imod sin Villie at opofre Romer Blood.</l><l>
+Nej Siælen stedse med dislige Synder fejder,</l><l>
+Omsonst giør modstand, og vor Ondskab os bebrejder;</l><l>
+Den siger, Menneske, du gaar ej rette Vej,</l><l>
+Er os en naggend Orm, men saadant hielper ej.</l><l>
+Hvad 
+    <app type="var"><lem wit="α">en Heraclitus mest kommer</lem>
+    <rdg wit="B">Heraclitus mest bevæger</rdg>
+    <rdg wit="C">Heraclito meest kand komme</rdg></app> til at græde;</l><l>
+Det er, at Mennesker saa lidet sig bereede,</l><l>
+Saa lidet tænke paa hvad dennem forrestaar,</l><l>
+Tit ej i sidste stund, naar Siæl af Legem gaar,</l><l>
+    Vi see vor <app type="tc_var"><lem wit="α">Levnetstid</lem><note>(muligvis i to ord som bemærket af SS)</note>
+    <rdg wit="A">levnets tid</rdg>
+    <rdg wit="a C">Levnets Tid</rdg>
+    <rdg wit="B">Lefnets Tid</rdg></app> bestaar af korte Dage,</l><l>
+Hver Time, hvert Minut os Redsel kand indjage,</l><l>
+Hver Stræg paa Viiseren jo giver os et Nik,</l><l>
+Advarer, at en part af vores Liv bortgik.</l><l>
+<app type="var"><lem wit="α">Dog slig brutalitet hos Mennesker</lem>
+<rdg wit="B">Slig selsom Tryghed dog hos Mennisker</rdg>
+<rdg wit="C">Dog slig Uteerlighed hos Mennesker</rdg></app> man finder:</l><l>
+Den mindste Verdslig ting saaledis dem 
+    <app type="var"><lem wit="α">forblinder</lem>
+    <rdg wit="A B">forbinder</rdg></app>,</l><l>
+At, skiønt vor Levnet kun kand lignes med en Port:</l><l>
+Igiennem hvilcken vi passere meget fort:</l><l>
+<app type="var"><lem wit="α">Saa for den stoore Dag vi saadant Præferere,</lem>
+  <rdg wit="B">Sligt dog Magneten er/ som Siæl og Hierte drager/</rdg>
+  <rdg wit="C">For Evigheden dog vi lidt bekymret ere,</rdg></app></l><l>
+    <app type="var"><lem wit="α">Et Øjeblik vi med forundring agte meere</lem>
+<rdg wit="B">Ald Eftertanke os en liden Lyst betager</rdg>
+<rdg wit="C">Et Øyeblik vi med Forundring agte meere</rdg></app>:</l><l>
+    Vi <app type="var"><lem wit="α">tencke</lem>
+       <rdg wit="a">tænkte</rdg></app> icke paa vor rette <w>Boelig-sted</w>.</l><l>
+Een <w>Haande-vending</w> os er meer end ævighed.</l><l>
+
+
+
+<pb ed="SS" n="433"/>
+
+Enhver, der anseer sligt med Philosophisk Øje,</l><l>
+Og denne sidste Post betragter 
+    <app type="var"><lem wit="α">eene</lem>
+    <rdg wit="B">meget</rdg></app> nøje,</l><l>
+<app type="var"><lem wit="α">Han med Heraclito</lem>
+<rdg wit="B">Med Heraclito hand</rdg>
+<rdg wit="C">Med Heraclito<note type="last">(antikva)</note> han</rdg></app> maa som fortabet staae,</l><l>
+Hans <w>Øjne-Taare</w> jo som becke flyde maa.</l><l>
+Men, naar betragtes sligt, man moxen icke fatter,</l><l>
+Hvad en Democritus bevæge kand til Latter,</l><l>
+Man seer ej andet end Materie til Graad,</l><l>
+Hvi var den stoore Mand saa lattermild, og kaad?</l>
+    <l><pb ed="α" n="A6r" facs="p015"/>Han paa den anden kant har Mennesket betragtet,</l><l>
+Og Latter meer end Graad har philosophisk agtet;</l><l>
+I andre Tancker han saa meget grundig gik:</l><l>
+Saa til at græde han ej tid og stunder fik.</l><l>
+Ja, naar jeg Mennesket paa anden side vender,</l><l>
+Jeg i hans Latter da stor Viisdom seer og kiender,</l><l>
+Jeg priiser mindre 
+    <app type="var"><lem wit="α">ej</lem>
+    <rdg wit="B">da</rdg></app> hans Latter milde Mund:</l><l>
+Jeg finder denne Mand ej loe med mindre grund.</l><l>
+Om folk i Schytien jeg her vil icke tale,</l><l>
+Jeg grove Thracier ej heller vil afmale:</l><l>
+Sarmater, Dacier jeg intet melder om:</l><l>
+Men viise <w>Græcken-land</w>, men Verdens Øje, Rom,</l><l>
+Italien, Frankrig og de mest polerte Steeder,</l><l>
+Blant hvilcke andet Folck grov og barbarisk heeder,</l><l>
+De lærde Stæder jeg mig ene nærmer til,</l><l>
+Af store Folk jeg kun 
+    <app type="var"><lem wit="α">exempler</lem>
+    <rdg wit="B">Exempel</rdg></app> tage vil.</l><l>
+De Græker bryste sig af deris mange Viise,</l><l>
+Man deris Klogskab seer Skribentere at priise.</l><l>
+Rom deris Artighed har bruget som Model,</l><l>
+Diogenes dog seer ej en fornuftig Siæl,</l><l>
+Han med sin Lygte gaar den lyse Dag og leeder:</l><l>
+Han søger Mennesker end paa 
+    <app type="var"><lem wit="α">polerte</lem>
+    <rdg wit="B">de viise</rdg></app> Stæder,</l><l>
+I lærde Athen selv, men ickun Aber seer:</l><l>
+De Viseste blant dem han allermeest beleer:</l><l>
+Jeg veed, man holder for en philosophisk Grille,</l><l>
+At lyse efter Folk, og tomme tønder trille,</l><l>
+Og meene, derved man sin stad saa nyttig er,</l><l>
+Som en Pericles, der paa sine Skuldre bær</l><l>
+Den stoore Republiqve, Athenens heele Byrde,</l><l>
+
+
+<pb ed="SS" n="434"/>
+
+Og 
+    <app type="var"><lem wit="α">stiilet</lem>
+    <rdg wit="A a B">stillet</rdg>
+    <rdg wit="C">kaldet</rdg></app> derfor blir for sine Folck en Hyrde,</l>
+    <l><pb ed="α" n="A6v" facs="p016"/>Som Alcibiades, der et Vidunder var,</l><l>
+Hvis hurtighed saa højt de Græker priiset har,</l><l>
+Og som en Nicias, om hvilken man kand sige,</l><l>
+At han Anfører, Præst, ja alting var tillige,</l><l>
+    Hvad slige stoere Mænd for Republiqven <app type="tc">
+        <lem><corr resp="ed">giør,</corr></lem>
+        <rdg wit="α">giør.</rdg></app></l><l>
+Det en Democritus en Daarskab 
+    <app type="var"><lem wit="α">stiile</lem>
+        <rdg wit="B">kalde</rdg></app> tør,</l><l>
+Hand meener, at de som opofre Folck og myrde,</l><l>
+Fortiene ej det Navn af Landets goode Hyrde:</l><l>
+Hvad Viisdom, Nidkierhed af andre kaldet blir,</l><l>
+Det mest Materie til Latter hannem gir.</l><l>
+Han seer med 
+    <app type="var"><lem wit="α">Gravitet</lem>
+    <rdg wit="B C">Ærbarhed</rdg></app>
+    en Helt sig at raadføre,</l><l>
+Nu med et lidet Dyr, det til sin Gud at giøre:</l><l>
+Nu Flugt, nu <w>Fugle-skriig</w>, 
+    <app type="var"><lem wit="α">indvolde</lem>
+    <rdg wit="C">Indvolden</rdg></app>
+    af en Koe,</l><l>
+Den heele Republiqve, som en Veyrhane snoe,</l><l>
+En Stad, et Rige af Fortvivlelse at græde,</l><l>
+Naar Spaamænd siige, at en Fugl vil icke æde,</l><l>
+Han en seer give agt hvor røgen driver hen,</l><l>
+Een anden falde ned og bede an en Steen,</l><l>
+En udi Delphis af een <w>Hoved-svimlet</w> Qvinde,</l><l>
+En af en Hamons Præst at lade sig forblinde,</l><l>
+    En Leonidas og en Codrus, naar de <app type="tc"><lem><corr resp="ed">faae</corr></lem>
+        <rdg wit="α">faae/</rdg></app></l><l>
+    Af Spaamænd kun et <app type="tc"><lem><corr resp="ed">nik,</corr></lem>
+        <rdg wit="α">nik</rdg></app> med Sværd for Brøstet 
+    <app type="var"><lem wit="α">staae</lem>
+    <rdg wit="a C">slaae</rdg></app>.</l><l>
+Ja en Anfører at fortvile, zittre, bæve,</l><l>
+Naar han en Ugle kun seer over Huuset svæve.</l><l>
+De Lærde, Viise selv for brysted sig at slaae,</l><l>
+Naar Røgen icke vil til rette side gaae,</l><l>
+Sig icke driste til en Sag at foretage,</l><l>
+For Ordre af en Koe de faae og af en Krage.</l><l>
+Een Nicias at gaae fra rette Vej og Sti,</l><l>
+Saa snart en Spaamand ej samtycker derudi.</l>
+    <l><pb ed="α" n="A7r" facs="p017"/>At redde Livet er imod Religionen, </l><l>
+Naar hand Formørkelse, en Plet seer udi Maanen,</l><l>
+At sætte heller Land, Religion paa spil,</l><l>
+Før man lidt Overtroe til side sætte vil.</l><l>
+Som Jøderne der paa Sabbaten ej vil striide,</l><l>
+Men Landets Undergang med troens heller liide.</l><l>
+
+
+<pb ed="SS" n="435"/>
+
+Det er at drukne sig for ej at blive vaad,</l><l>
+Ach mig ej undrer, at Democritus er kaad!</l><l>
+Sligt i Athenen skeer, som viisdoms boelig heder,</l><l>
+Den store <w>Romer-stad</w> har fuldt de Grædske sæder,</l><l>
+Den eftergiver ej i Daarlighed et haar,</l><l>
+Ej eene følger dem, men ogsaa overgaar,</l><l>
+Men, siger man, det var i Gamle mørke tider,</l><l>
+Vor kloge Verden nu slig Daarlighed ej lider,</l><l>
+Nu 
+    <app type="var"><lem wit="α">Reflecteres ej</lem>
+    <rdg wit="B C">gives meer ey agt</rdg></app> paa Spaamænd, <w>Fugle-skrig</w>,</l><l>
+Nu man af Overtroe ej meer opofrer sig.</l><l>
+Vist! Man nu finder Folk paa anden maade leve,</l><l>
+Man har beflittet sig paa meget at ophæve,</l><l>
+Dog icke alt, men det som fattes derudi,</l><l>
+    <app type="var"><lem wit="α">Suppleret er</lem>
+    <rdg wit="B">Mand bøder paa</rdg>
+    <rdg wit="C">Erstattet er</rdg></app> med nyt, med andet Gieckerie.</l><l>
+I Verdens Skueplads vi see kun anden Scene,</l><l>
+Vi os indbilde vel at være meget reene;</l><l>
+Men en Philosophus kun liden Forskiæl seer;</l><l>
+Den samme Daarlighed paa anden maade skeer;</l><l>
+    <app type="var"><lem wit="α">Til dette Paradox beviisligt her at giøre</lem>
+    <rdg wit="B">Slig Lærdom til Beviis til saadant klart at giøre</rdg></app>,</l><l>
+Tænk kiære! ej, at ieg til Lapland dig vil føre;</l><l>
+Til vilde Grønland, til de Indianer hen,</l><l>
+Til Fez, Marocco, til et grov Siberien,</l><l>
+Skiøndt ogsaa Mennesker, saa vel som vi, de ere,</l><l>
+Skiøndt udi Skabningen vi have intet meere,</l><l>
+    Men det ei nødigt er, ieg finde kand beviis</l>
+    <l><pb ed="α" n="A7v" facs="p018"/>I bæste Stæder, i Madrit, i Rom, Paris,</l><l>
+Hvor Børn fast grædende Forældrene ombeeder,</l><l>
+At reyse hen for at forfremmes udi Sæder,</l><l>
+Hvor det priisværdigt er, at sætte Velfærd til,</l><l>
+Om sliige Stæder ieg kun ene røre vil.</l><l>
+Jeg i min Meening, Hr. Magister, strax bestyrkes,</l><l>
+Naar jeg i saadan stad seer raadne Been at dyrkes,</l><l>
+Naar for en Hofte af St: Caspar, Melchior,</l><l>
+Man ligger Næsegruus, og sig for Brystet slaar,</l><l>
+Naar man giør stor allarm, med alle Klocker ringer,</l><l>
+For en St: Jørgens Legg, for en St: Gertruds Finger,</l><l>
+Jeg ej begriber, hvi de gamle man beleer;</l><l>
+
+
+<pb ed="SS" n="436"/>
+
+Den gamle Rom var gal den nye ej bedre er;</l><l>
+Da Klocker, Bielder man med Andagt icke døbte,</l><l>
+Da Skaldepander man for Velfærd icke kiøbte,</l><l>
+Vel selsomt er, en Gud at giøre sig af Steen,</l><l>
+Men mere selsomt at tilbede raadne Been,</l><l>
+Helst, naar beviises, dem ej Helgene at være,</l><l>
+Men nok, at de i Rom paa Listen skrevne ere.</l><l>
+Et lidet stycke Træ for at tilbage faae,</l><l>
+Nu dyre Christne Blod som Strømme rinde maa,</l><l>
+For Daarens Meening mod en Daare at hanthæve,</l><l>
+Den heele Christendom man nu seer skielve, bæve,</l><l>
+At myrde Christne Folk, det heeder tiene Gud,</l><l>
+For at handthæve Et, man bryder alle Bud.</l><l>
+End om en Cicero nu opstoed fra de Døde,</l><l>
+Og en Procession i Spanien skulde møde,</l><l>
+Og saae, at man tilbad et lidet stycke Brød,</l><l>
+Paa vores vegne han af Blusel io blev rød.</l>
+    <l><pb ed="α" n="A8r" facs="p019"/>Han vilde biide sig i Lipper, spotviis siige,</l><l>
+Jeg med forundring seer, i Verden kunsten stiige,</l><l>
+Man giorde Guder før af Graa Steen, Planke, Fiæl</l><l>
+Nu meere kunstig man dem giør af Hvedemeel.</l><l>
+Han, som for Latter sig ei kunde fordum bare,</l><l>
+Af Hednisk Præster naar han saae en samlet Skare,</l><l>
+Han vilde raabe: Ach! ieg nu skinbarlig seer,</l><l>
+At Verden tager til i daarskab meer og meer.</l><l>
+I anden Daarlighed de gamle vi ey viige:</l><l>
+I Hovmod, Selvmord, og i andre Feil deslige,</l><l>
+Den forskiæl ickun er, en Cato myrder sig,</l><l>
+Som frygter derved ey at miste Himmerig.</l><l>
+Men nu man finder Folk af Krigs Professioner,</l><l>
+For ey af Daarer at faae Titul af Cuioner,</l><l>
+Der Liv og Siæl man med Forundring ofre seer,</l><l>
+    Og siige det <app type="tc_var"><lem><corr resp="SS">maa ske</corr></lem>
+    <rdg wit="α">maaske</rdg>
+    <rdg wit="A a B C">maa skee</rdg></app>, 
+    thi det er Krigs maneer.</l><l>
+Før de en selv giort Lov og Skik vil overtræde,</l><l>
+    De bryde Landets Lov, de døe med <app type="tc"><lem><corr resp="ed">Martyr</corr></lem>
+        <rdg wit="α">Matyr</rdg></app> Glæde,</l><l>
+De ofre Æren af Ærgiærighed selv op,</l><l>
+De see hvad Gravsted er bereed for deris Krop.</l><l>
+
+<pb ed="SS" n="437"/>
+    
+    Saa, om Democritus var til i vore Dage,</l><l>
+Hans gamle Ret at lee hvo kunde ham betage?</l><l>
+Hvo icke leer, naar som Philosophus han seer,</l><l>
+Paa Mennesket, end naar det aller ærbarst er.</l><l>
+For Lyset, Menneske, bring alle dine Dyder,</l><l>
+Viis frem i kort begreb, hvad allermest dig pryder,</l><l>
+    Tal om Forsamlinger, tal om et helligt Sted,</l>
+    <l><pb ed="α" n="A8v" facs="p020"/>Hvor <app type="tc_var"><lem wit="A C">concentreret</lem>
+     <rdg wit="α">eoncentreret</rdg>
+     <rdg wit="a"><hi rend="ant">concentre</hi>ret</rdg>
+        <rdg wit="B">sammenstøbet</rdg></app> 
+        er al Viisdom, Herlighed:</l><l> 
+Man der forsamlede seer Fyrster og Prælater,</l><l>
+Det Syn io yndigt er, man dem som Guder skater,</l><l>
+En Tytyrus staar stil med Under seer paa dem,</l><l>
+Han priiser Gud, at han af Verdens børn er Lem.</l><l>
+Men en Philosophus, som seer med andet Øye,</l><l>
+Og med udvortis Skin sig icke lader nøye,</l><l>
+I Lipper bider sig da allermest, og leer,</l><l>
+Just fordi Mennesket saa meget ærbar er.</l><l>
+Just for i Gieckerie det sig catonisk stiller,</l><l>
+        Just for med <app type="var"><lem wit="α">Gravitet</lem>
+        <rdg wit="B C">Ærbarhed</rdg></app> Comoedier det spiller,</l><l>
+Thi, naar man efter seer, hvad bliver handlet om,</l><l>
+Da er det ofte, om en skiægged Mand i Rom</l><l>
+Som andre Mennesker kand irre og vildfare,</l><l>
+Om en skal have Sted blant den fordømte Skare,</l><l>
+Paa visse tider der har ædet Kiød og Ægg,</l><l>
+Der mod canonisk Lov har ladet rage Skiægg.</l><l>
+Om en med Billighed ei kaldes bør en Kiætter</l><l>
+For hand ei sin Fornuft til side ganske sætter,</l><l>
+Og som <app type="var"><lem wit="α">Machine</lem>
+    <rdg wit="B">en Mølle</rdg></app> Kun sig lader dreie om,</l><l>
+Som <w>Klocke-Viiser</w> af det store Hiul i Rom.</l><l>
+<app type="var"><lem wit="α">Om man med rette ei bør excommunicere,</lem>
+<rdg wit="B">Om mand ey dømme bør til Fængsel/ Baand og Lænker</rdg>
+  <rdg wit="C">Om man og ikke bør i Kirkens Band at sætte,</rdg></app></l><l>
+    <app type="var"><lem wit="α">Naar en 
+    <app type="tc"><lem><corr resp="ed">fornuftig</corr></lem>
+    <rdg wit="α">fornnftig</rdg></app> Siæl vil lidet raisonnere</lem>
+        <rdg wit="B">Naar Siælen bruge vil sin Skabnings Dyd/ og tænker</rdg>
+        <rdg wit="C">Naar efter sund Fornuft en vil sin Meening rette</rdg></app>,</l><l>
+Naar en kun viise vil, at han bør tæncke meer,</l><l>
+End dumme Beester, og at Menneske han er,</l><l>
+Om den en haanlig Straf ei dømmes bør at liide,</l><l>
+Der egen Meening har om det, vi dog ei viide.</l>
+    <l><pb ed="α" n="B1r" facs="p021"/>Om det, som <w>Sliibe-steen</w> for alles Øine er,</l><l>
+Om Gudoms Væsen, og det som i 
+        <app type="tc"><lem><corr resp="ed">Himlen skeer</corr></lem>
+        <rdg wit="α">Himlenskeer</rdg></app>.</l><l>
+<app type="var"><lem wit="α">Beraab</lem>
+        <rdg wit="B">Beraad</rdg></app> 
+dig Menneske, paa meer hvad hos dig glimrer,</l><l>
+
+
+<pb ed="SS" n="438"/>
+
+Paa lærde Mænd, hvor af den heele Jord nu vrimler.</l><l>
+Føer Høye Skoeler frem, tal om Academie:</l><l>
+Viis ald den Herlighed, som findes derudi,</l><l>
+Bring i en dynge frem de mange lærde Bøger,</l><l>
+Som Guddoms Væsen og Naturens eftersøger,</l><l>
+    <app type="var"><lem wit="α">Citeer</lem>
+        <rdg wit="C">Nævn mig</rdg></app> en Scaliger, 
+        <app type="var"><lem wit="α">citeer</lem>
+        <rdg wit="C">nævn mig</rdg></app> en Grotius,</l><l>
+Peeg paa en Tycho, peeg paa en Copernicus.</l><l>
+Een paa Theologie sin gandske Tid anvender,</l><l>
+Giendriver Kiættere, end dem han icke kiender,</l><l>
+Han figter for sin Sect, for troen strider saa,</l><l>
+At til et Fader vor han tid ej selv kand faae.</l><l>
+Een til Naturens Laab at finde aarsag søger,</l><l>
+Arbejder, Sveeder og igiennemblader Bøger,</l><l>
+Han Fluers Mygs Natur med Møje efterseer,</l><l>
+I egen Kundskab skiøndt han blind og Fremmed er.</l><l>
+Een som en Pollio seer ud, hans bleege 
+    <app type="tc_var"><lem wit="a B C">Kinde</lem>
+    <rdg wit="A">kinde</rdg>
+    <rdg wit="α">Kinde/</rdg></app></l><l>
+Til kiende Viisdom gir, den skat, vi hos ham finde,</l><l>
+Dog icke andet er, end at han sætte kand</l><l>
+I orden Gloser, brugt i Rom og <w>Græken-Land</w>;</l><l>
+    Een 
+    <app type="var"><lem wit="α">med Astronomi</lem>
+    <rdg wit="C">nu med himlens Lob</rdg></app> sig plager, bryder Hierne,</l><l>
+Sig bryster, glæder, at han fundet har 
+    <app type="tc"><lem><corr resp="ed">en</corr></lem>
+    <rdg wit="α">er</rdg></app> 
+    Stierne;</l><l>
+I Melcke Vejen han saa lenge vandret har,</l><l>
+At han paa jorden slet er bleven til en Nar.</l><l>
+En vil af andet ej end gamle Sager viide;</l><l>
+Med stoor Omstændighed han tal om mørcke tide,</l>
+    <l><pb ed="α" n="B1v" facs="p022"/>Han veed af hvilcken Traad Junonis Serck var giordt,</l><l>
+Men i sit Embed han ej skiller hvit fra sort;</l><l>
+Een med 
+    <app type="var"><lem wit="α">Subtilitet</lem>
+        <rdg wit="C">Haarkløverie</rdg></app> sit arme Hoved plager,</l><l>
+Hans Metaphysica ham Kræfter, Liv betager,</l><l>
+Spørg, frit ham nøje hvad han sig saa plager med,</l><l>
+Han svare vil, at han det selver icke veed.</l><l>
+En kalder sig Poet, faaer derfor <w>Laurbær-Krone</w>,</l><l>
+Opløftet derfor blir paa Høje Skolers Throne;</l><l>
+Thi Ord han bringer af Naturlig Orden saa,</l><l>
+At det, som før var klart, kand ingen meer forstaa,</l><l>
+En heder Musicus, Guds Ord paa Norder sætter,</l><l>
+Lær at tilbede Gud i form af Menueter,</l><l>
+
+
+<pb ed="SS" n="439"/>
+
+Han meener Bønnen er hos Gud i større agt,</l><l>
+Naar den frembaaret er i Simpel Tripel Tact;</l><l>
+Jeg tilstaar det er smukt, naar Lærde samlet ere,</l><l>
+Paa Høje Skoeler dem at høre Disputere.</l><l>
+At læse i hvers Mund som i en gammel Bog,</l><l>
+Een ziirlig Tale paa det ædle Romer Sprog,</l><l>
+At see en Rector med de 4re Faculteter,</l><l>
+    <app type="var"><lem wit="α">Med Gravitet der sig</lem>
+    <rdg wit="B">Der sig med Ærbarhed</rdg></app>
+    i ziirlig Orden sætter,</l><l>
+Pedeller, Scepter, Stads ved siden for og bag,</l><l>
+Jeg tilstaar i sligt Syn jeg finder selv behag.</l><l>
+En Drusus jo maa selv opvaagne af sin Dvale,</l><l>
+Men, naar man hører, at den heele lærde Tale,</l><l>
+For hvis skyld holdet blir en saadan Højtiids Dag,</l><l>
+For hvis skyld høres maa sliig Væsen, Bulder, Brag,</l><l>
+Hensigter ickun paa en gammel skimlet Glose,</l><l>
+Som nogle laste og som andre Lærde roese.</l><l>
+    Naar <app type="var"><lem wit="α">disputeres</lem>
+    <rdg wit="C">trettes, tvistes</rdg></app>
+    om et gammel Jødisk Kar,</l>
+    <l><pb ed="α" n="B2r" facs="p023"/>Med saadan Iver, som det Rigets Velfærd var;</l><l>
+Om Hengsler, Slaader, Laas for Poorte og for Dørre,</l><l>
+Om hvad for Klædedragt de gamle pleide føre,</l><l>
+Om <w>Vand-Kar</w>, hvor i de sig plejede at toe,</l><l>
+Om Grædske Tøfler og om gamle Romer Sko,</l><l>
+Om Alexandri Hest og om Anchisis Amme,</l><l>
+Om en Homerus, om hans Herkomst, Slægte Stamme</l><l>
+Om Hercules, som var, maaske, dog aldrig til,</l><l>
+    Er første <app type="var"><lem wit="α">Autor</lem>
+    <rdg wit="B C">Stifter</rdg></app> til det stoore Grædske Spil,</l><l>
+Om hemmelige ting, som Engle selv ej fatter;</l><l>
+Da man tilgiver en Philosophus sin Latter,</l><l>
+Man ej Democritus fordømmer, naar han leer,</l><l>
+Om end paa saadant stæd, han lit satyrisk er.</l><l>
+Men Musa gaae et trin tilbage, styr din Iver,</l><l>
+Hvo saadan Bylde rør, den jo forhadet bliver;</l><l>
+Til side saadant sæt, gack heller <w>Alfar-Vej</w>:</l><l>
+    Beviis din <app type="var"><lem wit="α">Thesis</lem>
+    <rdg wit="C">Lærdom</rdg></app> af Societeter ej.</l><l>
+Brug heller andet sværd, du kiender jo din skiæbne;</l><l>
+Søg Kircker, Skoler ej imod dig at bevæbne,</l><l>
+Siung i en Tone, som lidt mindre klingend er,</l><l>
+
+
+<pb ed="SS" n="440"/>
+
+Og dog har samme Kraft, tal om en hver i sær.</l><l>
+<hi rend="ant">A</hi> paa Comoedie gaar, aflegger ærbar Mine;</l><l>
+Til side Tancker slaar, har lyst at lee og grine;</l><l>
+Men han jo nock kand lee, naar han sig selv anseer,</l><l>
+Og tencker paa, at han en Dommer bleven er;</l><l>
+Paa brendte Bønner <hi rend="ant">B</hi> tilsætter sine Penge,</l><l>
+Det som en <w>Nectar-Drik</w> for hannem er saa lenge,</l><l>
+Som det i Moden er, saa lenge det er dyrt;</l><l>
+Snart falder Prisen ej, hans Lyst jo strax er styrt.</l><l>
+<hi rend="ant">C</hi> finder ingen smag i Vellyst, i Udyder;</l><l>
+    <pb ed="α" n="B2v" facs="p024"/>Saa lenge ingen Lov dem udi sær forbyder,</l><l>
+Saa snart paa legges Straf, man ham vellystig seer,</l><l>
+Han dricker, horer kun, for det forbudet er.</l><l>
+<hi rend="ant">D</hi> Verdens Bryst og Fejl heel nøye eftersøger,</l><l>
+Mod Rigdom giver ud bevægelige Bøger,</l><l>
+Mod Rigdom med sin Pen saa lenge fører Krig,</l><l>
+Til uforvarende han selv sig skriver rig.</l><l>
+<hi rend="ant">E</hi> kiøber sig en rang, skiøndt han har ingen Penge,</l><l>
+At han af Armod med en Titul sig kand henge,</l><l>
+Ved Bordet man ham vel tit øverst sidde seer,</l><l>
+For Klockeren man dog det beste stycke skiær.</l><l>
+<hi rend="ant">F</hi> ved sin Høflighed er alle Folck til byrde,</l><l>
+Med Mad og Dricke han hans Venner plejer myrde,</l><l>
+Saa snart de blive frisk, de dricke maae igien,</l><l>
+Til de omkommes, thi han er jo deris Ven.</l><l>
+<hi rend="ant">G</hi> undres over de Chinesers Skik og Sæder,</l><l>
+Han glæder sig, at han en Europæer heeder,</l><l>
+At, naar han hilser, han ej Peeger paa sin Barm,</l><l>
+Dog selv om Vinteren med hat gaaer under Arm.</l><l>
+    <hi rend="ant">H</hi> kand ej holde op, 
+    <app type="var"><lem wit="α">at excerpere, skrive</lem>
+    <rdg wit="C">at prænte og at skrive</rdg></app>,</l><l>
+Hans Doctor siger, at det ham hans Død vil blive,</l><l>
+Det hielper ej, hans Verk han dog fuld ende vil,</l><l>
+For at indlegge Navn, som han ej føler til.</l><l>
+<hi rend="ant">I</hi> skriver Bøger, som ugudelige ere,</l><l>
+Man byder hannem Fred, om han vil revocere,</l><l>
+Han Siiger nej, han vil forøge Daarers Tal,</l><l>
+Vil heller døe af Frygt, han ej skal kaldes gal.</l><l>
+
+
+
+<pb ed="SS" n="441"/>
+
+<hi rend="ant">K</hi>: kand ej sige sandt, skiøndt Folck ham derfor hader,</l>
+    <l> <pb ed="α" n="B3r" facs="p025"/>Skiøndt han foragtet blir, sin Lyde dog ej lader,</l><l>
+    For <app type="var"><lem wit="α">interesses</lem>
+    <rdg wit="B">egen Fordeels</rdg>
+    <rdg wit="C">egen Nyttes</rdg></app> skyld han farer ej med snack,</l><l>
+Kun for at føre Navn af Byens Almanack.</l><l>
+    <app type="var"><lem wit="α"><hi rend="ant">L</hi> melancholisk er, naar galden opererer</lem>
+    <rdg wit="B"><hi rend="ant">L</hi> Milte-Syge har/ naar Galden hannem prikker</rdg></app>,</l><l>
+      
+      <app type="var"><lem wit="α">Da gaar han Huus fra Huus, og alting reformerer</lem>
+        <rdg wit="B">Da gaar hand Huus fra Huus om Landets Tarv prædikker</rdg></app>,</l><l>
+Han troer, det er 
+    <app type="tc"><lem><corr resp="ed">en</corr></lem>
+    <rdg wit="α">eu</rdg></app> Dyd, som Cato sig anseer,</l><l>
+Skiønt han har andet sind, naar Galden stille er,</l><l>
+<hi rend="ant">M</hi>. 
+    <app type="tc"><lem><corr resp="ed">haver</corr></lem>
+    <rdg wit="α">haver/</rdg></app> 
+    midler, hans døds time flux tilstunder,</l><l>
+Hans Gods Tilfalder dem, som han ej gierne under,</l><l>
+Sig dog ej æder mæt, for den i Graven gaar,</l><l>
+Som han af skidet Vand, tilforn ej gav en Taar.</l><l>
+    <app type="var"><lem wit="α"><hi rend="ant">N</hi>. deserterer, og</lem>
+    <rdg wit="B"><hi rend="ant">N</hi> rømmer fra sin Post/</rdg>
+    <rdg wit="C"><hi rend="ant">N</hi> løber fra sin Post,</rdg></app> opofrer Navn og Ære,</l><l>
+    Gaar hen til 
+    <app type="var"><lem wit="α">Fiender</lem>
+    <rdg wit="a C">fienderne</rdg>
+    <rdg wit="B">Fæstninger</rdg></app>, som alt capitulere,</l><l>
+    At undflye 
+    <app type="var"><lem wit="α">den Hazard</lem>
+    <rdg wit="B">Farlighed</rdg>
+    <rdg wit="C">den Uheld</rdg></app>, som Krigen med sig føer,</l><l>
+For Frygt at døe i slag, han udi Galgen døer.</l><l>
+<hi rend="ant">O</hi>. for sin Sundheds skyld vil giøre sig til gode,</l><l>
+Af sine Venner han paa Landet holder mode,</l><l>
+Der de vel samme Mad som udi Staden faae,</l><l>
+Men ej i rette tid, og ligge maa paa Straae.</l><l>
+<hi rend="ant">P</hi>. som Tigillius, den dyrebare Sanger,</l><l>
+Vil aldrig siunge, naar man det af ham forlanger</l><l>
+Naar ingen beder ham, strax laver han sig til,</l><l>
+Og 
+    <app type="tc"><lem wit="A a B C">siunger, til</lem>
+    <rdg wit="α">siunger til/</rdg></app> 
+man ham maa bede tie stil.</l><l>
+<hi rend="ant">Q</hi>., naar ej nødigt er, en ting jo nock kand tie,</l><l>
+Naar prøve giøres skal, da kand han icke bie,</l><l>
+Da han urolig blir, som udaf Ilden Kruud.</l><l>
+Maa siige fra, om det af siden skulde ud.</l><l>
+<hi rend="ant">R</hi>. heel sagtmodig er, og lider heller Skade,</l><l>
+End han i trætte sig med nogen vil indlade,</l><l>
+    Ham Uret giøres, han sig hevner ej igien,</l><l><pb ed="α" n="B3v" facs="p026"/>
+<app type="tc"><lem><corr resp="ed">Men</corr></lem>
+    <rdg wit="α">Mer<note type="last">(med <q>Men</q> i kustoden)</note></rdg></app>
+    for et klyftigt Ord han ofrer op en Ven.</l><l>
+<hi rend="ant">S</hi>. om Forliigelse i Sagen ej vil høre,</l><l>
+Vil heller Dommere og Advocater smøre.</l><l>
+    Han vinder Sagen 
+    <app type="var"><lem wit="α">vel,</lem>
+    <rdg wit="A a B C">og</rdg></app> sit Ønske deri naar,</l><l>
+Men Advocaten meer end ald Gevinsten faar.</l><l>
+    <hi rend="ant">T</hi>. Grofsmed i en Kroe 
+    <app type="var"><lem wit="α">et Riige reformerer,</lem>
+    <rdg wit="B">et Land paa Fode sætter/</rdg>
+    <rdg wit="C">et Kongerige retter,</rdg></app></l><l>
+      <pb ed="SS" n="442"/>
+    <app type="var"><lem wit="α">Een Tilly roeser, en Turenne criticerer</lem>
+<rdg wit="B">En Tilly roeser/ en Conde/ Turenne retter</rdg>
+<rdg wit="C">En Tilly<note type="last">(i antikva)</note> roser, en Turenne<note type="last">(antikva)</note> Plet paasetter</rdg></app>.</l><l>
+Nu gir han Paven ret, nu er han for Qvenel,</l><l>
+Mon jeg skal troe, at han har en fornuftig Siæl?</l><l>
+    <app type="var"><lem wit="α"><hi rend="ant">U</hi>.</lem>
+    <rdg wit="a C">V</rdg></app> mod Ærgiærighed med saadan iver præcker,</l><l>
+At derved Taare han af alles Øine træcker.</l><l>
+    <app type="var"><lem wit="α">Men</lem>
+    <rdg wit="C">For</rdg></app> ingen gammel Præst man ham dog viige seer,</l><l>
+    <app type="var"><lem wit="α">For conseqvences skyld</lem>
+    <rdg wit="C">Paa Rang og Høyhed staaer</rdg></app>, thi han Magister er.</l><l>
+<hi rend="ant">W</hi>. elsker Frihed, 
+    <app type="var"><lem wit="α">og mod Staten rebellerer,</lem>
+    <rdg wit="B">sig imod Regiering sætter/</rdg>
+    <rdg wit="C">og mod Staten sig opreyser,</rdg></app></l><l>
+      <app type="var"><lem wit="α">Hans Hustrue midlertiid ham Hiemme coujonerer</lem>
+    <rdg wit="B">Hans Hustru midlertid ham hiemme tit hudflætter</rdg>
+    <rdg wit="C">I Huset, hiemme han dog for sin Hustrue kneyser</rdg></app>.</l><l>
+Jeg troer den tvang han først af Huuset rydded ud,</l><l>
+Hvis første ej var Synd, det sidste ej et Bud.</l><l>
+    <hi rend="ant">X</hi>. tar Papiret fat, 
+    <app type="var"><lem wit="α">vil censurere Bøger</lem>
+    <rdg wit="B">vil giennemheigle Bøger</rdg>
+    <rdg wit="C">og Skrifter giennemsøger</rdg></app>,</l><l>
+Seer Chronologisk Fejl, end i Per Paarses Bøger,</l><l>
+Mon man hans Skrifter ej kand giøre samme skiæl?</l><l>
+Nej det viitløftigt blev, man skrev sig slet ihiel.</l><l>
+<hi rend="ant">Y</hi>. tusind Daler for hver Rynke har i Panden;</l><l>
+Hun mister en Tyran, og tager strax en anden,</l><l>
+Af saadant Ægteskab en Naboe Kone leer,</l><l>
+Dog selv gaaer samme Vej, naar Lejlighed hun seer.</l><l>
+<hi rend="ant">Z</hi>. verdslig er i Dag, i Morgen 
+    <app type="var"><lem wit="α">hypocritisk,</lem>
+<rdg wit="B">Verden hader/</rdg></app>
+</l><l>
+  <app type="var"><lem wit="α">En Time ærlig, men en anden fin, politisk</lem>
+    <rdg wit="B">Nu aabenmundet er/ nu haver fine Lader</rdg></app>,</l><l>
+I dag han laster, hvad han roset har i gaar,</l><l>
+Som Protheus sig nu til Slange giør, nu faar?</l><l>
+    Ach! hvis en Bogstav 
+    <app type="var"><lem wit="α">jeg mig dristed at fingere,</lem>
+      <rdg wit="B">jeg mig dristet til at skrive/</rdg>
+      <rdg wit="C">meer var endnu til at finde,</rdg>
+    </app></l><l><pb ed="α" n="B4r" facs="p027"/>
+    <app type="var"><lem wit="α">Jeg vilde siunge end et Vers, men intet meere</lem>
+    <rdg wit="B">Jeg vilde siunge end et Vers/ og der ved blive</rdg>
+    <rdg wit="C">Jeg vilde end et Vers anføre denne sinde</rdg></app>.</l><l>
+Jeg vilde tale om en <hi rend="big">Paarses Jens Maa skee</hi>.</l><l>
+Thi jeg af ingen meer bevæges kand at lee.</l><l>
+    <app type="var"><lem wit="α">Men</lem>
+    <rdg wit="B">Min</rdg></app> Musa bryd kun af, opregn mig icke fleere,</l><l>
+Tolv Alphabeter ej tilstræckelige ere;</l><l>
+Ja icke tolv gang tolv, hvo i en liden 
+    <app type="tc"><lem><corr resp="ed">Bog</corr></lem>
+    <rdg wit="α">Bog.</rdg> 
+    </app></l><l>
+Hvers Galskab skrive vil, mon han er meere klog?</l><l>
+Hvad Arbejd var det ej, om man kun giorde Liste,</l><l>
+Paa Daarer, som man seer i mangen Daare kiste,</l><l>
+Langt mere paa enhver, om man gav Character.</l><l>
+Mod Verdens Dulhuus dog det ej at ligne er.</l><l>
+Om paa en eenest man Afrisning vilde give,</l><l>
+Man maatte Blader ej, men heele Bøger skrive.</l><l>
+
+
+<pb ed="SS" n="443"/>
+
+Hvis, for exempel, jeg om Hr: Magister skrev,</l><l>
+Saa tyck som en Postil, en Bog det ene blev,</l><l>
+    <app type="var"><lem wit="α">Thi end Heraclitus</lem>
+    <rdg wit="B">Thi Heraclitus self</rdg>
+    <rdg wit="C">End Heraclitus<note type="last">(antikva)</note> selv</rdg></app> af Latter maatte briste,</l><l>
+Ja Timon, Cato, om de eders 
+    <app type="tc"><lem><corr resp="ed">Væsen</corr></lem>
+    <rdg wit="α">Væ sen</rdg></app> viste,</l><l>
+Og dette uanseet i et cathedre saae,</l><l>
+Med Martyr Mine, Hr: Magister, eder staae,</l><l>
+    At høre eder <app type="var"><lem wit="α">fejl</lem>
+    <rdg wit="B">friit</rdg></app> i Staten at udrydde,</l><l>
+Hof og Collegier at rette og nedbryde.</l><l>
+Nu rette Financier, nu dadle Cancelist,</l><l>
+Nu løs paa Statsmand gaae, nu Høfding og Jurist.</l><l>
+En gammel Kiærling selv mig nyelig tog til side,</l><l>
+Mig 
+    <app type="tc"><lem><corr resp="ed">spurde,</corr></lem>
+    <rdg wit="α">spurde.</rdg></app>
+    hvoraf faaer Magisteren at vide,</l><l>
+De mange høye ting, han saa igiennem gaaer,</l><l>
+    Maaskee fra <app type="var"><lem wit="α">Slagelse</lem>
+    <rdg wit="C">næste Bye</rdg></app> Aviserne han faaer.</l><l>
+      Men jeg har ofte hørt end udi ungdoms tide</l><l>
+At man ej altid paa Aviserne kand liide.</l><l>
+Saa klog den Kierling 
+    <app type="tc"><lem wit="A a B C">var:</lem>
+    <rdg wit="α">var.</rdg>
+    <rdg resp="SS">var/</rdg></app> jeg skriver til en 
+    <app type="tc"><lem wit="A a B C">Ven,</lem>
+    <rdg wit="α">Ven.</rdg>
+        <rdg resp="SS">Ven/</rdg></app></l>
+    <l><pb ed="α" n="B4v" facs="p028"/>I gierne mine Fejl maa viise mig igien.</l><l>
+Men, hvis vi vilde kun hinanden ret beskrive,</l><l>
+Det et viitløftigt verck alleene vilde blive.</l><l>
+Jeg finder, hvis mig selv jeg eene giennem gick,</l><l>
+At skrive andet jeg ej tid og stunder fick,</l><l>
+    Meer det vitløftig blev 
+    <app type="var"><lem wit="α">en hver at criticere</lem>
+      <rdg wit="B">om alle Feyl at tale</rdg>
+      <rdg wit="C">hver at igiennemhegle</rdg></app>,</l><l>
+        <app type="var"><lem wit="α">Og alles Daarlighed i sær at censurere</lem>
+    <rdg wit="B">Hver Daarlighed i sær med Pensel at afmale</rdg>
+    <rdg wit="C">Og vise hvorudi enhver og alle feyle</rdg></app>.</l><l>
+Jeg slutter derfor, hvis af Maanen en faldt ned,</l><l>
+Midt i Europa, i en stoer poleret sted,</l><l>
+For egen undergang saae Brødre selv at fejde,</l><l>
+Ja hovmod fandt og pragt, i ting som os bebreide,</l><l>
+    <app type="var"><lem wit="α">Os</lem>
+    <rdg wit="B">Og</rdg></app> viise allermeest vor største uselhed,</l><l>
+At Aadsler man med pragt i Graven legger ned.</l><l>
+    Naar efter 
+    <app type="var"><lem wit="α"><w>Bue-strøg</w></lem>
+    <rdg wit="B">Bue-Stræg</rdg></app> han skiæged 
+    <app type="var"><lem wit="α">Mænd</lem>
+    <rdg wit="B">Mand</rdg></app> saae springe,</l><l>
+Naar og til glædes Tegn han hørde Klocker ringe,</l><l>
+    <app type="var"><lem wit="α">Just</lem>
+    <rdg wit="B">Ja</rdg></app> for et Menneske af andet myrdet er.</l><l>
+Just for i Mennesk Bloed man Steder svemme seer.</l><l>
+Naar en Mathonem han sex Heste saae at føre,</l><l>
+Blev var et Esel i en Gylden Vogn at Kiøre.</l><l>
+Een anden derimod, i hvilcken skiulet <app type="tc"><lem wit="a B C">laae</lem>
+<rdg wit="α A">laae/</rdg></app></l>
+    <l><pb ed="SS" n="444"/>Langt større sindets Pund i pialted Klæder gaae,</l><l>
+Een udi Purpur sig og Gylden stycke svøbe.</l><l>
+Een for en Skilling med 3 <w>snøre-Baand</w> at løbe,</l><l>
+Een udaf Arbejd fast i Blodig sveede staae,</l><l>
+Paa det af overdaad en anden sprecke maa,</l><l>
+I gylden Eske en Crispinus Folck at bære,</l><l>
+Et drog, som heller Hest for andre burdte være;</l><l>
+    Een <app type="var"><lem wit="α">Skiepper</lem>
+    <rdg wit="B">Skieppe</rdg></app> Hvedemeel paa Hovedet at strøe,</l><l>
+        Een anden derimod af Nød og Hunger døe.</l>
+    <l><pb ed="α" n="B5r" facs="p029"/>Een Lencker om sin Hals, en ringe udi Øre,</l><l>
+Ene Hat paa Hovedet med <w>Fugle-Fiær</w> at føre.</l><l>
+Naar han en hvid, en sort, en rød, en broget saae,</l><l>
+Med svicklet Strømper en, en anden Barfod gaae.</l><l>
+    Een for en <w>Fugle-Fiær</w>, 
+    <app type="var"><lem wit="α">en rød couleur</lem>
+    <rdg wit="B">en bræmmet Hat</rdg>
+    <rdg wit="C">Guldbræmmet Hat</rdg></app> sig bøye,</l><l>
+En viige med Respect for en Guldfryndtzet Trøye,</l><l>
+    En <app type="var"><lem wit="α">hoben</lem>
+    <rdg wit="C">Skare</rdg></app> gamle Folck i fire rader staae,</l><l>
+At giøre krumme Spring, nu lincks, nu recks at gaae,</l><l>
+At holde stocke nu paa Skuldre, nu ved siide,</l><l>
+Nu derfor staa paa Pæl, nu paa en Træhest riide,</l><l>
+Een, naar toe Terninger, som veltes paa et Bord,</l><l>
+Vil icke løbe ret, at hidses op til Mord.</l><l>
+Een, som af Frygt, han ej afsindig nock kand være,</l><l>
+Forstand udrydde med at dricke, finckelere;</l><l>
+Hvis det ham sind betar ej hiemme findes kand,</l><l>
+    <app type="var"><lem wit="α">Det at forskrive med Hazard</lem>
+    <rdg wit="C">Det føre over Hav og Søe</rdg></app> fra andet Land.</l><l>
+Een rive Haar og Hud af Hagen og af Panden,</l><l>
+Een for lidt Guult Metal sig over give Fanden;</l><l>
+Een sig at henge op, en styrte sig i Vand,</l><l>
+For han ej sidde maa paa andres høyre Haand.</l><l>
+En for ni stycker Træ den ganske Dag sig bøye.</l><l>
+Dem nedslaae, for igien at sætte op med møye;</l><l>
+Paa høye steder i hver Gade Folck at staae,</l><l>
+At vriide, vende sig, og Hænder sammenslaae,</l><l>
+At raabe, Kiære Børn! I Levnet maa forandre,</l><l>
+Vi ynke eder, skiøndt den samme vej vi vandre.</l><l>
+Om hos en hver i sær han udi Huuset kom;</l><l>
+Hvad vilde over os han fælde for en Dom?</l><l>
+
+
+<pb ed="SS" n="445"/>
+
+Naar han saae arme Folck sig efter moden rette.</l><l>
+    Alt hvad man har fortient paa en Dags Bryllup sætte,</l><l> <pb ed="α" n="B5v" facs="p030"/>
+For efter moden strax at gaae med Nøgen Krop,</l><l>
+For efter moden sig at henge siden op.</l><l>
+Til <w>Sørge-Stuer</w> Folck i hobetal at trippe,</l><l>
+    Ved <app type="var"><lem wit="α">Condolencer</lem>
+    <rdg wit="C">Trøste-Taler</rdg></app>
+    for en sorrig at oprippe,</l><l>
+At rive Plasteret af nyelig læged Byld,</l><l>
+Og siige, at det skeer for idel Venskabs skyld.</l><l>
+Til Barsel Stuer sig i Esker lade slæbe,</l><l>
+For <w>Barsel-Qvinder</w> med Lyckønskninger at dræbe.</l><l>
+End Fødsels nøden selv den pine større er,</l><l>
+Er det fornuftigt? ja det efter moden skeer.</l><l>
+Sær sig han undred, og af Latter maatte sprecke,</l><l>
+Naar han i vertskab kom, saae Folck paa sundhed dricke,</l><l>
+    Halv anden time med et Glas 
+    <app type="var"><lem wit="α">i</lem>
+    <rdg wit="B">paa</rdg></app> Haanden staae.</l><l>
+Sig hæs at skraale, for man Taar i Hals kand faae.</l><l>
+Han loe ej mindre, naar han ansaae andet Væsen,</l><l>
+Een maled Blade sig at sticke op i Næsen,</l><l>
+Skiøndt Doctor siger, at det Hovet kruset giør,</l><l>
+Det er fornemme, man sligt derfor ene giør.</l><l>
+En anden selge Brød for beeske Tobaks Blader,</l><l>
+    Hvor med fra 
+    <app type="tc"><lem><corr resp="ed">morgen han</corr></lem>
+    <rdg wit="α">morgenhan</rdg></app> til Aften Piiber lader:</l><l>
+Dens Røg indsuer for at Blæse ud igien;</l><l>
+Det smager vel; thi det er ført fra Indien.</l><l>
+Ved <w>Ny-Aars</w> tiider, skiøndt man intet derved meener,</l><l>
+At Storme Huse, for at siige: <hi rend="big">Skyldig Tienner</hi>!</l><l>
+Naar han blev saadant var, med tusind sager meer,</l><l>
+Han vilde raabe: jeg fornuftig Siæl ej seer!</l><l>
+Han vilde troe, at Dyr, at Fiskene i Havet,</l><l>
+Med det, man kalder Siæl, allene var begavet.</l><l>
+    Han 
+    <app type="var"><lem wit="α">regularitet hos Esel</lem>
+    <rdg wit="B">meer Anstændighed hos Esel</rdg>
+        <rdg wit="C">meere Orden hos et Esel</rdg></app> fandt og Tyr,</l><l><pb ed="α" n="B6r" facs="p031"/>
+Hos Fuglene i Luft, hos usle Krybend Dyr, </l><l>
+Hos <w>Edder-Koppe</w> selv, der sig til intet spinde,</l><l>
+Han heller tenkte en fornuftig Siæl at finde,</l><l>
+Til Maddik, Flue, Mygg han vilde heller gaae,</l><l>
+    Og 
+    <app type="var"><lem wit="α">i Societet med dem sig</lem>
+    <rdg wit="B">udi Samqvem sig med dennem</rdg></app> vilde slaae.</l><l>
+    <app type="var"><lem wit="α">Han vilde ved sig selv saaledis Raisonnere,</lem>
+      <rdg wit="B">Hand tænkte Dyret da var danned at regiære</rdg>
+      <rdg wit="C">Han vilde dømme saa, slig Merke dertil lægge,</rdg>
+    </app></l>
+      
+      <pb ed="SS" n="446"/><l>
+<app type="var"><lem wit="α">At Mennesket var skabt for Dyr at Divertere</lem>
+<rdg wit="B">Og Mennisket var skabt for Dyr at diverteere</rdg>
+<rdg wit="C">At Folk var danned Dyr til Latter at bevæge</rdg></app>:</l><l>
+Sligt uanseet enhver stor Viisdom hos sig seer,</l><l>
+En Daare bryster sig, en andens Fejl beleer,</l><l>
+    <app type="var"><lem wit="α">Moraliserer, og</lem>
+    <rdg wit="B C">Igiennemheigler Feyl/</rdg></app> er over andre dommer.</l><l>
+    <app type="var"><lem wit="α">En slig correction</lem>
+    <rdg wit="B">I Rettesættelsen</rdg>
+    <rdg wit="C">Slig Straffe-Prædiken</rdg></app>
+    mig moxen fore kommer,</l><l>
+Som 
+    <app type="tc_var"><lem><corr resp="ed">en afsindigs</corr></lem>
+    <rdg wit="α A">ens afsindig</rdg>
+    <rdg wit="a C">een Afsindig</rdg>
+    <rdg wit="B">en Afsindig</rdg>
+    <rdg resp="Liebenberg">en Afsindigs</rdg></app>, der af en afsindig loe,</l><l>
+I Daare Kisten man fant sluttet begge toe.</l><l>
+Den eene adspurt blev om sin stoldbroders Væsen,</l><l>
+Han trok paa Axlene, en Ryncke sloog paa Næsen,</l><l>
+Og sagde: stakels Mand! han lidt forrycket er,</l><l>
+Sig for Prophet gir ud, er derfor her disvær.</l><l>
+Jeg maa fra Morgen fast til Aften for ham præcke,</l><l>
+Jeg kand ham dog ej fra slig daarlig meening trække,</l><l>
+At han ej er Prophet, jeg burde viide vel,</l><l>
+Jeg, som enhver jo veed, er Englen Gabriel.</l><l>
+Saa er det, naar en Blind en anden vil geleide,</l><l>
+Naar Mennesket vil 
+    <app type="tc"><lem><corr resp="ed">fejl et</corr></lem>
+    <rdg wit="α">fejlet</rdg></app> Menneske bebrejde,</l><l>
+    Man Verden stille maa som 
+    <app type="var"><lem wit="α">Daare Kiste</lem>
+    <rdg wit="B">Daare-Kisten</rdg></app> for.</l><l>
+Hvad som i Himlen skeer hver troer, at han forstaaer,</l><l>
+Fordømmer andre, og sit eget Lys kun skatter.</l><l>
+Saa mange Secter fast som Hoveder og Hatter.</l><l>
+Man ti slags qvæcker seer, af Veder Døber fleer.</l><l>
+Hver eene troen har, hver dog afsindig er.</l><l>
+Hver Tancker om sig har, en Orm en usel Stakkel</l><l>
+Sig bilder ind, at der for hans skyld skeer 
+    <app type="tc_var"><lem><corr resp="ed">Mirackel</corr></lem>
+    <rdg wit="α">Miracke</rdg>
+    <rdg wit="A">mirackel</rdg>
+    <rdg wit="a C">Mirakkel</rdg>
+    <rdg wit="B">Mirakel</rdg>
+        <rdg resp="SS">Mirackel</rdg></app>,</l>
+    <l><pb ed="α" n="B6v" facs="p032"/>Naar han paa Himmelen et tegn seer, en comet,</l>
+    <l>Strax sig en Øyenskalck indfinder, en Poet,</l>
+    <l>Der sværge tør paa Riim, at saadant tegn er vardsel,</l><l>
+For hans <w>Huus-Frue</w>, at hun lave vil til Bardsel.</l><l>
+For saadant hykleri han sig belønne lar,</l><l>
+End skiøndt hans rette Løn en Daare Kiste var.</l><l>
+Naar man to soele seer, det Tvillinger betyder.</l><l>
+For usel Maddick Gud Naturens Love bryder,</l><l>
+Om Miden paa en Ost af Hovmod vilde troe,</l><l>
+At heele Jord for ham var skabt, man ham beloe,</l><l>
+Om træ af storm falt ned, det skede for en Mide,</l><l>
+Hvad andet krybend Dyr slig Hofmod kunde lide.</l><l>
+
+
+<pb ed="SS" n="447"/>
+
+Slig Daarlighed var stoor, dog vor ej overgick,</l><l>
+Naar Verden lignes maa mod Jordens liden prick.</l><l>
+Til Anticyram da gaar hen, og renser Hierner,</l><l>
+Som bilde eder ind, at Maane Soel og Stierner,</l><l>
+    Ti tusind Verdener, som man <app type="tc"><lem><corr resp="ed">for</corr></lem>
+        <rdg wit="α">sor</rdg>
+    </app> Øye seer,</l><l>
+For usle Creatur paa Jorden danned er.</l><l>
+Kand dog fornuftig Siæl sig saadan lade drille?</l><l>
+Man i Athenen jo beloe den Daares Grille,</l><l>
+    Der troede, hvert et <app type="tc"><lem><corr resp="ed">Skib</corr></lem>
+    <rdg wit="α">Sib</rdg>
+    </app>, som til Piræum kom,</l><l>
+Ham hørdte 
+    <app type="tc"><lem wit="A a B C">til,</lem>
+        <rdg wit="α">til.</rdg>
+    </app> man jo maa felde værre Dom.</l><l>
+    <app type="var"><lem wit="α">Man maa om Mennesker, langt værre judicere,</lem>
+      <rdg wit="B">Mand maa om Mennisker langt værre dømme</rdg>
+      <rdg wit="C">Man skuldre trække maa, man maa med Hoved ryste,</rdg></app></l><l>
+        <app type="var"><lem wit="α">Der deris Hovmod saa uriimelig flattere</lem>
+    <rdg wit="B">Der af sligt Herredom sig latterlig berømme</rdg>
+    <rdg wit="C">Naar man seer Mennesker saaledes sig at bryste</rdg></app>.</l><l>
+Man vel lidt Viisdoms skin hos nogle finde skal,</l><l>
+Men den man kalder viis den er kun mindre Gal.</l><l>
+Jeg Mennesket i kort begreb til slutning fatter.</l>
+               <l><app type="var"><lem wit="α"><hi rend="big">Det er et Dyr til Graad som Aarsag gir og Latter,</hi></lem>
+            <rdg wit="A B C"><note>med undtagelse af <q>derfor eene Nar</q> i v. 760 er v. 754-773 uden fremhævelse i</note></rdg>
+        </app></l>
+                <l><pb ed="α" n="B7r" facs="p033"/>Det allerædelste i skabningen det er,</l>
+                <l>Det allerhæsligste sig dog i Levnet teer,</l><l>
+        Der skabt 
+        <app type="var"><lem wit="α">er alle ting paa Jorden at regiere,</lem>
+          <rdg wit="B">til Regiment paa Jordens Klode ere</rdg>
+          <rdg wit="C">er alle Ting paa Jorden at regiere,</rdg></app></l><l>
+            <app type="var"><lem wit="α">Men af en <w>Jord-Klimp</w> sig dog lader coujonere</lem>
+        <rdg wit="B">Af mindste Jordklimp dog maa lade sig regiere</rdg>
+        <rdg wit="C">Men af en Jordklimp dog de alle Slaver ere</rdg></app>,</l><l>
+Der en fornuftig Siæl til lod bekommet har,</l><l>
+Er der for just Tyran, just <hi rend="bigger">derfor eene Nar</hi>,</l><l>
+        Der meget viislig kand 
+        <app type="var"><lem wit="α">om alting raisonnere.</lem>
+          
+          <rdg wit="C">om Dyder Talen føre,</rdg></app></l><l>
+        <app type="var"><lem wit="α">For Passioner dog kand intet practisere</lem>
+        <rdg wit="C">For onde Lyster dog kand intet dydigt giøre</rdg></app>,</l><l>
+Hvis Laab og Levneds tid saa kort og stakket er,</l><l>
+        Som <app type="var"><lem wit="α">dets dessein</lem>
+        <rdg wit="C">dets Anslag</rdg></app> er stort, det langt i tiden seer.</l><l>
+I Daarlig viidenskab, der er saa meget Grundig,</l><l>
+        <app type="var"><lem wit="α">I importante ting som det er dum, vandkundig</lem>
+        <rdg wit="B">Som det i store Ting er taabelig vankundig</rdg>
+        <rdg wit="C">I magtpaaliggend Ting, som det er dum, vankundig</rdg></app>.</l><l>
+Fra en Extremitet der til en anden gaaer,</l><l>
+Nu hader, elsker, nu foragter, nu atraaer.</l><l>
+        <app type="var"><lem wit="α">Som moden udi dragt, der sind, humeur changerer,</lem>
+          <rdg wit="B">Der hvad det roset nys/ nu atter giennemheigler/</rdg>
+          <rdg wit="C">Som Klæde-Moder, Sind forandrer, alting laster,</rdg></app></l><l>
+            <app type="var"><lem wit="α">Der criticerer alt, og alt det criticerer</lem>
+        <rdg wit="B">Der retter andris Feyl og moxen altid feyler</rdg>
+        <rdg wit="C">Og alles Domme sig tillige underkaster</rdg></app>.</l><l>
+Kort <app type="tc"><lem wit="B C">der af</lem>
+        <rdg wit="α A a">deraf</rdg>
+        </app> alle Dyr har største skiønsomhed,</l>
+                <l><pb ed="α" n="B7v" facs="p034"/>
+                    Men udaf alle Dyr den mindst at bruge veed.</l>    
+    <l>Derfore Hedninger har vovet sig at siige,</l><l>
+Det som ugudeligt, dog sindrigt er tillige,</l><l>
+At Mennesket i Hast af Guderne var skabt,</l>
+    <l><pb ed="SS" n="448"/>Da de af nectar drick forstanden havde tabt.</l><l>
+I druckenskab de til slig gierning havde iilet.</l><l>
+Da Ruusen over var, da de sig havde hvilet,</l><l>
+Og deris skabning fik om Morgenen at see,</l><l>
+De kunde icke selv sig bare for at lee.</l><l>
+    Tenck, Hr: Magister, ej, 
+    <app type="var"><lem wit="α">at jeg moraliserer,</lem>
+    <rdg wit="B">at jeg mod Verden feyder</rdg>
+    <rdg wit="C">at jeg mig vil opføre</rdg></app></l><l>
+      <app type="var"><lem wit="α">Jeg nock har i mig selv, ej Verden reformerer</lem>
+    <rdg wit="B">Jeg nok har i mig self/ mig egne Feyl bebreyder</rdg>
+    <rdg wit="C">Som Dommer. Jeg har nok med egne Feyl at giøre</rdg></app>,</l><l>
+Hvis I mig spørger ad, hvo er den største Nar?</l><l>
+Jeg svar ej andet, end vi begge giør et Par.</l><l>
+    <app type="var"><lem wit="α">Jeg tvende viise Mænd her ickun confronterer,</lem>
+    <rdg wit="B">Jeg tvendes Lærdom her kun nøye overveyer/</rdg>
+    <rdg wit="C">Jeg tvende vise Mænd her ikkun forestiller,</rdg></app></l><l>
+    <app type="var"><lem wit="α">Jeg eftersøger kun, hvo best Philosopherer</lem>
+    <rdg wit="B">Og eftersøger hvo af dennem vinder Seyer</rdg>
+    <rdg wit="C">Jeg eftersøger, hvo paa beste Strænge spiller</rdg></app>,</l><l>
+Jeg viiser løslig <app type="tc"><lem resp="ed">kun,</lem>
+    <rdg wit="α">kun|</rdg></app> at udaf disse toe,</l><l>
+Den første Græd med Grund, den sidste bedre loe.</l>
+</lg>
+    
+</div>
+</body>
+</text>
+</TEI>

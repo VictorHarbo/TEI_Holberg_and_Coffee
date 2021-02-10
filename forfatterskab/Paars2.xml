@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="Paars2">Den berømmelige Peder Paarses Histories Anden Bog</title>
+                <author>Ludvig Holberg</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>1720</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace/>
+                <availability>
+                    <p rend="head">Tekststatus:</p>                
+                    <p>Emenderet af Carl S. Petersen (1914). Ikke korrekturlæst</p>
+                    <p>Kommentarer: se <hi rend="it">Peder Paars. Poema Heroico-comicum</hi> (1720)</p>        
+                    <p/>      
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Den berømmelige Peder Paarses Histories Anden Bog</title>, <date>1720</date>. Benyttet eksemplar: Det Kgl. Bibliotek, 53,-313, 8vo (C.J.A. Philipsens eksemplar).</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>        
+        <profileDesc>
+            <langUsage>
+                <language ident="dan"/>
+            </langUsage>
+        </profileDesc>        
+        <revisionDesc>
+            <change when="2015-10-01" who="fgj">filen Paars2.page oprettet. 2. bog klippet ud af Paars1.page</change>
+             </revisionDesc>        
+    </teiHeader>
+    
+    <facsimile>        
+         
+            <graphic n="1" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00006.jpg" xml:id="II-i"/>
+            <graphic n="2" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00007.jpg" xml:id="II-ii"/>
+            <graphic n="3" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00008.jpg" xml:id="II-B2r"/>
+            <graphic n="4" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00009.jpg" xml:id="II-B2v"/>
+            <graphic n="5" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00010.jpg" xml:id="II-B3r"/>
+            <graphic n="6" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00011.jpg" xml:id="II-B3v"/>
+        <graphic n="7" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00012.jpg" xml:id="II-B4r"/>
+        <graphic n="8" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00013.jpg" xml:id="II-B4v"/>
+        <graphic n="9" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00014.jpg" xml:id="II-B5r"/>
+        <graphic n="10" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00015.jpg" xml:id="II-B5v"/>
+        <graphic n="11" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00016.jpg" xml:id="II-B6r"/>
+        <graphic n="12" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00017.jpg" xml:id="II-B6v"/>
+        <graphic n="13" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00018.jpg" xml:id="II-B7r"/>
+        <graphic n="14" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00019.jpg" xml:id="II-B7v"/>
+        <graphic n="15" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00020.jpg" xml:id="II-B8r"/>
+        <graphic n="16" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00021.jpg" xml:id="II-B8v"/>
+            <graphic n="17" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00022.jpg" xml:id="II-C1r"/>
+        <graphic n="18" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00023.jpg" xml:id="II-C1v"/>
+        <graphic n="19" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00024.jpg" xml:id="II-C2r"/>
+        <graphic n="20" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00025.jpg" xml:id="II-C2v"/>
+        <graphic n="21" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00026.jpg" xml:id="II-C3r"/>
+        <graphic n="22" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00027.jpg" xml:id="II-C3v"/>
+        <graphic n="23" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00028.jpg" xml:id="II-C4r"/>
+        <graphic n="24" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00029.jpg" xml:id="II-C4v"/>
+        <graphic n="25" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00030.jpg" xml:id="II-C5r"/>
+        <graphic n="26" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00031.jpg" xml:id="II-C5v"/>
+        <graphic n="27" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00032.jpg" xml:id="II-C6r"/>
+        <graphic n="28" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00033.jpg" xml:id="II-C6v"/>
+        <graphic n="29" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00034.jpg" xml:id="II-C7r"/>
+        <graphic n="30" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00035.jpg" xml:id="II-C7v"/>
+        <graphic n="31" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00036.jpg" xml:id="II-C8r"/>
+        <graphic n="32" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00037.jpg" xml:id="II-C8v"/>
+            <graphic n="33" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00038.jpg" xml:id="II-D1r"/>
+        <graphic n="34" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00039.jpg" xml:id="II-D1v"/>
+        <graphic n="35" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00040.jpg" xml:id="II-D2r"/>
+        <graphic n="36" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00041.jpg" xml:id="II-D2v"/>
+        <graphic n="37" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00042.jpg" xml:id="II-D3r"/>
+        <graphic n="38" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00043.jpg" xml:id="II-D3v"/>
+        <graphic n="39" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00044.jpg" xml:id="II-D4r"/>
+        <graphic n="40" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00045.jpg" xml:id="II-D4v"/>
+        <graphic n="41" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00046.jpg" xml:id="II-D5r"/>
+        <graphic n="42" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00047.jpg" xml:id="II-D5v"/>
+        <graphic n="43" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00048.jpg" xml:id="II-D6r"/>
+        <graphic n="44" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00049.jpg" xml:id="II-D6v"/>
+        <graphic n="45" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00050.jpg" xml:id="II-D7r"/>
+        <graphic n="46" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00051.jpg" xml:id="II-D7v"/>
+        <graphic n="47" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00052.jpg" xml:id="II-D8r"/>
+        <graphic n="48" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00053.jpg" xml:id="II-D8v"/>
+            <graphic n="49" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00054.jpg" xml:id="II-E1r"/>
+        <graphic n="50" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00055.jpg" xml:id="II-E1v"/>
+        <graphic n="51" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00056.jpg" xml:id="II-E2r"/>
+        <graphic n="52" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00057.jpg" xml:id="II-E2v"/>
+        <graphic n="53" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00058.jpg" xml:id="II-E3r"/>
+        <graphic n="54" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00059.jpg" xml:id="II-E3v"/>
+        <graphic n="55" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00060.jpg" xml:id="II-E4r"/>
+        <graphic n="56" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00061.jpg" xml:id="II-E4v"/>
+        <graphic n="57" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00062.jpg" xml:id="II-E5r"/>
+        <graphic n="58" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00063.jpg" xml:id="II-E5v"/>
+        <graphic n="59" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00064.jpg" xml:id="II-E6r"/>
+        <graphic n="60" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00065.jpg" xml:id="II-E6v"/>
+        <graphic n="61" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00066.jpg" xml:id="II-E7r"/>
+        <graphic n="62" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00067.jpg" xml:id="II-E7v"/>
+        <graphic n="63" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00068.jpg" xml:id="II-E8r"/>
+        <graphic n="64" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00069.jpg" xml:id="II-E8v"/>
+            <graphic n="65" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00070.jpg" xml:id="II-F1r"/>
+        <graphic n="66" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00071.jpg" xml:id="II-F1v"/>
+        <graphic n="67" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00072.jpg" xml:id="II-F2r"/>
+        <graphic n="68" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00073.jpg" xml:id="II-F2v"/>
+        <graphic n="69" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00074.jpg" xml:id="II-F3r"/>
+        <graphic n="70" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00075.jpg" xml:id="II-F3v"/>
+        <graphic n="71" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00076.jpg" xml:id="II-F4r"/>
+        <graphic n="72" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00077.jpg" xml:id="II-F4v"/>
+        <graphic n="73" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00078.jpg" xml:id="II-F5r"/>
+        <graphic n="74" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00079.jpg" xml:id="II-F5v"/>
+        <graphic n="75" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00080.jpg" xml:id="II-F6r"/>
+        <graphic n="76" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00081.jpg" xml:id="II-F6v"/>
+            <graphic n="77" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00082.jpg" xml:id="II-F7r"/>
+            <graphic n="78" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_pederpaars_1ed_2-3_1720/pederpaars_1719_b_00083.jpg" xml:id="II-F7v"/>        
+    </facsimile>
+        
+         <text xml:lang="dan" xml:id="Paars2" type="orig" subtype="Paars2" n="/tekster/Paars/Paars2.page">
+<front>
+<titlePage xml:id="start" n="[Titelblad]">
+        <pb ed="A" n="i" facs="II-i"/>
+        <pb ed="SS" n="95"/>
+    <docTitle>
+        <titlePart type="main">Den berømmelige<lb/>
+            Peder Paarses<lb/>
+            Histories<lb/>
+            Anden Bog,</titlePart>
+        <titlePart type="sub">
+            Med samme Just Justesens<lb/>
+            Anmerkninger,<lb/>
+            Og en<lb/>
+            <hi rend="ant">Apologeti</hi>sk Fortale.                      
+        </titlePart>
+    </docTitle> 
+    <lb/>
+    <docImprint>
+        <date>Trykt kort efter den Første Part.</date>
+    </docImprint>
+    <pb ed="A" n="ii" facs="II-ii"/>
+</titlePage>
+</front>
+        
+<body>
+      <div type="book" xml:id="book2" n="Anden bog">   
+          <pb ed="A" n="B2r" facs="II-B2r"/>
+          <pb ed="SS" n="97"/>  
+          <head>Den Anden Bog.</head>
+            <div type="song" xml:id="book2song1" n="Første sang">              
+            <head type="h2">1. Sang.</head>
+    <p><note n="***" place="bottom"><ref type="refMark">***</ref><p>Saadanne Stierner, naar de kommer udi Bøger, betyder de icke meget got. Her
+        give de tilkiende en <hi rend="ant">Defect</hi> udi Historien, thi <hi rend="ant">Historicus</hi> har fundet nogle Blader,
+        som ere gandske bleven fordærvede, saa det icke har været ham mueligt at kunde
+        læse dem; Hand kand alleene nogenledes slutte, at de handler om hvorledes Paars,
+        da Fogden var gaaet bort, fortsatte sin Tale, og derpaa med sin Skriver gik til
+        Sengs. Saa dette Verk haver det tilfælles med de beste gamle Skrifter, som
+        haver saadan <hi rend="ant">Defect,</hi> og ere fulde af saadanne onde Stierner.</p></note></p>
+                
+<lg>
+    <l><note n="(1)" place="bottom"><ref type="refMark">(1)</ref>
+        <lg rend="ant"><l>Ecce Vigil rutilo patefecit ab ortu.</l>
+        <l>Purpureas aurora fores &amp; plena rosarum.</l>
+        <l>Atria. Diffugiunt stellæ – – Ovid. Met. l. 2.</l></lg></note> <w><hi rend="ant"><hi rend="init">A</hi>urora</hi></w> aabnede de <w>purpur-farved</w> Dørre,</l>
+<l>Og <hi rend="ant">Titans</hi> heede Vogn stod færdig til at kiøre</l>
+    <l rend="indent">De mindre Himlens Lys, de mange Stierner smaa</l>
+    <l rend="indent">Paa Flugten gave sig, saa snart de <hi rend="ant">Phœbum</hi> saae.</l>
+    <l n="5">Den mørke fæle Nat med sine sorte Vinger,</l>
+    <l>Strax Flugten ogsaa toog, og sig mod Vesten svinger,</l>
+    <l rend="indent">Saa all slags Spøgelse, hvad Navn det have kand,</l>
+    <l rend="indent">I Huuler krøbe ned, ey torde holde Stand.</l>
+    <l>Mand hørte Nisser, Trold, at sukke, klage, græde,</l>
+    <l n="10"><pb ed="A" n="B2v" facs="II-B2v"/>At raabe: borte er vor Trøst, vor <w>Natte-glæde</w>,</l>
+    <l rend="indent">At siige kortelig, paa reent og gammelt Jydsk:</l>
+    <l rend="indent"><note n="(2)" place="bottom"><ref type="refMark">(2)</ref>
+        Saaledes gaar Solen op hver Morgen udi de Tydske <hi rend="ant">Romaner</hi>.</note> 
+        Da det var bleven Dag, og Soel gik op paa Tydsk.</l>
+    <l>End laa vor Per Paars og sov paa grønne Øre,</l>
+    <l>Mand i det heele Huus ham snorke kunde høre,</l>
+    <l rend="indent" n="15">Hand drømte, at hand var til Felts, en <w>Krigs-Hær</w> saae,</l>
+    <l rend="indent">Hand lavede sig til paa Fienden løs at gaae.</l>
+    <l>Slig Phantasie var ham i Søfne forekommen,</l>
+    <l>Hand vilde falde an, saa snart hand hørte Trommen,</l>
+    <l rend="indent">Men see, hvad skeede da, hans Skriver Peder Ruus,</l>
+    <l rend="indent" n="20"><pb ed="SS" n="98"/>Som med sin Principal var bragt i samme Huus,</l>
+    <l>Loed een forskrækkelig gaa ud, med Tugt at sige,</l>
+    <l>Saa mand paa Øen fast ey hafde hørt dens Liige.</l>
+    <l rend="indent"><note n="(3)" place="bottom"><ref type="refMark">(3)</ref><l>Δῶκε δέ µοι δείρας ἀσκὸν Bοὸς ἐννεώρoιo. <hi rend="ant">&amp; mox</hi></l> <p><hi rend="ant">Hom. Odyss. 1. 10.</hi></p>
+        <l>Ἀσκὸν µὲν λῦσαν, ἄνεμoι δ’ ἐκ πάντες ὄρoυσαν.</l><p><hi rend="ant">ibid</hi>.</p></note> Som Grædske Pose, der var giort af Oxehud,</l>
+    <l rend="indent"> Og Ithacæ Regent fik udaf Stormens Gud,</l>
+    <l n="25">Som os beskrevet har <hi rend="ant">Homerus</hi> i hans Viise</l>
+    <l>Med stor Sandfærdighed, saa vi ham derfor priise,</l>
+    <l rend="indent">I hvilken skiulet laae en stærk <w><hi rend="ant">Poëti</hi>sk</w> Vind;</l>
+    <l rend="indent">Skibsfolket derimod sig andet bildte ind.</l>    
+    <l><pb ed="A" n="B3r" facs="II-B3r"/>De tænkte at en Skat var derudi at finde,</l>   
+<l n="30">De løste Baandet op, der udgik slige Vinde,</l>
+    <l rend="indent">En saadan hæftig Storm med saadan hæftig Brag,</l>
+    <l rend="indent">Saa hver Mand troede fast, det var den sidste Dag:</l>
+    <l>Ey anderledes var det Skrald af Ruuses Pose,</l>
+    <l>Ach! jeg er ey Poet! Jeg kand ey saadant rose,</l>
+    <l rend="indent" n="35">Jeg kand fast ingen Ting Poetisk male af,</l>
+    <l rend="indent">Den dertil var beqvem, nu ligger i sin Graf.</l>
+    <l>Det samme stærke Skrald kom Peder Paars for Øre,</l>
+    <l>Just da hand drømte, at mand vilde Trommen røre.</l>
+    <l rend="indent">Hand der af reyste sig og gaf et mægtig Skriig,</l>
+    <l rend="indent" n="40">Mand aldrig Hector saae saa vreed i Trojæ Kriig.</l>
+    <l>Hand løb i Stuen om fast som en utæmt Fole,</l>
+    <l>Hand kasted alting om, Bord, Bænke, Skamle, Stole,</l>
+    <l rend="indent">Omsider fik hand fat paa Nilles <w>Hue-Blok</w>,</l>
+    <l rend="indent">Som siuntes noget liig Niels Hansen fordum Kok.</l>
+    <l n="45">Hand i sin Ivrighed mod samme Blok sig vender,</l>
+    <l>Den rifver, slider smaa imellem sine Hænder,</l>
+    <l rend="indent">Den skade (sagde Ruus) vist dyrt nok hævnet bliir</l>
+    <l rend="indent">Thi samme Blok var giort af skiøn <w>Carduus-Papiir</w>.</l>
+    <l>Ret som en Løve, der har Kræfter uden Liige,</l>
+            
+    <l n="50"><pb ed="A" n="B3v" facs="II-B3v"/><note n="(4)" place="bottom"><ref type="refMark">(4)</ref><lg><l>Βοσκοµένης ἀγέλης βοῦν ἁρπάσῃ, 
+        ἥτις ἀρίστη,</l>
+        <l>– – – ἔγκατα πάντα λαφύσσєι.</l></lg> <p><hi rend="ant">Hom. Iliad. 17.</hi></p></note> Anfalder Bondens Hiord, nu tager koe nu Qvige.</l>
+
+
+    <l rend="indent"><pb ed="SS" n="99"/>Hvem hannem møder først, Kalf, Oxe eller Stud,</l>
+    <l rend="indent">Den Sønderslides maa, dens Indvold rives ud.</l>
+    <l>Ey anderledes gik det Blokken denne sinde,</l>
+    <l>Enhver der læser sligt, hans Øyne maa vel rinde.</l>
+    <l rend="indent" n="55"><note n="(5)" place="bottom"><ref type="refMark">(5)</ref><p>Om nogen har læset den berømmelige <hi rend="ant">Don Quichots</hi> Historie, kunde mand tænke, at <hi rend="ant">Poëten</hi> deraf hafde staalet denne <hi rend="ant">Invention</hi>, som er den eeneste, hvorudi disse
+        to Helte ligne hinanden; Men, foruden at der er Forskiæl at gaa i Søvne, og at
+        Have Hovedet fuld af Griller, saa forsikrer og <hi rend="ant">Autor</hi>, at hand intet haver tillagt af
+        sit eget, men fundet Paarses egen Haand derfor.</p></note>Af Løven ingen Stud, af Biørnen intet Hors</l>
+    <l rend="indent">Saa slet medhandlet er, som denne Blok af Paars.</l>
+    <l>Hand videre greb an, nu en Ting, nu en anden,</l>
+    <l>Slog Vinduer i tu: mon Fanden rider Manden?</l>
+    <l rend="indent">Ruus sagde ved sig self: Mon hand er bleven gal?</l>
+    <l rend="indent" n="60">Hand listet sig til ham, og sagde: Husbond tal!</l>
+    <l>Siig! Mon det nu er Tid met Fogden Krig at føre,</l>
+    <l>At tage saa af stæd, saa mange Krumspring giøre?</l>
+    <l rend="indent">Betænk kun hvor det os i sidste Feyde gik!</l>
+    <l rend="indent">Paa disse Ord Per Ruus en vældig Kindhest fik.</l>
+        
+            
+    <l n="65"><pb ed="A" n="B4r" facs="II-B4r"/>Slig spot den gode Karl til Marf og Hierte trængte,</l>
+    <l>Saa hand sin Principal det samme  Maal iskiænkte,</l>
+    <l rend="indent">Hand ham i Haaret fik og bankede hans Krop,</l>
+    <l rend="indent">Saa Søvnen ham forgik, saa at hand vaagnet op.</l>
+    <l>Hand raabte overlydt: See Verdens sidste Tider!</l>
+    <l n="70">En Husbond af sin Dreng slig Spot og Skiændsel lider,</l>
+    <l rend="indent">Mon nogen ærlig Mand meer Mester er i Huus,</l>
+    <l rend="indent">Mon jeg med nogen meer vel drikke tør af Kruus?</l>
+    <l>Det fast <w>u-troeligt</w> er, en Dreng at slaa sin Herre,</l>
+    <l>Det er min egen Skyld, jeg er for from, dis verre!</l>
+    <l rend="indent" n="75"><note n="(6)" place="bottom"><ref type="refMark">(6)</ref><p>Som var en Bremer, thi det slags Folk ere skarpe <w>Huus-Fædre</w> .</p></note> Hvis i min Farfars Tid en Dreng sligt hafde giort,</l>
+    <l rend="indent">Hand skulde deraf sig ey have roset stort.</l>
+    <l>Saa snart hand giorde kun en Rynke udi Panden</l>
+    <l>Strax Folket blef for ham saa bange som for Fanden,</l>
+    <l rend="indent">Nu mand skinbarlig seer med Graad og <w>Hierte-Sorg</w> </l>
+    <l rend="indent" n="80">At ingen Skik er meer blant Folk i Callundborg.</l>
+
+
+
+    <l><pb ed="SS" n="100"/>Ruus falt da i hans Ord: glem ey hvad I vil siige,</l>
+    <l>En <w>Lære-Dreng</w> og Svend de ere to <w>u-liige</w>,</l>
+    <l rend="indent">Hvo der for Dreng har tient og faat sit <w>Lære-Bref</w>,</l>
+    <l rend="indent">Jeg hørte ey at hand af Husbond slagen blef.</l>     
+            
+    <l n="85"><pb ed="A" n="B4v" facs="II-B4v"/>Hand ikke nødig har for nogen sig at krumme,</l>
+    <l>En Kindhest taale og den stikke i sin Lomme,</l>
+    <l rend="indent">En Karl, der skriver Tydsk, som hver Mand er bekient,</l>
+    <l rend="indent">Der udi trende Aar i Flensborg haver tient.</l>
+    <l>Der Fuldmagt haver haft paa mange Kiøbmænds Vegne,</l>
+    <l n="90">Bogholderie forstaar, med brudet Tall kand regne,</l>
+    <l rend="indent">Der ogsaa lidt Latin i Ungdom læret har,</l>
+    <l rend="indent">Om hand slig Spot fordrog, var hand en Giæk, en Nar.</l>
+    <l>Om Ruus da hafde Ret, derom maa andre dømme ,</l>
+    <l>Jeg intet sligt forstaar, det kand mig ikke sømme,</l>
+    <l rend="indent" n="95">Det staar mig ikke an at fælde nogen Dom</l>
+    <l rend="indent">I <w>u-bekiendte</w> Ting, som jeg veed intet om.</l>
+    <l>Gid ikkun andre Folk det samme vilde giøre,</l>
+    <l>Og ey saa pludselig fordømme hvad de høre,</l>
+    <l rend="indent">Men eengang lære ret, paa Jorden reent at gaae</l>
+    <l rend="indent" n="100">Bekiende visse Ting sig ikke at forstaae.</l>
+    <l>I denne vigtig Sag Partie jeg ikke tager.</l>
+    <l>Jeg altid maa see til at jeg det saadan mager,</l>
+    <l rend="indent">At jeg paa Halsen og ey <w>Kremmer-Svenne</w>  faar,</l>
+    <l rend="indent">De, som Pedanter, ey med Ord, men Næver slaar.</l>
+    <l n="105">Om <w>Kremmer-Svend</w> Per Ruus jeg dette kun vil siige,</l>
+    <l>At der paa Anholt var i Regning ey hans Liige,</l>
+    <l rend="indent">Thi Christen Storch, som dog vor Fogeds Fuldmagt var,</l>
+    <l rend="indent">Saa viit mig er bekiendt ham ey opnaaet har.</l>    
+    <l><pb ed="A" n="B5r" facs="II-B5r"/>Skiønt Folk sig bildte ind hans Liige ey at finde,</l>
+    <l n="110"><note n="(7)" place="bottom"><ref type="refMark">(7)</ref><p><hi rend="ant">Inter Cæcos regnat Strabo</hi>.</p></note> Men den <w>Skeel-Øyede</w> regierer blant de Blinde,</l>
+    <l rend="indent">Ruus bedre regnede, hand førde bedre Pen,</l>
+    <l rend="indent">Hand sig ey nøye lod, som Storch, med <note n="(8)" place="bottom"><ref type="refMark">(8)</ref><p>Mand kunde vel sige Een gang Een, men det klinger ikke saa vel som paa <w>Plat-tydsk</w>.</p>
+        <p><hi rend="ant">– – – – – Omnia græce.</hi></p> <p><hi rend="ant">Juv. Sat. 6.</hi></p></note> Een Maal Een.</l>
+    <l>Hand hafde ogsaa lært en hob Latinske Gloser,</l>
+
+
+
+    <l><pb ed="SS" n="101"/>Hand viste paa det Sprog at nævne Buxer, Hoser,</l>
+    <l rend="indent" n="115">Bryst, Pande, Hage, Kind, Hals, Hovet, Hud og Haar,</l>
+    <l rend="indent">Tand, Øye, Næse, Mund, Arm, Hænder, Fødder, Laar.</l>
+    <l>Hans Klæder kunde hand opregne indtil Skiorte.</l>
+    <l><note n="(9)" place="bottom"><ref type="refMark"/><p>Saa som hand var bleven plyndret indtil Skiorten.</p></note> Den Trøst tilbage var, de ellers vare borte,</l>
+    <l rend="indent">Fast intet Dyr hand jo det viste paa Latin,</l>
+    <l rend="indent" n="120">Fra Hyrde, indtil Faar, fra Oxe, indtil Svin.</l>
+    <l>Hand kiendte Fingre og fra <hi rend="ant">Pollex</hi> til <hi rend="ant">Amator,</hi></l>
+    <l>Sex Blader hafde hand og læst i <hi rend="ant">Nomenclator</hi>.</l>
+    <l rend="indent"><hi rend="ant">Grammatica</hi> hand dog ey hafde faaet fat,</l>
+    <l rend="indent">Hand lod sig nøye med at læse sin <hi rend="ant">Donat</hi>.</l>
+    <l n="125">Sin <hi rend="ant">Credo</hi> kunde hand, som andre sine Liige;</l>
+    <l>Skiønt hand det ey forstod, men det vil intet siige,</l>
+    <l rend="indent">Hans egen Hører, som var dog en dygtig Mand,</l>
+    <l rend="indent">Det kunde legge ud lidt bedre end som hand.</l>
+
+    
+    <l><pb ed="A" n="B5v" facs="II-B5v"/>Sligt jeg kun regner op for hannem at berømme,</l>
+    <l n="130">Men om hand Husbond slog med Ræt, jeg ey vil dømme,</l>
+    <l rend="indent">Sin Husbond, som var riig og mægtig vel sig stood,</l>
+    <l rend="indent">Som udi Callundorg fast hafde beste Bood,</l>
+    <l>En stor Correspondentz paa Stege, Tye og Randers,</l>
+    <l>Der og besvogret var med Herretsfogden Anders,</l>
+    <l rend="indent" n="135">Der som til Amsterdam forgangen Foraar skref,</l>
+    <l rend="indent"><note n="(10)" place="bottom"><ref type="refMark">(10)</ref><p>Kremmere paa de smaa Stæder bryster  sig gierne deraf, at de har vexlet Breve med dem som boe udi de store <w>Handel-Stæder</w>, thi det giver dem Credit.</p></note> Fra Scheper Sibrant fik et meget høfligt Bref.</l>
+    <l>Som kunde regne op fast Sexten Kremer Ahner,</l>
+    <l>Hvis Morfar Fendrik bar og tabte tvende Fahner</l>
+    <l rend="indent"><note n="(11)" place="bottom"><ref type="refMark">(11)</ref><p>Af denne <hi rend="ant">Passage</hi> skulde, maa skee, nogle holde denne Historie <hi rend="ant">suspect,</hi> efterdi Junker Slentz kom her ind i Kong Hanses Tid, men jeg kand forsikre om, at
+        det er gandske rigtig, thi <hi rend="ant">Poëten</hi> har Peder Paarses egen Haand derfor. Jeg
+        kand tro hans Forfædre have lefvet meget længe.</p></note> I store Svenske Kriig med Junker Jørgen Slentzc</l>
+    <l rend="indent" n="140"><note n="(12)" place="bottom"><ref type="refMark">(12)</ref><p>Jeg vil herudi intet <hi rend="ant">decidere</hi>. Ellers kunde det give lærde Folk Anledning til en smuk <hi rend="ant">Dissertation De vera Patria Georgii Slentz</hi>.</p></note> Som kommen var fra Cøln, dog andre siger Mentz.</l>
+        
+
+    <l><pb ed="A" n="B6r" facs="II-B6r"/><pb ed="SS" n="102"/>Der bedre Plattysk end som Sællandsk kunde tale,</l>
+    <l>Nok sagt: mand tænker helst; Jeg Jyde vil, og prale.</l>
+    <l rend="indent">Om Ruus med Billighed slig Husbond slog igien,</l>
+    <l rend="indent">Jeg derom hvisker kun, men intet før i Pen.</l>
+    <l n="145"><note n="(13)" place="bottom"><ref type="refMark">(12)</ref><p><hi rend="ant">Autor</hi> er bleven saa <hi rend="ant">intimideret,</hi> at hand ikke tør <hi rend="ant">decidere</hi> meere udi nogen Ting.</p></note> Jeg <w>Kremmer-Svenne</w> ey for Hovedet vil støde,</l> 
+    <l>Ey nogen Handelsmand, end ogsaa ingen Jøde.</l>
+    <l rend="indent">De stundum giir Credit mand dennem nødig har,</l>
+    <l rend="indent">Jeg dem ey støde vil, jeg er ey saadan Nar.</l>
+    <l>Jeg ofte maa, dis væer! til een og anden trænge,</l>
+    <l n="150">Og tage paa Credit, naar jeg er ey ved Penge,</l>
+    <l rend="indent">Men <w>henge-færdig</w> er heel tit af <w>Penge-sorg</w>,</l>
+    <l rend="indent">Hvor vilde det da gaa, om mand fik ey paa Borg.</l>
+    <l>Men nu er Tid at jeg til Peder Paars mig vender,</l>
+    <l>Jeg nær ham hafde glemt, sligt tit <hi rend="ant">Poëter</hi> hender,</l>
+    <l rend="indent" n="155">Hand længe stille stoed, og stirrede paa Ruus,</l>
+    <l rend="indent">Og sagde: ach! jeg er jo udi Fogdens Huus?</l>
+    <l>Jeg er en fangen Mand, hvorledes kand det være?</l>
+    <l>At jeg, i saadan Stand, en Svend, som er af Lære,</l>
+    <l rend="indent">Som jeg har elsket høyt, nu skulde  give Slag,</l>
+    <l rend="indent" n="160">Du aldrig af mig Hug har faaet, før i Dag:</l>
+    <l>Ach ! kand i søvne Mand saa stor Ulykke giøre?</l>
+    <l>Jeg tænkte, at jeg var til Felts, fik Trommen høre,</l>
+    <l rend="indent">Jeg siuntes at jeg saae vor Fogd bevæbnet staa,</l>
+    
+    
+    <l rend="indent"><pb ed="A" n="B6v" facs="II-B6v"/>Jeg tænkte - - ach! Per Ruus hvor vil det med os gaa.</l>
+    <l n="165">Hvad vil der blive af, naar Fogden sligt faar viide?</l>
+    <l>Med fire Heste hand os lader søndersliide,</l>
+    <l rend="indent">Jeg seer, jeg ogsaa her fordærvet har en Blok,</l>
+    <l rend="indent">Mig syntes, at det var Forræderen Niels Kok.</l>
+    <l>Per Ruus ham svarede: Den Tromme, som I hørte,</l>
+    <l n="170">Som til slig Tapperhed <w>u-tidig</w> Jer forførte,</l>
+    <l rend="indent">Ey andet var, end een, som jeg loed slippe ud,</l>
+    <l rend="indent">Jeg self og vaagnede af samme hæftig Skud.</l>
+    <l>Jeg kand der ikke til, naar Ild i Krudet kommer,</l>
+    <l>Saa holdes det ey let, sligt hændte vor Landsdommer</l>
+    <l rend="indent" n="175">En slig studeret Mand, da hand paa Landsting var,</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="103"/>Saa af fornemme Folk sligt ey sig holde lar.</l>
+    <l>At det naturligt er, det har jeg vidst for længe,</l>
+    <l>Det og naturligt er, naar Fogden lar os hænge,</l>
+    <l rend="indent">Paars sagde, for det Ont, som deraf kommen er,</l>
+    <l rend="indent" n="180">Mig synes, jeg os alt i Galgen hænge seer.</l>
+    <l>Ruus derpaa svarede: O hvilke slemme <hi rend="ant">Flatus!</hi></l>
+    <l>(De kaldes saa paa Græsk) den lærde <hi rend="ant">Hypocratus,</hi></l>
+    <l rend="indent">En gammel Jydsk Doctoor for otte tusind Aar,</l>
+    <l rend="indent">Har skrevet saa der om: Hvis de ey Udgang faar,</l>
+    <l n="185">Da giør de meget ont, en ærlig Mand kand dræbe,</l>
+    <l>Men at mand derfor Folk til Galgen lader slæbe,</l>   
+    <l rend="indent"><pb ed="A" n="B7r" facs="II-B7r"/>Det har hand aldrig sagt; O! hafde jeg det Skrift,</l>
+    <l rend="indent"><note n="(14)" place="bottom"><ref type="refMark">(14)</ref><p>Enfoldige meener alting er skeed i deres eget land; Thi skal det være Hippocrates
+        Per Ruus meener, da begaar hand derved lige saa stor Feyl, som Autor til den
+        gamle Plattyske Krønike, der siger, at Keyser Aurelianus var fød til Ribe udi Jylland, og har <hi rend="ant">verteret</hi> 
+        de Latinske Ord <hi rend="ant">Natus erat in Dacia Ripensi</hi> saaledes:
+        He was  in Ripen in Dennemark geboren.</p></note> Vor Sag da skulde faa en anden Fart og Drift.</l>
+    <l>Ham svarede da Paars: Sligt bruges ey for Rætter,</l>
+    <l n="190">Til Tinge giælder ey Doctores og Poeter,</l>
+    <l rend="indent">At tænke paa slig Bog, for Rætten er ey værd,</l>
+    <l rend="indent">Men siig mig, kiære Ruus! hvor bliver du saa lærd?</l>
+    <l>Jeg eengang i vor Boed fandt tvende gamle Blade,</l>
+    <l>Jeg dem til Kremmerhuus strax vilde giøre lade,</l>
+    <l rend="indent" n="195">Per Iversen, I veed, en gammel lærd Student,</l>
+    <l rend="indent">Som jeg for nogle Aar i Colding haver kient,</l>
+    <l>Hand elsker gierne sødt, Rosiner, Mandler, Sukker,</l>
+    <l>Hand ofte gaar forbi vor Bod, og dybt sig bukker,</l>
+    <l rend="indent">Hand synes som hand ey ret tælle kand til Fem,</l>
+    <l rend="indent" n="200">I sin Theologie hand dog er meget slem.</l>
+    <l>Jeg veed at hand er lærd, skiønt jeg kun er en Kræmmer,</l>
+    <l><pb ed="A" n="B7v" facs="II-B7v"/><note n="(15)" place="bottom"><ref type="refMark">(15)</ref><p><hi rend="ant">Poëten</hi> synes at raillere med dem, som ved Philosophiske <w>Leve-Maader</w> , og ved Foragt udi Klæder vil bilde Folk ind, at der ligger stor lærdom og Philosophie
+        begraven hos dem, ligesom de der i gamle Dage ikke vilde rage deres Skiæg, at
+        de skulde see ud som Philosophi.</p></note> Thi hand sig børster ey, sig aldrig Haaret kiæmmer,</l>
+
+
+    <l rend="indent"><pb ed="SS" n="104"/>Som ret grundlærde Folk heel nøye tar i agt,</l>
+    <l rend="indent">Paa slige ringe Ting der ligger ingen Magt.</l>
+    <l n="205">Den heele Callundborg ham for hans Lærdom rooser,</l>
+    <l>Thi hand ey Hænder toer, ey binder sine Hooser.</l>
+    <l rend="indent">Jens Pedersen, som dog sig bilder meget ind,</l>
+    <l rend="indent">Hvo det ey kunde see, hand maatte være blind,</l>
+    <l>At hand er ey saa lærd, saa <hi rend="ant">doctus,</hi> som vor Peder,</l>
+    <l n="210">Hand pynter sig for tit; hos lærde Folk det heder:</l>
+    <l rend="indent"><note n="(16)" place="bottom"><ref type="refMark">(16)</ref><p>Derfor vare ingen Folk meere foragtet af <hi rend="ant">Philosophis</hi> i gamle Dage end de saa
+        kaldte <hi rend="ant">Compti</hi> og <hi rend="ant">Pumicati,</hi> hvilke dog for at <hi rend="ant">revengere</hi> sig, sagde om de andre:
+        <hi rend="ant">Barbam videmus, non Philosophum.</hi></p></note> Hvo som paa Moden er, og net i Klæder gaar,</l>
+    <l rend="indent">Hand Reputation for Lærdom aldrig faar.</l>
+    <l>Den samme Iversen jeg da ind til mig kaldte,</l>
+    <l>Hand om de Blader lidt i Boden med mig talte,</l>
+    <l rend="indent" n="215">Jeg sagde: see et Skrift, som jeg ey kand forstaae,</l>
+    <l rend="indent">Thi det forbandet var, som <w>Krage-Tæer</w> saae.</l>
+    <l><pb ed="A" n="B8r" facs="II-B8r"/>Jeg troer, den Iversen vist hafver det med Fanden,</l>
+    <l>Saa snart hand Bladet saae, og fik det udi Haanden,</l>
+    <l rend="indent"><note n="(17)" place="bottom"><ref type="refMark">(17)</ref><p>Eftersom Græker og Elamiter staar sammen i Bibelen, saa tænkte hand at det var et.</p></note> Hand sagde: at det Grædsk og Elamitisk var.</l>
+<l rend="indent" n="220">Af største Læddig jeg et Pund Rosiner tar.</l>
+    <l>Jeg sagde: Peer, jeg veed at du forstaar din Bibel,</l>
+    <l>Som Else <w>Skole-Moer</w> sin A. B. C. og Fiebel,</l>
+    <l rend="indent"><note n="(18)" place="bottom"><ref type="refMArk">(18)</ref><p><hi rend="ant">Sputeret contractè pro disputeret, licentia poëtica </hi>. I fordum Tid giorde mand
+        sig lige saa meget til af Disputatzer, som Generaler af store og lykkelige Feltslag, saa det Ord <hi rend="ant">Disputavi publice,</hi> 
+        hafde hart ad lige saa meget at sige, som <hi rend="ant">Scipionis Vici Carthaginem,</hi> men, som mand efterhaanden har fornummet, at det
+        ikke alletider er de Lærdeste som Disputere best, giør mand ikke meere saa stor Væsen der af, og graver ikke meere 
+        saadanne <hi rend="ant">Panegyriqver</hi> paa Folkes <w>Liig-Steene</w>:</p>
+        <hi rend="ant"><l>Hic jacet Magister Noster</l>
+            <l>Qvi disputavit bis aut ter</l>
+            <l>In Barbara &amp; celarent</l>
+            <l>Ut omnes admirarent.</l></hi></note> Du otte gange har <hi rend="ant">sputert</hi> i Kiøbenhavn,</l>
+
+    
+
+    <l rend="indent"><pb ed="SS" n="105"/>Og derved hos hver Mand forhvervet dig et Navn.</l>
+    <l n="225">Hvis du vil dette Skrift udlegge og forklare,</l>
+    <l>Da otte Skilling kand du i Rosiner spare,</l>
+    
+    <l rend="indent"><pb ed="A" n="B8v" facs="II-B8v"/>Peer blef da hæftig glad, og strøg sig om sin Mund,</l>
+    <l rend="indent">Thi hand paa Sukker og Rosiner var en Hund.</l>
+    <l>Hand sagde: Det er Mad for Mons, for en Studenter,</l>
+    <l n="230">Jeg et par Briller strax af Skriverstuen henter,</l>
+    <l rend="indent">Hand dennem straxen paa sin lærde Næse sat,</l>
+    <l rend="indent">Udlegger Ord fra Ord, som det var hans <hi rend="ant">Donat</hi>.</l>
+    <l>Jeg hørte flittig til med Hiertens Lyst og Glæde,</l>
+    <l>Det Blad var meget lærd: Jeg maatte Øyne væde,</l>
+    <l rend="indent" n="235">Jeg sagde: <note n="(19)" place="bottom"><ref type="refMark">(19)</ref><p>Hand torde ikke siige slet og ret Peer meere, efterdi hand fornam at Personen
+        var saa meget lærd.</p></note> Petrus! har mand ey den Bog paa Tydsk,</l>
+    <l rend="indent">Jeg veed der ikkun lidt af Skrifte er paa Jydsk.</l>
+    <l>Jeg holder det en Synd paa Moders Maal at skrive,</l>
+    <l>Hand svarte: Handverksfolk da vilde lærder blive,</l>
+    <l rend="indent">Thi mangen Bonde da sig skulde understaa,</l>
+    <l rend="indent" n="240">At sige, det er Snak: Her Doctor ikke saa.</l>
+    <l><note n="(20)" place="bottom"><ref type="refMark">(20)</ref>
+        <p>Peer Iversens Tale er noget <hi rend="ant">eqvivocqve</hi>. Hand synes at tale <hi rend="ant">Ironice,</hi> men <hi rend="ant">Ruus</hi>
+        tager det i det ringeste for Alvor.</p></note> Vi lærde Mænd maa det saa alletider lave,</l>
+    <l>At vi os visse Ting kand forbeholden have,</l>
+    <l rend="indent">Nu bilder vi dem ind at Blæk blir giort af Most,</l>
+    <l rend="indent">At Himlen er af Glas, og Maanen er af Ost.</l>
+
+   
+    <l n="245"><pb ed="A" n="C1r" facs="II-C1r"/>Hvor vilde det gaa til med dem i Pavedommet,</l>
+    <l>Hvis Skriften var paa Valsk, Folk hafde overkommet,</l>
+    <l rend="indent">At det er idel Snak, som mand dem bilder ind,</l>
+    <l rend="indent">Folk blef rebelsk, og holt sig ikke meer i Skind.</l>
+    <l>Gid aldrig i min Tid sig nogen saa forsynder,</l>
+    <l n="250">Med Danske Bøger hand at skrive ret begynder,</l>
+    <l rend="indent"><note n="(21)" place="bottom"><ref type="refMark">(21)</ref><p>Som i gamle Dage til Rom, hvor <hi rend="ant">Juvenalis</hi> med Hiertens Sorg og Smerte
+        fortæller, at end ogsaa en Qvinde tør <hi rend="ant">raisonnere</hi> over <hi rend="ant">Virgilium</hi> og <hi rend="ant">Homerum</hi>:</p>
+        <hi rend="ant"><l>Laudat Virgilium perituræ ignoscit Elisæ,</l>
+            <l>Committit Vates, &amp; Comparat, inde Maronem</l>
+            <l>Atque alia parte in trutina suspendit Homerum,</l>
+            <l>Cedunt Grammatici, Vincuntur Rhetores, omnis</l>
+            <l>Turba tacet, &amp;c. Satyra 6.</l></hi></note> Gid aldrig i min Tid en Vognmand bliir saa kiæk,</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="106"/>At hand tør sige: Peer! du taler som en Giæk.</l>
+    <l>Hvis tilmed, kiære Ruus! du nogenlunde vidste,</l>
+    <l>Hvor læt mand kand sit Navn ved Danske Skrifter miste,</l>
+    <l rend="indent" n="255">At den der skriver kun paa Dansk, hand bliir foragt,</l>
+    <l rend="indent">Hand aldrig holdes lærd; du vist nok gaf mig Magt,</l>
+    <l>Du veedst Lars Hendriksen, du ham til Prikke kiender,</l>
+    <l>Hand aldrig bliver lærd, hvor hand sig snoer og vender,</l>
+
+    
+    <l rend="indent"><pb ed="A" n="C1v" facs="II-C1v"/>Hand kand hos lærde Folk fast aldrig faa Credit,</l>
+    <l rend="indent" n="260">Hand skriver kun paa Dansk; De raaber: Det er - - -.</l>
+    <l>Peer Povlsen, derimod, som haver Magasiner</l>
+    <l>Af lidt Hebraisk og Grædsk, og er en half Latiner,</l>
+    <l rend="indent">Hans Navn blant store Mænd bør staa i Almanak,</l>
+    <l rend="indent">Skiønt det hand skriver er kun idel <w>Pølse-Snak</w>.</l>
+    <l n="265">Det er dog got Latin, med lidt Hebraisk poleret,</l>
+    <l>Mand dog skinbarlig seer, at hand har vel studeret,</l>
+    <l rend="indent"><note n="(22)" place="bottom"><ref type="refMark">(22)</ref><p>De holdes gemeenligen for de lærdeste Folk paa de høye Skoler, som skriver Bøger om
+        de gamle Romeres eller Grækers Skoe, Hatte, Halsbaand, Hengsler og Slaader for
+        Dørrene, og andre saadanne Particulariteter, og saasom Poeten siiger kand viise os:</p>
+        <lg rend="ant"><l>Nutricem Anchisæ, nomen, patriamque Novercæ</l>
+            <l>Archemori.</l></lg> <p><hi rend="ant">Juv. Sat. 7. </hi></p>
+        <p>Men andre Kiettere tage sig undertiden den Frihed at raisonnere saaledes derom:</p>
+        <l><hi rend="ant">Torqventur miseri parvis.</hi></l></note> Hand Disputeret har om Romersk Skoe og Hat,</l>
+    <l rend="indent">Saa riig er hand paa Ord, saa vel har hand det fat.</l>
+    <l>Jeg svared’ hannem da: Min hiertens lærde Peder,</l>
+    <l n="270">Jeg troer, at ingenstæds; hvor meget mand end leeder,</l>
+    
+    <l rend="indent"><pb ed="A" n="C2r" facs="II-C2r"/>Mand neppe finde skal et Folk, der eget Sprog</l>
+    <l rend="indent">Foragter saa, som vi, mand seer fast ey en Bog,</l>
+    <l>Mand seer fast ey et Skrift, ey andet end som Viiser,</l>
+    <l>Gotts Blitz! jeg derimod vor Naboe Tydsken priiser,</l>
+    <l rend="indent" n="275"><note n="(23)" place="bottom"><ref type="refMark">(23)</ref><hi rend="ant"><l> – – – Tenet insatiabile multos</l>
+        <l>Scribendi Cacoethes – – Juv. Sat. 7.</l></hi></note> Hand skriver alle Ting, som hand er splitter gal,</l>
+
+
+    <l rend="indent"><pb ed="SS" n="107"/>Skiønt hand det aabenbar af andre stiæle skal.</l>
+    <l>Holt nok! Da sagde Paars: Du maa ey saadant tale</l>
+    <l>Om slige lærde Folk og dem saa sort afmale</l>
+    <l rend="indent">Du heel Satyrisk er, tal meere med Beskeed,</l>
+    <l rend="indent" n="280">Det sagde hand med en Heroisk Gravitet.</l>
+    <l>Jeg tilstaar, vi paa Dansk i Trykken lidet giver,</l>
+    <l>Vor Naboe der imod fast alt formeget skriver,</l>
+    <l rend="indent">Skiønt hvor det kommer fra, jeg veed hand skiøtter ey,</l>
+    <l rend="indent">Mig synes det er best at gaa en <w>Middel-vey</w>.</l>
+    <l n="285">Men det er ikke Tid med Snak sig at opholde,</l>
+    <l>Jeg tænker paa min Drøm, hvad saadant kand forvolde,</l>
+    <l rend="indent">Hvorledes mueligt er, at mand i Søvne kand</l>
+    <l rend="indent">Af Sengen reyse sig, og slaa en ærlig Mand.</l>
+    <l>Med slig afsindighed i Stuen springe, løbe,</l>
+    <l n="290">Og som en utæmt Hæst, saa Kaalebøtter støbe,</l>
+    <l rend="indent">Med aabne Øyen staa og striide med en Blok,</l>
+    <l rend="indent">Og sig indbilde, at det er Niels Hansen Kok.</l>
+    
+    <l><pb ed="A" n="C2v" facs="II-C2v"/>Ham svared’ Peder Ruus: Sligt er og fleere hændet,</l>
+    <l>Jeg har for nogle Aar en Mand i Flensborg kiendet,</l>
+    <l rend="indent" n="295">Der udi Søvne glat en Pandekage aad,</l>
+    <l rend="indent">En anden, som en Miil har roed i en Baad.</l>
+    <l>Der findes ogsaa de, der klavre kand som Katter</l>
+    <l>I <hi rend="ant">Nomenclator</hi> mand dem kalder <hi rend="ant">Andabater</hi>.</l>
+    <l rend="indent">De uden Fare kand paa Kirkespiirer staa,</l>
+    <l rend="indent" n="300">De som Troldkiærlinger paa Vandet og kand gaae.</l>
+    <l><note n="(24)" place="bottom"><ref type="refMark">(24)</ref><p>Saaledes beretter <hi rend="ant">Motte le Vayer Epitre</hi> 61. <hi rend="ant">pag</hi>. 657. om een, der boede udi Rouen, ved Navn le Fevre, som udi Søvne kunde svare til alle slags Sprog, hvor
+        udi mand talede ham til, Ja end ogsaa kunde sige tilkommende Ting, men saa
+        snart hand vaagnede, vidste hand slet intet. Samme Autor giør sig megen Umag
+        at udfinde Aarsag til saadant: Dog det hafde været bedre at anvende den Tid
+        og Umage paa at erkyndige sig ret om Historien var gandske rigtig. Thi, som <hi rend="ant">Pedanterie</hi> haver mange Greene, 
+        saa er det blant andet een af dem at bryde sit Hovet
+        med at udfinde Aarsagen til en Ting, førend mand veed om Historien er rigtig.
+        Det er bekiendt blant Bønder udi Norge, at Biørnen haver 10. Mænds
+        Styrke, og 12. Mænds Forstand.</p></note> De allehaande Sprog og Tungemaal kand tale,</l>
+
+
+
+    <l><pb ed="SS" n="108"/>Ja mange skiulte Ting kand sige og afmale,</l>
+    <l rend="indent">De Ti Mænds Styrke har, som Biørnen, Tolf Mænds Vid,</l>
+    <l rend="indent"><pb ed="A" n="C3r" facs="II-C3r"/>Gid jeg Peer Iversen for Feyls skyld hafde hid.</l>
+    <l n="305">Hand skulle paa Hebraisk os saadant kunde siige</l>
+    <l>Saa lærd er samme Karl, skam om hand har sin Liige</l>
+    <l rend="indent">Hand holder for, at det er idel Fandens Konst</l>
+    <l rend="indent">At Sygdom, Hexerie sligt legges til omsonst.</l>
+    <l>Thi Fanden Skikkelse af slige Folk paatager,</l>
+    <l n="310">Nu et slags Giækkerie, nu andet ham behager,</l>
+    <l rend="indent">Jeg troer, med eder hand har øvet samme Spil,</l>
+    <l rend="indent">Og, om i vores Seng vi nøye leede vil,</l>
+    <l>I eders beste Søvn vi eder nok skal finde,</l>
+    <l>Per Paars mig Kindhest ey har givet nogensinde.</l>
+    <l rend="indent" n="315">Da sagde Paars: Hør Ruus! holt op med saadan Snak,</l>
+    <l rend="indent">Du der ved kun af mig fortiener liden Tak.</l>
+    
+</lg>
+    </div>
+          <div type="song" xml:id="book2song2" n="Anden sang">
+              <head>Den 2. Sang.</head>
+<lg>
+<l><w><hi rend="init">J</hi>ust</w> paa den samme Tid, da slig Ulykke skeede,</l>
+    <l>En Kiærling gik forbi, der gammel Gunild heede,</l>
+    <l rend="indent">Hun pleyede hver Dag i Fogdens Huus at gaae,</l>
+    <l rend="indent">Og redelig sit Brød fortiente med at spaae.</l>
+        <l n="5">Hun meget gammel var, og gik med Krykker, krumpen,</l>  
+    <l><pb ed="A" n="C3v"/><note n="(25)" place="bottom"><ref type="refMark"/><p>Hvoraf kand sees at denne Qvinde hafde bragt det langt videre end andre Spaamænd, hvilke bemænger sig ikke uden med <hi rend="ant">Metoposcopie, 
+        Chiromantie, Podoscopie</hi>; Thi hun forstod sig ogsaa paa <hi rend="ant">Rumposcopien</hi> eller <hi rend="ant">Pygomantien,</hi> og
+        kunde deraf sige Folkes Skiæbne saa vel som de <hi rend="ant">habileste Doctores Magiæ Naturalis</hi> af andre Legemets Parter.</p></note> Saa snart hun nogen saae i Haanden eller R - - - -</l>
+    <l rend="indent">Hun kunde siige strax hvad hannem forestoed.</l>
+    <l rend="indent">Hun for en ringe Ting sig dertil bruge loed.</l>
+    <l>Var from, medlidend, good, med lidet loed sig nøye,</l>
+    <l n="10"><note n="(26)" place="bottom"><ref type="refMark">(26)</ref><p>Der af berømte ogsaa Poeten i sin Tid Jødiske Spaamænd:</p>
+        <l><hi rend="ant">– – – – – Ære minuto</hi></l> <l><hi rend="ant">Qvaliacunque Voles Judæi somnia Vendunt.</hi></l> <p>Juven. Sat. 6.</p></note> Hun kun en Skilling tog for at slaa ud et Øye.</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="109"/>Hun stedse laa i Striid med Degnen og Jens Blok.</l>
+    <l rend="indent">Per Degn gaf hende Slag forleden med en Stok.</l>
+    <l>Den Had som Degnen bar mod hende det forvolte,</l>
+    <l>Hun Børen lærdte, og en <w>Puuge-Skole</w> holdte,</l>
+        <l rend="indent" n="15">Det, Degnen sagde, mod mit <hi rend="ant">Jus Docendi</hi> er</l>
+    <l rend="indent">Og at hun der i gaar mit <w>Degne-Amt</w> fornær.</l>
+ 
+        
+    <l><pb ed="A" n="C4r" facs="II-C4r"/>Hand Fogden tit gaf ind, nu en, nu anden Klage,</l>
+    <l>Hun kunde stedse ved Fogdinden det saa mage,</l>
+    <l rend="indent">Som elskte Gunnild, og i Forsvar hende tog,</l>
+        <l rend="indent" n="20">At mand paa Dørren ham med slige Klager joog.</l>
+    <l>Det som den gode Degn gik allermeest til Hierte,</l>
+    <l>Det er: hand hørte fast hver Dag med megen Smerte,</l>
+    <l rend="indent">Folk torde sige hun langt bedre var end hand;</l>
+    <l rend="indent">Det ey fordøye kand en brav studeret Mand.</l>
+        <l n="25">Nu hafde hand dog Haab med hende ret at spille,</l>
+    <l>Thi hand var bleven kiendt med Fogdens Daatter Nille,</l>
+    <l rend="indent">Som hand for nogen Tid lærdt hafde udi Sang.</l>
+    <l rend="indent">Mand meente derved at hans Sag fik bedre Gang.</l>
+    <l>Jens Blok var ogsaa vreed, paa samme gamle Qvinde,</l>
+        <l n="30">Hand aldrig vilde gaa i Huus hvor hun var inde,</l>
+    <l rend="indent">Hun tog ham Næring fra, fik mangen Patient,</l>
+    <l rend="indent">Som den erfarne Mand tit hafde før betient.</l>
+    <l>Med Signen, Maalen hun hialp mangen brav Matrone,</l>
+    <l>Blant andre hun med sligt hialp Christen Storkes Kone.</l>
+        <l rend="indent" n="35">Af hendes Tilstand Stork fast blind var udaf Graad,</l>
+        
+    <l rend="indent"><pb ed="A" n="C4v" facs="II-C4v"/><note n="(27)" place="bottom"><ref type="refMark">(27)</ref>Saadanne slags Folk ere de saa kalte <hi rend="ant">Ensalmadores</hi> udi Spanien, som curere
+        Folk med Sang, hvilken slags Cuur kaldes <hi rend="ant">Curatio Homerica,</hi> saasom derom
+        bliver først taled hos <hi rend="ant">Homerum, vid. Emanuel de Valle de Moura libr. de Ensalmis.</hi></note> Dog blef hun hiulpen ved et saadant <w>Kiærling-Raad</w>.</l>
+<l>For Resten af hver Mand hun elsket blef og æret,</l>
+    <l>Thi hun got Folkes Børn paa Øen hafde læret,</l>
+    <l rend="indent">Og underviist med Fliid i deres Chistendom.</l>
+        <l rend="indent" n="40">Mand før Canonicert slig Qvinde har i Rom.</l>
+    <l>En Feber kunde hun med blotte Ord curere:</l>
+
+    
+
+    <l><pb ed="SS" n="110"/>Slig Gave hafde hun, saa vel som andre fleere,</l>
+    <l rend="indent"><note n="(28)" place="bottom"><ref type="refMark"/><p>Saadan <hi rend="ant">præsterede,</hi> da jeg var til Rom, en Skomager, som var i saadant
+        Embede <hi rend="ant">confirmeret</hi> af <hi rend="ant">Inqvisitionen;</hi> men der sagdes der hos, at hand ikke
+        kunde hielpe uden dem, der hafde en sterk Troe. Maa skee den Snak <hi rend="ant">confunderes</hi> med den bekiendte Meening nogle 
+        Medici have de <hi rend="ant">prole Septima Mascula citra interruptionem nata,</hi> som den berømte Th. Willis forsvarer i hans <hi rend="ant">Anatome Cerebri.</hi></p></note> Der kun syv Maaneder i Moders Lif har lagt;</l>
+    <l rend="indent">Thi hun til Verden var saa snart og tiilig bragt.</l>
+        <l n="45">I at forgiøre Folk hun hafde ey sin Mage,</l>
+    <l>Hun kunde Skikkelse af Ulf og Biørn paatage.</l>
+    <l rend="indent">I Luften tit hun reed paa Kosteskaft og Stok;</l>
+    <l rend="indent">Sligt aldrig haver giort, saa lærd var ey Jens Blok,</l>
+    
+        
+    <l><pb ed="A" n="C5r" facs="II-C5r"/>Endskiønt hand Doctor var, og hafde mange Bøger,</l>
+        <l n="50">Hvad slig en Qvinde veed en lærd Mand ofte søger,</l>
+    <l rend="indent">Hun kunde og med Spøt curere bruddet Been,</l>
+    <l rend="indent">Paa Havet seyle med den største Møllesteen.</l>
+    <l>I Findland self mand ey saa lærde Folk kand finde,</l>
+    <l>Der Deres Physica forstaar, som denne Qvinde,</l>
+        <l rend="indent" n="55">Skiønt mand paa Ermed os vil binde, bilde ind,</l>
+    <l rend="indent">At de kand skabe sig til Dyr, og giøre Vind.</l>
+    <l>Jeg vil med ingen her indvikle mig i Trætte,</l>
+    <l>Og sige, det er Løgn, som Folk om dem berætte,</l>
+    <l rend="indent">Jeg vilde kun, af hver examineret blef</l>
+        <l rend="indent" n="60">Om saadant rigtigt var, førend hand derom skref.</l>
+    <l>Jeg vilde nødig at mand skulde slige finde</l>
+    <l>Formedelst den Respect, jeg bær for denne Qvinde;</l>
+    <l rend="indent">Thi hendes store Navn da uddøe vilde reent,</l>
+    <l rend="indent">Hvis sligt blant heele Folk saaledis var gemeent.</l>
+    <l n="65"><note n="(29)" place="bottom"><ref type="refMark">(29)</ref><p><hi rend="ant">Morhof. Polyhist. cap. de Collegiis secret, citerer Jacobum Typotium,</hi> hvilken siger, at have seet Findlapper ved saadanne Konster temme vilde Dyr, bevæge Land og Skov, og holder samme <hi rend="ant">Morhof</hi> for, hos disse Folk er Levninger af den
+        gamle Orientalske Viisdom, sigende: <hi rend="ant">Etsi non negem multas esse apud hanc 
+            gentem Magiæ Orientalis reliqvias.</hi></p></note> Hvis de saa viise er, som før Caldæer, Morer,</l>
+    
+    
+    <l><pb ed="A" n="C5v" facs="II-C5v"/>Hvi tager mand ey da fra Findland Professorer,</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="111"/>Om her en Physicus løb Hovedet mod Vægg,</l>
+    <l rend="indent">Saa skaber hand ey Vind, giør Høne ey med Egg.</l>
+    <l>Men jeg forblindet er af Skialdre <w>Hoved-Dunster</w>,</l>
+        <l n="70">Jeg kommer ey ihu at det er Fandens Konster,</l>
+    <l rend="indent">Jeg troer det saadan er, men bliver underlig</l>
+    <l rend="indent">Naar jeg betragter, at ey een er funden riig,</l>
+    <l>Hvi de der skabe Vind, kand og ey mynte Penge,</l>
+    <l>De, som Mirakler giør, af Armod maa sig henge.</l>
+        <l rend="indent" n="75">Hvis slig en Diævel kom fra Findland til Paris,</l>
+    <l rend="indent">Og giorde Folket der saa konstig og saa viis,</l>
+    <l>Hvad det da giorde først, jeg skulde næsten giætte,</l>
+    <l>Det vilde <hi rend="ant">Alchymie</hi> paa bedre Fødder sætte,</l>
+    <l rend="indent">Ey døe af hunger for at skabe Veyr og Vind,</l>
+        <l rend="indent" n="80">At giøre sig til Ulf, ney det var ey saa blind.</l>
+    <l>Men det er ikke værd om saadant meer at skrive,</l>
+    <l>Jeg maa til det, som meer er vigtigt, mig begive,</l>
+    <l rend="indent">Mand skulde hellers mig bebreyde, at jeg ey</l>
+    <l rend="indent">Som en Historicus gik rette Sti og Vey.</l>
+       <l n="85">At jeg, som visse Folk særdeeles gamle Koner,</l>
+    <l>Kun plager Folk med Snak og med <hi rend="ant">Digressioner,</hi></l>
+    <l rend="indent">Jeg laster andre, og er blind i egen Feyl,</l>
+    <l rend="indent">Men som Historier er rette Lefnets Speyl,</l>
+    <l>Saa er fornøden, at mand paa slig Strenge spiller,</l>
+        <l n="90">Og Dyders Character heel nøye forestiller,</l>
+    <l rend="indent">Paa Gunnild derfor jeg har givet Contrafey,</l>
+    <l rend="indent">Nu giver jeg mig da igien paa rette Vey.</l>
+        
+        
+        
+    <l><pb ed="A" n="C6r" facs="II-C6r"/>Den Kiærling gik forbi, da Paars med Bord og Bænke,</l>            
+<l>Med Blokken førte Kriig, saa at mand skulde tænke</l>
+        <l rend="indent" n="95">Det gandske Huus var fuld af <w>Foed-Folk</w>, Rytteri,</l>
+    <l rend="indent">Vor gammel Gunnild blef bestyrket derudi,</l>
+    <l><note n="(30)" place="bottom"><ref type="refMark">(30)</ref><p>Det er bekiendt af dem, som forstaar <hi rend="ant">artem Onirocriticam,</hi> hvad det haver at
+        betyde at drømme om Knappenaale og sønderrevne Skoe. Det er skade, vi ingen ret
+        <w>Drømme-Bog</w> haver paa Dansk, eller at den liden vi have, ikke oftere bliver oplagt.</p>
+    </note> Sær da hun tænkte paa de mange fæle Drømme</l>
+    <l>Hun hafde samme Nat, om Knappenaale, Sømme,</l>
+    <l rend="indent">Samt sønderrefne Skoe, men dette allermeest,</l>
+     
+
+
+    <l rend="indent" n="100"><pb ed="SS" n="112"/>At Fogden saaret var i Hatten af et Beest.</l>
+    <l>Om det var Løve, Kat, et Vildsvin eller Hane,</l>
+    <l>Det hafde hun forglemt, paa gamle Qvinders Vane.</l>
+    <l rend="indent">Hun tviled derfor ey en Fare forestood,</l>
+    <l rend="indent">At see den heele Øe at svemme udi Blood.</l>
+        <l n="105">Hun løb, som hun var gal, bortkasted sine Krykker</l>
+<l>Og sagde ved sig self, naar Fienden fremrykker,</l>
+    <l rend="indent">Og fanger Overhaand, da dræber hand i sær</l>
+    <l rend="indent">Den, hand bevæbnet seer, og finder i Gevæhr.</l>
+    <l>Omsider kommer hun til Fogdens <w>Sove-Kammer</w>,</l>
+            <l n="110">Paa Dørren banker sterk, som med en <w>Øxe-Hammer</w>,</l>
+       
+        
+    <l rend="indent"><pb ed="A" n="C6v" facs="II-C6v"/>Vor Foged, som var mat og træt af sidste Kriig,</l>
+    <l rend="indent">Og laa i beste Søvn, blef meget underlig,</l>
+    <l>Da hand slig hæftig Slag, slig Bulder fik at høre,</l>
+    <l>Hvo, sagde hand, tør slaa saa paa fornemme Dørre.</l>
+            <l>Hun raabte: op Her Foged, det er ey Tid at sove,</l>
+    <l>Det heele store Land i Fare staar og vove,</l>
+    <l rend="indent">Det er ey <w>Børne-Leeg</w>, det er ey noget Spil,</l>
+    <l rend="indent">Hver ærlig Anholts Mand maa Trøyen lave til.</l>
+            <l><note n="(31)" place="bottom"><ref type="refMark">(31)</ref><p>Tyrken og Paven følges gierne sammen i gamle Bøger, hun derfor holdt dem 
+                for den Anholtske Troes største Fiender, og glemte ey at bande dem fastende hver Morgen.</p></note> Jeg troer paa Landet vi har Tyrken eller Paven,</l>
+            <l n="120">Hvor hand er kommen hid, fra Lessøe eller Scaven,</l>
+            <l rend="indent">Det maa I vide best, jeg Landkort ey forstaar.</l>
+    <l rend="indent">Det volder Ondskab, Synd, som her i Svange gaar.</l>
+    <l>Har Præsten tit ey sagt? at det saa viit er kommen,</l>
+    <l>At Ondskab tager til saa sterk i Christendommen,</l>
+            <l rend="indent" n="125">Saa at vi frygte maa, og vente fast hver Stund,</l>
+    <l rend="indent">At Tyrken Mester bliir, og samme Hednisk Hund,</l>
+      
+        
+    <l><pb ed="A" n="C7r" facs="II-C7r"/>Der gode Christne Folk med Haar og Hud opæder,</l>
+            <l>Og drikker deres Blod, [<note n="(32)" place="bottom"><ref type="refMark">(32)</ref><p>Folk som ingensteds har været, tænker at paa alle andre Stæder er ligesaadan en Levemaade, som hos dem self. Saaledes, da den Vestphalske Skildrer skulde afmale Brylluppet i Jødeland, 
+                satte hand blant andre Retter en Westphalsk Skinkke paa Bordet.</p></note> ham intet Øll saa glæder,]</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="113"/>Vil eengang Overhaand faa i vor Canans Land,</l>
+            <l rend="indent" n="130">Ja myrde, slaa ihiel hver ærlig Anholts Mand.</l>
+    <l>Det hand hver Søndag fast med Iver for os præker,</l>
+    <l>Folk siger <w>spot-viis</w>, hand kun dennem dermed skrækker,</l>
+    <l rend="indent">Jeg hørte raabe: Hey! Gots Blitz, Trara Per Ruus!</l>
+    <l rend="indent">Jeg veed det Tyrkisk er, det Sprog gaar ud paa us.</l>
+            <l n="135">Mig syntes at jeg saae skinbarligen Soldanen,</l>
+            <l><note n="(33)" place="bottom"><ref type="refMark">(33)</ref><p>Naar smaa Drenge føre Krig mod hinanden, fører gierne den Fornemste Fanen;
+                Maa skee hun haver ikke seet andre Kriger.</p></note> Hvor hand i Spidsen stoed, og saadan svingde Fanen,</l>
+            <l rend="indent">At Vindver gik i tu, ja heele Huusets Væg</l>
+            <l rend="indent">I stykker der af gik, som det var raadet Æg.</l>
+    <l>Saa kand Forskrækkelse en ærlig gammel Qvinde,</l>
+        
+        
+    <l n="140"><pb ed="A" n="C7v" facs="II-C7v"/>(Som mand heel ofte seer) saa meget sterk forblinde,</l>
+    <l rend="indent">At hun sig bilder ind, hun alting seer og hør,</l>
+    <l rend="indent">Opfylder Land med Snak, og der paa sværge tør.</l>
+    <l>Sit Udspring deraf har det meste som hver anden</l>
+    <l>Med Eed bekræfter tit om Spøgelser og Fanden,</l>
+            <l rend="indent" n="145">Naar Blodet røres kun, de strax en Nisse seer,</l>
+            <l rend="indent"><note n="(34)" place="bottom"><ref type="refMark">(34)</ref><p>Hvad alt dette betyder udi sær, kand Bønder give udførlig Underretning om, thi
+            Kiøbstedfolk ere ikke saa lærde, at de kand give nogen Beskeed der om.</p></note> En Varulv, Hælhest, Trold, en Nøk og andet meer.</l>
+            <l>Det var ey første gang den gode gamle Qvinde,</l>
+    <l>Af Skræk saa rasend blef, og loed sig saa forblinde.</l>
+    <l rend="indent">Nu een, nu anden gang, hun Aabenbaring fik,</l>
+            <l rend="indent" n="150">Med selsom Phantasie hun ofte svanger gik.</l>
+    <l>Det eengang knarkede i hendes Sovestue,</l>
+    <l>Hun strax af Sengen sprang, skreeg: Huuset er i Lue!</l>
+    <l rend="indent">I heele Naboelav hun indjog megen Skræk,</l>
+    <l rend="indent">Per Degn i Skiorten løb, skreeg, hyled som en Giæk.</l>
+            <l n="155">Mand saae med Kaaber, Tin af Kiøknet ham at haste,</l>
+    <l>Og saadant Huusgeraad i Brønden ned at kaste</l>
+    <l rend="indent">Hans Pige lod da see for megen Nidkierhed,</l>
+    <l rend="indent">Thi hun hans Bøger og i Brønden kasted need.</l>
+      
+        
+    <l><pb ed="A" n="C8r" facs="II-C8r"/>Hun tænkte, at de der laa meget vel forvaret,</l>
+            <l n="160">Men den Umage da hun kunde have sparet.</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="114"/>Saa tit hand tænkte paa den Skade, med sin Stok,</l>
+    <l rend="indent">Hand smurte Ryggen paa den fattig Else Kok.</l>
+    <l>En anden gang hun saae tre, fire <w>Fisker-Baade</w>,</l>
+            <l><note n="(35)" place="bottom"><ref type="refMark">(35)</ref><p>Det synes denne Qvinde haver været særdeeles bange for Tyrken, om hvilken,
+                som Christendommens Fiende, hun hørte meest tale udi Kirken. Der var derforuden en gammel Spaadom paa Anholt, at Tyrken udi det <hi rend="ant">Seculo</hi> skulde vande sine Heste ved Fogdegaarden, thi det Tyrkiske Navn var paa de Tider allevegne udi større Anseelse end nu omstunder. Og vare de Tyrkiske <w>Søe-Røvere</w> saa dristige, at de udi det Aar 1627. giorde end ogsaa en Visite til Island, og førte mange Islænder bort med sig udi Slaveri.</p></note> Hun strax de samme tog for Tyrkens <w>Hovet-Flaade</w>;</l>
+            <l rend="indent" n="165">Af saadan Phantasie hun nylig var saa blind,</l>
+    <l rend="indent">At hun sig nogen Tid fuldkommen bilte ind,</l>
+    <l>At hun var giort af Glas, et Foderal lod giøre,</l>
+    <l>Til hver Mand raabte: mand ey maatte hende røre;</l>
+    <l rend="indent">Naar mand alt saadant veed, mand letteligen seer,</l>
+            <l rend="indent" n="170">At denne sidste Sag ey saa utroelig er.</l>
+            <l><note n="(36)" place="bottom"><ref type="refMark">(36)</ref><hi rend="ant"><l> – – – – narrate Puellæ</l>
+                <l>Pierides, prosit  mihi Vos dixisse Puellas</l></hi> <p><hi rend="ant">Juv. Sat. 4.</hi></p></note> Siig mig, <hi rend="ant">Pierides!</hi> Gudinder! Møer kiære!</l>
+            <l>Hvi vil I aldrig mig saa huld og gunstig være,</l>
+        
+        
+    <l rend="indent"><pb ed="A" n="C8v" facs="II-C8v"/>Hvi vender I saa tit og ofte Ryggen til?</l>
+    <l rend="indent">Naar jeg, som ret Poet, en Ting beskrive vil.</l>
+            <l n="175">Kom, hielp mig her med Fynd Poetisk at afmale,</l>
+    <l>Hvad hos vor Foged da udvirkte Gunnilds Tale,</l>
+    <l rend="indent">Hand (som en Foged bør) først gode Miiner holt,</l>
+    <l rend="indent">Spartanisk hørte paa, hvad hannem blef fortaalt.</l>
+    <l>Omsider maatte hand af Sorg dog Øyne væde,</l>
+            <l n="180">Dog tabe <w>Fogde-Moed</w>, og bitterligen græde,</l>
+    <l rend="indent">De salte Taare ham saa sterk af Øyne rand,</l>
+    <l rend="indent"><note n="(37)" place="bottom"><ref type="refMark"/><lg><l>Δάκρυα θερμὰ χέων ὥστε κρήνη μελάνυδρος,</l>
+        <l>Ἥτε κατ’ αἰγίλιπος πέτρης δνοφερὸν χέει ὕδωρ.</l></lg><p><hi rend="ant">Hom. Iliad. 16.</hi></p></note> Som af en Klippe gaar om Høsten sorte Vand.</l>
+            <l>Ret ligesom et Skib, der pløyer stolte Bølger,</l>
+    <l>Ey agter Storm og Vind og Havet det forfølger,</l>
+            <l rend="indent" n="185">Giør længe Modstand, og som Muur og Klippe staar</l>
+
+
+    <l rend="indent"><pb ed="SS" n="115"/>Indtil det brydes, og til Havets Afgrund gaar.</l>
+    <l>Ey anderledes gik det Fogden denne Sinde,</l>
+    <l>Hand længe stoed sig braf, før mand saae Øyne rinde,</l>
+    <l rend="indent">Hans Hierte længe stoed, som Muur, paa <w>Rætte-stæd</w>,</l>
+            <l rend="indent" n="190">Til det (som Skib i Grund) i Buxerne sank ned.</l>
+            
+    <l><pb ed="A" n="D1r" facs="II-D1r"/>Hand lod i største Hast sit Huusfolk sammenkalde, </l>
+    <l>Dem sagde: Nu vi maa i Tyrkens Hænder falde,</l>
+    <l rend="indent">Hvis vi, som brave Mænd, ey hannem staar imod,</l>
+    <l rend="indent">For den Anholtske Troe ey offrer Lif og Blod.</l>
+            <l n="195">Vi viide, kiære Børn! hvad Tyrken har at siige,</l>
+    <l>At hand i Tyrannie fast haver ey sin Liige,</l>
+    <l rend="indent">Naar hand faar Overhaand, hand æder got Folk op</l>
+    <l rend="indent">Med Klæder, Skoe og Hat, med gandske Siæl og Krop.</l>
+    <l>Hand er os gandske nær, vor Gunnild saae Soldanen,</l>
+            <l n="200">Ved Borgestuen staa, og selfver svinge Fanen,</l>
+    <l rend="indent">Ach! hvad har jeg ham giort? den slemme Tyrkisk Hund,</l>
+            <l rend="indent">Hvi kommer hand til os, saa langt fra <note n="(38)" place="bottom"><ref type="refMark">(38)</ref><p>I gamle <hi rend="ant">Romaner</hi> kommer tit fore <hi rend="ant">Trapezundt</hi>.</p></note> <hi rend="ant">Trapezund?</hi></l>
+            <l>Jeg ingen giør imod, det aldrig er min Vaane,</l>
+            <l>Paa disse Ord hand falt paa Gulvet ned i Daane.</l>
+            <l rend="indent" n="205">Mand hver Mands Hierte saae bevæget derudaf,</l>
+    <l rend="indent"><note n="(39)" place="bottom"><ref type="refMark">(39)</ref><lg><l>Κινήθη δ’ ἀγορὴ ὡς κύματα μακρὰ θαλάσσης.</l>
+        <l>ὡς δ’ ὅτε κινήσῃ Ζέφυρος Βαθὺ λήϊον <hi rend="ant">&amp;c</hi>.</l></lg> <p><hi rend="ant">Hom. Ilias</hi> 2.</p></note> Ey anderledes end det store Salte Haf,</l>
+            <l>Der af en Norden Vind i største Hast sig hæver,</l>
+    <l>Som Ax paa Ager, der af Vinden vakler, bæver.</l>
+              
+    <l rend="indent"><pb ed="A" n="D1v" facs="II-D1v"/>Til <w>Fogde-Gaarden</w> strax da kom en mægtig Flok,</l>
+            <l rend="indent" n="210">Som dette hafde hørt: blant dem var og Jens Blok.</l>
+    <l>Hand Fogden hielper op, og hannem Aarelader.</l>
+    <l>Hand bad ham ikke troe paa saadan <w>Kierling-Sladder</w>.</l>
+    <l rend="indent">I veed jo, sagde hand, hun Aabenbaring har,</l>
+    <l rend="indent">Og ved sit Sladder har giort mangen Mand til Nar.</l>
+            <l n="215">Mand da fornam hvor fuld hun var af Gift og Ædder,</l>
+    <l>Hun skreeg, som hun var gal: Slaaer, dræber den Forrædder,</l>
+    <l rend="indent">Hand har Correspondentz med Tyrken, jeg det veed:</l>
+    <l rend="indent">Vi hannem takke maa for alt det Ont er skeed.</l>
+
+
+    <l><pb ed="SS" n="116"/>Jeg veed, hand i sit Huus har mange Tyrkske Bøger,</l>
+            <l n="220">Maa skee, mand Breve og skal finde, om mand søger,</l>
+    <l rend="indent">Soldanens Billede jeg seet har i hans Bog,</l>
+    <l rend="indent">Det er den samme Mand, som giort har dette Tog.</l>
+    <l>Nu kand jeg allerførst ret fatte og begriibe,</l>
+    <l>Hvor hand faar Tyrksk Papiir, nu har jeg ham i Knibe.</l>
+            <l rend="indent" n="225">Af disse Gunnilds Ord da sluttede hver Mand,</l>
+    <l rend="indent">At Tyrken ved Jens Blok did kommen var paa Land.</l>
+    <l>De raabte overlydt, sær Qvinder, Piger, Drenge,</l>    
+    <l><pb ed="A" n="D2r" facs="II-D2r"/>Hand <w>Lands-Forrædder</w> er, vi maa ham lade henge!</l>
+    <l rend="indent">Stork syntes vel, som hand paa Blokes Side var,</l>
+            <l rend="indent" n="230">Men mange gamle Folk paa Anholt vidnet har,</l>
+    <l>At hand hialp allermeest til alting at forvirre,</l>
+    <l>Og mod den gode Blok gemeene Folk at irre,</l>
+    <l rend="indent">Hand lod kun derfor som hand var paa Bloks Parti;</l>
+    <l rend="indent">Thi der imellem dem var gammel <hi rend="ant">Jalousi.</hi></l>
+            <l n="235">Jeg holder nødig her om dennem lidt at tale,</l>
+    <l>Og disse tvende Mænd min Læser at afmale,</l>
+    <l rend="indent">Naar mand af dennem kun faar rette Characteer</l>
+    <l rend="indent">Til saadan <hi rend="ant">Jalousie</hi> mand rette Aarsag seer.</l>
+    <l>Om disse tvende Mænd mand kand ey sige andet,</l>
+            <l n="240">End de jo vare de fornuftigste paa Landet,</l>
+    <l rend="indent">Stork Fogdens Fuldmagt var, sit Amt saa vel forstoed,</l>
+    <l rend="indent">Og hafde ved sin Fliid det sat paa saadan Foed,</l>
+    <l>At der i Riigdom ey paa Øen var hans Liige,</l>
+    <l>Hand plagde fattig Folk (men det vil intet siige)</l>
+            <l rend="indent" n="245">Naar hand mod riige Folk (som Kiærnen er i Land,)</l>
+    <l rend="indent">Loed see skinbarligen, hand var en ærlig Mand.</l>
+    <l>Hand tit beskyldet var, holt Ørene dog stive,</l>
+    <l>Thi hand en andens Haand saa kunde efterskrive,</l>
+    <l rend="indent">Saa snoe og vende sig, og giøre hvit til sort,</l>
+            <l rend="indent" n="250">At hand Beskyldninger ey agtede ret stort.</l>    
+    <l><pb ed="A" n="D2v" facs="II-D2v"/>Med Bønderne mand saae ham ofte sælsom spille,</l>
+    <l>Hand kunde dem i Hast fra Gods og Ære skille,</l>
+            <l rend="indent"><note n="(40)" place="bottom"><ref type="refMark">(40)</ref><p>Den Berømmelse Poeten legger paa samme Mand, kommer mig for ligesom den Clement Marot giver sin Tiener:</p>
+                <hi rend="ant"><l>Gourmand, Ivrogne &amp; assuré Menteur,</l>
+                    <l>Pipeur, Voleur, Jureur Blasphemateur,</l>
+                    <l>Sentant la hart de cent pas à la ronde,</l>
+                    <l>Au demeurant le meilleur homme du Monde.</l></hi></note> Dog kunde mand tit see hand var et ærlig Blood,</l>
+          
+
+    <l rend="indent"><pb ed="SS" n="117"/>Thi hand med Midlerne sig oftest nøye lood.</l>
+            <l n="255">Hand fra forfulte Folk kun Penge tog, ey Ære,</l>
+    <l>De kand sig (sagde hand) med Gud og Æren nære.</l>
+    <l rend="indent">Jeg nyelig fundet har i Paarses <w>Haand-Journal</w>,</l>
+    <l rend="indent">At hand i Alderdom har bygget Hospital.</l>
+    <l>Hvormed udtrykkelig vor Christen gaf tilkiende,</l>
+            <l n="260">At hand af Gudsfrygt kun, til ingen anden Ende,</l>
+    <l rend="indent">Folk flaade Huden af, og for at lade see,</l>
+            <l rend="indent"><note n="(41)" place="bottom"><ref type="refmark">(41)</ref><p>Det er, som mand siger, at stiæle en Hud for at give den Fattige et par Skoe.
+                <hi rend="ant">Qvi veut rendre à Dieu ce qu’il a pris au monde. Des Preaux Sat.</hi></p></note> At hand i Alderdom Allmisse vilde tee.</l>
+       
+    <l><pb ed="A" n="D3r" facs="II-D3r"/>Hvad angaar Blok, da var hand sindig og poleret</l>
+    <l>Og for en Anholts Mand var temmelig studeret,</l>
+            <l rend="indent" n="265">Hand mangen tyk Postill igiennem hafde læst,</l>
+    <l rend="indent">Saa at hand var beqvem at præke største Fest.</l>
+    <l>Mand for hans Lærdoms skyld ham kaldte Jens Bogbinder,</l>
+    <l>Thi mand hos slige Folk ey fleere Bøger finder,</l>
+    <l rend="indent">Hand saa forstandig var, saa meget gau og klog,</l>
+            <l rend="indent" n="270">At naar hand læste kun Fortalen i en Bog,</l>
+    <l>Saa hafde hand alt nok; i Lærdom hand en Praler</l>
+            <l>Var bleven, hvis, som nu, mand hafde haft <note n="(42)" place="bottom"><ref type="refMark">(42)</ref><p>Hvilket skadelig og <hi rend="ant">superfaciel Studium</hi> har i vor Tid taget stor Overhaand;
+        Thi unge Mennisker, der udi hast vilde blive lærde, sætte derover alle <hi rend="ant">solide studia</hi>
+        til side, og lader sig nøye med at læse saadanne Bøger, hvoraf en liden Octav
+        undertiden <hi rend="ant">recenserer 50. Auctores. Ephemeridum Lipsiensium Collectores,</hi>
+        naar de <hi rend="ant">recenserer</hi> en Bog med den <hi rend="ant">Titul: De causis pereuntium literarum,</hi>
+        synes at tilstaa med stor Oprigtighed self, at saadanne <hi rend="ant">Journaler</hi> maa regnes
+        blant de Aarsager, som <hi rend="ant">contribuere</hi> til <hi rend="ant">Solide</hi> Studeringers Undergang. I dette
+        <hi rend="ant">Seculo</hi> er det saa viit kommen, at mand <hi rend="ant">destillerer Extracter</hi> af <hi rend="ant">Extracter,</hi> saa
+        at hvo der haver god Ihukommelse, kand udi et half Aar blive en stor <hi rend="ant">Polyhistor,</hi> Ja lige saa lærd som <hi rend="ant">Aristoteles</hi>.</p></note> <hi rend="ant">Journaler</hi>.</l>
+
+    
+
+
+    <l rend="indent"><pb ed="SS" n="118"/><pb ed="A" n="D3v" facs="II-D3v"/>I <w>Læge-Konsten</w> var hand meget lærd og klog,</l>
+    <l rend="indent">Jeg veed om <w>Heste-Cuur</w> hand skreven har en Bog,</l>
+            <l n="275">Som hand til Trykken tit har villet komme lade,</l>
+    <l>Det endnu ey er skeedt til Landets største Skade.</l>
+    <l rend="indent">For Fremmede, som kom paa Øen, var hand Tolk:</l>
+    <l rend="indent">Hand brugte et slags Cuur for Heste, Fæ og Folk.</l>
+    <l>Saa at mand holder for, hand hafde det udfunden,</l>
+            <l n="280"><note n="(*)" place="bottom"><ref type="refMark">(*)</ref><p>Det saa kalte <hi rend="ant">Universale</hi> i <hi rend="ant">Medicinen</hi>.</p> </note> Som nu arbeydes paa i Frankrig, Walland, Lunden.</l>
+            <l rend="indent">Det er forunderligt: Hand ey forstoed Latin,</l>
+    <l rend="indent">Og dog slig Doctor var, saa klog paa Medicin.</l>
+    <l>Hos disse tvende Mænd da fandtes slige Dyder,</l>
+    <l>De vare fra een Bye indfødde rette Jyder.</l>
+            <l rend="indent" n="285"><note n="(43)" place="bottom"><ref type="refMark">(43)</ref><p><hi rend="ant">Rara est concordia Fratrum</hi>.</p></note> Den Post er eene nok, mand faa Exempler har,</l>
+            <l rend="indent">At een paa fremmet Stæd sit <w>Bys-Barn</w> gunstig var,</l>
+    <l>At tvende store Mænd, der vare lige kloge,</l>
+    <l>Jo trættede, og sig jo med hinanden sloge,</l>
+    <l rend="indent">Den som i Verdens Løb kun lidet dreven er,</l>
+            <l rend="indent" n="290">Naar hand blant lærde Folk slig Tvist og Avind seer,</l>
+    <l>Naar hand en Naboe seer, en Broder anden plage,</l>
+    <l>Hand raaber: Det er jo hans Slegt, hans Naboe, Mage,</l>
+    <l rend="indent">De frem for andre bør forliges, holde Fred,</l>
+    <l rend="indent">Ja for hinanden døe de være maa bereed.</l>
+    
+    <l n="295"><pb ed="A" n="D4r" facs="II-D4r"/>Ney, Peer kand ey med Paul til Fred sig bøye lade,</l>
+    <l>Alleene for de boer tilsammen i en Gade,</l>
+    <l rend="indent">Mon en Philosophus mod anden hvæsser Sværd,</l>
+    <l rend="indent">For anden Aarsag, end at hand er ogsaa lærd?</l>
+    <l>En Slegt forfølger Slegt, en Broder slaar sin Broder,</l>
+            <l n="300">Just for de kommen er til Verden af en Moder.</l>
+    <l rend="indent">Mand undrer derfor ey, at dette store Par,</l>
+    <l rend="indent">Hinanden Fiendsk og Gram og saa misgunstig var.</l>
+    <l>Jens Blok af Gunnilds Ord begynte at befrygte,</l>
+    <l>Hand kunde miste let sit ærlig Navn og Rygte,</l>
+            <l rend="indent" n="305">Og for slig ringe Ting let komme i Fortræd,</l>
+    <l rend="indent">Hand derfor svared’ dem: Jeg altid er bereed</l>
+ 
+
+
+    <l><pb ed="SS" n="119"/>At offre Lif og Blod for Anholts Land og Rige,</l>
+    <l>Ey andet nogen skal med rette paa mig sige,</l>
+    <l rend="indent">Jeg siger kun, at mand udforske bør en Ting,</l>
+            <l rend="indent" n="310">Før mand giør stor Allarm og mange krumme Spring.</l>
+    <l>Det sagde hand med Fynd, Folk derpaa bleve stille,</l>
+    <l>Endogsaa de, som ham fra Lifvet vilde skille,</l>
+    <l rend="indent">De raabte, hand er jo en god og ærlig Mand,</l>
+    <l rend="indent">Gid mange fleere vi kun hafde i vort Land!</l>
+            <l n="315">Skiønt saadant stillet blef, saa gik dog Rygtet længe,</l>
+    <l> Mand for Forræderie ham hafde ladet hænge:</l>
+    <l rend="indent">Jo længere mand bort fra Fogdegaarden kom,</l>
+    <l rend="indent">Jo meere vidste mand at tale stort derom.</l>
+    <l>Sær vidste de som boe paa Kanten at afmale</l>
+            <l n="320">Jens Bloks Forræderie, fra Hovedet til Hale,</l>
+    
+    <l rend="indent"><pb ed="A" n="D4v" facs="II-D4v"/>De med Omstændighed fortaaldt om hannem har,</l>
+    <l rend="indent">Af fire Heste at hand sønderreven var.</l>
+    <l>Og fandtes de, som saae ham allerrede spøge,</l>
+    <l>Og som i Husene begyndte sterk at røge,</l>
+            <l rend="indent" n="325">Ret som en Sneebold, der jo længere den gaar,</l>
+    <l rend="indent">Jo meer den væltes frem, jo meer den Kræfter faar,</l>
+            <l><note n="(44)" place="bottom"><ref type="refMark">(44)</ref><lg rend="ant"><l>– malum qvo non velocius ullum,</l>
+                <l>Mobilitate viget, viresque acqvirit eundo.</l></lg> <p><hi rend="ant">Virg. Æneid. 4.</hi></p></note> 
+                Saa er det med en Løgn: den, som hos Folk ved Stranden,</l>
+            <l>Er kommen i Fortræd, ved Vartov mist har Haanden,</l>
+    <l rend="indent">Ved Volden begge to, ved W faaet Hiertestød,</l>
+            <l rend="indent" n="330">I <w>Roeskild-Kiøge-Kroe</w> er allerede død.</l>
+    <l>I hver en Kiærlings Huus i Tiissted eller Kiøge,</l>
+    <l>Mand seer ham gaa igien, og allerede spøge.</l>
+    <l rend="indent">Ey anderledes gik det denne gode Mand,</l>
+    <l rend="indent">Paa sligt mand fast hver Dag Exempler finde kand.</l>
+            <l n="335">Vor Foget fandt Behag i denne Blokes Tale,</l>
+    <l>Og sagde: kiære Jens! vi maa da ey forhale,</l>
+    <l rend="indent">Vi maa see til, at vi først rette Kundskab faar,</l>
+    <l rend="indent">Om Tyrken kommen er, hvor vidt, og hvor hand staar.</l>
+    <l>Om det er mueligt, at mand kand til Fred ham bøye,</l>
+            <l n="340">Om hand vil lade sig med Gods og Penge nøye,</l>
+           
+    
+
+    <l rend="indent"><pb ed="A" n="D5r" facs="II-D5r"/><pb ed="SS" n="120"/>Om hand vil lade os paa Øen boe i roe,</l>
+    <l rend="indent">Beholde voris Præst og vores reene Troe.</l>
+    <l>Gid vi kun hafde een der Tyrkisk kunde tale!</l>
+    <l>Jeg veed vor Præst er lærd, skiønt hand kand ikke prale,</l>
+            <l rend="indent" n="345">Maa skee hand saadant veed, hand Tyrkisk kand forstaae,</l>
+    <l rend="indent">Jeg vilde gierne self til hannem straxen gaae.</l>
+    <l>Hand kunde hielpe os af Nøden og af Sorgen.</l>
+    <l>Men hand ey haver Tid, hand præke skal i Morgen.</l>
+    <l rend="indent">Blok blef da hæftig vreed, og sagde: Herre! hør:</l>
+            <l rend="indent" n="350">Mon nogen ærlig Mand sligt Landet nægte bør?</l>
+    <l>Mon nogen Landet meer forpligtet er at trøste?</l>
+    <l>Hvad vil hans Prækner? hand dem kand af Ermet røste,</l>
+    <l rend="indent">Troe mig! hver Landsby Præst sligt tager sig ey nær,</l>
+    <l rend="indent">Hand skriver siælden hvad hand præke vil, dis vær!</l>
+            <l n="355">Da sagde Gunnild: ach! gid jeg kun fik at viide,</l>
+            <l><note n="(45)" place="bottom"><ref type="refMark">(45)</ref><p>Hun hafde hørt siunge om Pavens og Tyrkens Mord, og taget Moer eller Moder
+            i steden for Mord, hvor i mand kand let forsee sig.</p></note> Om Tyrkens Moer var med, en Qvinde, som I viide,</l>
+            <l rend="indent">Der gammel er, som jeg, jeg vilde mage saa,</l>
+    <l rend="indent">At Tyrken da, maa skee, af Øen skulde gaa.</l>
+       
+    <l><pb ed="A" n="D5v" facs="II-D5v"/>Som mand saa talede, indtraade Peder Skriver,</l>
+            <l n="360">Og sagde overlydt: I jer tilfreds kun giver,</l>
+    <l rend="indent">Den Skade, som er giort af os paa store Sal,</l>
+    <l rend="indent">Af Paars min Husbond vist, Her Fogd, betales skal.</l>
+            <l><note n="(46)" place="bottom"><ref type="refMark">(46)</ref><p>Hvor af sees, at det er falskt som mand siger: <hi rend="ant">Qvi dormit non peccat</hi>.</p></note> Hand af en hæslig Drøm er bleven saa forskrækket,</l>
+            <l>At hand sligt Ont har giort, mig har ved Haaret trækket,</l>
+            <l rend="indent" n="365">Slaat Vinduer i tu, fordærvet har en Blok,</l>
+    <l rend="indent">Som hand sig bilte ind, var Niels Johansen Kok.</l>
+    <l>Da Gunnild færdig var af Blusel fast at daane,</l>
+    <l>Din Husbond’ (sagde hun) da har en Fandens Vaane,</l>
+    <l rend="indent">Hvis hand saa drømte tit, jeg tog ham ey til Mand,</l>
+            <l rend="indent" n="370">Slig Drømmer meget Ont kand giøre i et Land.</l>
+    <l>Sligt mand sig foretog at eftergrandske nøye,</l>
+    <l>Mand ey med Ruuses Snak sig vilde lade nøye:</l>
+    <l rend="indent">Men fik at høre det, som mindst var dennem kiært,</l>
+
+
+    <l rend="indent"><pb ed="SS" n="121"/>At saadan stor Allarm var reyset af en F- -</l>
+            <l n="375">Af slig Exempel mand kand denne lærdom trække</l>
+    <l>Mand maa ey fuse frem, og Ørene ey række</l>
+    <l rend="indent">Til hvad, som bliir fortaalt, men overveye maa</l>
+    <l rend="indent">Om det, som bliver sagt og hørt, forholdes saa.</l>       
+    <l><pb ed="A" n="D6r" facs="II-D6r"/>Exempel her paa nok jeg kunde her fremføre,</l>
+            <l n="380">Hvad saae mand Jyderne med Pølsen ey at giøre,</l>
+    <l rend="indent">Hvor gik det ikke dem, som boe i saadant Land.</l>
+    <l rend="indent">Hvor mand ey nogen sligt paa Ermet binde kand</l>
+            <l><note n="(47)" place="bottom"><ref type="refMark">(47)</ref><p>En Abe udi Holland sleed sig løs med Lenken fra sin rette Eyermand, og opholt
+                sig længe paa Taget af et fremmet Huus, hvor hand om Dagen holdt sig stille, men om Natten gik ned af Trappen, slebende Lenken efter sig, og søgte om Proviant i Gaarden og Kiøkenet, hvilket ikke alleene forskrækkede Huusfolkene, men allarmerede en heel Stad.</p></note> Det spøgde i en Stad, mand Folk saae Modet tabe,</l>
+            <l>Men, da mand ret saae til, blef Fanden til en Abe,</l>
+            <l rend="indent" n="385"><note n="(48)" place="bottom"><ref type="refMark">(48)</ref><p>Saadanne have vi haft nogle af her i Landet, som forvares endnu udi gamle
+                Folkes Kister. Hvor tit har der ikke været funden Spaamænd, der have sagt Tid
+                og Time naar Verden skulde forgaae, og derved forskrækket utallige Mennisker,
+                særdeeles riige Folk.</p></note> Nu af et <w>Himmel-Bref</w>, nu af en falsk Prophet,</l>
+            <l rend="indent">Mand heele <w>Kirke-Sogn</w> bevæget haver seet.</l>
+    <l>Tit mand et <w>Heste-Been</w> for Helligdom har taget,</l>
+    <l>For saadan ringe Ting med Krig hinanden plaget.</l>
+            <l rend="indent">Man seer jo Folk til Rom at løbe som April,</l>
+            <l rend="indent" n="390">At finde visse Ting, som aldrig ere til.</l>
+
+    <l><pb ed="A" n="D6v" facs="II-D6v"/><note n="(49)" place="bottom"><ref type="refMark">(49)</ref><p>En liden gangbar Svensk <w>Kaaber-penge</w> blef funden udenlands, 
+                hvoraf baade udi Tydskland og Frankrig blef giort stor Allarm. Paa den eene Side deraf stod
+                1. <hi rend="ant">OR. S. M</hi>. paa den anden <hi rend="ant">C. R. S</hi>. Der over bleve giorte 
+                mange Forklaringer: Nogle holte fore, at de Ord, som stode paa den første betydede <hi rend="ant">In Orbe Romano</hi>
+                <hi rend="ant">Sanguis Martyrum:</hi> Andre, <hi rend="ant">In Obedientia Regis Semper Manent, &amp;c.</hi> De
+                Bogstaver paa den anden Side, forklarede de saaledes: <hi rend="ant">Contra Romam Sanguinariam,</hi> eller <hi rend="ant">Contra Romam Sumus</hi>. 
+                Af de <hi rend="ant">Infignia,</hi> som vare paa samme Mynt, giorde de mange Forklaringer, og blef gemeenligen denne Slutning, at 
+                det var en Mynt slagen af de Sevenner mod deris Forfølgere i Frankrig. Men Doctor Sperling, for at giøre Ende paa denne store 
+                Kriig og løse denne forfærdelige Knude, loed 1703.  komme en liden <hi rend="ant">Dissertation</hi> 
+                for Lyset, og gaf tilkiende, at det var en gangbar <w>Kaaber-Penge</w> udi Sverrig, nemlig: 1. Øre <hi rend="ant">Sølver Mynt,</hi> 
+                som stod paa den eene Side, og <hi rend="ant">Carolus Rex Sveciæ</hi> betydede de Bogstave, som stode paa den 
+                anden Side.</p></note> I vor Tid stoor Allarm mand lærde Folk saae giøre</l> 
+
+    <l><pb ed="SS" n="122"/>Af liden <w>Kaaber-Mynt</w>, det var dog kun et Øre.</l>
+    <l rend="indent">Ja tit mand striider for det, som ey meer er værdt,</l>
+    <l rend="indent">Ey meere vigtigt er, end denne Ruuses - - -</l>
+            <l n="395">Hvor skamfuld Fogden blef, jeg kand fast ey beskrive,</l>    
+    <l><pb ed="A" n="D7r" facs="II-D7r"/>Hand vilde for slig Sag Paars dømme reent fra Lifve,</l>
+    <l rend="indent">Men Stork, som altid saae lidt dybere end hand</l>
+    <l rend="indent">Da sagde: Det er best og tienligst for vort Land,</l>
+    <l>At vi i Glemsomhed den skidne Sag begraver,</l>
+            <l n="400">Vi heller maa see til, at vi det saadan laver,</l>
+    <l rend="indent">At sligt ey kommer ud, ey bliver talet om,</l>
+    <l rend="indent">Det var en Fandens Tid den Paars paa Øen kom.</l>
+    <l>Vi andre Sager har, som nok fra Livet dømmer,</l>
+    <l>Og bringe om en Hals den slemme lede Drømmer .</l>
+            <l rend="indent" n="405">Saa blef af Fogden da befalet samme Dag,</l>
+    <l rend="indent"> At ingen skulde meer da tale om den Sag.</l>
+            <l><note n="(50)" place="bottom"><ref type="refmark">(50)</ref><p>Saadan <hi rend="ant">Bizarrerie</hi> findes hos mange Mennesker, hvor paa de Gamle haver givet <hi rend="ant">Portrait</hi> udi <hi rend="ant">Midæ</hi> Balbeer, og <hi rend="ant">Horatius</hi> udi Sangeren <hi rend="ant">Tigillio,</hi> hvilken hafde
+            før ladet sig rætte end bevæge at synge, naar nogen bad ham der om; men, naar ingen bad ham, sang hand saa længe, at mand maatte bede ham holde op igien.</p>      <hi rend="ant"><l>– – – – – – Sardus habebat,</l>
+                <l>Ille Tigillius hoc. Cæsar, qvi cogere posset,</l>
+                <l>Si peteret per amicitiam Patris atque  suam, non</l>
+                <l>Qvidqvam proficeret: Si Collibuisset, ab ovo</l>
+                <l>Usqve ad mala citaret – – – –</l></hi> <p><hi rend="ant">Horat. Sat. 3. 1. 1.</hi></p></note> Men Bønderne mand saae sligt flittig at antegne,</l>
+            <l>Der findes endnu de, der Aarstal derfra regne,</l>
+
+    
+    <l rend="indent"><pb ed="A" n="D7v" facs="II-D7v"/><note n="(51)" place="bottom"><ref type="refMark">(51)</ref><p>Den Arabiske Historie lader sig bedre mundtlig fortælle, end forfatte udi Pennen.</p>
+</note> Som i Arabien mand regner fra den Tid,</l>
+            <l rend="indent" n="410">Da een mod Landets Lov lod - - - -</l>
+    <l>Jo meere mand en Ting blant visse Folk forbyder,</l>
+    <l>Jo meer den øvet bliir; hvis Laster vare Dyder,</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="123"/>Synd ey forbudet var, den gik ey saa i Svang,</l>
+    <l rend="indent">Mand allermeest faar Lyst, naar mand bliir holdt i Tvang.</l>
+            <l n="415">Hvis Loven vilde os Arbeyde kun forbyde,</l>
+    <l>Den Lade skulde først den overtræde, bryde,</l>
+    <l rend="indent">Men hvad som bliir befalt, mand derfor Afskye faar,</l>
+    <l rend="indent">Thi mangen ædru blef, og drak fast ey en Taar,</l>
+    <l>Hvis det paabudet var, som største Dyd, at drikke.</l>
+            <l n="420">Hvo Menniskets Natur studeret har til Prikke,</l>
+    <l rend="indent">Derover undrer ey, ey holder sligt for Snak,</l>
+    <l rend="indent">Jeg Troer, om det var Dyd at smøge sterk Tobak</l>
+    <l>P - - derfor Afsmag fik, hand skulde det forlade,</l>
+    <l>Som nu med andre Ting, bliir brugt til Landets Skade;</l>
+            <l rend="indent" n="425">Hvis derimod var Synd at drikke bare vand,</l>
+    <l rend="indent">Fik mangen Lyst der til, slog ud sin <w>Caffe-Tand</w>.</l>
+    <l>Mand finder ofte dem blant høye Folk og ringe,</l>
+    <l>Som til forbudne Ting sig mod Naturen tvinge,</l>
+  
+    
+    <l rend="indent"><pb ed="A" n="D8r" facs="Ii-D8r"/><note n="(52)" place="bottom"><ref type="refMark">(52)</ref><p><hi rend="ant">Perche non é peccato di bevere à fresco,</hi> sagde en Italiener, da hand var meget tørstig, og fik et Glas kaalt Vand, som smagede ham vel, saa at hand meente, der fattedes intet andet end det skulde have været forbuden.</p></note> Hvi er det ey en Synd? udbrød en tørstig Siæl,</l>
+            <l rend="indent" n="430">At drikke Vandet kaaldt: Det smaget ham saa vel.</l>
+            <l>Jeg sligt af Ondskab ey i Pennen har forfattet,</l>
+    <l>For at beskiæmme den, som jeg har meget skattet,</l>
+    <l rend="indent">All Verden ellers veed at Fogden Voldemar,</l>
+    <l rend="indent">Mand uden denne gang fast ey forblaffet har.</l>
+            <l n="435">Mig tvinger tvende Ting til saadant her at giøre</l>
+    <l>Først som Historicus jeg maa for Lyset føre,</l>
+    <l rend="indent">Alt hvad mærkværdigt er, sligt gaaes ey forbi,</l>
+    <l rend="indent">Af en Historicus, der træder rette Sti.</l>
+    <l>At saadant nyttigt er jeg skulde ogsaa meene,</l>
+            <l n="440">Thi til Opbyggelse sligt Eventyr kand tiene.</l>
+            <l rend="indent">Mand deraf ogsaa see i sær og lære kand,</l>
+            <l rend="indent"><note n="(53)" place="bottom"><ref type="refMark"/><p>Hafde den berømmelige Peder Paarses Historie tilforn været kommen for Lyset,
+                hafde denne Passage kunde bleven indført udi Peder Syvs Ordsprog. Endskiønt denne Historie ingen anden Nytte førdte med sig, saa burte den dog trykkes for denne Oplysning udi <hi rend="ant">Antiqviteten</hi>.</p></note> Hvoraf det Ordsprog er, som bruges i vort Land.</l>
+
+
+    <l><pb ed="SS" n="124"/>Det Ordsprog som af os bliir brugt i daglig Tale,</l>
+            <l>Hvis Udsprung haver lagt i Mørket og i Dvale,</l>
+            <l rend="indent" n="445">Det er naar mand giør stort, af det, som ey er værdt.</l>
+            <l rend="indent">O hvilken stor Allarm kand giøres af en – –!</l>
+    
+    </lg>
+          </div>
+          
+          <div type="song" xml:id="book2song3" n="Tredje sang">
+              <pb ed="A" n="D8v" facs="II-D8v"/>
+              <head>Den 3. Sang.</head> 
+<lg>
+<l><w><hi rend="init">D</hi>a</w> denne store Kriig med Tyrken var til Ende,</l>
+    <l>Vor Foget foretog mod Paars at Buen spende,</l>
+    <l rend="indent">Hand ham med tvende Mænd lod stevne uden Skrømt,</l>
+    <l rend="indent">For hand Niels Handsen Kok fra Lifvet hafde dømt.</l>
+                <l n="5">Sligt hørde Fogden til, som Landets rette Dommer,</l>
+    <l>Thi Jurisdiction en Fremmed ey tilkommer.</l>
+    <l rend="indent">Af saadant Peder Paars ey tabte <w>Helte-Mod</w>,</l>
+    <l rend="indent">Men, som hand Rettergang kun meget lidt forstod,</l>
+    <l>Skiønt hand self Dommer var, men det vil intet siige,</l>
+                <l n="10">En Dommer, Advocat, de ere to Uliige,</l>
+    <l rend="indent">At dømme i en Sag, det er jo intet stort,</l>
+    <l rend="indent">Men <w>Procurator-Konst</w>, at giøre Hvit til Sort,</l>
+    <l>Det Falskt og kroget er, at giøre ret og liige,</l>
+    <l>Det kræver stor Forstand, det andet har at siige,</l>
+                <l rend="indent" n="15">Hand derfor Voldemar indstændeligen bad,</l>
+    <l rend="indent">Hand vilde sætte lidt tilside Avind, Had,</l>
+    <l>Ham fly en Advocat, der Sagen kunde føre,</l>
+    <l>Det for Fogindens Bøn hand lovde at giøre.</l>
+    <l rend="indent">Jens Poulsen <w>Sogne-Fogd</w> mand straxen foreslog,</l>
+                <l rend="indent" n="20">Mand ham i Paarses Sag til Procurator tog.</l>
+    <l>Hand var en dygtig Mand, som kunde dreje Loven,</l>
+    <l>Saa vel som nogen Mand paa Øen føre Ploven,</l>
+                
+    <l rend="indent"><pb ed="A" n="E1r" facs="II-E1r"/>Hos Fogden Christen Stork hand var i stor Credit,</l>
+    <l rend="indent">Thi om Jens Poulsen hand bevidnet hafde tit,</l>
+                <l n="25">At i Lovkyndighed der neppe var hans Mage,</l>
+    <l>Naar mand mig (sagde hand) paa Landet vil undtage.</l>
+    <l rend="indent">Hans Hustru, saasom hand, sig ogsaa bruge lood,</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="125"/>Hun var veltalend’, klog, for hende alting stood. </l>
+                <l n="30">Stork sagde, at, endskiønt hun ikkun var en Qvinde,</l>
+    <l>Hand visse skiulte Ting hos hende kunde finde,</l>
+    <l rend="indent">Som hos Jens Poulsen mand ey lætteligen fandt.</l>
+    <l rend="indent">Hun tit til Tinge gik, og mange Sager vandt.</l>
+    <l>Om Poulsen kunde mand ey sige nogensinde,</l>
+                <l n="35">Hand med en Daler sig af nogen lod forblinde,</l>
+    <l rend="indent">Hand ofte talte saa: En braf retskaffen Mand</l>
+    <l rend="indent">Til Hund for lidet Been sig aldrig giøre kand.</l>
+    <l>Men naar mand vilde ham tilstrækkelig betale,</l>
+    <l>Da i et Øyeblik mand saae ham Hesten sale,</l>
+                <l rend="indent" n="40">Tilside alting sat, og strax til Tinge reed,</l>
+    <l rend="indent">Loed see en ugemeen retskaffen Nidkiærhed.</l>
+    <l>Slig Generosite mand finder ey hos mange,</l>
+    <l>En anden tager jo alt hvad hand kand erlange,</l>
+    <l rend="indent">Een saadan ærlig Mand, een saadan Advocat,</l>
+                <l rend="indent" n="45">Af Fogden Woldemar Peer Paars blef overlat.</l>
+    <l>Mand deraf seer hvad got hos hannem var at finde,</l>
+    <l>At hand af Avind sig ey gandske lod forblinde,</l>                
+    <l rend="indent"><pb ed="A" n="E1v" facs="II-E1v"/>At, skiønt mod Peder Paars hand saa ophidset var,</l>
+    <l rend="indent">Hand dog Retfærdighed for Øye sættet har.</l>
+                <l n="50">Just da mand tog sig for Process med Paars at føre,</l>
+    <l>Og paa slig vigtig Sag en Ende ret at giøre,</l>
+    <l rend="indent">Da og til Rættergang benævnet var en Dag,</l>
+    <l rend="indent">Blef Jomfru Nille mod Formodning hæftig svag.</l>
+    <l>Af Elskovs heede Pill hun saa var bleven saaret,</l>
+                <l n="55">Og af Gudindens Søn hun saadan var bedaaret,</l>
+    <l rend="indent">At hun af Kiærlighed var bleven gandske blind,</l>
+    <l rend="indent">Det feylede ey stort, hun kommen var fra Sind.</l>
+    <l>Ey nogen mægtig var vor Jomfru at husvale,</l>
+    <l><note n="(54)" place="bottom"><ref type="refMark">(54)</ref><lg rend="ant"><l> – – gravi jam <w>d<hi rend="it">u</hi>dum</w> saucia cura,</l>
+        <l>Vulnus alit Venis &amp; cœco carpitur igne,</l>
+        <l>– – hærent infixi pectore vultus,</l>
+        <l>Verbaqve, nec placidam membris dat cura qvietem.</l></lg> <p>Virg. Æneid. 4.</p></note> Per Paars for Øyne stoed, hans Skiønhed, Ord og Tale,</l>
+                <l rend="indent" n="60">Hun hafde holdet sig fra Mad halfanden Dag,</l>
+
+
+    <l rend="indent"><pb ed="SS" n="126"/><note n="(55)" place="bottom"><ref type="refMark">(55)</ref><p>Derfor sagde Per Vognmand i 
+        sin Tid, naar jeg ingen Smag finder i Brændeviin meere, da troer mig jeg haver ikke lang Tid tilbage.</p></note> Saa hun i <w>Melke-Grød</w> fandt og ey nogen Smag,</l>                   
+    <l><pb ed="A" n="E2r" facs="II-E2r"/>Som dog en Himmelmad for Piger er paa Landet.</l>
+    <l>Den søde Mad hun ey tilforen hafde vandet,</l>
+    <l rend="indent">Kort! hun var gandske Syg, <w>u-roelig</w>, desperat</l>
+                <l rend="indent" n="65">Hun hafde ingen Søvn, ey Hvile nogen Nat.</l>
+    <l>Den gamle Môr af Sorg sig færdig var at hænge,</l>
+    <l>Hun slig Ulykke dog for Fogden duldte længe,</l>
+    <l rend="indent">Men da sligt Overhaand og meere Kræfter fik,</l>
+    <l rend="indent">Da brød hun overtvert, og til sin Husbond gik.</l>
+                <l n="70">Hun kunde ey for Graad og Suk et Ord fremføre</l>
+    <l>Hand raabte: I kand ey om Dagen andet giøre,</l>
+    <l rend="indent">Der er fast ingen Stund, mand seer jo Kinden vaad,</l>
+    <l rend="indent">Jeg eengang bliver kied af saadan <w>Kiærling-Graad</w>.</l>
+    <l>Hvad er det eder nu saa meget Hiertet trykker?</l>
+                <l n="75">Mand haver vel et Kruus, en Ruude slaaet i stykker,</l>
+    <l rend="indent">Jeg aldrig fatte kand, min Hierte! sagde hand,</l>
+    <l rend="indent">Hvor all den megen Graad i Hiernen ligge kand.</l>
+    <l>Mand Heste ey kand skoe, mand neppe Faar kand klippe</l>
+    <l>Før mand med største Harm maa see jer straxen flippe.</l>
+                <l rend="indent" n="80">Hun sagde: kiære Mand! ti stille, ikke saa,</l>
+    <l rend="indent">Hvis I kun vidste hvad for Sorg paa Hiertet laa.</l>
+    <l>Jeg veed ey (sagde hand) Jer Sorrig nu tilvisse,</l>
+    <l>Men det jeg veed, at I for ingen Ting kand p - -.</l>
+                
+    <l rend="indent"><pb ed="A" n="E2v" facs="II-E2v"/>I var jo druknet fast i Graad forgangen Fest,</l>
+    <l rend="indent" n="85"><note n="(56)" place="bottom"><ref type="refMark">(56)</ref><p>Her af kand sees, at Axel Thorsens Viise er ældere end mand bilder sig ind, og
+        kand tiene dem til Underretning, som skrive <hi rend="ant">Historiam Literariam</hi>.</p></note> For mand Jer hafde lidt om Axel Thorsen læst.</l>
+    <l>Ney, Husbond! sagde hun; jeg vil ey med Jer spille,</l>
+    <l>Vor Daatter færdig er at døe; Jer egen Nille,</l>
+    <l rend="indent">Tænk kun hvor svag hun er, i reven Øll og Brød</l>
+    <l rend="indent">Hun finder ingen Smag, end ey i <w>Melke-Grød</w>.</l>
+                <l n="90">Paa disse Ord mand saae vor Foget Øyne væde,</l>
+    <l>Hand raabte: borte er min Trøst, min Hiertens Glæde!</l>
+    <l rend="indent">Jeg ey Fornøyelse i Verden finder meer,</l>
+
+                
+
+    <l rend="indent"><pb ed="SS" n="127"/>Jeg mod mig fattig Mand bevæbnet Himlen seer.</l>
+    <l>Jeg seer fornemme Folk, saa vel kand Modgang have,</l>
+    <l n="95"><note n="(57)" place="bottom"><ref type="refMark">(57)</ref><p>Hand vilde ikke siige Lif, holdende for det burde allene siges om fornemme Folk;
+    Thi Poeten forsikrer, at hand ikke har brugt det Ord for Riimets skyld.</p></note> Som den der kommen er af en Hyrdindes Mave,</l>
+    <l rend="indent">Hvis hun ey finder Smag i lekker <w>Melke-Grød</w>,</l>
+    <l rend="indent">Da undrer mig, hun er ey allerrede død.</l>                               
+    <l><pb ed="A" n="E3r" facs="II-E3r"/>Ach! Skreeg hand Himmelhøyt, slig Sorg mig Hierter bryder,</l>
+    <l>Ret som et Asen, naar det allerhæftigst skryder,</l>
+                <l rend="indent" n="100">Saa deraf vaagnes op alt andet Fæ og Qvæg,</l>
+    <l rend="indent">Faar, Foler løber da med Hovedet mod Væg.</l>
+    <l>Den søvnig Hyrde mand seer Fødder deraf strække,</l>
+    <l><note n="(58)" place="bottom"><ref type="refMark">(58)</ref><lg rend="ant"><l> – – – Stantis convicia Mandræ</l>
+        <l>Eripiunt somnum Druso Vitulisque Marinis.</l></lg> <p><hi rend="ant">Juv. Sat. 3.</hi></p>
+        <p>Eller en drukken <hi rend="ant">Fusius</hi>, om hvilken <hi rend="ant">Horatius</hi></p>
+        <lg rend="ant"><l>Non magis audierit, qvam Fusius ebrius olim,</l>
+        <l>Cum Ilionam edormit, Catienis mille ducentis,</l>
+        <l>Mater te appello Clamantibus – –</l></lg> <p><hi rend="ant">Lib. 2, Sat. 3.</hi></p></note> En Drusus self sligt Skraal af Søvne kand opvække,</l>
+    <l rend="indent">Ey mindre skraalede vor Fogd af denne Harm,</l>
+                <l rend="indent" n="105">Mand tænkte, at det var Signal til ny Allarm.</l>
+    <l>Mand løb i Stuen ind, for hannem at husvale,</l>
+    <l>Mand spurde hannem hvad hand hafde at befale,</l>
+    <l rend="indent">Hand raabte, kiære Børn! min Nille fast er død,</l>
+    <l rend="indent">Gaar beder Blok, at hand mig hielper af min Nød.</l>
+                <l n="110">Siig, at hand komme maa med alle sine Krukker,</l>
+    <l>De løber alle strax, de hyler, klager, Sukker,</l>
+    <l rend="indent">De siger hannem da, hvad dem befalet var,</l>
+    <l rend="indent">At Nille vilde døe, hand maatte være snar.</l>
+                
+              
+    <l><pb ed="A" n="E3v" facs="II-E3v"/>Slig Ordre klingede ey vel i Blokes Øre,</l>
+                <l n="115">Hand sagde ved sig self; det kand jeg aldrig gøire,</l>
+    <l rend="indent">Det ey tillader mig min høye Caracteer,</l>
+    <l rend="indent">At kiige nogens R - -, at sætte Folk Clisteer.</l>
+    <l>Dog bad hand Fogdens Folk et Øyeblik at vente,</l>
+    <l>Thi hand Sophia først sin Hustru vilde hente,</l>
+                <l rend="indent" n="120">Hun lidt fra Landet var udroet i en Baad,</l>
+           
+
+
+    <l rend="indent"><pb ed="SS" n="128"/>Hand vilde vide først, og høre hendes Raad.</l>
+    <l>Hun var paa Landet fast den sindigste Matrone,</l>
+    <l>Skiønt hun var ey saa lærd, som Gertrud Præstens Kone,</l>
+    <l rend="indent">I Klogskab, Sindighed hun førde Priisen dog,</l>
+    <l rend="indent" n="125"><note n="(59)" place="bottom"><ref type="refMark">(59)</ref><p>Derfor siger 
+        <hi rend="ant">Erasmus lib. 17. epist. 12. Prudentia Valens, qvæ solet in studiorum cultoribus desiderari. Item, Poëten:</hi></p>
+        <l>ὡς οὐδὲν ἡ μάθησις ἢν μὴ νοῦς παρῇ.</l>
+        <p>Og kaldes hos <hi rend="ant">Arianum Epicteto,</hi> 1. 1. c. 11. en Scholastisk Person 
+        <hi rend="ant">Animal qvod deridetur ab omnibus</hi>.</p></note> Et er at være lærd, et andet viis og klog.</l>
+    <l>Skiønt af gemeene Folk sligt bliver confunderet,</l>
+    <l>Som holder den for klog der haver vel studeret.</l>
+    <l rend="indent">Men af Erfarenhed mand ofte fundet har,</l>
+    <l rend="indent">At een er meget lærd, og derfor eene Nar.</l>
+                <l n="130">Da hun tilbage kom; Blok sagde, hierte Kone!</l>
+    <l>Nu spiller mand for os (min Troe) i anden Tone,</l>
+    <l rend="indent">Nu vil vor Foget, at jeg Doctorere skal,</l>
+    <l rend="indent">Den Dosmer tænker ey, at jeg er General.</l>
+    <l>Til min Berømmelse, jeg intet self vil siige,</l>
+                <l n="135">Men det jeg veed, at jeg har tient i tvende Kriige,</l> 
+
+                
+    <l rend="indent"><pb ed="A" n="E4r" facs="II-E4r"/>Jeg trodser alle Folk, om nogen siige kand,</l>
+    <l rend="indent">At jeg jo tienet har, som en retskaffen Mand.</l>
+    <l>Hun svared’, Hierte Mand! I maa ey saadant agte,</l>
+    <l>En Doctor, og Soldat, som begge dræbe, slagte,</l>
+                <l rend="indent" n="140">De ere et slags Folk, jeg ingen Forskiel seer,</l>
+    <l rend="indent">En dræber Folk med Sverd, en anden med Clysteer.</l>
+    <l>De ere begge Mænd, som Krud og Kugler føre,</l>
+    <l>Den Forskiæl liden er, som mand kand der i giøre,</l>
+    <l rend="indent">Vi Pulver kalder det, som hine kalde Krud,</l>
+    <l rend="indent" n="145"><note n="(60)" place="bottom"><ref type="refMark">(60)</ref><p>Langt bedre end Soldatens; thi de ere forgyldte.</p></note> Og vore Kugler kun seer anderledes ud.</l>
+    <l>Soldatens større er end vore <w>Doctor-Piller</w>,</l>
+    <l>De dog eens Virkning har, og Folk ved Lifvet skiller,</l>
+    <l rend="indent">Forgiæves derfor I paa Hierter legger sligt,</l>
+    <l rend="indent">Og vegrer eder at forrette eders Pligt.</l>
+
+
+    <l n="150"><pb ed="SS" n="129"/>Saa talte til sin Mand den kloge <w>Docter-Inde</w>.</l>
+    <l>Blok svared’, I skal sligt paa Ermet mig ey binde,</l>
+    <l rend="indent">Hvis sligt skal være sandt, og saadant fast skal staa,</l>
+    <l rend="indent">Mand giøre alting et, og sammenblande maa.</l>
+    <l>Da Guld er det, som nys paa Gulvet giorde Barnet,</l>
+                <l n="155">Jeg tager Guldet kun, I maa beholde Skarnet,</l>
+    <l rend="indent">Det samme Farve har: Sligt Snak Sophisterie,</l>
+    <l rend="indent">Bliir kaldt blant lærde Folk paa vort Academie.</l>
+              
+                
+    <l><pb ed="A" n="E4v" facs="II-E4v"/>Stork Folk flaaer Huden af, er derfor ingen Slagter,</l>
+    <l>Som en fornemme Mand, enhver jo hannem agter,</l>
+                <l rend="indent" n="160">Mand skulde sige at Peer Degn (om sligt var sandt,)</l>
+    <l rend="indent">Et Esel var, thi det er ogsaa Musicant,</l>
+    <l>Thi det nok stærkere end Peder Degn kand skraale,</l>
+    <l>Slig Fandens <w>Pølse-Snak</w> Jens Blok kand aldrig taale.</l>
+    <l rend="indent">Peer Smed Skolmester blef, de prygler begge to,</l>
+                <l rend="indent" n="165">Een Ambolt, een en R--, vor Amme blef en Koe,</l>
+    <l>De giver begge Melk, I eders Nomenclator,</l>
+    <l>Jens Brygger i en hast blef til en Procurator,</l>
+    <l rend="indent">De blander begge to, een Sager, een sin Drik,</l>
+    <l rend="indent">Og derfor Penge tar, slig Snak har ingen Skik.</l>
+                <l n="170">Hun derpaa svarede: I Sandhed ey kand liide,</l>
+    <l>Men lad os lidet kun til andre Sager skriide,</l>
+    <l rend="indent">Hvad mellem General og Doctor Forskiæl er,</l>
+    <l rend="indent">En ærlig Doctor mand jo meget agtet seer.</l>
+    <l><note n="(61)" place="bottom"><ref type="refMark">(61)</ref><p>Her af seer mand, at Doctor Faustus har lefvet paa de Tider, og været udi
+        saadan Anseelse, at end og Qvindfolk paa Anholt har vist af ham at sige, og
+        tiener denne <hi rend="ant">passage</hi> til at <hi rend="ant">confundere</hi> dem der tvile om hand har været til:
+        Iligemaade dem der holde for at dette Skrift er af ingen Nytte.</p></note> Mon Doctor Faustus ey af Folk bliir holt i Ære,</l>
+                <l n="175">Hand dog kun Doctor er, I kand jo deraf lære,</l>
+    <l rend="indent">Det ey saa ringe er, som I jer bilder ind.</l>
+    <l rend="indent">Hand svared’: Sophie tie! og holt dig i dit Skind.</l>                
+    <l><pb ed="A" n="E5r" facs="II-E5r"/>Der Forskiæl giøres paa Balberer’ og Doctores,</l>
+    <l>Som paa Sprogmestere og lærde Professores,</l>
+                <l rend="indent" n="180">Hvo er saa taabelig, at hand jo fatter, seer,</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="130"/><note n="(62)" place="bottom"><ref type="refMark">(62)</ref><p>En stor Dansk Theologus, som florerede udi Christ. 4. og Frid. 2. Tider.</p></note> Hvad Forskiæl mellem mig og Doctor Hemming er.</l>
+    <l>Jeg sætter, sagde hun, at eders Stand er ringe,</l>
+    <l>Og for en General, det haart er sig at tvinge,</l>
+    <l rend="indent">At giøre saadant Fald, at sætte Folk Clisteer,</l>
+                <l rend="indent" n="185">Og fra en General at blive til Barbeer.</l>
+    <l>Men, Blok! jeg hørt har om en General at siige,</l>
+    <l>Som her paa Anholt fast ey haver haft sin Liige,</l>
+    <l rend="indent"><note n="(63)" place="bottom"><ref type="refMark">(63)</ref><p>Hun hafde, maa skee, hørt tale om den store Romer, som blef tagen fra Ploven
+        og giordt til Dictator, og eenfoldeligen bilte sig ind, at det var skeed paa Anholt.</p>
+        <hi rend="ant"><l>– – – – – – functus</l>
+            <l>Castrorum Imperiis &amp; Dictatoris honore,</l>
+            <l>Erectum domito referens a monte ligonem</l></hi>.</note> Hans Navn Dictator var, mand ham fra Ploven tog,</l>
+    <l rend="indent">Og til en General og mægtig Ridder slog.</l>
+             
+                
+    <l n="190"><pb ed="A" n="E5v" facs="II-E5v"/>Hand bragte Krigen ey paa Anholt før til Ende,</l>
+    <l>Før mand ham saae igien til Ploven sig at vende,</l>
+    <l rend="indent">Ey derved bluedes, skiønt større Kriig det var,</l>
+    <l rend="indent">End de, som I mod Paars og Tyrken føret har.</l>
+    <l>Jens Blok blef der ved glad, og sagde til slig Qvnde,</l>
+                <l n="195">Mand her paa Øen skal en Liige ikke finde,</l>
+    <l rend="indent">Hand glædde sig at der Exempel fundet var,</l>
+    <l rend="indent">At og en General sig saa fornedret har.</l>
+    <l>Hand self om samme Helt sig kunde da besinde,</l>
+    <l>At have noget læst; det stoed ham nok i Minde,</l>
+                <l rend="indent" n="200">Men hierteligen loe af det, hun hafde sagt,</l>
+    <l rend="indent">At det paa Anholt var; skiønt hand gaf hende Magt,</l>
+    <l>At sligt passeret var i meget gamle Tider,</l>
+    <l>(At finde Aarstal end vor korte Tid ey lider)</l>
+    <l rend="indent">Men det jeg veed, at sligt ey skeed er i vort Hiem,</l>
+    <l rend="indent" n="205"><note n="(64)" place="bottom"><ref type="refMark">(64)</ref><p>Deres Character, som ville corrigere andre, og derved falde self til større Absurditeter.</p>
+    </note> Min Hierte! sagde hand, men i Jerusalem.</l>
+    <l>Hand derpaa udgik, og til Fogdens Folk sig vendte,</l>
+    <l>Hand maatte sagde hand, først sine Krukker hendte,</l>
+    <l rend="indent">Og vilde komme did, saa snart hand var bereed,</l>
+
+
+
+    <l rend="indent"><pb ed="SS" n="131"/>De glade ginge bort med saadan god Beskeed</l>
+                <l n="210">Fogdinden midlertid mand saae sig meget qvæle,</l>
+    <l>Og af <w>U-roelighed</w> hvert Øyeblik at tælle,</l>
+    <l rend="indent">Da Blok i Stuen kom, hun falt ham strax til Food,</l>
+    <l rend="indent">Hand hende reyste op, bad ikkun tage Mod:</l>
+             
+                
+    <l><pb ed="A" n="E6r" facs="II-E6r"/>Jeg har i tretten Aar paa Landet her barberet,</l>
+                <l n="215">Og mangen ærlig Siæl imidlertid cureret,</l>
+    <l rend="indent">Hvis jeg kun til Forsøg maa give Jer et Skaar</l>
+    <l rend="indent">I Side, Hals og Ryg, i Hovet eller Laar,</l>
+    <l>Og jeg jer læger ey i tre til fire Dage,</l>
+    <l>Da vil jeg ey en Døjt begiære for Umage.</l>
+                <l rend="indent" n="220">Jeg hialp Jens Jeppesen i Gaar med hast paa Foed,</l>
+    <l rend="indent">Hand døde, det er sandt, men Febren ham forloed.</l>
+    <l>Den salig mand mig tog om Halsen og mig kryste,</l>
+    <l>Ja nylig for sin Død mig nogle gange kyste,</l>
+    <l rend="indent"><note n="(65)" place="bottom"><ref type="refMark"/><p>Det var ligesom at drukne sig af Frygt for at blive vaad; som der fortælles om
+        en Fransotz der var saa bange for at hans smukke Klæder skulde blive fordærvet af
+        Vandet, at hand druknede sig; hvorudover mand giorde ham saadan Gravskrift:</p> <hi rend="ant"><l>Icy gît le sieur Brouillé,</l>
+        <l>Qvi se noya de peur d’etre mouillé.</l></hi></note> Nu døer jeg, sagde hand, med Hiertens Fryd og Lyst,</l>
+                <l rend="indent" n="225">min Feber borte er! Det var ey liden Trøst.</l>
+    <l>For saadant Tilbud ham da takket vor Fogdinde,</l>
+    <l>Men dertil ingen Lyst hun hafde denne Sinde,</l>
+    <l rend="indent">Hun vilde see hvor det med Nille først løb af,</l>
+    <l rend="indent">Og for Opsættelse ham strax en Daler gaf.</l>
+                <l n="230">Saa snart hand hafde kun følt Pulsen paa den Syge,</l>
+                        
+    <l><pb ed="A" n="E6v" facs="II-E6v"/>Hand sagde, Fæstemøe! I seer ud som en Skygge,</l>
+    <l rend="indent">Jeg seer, paa Halsen I en vældig Svindsot har,</l>
+    <l rend="indent">Jeg tænkte, før jeg kom, det Jeppes Syge var.</l>
+    <l>Seer til, hvad jeg Jer giir, I retter Jer derefter,</l>
+                <l n="235">Æd Rugbrød kun og Flesk, det giver skiønne Kræfter,</l>
+    <l rend="indent">I derforuden skal og drikke denne Saft,</l>
+    <l rend="indent">Som jeg i Flasken har, den har en herlig Kraft.</l>
+    <l>Paa disse Ord mand saae Fogdinden Øyne væde,</l>
+    <l>At slaa sig for sit Bryst, og bitterligen græde,</l>
+ 
+
+
+
+    <l rend="indent" n="240"><pb ed="SS" n="132"/>Det er jo haanligt nok at miste Lifvet Møe,</l>
+    <l rend="indent">Hun derforuden skal af <w>Svine-sygdom</w> døe.</l>
+    <l>Min ædste Daatter! som -- ach! vee mig arme Qvinde,</l>
+    <l>Gid hun ey kommen var til Verden nogensinde.</l>
+    <l rend="indent">Vort Huus udspiirer af en stolt fornemme Roed,</l>
+                <l rend="indent" n="245">Vi ere begge to af got og ærligt Bloed.</l>
+    <l>Ach! sagde Blok, tilfreds jer, Bestemoer! kun giver,</l>
+    <l>Den Syge af slig Snak kun altereret bliver,</l>
+    <l rend="indent">I ingen Aarsag har at fælde derfor Taar,</l>
+    <l rend="indent">Thi mange brave Folk slig Sot og Sygdom faar.</l>
+                <l n="250">Den saa fornemme er, som nogen vil forlange,</l>
+    <l>Gif eder kun tilfreds, og værer ey saa bange,</l>
+                
+    <l rend="indent"><pb ed="A" n="E7r" facs="II-E7r"/>Den Sygdom derfor kun af os saa kaldet bliir,</l>
+    <l rend="indent"><note n="(66)" place="bottom"><ref type="refMark"/><p><hi rend="ant">Etymologia vocis secundum hypothesin Anholticam,</hi> hvor vel <hi rend="ant">hypothesis vulgaris</hi> er, at det kommer af svinde eller bortsvinde, og at mand derfor bør
+        skrive Svindsoet. Hvilken Meening den retteste er, vil jeg give dem at betænke,
+        der legge sig efter <hi rend="ant">Studium Etymologicum.</hi></p></note> Alleene for mand Flesk og Fæt den Syge giir.</l>
+    <l>Strax derpaa hendes Graad begynte lidt at sagtes,</l>
+                <l n="255">Hun bød den beste Soe i Gaarden var at slagtes,</l>
+    <l rend="indent">Blok derpaa reyste sig, og tog sin Stok og Hat,</l>
+    <l rend="indent">Bød dennem fare vel, og ønskte roelig Nat.</l>
+    <l>Saa snart hand borte var, tog Nille til at raabe:</l>
+    <l>For mine Øyne jeg ey meer vil see den Taabe!</l>
+                <l rend="indent" n="260">Vil hand mig bilde ind, at jeg slig Sygdom har?</l>
+    <l rend="indent">At jeg cureres skal med <w>Sviine-Flesk</w>? den Nar!</l>
+    <l>Den Svaghed, som jeg har, mand ey med Flesk curerer,</l>
+    <l>Mand grunder den ey ud, hvor meget mand studerer,</l>
+    <l rend="indent">Fra slig Ulykke mig forløse ingen kand,</l>
+                <l rend="indent" n="265">Foruden den, som nys er kommen paa vort Land.</l>
+    <l>Fogdinden blef forskrækt af saadan sælsom Tale,</l>
+    <l>Hun tænkte da, ey Tid var længer at forhale,</l>
+    <l rend="indent">Hun meente sligt blef talt i hidsig Raserie,</l>
+    <l rend="indent">Hvis hun forhæxet er, af saadant Phantasie</l>
+                <l n="270">Vor Gunnild, sagde hun, kand hende eene frelse,</l>
+        
+               
+    <l><pb ed="A" n="E7v" facs="II-E7v"/>Hun hialp af saadan Nød i Fior min Søster Else,</l>
+
+
+    <l rend="indent"><pb ed="SS" n="133"/><note n="(67)" place="bottom"><ref type="refMark">(67)</ref><p>Mand har haft Exempel udi vor Tid, at de der have faaet saadanne døde Mænds pulveriserede Been til Lifs, omsider ere derover blefne dræbte af Giengangere,
+        hvilke, hvor vel de ere døde, kand dog ikke undvære deres Been, som de bruge
+        om Natten naar de spøge. Det var at ønske, mand vidste de Raad Gunnild
+        brugte denne gang, saa vel som andre Tider, thi mand veed hun kunde curere
+        for Hælskud, Hylleskud, Soelskud, Nisseskud, etc. etc.</p></note> Som af et Spøgelse var plaget, ja nær død</l>
+    <l rend="indent">Hun bleven var forgiordt, thi udi hendes Grød</l>
+    <l>Mand kom et <w>Døding-Been</w>, som stødt var smaa og knuset,</l>
+                <l n="275">Hun kunde fra den Tid ey have Roe i Huuset,</l>
+    <l rend="indent">Den døde Mand hver Nat kom hinkend paa et Been,</l>
+    <l rend="indent">Og raabte: Else hør! gif mig mit Been igien.</l>
+    <l>Af saadant blef hun dog af Gunnild strax cureret,</l>
+    <l>Trods Blok kand giøre sligt, hvor sterkt hand har studeret,</l>
+                <l rend="indent" n="280">Saa blef besluttet, skiønt det Regnveyr var, og Slud,</l>
+    <l rend="indent">Om saadant i en Hast at skikke hende Bud.</l>
+    <l>Skiønt hun om Natten før, kun hafde lidet sovet,</l>
+    <l>Af det hun sig tilforn mod Tyrken hafde vovet,</l>
+    <l rend="indent">Og hun af samme Kriig var bleven gandske mat,</l>
+                <l rend="indent" n="285">Saa gik hun villig dog, tog med sin sorte Kat,</l>
+              
+                
+    <l><pb ed="A" n="E8r" facs="II-E8r"/><note n="(68)" place="bottom"><ref type="refMark">(68)</ref><p>Hvilket endnu skal være brugeligt i Norge, som den berømmelige <hi rend="ant">Autor du Voyage</hi> <hi rend="ant">historiqve</hi> bevidner med disse Ord: <hi rend="ant">Chacun entretient un chat noir dans sa
+            maison, le quel il consulte dans les affaires d’importance, &amp;c.</hi> Thi, om endskiønt jeg ikke haver seet 
+        eller hørt tale om noget saadant paa de Stæder i Norge, hvor jeg haver været, vil jeg derfor ikke giøre saadan brav Mands Ord til Løgn; besynderlig, efterdi hans Skrift formedelst sin <hi rend="ant">accuratesse</hi> er oversat paa andre Sprog.</p></note> Med hvilken hun var vandt sig stedse at raadføre,</l>
+    <l>Som mand gemeenligen seer slige Qvinder giøre.</l>
+    <l rend="indent">Hun spurde, strax hun kom; hvorledes det var fat,</l>
+    <l rend="indent">Og bad om lidet Mad for sig og for sin Kat.</l>
+                <l n="290">Strax Marthe <w>Kokke-Tøs</w> til <w>Kiøkken-skabet</w> rendte,</l>
+    <l>For til det ærlig Folk lidt Proviant at hendte,</l>
+    <l rend="indent">Hun skar af Baarstue Brød et stort og vældigt Snit,</l>
+    <l rend="indent">Og derpaa smurde fast et half Pund <w>Gaase-Fit</w>.</l>
+    <l><note n="(69)" place="bottom"><ref type="refMark">(69)</ref><p>Derover er bleven giordt den bekiendte Viise:</p>
+        <lg><l>Katten og Kiællingen</l>
+        <l>De sloges om Vællingen, etc.</l></lg>
+        <p>Som grunder sig paa en sandfærdig Historie, som vi hafde <hi rend="ant">ignoreret,</hi> hvis ikke
+        Per Paarses Historie var kommen for Lyset.</p></note> Hun derforuden gaf en mægtig Skaal af Vælling,</l>
+                             
+
+
+
+    <l n="295"><pb ed="A" n="E8v" facs="II-E8v"/><pb ed="SS" n="134"/>Og sat det paa en Stoel for Katten og hans Kiælling.</l>
+    <l rend="indent">Vor Gunnild aad saa stærk at Mons blef gandske vreed,</l>
+    <l rend="indent">Sær da hand Bunden saae, og hendes Finger beed.</l>
+    <l>Hun Katten gaf igien et vældigt Ørefigen,</l>
+    <l>Saa blef Mons god igien, og straxen endtes Krigen,</l>
+                <l rend="indent" n="300">Thi skiønt de ofte var tillsammen udi Striid,</l>
+    <l rend="indent">Saa blef slig Tvistighed ey gammel nogen Tiid.</l>
+    <l>Thi mand kand sige det til Gunnilds største Ære,</l>
+    <l>Hun elskte Katten, som det Husbond kunde være,</l>
+    <l rend="indent">Ja fra den Tid og Stund hun mistet Christen Smed <note n="(70)" place="bottom"><ref type="refMark">(70)</ref><p>Hendes forrige Mand, af hvilken hun hafde mange store Videnskaber, besynderlig at slaa Øye ud paa Folk, hvor til mange Smede endnu lade sig bruge.</p></note></l>
+                <l rend="indent" n="305">Hun elskte intet Beest med slig Oprigtighed.</l>
+    <l>Da Skraatten nu var fuld, hun hen til Sengen rendte,</l>
+    <l>Saa Nille blef forskrækt, mod hende Ryggen vendte,</l>
+    <l rend="indent">Hun raabte: lille Noor! frisk Mood! Det er ey stoort,</l>
+    <l rend="indent">Jer skader ingen Ting, I ikkun er forgiort.</l>
+                <l n="310">Jeg maa mig lidet kun med Katten først raadføre,</l>
+    <l>I saadan vigtig Sag, hans gode Meening høre.</l>
+    <l rend="indent">Hun ham ved Øret tog, og sagde, kiære Kat!</l>
+    <l rend="indent">Af hvilket Trold er hun i saadan Tilstand sat?</l>
+                           
+                
+    <l><pb ed="A" n="F1r" facs="II-F1r"/>Mons ved en Bogstav kun sin Meening gaf tilkiende,</l>
+                <l n="315">At Nille ey af een forgiordt var, men af tvende,</l>
+    <l rend="indent">Af saadan Character, som hand i Sanden skref,</l>
+    <l rend="indent">Hun om den heele Sag strax underrettet blef.</l>
+    <l><note n="(71)" place="bottom"><ref type="refMark">(71)</ref><p>Om det er en Runne Bogstav eller ey, skal jeg ikke sige, mig synes at den seer
+        ikke <w>u-liig</w> en <w>Katte-Kloe</w>.</p></note> Jeg udi Paarses Bog den saa ?a? har fundet tegnet,</l>
+    <l>Peer Degn den Bogstav har for gammel  Islandsk regnet,</l>
+                <l rend="indent" n="320">Thi den seer ud som <hi rend="ant">O</hi> i Rune Alphabet,</l>
+    <l rend="indent">Hand hafde paa en Steen slig Bogstav skreven seet.</l>
+    <l>I saadan Character den <w>høy-oplyste</w> Qvinde,</l>
+
+
+
+    <l><pb ed="SS" n="135"/>Den heele gandske Sag strax kunde see og finde,</l>
+    <l rend="indent"><note n="(72)" place="bottom"><ref type="refMark">(72)</ref><p>Mand haver adskillige Exempler paa, at Folk ere bleven forgiordte, fordi de haver
+        kastet deres <w>U-reenlighed</w> paa de Steder, hvor Underjordske holde til.</p></note> Hun sagde: Nille hør! I pisset har i Gaar,</l>
+                <l rend="indent" n="325">Ja, svared hun; slig Synd jeg fast hver Dag begaar.</l>
+    <l>Ach! raabte Gunnild da, I vil mig ikke høre,</l>
+    <l>Jeg pleyer ingen Snak og Slader med mig føre,</l>
+    <l rend="indent">I saadant haver giort just paa et saadant Sted,</l>
+    <l rend="indent">Hvor under samme Tid et Maaltid var bered</l>
+                               
+                
+    <l n="330"><pb ed="A" n="F1v" facs="II-F1v"/>For underjordske Folk, det heele Laug forvirret,</l>
+    <l>Og dennem alle saa mod eder har opirret,</l>
+    <l rend="indent">De for at hævne sig har eder saa forgiort</l>
+    <l rend="indent">Men slig Forgiørelse jeg agter ikke stort.</l>
+    <l><note n="(73)" place="bottom"><ref type="refMark">(73)</ref><p>Saaledes heedte og det Trold som bygde Lunds Domkirke.</p></note> Jeg kiender nok Find Trold, jeg skal ham strax hidstevne,</l>
+                <l n="335">Hand skal her for en Dag, end skulde Jorden rævne,</l>
+    <l rend="indent">Hun sterkt paa Katten saae, nu bliver her et Spil,</l>
+    <l rend="indent">Hun sagde, lukker kun først alle Luuger til.</l>
+    <l>Thi Biergfolk lader sig kun see ved <w>Natte-tide</w>,</l>
+    <l>Og naar det bliver mørkt, de Dagen ey kand lide,</l>
+                <l rend="indent" n="340">Saa snart de Soelen seer, de deraf faar et Meen,</l>
+    <l rend="indent"><note n="(74)" place="bottom"><ref type="refMark">(74)</ref><p>Det er bekiendt, at, naar Trold see Soelen, blive de forvandlede til Steen; Og
+        vide adskillige troværdige boesiddende Bønder endnu at viise saadanne Steene,
+        Som have været Trold tilforn, hvorvel mand udi Kiøbstæderne ingen saadanne
+        Exempler have, maa skee, efterdi Trold der saa lettelig ikke kand blive <hi rend="ant">surpreneret</hi>
+        af Soelen, og finder allevegne Huuse og Kieldere for sig, hvor de kand skiule sig udi.</p>
+    </note> De fleeste bliver strax forvandlede til Steen.</l>
+    <l>Hun tog et stykke Kriid, skref mange Characterer,</l>
+    <l>Sig vriider som en Orm, studerer, speculerer,</l>
+    <l rend="indent">Nu loed hun som hun var i Knibe, under laae,</l>
+                <l rend="indent" n="345">Nu som hun hafde seyr, som hun var oven paa.</l>
+                   
+    <l><pb ed="A" n="F2r" facs="II-F2r"/>Fogdinden maatte da, med Tugt at sige, - - -,</l>
+    <l>Hun hafde aldrig Trold tilforen seet, ey Nisse,</l>
+    <l rend="indent">Hun hafde da af Skræk sin Daatter gandske glemt,</l>
+    <l rend="indent">Slig Fristelse er ey for gamle Qvinder skiemt.</l>
+                <l n="350">Mand hørde da en Røst i Gangen, een at raabe,</l>
+
+
+    <l><pb ed="SS" n="136"/>Hvis jeg fordøyer sligt, da kald mig kun en Taabe,</l>
+    <l rend="indent">Jeg skal mig hævne paa den gamle pulver Hex</l>
+    <l rend="indent">Saa sandt jeg ærlig er og 2. og 3. er Sex.</l>
+    <l>Det var Jens Blokes Røst: Hand hafde faaet viide,</l>
+                <l n="355">At Gunnild hentet var, hand kunde sligt ey liide,</l>
+    <l rend="indent">Hand bankede ey paa, men brød i Stuen ind,</l>
+    <l rend="indent">Hans Vrede, Hidsighed ham giorde da saa blind,</l>
+    <l>At hand tilside sat all Cermonie og Orden</l>
+    <l>Og gandske hafde glemt, hand var i <w>Fogde-Gaarden</w>,</l>
+                <l rend="indent" n="360">Da hand i Stuen kom, hand raabte: hvor er fat,</l>
+    <l rend="indent">Jeg Soelen nyelig saae, nu er det bleven Nat.</l>
+    <l>Da falt paa Gulvet ned af Rædsel vor Fogdinde,</l>
+    <l>Og raabte: spar Hr. Trold! spar Lifvet denne sinde,</l>
+    <l rend="indent">Jeg har ey kaldet jer, det denne Kiærling er,</l>
+                <l rend="indent" n="365">Jeg Kun eenfoldig er, ey hexe kand, dis verz !</l>
+    <l>Jeg veed ey eders Navn, ey sige kand til visse</l>
+    <l>Om I et Biergtrold er en Underjordsk og Nisse,</l>
+    <l rend="indent">Hvis I mig griber an, I den Urette tar,</l>
+    <l rend="indent">Jer Bryllups Dag og Fest jeg ey vanæret har.</l>
+                <l n="370">Min Daatter det har giort, jeg udi hendes Sager</l>
+    <l>Ey vil bemænge mig, og aldrig Deel jeg tager.</l>                
+    <l rend="indent"><pb ed="A" n="F2v" facs="II-F2v"/>Da Blok forskrækket blef, og skreeg: Ach Himmel! ach!</l>
+    <l rend="indent">Hvor er dog dette fat, hvad hører jeg for Snak?</l>
+    <l>Fogdinden udaf Skræk mig her til Foede falder,</l>
+                <l n="375">Sin Daatter offrer op, mig Trold og Nisse kalder,</l>
+    <l rend="indent">Hand tager sig dog Mod, til Vinduet gaar hen,</l>
+    <l rend="indent">Løs Skruer Lugerne, saa blef det liust igien.</l>
+    <l>Saa snart hand Gunnild saae, hand raabte pulver Hexe!</l>
+    <l>Jeg skal dit leede Trold nu lære anden Lexe,</l>
+                <l rend="indent" n="380">Du kiender mig jo vel, jeg er din Ven Jens Blok,</l>
+    <l rend="indent">Hvis du bær derom tvil, dig lære skal min Stok.</l>
+    <l>Hand derpaa Gunnilds Ryg begynte braf at smøre,</l>
+    <l>Saa at mand kunde det i Borgestuen høre,</l>
+    <l rend="indent">Men til Ulykke sprang hans Messingknappet Stok,</l>
+                <l rend="indent" n="385">Det var en fattig mand paa en Tid skade nok.</l>
+    <l>Slig Skade kunde Frygt en Hector self indjage,</l>
+    <l>Hand ubevæbnet var, og maatte Flugten tage;</l>
+
+
+    <l rend="indent"><pb ed="SS" n="137"/>Men Gunnild fulte ham i Hælen med sin Kat,</l>
+    <l rend="indent">Og midt i Gaarden fik den gode Doctor fat.</l>
+                <l n="390">Der denne tappre Mand ey længer kunde komme,</l>
+    <l>Paa nogle Tønder falt, der Bulder gaf som Tromme,</l>
+    <l rend="indent">Og saasom et Signal var til det store Slag,</l>
+    <l rend="indent">Som mand hør tale om paa Øen denne Dag.</l>
+    <l>Her synes nødig at staa noget lidet stille,</l>
+                <l n="395">Thi mand om dette Slag ey dømme  kand og skille,</l>
+    <l rend="indent">Hvis Situation af Stædet mand ey veed,</l>
+    <l rend="indent">Som ofte hielper meer til Seyr end Tapperhed.</l>
+                
+    <l><pb ed="A" n="F3r" facs="II-F3r"/>Det midt i Gangen var for Fogdens <w>Skriver-Kammer</w>,</l>
+    <l>Hvor ret tog Overhaand den store Striid og Klammer,</l>
+                <l rend="indent" n="400">Den Fordeel hafde Blok, at hand blant Tønder stood,</l>
+    <l rend="indent">Sig derved styrkede, og saasom fæsted’ Rood.</l>
+    <l>Saa at mand kunde ey mod hannem  ret marchere,</l>
+    <l>Med mindre med Fortræd mand maatte defilere,</l>
+    <l rend="indent">Hand derimod sig af de Tønder hindret saae;</l>
+                <l rend="indent" n="405">Saa at hand tvungen var, ey kunde om sig slaa.</l>
+    <l>Af Bryggerset en Røg stoed lige i hans Næse,</l>
+    <l>Thi Vinden mand fornam fra Gunnilds Side blæse,</l>
+    <l rend="indent">Saa det for hannem var som fæle mørke Nat,</l>
+    <l rend="indent">Hand Øyne ikkun saae paa hendes sorte Kat.</l>
+                <l n="410">Om Gunnild derimod mand mig har informeret,</l>
+    <l>At hun og hendes Kat var meget vel posteret,</l>
+    <l rend="indent">Paa eene Side stod et mægtigt Kar med Vand</l>
+    <l rend="indent">Paa anden Side laa to Dynger Mask og Sand.</l>
+    <l>Thi saadan Kriig i Fald den hafde varet længe,</l>
+                <l n="415">Til Proviant og Vand hun kunde ikke trænge,</l>
+    <l rend="indent">At have Flanken fri og megen Fordeel er,</l>
+    <l rend="indent">En god Anfører meest derefter altid seer.</l>
+    <l>Bag Ryggen Trappen var til Fogdens <w>Skriver-Stue</w>,</l>
+    <l>Var hende heel beqvem, og der til kunde due</l>
+                <l rend="indent" n="420">At hvis Blok Overhaand mod hende skulde faae,</l>
+    <l rend="indent">Hun derpaa som en Vold og Skandse kunde  staae.</l>
+                
+    <l><pb ed="A" n="F3v" facs="II-F3v"/>Hand <w>u-bevæbnet</w> var, hans Stok Var reent i stykker,</l>
+    <l>Hun stod i fuld Mondur, med begge sine Krykker,</l>
+    <l rend="indent">Hand ikkun eene var paa fremmet  Stæd forlat,</l>
+
+
+
+    <l rend="indent" n="425"><pb ed="SS" n="138"/>Hun som i eget Huus var hiulpet af sin Kat.</l>
+    <l>Hand, gandske stiv af Kuld, en lang Vey hafde gaaet,</l>
+    <l>Hun Vælling, Fit og Brød i Varmen hafde faaet,</l>
+    <l rend="indent">Men derimod var hand i Alders beste Floor,</l>
+    <l rend="indent">Hun kunde være fast hans egen Oldemoor.</l>
+                <l n="430">Sligt en Historicus heel nøye maa beskrive,</l>
+    <l>Nu vil jeg straxen mig til Slaget self begive,</l>
+    <l rend="indent">Som tredie gammel  Stiil i Blidemaanet stoed,</l>
+    <l rend="indent">Tre Dage efter Paars paa Øen fæstet Foed.</l>
+    <l>O <hi rend="ant">Musæ</hi>! kommer  hid, nu giælder det, Gudinder!</l>
+                <l n="435">(Hvad eders Navne er, jeg ey mig ret besinder,)</l>
+    <l rend="indent">Thi uden eders Hielp hvad duer <hi rend="ant">Poësie?</hi></l>
+    <l rend="indent">Hvo være kand <hi rend="ant">Poët?</hi> ach kommer alle Ni.</l>
+    <l><note n="(75)" place="bottom"><ref type="refMark">(75)</ref><lg rend="ant"><l>Nec fonte labra prolui Caballino,</l>
+        <l>Nec in bicipiti somniasse Parnasso,</l>
+        <l>Memini</l></lg> <p>Pers. Sat. Prolog.</p></note> Dog see! jeg gaar forviit, hvor kand jeg saadant haabe?</l>
+    <l>Jeg som tit nægtet er en Heliconis Draabe;</l>
+                <l rend="indent" n="440">Men eders Hielp jeg Kun begiærer denne gang,</l>
+    <l rend="indent">At bringe dette Slag i ret Poetisk Sang.</l>
+    <l>Enhver blef paa sin Post en Time ja vel meere:</l>
+    <l><note n="(76)" place="bottom"><ref type="refMark"/><p>Paa got prosa heeder det Rendesteen.</p></note> Thi mand en liden Flood først hafde at passere,</l>
+    <l rend="indent">Og blef imidlertid kun bruget <w>Skud-Gevær</w>,</l>
+                <l rend="indent" n="445">Hun raabte Kiæltring! Hund! Hand <w>Pulver-Hexe</w>! Mær!</l>
+                      
+                
+    <l><pb ed="A" n="F4r" facs="II-F4r"/>Mand dennem længe saae med slige Kugler skyde,</l>
+    <l>Med <w>Skiælds-Ord</w>, haard Confect, hinanden sterkt at bryde,</l>
+    <l rend="indent">Thi der af Diefle blef spenderet mangen Skok,</l>
+    <l rend="indent">Saa dette store Slag blef holt methodisk nok.</l>
+                <l n="450">De brugte samme Skik, som Græsk Trojanske Helte,</l>
+    <l><note n="(77)" place="bottom"><ref type="refMArk">(77)</ref><p>Den store <hi rend="ant">Agamemnon</hi> self, maa stikke 
+        saadanne Tituler i sin Lomme hos <hi rend="ant">Homerum,</hi> for Exempel:</p>
+        <l>Οἰνοβαρές, κυνὸς ὄμματ’ ἔχων, κραδίην δ’ ἐλάφοιο</l> <p><hi rend="ant">Hom. Iliad.</hi> 1.</p>
+        <p>Ja Gunnild og Jens Blok have ved saadan fyndig <hi rend="ant">Dialogue imiteret</hi> Guder
+        og Gudinder self.
+    </p></note> Der, før de sloge til, hinanden sterkt udskiælte.</l>
+
+
+    <l rend="indent" n="455"><pb ed="SS" n="139"/>Jens Blok mand dreven saae i gammel <hi rend="ant">Poesie;</hi></l>
+    <l rend="indent"><note n="(78)" place="bottom"><ref type="refMark">(78)</ref><p>Hvilket var høyeste Mode udi den Trojanske Krig, før mand slog til: Saaledes
+        regner Æneas blant andre, fast sine Sexten Ahner op, førend hand slaar til Achilles.</p>
+        <l>Δάρδανον αὖ πρῶτον τέκετο νεφεληγερέτα Ζεύς</l> <p><hi rend="ant">&amp;c. Hom. Iliad. 20.</hi></p></note> Thi hand opregnede sin <hi rend="ant">Genealogie</hi>.</l>
+    <l>Hand sagde: for min Konst jeg agtet er og æret</l>
+    <l>Jeg takker i hans Grav, den det mig haver læret,</l>
+    <l rend="indent">Min Fader var en Mand, jeg vil ey sige meer,</l>
+                <l rend="indent" n="460">Min <w>Beste-Fader</w> og i Jylland var Barbeer.</l>
+         
+                
+    <l><pb ed="A" n="F4v" facs="II-F4v"/>Min <w>Olde-Fader</w> med Respect var og det samme.</l>
+    <l>I gammel  Adels Huus min Moder var en Amme,</l>
+    <l rend="indent">Hun svarede: du est et Skaren, Skielm og Tyv,</l>
+    <l rend="indent">Jeg er saa god som du, ja fast som slige syv.</l>
+    <l n="465"><note n="(79)" place="bottom"><ref type="refMark">(79)</ref><p>Saaledes talte og Achilles udi Striden til sine <w>Felt-Mærre</w>.</p>
+        <l>Ξάνθε τε καὶ Βαλίε τηλεκλυτὰ τέκνα Ποδάργης, <hi rend="ant">&amp;c.</hi></l>
+        Item Antilochus til sine Heste, ibid. 23. Men dette bliver her ikke saa meget <hi rend="ant">outreret,</hi> som hos Homerum, hvor undertiden Hestene svarer meget ziirlig (e. g.) Achillis Heste. <p><hi rend="ant">Iliad. 19.</hi></p>
+        <p>Ja de græder undertiden, som over Patrocli Liig:</p> <l>Ἵπποι δ’ κλαῖον</l> <p><hi rend="ant">Hom. Iliad. 17.</hi></p></note> Hun raabte: kiære kat! vi kand ey bie meere,</l>
+    <l>Vi vove maa et Slag, vi Floden maa passere!</l>
+    <l rend="indent">De derpaa ginge fort med saadan Tapperhed,</l>
+    <l rend="indent">Som mand fra Cæsars Tid ey haver hørt og seet.</l>
+    <l>En ærlig Siæl slig Spot kand ikke længer liide,</l>
+                <l n="470">Hun glemte Fare, Frygt, sat alle Ting tilside,</l>
+    <l rend="indent">Flood, Skandser, Fiendens Magt hun agtede ey stort,<note n="(80)" place="bottom"><ref type="refMark">(80)</ref><p><hi rend="ant">Jacta est alea,</hi> hvor til <hi rend="ant">alluderes.</hi></p></note></l>
+    <l rend="indent">Kom over lykkelig, og skreeg nu er det giort!</l>
+    <l>Med liige Tapperhed mand saae dem længe striide,</l>
+    <l>Hvo Seyer skulde faae, mand kunde ikke viide,</l>
+     
+    
+    <l rend="indent" n="475"><pb ed="A" n="F5r" facs="II-F5r"/>Hun offensive gik med et uhørligt Mood,</l>
+    <l rend="indent">Forlangede at see hans Død og <w>Hierte-Blood</w>.</l>
+    <l>Med Hectors Force slog med begge sine Krykker,</l>
+    <l>Mand tænkte ved hvert Slag en Tønde gif i stykker,</l>
+    <l rend="indent">Hand paa Tartarisk Viis nu rykked frem, nu løb,</l>
+
+
+
+    <l rend="indent" n="480"><pb ed="SS" n="140"/>Nu reyste Hovedet, nu bag en Tønde krøb.</l>
+    <l>Ret som en Snegel, der nu kryber ind i Huuset,</l>
+    <l>Nu tager Mod igien, og kommer frem for Liuset,</l>
+    <l rend="indent">Saa denne tapper Mand, nu fast usiunlig var,</l>
+    <l rend="indent">Nu kommer for en Dag, og atter Hierte tar.</l>
+    <l n="485">Da dette slore Slag en Time hafde varet,</l>
+    <l>Og mand imidlertid sig ikke hafde sparet,</l>
+    <l rend="indent">Da see! hvad skeede da, mand tvende Krager saae</l>
+    <l rend="indent">I Luften holde still, og over Gunnild staae.</l>
+    <l>Hun over saadan Syn sig ikke kunde fryde,</l>
+    <l n="490">Af deres Gang og Sving hun kunde strax udtyde,</l>
+    <l rend="indent">At hendes Undergang og Fald forhaanden stood.</l>
+    <l rend="indent"><note n="(81)" place="bottom"><ref type="refMark"/><p>Det gik denne gode Qvinde ikke bedre end Juturna hos Virgilium, hvilken forskrækket af saadant Syn, forlod Slaget.</p>
+        <lg rend="ant"><l>– – talin’ possum me opponere monstro,</l>
+            <l>Jam jam relinqvo aciem, ne me terrete timentem,</l>
+            <l>Obscenæ Volucres. Alarum Verbera nosco.</l></lg>
+            <p>Virg. Æneid. 12.</p></note> Blef <w>daane-færdig</w> strax, og tabte <w>Helte-Mood</w>.</l>
+        
+
+    <l><pb ed="A" n="F5v" facs="II-F5v"/>I gamle Eventyr hvo dreven er og øvet,</l>
+    <l>Den veed, at saadant Syn har mangen Helt bedrøvet.</l>
+    <l rend="indent" n="495">Ret som et <w>Bierg-Trold</w>, naar det Lys og Soelen seer,</l>
+    <l rend="indent">Forvandlet bliir til Steen, kand sig ey røre meer,</l>
+    <l>Saa Fyrighed og Mod hos Gunnild strax forsvandtes,</l>
+    <l>Ey varm Blodsdraabe meer i hendes Legem fandtes,</l>
+    <l rend="indent">Thi dette fæle Syn ald Ild af Kroppen drev</l>
+    <l rend="indent" n="500">Saa at hun fast til Steen, som Trold, forvandlet blef,</l>
+    <l>Saa Katten maatte fast fortsætte Slaget eene,</l>
+    <l>Hand som et Egern der i Træets Top og Greene</l>
+    <l rend="indent">Med stoor Forundring giør, nu et, nu andet Spring,</l>
+    <l rend="indent">Paa Blokes Skandser sprang, og kiørte som i Ring.</l>
+    <l n="505">Blok merkede, at hvis hand Katten kunde fælde,</l>
+    <l>Victorien da til hans Side vilde hælde,</l>
+    <l rend="indent">Hand derpaa vendte an stor Møye Konst og Magt,</l>
+    <l rend="indent">Og endeligen tog sin Tempo saa i agt,</l>
+    <l>At hand fik Katten fat, som da tog paa at skriige,</l>
+
+
+    <l n="510"><pb ed="SS" n="141"/><note n="(82)" place="bottom"><ref type="refMark">(82)</ref><p><hi rend="ant">Homericè &amp; eleganter.</hi></p></note> Saa deraf skiælvede det heele Anholts Rige,</l>
+    <l rend="indent"><note n="(83)" place="bottom"><ref type="refMark">(83)</ref><p><hi rend="ant">Stentor</hi> hafde saadant Skraal, som 50. andre.</p>
+        <l>Ὅσσον ἄλλοι πεντήκοντα.</l> <p><hi rend="ant">Hom. Iliad.</hi> 5.</p></note> En Stentor kunde self ey give større Skriig,</l>
+    
+    <l rend="indent"><pb ed="A" n="F6r" facs="II-F6r"/><note n="(84)" place="bottom"><ref type="refMark">(84)</ref><l>Og Mars som 10000. andre.</l> <p><hi rend="ant">Hom. Ibid.</hi></p></note> Ja Mars ey straalte meer i den Trojanske Kriig.</l>
+    <l>Af sligt den tappre Blok dog ikke Modet miste,</l>
+    <l>Men Mons om Rumpen tog, og sig til Gunnild liste,</l>
+    <l rend="indent" n="515">Med saadan <w>Haand-Gevær</w> om Ørne hende sloog,</l>
+    <l rend="indent">Hun gandske modløs blef, og straxen Flugten toog.</l>
+    <l>I Flooden styrtede, da hun tilbage rykker,</l>
+    <l><note n="(85)" place="bottom"><ref type="refMark">(85)</ref><l>– – – ἀράβησε τεύχε’.</l>
+        <p>hvilket er ligesom Omqvæd hos <hi rend="ant">Homerum.</hi></p></note> Ved saadant Fald det sang og klang i hendes Krykker,</l>
+    <l rend="indent">Ret som en gammel Eeg der ved en <w>Aa-bred</w> staar,</l>
+    <l rend="indent" n="520">Den rasend Norden Vind saa længe mod den slaar,</l>
+    <l>At den maa falde om, den heele Flood sig hæver,</l>
+    <l><note n="(86)" place="bottom"><ref type="refMark">(86)</ref><p>De kaldes <hi rend="ant">Najades,</hi> og lader sig undertiden see paa Floderne af <hi rend="ant">Poëter,</hi> men ikke
+        uden i meget deyliigt Veyr; thi de ere meget Kiælne, som alle fornemme Jomfruer.</p></note> Og <w>Flood-Gudinderne</w> af Rædsel skiælver, bæver,</l>
+    <l rend="indent">Saa Blok som hæftig Storm vor Gunnild dref og sloog,</l>
+    <l rend="indent">Indtil hun styrtede. Slig Ende Slaget toog.</l>
+        
+    <l n="525"><pb ed="A" n="F6v" facs="II-F6v"/>Saa Endtes denne Striid, mand haver den anskreven,</l>
+    <l>Som største, der af Blok paa Øen holdt er bleven,</l>
+    <l rend="indent"><note n="(87)" place="bottom"><ref type="refMark">(87)</ref><p><hi rend="ant">Facta dictaqve illustrium Virorum alia clariora sunt, alia majora.</hi></p>
+        <p><hi rend="ant">Plin. lib. 3. epist. 16.</hi></p></note> Thi, skiøndt af første To der større Rygte gik,</l>
+    <l rend="indent">Hand meste Ære dog af sidste Handel fik.</l>
+    <l>Af dette store Slag slig Lærdom mand kand trække,</l>
+    <l n="530">At den, der lader sig af ringe Ting forskrække,</l>
+    <l rend="indent">I hvilken Overtroe kun haver mindste Stæd,</l>
+    <l rend="indent">Sig styrter ofte i Ulykke og Fortræd.</l>
+    <l>Ey Gunnild eene er, der lood sig saa forblinde,</l>
+    <l>Mand i Historier Exempler nok kand finde,</l>
+    <l rend="indent" n="535">At tit en Røg, en Ild, et Dyr, et <w>Fugle-Skriig</w>,</l>    
+
+    <l><pb ed="SS" n="142"/>Ophidset har et Land, giort Ende paa en Kriig.</l>
+    <l>Indvolde af en Koe har kundet dennem spæge,</l>
+    <l>Som gandske Verdens Magt ey kunde slaa, bevæge,</l>
+    <l rend="indent">Den store <w>Romer-Bye</w>, ja heele Verdens Magt,</l>
+    <l rend="indent" n="540">En Spaamand, Giæk og Nar har været underlagt.</l>
+    <l>En liden Fugl, en Orm har kundet sig berømme,</l>
+    <l>At den har holdet tit et Riige udi Tømme,</l>
+    <l rend="indent">En Nicias af sligt saa sterkt forblindet var,</l>
+    <l rend="indent">At hand sin Hær, sit Land, sig self opoffret har.</l>
+    <l n="545"><pb ed="A" n="F7r" facs="II-F7r"/>Mand dog alligevel dem kaldet haver Viise,</l>
+    <l>Mand dog Skribenter seer for Klogskab dem at priise.</l>
+    <l rend="indent">Jeg priiser derimod den daarlig Mand, den Nar,</l>
+    <l rend="indent">Den, som om Mennesket saa sælsom talet har:</l>
+    <l><note n="(88)" place="bottom"><ref type="RefMark">(88)</ref> Saasom Pythagorici troede, 
+        at, naar et Menneske døde, kom hans Siæl udi et andet Creatur.</note> 
+        <hi rend="bold">Jeg beder Guderne, at, naar min Tiid er omme,</hi></l>
+    <l n="550"><hi rend="bold">At udi Mennesker min Siæl ey meer maa komme,</hi></l>
+    <l rend="indent"><hi rend="bold">Men at den heller maa faa Boelig i en Koe,</hi></l>
+    <l rend="indent"><hi rend="bold">En Orm, en madike, et Asen eller Soe.</hi></l>
+</lg>     
+           <p rend="center"><hi rend="ant">Reliqva desunt.</hi></p>
+      <pb ed="A" n="F7v" facs="II-F7v"/>
+        </div>
+            </div>
+</body>
+</text>
+</TEI>

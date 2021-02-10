@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="Daphn">Laniena Daphnica eller Det Daphniske Blodbad</title>
+                <author>Ludvig Holberg</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>1746</date></edition>
+            </editionStmt>       
+            <publicationStmt>
+                <pubPlace/>
+                <availability>
+                    <p rend="head">Tekststatus:</p>
+                    <p>Ikke punktkommenteret</p>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Ludvig Holbergs Mindre Poetiske Skrifter</title>, <date>1746</date>. Det Kgl. Bibliotek, M, 38582, 8vo, ex. 1.</witness>
+                    <witness xml:id="udg1767"><title key="none">Baron Ludvig Holbergs mindre Poetiske Skrifter</title>, trykt hos Brødrene J.C. og G.C. Berling, 1767</witness>
+                    <witness xml:id="Rahbek"><title key="none">Ludvig Holbergs udvalgte Skrifter</title>, Udgivne ved K. L. Rahbek, Ottende Del: Holbergs Vittigheds-Værker, bd. 2, 1806.</witness>
+                    <witness xml:id="Liebenberg"><title key="none">Ludvig Holbergs Mindre Poetiske Skrifter</title>, udgivne af F.L. Liebenberg, Kbh. 1866.</witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udgivne af Carl S. Petersen, bd. 15, 1935.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dan">dansk</language>
+                <language ident="lat">latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-12-28" who="ksp">rettet trykfejl v. 131 bed List &gt; ved List</change>
+            <change when="2014-12-11" who="ng">justeret tekstkritik efter konsultation af Berling</change>
+            <change when="2014-11-28" who="ng">tekstkritik og yderligere opmærkning</change>
+            <change when="2014-11-27" who="ng">versopmærkning og linietal</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-01-24" who="fgj">tilføjelse af tekststatus</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change when="2012-08-24" who="fgj">indsat faksimileliste og -referencer i teksten</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+            <change when="2012-02-27" who="fgj">læst de første to sider mod faksimilen.</change>
+            <change when="2012-02-25" who="fgj">filen oprettet som Laniena_Daphnica.page, ikke korrekturlæst, linjekodning mv. mangler.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic n="284" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00289.jpg" xml:id="p0"/>
+        <graphic n="285" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00290.jpg" xml:id="p271"/>
+        <graphic n="286" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00291.jpg" xml:id="p272"/>
+        <graphic n="287" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00292.jpg" xml:id="p273"/>
+        <graphic n="288" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00293.jpg" xml:id="p274"/>
+        <graphic n="289" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00294.jpg" xml:id="p275"/>
+        <graphic n="290" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00295.jpg" xml:id="p276"/>
+        <graphic n="291" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00296.jpg" xml:id="p277"/>
+        <graphic n="292" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00297.jpg" xml:id="p278"/>
+        <graphic n="293" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00298.jpg" xml:id="p279"/>
+        <graphic n="294" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00299.jpg" xml:id="p280"/>
+        <graphic n="295" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00300.jpg" xml:id="p281"/>
+        <graphic n="296" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00301.jpg" xml:id="p282"/>
+        <graphic n="297" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00302.jpg" xml:id="p283"/>
+        <graphic n="298" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00303.jpg" xml:id="p284"/>
+        <graphic n="299" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00304.jpg" xml:id="p285"/>
+        <graphic n="300" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00305.jpg" xml:id="p286"/>
+        <graphic n="301" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00306.jpg" xml:id="p287"/>
+        <graphic n="302" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_mindrepoetiskeskrifter_1746/MPS_1746_00307.jpg" xml:id="p288"/>
+    </facsimile>
+    
+<text xml:lang="dan" xml:id="Daphn" type="orig" subtype="Daphn" n="/tekster/MPS/Laniena_Daphnica.page">
+
+<front>
+    <titlePage xml:id="start" n="[Titelblad]">
+        <pb ed="A" n="0" facs="p0"/><lb/>
+        <pb ed="A" n="271" facs="p271"/>
+        <docTitle>
+            <titlePart type="main"><hi rend="ant">LANIENA
+            <lb/>DAPHNICA</hi>,</titlePart>
+            <titlePart type="sub">eller
+            <lb/>Det Daphniske
+            <lb/>Blodbad.</titlePart>
+        </docTitle>
+        <pb ed="A" n="272" facs="p272"/>
+        </titlePage>
+</front>
+<body>
+    <div xml:id="chap" n="[Tekst]">
+        <pb ed="A" n="273" facs="p273"/>
+        <pb ed="SS" n="13"/>
+        <lg>
+            <l><hi rend="ant"><w><hi rend="init">C</hi>rispus</w> Monsonius,</hi> en <app type="tc"><lem><corr resp="ed">Skov- og</corr></lem><rdg wit="A">Skov-og</rdg></app> Kamerjæger,</l>
+            <l>Udmattet udaf sult i Daphne Skov sig lægger</l>
+            <l rend="indent">Med lukte Øyen og med sammenkrymped Krop</l>
+            <l rend="indent">Som een, der Testament har giort, gir Aanden op.</l>
+            <l n="5">Den ædle Løve, som paa Røsten Dyret kiender,</l>
+            <l>Forskrækkes, og sig mod den klynkend Jæger vender:</l>
+            <l rend="indent">Han siger: kiære Søn, hvi er det med dig fat?</l>
+            <l rend="indent">Det synes, denne Nat dig bliver sidste Nat.</l>
+            <l><hi rend="ant">Monsonius</hi> opvakt af dette Lyd, sig reyser,</l>
+            <l n="10">I slige <w>Klage-Ord</w> frembryder: Skovens Keiser!</l> 
+            <l rend="indent">Al Lyst til Liv forgaaer, mig tiener Døden best</l>
+            <l rend="indent">Min Velstand ude er, <hi rend="ant" xml:lang="lat">jam conclamatum est.</hi></l>
+            <l>I fior jeg trivend var, saa feed som en Forpagter,</l>
+            <l>Af Sult nu kryber ind, mig mindste Dyr foragter,</l>
+            <l rend="indent" n="15">Hvad Lyst til Livet er, naar leves udi Nød,</l>
+            <l rend="indent">Naar man ey haver det, som kaldes dagligt Brød.</l>
+            <l>Da Løven spurte: hvad kand Aarsag dertil være?</l>
+            <l>Ham Katten svarede: <app type="tc"><lem><corr resp="ed">Høy- og</corr></lem><rdg wit="A">Høy-og</rdg></app> Velbaarne Herre!</l>
+            <l rend="indent">Jeg selv ey Aarsag er; men alting tager af,</l>
+            <l rend="indent" n="20">Hver anden Jæger snart vil gaae med Bettelstav,</l> 
+            <l>Ved Arbeyd andre Dyr kand Fattigdom <app type="tc"><lem wit="A">bekrige;</lem><rdg resp="udg1767 SS">bekrige:</rdg></app></l>
+            <l>Sligt uanstændigt er for mig og mine Lige.</l>                      
+            <pb ed="A" n="274" facs="p274"/>
+            <l rend="indent">Man veed vor Herkomst, at den prægtig er og stoer:</l>
+            <l rend="indent">At Katten stammer ned af Løvens Næseboer.</l>
+            <l n="25">Han deri havde ret: thi Østerlandske Skrifter,</l> 
+            <l>Hvorudi findes Dyrs Oprindels’ og Bedrifter,</l>
+            <l rend="indent">Bevidne, første Kat af Dyrenes Monarch,</l>
+            <l rend="indent">At være afled; thi, da udi Noæ Ark</l>
+            <l>En Løve engang nøes, strax, af dens Næseboere</l>
+            <l n="30">To spæde Katte og vel dannede udfore:</l> 
+            <l rend="indent">Saaledes Katternes Stamfader Løven er, 
+                <note n="(a)" place="bottom"><ref type="refMark">(<hi rend="ant">a</hi>)</ref><hi rend="ant">Mahomedanerne</hi> 
+                    sige, at den første Kat er udfaren af Løvens Næseboer, da den engang nøes udi Noæ 
+                <app type="tc"><lem><corr resp="ed">Ark.</corr></lem><rdg wit="A">Ark</rdg></app></note></l>
+            <l rend="indent">Derfore disse Dyr hos alle Mennesker</l>
+            <pb ed="SS" n="14"/>
+            <l>For Arbeyd skaanes, og som Frimænd stedse ere,</l>
+            <l>Der øve Ridderspil, med Jagt sig eene nære</l>
+            <l rend="indent" n="35">Paa Fælled, Eenemærk, saa ingen Herremand</l>
+            <l rend="indent">Af større Herlighed sig heri bryste kand.</l>
+            <l>Saa lidt anstændigt da for Adelsmænd kand være</l> 
+            <l>Ved Hænders Arbeyd sig i Fattigdom at nære,</l>
+            <l rend="indent">Saa lidt anstændigt er og Arbeyd for en Kat,</l>
+            <l rend="indent" n="40">Som Byrd og Fødsel har i Adelstanden sat.</l>
+            <l>Sligt Løven vidste; men han sagde: hvo berøver</l>
+            <l>Dig nu din Adels Ret? Hvi Jagten du ey øver,</l> 
+            <l rend="indent">Som du tilforn har giort? mon Skov og Mark er tom</l>
+            <l rend="indent">For Muus og Rotter? mon dig trykker Alderdom?</l>
+            
+            
+            <pb ed="A" n="275" facs="p275"/>
+            <l n="45">Moons svared’: hver Mand veed, hver Jæger, hver Skovrider</l>
+            <l>Vor Alders Maverhed mod gamle gyldne Tider:</l>
+            <l rend="indent">Hvert Dyr i Skoven nu politisk bleven er,</l>
+            <l rend="indent">Dets List tiltager, det kand ey forraskes meer</l>
+            <l>Paa Skiltvagt somme staae, for andre at advare:</l>
+            <l n="50">Ved saadan Anstalt hver er uden Frygt og Fare,</l>
+            <l rend="indent">En Muus nu overgaaer i List en Hannibal</l>
+            <l rend="indent">Hver Rotte være kand en Romersk <hi rend="ant">Cardinal:</hi></l>
+            <l>Forgangen Uge jeg vel fik to døde Rotter:</l>
+            <l>Men dem til Medgift jeg gav med min ældste Dotter.</l>
+            <l rend="indent" n="55">Jeg selv med Frue, Børn med tomme Maver gaaer,</l>
+            <l rend="indent">Og ingen anden Død end ud af Hunger faaer.</l>
+            <l>Jeg i min Velstand har, desvær! forsømt at sætte</l>
+            <l>I <w>Enke-<hi rend="ant">Cassen</hi></w> for min kiære Fru <hi rend="ant">Allette.</hi></l>
+            <l rend="indent">Med naadig <hi rend="ant">Pension</hi> hvis hun ey hielpes, maa</l>
+            <l rend="indent" n="60">Hun selv med otte Børn af Armod undergaae.</l>
+            <l>Hvad Tilstand værre er? hvad større Ynk fortiener;</l>
+            <l>End naar Velbyrdighed med Armod sig foreener,</l>
+            <l rend="indent">En hver bekiende maa, at den er ilde skaarn</l>
+            <l rend="indent">Som Armod trykker, og som derhos er Velbaarn.</l>
+            <l n="65">Da Løven sagde: jeg beklager eders Skiebne;</l>
+            <l>Men man mod Musens List maa sig med List bevæbne.</l>
+            <pb ed="A" n="276" facs="p276"/>
+            <l rend="indent">Her bag ved denne Høy i liden Huule boer</l>
+            <l rend="indent">En huul <hi rend="ant">Politicus:</hi> I heele Sko, jeg troer</l>
+            <pb ed="SS" n="15"/>
+            <l>Er ey hans lige: Man ham Mester Mikkel kalder:</l>
+            <l n="70">Han underviiser Dyr af al slags Kiøn og Alder.</l>
+            <l rend="indent">Forklar for ham din Tarv, bekiend for ham din Nød,</l>
+            <l rend="indent">Han Raad vil give til at vinde Dagligt Brød.</l>
+            <l><hi rend="ant">Monsonius</hi> da strax til Huulen sig begiver,</l>
+            <l>Hvor han ved Dørren af en Rev begegned bliver.</l>
+            <l rend="indent" n="75">Han spørger, om han selv er Herren af det Huus?</l>
+            <l rend="indent">Ney svared’ Reven, jeg er kuns hans <hi rend="ant">Famelus.</hi></l>
+            <l><hi rend="ant">Magisteren</hi> er vel, men ey for alle inde;</l>
+            <l>Men tøv et Øyeblik, saa kand i hannem finde.</l>
+            <l rend="indent">Nu holder han for Fugl og Dyr <hi rend="ant">Collegium,</hi></l>
+            <l rend="indent" n="80">Som just paa denne Tid er <hi rend="ant">privatissimum.</hi></l>
+            <l>Han haver nu kun 5 Skolarer, som betale</l>
+            <l>For underviisning i <w>Stats-Konster</w> og <hi rend="ant">Morale,</hi></l>
+            <l rend="indent">Paa denne Time han har sat den største Priis,</l>
+            <l rend="indent">Thi han forklarer da hver Løverdags Aviis.</l>
+            <l n="85">Da Timen ude var, den heele lærde Skare</l>
+            <l><hi rend="ant">Magisteren</hi> forlod: de ni i Tallet vare.</l>
+            <l rend="indent">Strax <hi rend="ant">Famelus</hi> gik ind, tilkiende give lod</l>
+            <l rend="indent">At en <hi rend="ant">Solicitant</hi> ved Huulens Indgang stod.</l>
+            <l>Da Mesteren kom frem, og spurdte: hvi saa silde</l>
+            <l n="90">Paa Aftenen han kom, hvad han paa den Tid vilde?</l>
+            <pb ed="A" n="277" facs="p277"/>
+            <l rend="indent"><hi rend="ant">Monsonius</hi> til ham sig nærmed’ gandske Krum,</l>
+            <l rend="indent">Tilbad med Ydmyghed sig et <hi rend="ant">Consilium.</hi></l>
+            <l>Han Ordet førte saa: <hi rend="ant"><app type="tc"><lem><corr resp="ed">Clarissime</corr></lem><rdg wit="A">Glarissime</rdg></app> Magister!</hi></l>
+            <l>Mig Nøden driver, at jeg ydmygst mig fordrister</l>
+            <l rend="indent" n="95">At forurolige jêr Velærværdighed,</l>
+            <l rend="indent">Et Raad at høre, som min Tarv kand hielpes med,</l>
+            <l>I mig I seer en Mand, der stedse har med Ære</l>
+            <l>I Daphne Skov sit Liv frembragt; men nu desværre</l>
+            <l rend="indent">Den vanskelige Tid mig bragt har i en Stand,</l>
+            <l rend="indent" n="100">Som meere usel er, end den beskrives kand.</l>
+            <l>Mit Legem svindes, som jeg plaget var af Tæring.</l>
+            <l>Jeg er dog ikke syg: jeg Mangel har paa Næring,</l>
+            <l rend="indent">Slig Mangel giør, at jeg aftager, svinder hen,</l>
+            <l rend="indent">Saa ingen kiender meer <hi rend="ant">Monsonium</hi> igien.</l>
+            <pb ed="SS" n="16"/>
+            <l n="105">Ved denne Tale Hr. Michael spidsed Øre,</l>
+            <l>Han studsed’, da han fik Personens Navn at høre.</l>
+            <l rend="indent">Han raabte overlydt: er det den ædle Kat,</l>
+            <l rend="indent">Den store Jæger, og vor Daphne Skovs Zirat,</l>
+            <l>Men nu i usel Stand, til Jagten meer ey nytte?</l>
+            <l n="110">Jeg tænkte i en Hast, det var Svend Nielsen Skytte;</l>
+            <l rend="indent">Thi Skabning, Skikkelse alt saa forandret er,</l>
+            <l rend="indent">At af <hi rend="ant">Monsonio</hi> fast intet meer jeg seer</l>
+            <pb ed="A" n="278" facs="p278"/>
+            <l>En saadan usel Stand til Medynk mig bevæger,</l>
+            <l>Skiøndt vi <hi rend="ant">Politici</hi> paa Hiertet intet lægger. </l>
+            <l rend="indent" n="115">Vi som <hi rend="ant">Pedanterie</hi> anseer Medlidenhed,</l>
+            <l rend="indent">En slig <hi rend="ant">Affect</hi> hos os ey haver mindste Sted.</l>
+            <l>Men aabenbar mig frit din Tarv, og siig mig kiære!</l>
+            <l>Til Nærings Mangel hvad kand rette Aarsag være?</l>
+            <l rend="indent">Hvad Uheld driver dig, at gaae med Bettelstav?</l>
+            <l rend="indent" n="120">I Skoven jeg ey hør at Jagten tager af.</l>
+            <l>Da svared Katten jo; thi alle gamle Stræger</l>
+            <l>Nu intet gielde meer. En Muus den beste Jæger</l>
+            <l rend="indent">Nu veed at dreye, og at bruge Svig mod Svig,</l>
+            <l rend="indent">Ja den er udi List fast Menneskerne liig. </l>
+            <l n="125">Da Reven derpaa holdt en heel merkværdig tale,</l>
+            <l>Som jeg ey Kræfter har og Evne at afmale.</l>
+            <l rend="indent">Han sagde: I kand see paa eder selv i Speyl,</l>
+            <l rend="indent">Hvorledes man i List og Renker tager feyl,</l>
+            <l>Hvorledes Statsmænd selv ved Statsgreb sig fixere,</l>
+            <l n="130">Hvorledes Konsten kand sin Mester selv besnære.</l>
+            <l rend="indent">Een, der vil naae sit Maal ved List, ved Konst, ved Svig</l>
+            <l rend="indent">Maa øve Konsten, at den ey er kiendelig.</l>
+            <pb ed="A" n="279" facs="p279"/>
+            <l>Sligt tages ey i agt i Statsgreb; Konsten hinker,</l>
+            <l>De største Statsmænd er de allerstørste Sinker:</l>
+            <l rend="indent" n="135">De ved at lægge Svig til Svig og Konst til Konst</l>
+            <l rend="indent">Tit foraarsage, at al Arbeyd blîr omsonst.</l>
+            <l>Ved aabenbare List de ligesom advare,</l>
+            <l>At man skal vogte sig for satte Garn og Snare,</l>
+            <l rend="indent">Det i saa Maade dem, som fordum Manden, gaaer,</l>
+            <l rend="indent" n="140">Der raabte: vogt dig vel; thi jeg dig ellers slaaer.</l>
+            <pb ed="SS" n="17"/>
+            <l>En <hi rend="ant">Richelieu</hi> tilsidst ey kunde meer bedrage,</l>
+            <l>En <hi rend="ant">Mazarin</hi> sig lod ved Næsen ofte tage;</l>
+            <l rend="indent">Just, efterdi en hver af dem var stedse Rev,</l>
+            <l rend="indent">Just derfor deres List ey meere farlig blev.</l>
+            <l n="145">I mine Tanker ret <hi rend="ant">Politicus</hi> den heeder,</l>
+            <l>Som Navnet ikke har, som udi <w>Faare-Klæder</w></l>
+            <l rend="indent">Veed at iføre sig, og synes i en Stand</l>
+            <l rend="indent">At være, at han ey bedrage nogen kand.</l>
+            <l>Her udi Daphne Skov jeg kunde nogle nævne,</l>
+            <l n="150">Som synes hverken Lyst og Villje eller Evne</l>
+            <l rend="indent">Til Svig at have; men jeg for Exempel troer,</l>
+            <l rend="indent">At i min <hi rend="a">Famulo</hi> ti <hi rend="ant">Mazariner</hi> boer.</l>
+            <l>I heele <w>Reve-Æt</w> man ham eenfoldigst holder.</l>
+            <l>Han Navn har af et Faar, men just det Navn forvolder,</l>
+            <l rend="indent" n="155">At han blant vore Folk kand øve Konsten best,</l>
+            <l rend="indent">Og at han alle Dyr kand trække paa en Lest,</l>
+            <pb ed="A" n="280" facs="p280"/>
+            <l>Hvis du ey derfor vil, at Armod dig skal trykke,</l>
+            <l>Hvis du paa <w>Muuse-Jagt</w> vil vente Held og Lykke,</l>
+            <l rend="indent">Hvis Renker, Svig og List skal være dig til Gavn,</l>
+            <l rend="indent" n="160">Da udaf Snildhed maa du skilles først ved Navn. </l>
+            <l>Du enten stille maa dig an, som Sindets Kræfter</l>
+            <l>Forsvindes, eller at du føre vil herefter</l>
+            <l rend="indent">Et helligt Levnet, som alvorlig <hi>Pœnitent,</hi></l>
+            <l rend="indent">Saa at din Andagt blir i heele Skov bekiendt.</l>
+            <l n="170">Jeg viidere dig vil i Konsten underviise,</l>
+            <l>Og haaber, at i mig du Mesteren skal priise,</l>
+            <l rend="indent">Naar Frugterne du af min grundig Lærdom seer.</l>
+            <l rend="indent">Kom lader os gaae ind, saa skal du høre meer.</l>
+            <l>Saa Katten en Skolar af Mester Mikkel bliver,</l>
+            <l n="175">Som blandt Disciple ham i <w><hi rend="ant">Lectie-</hi>Bog</w> indskriver</l>
+            <l rend="indent">Med <hi rend="ant">Information</hi> en Uuge man bortdrev,</l>
+            <l rend="indent">Da udaf Skolegang han <hi rend="ant">dimittered</hi> blev.</l>
+            <l>Hvad kand dog Videnskab i Verden ikke giøre,</l>
+            <l>Af Mikkels Lære man strax Frugten fik at høre,</l>
+            <l rend="indent" n="180">Et Mesterstykke man i <w>Stats-Kunst</w> øvet seer,</l>
+            <l rend="indent">I Skovens Krønik som med Flid antegned er.</l>
+            <pb ed="SS" n="18"/>
+            <l>Thi derom Skovens Dyr end med forundring tale:</l>
+            <l>Det ført er udi Sang af Lerker, Nattergale.</l>
+            <pb ed="A" n="281" facs="p281"/>
+            <l rend="indent">Endskiønt Monsonius selv Gierningen bedrev,</l>
+            <l rend="indent" n="185">Saa dog den heele Priis tilegned Reven blev.</l>
+            <l>Af Nattergalen blev en Æres Sang forfatted,</l>
+            <l>Som for dens Ziirlighed i Skoven høyt er skattet,</l>
+            <l rend="indent">Den paa hans Ligsteen og er til Erindring sat,</l>
+            <l rend="indent">Og derpaa endnu staaer som Smykke og Zirat.</l>
+            <l n="190">Gravskriftet lyder saa: <hi rend="big"><hi rend="sch">Her under Mikkel hviler,</hi></hi></l>
+            <l><hi rend="big"><hi rend="sch">See til, O Vandringsmand! du ey for meget iiler</hi></hi></l>
+            <l rend="indent"><hi rend="big"><hi rend="sch">Naar du til dette Sted er kommen: men stat stil,</hi></hi></l>
+            <l rend="indent"><hi rend="big"><hi rend="sch">Og med forundring læs et listigt <w>Skue-Spil</w>.</hi></hi></l>
+            <l>Derpaa Historien er ziirligen forklared,</l>
+            <l n="195">Thi Skovpoeten har ey Flid, ey Hierne sparet,</l>
+            <l rend="indent">Det i <w><hi rend="ant">Heroi</hi>sk</w> Vers er udført, endes saa:</l>
+            <l rend="indent"><hi rend="sch">Af Konsten Mesteren du see og priise maa.</hi></l>
+            <l>Om <w>Mester-Stykket</w> selv <w>Skov-Krøniken</w> saa taler:</l>
+            <l><hi rend="ant">Monsonius</hi> begav sig iilend til en Maler,</l>
+            <l rend="indent" n="200">Og der sig sort som Ravn med Sværte tegne lod,</l>
+            <l rend="indent">Skiøndt Damon Mahler dets Betydning ey forstod. </l>
+            <l>Strax allevegne lod <hi rend="ant">Monsonius</hi> udspreede,</l>
+            <l>Til Poenitentze at han vilde sig bereede,</l>
+            <pb ed="A" n="282" facs="p282"/>
+            <l rend="indent">At verdslig Tanker han til Side havde sat,</l>
+            <l rend="indent" n="205">Traad udi hellig Stand, antaget <w>Munke-Dragt</w>.</l>
+            <l>Da Muus og Rotter sligt i Skoven kom for Øre,</l>
+            <l>De frydedes ved hans Omvendelse at høre.</l>
+            <l rend="indent">Hver raabte overlydt: Nu er ey meere Nød!</l>
+            <l rend="indent">En sorte Broder Munk maa ikke æde Kiød.</l>
+            <l n="210">I Dalen Koilas strax sig samlede en Skare:</l>
+            <l>De overlagde til Erindring om al Fare,</l>
+            <l rend="indent">Som nu forsvunden var, en hellig Dag i Fryd</l>
+            <l rend="indent">Med Sang at holde, og med <hi rend="ant">Instrumenters</hi> Lyd.</l>
+            <l>Da alles Hierter nu opfyldte var med Glæde,</l>
+            <l n="215">Saae man en gammel Muus i Dalen at fremtræde.</l>
+            <l rend="indent">Hans ærbar Mine nok tilkiendegive lod,</l>
+            <l rend="indent">At saadan Sikkerhed ham meget lidt anstod.</l>
+            <pb ed="SS" n="19"/>
+            <l>Han sagde: tøver lidt, og eder vel betænker,</l>
+            <l>I kiender Katten jo, hans store List og Renker.</l>
+            <l rend="indent" n="220">Af Muus og Rotter vi først nogle skikke maa,</l>
+            <l rend="indent">Af hvilke man kand vis og grundig Kundskab faae.</l>
+            <l>Ved slig Erindring strax enhver sin Glæde skiulte;</l>
+            <l>Thi man den gamles Raad i alting stedse fuldte.</l>
+            <l rend="indent">Hans Navn i største Agt end udi Skoven staaer</l>
+            <l rend="indent" n="225">Thi han var Herredsfogd for Muus i mange Aar:</l>
+            <pb ed="A" n="283" facs="p283"/>
+            <l>Sit Embed forestoed med største Priis og Ære:</l>
+            <l>Man hørte i hans Tid ey nogen <hi rend="ant">appellere:</hi></l>
+            <l rend="indent">Men hver det blive lod ved Herreds Tingets Dom,</l>
+            <l rend="indent">Og ingen Sag derfra til Lands Tings Retten kom.</l>
+            <l n="230">Landsdommer <hi rend="ant">Glirius</hi>, en stor juridisk Rotte,</l>
+            <l>Skiøndt han var ey hans Ven, han dog bekiende maatte,</l>
+            <l rend="indent">At ingen Dommer var at ligne mod <hi rend="ant">Harad,</hi></l>
+            <l rend="indent">Og at han værdig var til <w><hi rend="ant">Doctor-</hi>Hat</w> og <hi rend="ant">Grad.</hi></l>
+            <l>De andre Muus derfor bevæged’ af hans Tale</l>
+            <l n="235">Beslutted Tiden lit og Glæden at forhale.</l>
+            <l rend="indent">De strax som Speidere udskikte fire Muus:</l>
+            <l rend="indent">Med dem i Følge gik og Rotten <hi rend="ant">Glirius.</hi></l>
+            <l>Af Hendelse de kom forbi <hi rend="ant">Michaels</hi> Hule:</l>
+            <l>Han dem i møde gik, og sagde: jeg ey skiule</l>
+            <l rend="indent" n="240">For eder, kiære Børn, en sælsom Tidend kand:</l>
+            <l rend="indent"><hi rend="ant">Monsonius</hi> er traad i hellig Munkestand.</l>
+            <l>Hvad kand for eder nu vel være større Glæde:</l>
+            <l>Thi Folk af Munkestand forbydes Kiød at æde.</l>
+            <l rend="indent">At det forholdes saa, jeg gandske sikkert veed;</l>
+            <l rend="indent" n="245">Og derpaa denne Løgn beseglede med Eed.</l>
+            <l>Paa slig Forsikkring strax den <hi rend="ant">deputerte</hi> Skare</l>
+            <l>Tilbage gik. Dem da i møde kom en Hare,</l>
+            <l rend="indent">Som vidnede, at han vor Jæger nylig saae</l>
+            <l rend="indent">Med ærbar Miine og i <w>Munke-Dragt</w> at gaae.</l>
+            <pb ed="A" n="284" facs="p284"/>
+            <l n="250">Da raabtes overlydt: Nu Fred er udi Landet:</l>
+            <l>Men <hi rend="ant">Harad</hi> troed ey det eene med det andet.</l>
+            <l rend="indent">En Hares Vidnesbyrd, han sagde, Statsmands Eed</l>
+            <l rend="indent">Kand ey forsikkre os om Sikkerhed og Fred.</l>
+            <pb ed="SS" n="20"/>
+            <l>Vi maa for Kattens Huus to døde Rotter kaste,</l>
+            <l n="255">Hvis han dem rører ey, da til en <w>Munke-Faste</w></l>
+            <l rend="indent">Vi merke kand, at han opoffret haver sig,</l>
+            <l rend="indent">Og at herunder er ey skiuled List og Svig.</l>
+            <l>Sligt efterlevet blev: Man døde Rotter lagde</l>
+            <l>For Kattens Boelig; han det merkede, og sagde:</l>
+            <l rend="indent" n="260">Nu gielder det; han dog sig tvang, holdt stedse Stand,</l>
+            <l rend="indent">Endskiønt ved saadant Syn ham Tænder løb i Vand.</l>
+            <l>Da ingen tvivled meer om Tingen: Men af Glæde</l>
+            <l>Den viise <hi rend="ant">Harad</hi> selv man Øynene saae væde,</l>
+            <l rend="indent">De sagde alle nu skinbarligen man seer,</l>
+            <l rend="indent" n="265">At han en <hi rend="ant">Pœnitent,</hi> og ret <hi rend="ant">Conversus</hi> er.</l>
+            <l>I disse Tanker dem vor Jæger styrked meere;</l>
+            <l>Thi han sig foretog strax at <hi rend="ant">chatechisere,</hi></l>
+            <l rend="indent">Mod Synd at præke, som blant Dyr gik udi Svang,</l>
+            <l rend="indent">Og trued Daphne Skov med hastig Undergang.</l>
+            <l n="270">Han aarle, sildig kun om Poenitentze talte,</l>
+            <l>Forandrede sit Navn, sig <hi rend="ant">Pater Kispus</hi> kaldte.</l>
+            <pb ed="A" n="285" facs="p285"/>
+            <l rend="indent">Han og blandt Rotter, Muus med Flid udsprede lod,</l>
+            <l rend="indent">At deres Velfærd meest for Øynene ham stod. </l>
+            <l>Til hvilken Ende han tilbød ved daglig Tale</l>
+            <l n="275"><hi rend="ant">Privatim, publice Religion, Morale</hi></l>
+            <l rend="indent">At lægge ud for Dyr. I Dalens vestre Krog</l>
+            <l rend="indent">Opreyste <hi rend="ant">Cathedra,</hi> og <hi rend="ant">Theses</hi> der opslog.</l>
+            <l>O <hi rend="ant">Musa!</hi> gammel Blod lad nu i Aarer rinde,</l>
+            <l>Opvæk min matte Geist at jeg maa denne finde</l>
+            <l rend="indent" n="280">Med Fynd, beskrive og min Læser til Behag</l>
+            <l rend="indent">Afmale den for Muus og Rotter sorte Dag.</l>
+            <l>I <hi rend="ant">Crocodilens</hi> Aar, og i den Maaned <hi rend="ant">Spletter</hi></l>
+            <l>Mod Solens Opgang, som <w>Skov-Krøniken</w> beretter,</l>
+            <l rend="indent">En Mængde Rotter, Muus man udi Dalen saae,</l>
+            <l rend="indent" n="285">I Haab Oplysning af <hi rend="ant">Magisteren</hi> at faae.</l>
+            <l>Af Katten holdtes da en fyndig, ziirlig Tale,</l>
+            <l>Som fuld af Lærdom var og grundigste <hi rend="ant">Morale:</hi></l>
+            <l rend="indent">Da Talen endet var, blev givet Tegn ved Nik,</l>
+            <l rend="indent">Og da den store Jagt og Blodbad for sig gik.</l>
+            <pb ed="SS" n="21"/>
+            <l n="290">Hans Frue, Børn og to vel øved andre Katte</l>
+            <l>Bag ved en liden Høy paa Skildtvagt vare satte;</l>
+            <l rend="indent">Da af <hi rend="ant">Monsonio</hi> dem givet blev <hi rend="ant">Signal,</hi></l>
+            <l rend="indent">De løbe til, med Mord opfyldte <hi rend="ant">Koilas</hi> <app type="tc"><lem><corr resp="Rahbek">Dal.</corr></lem><rdg wit="A">Dal</rdg><rdg resp="Rahbek">Dal.</rdg><rdg resp="udg1767">Dal;</rdg><rdg resp="SS">Dal</rdg></app></l>
+            <pb ed="A" n="286" facs="p286"/>
+            <l>Jeg intet Nederlag i Krøniker har fundet,</l>
+            <l n="295">Som jeg med dette Drab og Mord har ligne kundet,</l>
+            <l rend="indent">Paa store <hi rend="ant">Vesper</hi> blev ey spildt saa meget Blod:</l>
+            <l rend="indent">Parisisk Bryllup ey kand lignes derimod.</l>
+            <l>Antallet der var stort paa myrded’ <hi rend="ant">Huguenoter,</hi></l>
+            <l>Men her var større paa uskyldig Muus og Rotter.</l>
+            <l rend="indent" n="300">Exempel viises ey, at sige med et Ord,</l>
+            <l rend="indent">Paa større List og Svig, paa meere ynksomt Mord.</l>
+            <l>Jeg paa de Dødes Tall optegnelse ey giver:</l>
+            <l>Om <w>Stands-Personers</w> Mord jeg kortelig kun skriver,</l>
+            <l rend="indent">Om <hi rend="ant">prima plana,</hi> og om Dyr af Byrd og Rang,</l>
+            <l rend="indent" n="305">Almuen faaer ey Sted i denne <w>Klage-Sang</w>.</l>
+            <l>Personers Navne, som ved Byrd og Sindets Gaver</l>
+            <l>Da Skovens Hæder var, jeg eene samlet haver</l>
+            <l rend="indent">Blandt dem jeg allerførst paa Dødes Liste seer</l>
+            <l rend="indent">Den store Herredsfogd, som før omtalet er:</l>
+            <l n="310">Dernest Fogdinden <hi rend="ant">Miau:</hi> Den yndige <hi rend="ant">Misene,</hi></l>
+            <l>Som Titel førdte af Musindernes <hi rend="ant">Helene,</hi></l>
+            <l rend="indent">Med trende Sønner <hi rend="ant">Rac, Spitac</hi> og <hi rend="ant">Gebrian:</hi></l>
+            <l rend="indent">Næst efter følger <hi rend="ant">Glis,</hi> samt stolte <hi rend="ant">Almaran,</hi></l>
+            <pb ed="A" n="287" facs="p287"/>
+            <l>Den modige <hi rend="ant">Guban,</hi> som Rotters Hovedbanner</l>
+            <l n="315">I Krig betroed var, og regned fleeste Ahner,</l>
+            <l rend="indent">Den sindige <hi rend="ant">Chirass</hi> den snedige <hi rend="ant">Glipus,</hi></l>
+            <l rend="indent">Amtmanden <hi rend="ant">Peripom,</hi> <w>Lands-Dommer</w> <hi rend="ant">Glirius,</hi></l>
+            <l>Den dydige <hi rend="ant">Philix</hi> med Skovfogdinden Harsel,</l>
+            <l>Som den Tid lavede heel fremmelig til Barsel,</l>
+            <l rend="indent" n="320"><hi rend="ant">Tergusus Advocat, Pinapus</hi> <w>Land-<hi rend="ant">Fiscal</hi></w></l>
+            <l rend="indent">Med Børn og Fruer var og blandt de Dødes Tal.</l>
+            <l><w>Land-<hi rend="ant">Medicus</hi></w> <hi rend="ant">Spitac</hi> og omkom udi Slaget,</l>
+            <l>Af alle slagne man hans Død har meest beklaget;</l>
+            <l rend="indent">Thi han ophitted først blant Dyr i dette Land</l>
+            <l rend="indent" n="325">Den store Lægedom, som skeer ved Tiærevand.</l>
+            <pb ed="SS" n="22"/>
+            <l>Lehnsmanden <hi rend="ant">Mirakol</hi> med hans Fuldmægtig <hi rend="ant">Thivet,</hi></l>
+            <l>Samt <w>Herreds-Provsten</w> <hi rend="ant">Ras</hi> og her tilsatte Livet.</l>
+            <l rend="indent"><hi rend="ant">Poëten Timian</hi> gik ogsaa samme Gang,</l>
+            <l rend="indent">Hans Søn har dette Mord ført ud i ziirlig Sang.</l>
+            <l n="330">Man Kattens Døttre saae sig mest at <hi rend="ant">distinguere</hi></l>
+            <l>De tvende Froikener indlagde største Ære,</l>
+            <l rend="indent">Hvers Tapperhed i sær fast ey beskrives kand,</l>
+            <l rend="indent">Thi ingen frelset blev fra deres <w>Morder-Tand</w>.</l>
+            <l>Saa endtes denne Jagt. Vi deraf see og lære,</l>
+            <l n="335">At den, der andre vil med Svig og Konst besnære,</l>
+            <pb ed="A" n="288" facs="p288"/>
+            <l rend="indent">Maa ligesom sit Pund i Jorden grave ned,</l>
+            <l rend="indent">Og sig forhverve Navn af simpel Ærlighed.</l>
+            <l>Hvis han i Konsten vil den mindste Fremgang haabe,</l>
+            <l>Han sig anstille maa som Helgen eller Taabe.</l>
+            <l rend="indent" n="340">Her man Exempel seer paa ægte <hi rend="ant">Politic,</hi></l>
+            <l rend="indent"><hi rend="ant">Monsonius</hi> da Navn af Oberjæger fik.</l>
+        </lg>
+    </div>
+</body>
+</text>
+</TEI>

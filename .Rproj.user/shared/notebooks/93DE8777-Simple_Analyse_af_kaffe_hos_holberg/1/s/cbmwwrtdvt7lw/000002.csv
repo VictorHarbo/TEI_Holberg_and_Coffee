@@ -1,0 +1,4 @@
+"0","kaffe_ord <- c(""caffee"", ""caffe"", ""cafe"", ""café"", ""caffée"", ""coffee"", ""caffee-bord"","
+"0","               ""caffee-bønner"", ""caffee-drik"", ""caffee-drikken"", ""caffee-drikker"","
+"0","               ""caffee-huus"", ""kafé"", ""caffee-tand"", ""cafee"", ""caffeé"")"
+"0","kaffe_total <- filter(tekster_tidy, word %in% kaffe_ord)"

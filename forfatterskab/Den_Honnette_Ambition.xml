@@ -1,0 +1,2587 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><?xml-stylesheet type="text/xml" href="holberg.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="dan">		
+		<fileDesc>
+			<titleStmt>
+				<title key="Hamb">Den Honnette Ambition</title>
+				<author>Ludvig Holberg</author>
+			</titleStmt>
+			<editionStmt>
+				<edition><date>1731</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<pubPlace/>
+				<availability>
+					<p rend="head"/>
+					<p/>
+					<p/>
+					<p/>      
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="A"><title key="none">Den Danske Skue-Plads, Femte Tome</title>, <date>1731</date>.</witness>
+					<witness xml:id="B">Optryk af B, 1742.</witness>
+					<witness xml:id="udg1758"><title key="none">Den Danske Skue-Plads, Femte Tome</title>, <date>1758</date>.</witness>
+					<witness xml:id="udg1788"><title key="none">Den Danske Skue-Plads, Femte Tome</title>, <date>1788</date>.</witness>
+					<witness xml:id="Rahbek"><title key="none">Ludvig Holbergs udvalgte Skrifter</title>, udg. K.L. Rahbek, bd. 4, 1805.</witness>
+					<witness xml:id="Boye"><title key="none">Den danske Skueplads eller Ludvig Holbergs samtlige Comoedier i eet Bind</title>, udg. A.E. Boye, 1843.</witness>
+					<witness xml:id="Liebenberg"><title key="none">Ludvig Holbergs Comedier</title>, udg. F.L. Liebenberg, bd. 5, 1850.</witness>
+					<witness xml:id="Martensen"><title key="none">Holbergs Komedier</title>, udg. Julius Martensen, bd. 10, 1903.</witness>
+					<witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg. Carl S. Petersen, bd. 4, 1917. NB: Afvigelser fra udgaven 
+						<title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>
+					<witness xml:id="Roos"><title key="none">Holberg, Comoedierne og de populære Skrifter. Festudgaven</title>, 1922-25; <title key="none">Comoedierne</title>, udg. Carl Roos, bd. 3, 1924.</witness>
+				</listWit>
+				
+				
+			</sourceDesc>
+		</fileDesc>		
+		<profileDesc>
+			<langUsage>
+				<language ident="dan">dansk</language> 
+			</langUsage>
+		</profileDesc>		
+		<revisionDesc>		
+			<change when="2015-11-02" who="fgj">flere korrekturrettelser: Arv! Hvad &gt; Arv! hvad (P7r), viss &gt; viß (Q1r), miil &gt; Miil (R4r), behag &gt; Behag (R8r), Øret &gt; i Øret (S2v), kyss &gt; kyß (S3r), Naade &gt; Naade! (S4r, l. 11), Jeronimus &gt; Jeronimus. (S4v, l. 31)
+				S1v manglende stagekode indsat om omfavnende etc. Stederne markeret ## mangler ksp's stillingtagen</change>
+			<change when="2015-10-30" who="fgj">korrekturrettelser R5r troe &gt; troer og saamen &gt; sammen</change>
+			<change when="2015-10-27" who="fgj">kodet tankestreger som var bindestreger. Flyttet nogle slutmærker /sp hvor stage fejlagtigt stod inden for sp</change>
+			<change when="2015-10-19" who="fgj">fjernet elementet actor fra rollelisten</change>
+			<change when="2015-08-06" who="ng">indført tilsynsnoter (efter forarbejde af mvl)</change>
+			<change when="2014-10-20" who="ksp">emendering afsluttet - mangle dog sidste tjek af Liebenberg</change>
+			<change when="2014-09-22" who="ksp">emendering påbegyndt</change>
+			<change when="2014-08-06" who="tb">kommentarkodning påbegyndt</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+			<change when="2013-01-24" who="fgj">tilføjelse af tekststatus</change>
+			<change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+			<change when="2012-08-28" who="amj">indsat faksimilereferencer</change>
+			<change when="2012-08-24" who="fgj">indsat faksimileliste</change>
+			<change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+			<change when="2011-12-05" who="rbn">indsat nye div-værdier</change>
+			<change when="2011-09-08" who="rbn">indsat nye div-værdier</change>
+			<change when="2010-10-24" who="fgj">lagt teksten i Plone</change>
+			<change when="2010-10-24" who="amj">har SS-korrekturlæst teksten og lagt den op i repositoriet</change>
+			<change when="2009-02-15" who="ng">filen oprettet, rudimentær strukturopmærkning</change>
+		</revisionDesc>		
+	</teiHeader>
+	
+	<facsimile>
+		<graphic n="236" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00240.jpg" xml:id="P5v"/>
+		<graphic n="237" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00241.jpg" xml:id="P6r"/>
+		<graphic n="238" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00242.jpg" xml:id="P6v"/>
+		<graphic n="239" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00243.jpg" xml:id="P7r"/>
+		<graphic n="240" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00244.jpg" xml:id="P7v"/>
+		<graphic n="241" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00245.jpg" xml:id="P8r"/>
+		<graphic n="242" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00246.jpg" xml:id="P8v"/>
+		<graphic n="243" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00247.jpg" xml:id="Q1r"/>
+		<graphic n="244" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00248.jpg" xml:id="Q1v"/>
+		<graphic n="245" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00249.jpg" xml:id="Q2r"/>
+		<graphic n="246" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00250.jpg" xml:id="Q2v"/>
+		<graphic n="247" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00251.jpg" xml:id="Q3r"/>
+		<graphic n="248" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00252.jpg" xml:id="Q3v"/>
+		<graphic n="249" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00253.jpg" xml:id="Q4r"/>
+		<graphic n="250" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00254.jpg" xml:id="Q4v"/>
+		<graphic n="251" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00255.jpg" xml:id="Q5r"/>
+		<graphic n="252" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00256.jpg" xml:id="Q5v"/>
+		<graphic n="253" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00257.jpg" xml:id="Q6r"/>
+		<graphic n="254" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00258.jpg" xml:id="Q6v"/>
+		<graphic n="255" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00259.jpg" xml:id="Q7r"/>
+		<graphic n="256" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00260.jpg" xml:id="Q7v"/>
+		<graphic n="257" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00261.jpg" xml:id="Q8r"/>
+		<graphic n="258" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00262.jpg" xml:id="Q8v"/>
+		<graphic n="259" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00263.jpg" xml:id="R1r"/>
+		<graphic n="260" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00264.jpg" xml:id="R1v"/>
+		<graphic n="261" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00265.jpg" xml:id="R2r"/>
+		<graphic n="262" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00266.jpg" xml:id="R2v"/>
+		<graphic n="263" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00267.jpg" xml:id="R3r"/>
+		<graphic n="264" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00268.jpg" xml:id="R3v"/>
+		<graphic n="265" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00269.jpg" xml:id="R4r"/>
+		<graphic n="266" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00270.jpg" xml:id="R4v"/>
+		<graphic n="267" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00271.jpg" xml:id="R5r"/>
+		<graphic n="268" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00272.jpg" xml:id="R5v"/>
+		<graphic n="269" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00273.jpg" xml:id="R6r"/>
+		<graphic n="270" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00274.jpg" xml:id="R6v"/>
+		<graphic n="271" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00275.jpg" xml:id="R7r"/>
+		<graphic n="272" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00276.jpg" xml:id="R7v"/>
+		<graphic n="273" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00277.jpg" xml:id="R8r"/>
+		<graphic n="274" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00278.jpg" xml:id="R8v"/>
+		<graphic n="275" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00279.jpg" xml:id="S1r"/>
+		<graphic n="276" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00280.jpg" xml:id="S1v"/>
+		<graphic n="277" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00281.jpg" xml:id="S2r"/>
+		<graphic n="278" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00282.jpg" xml:id="S2v"/>
+		<graphic n="279" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00283.jpg" xml:id="S3r"/>
+		<graphic n="280" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00284.jpg" xml:id="S3v"/>
+		<graphic n="281" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00285.jpg" xml:id="S4r"/>
+		<graphic n="282" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00286.jpg" xml:id="S4v"/>
+		<graphic n="283" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00287.jpg" xml:id="S5r"/>
+		<graphic n="284" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00288.jpg" xml:id="S5v"/>
+		<graphic n="285" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00289.jpg" xml:id="S6r"/>
+		<graphic n="286" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads5_1731/dan_skue_t5_00290.jpg" xml:id="S6v"/>
+	</facsimile>
+	
+	<text xml:lang="dan" xml:id="Hamb" type="orig" subtype="Hamb" n="/tekster/skuespill/Den_Honnette_Ambition/Den_Honnette_Ambition.page">
+		
+		
+		<front>
+			<titlePage xml:id="start" n="[Titelblad]">
+				<pb ed="A" n="P5v" facs="P5v"/><pb ed="SS" n="603"/>
+				<docTitle>
+					<titlePart type="main">Den <seg type="komm" target="p5v-1"/>honnette <lb/><hi rend="ant"><hi rend="it">AMBITION</hi></hi></titlePart>
+					<lb/>
+					<titlePart type="sub"><hi rend="ant">COMOEDIE</hi> <lb/>udi <lb/>Tre <hi rend="ant">ACTER</hi>.</titlePart>
+				</docTitle>
+			</titlePage>
+			<div xml:id="castlist" n="[Rolleliste]">
+			<pb ed="A" n="P6r" facs="P6r"/>
+			<pb ed="SS" n="604"/>
+			<castList rend="center">
+				<head><seg type="komm" target="P6r-1"/><app type="var"><lem wit="A">Personerne</lem><rdg wit="B">Hoved-Personerne</rdg></app><lb/>i <hi rend="ant">Comœdien</hi>.</head>
+				<castItem>
+					<role><seg type="komm" target="P6r-3"/>Jeronimus den <w>Rang-syge</w>.</role>
+				</castItem>
+				<castItem>
+					<role><seg type="komm" target="P6r-4"/>Magdelone hans Hustrue.</role>
+				</castItem>
+				<castItem>
+					<role><seg type="komm" target="P6r-5"/>Leonore hans Datter.</role>
+				</castItem>
+				<castItem>
+					<role><seg type="komm" target="P6r-6"/>Leander <seg type="komm" target="P6r-6a"/>Leonoræ Forlovede.</role>
+				</castItem>
+				<castItem>
+					<role><seg type="komm" target="P6r-7"/>Arv <w>Gaards-Karl</w>.</role>
+				</castItem>
+				<castItem>
+					<role><seg type="komm" target="P6r-8"/>Pernille Piigen.</role>
+				</castItem>
+				<castItem>
+					<role><seg type="komm" target="P6r-7"/>Henrik Tiener.</role>
+				</castItem>
+			</castList>
+			</div>	
+		</front>
+		<pb ed="A" n="P6v" facs="P6v"/>
+		<pb ed="SS" n="605"/>
+		<body>
+			<div type="act" xml:id="act1" n="Første akt">
+				<head><hi rend="ant"><seg type="komm" target="P6v-1"/>Actus I.</hi></head>
+				<div type="scene" xml:id="act1sc1" n="Scene 1">
+					<head><seg type="komm" target="P6v-2"/><hi rend="ant">Scen. 1.</hi></head>
+					<stage>Leander. Leonore.</stage>
+					<sp>
+						<speaker><seg type="komm" target="P6v-3"/>Leander.</speaker>
+						<p><w><hi rend="init">J</hi>Eg</w> kand ikke beskrive <seg type="komm" target="P6v-5"/>min hierte <seg type="komm" target="P6v-5a"/>Jomfru, hvor ilde jeg paa nogen Tid har været til Mode.</p>
+					</sp>
+					<sp>
+						<speaker><seg type="komm" target="P6v-7"/>Leonore.</speaker>
+						<p><seg type="komm" target="P6v-8"/>Hvi saa?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p><seg type="komm" target="P6v-10"/>Hun er den samme som hun altid har været mod mig, og hendes <seg type="komm" target="P6v-11"/>Mamma ligeledes. Men det synes ligesom at hendes Fader paa nogen Tid har foragtet mig. Jeg har <seg type="komm" target="P6v-12"/>tilforn været vant at <seg type="komm" target="P6v-13"/>gaae lige ind til ham; men forleden Dag kom Arv mig i Møde med <seg type="komm" target="P6v-14"/>en fornemme <w>Lakei-Mine</w>, og sagde, vær saa god at <seg type="komm" target="P6v-15"/>bie lidet, nu skal jeg strax <seg type="komm" target="P6v-15a"/>melde ham an. <seg type="komm" target="P6v-15b"/>Hvad vil saadant vel sige?</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Maa skee hand ikke har været i Klæderne.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg tænkte ogsaa det samme; men, da jeg i Gaar kom igien, lod hand mig svare ved samme Arv, at hand ikke havde Leilighed at tale med mig den gang.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Det <seg type="komm" target="P6v-24"/>bekiender jeg var <seg type="komm" target="P6v-24a"/>noget særdeeles.
+						</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Og, da jeg siden om Eftermiddagen <seg type="komm" target="P6v-26"/>fandt ham paa Gaden, giorde hand ikke alleene ingen Undskyldning, men talede til mig med en koldsindig og <seg type="komm" target="P6v-28"/>stolt Mine. <seg type="komm" target="P6v-28a"/>Jeg skulde ikke troe, at hand har i Sinde at forandre sit Løfte.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Det har jeg aldeeles ikke kunnet merke. <seg type="komm" target="P6v-31"/>Alleene min Mamma siger, at hand synes paa nogen Tid at <seg type="komm" target="P6v-32"/>gaae frugtsommelig med <w>Rangs-Griller</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p><seg type="komm" target="P6v-35"/>Jeg skulde ikke formode, at en ældgammel Borgermand skulde <seg type="komm" target="P6v-36"/>falde til den <seg type="komm" target="P6v-36a"/>Daarlighed.</p>
+					</sp>
+					<pb ed="SS" n="606"/>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Jeg kand intet sige derom <seg type="komm" target="P6v-38"/>til visse, min Mamma ey heller. <pb ed="A" n="P7r" facs="P7r"/>Men alt hvad som har bragt hende i den Mistanke, er, at hand paa nogen Tid bliver <seg type="komm" target="P7r-2"/>af ond Humeur, naar hand hører nævne Jesper Hansen, som fik en Rang forgangen Maaned, <seg type="komm" target="P7r-4"/>iligemaade, at hand har faat Arv til at sige Herre i Steden for <seg type="komm" target="P7r-5"/>Hosbond.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Saa kand man <seg type="komm" target="P7r-7"/>min Troe have Aarsag til at <seg type="komm" target="P7r-7a"/>falde paa Mistanke; <seg type="komm" target="P7r-8"/>thi Folk her i Landet bliver ikke <seg type="komm" target="P7r-8a"/>ret galne, førend de <seg type="komm" target="P7r-9"/>have naaet deres 60 Aar.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Det er sant nok; men jeg kand dog ikke <seg type="komm" target="P7r-11"/>troe ham til saadant. Men der seer jeg Arv, hvad mon det er for <seg type="komm" target="P7r-12"/>Galskab hand <seg type="komm" target="P7r-13"/>fører med sig?</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act1sc2" n="Scene 2">
+					<head><hi rend="ant">Scen. 2.</hi></head>
+					<stage>Arv med en <seg type="komm" target="P7r-15"/><w>Liberi-Kiole</w> og en <seg type="komm" target="P7r-15a"/><w>Taftes-Pung</w>. Leander. Leonore.</stage>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Nu faar jeg see hvordan denne Dragt vil passe mig.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Hvad Pokker vil det sige? det er jo en <w>Liberi-Kiole</w>?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Vidste jeg kun nu, hvad som var først og sidst, hvad som skulde vende for og bag.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>See engang her, hand tar Kiolen bagvendt.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Det gaaer, <seg type="komm" target="P7r-27"/>mare, ikke an. See <seg type="komm" target="P7r-27a"/>saa maa jeg klæde mig.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Nu blir det <seg type="komm" target="P7r-29"/>end galnere.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Fanden har skabt disse nye Moder. Jeg veed ikke hvad Ermene er, og <seg type="komm" target="P7r-32"/>hvad Livstykke er; thi alting er lige vidt og bredt. See nu sidder <seg type="komm" target="P7r-33"/>hun vist ret.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Arv! hvad Pokker er det du bestiller? </p>
+					</sp>
+					<pb ed="SS" n="607"/>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Jomfruen kommer ret til pas, for at hielpe mig til at hefte denne Pung til mig. Jeg troer vist den skal sidde udi Nakken.</p>
+					</sp>
+					<pb ed="A" n="P7v" facs="P7v"/>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Hvad skal det Galskab betyde?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Ja det er sant, den skal vist sidde i Nakken; vær saa god, kiære Jomfru!</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Ja gierne, <seg type="komm" target="P7v-10"/>efterdi du endelig vil være Nar; men hvorfor <seg type="komm" target="P7v-11"/>est du saa forstyrred gall i Dag?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Det skal jeg sige Jomfruen: Efterdi jeg agter at være lige saa forstyrret gall i Morgen. Det er <seg type="komm" target="P7v-14"/>min Troe ikke mit Paafund; men Hosbond vil have, at jeg skal bære Liberi.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Hvilket <seg type="komm" target="P7v-17"/>særdeeles Indfald af en gammel <seg type="komm" target="P7v-17b"/>Borgermand.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Hun skal ikke sige det Jomfru! det kand være <seg type="komm" target="P7v-19"/>for hans Lykke.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Det maa blive til hans Lykke eller ey, saa er det uanstændigt, og hans Naboer vil drive Spot med ham.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="P7v-24"/>Hans Naboer har en Ære at tale med. Her er jo ikke et klogt Menniske i den heele Bye.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Arv har min Troe ret; thi det heele Land er <seg type="komm" target="P7v-27"/>fast ikke andet end en stor <seg type="komm" target="P7v-28"/>Daarekiste; thi hvad kand være <seg type="komm" target="P7v-28a"/>forunderligere end at see saa mange fattige Mennisker, som <seg type="komm" target="P7v-29"/>ere bekymrede om deres Brød, at <seg type="komm" target="P7v-30"/>storme til at gaae <seg type="komm" target="P7v-30a"/>paa hinandens høyre Haand. Men der seer jeg <seg type="komm" target="P7v-31"/>hendes Forældre komme, Jomfrue! jeg vil <seg type="komm" target="P7v-32"/>gaae min gang.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Kom lad os gaae ind sammen udi mit Kammer.</p>
+					</sp>
+				</div>
+				<pb ed="SS" n="608"/>
+				<div type="scene" xml:id="act1sc3" n="Scene 3">
+					<head><hi rend="ant">Scen. 3.</hi></head>
+					<stage>Jeronimus. Magdelone. Pernille.</stage>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="P7v-38"/>Min Hierte! jeg har noget at sige dig som ligger mig paa Hiertet.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Jeg kand slutte, at der maa være noget som <seg type="komm" target="P7v-41"/>qvæler dig i disse Dage; thi du hverken <seg type="komm" target="P7v-42"/>æder eller drikker.</p>
+					</sp>
+					<pb ed="A" n="P8r" facs="P8r"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="P8r-2"/>Jeg er ingen ærlig Mand, om jeg har sovet udi 3 Nætter.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Du plejer jo intet <seg type="komm" target="P8r-4"/>dølge for mig, siig mig hvad det er, maa skee jeg kand hitte paa nogen Hielp.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hør min Allerkiæreste! du <seg type="komm" target="P8r-7"/>veedst at jeg ikke er <seg type="komm" target="P8r-7a"/><app type="tc"><lem><corr resp="ed">storagtig.</corr></lem><rdg wit="A">storagtig</rdg></app></p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Det er sant nok.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ey heller at jeg har tragtet efter verdslig Ære.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Det veed jeg nok.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Men at det har været mig Ære nok, at jeg har kunnet <seg type="komm" target="P8r-16"/>passere for en <seg type="komm" target="P8r-16a"/>ærlig Mand.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Hvad <seg type="komm" target="P8r-18"/>vil alle disse <seg type="komm" target="P8r-18a"/>Protestationer sige?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Og at jeg altid har foragtet storagtige Folk i mit Hierte.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Der er jo ingen som tviler derom min hierte Mand!</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Og at jeg har altid holdet den dydigste og dueligste Borger for den fornemmeste Borger i en Stad.</p>
+					</sp>
+					<pb ed="SS" n="609"/>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p><seg type="komm" target="P8r-27"/>Ej er der da ingen Ende paa disse <seg type="komm" target="P8r-27a"/><hi rend="ant">Præludier</hi>?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Og at jeg aldrig har holdet den ærværdig som <seg type="komm" target="P8r-29"/>tager sig Ære til.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Hvis du ikke vil komme til Sagen, saa gaaer jeg min Vej. Der er jo intet Menniske, som beskylder dig for Storagtighed.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hvis nogen giør det, saa giør hand mig <w>u-ret</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Siig da frem hvad du vil sige.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Men med alt det har jeg dog en <seg type="komm" target="P8r-39"/><hi rend="ant">honette Ambition</hi> som enhver ærlig Borger bør at have, og derfor, for at bringe vort <pb ed="A" n="P8v" facs="P8v"/>Huus udi nogen Anseelse, har jeg i Sinde at søge om en <seg type="komm" target="P8v-1"/>liden Characteer.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Men hvad Pokker kand bevæge dig paa din gamle Alder at tragte efter saadant. Mon din Broders Søn Jesper Hansen har nogen Ære deraf, at hand søgte at <seg type="komm" target="P8v-6"/>gaae over sine Medborgere? Jeg vil vædde at det er hans <seg type="komm" target="P8v-7"/><hi rend="ant">Promotion</hi> som har giort dig saa <w>u-roelig</w> i Hovedet.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Aldeeles ikke <seg type="komm" target="P8v-10"/>mit hierte Barn! Jeg <seg type="komm" target="P8v-10a"/>moqverer mig over saadan ung <seg type="komm" target="P8v-11"/><app type="var"><lem wit="A"><w>Spøtte-Gøg</w></lem><rdg wit="B"><w>Spotte-Gøg</w></rdg></app>, som Jesper Hansen. Hand var Dreng da jeg var Mand.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Ligesom du nu moqverer dig over ham, saa vil andre moqvere sig over dig, naar de faar at vide denne din <w>u-rimelige</w> Ærgierrighed.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ikke saa hidsig lille Kone. Jeg giør det sandeligen ikke af Ærgierrighed, men alleene for – – –</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Du giør mig gall i Hovedet Mand. Det er jo <app type="var"><lem wit="A">yderste</lem><rdg wit="B">den yderste</rdg></app> Grad af Ærgierrighed.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Du giør mig <w>u-ret</w> Kone. Jeg er <seg type="komm" target="P8v-24"/>ikke mindre end ærgierrig. Men jeg giør det alleene for – – – at af Aarsag, at – – – Jeg kand saa ikke sige min Meening.</p>
+					</sp>
+					<pb ed="SS" n="610"/>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Det er, du giør det ikke af Ærgierrighed, men af <w>Rang-Syge</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Man maa giøre Forskiæl mellem Rangsyge og en <hi rend="ant">honete Ambition</hi>.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Det er saadan <hi rend="ant">honete <app type="tc"><lem><corr resp="ed">Ambition</corr></lem><rdg wit="A">Ambirion</rdg></app></hi>, <seg type="komm" target="P8v-34"/>min hierte Mand, at alle vore Naboer vil belee og foragte os derover.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>De maa belee os saa meget som de vil, saa skal de dog <seg type="komm" target="P8v-38"/>dantze under os udi alle <seg type="komm" target="P8v-38a"/>Samqvemme.</p>
+					</sp>
+					<pb ed="A" n="Q1r" facs="Q1r"/>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Jeg meener at den sætter al <hi rend="ant">Ambition</hi> til side, der uden Aarsage <seg type="komm" target="Q1r-3"/><app type="tc_var"><lem wit="A">betler</lem><rdg wit="B">betler hos</rdg><rdg resp="udg1758 1788 Rahbek Boye">betler hos</rdg><rdg resp="Liebenberg Martensen Roos">betler</rdg></app> <seg type="komm" target="Q1r-3a"/>Øvrigheden om at hand maa <seg type="komm" target="Q1r-3b"/>sidde paa sine Medborgeres høyre Haand.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Du forstaaer ikke hvad <hi rend="ant">honete Ambition</hi> er, <seg type="komm" target="Q1r-6"/>min Dukke. Er det ikke en <hi rend="ant">honete Ambition</hi>, at søge om, at blive sat <seg type="komm" target="Q1r-8"/>ved det store Bord i Bryllupper? at blive kaldet Herre og Frue? Hvorfor stræber Folk i Verden, og søger at giøre sig <seg type="komm" target="Q1r-9"/>meritered, <seg type="komm" target="Q1r-10"/>uden for det samme.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Een som har meritered en Rang, bær den med Ære; thi hand er ret ærværdig, ikke i Henseende til den blotte <seg type="komm" target="Q1r-13"/>Charactere, men i Henseende til de <seg type="komm" target="Q1r-14"/>Meriter hvorved hand har erhvervet sig den.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg havde ikke troet, min Hierte, at du havde været saa eenfoldig. Spør kun Pernille, som er en Tienestepige, jeg er viß paa hun skal bedre begribe det.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Jeg forstaar mig ikke derpaa; men, om Hr. Jeronimus betroede mig at sætte op en <seg type="komm" target="Q1r-22"/>Supplik for sig, blev den saaledes – – –</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Lad høre hvorledes den skulde blive. Hun har Forstand den Pige.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Den blev saaledes: <seg type="komm" target="Q1r-28"/>Gunstige Øvrighed! Saasom jeg hverken kand æde, drikke eller sove af Ærgierrighed, og jeg finder en inderlig Længsel og <seg type="komm" target="Q1r-30"/>Attraa hos mig, at <seg type="komm" target="Q1r-30a"/>gaae <pb ed="SS" n="611"/>over mine Medborgere, skiønt mange af dem ere bedre end jeg, saa beder jeg med grædende Taare, mig af Naade maa forundes, <seg type="komm" target="Q1r-33a"/>at gaae paa deres høyre Haand. Jeg forbliver stedse <seg type="komm" target="Q1r-33b"/>etc.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus <stage>vrænger efter hende de sidste Ord:</stage></speaker>
+						<p>Jeg forbliver etc.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Ja <seg type="komm" target="Q1r-37"/>Hosbond, I maa ikke alleene skrive: Jeg bliver etc. men endogsaa, Jeg forbliver een etc. thi I blir virkeligen <seg type="komm" target="Q1r-39"/>een etc. <seg type="komm" target="Q1r-39a"/>derover, endogsaa i Øvrighedens <app type="var"><lem wit="A">Tanke</lem><rdg wit="B">Tanker</rdg></app> selv.</p>
+					</sp>
+					<pb ed="A" n="Q1v" facs="Q1v"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Du <seg type="komm" target="Q1v-2"/>stiiler Supplikker som en <seg type="komm" target="Q1v-2a"/>Laptaske.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Hvordan Supplikken stiiles, saa blir dog Meeningen den samme.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Holdt Munden dit Skarn. Du skal kalde min Kone <seg type="komm" target="Q1v-7"/>Frue <seg type="komm" target="Q1v-8"/>om du blev gall.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Den Titel forlanger jeg ikke. Jeg <seg type="komm" target="Q1v-10"/>spirer ikke ud af <w>Fruer-Stamme</w>; jeg har heller ikke nogen <seg type="komm" target="Q1v-11"/>Meriter for mine <w>Naboe-Koner</w>, hvorfore jeg bør lade mig nøye med den samme Titel som de <seg type="komm" target="Q1v-13"/>føre.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Om jeg ingen anden Merite har, saa er jeg een af de ældste Borgere her i Gaden, og bør have en Rang i Henseende til mine graae Haar.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Meener da Husbond, at hand beholder samme Rang i Himmerig?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hvilken Snak.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Jeg kand min Troe ikke fatte andet; thi een der vil tage Afskeed med Verden, og søger at føre en Rang med sig, maa <seg type="komm" target="Q1v-26"/>endelig have saadanne Tanker.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Herud <seg type="komm" target="Q1v-28"/>din Akkermær! og <seg type="komm" target="Q1v-28a"/>bryd mig ikke Hovedet meer.</p>
+					</sp>
+						<stage>(Pernille gaar ud og kommer strax igien.)</stage>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Tienistefolk blir uforskammed næseviis nu omstunder.</p>
+					</sp>
+					<pb ed="SS" n="612"/>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Hun talede noget dristigt, men jeg kand ikke sige at der var meget usant derudi.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ach min Dukke vil du da giøre alle Folk til <seg type="komm" target="Q1v-36"/>Giekke, som faaer Rang og <seg type="komm" target="Q1v-37"/>Caracteer.</p>
+					</sp>
+					<pb ed="A" n="Q2r" facs="Q2r"/>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p><seg type="komm" target="Q2r-2"/>Det være langt fra; thi naar een har giordt Landet Tieneste, og derfore af Øvrigheden ophøyes til Værdighed, er det ham en Ære. Men jeg kand ikke see hvad een, der uden foregaaende Meriter beder om en Rang, vinder derved.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Han vinder det derved at andre maa vige for ham.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Man løber ogsaa til side for alle galne Folk, men derfor <seg type="komm" target="Q2r-10"/>ere de ikke <seg type="komm" target="Q2r-10a"/>dis ærværdigere.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hold din Mund siger jeg eller – – –</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Min hierte Mand! naar een uden Meriter søger Rang over sine Medborgere, røber han jo sin Hoffmod og Ufuldkommenhed, og <seg type="komm" target="Q2r-16"/>der ved erklærer sig den Ringeste og <app type="var"><lem wit="A">Ufuldkomneste</lem><rdg wit="B">U-fuldkommenste</rdg></app>.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ney min Dukke! han erklærer sig at have en honete Ambition, og vinder han ikke andet der ved, saa bliver hand <seg type="komm" target="Q2r-19"/>fri for Borgerlige Betieninger.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Een der søger om Rang for at befries for Borgerlige Betieninger, erklærer sig selv enten doven eller <w>u-dygtig</w>, men hvad Ære vinder han derved?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p><seg type="komm" target="Q2r-26"/>Erfarenhed viser dog, at han bliver agtet der ved.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Deri har Hr. Jeronimus ret; thi en saadan een er ligesom en <seg type="komm" target="Q2r-29"/>Kobberpenge, hvilken naar man sætter Merke derpaa, og siger at den skal passere for en <seg type="komm" target="Q2r-30"/>Ducat, passerer den <seg type="komm" target="Q2r-30a"/>og for en Ducat.</p>
+					</sp>
+					<pb ed="SS" n="613"/>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p><seg type="komm" target="Q2r-33"/>Fort paa Dør din Akkermær!</p>
+					</sp>
+						<stage>Pernille løber ud.</stage>					
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det var ikke <seg type="komm" target="Q2r-36"/>tienligt nogen skulde høre os tale saaledes, og at vi foragte slige Ting.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Hør <seg type="komm" target="Q2r-39"/>min hierte Mand! om den høye Øvrighed af egen <pb ed="A" n="Q2v" facs="Q2v"/><seg type="komm" target="Q2v-1"/><hi rend="ant">Motiv</hi> gav dig en Rang, da var det noget som baade du og jeg burdte glæde os over; thi det var et <w>Naades-Tegn</w>; men at en gammel Borgermand, som du <seg type="komm" target="Q2v-3"/>est, der i intet har <seg type="komm" target="Q2v-3a"/><hi rend="ant">distingueret</hi> dig frem for dine Medborgere, vil <seg type="komm" target="Q2v-4"/>betle dig en Rang til, det er noget som man aldrig kand <seg type="komm" target="Q2v-5"/>sætte Farve paa.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Der <seg type="komm" target="Q2v-7"/>ere dog mange ældgamle Borgere der har giort det samme.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Det er sant nok. Men jeg tør ikke sige hvad jeg meener om <seg type="komm" target="Q2v-11"/>slige ældgamle Borgere.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ach <seg type="komm" target="Q2v-13"/>mit hierte Barn! vær mig dog ikke imod herudi.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Det giør <seg type="komm" target="Q2v-15"/>ingen gode jeg er dig imod; thi en <seg type="komm" target="Q2v-15a"/>Rangsyge er ikke at curere.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Føy mig dog herudi lille Magdelone!</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Jeg siger min hierte Mand! at jeg hverken vil eller kand hindre dig derudi.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Du kand ellers ved denne Leilighed giøre mig en Tieneste, som jeg stedse vil <seg type="komm" target="Q2v-24"/>erkiende.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Hvad skal det være?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det er, at du vil tage <seg type="komm" target="Q2v-28"/>Skylden paa dig; saa at jeg maa sige, at det er mod min Villie, men at min Kone vil endelig have Rang?</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Der har vi det! vi stakkels Koner skal altid tage Skylden paa os.</p>
+					</sp>
+					<pb ed="SS" n="614"/>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Tien mig dog herudi, min Høne! man regner ikke <seg type="komm" target="Q2v-35"/>Fruentimret saadant til onde.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Takke maa I Gud, I gode Mænd, at I har os til <seg type="komm" target="Q2v-38"/><w>Kaabe-Skiul</w>.</p>
+					</sp>
+					<pb ed="A" n="Q3r" facs="Q3r"/>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Vær mig da behielpelig herudi.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Jeg har taget Skylden paa mig i saa meget, saa faar jeg <seg type="komm" target="Q3r-5"/>og giøre det her udi.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hør <seg type="komm" target="Q3r-7"/>mit hierte Barn! den <w>Dyre-Kølle</w> jeg fik fra Landet i Gaar, skal tillaves til i <w>Morgen-Middag</w>; thi jeg har budet en god Ven til Giest, som skal bane Vejen for mig til det andet.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Hvad er det for een?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Han er Lakei hos <seg type="komm" target="Q3r-14"/>en fornemme Herre, som han har lovet at <seg type="komm" target="Q3r-15"/>recommendere mig til.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Ach Himmel! er det mueligt? du tragter efter Høyhed, og tillige med <seg type="komm" target="Q3r-18"/>fornedriger dig saa meget.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Man maa <seg type="komm" target="Q3r-20"/>skikke sig i saadant min Dukke, naar man vil frem i Verden.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Det er jo af Ambition at sætte al Ambition til side.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Siig ikke det min Dukke. Den samme Lakei er <seg type="komm" target="Q3r-25"/>vel lidet af sin Herre, og, naar jeg først bliver recommenderet hos hans Herre, saa recommenderer hand mig vider.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Hvis I vilde lyde mit Raad, da <seg type="komm" target="Q3r-29"/>gav I baade ham og hans Herre en god Dag, og <seg type="komm" target="Q3r-30"/>aad jer <w>Dyre-Kølle</w> med jere Naboer.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ney mit Barn, mine Naboer kand ikke hielpe mig her udi. Vær nu noget <seg type="komm" target="Q3r-33"/>artig mod samme Lakei, naar han kommer; du giør mig en stor Tieneste dermed.</p>
+					</sp>
+					<pb ed="SS" n="615"/>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Jeg vil sætte ham ved et lille Bord for sig selv, og <seg type="komm" target="Q3r-36"/>skikke ham et got Stykke af Stegen.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p><seg type="komm" target="Q3r-39"/>Primer du mit Barn? han maa <seg type="komm" target="Q3r-39a"/>min Troe sættes øverst <pb ed="A" n="Q3v" facs="Q3v"/>ved Bordet; man maa <seg type="komm" target="Q3v-1"/>flattere de slags Folk noget. Men, naar man har faat, hvad man vil have, kand man <seg type="komm" target="Q3v-2"/>give dem Døden og Dievelen.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Jeg er min Troe gandske fortumled i mit Hovet over disse mange <seg type="komm" target="Q3v-6"/>selsomme Lader.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Vær mig da ikke imod i denne Sag, som ligger mig saa <seg type="komm" target="Q3v-9"/>hart paa Hiertet.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Gid jeg kunde <seg type="komm" target="Q3v-11"/>stræbe dig imod; men det er Ulykken at jeg er alt for føyelig.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Lov mig det da min Dukke.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Nu jeg skal ikke være dig imod.</p>
+					</sp>
+						<stage>Han kysser hende og hun gaaer bort.</stage>					
+				</div>
+				<div type="scene" xml:id="act1sc4" n="Scene 4">
+					<head><hi rend="ant">Scen. 4.</hi></head>
+					<stage>Arv. Jeronimus.</stage>
+					<sp>
+						<speaker>Arv <stage>udi sit <seg type="komm" target="Q3v-20"/>Liberie.</stage></speaker>
+						<p>Jeg skal hilse <seg type="komm" target="Q3v-21"/>Hosbond fra Skrædderen. Hand bad at Herren vilde forsøge om <seg type="komm" target="Q3v-22"/>Kiolen passer.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hvorfor kommer hand ikke selv og <seg type="komm" target="Q3v-24"/>passer den?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Hand vilde komme selv; men jeg sagde at han skulde blive hiemme.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hvorfor giorde du det Arv?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Jeg sagde at jeg veed ikke om Herren vil have nogen Skrædder i sit Huus, eftersom Hosbond skal have en Rang.</p>
+					</sp>
+					<pb ed="SS" n="616"/>
+					<sp>
+						<speaker><app type="tc"><lem wit="B">Jeronimus.</lem><rdg wit="A">Arv.</rdg><rdg resp="SS">Jeron.</rdg></app></speaker>
+						<p>Din Slyngel! hvem beder dig sige saadant? jeg har jo ingen Rang faat endnu. Hvad sagde Skrædderen dertil? blev han ikke vred?</p>
+					</sp>
+					<pb ed="A" n="Q4r" facs="Q4r"/>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="Q4r-2"/>Ney min Troe blev hand ikke vred, han loe deraf.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ja <seg type="komm" target="Q4r-4"/>saa er det vel nok.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Skal jeg <seg type="komm" target="Q4r-6"/>passe Kiolen <app type="var"><lem wit="A">paa</lem><rdg wit="B">paa jer</rdg></app>?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p><seg type="komm" target="Q4r-8"/>Ja nok.</p>
+					</sp>
+					<sp>
+						<speaker>Arv <stage>ifører ham en <seg type="komm" target="Q4r-9"/>gallonneret Kiole.</stage></speaker>
+						<p>Nu seer <seg type="komm" target="Q4r-10"/>min Troe Herren anderledes ud. En smuk Kiole kand skabe en <seg type="komm" target="Q4r-11"/>Varulv om til et Menniske.</p>
+						<stage>Han hæfter <seg type="komm" target="Q4r-12"/><app type="var"><lem wit="A"><w>Silke-Lister</w></lem><rdg wit="B"><w>Silke-Lisser</w></rdg></app> ved <seg type="komm" target="Q4r-12a"/>Jeronimi Arm.</stage>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hvad Pokker er det du giør? disse Lister hører ikke mig, men din <w>Liberi-Kiole</w> til. Giør mig ikke til Nar.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Skal jeg da være Nar?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ney, men det hører Liberiet til.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="Q4r-21"/>Det staar dog ikke Herren ilde.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det maa staa ilde eller vel, saa er det dog <w>Lakei-Dragt</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Mig syntes dog Skrædderen sagde, at jeg skulde <seg type="komm" target="Q4r-25"/>binde Herren noget paa Ermene.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Du har hørt feil Arv. Skrædderen er ikke saa taabelig.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="Q4r-30"/>Ney min Troe er han ikke saa taabelig. Det er en Mand som arbeider for meget fornemme Folk.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Siger du det Arv? hvad er det for fornemme Folk han arbeider for? </p>
+					</sp>
+					<pb ed="SS" n="617"/>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Han arbeider blant andre for en Græve.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p><seg type="komm" target="Q4r-38"/>Hillemænd for en Græve?</p>
+					</sp>
+					<pb ed="A" n="Q4v" facs="Q4v"/>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="Q4v-2"/>Ja ret for en Græve, som er <seg type="komm" target="Q4v-2a"/>en virkelig Græve.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Som er en virkelig Græve siger du?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Ja ret en virkelig Græve, som har en Grævinde.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Jeg maa <seg type="komm" target="Q4v-8"/>min Troe giøre noget Væsen af den Skrædder. Han kand, maa skee, giøre mig Tieneste. Hør Arv, <seg type="komm" target="Q4v-9"/>gak strax til ham, og giør Undskyldning for det andet, og beed ham at han vil giøre mig den Ære at spise en <w>Dyre-Kølle</w> med mig i Morgen.</p>
+					</sp>
+					<sp>
+						<speaker>Arv <stage>gaaer og kommer igien.</stage></speaker>
+						<p>Var det ikke en <w><seg type="komm" target="Q4v-14"/>Dyre-Køllert</w>?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ja en <w>Dyre-Kølle</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Skal han da tage den Køllert med sig selv?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hvilken Snak? bed ham kun giøre mig den Ære at spise med mig i Morgen, og bær dig <seg type="komm" target="Q4v-21"/>noget skikkelig ad.</p>
+					</sp>
+						<stage>Arv gaaer.</stage>					
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Nu kand jeg slaae to Fluer med en Smække, og vinde baade Skrædderens og Lakeiens Venskab ved denne <w>Dyre-Kølle</w>. Man maa bruge alle <seg type="komm" target="Q4v-26"/><app type="var"><lem wit="A">Bogrier</lem><rdg wit="B">Ficonterier</rdg></app> naar man vil frem i Verden. Ach gid jeg havde <app type="var"><lem wit="A">mig en</lem><rdg wit="B">min</rdg></app> Rang, saa vil jeg slaae mig til Roelighed, og intet andet verdsligt forlange.</p>
+						<stage>Gaaer ind.</stage>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act1sc5" n="Scene 5">
+					<head><hi rend="ant">Scen. 5.</hi></head>
+					<stage>Leander. Leonore. Pernille.</stage>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Det var nogle forbandede Historier, som vi hørdte af <seg type="komm" target="Q4v-33"/>hendes Mamma.</p>
+					</sp>
+					<pb ed="SS" n="618"/>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Jeg er gandske hovedsvimled derover.</p>
+					</sp>
+					<pb ed="A" n="Q5r" facs="Q5r"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Det er ikke hans Galskab alleene, som gaaer mig til Hierte; men jeg frygter for noget andet.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Hvad er det?</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg frygter, eftersom han har faat <seg type="komm" target="Q5r-7"/>slige Griller i Hovedet, at han bryder sit Løfte for at gifte Jomfruen med en <w>Rangs-Person</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p><seg type="komm" target="Q5r-11"/>Jeg svær min Troe ikke derfor. Men er det ikke Arv som kommer der i <w><seg type="komm" target="Q5r-12"/>Liberi-Klæder</w>? Arv! hvordan Pokker <seg type="komm" target="Q5r-12a"/>est du bleven saa gallant?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Det er en <w>Liberi-Kiole</w>, Pernille!</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>En <w>Liberi-Kiole</w>?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Ja, og jeg troer nok at du ogsaa faar en <w>Liberi-Kiole</w>. Men hvor er Hr. Jeronimus? jeg skulde gaae et Ærende i Bye, og jeg glemte at spørge om noget.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Hvor skulde du da gaae?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Jeg skulde byde vor Skrædder til Bords i Dag paa en <w>Dyre-Køllert</w>; men jeg glemte om jeg skulde bede ham <seg type="komm" target="Q5r-26"/>tage Kniv og Gaffel med sig.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Du <seg type="komm" target="Q5r-29"/>Giæk! det er ikke brugelig meer.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Ikke det. I <seg type="komm" target="Q5r-31"/>Æbeltoft hos mig er det brugeligt blant alle.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Ja, i Æbeltoft. Der er ogsaa endnu brugeligt at tage Steeg og Terte hiem med sig i Tørklæder. Men hvorfor vil han giøre Skrædderen den Ære at byde ham til Bords.</p>
+					</sp>
+					<pb ed="SS" n="619"/>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Det kand, maa skee, være for hans Lykke Pernille; thi samme Skrædder arbeyder for en Græve.</p>
+					</sp>
+					<pb ed="A" n="Q5v" facs="Q5v"/>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>For en Græve?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="Q5v-4"/>Ja mare, er det en virkelig Græve; thi han holder 7 <seg type="komm" target="Q5v-4a"/>Heste og Hopper paa <seg type="komm" target="Q5v-5"/>Stold.</p>
+					</sp>
+					<sp>
+						<speaker>Pern.</speaker>
+						<p>Men hvad vil det sige?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="Q5v-9"/>Han meener samme Skræder kand <seg type="komm" target="Q5v-9a"/>recommendere ham til Baronen.</p>
+					</sp>
+					<sp>
+						<speaker>Pern.</speaker>
+						<p>Er han en Baron? Du sagde jo nyelig at han var Græve.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Ja jeg troer han er <seg type="komm" target="Q5v-14"/>meer end Græve. Han er vist Baron, thi han kiører <seg type="komm" target="Q5v-15"/>i sex Heste med en forgyldt Vogn og har selv en Snoer paa Hatten. – – men jeg maa løbe mit Ærende.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Dette gaaer noget vit Børnlille, thi hvis vi ikke hitter paa noget Raad derimod, <seg type="komm" target="Q5v-19"/>gaar <seg type="komm" target="Q5v-19a"/>Mons. Leander Jomfruen qvit, saa vit jeg kand merke.</p>
+					</sp>
+					<sp>
+						<speaker><app type="tc"><lem><corr resp="Boye">Leander</corr></lem><rdg wit="A B">Arv</rdg><rdg resp="Rahbek">Leonora</rdg><rdg resp="Boye">Leander<note type="last">(fulgt af Liebenberg Martensen Roos)</note></rdg></app>.</speaker>
+						<p>Hvad Raad kand du give os Pernille?</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Havde vi kun fat paa Monsr. Leonards Tiener Henrik, ham skulde jeg <seg type="komm" target="Q5v-25"/>overlegge noget med.</p>
+					</sp>
+					<sp>
+						<speaker>Leand.</speaker>
+						<p>Jeg skal nok overtale Monsr. Leonard at laane os ham en Dag.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Der behøves ogsaa smuk <seg type="komm" target="Q5v-30"/>Eqvipage og Klæder.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Det altsammen skal jeg bringe til Veje.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Thi hand skal spille en stor <seg type="komm" target="Q5v-34"/>Rulle.</p>
+					</sp>
+					<pb ed="SS" n="620"/>
+					<sp>
+						<speaker>Leand.</speaker>
+						<p>Hvad skal det være for en Rulle?</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det kand jeg ikke sige dem endnu. Jeg maa først have fat paa Karlen, og see hvad han duer til.</p>
+					</sp>
+					<pb ed="A" n="Q6r" facs="Q6r"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>I at <seg type="komm" target="Q6r-2"/>spille Pudser har han faae Tienere sin Lige.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Men maa vi ikke høre hvorudi dette skal bestaae?</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Ney, hun faaer det ikke at vide, og hendes Mama langt mindre; thi hun vilde <seg type="komm" target="Q6r-7"/>forderve Leegen, saasom hun har formegen Føyelighed for hendes Mand. <seg type="komm" target="Q6r-8"/>Det tiener ikke at mange <seg type="komm" target="Q6r-9"/>ere <seg type="komm" target="Q6r-9a"/>Medvidere herudi, men, naar Eventyret er til Ende, skal baade I og <seg type="komm" target="Q6r-10"/>Madamen takke mig for min Umag.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg vil da <seg type="komm" target="Q6r-12"/>paa staaende Fod hen at faa fat paa Henrich.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Og jeg vil ind at studere videre paa min <seg type="komm" target="Q6r-14"/>Lectie.</p>
+					</sp>
+				</div>
+			</div>
+			<div type="act" xml:id="act2" n="Anden akt">
+				<head><hi rend="ant"><app type="tc"><lem><corr resp="ed">Actus</corr></lem><rdg wit="A">Actus.</rdg></app> II.</hi></head>
+				<div type="scene" xml:id="act2sc1" n="Scene 1">
+					<head><hi rend="ant">Scen. 1.</hi></head>
+					<stage>Pernille. Henrich.</stage>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p><w><hi rend="init">K</hi>and</w> du nu faa det i dit Hoved Henrich?</p>
+					</sp>
+					<sp>
+						<speaker>Henrich.</speaker>
+						<p>Det er <seg type="komm" target="Q6r-21"/>kun Smørrebrød for mig.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det blir dog et <seg type="komm" target="Q6r-23"/>temmeligt Arbeid.</p>
+					</sp>
+					<sp>
+						<speaker>Henrich.</speaker>
+						<p><seg type="komm" target="Q6r-25"/>Ej Bagatelle, det er intet Arbeid for mig. Jeg ville <seg type="komm" target="Q6r-26"/>obligere mig til paa en Eftermiddag at giøre dobbelt saa meget.</p>
+					</sp>
+					<pb ed="SS" n="621"/>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Siig ikke det Henrich, dobbelt saa meget. <seg type="komm" target="Q6r-28"/>Gak nu strax hen og <seg type="komm" target="Q6r-29"/>sæt dig i Eqvipage.</p>
+						<stage>Han gaaer.</stage>
+						<p>Jeg har aldrig vartet op ved Bordet med saadan <seg type="komm" target="Q6r-31"/>Fortrydelse som i Dag for denne Skræder og denne <seg type="komm" target="Q6r-32"/>Lakei. De aade med saadan Graadighed af denne Dyrekølle, at Taarene stode dem i Øyene. Er det da mueligt at en gammel <seg type="komm" target="Q6r-34"/>brav Mand <pb ed="A" n="Q6v" facs="Q6v"/>kand forfalde til saadan <seg type="komm" target="Q6v-1"/>Bassesse. Jeg troer at han gav sin Daatter til en Skorsteensfejer Svend om han <seg type="komm" target="Q6v-2"/>ikkun kunde <seg type="komm" target="Q6v-2a"/>recommendere ham til en fornemme Herre. Saadan Virkning har denne Rangsyge giort hos ham. Men jeg maa holde gode Miiner for at hielpe Henrich i hans Forehavende. See der kommer han med disse <seg type="komm" target="Q6v-6"/>tvende <seg type="komm" target="Q6v-6a"/>Cavalliers Skrædderen og Lakkeien.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act2sc2" n="Scene 2">
+					<head><hi rend="ant">Scen. 2.</hi></head>
+					<stage>Jeronimus. Skrædderen. Lakeien. Pernille.</stage>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>I gode Mænd <seg type="komm" target="Q6v-11"/>tar saa til Takke med dette ringe Maaltid.</p>
+					</sp>
+					<sp>
+						<speaker>Lakeien.</speaker>
+						<p>Det var <seg type="komm" target="Q6v-13"/>min Troe ikke et ringe Maaltid. Jeg aad med stor Appetit af den <w>Dyre-Kølle</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Skrædderen.</speaker>
+						<p>Jeg min Troe <seg type="komm" target="Q6v-16"/>iligemaade.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det er mig usigeligen kiært at den smagede dem; thi jeg har ingen bedre Venner at unde den til.</p>
+					</sp>
+					<sp>
+						<speaker>Skrædderen.</speaker>
+						<p><seg type="komm" target="Q6v-21"/>Serviteur hans Tiener.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hør Pernille, giv os nok et Glas Viin paa <seg type="komm" target="Q6v-23"/>Falrebet.</p>
+					</sp>
+					<sp>
+						<speaker>Lakeien.</speaker>
+						<p>Vi har saamænd faat vor <seg type="komm" target="Q6v-25"/>Bekomst.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Et Glas <seg type="komm" target="Q6v-27"/>endnu I gode Herrer.</p>
+						<stage>(Jeronimus støder Glasset mod <app type="tc"><lem><corr resp="ed">Lakeiens</corr></lem><rdg wit="A">Lakeien</rdg></app>, og tar sin Hue under Armen.)</stage>
+						<p>Det skal være den <seg type="komm" target="Q6v-30"/>Velbaarne Herres og Frues Skaal. Gid de maa længe leve; thi det er et naadigt og <seg type="komm" target="Q6v-31"/>dydigt Herskab.</p>
+					</sp>
+					<sp>
+						<speaker>Lakeien.</speaker>
+						<p>Jeg takker skyldigst.</p>
+					</sp>
+					<pb ed="SS" n="622"/>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Jeg haaber at <seg type="komm" target="Q6v-35"/>han taler et got Ord for mig ved Leilighed.</p>
+					</sp>
+					<sp>
+						<speaker>Lakeien.</speaker>
+						<p>Han maae ikke <seg type="komm" target="Q6v-37"/>tvile derpaa.</p>
+					</sp>
+						<stage>(Jeronimus kysser dem til Afskeed.)</stage>					
+				</div>
+				<pb ed="A" n="Q7r" facs="Q7r"/>
+				<div type="scene" xml:id="act2sc3" n="Scene 3">
+					<head><hi rend="ant">Scen. 3.</hi></head>
+					<stage>Jeronimus. Pernille.</stage>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Man maa <seg type="komm" target="Q7r-4"/>flattere disse Slubberter om man vil have noget got af dem.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det er sant nok, men mig synes at Herren behøver anden <seg type="komm" target="Q7r-8"/>større Kundskab, om han tænker at komme <seg type="komm" target="Q7r-8a"/>fort.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg maa først giøre Kundskab med Tienerne, siden kand jeg nok med Tiden faae deres Herrer til Bords.</p>
+					</sp>
+						<stage>(Arv kommer løbende og falder.) </stage>					
+					<sp>
+						<speaker><app type="tc"><lem><corr resp="ed">Jeronimus</corr></lem><rdg wit="A">Jeroimus</rdg></app>.</speaker>
+						<p>Hvad er paa færde Arv?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="Q7r-16"/>Hillemænd Herre! her er en Baron uden for, som vil tale med <seg type="komm" target="Q7r-17"/>Hosbond.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>En Baron siger du?</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>En Baron?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Ja. Men han er i en <seg type="komm" target="Q7r-23"/>Æske.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>I en Æske?</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Ja, men det er en Æske med Vinduer paa.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det maa nok være en <seg type="komm" target="Q7r-29"/>Portechaise.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det maae nok saa være. Hvad er hans Navn Arv?</p>
+					</sp>
+					<pb ed="SS" n="623"/>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Han heeder Baron <seg type="komm" target="Q7r-33"/>Kaal.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det er et underligt Navn. Du maae have hørt feil.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Jeg <seg type="komm" target="Q7r-37"/>vil nok spørge først om hans Navn, førend hand kommer ind.</p>
+					</sp>
+					<pb ed="A" n="Q7v" facs="Q7v"/>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p><seg type="komm" target="Q7v-2"/>Est du gal Dreng. Vil du spørge saadan Mand om hans Navn.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Ney saa taabelig er jeg ikke. Jeg vil spørge en af hans Hæste derom.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>En af hans Heste.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="Q7v-10"/>Ja ret en af hans Heste; thi det er ikke saadanne Heste som spændes for Vogne. Disse kand snakke.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det maa være <seg type="komm" target="Q7v-13"/>Porteurs han meener.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det maa saa være. Sig Arv, at han skal være mig velkommen. Pernille løb ind efter min <seg type="komm" target="Q7v-16"/>Peryk.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act2sc4" n="Scene 4">
+					<head><hi rend="ant">Scen. 4.</hi></head>
+					<stage><app type="tc_var"><lem wit="B">Henrich som Baron.</lem><rdg wit="A">Henrich. som Baron</rdg></app> Jeronimus. Pernille. Arv.</stage>
+					<sp>
+						<speaker>Henrich.</speaker>
+						<p><seg type="komm" target="Q7v-20"/>Hal – – – tet Porteurs.</p>
+						<stage>(Stiger ud og omfavner Jeronimus <seg type="komm" target="Q7v-21"/>med bare Hovedet.)</stage>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Om Forladelse naadig Herre, at jeg tager mod ham i den <seg type="komm" target="Q7v-24"/>Positur.</p>
+					</sp>
+					<sp>
+						<speaker><seg type="komm" target="Q7v-25"/>Baronen.</speaker>
+						<p>Jeg veed ikke om jeg har den Lykke at være kiendt <seg type="komm" target="Q7v-26"/>af Her Jeronimo.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg har kun den Naade at kiende Baronen af Navn, jeg veed at han er Hr. Baron Kaal.</p>
+					</sp>
+					<pb ed="SS" n="624"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Jo mit Navn er <seg type="komm" target="Q7v-32"/>Baron Von Reenkaalavæt. Jeg er kiendt her i Staden baade blandt Høye og Lave, undertiden omgaaes jeg med Prindser og <seg type="komm" target="Q7v-34"/>Førster, og undertiden finder jeg behag i at besøge Borgere her i Staden.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det er meget naadigt af saadan Herre.</p>
+					</sp>
+					<pb ed="A" n="Q8r" facs="Q8r"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Ach Hr. Jeronimus! vi <seg type="komm" target="Q8r-2"/>ere jo alle Mennisker. Jeg finder ofte Behag i at høre en og anden fornuftig Borger <seg type="komm" target="Q8r-3"/>raisonnere. Jeg har og saa erfaret, at der er saadan Forstand hos een og anden blant dem, at de burte <seg type="komm" target="Q8r-5"/>emplojeris til andet end at drive Borgerlig Næring.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg takker allerunderdanigst paa Borgerstandens vegne.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Der er ogsaa en anden Aarsag, hvor for jeg <seg type="komm" target="Q8r-10"/>gaar saa iblant i gemene <w>Borger-Huuse</w>. Hoffet har tanker om mig, at jeg er en habil Mand, som jeg uden at rose mig selv ogsaa er, saa at jeg kand give <seg type="komm" target="Q8r-13"/>Lectie til de største Statsmænd i vor Tid: tænk engang Hr. Jeronimus jeg har været med at slutte over 48 <w>Freds-tractater</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p><seg type="komm" target="Q8r-17"/>Hillemend! over 48 <w>Freds-Tractater</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Hvem er som taler der? Det er vel hans smukke <seg type="komm" target="Q8r-19"/>Kiereste <hi rend="ant"><seg type="komm" target="Q8r-20"/>votre treshumble bienhumble Madame</hi>.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ney min Herre. Det <app type="tc"><lem wit="B">er</lem><rdg wit="A">en</rdg></app> min <w>Kammer-pige</w> til tieneste.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Det er <seg type="komm" target="Q8r-24"/>Morbleu en <seg type="komm" target="Q8r-24a"/>perfectement smuk <w>Kammer-Pige</w>.</p>
+						<stage>(han kysser hende.)</stage>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det er alt for stor Naade Baronen beviser mig.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus. <stage>(sagte)</stage></speaker>
+						<p>Hvor naadig er ikke denne gode Herre.</p>
+					</sp>
+					<pb ed="SS" n="625"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Men at komme til <seg type="komm" target="Q8r-31"/>mit apropos igien. Hvad var det jeg talde sidst.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det var om de 48 <w>Freds-tractater</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Det er sant. Saasom nu Regiæringen har tanker om mig, at jeg er en <seg type="komm" target="Q8r-37"/>skiønsom Mand, og <seg type="komm" target="Q8r-37a"/>reflecterer paa mine <seg type="komm" target="Q8r-37b"/>Recommendationer, saa gaaer jeg undertiden <seg type="komm" target="Q8r-38"/>om at <hi rend="ant"><seg type="komm" target="Q8r-38a"/>sondere</hi> <app type="tc"><lem wit="B">endogsaa</lem><rdg wit="A">en ogsaa</rdg><rdg resp="SS">en ogsaa</rdg></app> blandt Folk <app type="tc_var"><lem wit="B">af</lem><rdg wit="A">blant</rdg><rdg resp="SS">blant</rdg></app> <w>Borger-Stand</w>, for at give Rapport om <pb ed="A" n="Q8v" facs="Q8v"/>een og andens <seg type="komm" target="Q8v-1"/>Meriter. Jeg har <app type="tc"><lem wit="A B">dog</lem><rdg resp="Martensen">og<note type="last">(efter Liebenberg1870)</note></rdg></app> hiulpet over en halvsnees <seg type="komm" target="Q8v-2"/>gemene Borgere <seg type="komm" target="Q8v-2a"/>af Støvet i en kort Tiid thi de havde <seg type="komm" target="Q8v-3"/>mardi maa skee end været gemeene Borgere, hvis Baron von Reenkaalavet havde ikke været dem behielpelig.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus <stage>til Pernille.</stage></speaker>
+						<p>Pernille! Himmelen selv har sendt mig denne Herre hid; thi det er just saadan Mand, som jeg trænger til.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Og alt dette giør jeg uden Interesse. Den sidste Borger, som jeg hialp til en <seg type="komm" target="Q8v-10"/>Caracteer, <seg type="komm" target="Q8v-10a"/>skikkede mig derfor 1000 Rdr. men jeg tog <seg type="komm" target="Q8v-11"/>pardi ikke mod meer end de 500; thi jeg vil tiene Hr. Jeronim. Jeg trænger ikke til Penge. Mit Baronie <seg type="komm" target="Q8v-12"/>importerer mig over 40000 <seg type="komm" target="Q8v-13"/>Rdlr om Aaret. Jeg vil beskrive ham mit Baronie. Hovedgaarden ligger paa en Bakke, paa den eene Side en <w>Eege-skov</w> 4 Miile lang, og paa den anden Side er et <seg type="komm" target="Q8v-15"/>frisk Vand, hvor jeg undertiden tager <seg type="komm" target="Q8v-16"/>Cabeljou af den længde.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Cabeljou i friskt Vand?</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="Q8v-20"/>Det maa jeg forstaae. Det som ellers holdes for umueligt, har jeg giort mueligt, det er en <seg type="komm" target="Q8v-21"/>Invention som jeg <seg type="komm" target="Q8v-21a"/>ingen har aabenbaret <seg type="komm" target="Q8v-22"/>uden for <seg type="komm" target="Q8v-22a"/>Kongen af Frankrig, da jeg havde den Naade at tale med Kongen ved <seg type="komm" target="Q8v-23"/>den Utrectiske Fred.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Maatte jeg spørge Baronen hvor den Utrectiske Fred ligger?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Tie stille Pernille, <seg type="komm" target="Q8v-28"/>hvad vil du tale med saadan Herre.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><app type="tc"><lem><corr resp="udg1758">Den</corr></lem><rdg wit="A">Det</rdg><rdg resp="udg1758">Den</rdg><rdg resp="SS">Det</rdg></app> Utrectiske Fred <seg type="komm" target="Q8v-30"/>Mademoiselle blev sluttet i den Stad <seg type="komm" target="Q8v-30a"/>Carnaval udi <seg type="komm" target="Q8v-31"/>Burgundien, og uden at roese mig selv, saa var den <w>Freds-slutning</w> mit Verk, hvor vel andre, <pb ed="SS" n="626"/>som <seg type="komm" target="Q8v-32"/>gemeenligen skeer, faaer <seg type="komm" target="Q8v-33"/>Navn der for i <seg type="komm" target="Q8v-33a"/>Aviserne. Nok er det at Kongen af Frankrig havde den Naade at sige til mig, da Freden var sluttet, disse Ord: <hi rend="ant"><seg type="komm" target="Q8v-35"/>tres renomme coment fermes la porte de la Baron de Reencolavet.</hi></p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p><seg type="komm" target="Q8v-38"/>Hillemend! det var meget naadigt.</p>
+					</sp>
+					<pb ed="A" n="R1r" facs="R1r"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det gaaer gierne saa til, naadig Herre, at hvad een har giordt, det faaer andre Navn fore i Aviserne; thi om jeg <app type="tc"><lem wit="B">mindes ret,</lem><rdg wit="A">mindes, ret</rdg></app> saa fik <hi rend="ant"><seg type="komm" target="R1r-4"/>Duc de vendosme</hi> Navn for den Fred.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Ja han maa melde sig, dog han kand være got nok til sit Brug, men at komme til <seg type="komm" target="R1r-7"/>min apropos igien, saa er jeg ikke den, der tiener Folk <seg type="komm" target="R1r-8"/>for Interesse. Men det er sant jeg seer igiennem Fingre lidt med mine <seg type="komm" target="R1r-9"/><app type="var"><lem wit="A">Tiener</lem><rdg wit="B">Tienere</rdg></app> om de tar noget.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det er ikke meer end <seg type="komm" target="R1r-11"/>billigt.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Jeg misunder dem det ikke, de <seg type="komm" target="R1r-13"/>ere mange derom; thi saasom jeg omgaaes med <seg type="komm" target="R1r-14"/>alle haande slags Nationer, saa <app type="tc"><lem><corr resp="ed">maa</corr></lem><rdg wit="A">ma<note type="last">(ved slutning af linje)</note></rdg></app> jeg holde adskillige slags Tiennere. Jeg har een spansk Tiener, en Fransk, en Polsk, en Tydsk, en Italiensk, og <app type="tc_var"><lem wit="A">Engelsk</lem><rdg wit="B">en Engelsk</rdg></app>.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="R1r-18"/>Hillemænd! forstaaer Herren saa mange Sprog?</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Jeg forstaaer alle Sprog og taler det eene ligesaa <seg type="komm" target="R1r-20"/>færdigt som det andet. Jeg har en Polsk Tiener, som taler baade Fransk og Dansk. Hey <seg type="komm" target="R1r-22"/>Dobre Podolsky!</p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p><seg type="komm" target="R1r-24"/>Skabhalsiasky.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det er et underligt Sprog.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det er halv Dansk Skabhalsiasky.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Det betyder saa meget som: Hvad befaler Herren? Hør Dobre Podolsky! du skal <seg type="komm" target="R1r-31"/>fornemme om <seg type="komm" target="R1r-31a"/>Græv Leerbeutel kommer <seg type="komm" target="R1r-32"/>til Hove i Dag. Hvis han kommer, saa vil jeg ogsaa komme.</p>
+					</sp>
+						<stage>(han gaaer.)</stage>
+					
+					<pb ed="SS" n="627"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Hey Dobre Podolsky.</p>
+					</sp>
+					<pb ed="A" n="R1v" facs="R1v"/>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>Skabhalsiasky.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="R1v-4"/>Formeld min Respect til Grævinden. Jeg kommer til hende mod Aften paa en <seg type="komm" target="R1v-5"/>Passedix eller <seg type="komm" target="R1v-5a"/><app type="tc"><lem wit="B">Obscurite</lem><rdg wit="A">Obscurire</rdg></app>.</p>
+						<stage>(han gaaer.)</stage>
+						<p>Og kand du finde <seg type="komm" target="R1v-7"/>Frøkenen ved samme Leilighed, da sig hende <hi rend="ant"><seg type="komm" target="R1v-8"/>Voulez vous Comment fermez la chaise autrement perfectement je parlerons la Contesse de la Baronesse que ditez vout.</hi> Men ingen maa høre det.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p><hi rend="ant"><seg type="komm" target="R1v-12"/>Dobre Mosepan.</hi></p>
+						<stage>(han gaaer.)</stage>
+					</sp>
+					<sp>
+						<speaker><app type="tc"><lem><corr resp="Rahbek">Baronen.</corr></lem><rdg wit="A B"><note>replikindehaver ikke angivet i</note></rdg><rdg resp="Rahbek">Baronen.</rdg></app></speaker>
+						<p>Jeg <app type="tc"><lem><corr resp="ed">har</corr></lem><rdg wit="A">han</rdg></app> ingen synderlig Lyst at komme til Hove i Dag, men jeg har <seg type="komm" target="R1v-15"/>engrasseret mig at <seg type="komm" target="R1v-15a"/>recommendere en halv snees Personer.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach naadige Herre! tag ikke ugunstigt op, at jeg ydmygst beder <seg type="komm" target="R1v-19"/>ham om noget.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Det skal være mig en <seg type="komm" target="R1v-21"/>plaiser at <app type="tc"><lem><corr resp="ed">tiene ham</corr></lem><rdg wit="A">tieneham</rdg></app>.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Maa jeg ikke være den 11te af dem, som skal recommenderes.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Hvorfor ikke Her Jeronimus? Taler jeg for 10 saa kand jeg ogsaa tale for den ellevte. Men hvad er <seg type="komm" target="R1v-26"/>hans Ansøgning.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det er noget som hand maa skee vil holde latterligt af mig, som af en gammel Mand; men det er ikke <seg type="komm" target="R1v-29"/>min Drift. Min Kone vil endelig have det.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Hvad er det da?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Disse <seg type="komm" target="R1v-34"/>Fruentimmer har visse Skrøbeligheder, som man maa føye dem udi.</p>
+					</sp>
+					<pb ed="SS" n="628"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Det er sant nok, men hvad er det?</p>
+					</sp>
+					<pb ed="A" n="R2r" facs="R2r"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg vilde give 1000 <seg type="komm" target="R2r-2"/>Daler til at min Kone ikke var falden til den Galskab.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="R2r-5"/>Ey hvad er det da for Galskab, siig frem.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Jeg haaber at naadige Her Baron ikke troer, at det er min Drift.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><hi rend="ant"><seg type="komm" target="R2r-10"/>Vertichoux!</hi> hvad kand jeg troe førend jeg hører.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Thi hvorfor skulde jeg paa min gamle Alder forlange saadant.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="R2r-15"/>Peste! hvis <seg type="komm" target="R2r-15a"/>I ikke kommer til Sagen, saa gaaer jeg.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Min Kone vil <seg type="komm" target="R2r-17"/>endeligt <seg type="komm" target="R2r-17a"/>profos være Frue.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="R2r-19"/>Ey er det ikke andet, <seg type="komm" target="R2r-19a"/>det skal have gode Veye.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Skulde det da kunne lade sig giøre?</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Vist. Det koster kun at skaffe Hr. Jeronimus en Rang. Er det ikke <seg type="komm" target="R2r-24"/>saa I meener?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jo det kand vel ikke skee paa anden Maade. Jeg maa giøre det allene for at føje min Kone, om jeg ellers vil have Fred udi Huset.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="R2r-30"/>Er han da ikke selv for det?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg kand <seg type="komm" target="R2r-32"/>sværge Eders Naade til, at jeg er <seg type="komm" target="R2r-32a"/>færdig at gaae i   Jorden over saadant Galskab.</p>
+					</sp>
+					<pb ed="SS" n="629"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Hør Her Jeronimus! <seg type="komm" target="R2r-35"/>efterdi han selv er saa meget derimod, da, for at <seg type="komm" target="R2r-36"/>stille hans Kone tilfreds, vil jeg lade, som jeg søger, og sige at jeg har faaet Afslag, saa <seg type="komm" target="R2r-37"/>giver hun sig tilfreds, og I kommer <seg type="komm" target="R2r-38"/>af denne Beængstelse.</p>
+					</sp>
+					<pb ed="A" n="R2v" facs="R2v"/>
+					<sp>
+						<speaker>Pernille. <stage>(sagte)</stage></speaker>
+						<p><seg type="komm" target="R2v-2"/>Hillemænd! nu er han i Knibe. Nu kommer han vel strax til Bekiendelse.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg kand endelig ikke sige, Naadig Herre! at det er mig saa meget imod; thi hvorvel – At – Omenskiøndt – Baronen kan nok fatte hvad jeg vil sige.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Jo jeg fatter at <seg type="komm" target="R2v-9"/>I har ligesaa stor Lyst til en Rang som jer Kone.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg nægter ikke at jeg <seg type="komm" target="R2v-12"/>jo har en <seg type="komm" target="R2v-12a"/>honete Ambition; thi saasom – – efterdi – – <seg type="komm" target="R2v-13"/>besynderlig for at føye min Kone.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="R2v-15"/>Giør ingen Røverkule af jer Hierte, og siig reent ud, at I har lyst til en Rang. Hvad vil det sige, det er jo en honet Ambition.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ja jeg kand forsikkre Baronen paa at jeg giør det ikke af Ærgierighed, men allene af en honete Ambition.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Det veed jeg nok Hr. Jeronimus. Han skal blive hiulpen, der har I min Haand.</p>
+					</sp>
+						<stage>(Jeronimus kysser paa Haanden.)</stage>					
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Græd ikke Hr. Jeronimus, han skal nok blive hiulpen. Det var Synd andet end at hielpe en Mand der har saadan honette Ambition.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Ach den stakkels Mand han græder af Glæde, det er dog en deilig Ting at have saadan honete Ambition.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Grevinden <seg type="komm" target="R2v-33"/>lod formelde sin Respect til Herren. Men Greven var ikke hiemme.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Men vidste hun ikke om han kommer <seg type="komm" target="R2v-36"/>til Hove i Dag.</p>
+					</sp>
+					<pb ed="A" n="R3r" facs="R3r"/>
+					<pb ed="SS" n="630"/>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>Jo han kommer til Hove. Grævinden bad ellers at Herren vilde skikke hende 500 <seg type="komm" target="R3r-3"/>Rd. til Greven kommer hiem; thi hun havde en <seg type="komm" target="R3r-4"/>hastig Udgift.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Havde du ikke saa mange Penge hos dig? </p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>Det er meget <seg type="komm" target="R3r-8"/>fortredeligt Her Baron. Nu skal jeg <seg type="komm" target="R3r-8a"/>endelig hiem for de <seg type="komm" target="R3r-9"/>Lumpne 500 <seg type="komm" target="R3r-9a"/>Rdlrs. skyld.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Om Herren ikke vil tage det <w>u-naadigt</w> op, saa vil jeg <seg type="komm" target="R3r-11"/>flye ham saa mange Penge.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Ney <seg type="komm" target="R3r-14"/>saamænd! Hr. Jeronimus. Det tager jeg ikke unaadigt op.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg er saa <app type="tc"><lem><corr resp="ed">bange</corr></lem><rdg wit="A">bauge</rdg></app> at det er noget dristigt af mig.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="R3r-19"/>Ey <hi rend="ant"><seg type="komm" target="R3r-19a"/>Sans facon</hi> Her Jeronimus, jeg beder at han hverken herudi eller udi andet vil holde mig for <seg type="komm" target="R3r-20"/>fremmed.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron. <stage>(gaaende ind)</stage></speaker>
+						<p>Gud velsigne den Herre. Hvor naadig han er.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Henrich du <seg type="komm" target="R3r-24"/>est dog en <seg type="komm" target="R3r-24a"/>forbanded Skielm.</p>
+					</sp>
+					<sp>
+						<speaker>Henrich.</speaker>
+						<p><seg type="komm" target="R3r-26"/>Det gaaer brav nok Pernille.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Og du <seg type="komm" target="R3r-28"/>Monsr. <hi rend="ant">Dobre Podolski</hi>. <seg type="komm" target="R3r-28a"/>Gid du faar en Ulykke med din Polsk.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>Jeg maa <seg type="komm" target="R3r-31"/>min troe ogsaa have <seg type="komm" target="R3r-31a"/>noget aparte.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Ja, men ikke saa hastig: men der kommer han tilbage med Pungen.</p>
+					</sp>
+					<pb ed="A" n="R3v" facs="R3v"/>
+					<sp>
+						<speaker>Jeron. <stage>med Pungen</stage>.</speaker>
+						<p>Maa jeg tage mig den Frihed at levere den til Tieneren.</p>
+					</sp>
+					<pb ed="SS" n="631"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Bær dem strax til Grævinden Dobre Podolsky. Maaskee hun vinder dem fra mig igien i Aften; thi hun spiller <seg type="komm" target="R3v-5"/>perfectement <seg type="komm" target="R3v-6"/><app type="tc"><lem><corr resp="ed">Obskurite</corr></lem><rdg wit="A">Obskurike</rdg></app>. <stage>(seer paa sit <seg type="komm" target="R3v-6a"/>Verk.)</stage> <hi rend="ant"><seg type="komm" target="R3v-6b"/>Vertichoux</hi> Klokken er mange. Jeg maae til Hove. <seg type="komm" target="R3v-7"/>Hey <seg type="komm" target="R3v-7a"/>Porteurs.</p>
+					</sp>
+						<stage>Jeronimus kysser ham paa Haanden til Afskeed. Baronen sætter sig i <seg type="komm" target="R3v-9"/>Portechaisen, og siger: <seg type="komm" target="R3v-9a"/>Er soll geholffen werden.</stage>					
+				</div>
+				<div type="scene" xml:id="act2sc5" n="Scene 5">
+					<head><hi rend="ant">Scen. 5.</hi></head>
+					<stage>Jeron. Magdelone, Pernille.</stage>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Var det ikke en allerkiæreste Herre, Pernille. Kald min Kone herud, <seg type="komm" target="R3v-15"/>at jeg kand sige hende hvad som er passeret.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Hvad er det for <seg type="komm" target="R3v-17"/>Stats her har været?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Nu er vi ovenpaa <seg type="komm" target="R3v-19"/>min Hierte. Baronen tog mig i Haanden til Afskeed og sagde: at jeg skulde blive hiulpen.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Ach min hierte Mand! Disse store Folk lover ti gange meer end de agter at holde.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ney, <seg type="komm" target="R3v-25"/>denne min Troe ikke. Havde du seet ham, da skulde du være af andre Tanker. Denne gode Baron holder meer end han lover.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Er det en Baron.</p>
+					</sp>
+					<sp>
+						<speaker>Jereon.</speaker>
+						<p>Ja min Dukke, det er Baron Reenkaalavet, en Herre der har sluttet over 36 <w>Freds-Tractater</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Hvad 36? Han har <seg type="komm" target="R3v-34"/>min troe sluttet over 48, det ved jeg.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Hvoraf pokker <seg type="komm" target="R3v-36"/>veedst du saadant?</p>
+					</sp>
+					<pb ed="A" n="R4r" facs="R4r"/>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Baronen sagde det selv.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Denne Herre er en bekiendt <seg type="komm" target="R4r-4"/>ærlig Herre. Hvad var det som Kongen af Frankrig sagde til ham Pernille?</p>
+					</sp>
+					<pb ed="SS" n="632"/>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Jeg kand ikke komme ihu uden disse Ord: <hi rend="ant"><seg type="komm" target="R4r-7"/>Ferme le porte.</hi> Det syntes at være meget naadigt.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Nu er <seg type="komm" target="R4r-10"/>min troe <seg type="komm" target="R4r-10a"/>Piigen bleven ligesaa gal som han.</p>
+					</sp>
+					<sp>
+						<speaker>Pern.</speaker>
+						<p>Siden jeg talede med denne Baron, er jeg bleven af andre Tanker Madame; Thi jeg seer at Hr. Jeronimus vil giøre Lykke derved.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Og jeg er bange at I blir tagen ved Næsen. I veed jo <seg type="komm" target="R4r-17"/><app type="tc_var"><lem wit="B">ikke uden</lem><rdg wit="A">uden<note type="last">(ved linjeskift)</note></rdg><rdg resp="SS">uden <note type="last">(SS app mener at <q>ikke</q> er faldet ud i A)</note></rdg></app> af hans egne Ord, at han er Baron.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronim.</speaker>
+						<p>Jo min troe er han virkelig Baron. Han beskrev os jo sit Baronie, det hørdte Pernille. Hovedgaarden ligger paa en Bakke.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Paa den eene Side er en Skov <seg type="komm" target="R4r-23"/>4 miil lang.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Og paa den anden Side et stort Vand hvor han fanger <seg type="komm" target="R4r-26"/>Cabeljau af den Længde. Hvad vil du nu meer <seg type="komm" target="R4r-26a"/>tvile derom.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Jeg kand forsikre dig om at alt dette <seg type="komm" target="R4r-28"/>staaer mig lidet an.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ach min Dukke! du har jo lovet at føye mig herudi.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Ja det er sant nok, men – – –</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hvis du havde seet hvor stor Naade denne Herre beviisede mig, havde du skulle glædet dig derover. Saadanne Herrer <seg type="komm" target="R4r-36"/>ere mindre storagtige end mangen Borgermand.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Tænk engang han kyssede mig Madame.</p>
+					</sp>
+					<pb ed="A" n="R4v" facs="R4v"/>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Det <seg type="komm" target="R4v-2"/>bekiender jeg var noget meget for en <w>Tieniste-Piige</w>.</p>
+					</sp>
+				</div>
+				<pb ed="SS" n="633"/>
+				<div type="scene" xml:id="act2sc6" n="Scene 6">
+					<head><hi rend="ant">Scen. 6.</hi></head>
+					<stage>Arv. Jeron. Magd. Pernille.</stage>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Hvilken underlig Baron var dette: Han lod sig bære i en Æske.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronim </speaker>
+						<p>Har du da aldrig seet en <seg type="komm" target="R4v-9"/>Portechaise tilforn.</p>
+					</sp>
+					<sp>
+						<speaker>Pern.</speaker>
+						<p><seg type="komm" target="R4v-11"/>Hvad vil det Beest have seet en Portechaise, som er nyligen kommen fra Ebeltoft.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p><seg type="komm" target="R4v-14"/>Saadant faaer du tit <app type="var"><lem wit="A">see</lem><rdg wit="B">at see</rdg></app> her i Staden Arv.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Det er underligt nok: man bær ellers ikke uden Krøblinger hos os. Derfor tænkte jeg ogsaa i Førstningen, <app type="tc_var"><lem wit="B">at</lem><rdg wit="A">da</rdg></app> denne Herre var en Krøbling. <seg type="komm" target="R4v-18"/>Mig synes dog at det er Synd, at det eene Menniske skal være det andets Hest.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Jeg har ogsaa i Sinde, min Dukke, at lægge mig en Portechaise til, om det andet vil lykkes for mig.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Giør kun saa meget Galskab som dig lyster. Du <seg type="komm" target="R4v-24"/>est selv Herre i Huuset, og maa selv <seg type="komm" target="R4v-25"/>forsvare det.</p>
+					</sp>
+					<sp>
+						<speaker>Pern.</speaker>
+						<p>Hvis Herren lægger sig Portechaise til, kand Arv blive Porteur; thi han er <seg type="komm" target="R4v-28"/>brav sterk.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Du siger noget Pernille.</p>
+					</sp>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p>Hvad er det! Porteur?</p>
+					</sp>
+					<sp>
+						<speaker>Pern.</speaker>
+						<p>Det er een af dem som bærer.</p>
+					</sp>
+					<pb ed="A" n="R5r" facs="R5r"/>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="R5r-2"/>Faae den en Ulykke der giør.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det er ingen skam her i Staden at være Porteur.</p>
+					</sp>
+					<pb ed="SS" n="634"/>
+					<sp>
+						<speaker>Arv.</speaker>
+						<p><seg type="komm" target="R5r-6"/>Var det ingen skam for dig om man vilde giøre dig til en Hoppe. Man maa giøre Forskiæl mellem <seg type="komm" target="R5r-7"/>Beester og fornuftige Mennisker.</p>
+					</sp>
+					<sp>
+						<speaker>Pern.</speaker>
+						<p>Da troer jeg dog, uden at rose Heste, at der er mangen fornemme Hest, der har ligesaa megen Fornuft som du.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p><seg type="komm" target="R5r-13"/>Ey lad fare saadant Galskab. Det heele Huus blir til en <seg type="komm" target="R5r-14"/>Daarekiiste. Lad os tale noget alvorligt sammen, <seg type="komm" target="R5r-14a"/>min hierte! <seg type="komm" target="R5r-15"/>Monsr. Leander synes ikke at være tilfreds med dig paa nogen Tid.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Jeg har ogsaa sant at sige, ikke været meget tilfreds med ham.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Hvad har han da <seg type="komm" target="R5r-21"/>syndet mod dig.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Han har <seg type="komm" target="R5r-23"/>endelig intet ont giort mig; men <seg type="komm" target="R5r-23a"/>jeg tænker mig om iblant, om man ikke kunde <seg type="komm" target="R5r-24"/>employere sin eeneste Datter bedre.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Hvordan kand du faae hende bedre forsørget, det er jo en <seg type="komm" target="R5r-28"/>skikkelig Person, som har gode Midler.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det er got min Hierte, dersom vi agtede at blive udi Borgerstanden.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p><seg type="komm" target="R5r-33"/>Men omendskiønt du faaer nu en Rang, kand derfor din Datter ikke gifte sig med en Borger.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ney <seg type="komm" target="R5r-36"/>ikke vel min Dukke, ikke vel. Naar du bliver <seg type="komm" target="R5r-36a"/>Velbyrdige Frue, kand din Daatter ikke vel være <seg type="komm" target="R5r-37"/>slet og ret ærlig og <pb ed="A" n="R5v" facs="R5v"/>Dydziirede Matrone. Jeg siger det ikke af mindste <seg type="komm" target="R5v-1"/>Hoffart mit Barn; men det <seg type="komm" target="R5v-2"/>skikker sig ikke, ney giør det ikke.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p>Men jeg synes, det er ligesaa smukt at være <seg type="komm" target="R5v-4"/>ærlig som velbyrdig.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ney, <seg type="komm" target="R5v-7"/>gute Morgen Madam. Det er ligesaa stor Forskiæl som mellem <seg type="komm" target="R5v-8"/>Kong Salomon og Jørgen Hattemager.</p>
+					</sp>
+					<pb ed="SS" n="635"/>
+					<sp>
+						<speaker>Magdelon.</speaker>
+						<p>Men du <seg type="komm" target="R5v-10"/>est jo selv en Borger?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ja, men det varer ikke længe, førend jeg bliver til noget.</p>
+					</sp>
+					<sp>
+						<speaker>Magdel.</speaker>
+						<p><seg type="komm" target="R5v-14"/>Det er jo tids nok at kaste Vrag paa Borgerfolk, naar du faaer en Rang.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Jeg er <seg type="komm" target="R5v-17"/>min troe saa vis paa Rang, som jeg allerede havde den i min Haand. Det giør mig kun ont, at jeg skal blive den Elfte udi Tallet; Thi der er 10 andre paa Baronens Liste, som <seg type="komm" target="R5v-20"/>og skal promoveres.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Ach hvilken ulykkelig Syge den <w>Rang-Syge</w> er. Den foraarsager, at et Menniske er aldrig fornøyed; thi, naar hand selv kommer til Høyhed, kand hand ikke lide at andre ogsaa kommer dertil; og, naar hand har faat en Rang, saa gaaer han strax <seg type="komm" target="R5v-26"/>frugtsommelig med en anden. Men hvad er Frugten deraf. En Borgermand <seg type="komm" target="R5v-27"/>kommer derover i Griller, foragter og forsømmer sin <seg type="komm" target="R5v-28"/>forrige Handel, <seg type="komm" target="R5v-28a"/>og omsider geraader i Armod, som man disvær seer mange Exempler paa i denne fattige Bye.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ach <seg type="komm" target="R5v-32"/>min Hierte! <seg type="komm" target="R5v-32a"/>plav mig dog ikke saa meget. Du har jo engang lovet at føye mig herudi.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Det er sant nok. Men jeg har ikke lovet dig, at jeg vil bryde mit Løfte med Leander.</p>
+					</sp>
+					<pb ed="A" n="R6r" facs="R6r"/>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Lad ham da <seg type="komm" target="R6r-2"/>see til, at han skaffer sig en Rang først, saa kand han gierne faae min Dotter.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Saa vit som jeg kand merke, søger hand aldrig nogen <seg type="komm" target="R6r-5"/>Caracteer.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Og saa vit som jeg kand merke paa mig, saa giver jeg aldrig min Dotter bort til en <seg type="komm" target="R6r-9"/>slet og ret Monsieur. Tænk engang min Dukke! om jeg nu lod trolove Leander med min Dotter, og der siden kom en <w>Rangs-Person</w>, som begiærede hende, da hun var ikke i min Magt meere, stode vi der da ikke i en <seg type="komm" target="R6r-13"/>Maade? var det da ikke noget, som vi maatte fortryde vor Livstid?</p>
+					</sp>
+					<pb ed="SS" n="636"/>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Hvorfor skulde vi fortryde derpaa?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Kort at sige: Det passer sig aldeeles ikke, at du skal heede Frue, og din Dotter Madam eller Mutter. Spør kun andre fornuftige Folk, saa skal du høre, at de derudi give mig ret.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Du maa snarere sige: Spør kun andre <seg type="komm" target="R6r-22"/>Giække.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hør <seg type="komm" target="R6r-24"/>mit Barn! du faar aldrig en god Time af mig, hvis du ikke føyer mig herudi.</p>
+						<stage>Han gaaer ind.</stage>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Ach jeg elendige Menniske! jeg veed ikke hvad jeg skal giøre. Jeg <seg type="komm" target="R6r-29"/>faar dog at skikke mig herudi, for ikke at lægge mig ud med min Mand.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act2sc7" n="Scene 7">
+					<head><hi rend="ant">Scen. <app type="tc"><lem><corr resp="ed">7</corr></lem><rdg wit="A">6</rdg></app>.</hi></head>
+					<stage>Magdelone. Pernille. Arv.</stage>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p><seg type="komm" target="R6r-34"/>Ej Madam! giv jer tilfreds, det tør falde bedre ud, end I tænker.</p>
+					</sp>
+					<pb ed="A" n="R6v" facs="R6v"/>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Men jeg kand ikke fatte Pernille! hvorfor du begynder at holde med min Mand i hans Galskab, som du <seg type="komm" target="R6v-3"/>tilforn var saa meget imod.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Jeg er <seg type="komm" target="R6v-6"/>min Troe ligesaa meget derimod som jeg <seg type="komm" target="R6v-6a"/>nogen tid har været; men jeg har saa mine <seg type="komm" target="R6v-7"/>Raisons, hvorfor jeg nu taler ham efter Munden.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p><seg type="komm" target="R6v-10"/>Jeg kand aldrig vide af hvad Anledning han er falden paa disse Griller.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p><w>Rang-Syge</w> kommer over Folk her i Landet ligesom hidsig Feber.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Men er det ikke ubegribeligt, at en ældgammel Mand, som han – – – </p>
+					</sp>
+					<pb ed="SS" n="637"/>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Jeg kand let begribe det; thi Luften her i Landet fører det med sig, at <seg type="komm" target="R6v-20"/>Folk bliver ikke ret galne førend de komme over deres 60 Aar.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Det <seg type="komm" target="R6v-23"/>lader ligesaa Pernille! thi jeg har kiendt mange, der have ført et meget ærbart Levnet udi deres Ungdom, men som udi deres Alderdom <seg type="komm" target="R6v-25"/>ere bleven meget <seg type="komm" target="R6v-25a"/>verdslige.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>For Exempel, Peder Hansen, som udi sit 30de Aar holdt det for en dødelig Synd, at <seg type="komm" target="R6v-28"/>pudre sin Peryk, seer jo nu ud som en <w><seg type="komm" target="R6v-29"/>Kammer-Junker</w>. Udi hans Ungdom prækede han mod <seg type="komm" target="R6v-30"/>Vellyst, nu klager han over, at her er ikke <seg type="komm" target="R6v-30a"/>Assembleer nok.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Paa den Maade maa jeg blive bange, naar jeg bliver tredsindstyve Aar.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Jeg er ogsaa bange for mig selv.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Han maatte gierne <seg type="komm" target="R6v-38"/>løbe gall, Pernille! hvis han ikke vilde bryde det Løfte han har giordt Leander.</p>
+					</sp>
+					<pb ed="A" n="R7r" facs="R7r"/>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p><seg type="komm" target="R7r-2"/>Giv jer kun tilfreds, Madam! <seg type="komm" target="R7r-2a"/>det skal ingen Fare have.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Du hørdte jo selv hvad <seg type="komm" target="R7r-4"/>Resolution han har taget.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Jeg skal nok faa ham til at tage en anden Resolution.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Hvad vil du da giøre?</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det kand jeg ikke sige <seg type="komm" target="R7r-10"/>hende Madam. Jeg beder hende allene give sig tilfreds, det skal nok blive got.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Gid det var saa vel. Kom, lad os gaae ind.</p>
+					</sp>
+				</div>
+			</div>
+			<pb ed="SS" n="638"/>
+			<div type="act" xml:id="act3" n="Tredje akt">
+				<head><hi rend="ant">Actus III.</hi></head>
+				<div type="scene" xml:id="act3sc1" n="Scene 1">
+					<head><hi rend="ant">Scen. 1.</hi></head>
+					<stage>Leander. Leonore.</stage>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p><w><hi rend="init"><seg type="komm" target="R7r-18"/>H</hi>vad</w> ere vi Mennisker dog ulyksalige i denne Verden! der ere faa Ting som <seg type="komm" target="R7r-19a"/>foraarsage os <hi rend="ant"><seg type="komm" target="R7r-19b"/>solide</hi> Glæde, og de samme faa søde Ting ere ofte beblandede med Galde. Nu tænkte jeg at høste Frugten af min Kiærlighed, og at komme udi <hi rend="ant"><seg type="komm" target="R7r-22"/>Possession</hi> af <seg type="komm" target="R7r-22a"/>Jomfruen, som jeg saa inderligen elsker. Men just, da man tænker at være allersikrest, reiser sig en uformodende sterk Modvind, som truer med Undergang.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Det er <seg type="komm" target="R7r-26"/>vist nok kiære Leander; men <seg type="komm" target="R7r-26a"/>jo farligere Stormen er, jo behageligere vil det siden blive for os, naar vi komme udi Havnen.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Men <seg type="komm" target="R7r-30"/>paa den sidste Relation jeg havde af hendes Mamma, saa tør jeg ikke komme oftere her i Huset; thi <seg type="komm" target="R7r-31"/>han har jo udtrykkeligen givet tilkiende, at han ikke vil have mig til Svigersøn.</p>
+					</sp>
+					<pb ed="A" n="R7v" facs="R7v"/>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Jeg <seg type="komm" target="R7v-2"/>forlader mig paa Pernilles Løfte, som har lovet at reede os i en hast ud af denne Vanskelighed.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Men hvad mon det er for en <hi rend="ant"><seg type="komm" target="R7v-5"/>Intrigue</hi> hun har fore?</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Jeg kand ingenlunde bevæge hende til at aabenbare mig den. Hun siger at <seg type="komm" target="R7v-8"/>ingen veed den uden <seg type="komm" target="R7v-8a"/>Monsieur Leonard, Henrichs Herre.</p>
+					</sp>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Men allerkiæreste Jomfrue! skal al vor Lykke <seg type="komm" target="R7v-11"/>dependere af denne <hi rend="ant">Intrigue</hi>?</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p><seg type="komm" target="R7v-14"/>Ingenlunde; thi kand <hi rend="ant">Intrigue</hi> ikke hielpe, saa lader jeg min Fader smukt vide, at, om han vil bryde sit Løfte, saa vil jeg ingenlunde giøre det, og <seg type="komm" target="R7v-16"/>forekaster han mig Ulydighed, saa forekaster jeg ham <seg type="komm" target="R7v-17"/>Utroskab. Dog ønsker jeg, at Pernilles <seg type="komm" target="R7v-18"/>Anslag kunde lykkes, at jeg ikke skal nødes til at skride til saadan <hi rend="ant"><seg type="komm" target="R7v-19"/>Extremitet</hi>.</p>
+					</sp>
+					<pb ed="SS" n="639"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Jeg forlader mig meer paa Jomfruens Bestandighed, end paa alle <hi rend="ant">Intriguer</hi>.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Ja, han kand sikkert forlade sig derpaa; thi intet Barn er forpligtet at adlyde sine Forældre udi det som er <seg type="komm" target="R7v-25"/>usømmeligt. Men der seer jeg ham komme. <seg type="komm" target="R7v-26"/>Gak <seg type="komm" target="R7v-26a"/>I kun til side, og vær <seg type="komm" target="R7v-27"/>imidlertid forsikret om min Troskab.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc2" n="Scene 2">
+					<head><hi rend="ant">Scen. 2.</hi></head>
+					<stage>Jeronimus. Leonore.</stage>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det er mig kiært, min Dotter! at jeg finder dig alleene; thi jeg har noget vigtigt at tale med dig om. Hør! jeg har merket hos dig fra din Barndom, at du <seg type="komm" target="R7v-33"/><app type="tc"><lem><corr resp="Rahbek">altid har haft</corr></lem><rdg wit="A B">ikke har haft</rdg><rdg resp="Rahbek Boye Martensen">altid har haft</rdg><rdg resp="Liebenberg">ikke har haft [uden]<note type="last">(I sin udg. fra 1870 rettede Liebenberg til <q>ikke har haft [Mangel paa]</q>, hvad Roos siden overtog)</note></rdg><rdg resp="SS">ikke har haft<note type="last">(SS app noterer at meningen synes forvansket).</note></rdg><note>(Se også komm.)</note></app> en honnete Ambition.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Det er sant nok. Jeg har altid stræbet at <seg type="komm" target="R7v-36"/>føre mig <w>saale<pb ed="A" n="R8r" facs="R8r"/>des</w> op, at ingen med <seg type="komm" target="R8r-1"/>Billighed skulde kunne bebreide mig nogen <hi rend="ant"><seg type="komm" target="R8r-2"/>Bassesse</hi>.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Og derfor haaber jeg, at du skal finde Smag udi det Forslag, som jeg vil giøre dig.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Jeg skal aldrig være mine Forældre imod udi det som sømmeligt, og anstændigt er.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Got min Dotter! nu har jeg Spillet vundet. Jeg er i disse Dage bleven forsikred om, at <seg type="komm" target="R8r-11"/>aflægges med en Rang; og, naar det skeer, saa vil jeg selv <seg type="komm" target="R8r-12"/>give dig at betænke, om du kand gifte dig med en <seg type="komm" target="R8r-13"/>slet og ret <seg type="komm" target="R8r-13a"/>Monsieur, som Leander.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Jeg har selv paa mine Forældres Behag giort Ægteskabs Løfte til Leander, og derfor vil give min Far at betænke, om jeg med min <seg type="komm" target="R8r-17"/>Honneur kand <seg type="komm" target="R8r-17a"/>rykke mit Løfte.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Med din Honneur siger du? <seg type="komm" target="R8r-19"/>veedst du <seg type="komm" target="R8r-19a"/>og ret hvad Honneur er? er det Honneur for en <seg type="komm" target="R8r-20"/>Frøiken at gifte sig med en slet og ret Borger.</p>
+					</sp>
+					<pb ed="SS" n="640"/>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>For at forekomme saadan Uleilighed, er det da best, at jeg gifter mig med Leander, førend jeg bliver Frøiken, og førend Papa faar Rang, saa synder vi intet mod Reglerne.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Slidder sladder mit Barn! den Snak <seg type="komm" target="R8r-27"/>kommer lidt overeens med det forrige, nemlig, at du havde Ambition.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Just fordi jeg har Ambition, just derfor kand jeg ikke <seg type="komm" target="R8r-30"/>bifalde min Far.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hvilken forbandet Snak. Just fordi du har Ambition, just derfor vil du heller heede <seg type="komm" target="R8r-34"/>Mutter end Frue.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Ney, just fordi jeg har Ambition, just derfor vil jeg ikke giøre mig til et <seg type="komm" target="R8r-37"/>Skarn, og bryde mit Løfte.</p>
+					</sp>
+					<pb ed="A" n="R8v" facs="R8v"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ingen er forbunden at holde et Løfte som strider mod <seg type="komm" target="R8v-2"/>Ærbarhed. Da du giorde Leander det Løfte, <seg type="komm" target="R8v-3"/>vare I hinandens <seg type="komm" target="R8v-4"/>Lige. Nu er Tingen saa forandret, at du staar paa Trinnet at blive Frøiken, og han er kun en slet og ret <seg type="komm" target="R8v-5"/>Monsieur, <hi rend="ant"><seg type="komm" target="R8v-5b"/>ergo</hi> derfor kand det Løfte ikke binde dig; thi det som <seg type="komm" target="R8v-6"/>tilforn kunde være <seg type="komm" target="R8v-7"/>lovligt, dets Fuldbyrdelse strider nu mod Ærbarhed. Vi har jo <seg type="komm" target="R8v-8"/>Lov derfor.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Om jeg maatte sige saa, min kiære Far! saa er det en hæslig <seg type="komm" target="R8v-11"/>Procurator Stræg at dreje Loven saaledes. Er det mod Ærbarhed at holde sit Løfte, som man har giordt en <seg type="komm" target="R8v-13"/>brav ærlig Mand?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>En ærlig Mand? det er ikke nok. En <app type="tc"><lem><corr resp="ed">Bonde</corr></lem><rdg wit="A">Bønde</rdg></app> kand ogsaa være ærlig. Men, om en velbyrdig Frøiken gifter sig med en ærlig Bonde, synder hun i mine Tanker mod Ærbarhed.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Det troer jeg nok. Men jeg seer ingen Forskiæl mellem mig og Leander; thi vi ere begge af <w>Borger-Stand</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det er sant nok; men, om du i Morgen blev Frøiken, hvad da?</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Saa var det ikke videre end en ærlig Borger blev gift med en velbyrdig <w>Borger-Dotter</w>.</p>
+					</sp>
+					<pb ed="SS" n="641"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Driv ikke Spot med din Far, min Dotter! det er ikke smukt.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p><seg type="komm" target="R8v-30"/>Det være langt fra! men min Far vil have mig til at bedrive en Gierning, som alle fornuftige Folk vil foragte mig for.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hvad? fornuftige Folk! Du regner vel vore Naboer, de <seg type="komm" target="R8v-35"/>Spidsborgere, for fornuftige Folk? det er Folk, min Dotter, som ingen Ambition har.</p>
+					</sp>
+					<pb ed="A" n="S1r" facs="S1r"/>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p><seg type="komm" target="S1r-2"/>Mig synes, den siger sig fra all Ambition, der ingen Troe og Love har.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Du maa snakke saa meget, som du vil, min Dotter, saa bliver Udfaldet dette, at du slet ikke faar Leander.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Og min Far maa præke saa meget for mig, som han vil, saa bliver Udfaldet dette, at jeg tar aldrig nogen, <seg type="komm" target="S1r-9"/>uden Leander.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Vil ikke gode Ord hielpe, saa faar jeg bruge Myndighed.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>En Faders Myndighed strækker sig ikke saa vit.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hvad? har et Barn Magt til at <seg type="komm" target="S1r-17"/>gifte sig mod sine Forældres Villie?</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Jeg har intet giordt herudi uden min Fars Samtykke og Villie.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hør Leonore! ikke et Ord meer; thi bliver jeg først vred, faar du mig ikke saa hastig blid igien.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Jeg vil ogsaa bede min Far, at han ikke rører meer om den <seg type="komm" target="S1r-27"/>Materie; thi jeg <seg type="komm" target="S1r-27a"/>er ogsaa ikke let til at blive blid igien, naar jeg først bliver vred.</p>
+					</sp>
+					<pb ed="SS" n="642"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="S1r-30"/>Gak kun bort til videre, mit Barn, og betænk dig hvad du giør.</p>
+					</sp>
+						<stage>Leonore gaaer.</stage>					
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="S1r-34"/>See mig engang til den Næseviis. Men jeg maa give hende lidt Tid. Hun betænker sig nok. Men der kommer, <seg type="komm" target="S1r-35"/>min Troe, Baronens Tiener.</p>
+					</sp>
+				</div>
+				<pb ed="A" n="S1v" facs="S1v"/>
+				<div type="scene" xml:id="act3sc3" n="Scene 3">
+					<head><hi rend="ant"><hi rend="ant">Scen. 3.</hi></hi></head>
+					<stage>Dobre Podolsky. Jeronimus.</stage>
+					<sp>
+						<speaker>Dobre Podolsky.</speaker>
+						<p><seg type="komm" target="S1v-4"/>Serviteur Hr. Jeronimus! </p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus <stage>omfavnende og kyssende ham.</stage></speaker>
+						<p>Ach velkommen igien min <seg type="komm" target="S1v-6"/>ærlige Dobre Podolsky!</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Min Herre er paa Vejen for at besøge <seg type="komm" target="S1v-8"/>ham, og bringer gode <seg type="komm" target="S1v-9"/>Tidender med sig.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Er det mueligt! Den Herre holder meer, end han lover.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p><seg type="komm" target="S1v-13"/>Han er ogsaa bekiendt for en <w>Ord-holdend</w> Herre baade blant Christne og Hedninger.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ogsaa blant Hedninger?</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Der er ingen udi <seg type="komm" target="S1v-18"/>det heele Hedenskab, <seg type="komm" target="S1v-18a"/>der jo kiender ham.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Maatte jeg spørge hvor Hedenskabet ligger? </p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Det kand jeg sige ham paa mine Fingre; thi jeg har været der mange gange. Hedenskabet ligger Nord Nordvest her fra. Hovedstaden udi Hedenskabet heder Constantinopel, og Keiseren, som nu regierer, heder <seg type="komm" target="S1v-25"/>Mephistofelus. Det er en <seg type="komm" target="S1v-26"/>brav Keiser, <seg type="komm" target="S1v-26a"/>hvorvel han er ikke min Herres Ven.</p>
+					</sp>
+					<pb ed="SS" n="643"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="S1v-28"/>Hvi saa?</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Jeg vil nok sige Hr. Jeronimus det, hvis han vil beholde det hos sig selv. Min Herre havde den Naade at spise en gang hos Keiseren. <seg type="komm" target="S1v-32"/>Over Bordet kom han i <seg type="komm" target="S1v-33"/>Dispyt med den store <seg type="komm" target="S1v-33a"/>Vizir <seg type="komm" target="S1v-33b"/>Holophernes, hvilken Dispyt gik saa vit, at min Herre udi Hidsighed gav ham et Ørefigen. Saa at Keiseren siden den Tid <seg type="komm" target="S1v-35"/>saae ham an <seg type="komm" target="S1v-35a"/>med skeele Øyen.</p>
+					</sp>
+					<pb ed="A" n="S2r" facs="S2r"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Men <seg type="komm" target="S2r-2"/>tog den store Vizir dette Ørefigen saa til takke?</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p><seg type="komm" target="S2r-4"/>Hvad vilde han giøre? <seg type="komm" target="S2r-4a"/>hvo som kiender min Herre, binder ikke let an med ham. Han svor alleene ved sin <seg type="komm" target="S2r-5"/>Talmud, som er Hedningernes <seg type="komm" target="S2r-6"/>Ritual, at han skulde hævne det. Det er <w>u-endeligt</w> at fortælle alle de <seg type="komm" target="S2r-7"/>Actioner min Herre har haft. Er det ikke en Ære for Landet, at en Jydsk Baron har givet den store Vizier et Ørefigen.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Saa er hans Herre da fra Jylland?</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Ja det kand man nok høre paa hans Tale.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Men, om jeg maatte spørge saa dristigt, Monsieur Dobre Podolsky! hvoraf veed han, at Baronen har gode Tidender at bringe mig?</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Han bad mig lade Hr. Jeronimus vide, at han havde talet om ham paa <seg type="komm" target="S2r-20"/>behørige Steder. Det havde nær gaaet ham af Glemme, <seg type="komm" target="S2r-21"/>saasom han har meget i sit Hovet. Men jeg, uden at rose mig selv, erindrede ham om at tænke paa Hr. Jeronimus.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus <stage>omfavner ham</stage>.</speaker>
+						<p>Det var et ærligt <w><seg type="komm" target="S2r-25"/>Vens-Stykke</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Jeg siger det <seg type="komm" target="S2r-27"/>min Troe ikke i den Intention, at jeg vil begiære nogen <seg type="komm" target="S2r-28"/>Discretion af  <app type="tc_var"><lem wit="B">ham derfor,</lem><rdg wit="A">ham, derfor</rdg></app> <seg type="komm" target="S2r-28a"/>ihvorvel, at – – –</p>
+					</sp>
+					<pb ed="SS" n="644"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Han har min Troe fortient en Discretion, og han skal ogsaa have den. Jeg beder ydmygst at han ikke vil forsmaae disse 100 <seg type="komm" target="S2r-32"/>Ducater.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Ach Hr. Jeronimus! hvortil er saadant <seg type="komm" target="S2r-34"/>nødigt?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Men en Ting vil jeg bede ham om, det er, at han vil <w>be<pb ed="A" n="S2v" facs="S2v"/>holde</w> denne Discretion alleene, uden at deele den med den Franske og Spanske Lakei.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Efterdi Hr. Jeronimus saa befaler, saa vil jeg beholde den alleene. Men jeg maa løbe; min Herre vil nok være her <seg type="komm" target="S2v-6"/>i <app type="tc"><lem><corr resp="ed">Øyeblikket.</corr></lem><rdg wit="A">Øyeblikket</rdg></app></p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc4" n="Scene 4">
+					<head><hi rend="ant">Scen. 4.</hi></head>
+					<stage>Jeronimus. Magdelone. Pernille.</stage>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Kom her ud, <seg type="komm" target="S2v-10"/>min Hierte! jeg har noget at sige dig.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Hvad er nu paa færde igien?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Du maa blive her tilstæde for at <seg type="komm" target="S2v-14"/>complimentere Baronen. Nu kommer han.</p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Men er jeg <seg type="komm" target="S2v-17"/>skikket til at <seg type="komm" target="S2v-17a"/>conversere med saadan stor Herre?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Han er <seg type="komm" target="S2v-19"/>min Troe ikke anderledes end en <seg type="komm" target="S2v-19a"/>gemeen Borger <seg type="komm" target="S2v-19b"/>i Omgængelse. Det veed Pernille.</p>
+					</sp>
+					<sp>
+						<speaker>Pernille.</speaker>
+						<p>Det er en allerkiæriste Herre. <seg type="komm" target="S2v-22"/>Madamen har ikke nødigt at undsee sig for ham. Men der kommer han min Troe.</p>
+					</sp>
+					<pb ed="SS" n="645"/>
+				</div>
+				<div type="scene" xml:id="act3sc5" n="Scene 5">
+					<head><hi rend="ant">Scen. 5.</hi></head>
+					<stage>Baronen, Jeronimus. Magdelone. Pernille. Dobre Podolsky.</stage>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="S2v-28"/>Halt – – – et <seg type="komm" target="S2v-28a"/>Porteurs! <hi rend="ant"><seg type="komm" target="S2v-28b"/>sans facon</hi> Hr. Jeronimus! lad Porteurerne kun selv hielpe mig ud.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach naadige Herre, lad mig have den Fornøyelse.</p>
+					</sp>
+					<stage>Baronen visker ham i Øret.</stage>
+					<pb ed="A" n="S3r" facs="S3r"/>
+					<sp>
+						<speaker>Jeronimus <stage>kyssende Haanden.</stage></speaker>
+						<p>Ach jeg takker allerunderdanigst Eders Naade.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Inden to Dage skal I have jer <seg type="komm" target="S3r-4"/>Bestalning, og det <hi rend="ant">gratis</hi>, saa at I har ingen <seg type="komm" target="S3r-5"/>Bekostning at giøre, <seg type="komm" target="S3r-5a"/>uden paa Papiret, som koster 100 <seg type="komm" target="S3r-6"/>Rixdaler; og det skal I ingen Bekymring giøre jer om; <seg type="komm" target="S3r-7"/>alleene at I leverer de Penge til min Tiener, saa skal han <seg type="komm" target="S3r-8"/>løse og bringe jer Bestalningen.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach det er en stor Naade.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Hej Dobre Podolsky! Hr. Jeronimus <seg type="komm" target="S3r-12"/>flyer dig 100 Rixdaler, som skal være til hans Bestallings Indløsning.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus</speaker>
+						<p>Om jeg da maatte <seg type="komm" target="S3r-15"/>besværge ham dermed.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="S3r-17"/>Ej <hi rend="ant">sans facon</hi> Hr. Jeronimus! <seg type="komm" target="S3r-17a"/>gak nu strax hen, og forret det.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="S3r-20"/>Min Hierte! gak hen og kyß paa Baronens Haand.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Er det hans smukke Frue? <hi rend="ant"><seg type="komm" target="S3r-22"/>Votre tres <app type="tc"><lem><corr resp="ed">humble</corr></lem><rdg wit="A">hnmble</rdg></app> Serviteur de Valet Madame.</hi></p>
+					</sp>
+					<sp>
+						<speaker>Magdelone.</speaker>
+						<p>Jeg er ikke saa lykkelig at jeg forstaaer Fransk min Herre!</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="S3r-27"/>Ej still dig da ikke saa taabelig an. Kand du ikke <seg type="komm" target="S3r-27a"/>svare et lidet korn? kand du i det ringeste ikke sige: <hi rend="ant"><seg type="komm" target="S3r-28"/>Ovis Monsieur.</hi></p>
+					</sp>
+					<pb ed="SS" n="646"/>
+					<sp>
+						<speaker>Magd. <stage><app type="tc"><lem><corr resp="ed">(neiende)</corr></lem><rdg wit="A">(neiende</rdg></app></stage></speaker>
+						<p><hi rend="ant">Ovis</hi> Monsieur.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><hi rend="ant"><seg type="komm" target="S3r-32"/>Fort Bien Madame! Parle de vous franscois.</hi></p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Min Kone har lærdt noget fransøsk i sin Ungdom, men hun faaer begynde at lære noget igien paa nye.</p>
+					</sp>
+					<pb ed="A" n="S3v" facs="S3v"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><hi rend="ant"><seg type="komm" target="S3v-2"/>Ovis</hi> Monsieur Perfectement. Hun har min troe, <hi rend="ant">ma foi</hi>, en god Accent, uden at <seg type="komm" target="S3v-3"/>flattere.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Hør du vel min Dukke! hvad Baronen siger: hand siger, at du <app type="tc"><lem wit="A B">er</lem><rdg resp="Liebenberg Roos">har</rdg></app> een god, hvad var det hand kaldte det sidste?</p>
+					</sp>
+					<sp>
+						<speaker>Magd. <stage>(sagte)</stage></speaker>
+						<p>Jeg ved hverken hvad det første eller sidste var, thi jeg er gandske <w>hoved-svimled</w>.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Mine Naboer, eders Naade, vil nok misunde mig denne Lykke.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Lad dem misunde. Hvad vil det sige? Men hvis de <seg type="komm" target="S3v-14"/>endeligen trænger, saa kand jeg ogsaa hielpe paa dem.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ney eders Naade! det vil jeg ydmygst bede, at det maa blive ved mig alleene. Ikke fordi jeg misunder dem nogen Ære eller Lykke, men af Aarsag at – –</p>
+					</sp>
+					<sp>
+						<speaker><app type="tc"><lem><corr resp="ed">Baronen</corr></lem><rdg wit="A">Beronen</rdg></app>.</speaker>
+						<p>Af hvad Aarsag da?</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Af den Aarsag, at – – – min Frue veed Aarsagen.</p>
+					</sp>
+					<sp>
+						<speaker>Magd.</speaker>
+						<p>Hvad? Jeg veed <seg type="komm" target="S3v-25"/>min troe ingen Aarsag.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Jeg begriber det nok min kiære Frue! det er hun vil gierne være den fornemste i <app type="tc"><lem wit="A B">Landet</lem><rdg resp="Boye Liebenberg Martensen Roos">Lauget</rdg></app>, naar hun kommer i <seg type="komm" target="S3v-28"/>Samlinger med hendes Naboersker.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ney det er endeligen ikke Aarsag, thi hverken jeg eller min Kone har i sinde ofte at <app type="tc"><lem><corr resp="ed">omgaaes</corr></lem><rdg wit="A">gmgaaes</rdg></app> med vore Naboer her efter.</p>
+					</sp>
+					<pb ed="SS" n="647"/>
+					<sp>
+						<speaker>Baron.</speaker>
+						<p>Der i har han ret. Det sømmer sig ey heller; thi naar man søger om at <seg type="komm" target="S3v-35"/>komme i stand, maa man og <seg type="komm" target="S3v-35a"/>skikke sig derefter. I maae ogsaa love mig det at I vil <seg type="komm" target="S3v-36"/>staae paa jer Respect.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p><seg type="komm" target="S3v-38"/>Spares mig Liv og Helsen, saa skal jeg saamænd ikke <seg type="komm" target="S3v-38a"/>familiarisere mig med mine Naboer.</p>
+					</sp>
+					<pb ed="A" n="S4r" facs="S4r"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Det er jo nogle <seg type="komm" target="S4r-2"/>Spidsborgere, som ere kun <seg type="komm" target="S4r-2a"/>halve Mennisker.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Det findes aldeles ikke hos dem, hvad man kalder Honnete Ambition; thi naar de kommer i Samlinger, seer de kun efter Mad og Drikke, uden at bekymre sig om enten man sætter dem øverst eller nederst.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="S4r-9"/>Pardi, det er jo at leve som <seg type="komm" target="S4r-9a"/>Fæ.</p>
+					</sp>
+					<sp>
+						<speaker>Jeron.</speaker>
+						<p>Ja lidt bedre Eders Naade!</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Men, a propos, har han faat sine 500 Rixdaler tilbage?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det haster ikke Eders Naade!</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><hi rend="ant"><seg type="komm" target="S4r-17"/>Charni</hi>! har den Slyngel ikke bragt Pengene endnu tilbage?</p>
+					</sp>
+					<sp>
+						<speaker>Dobre Pod.</speaker>
+						<p>Jeg har forglemt det. Herren <seg type="komm" target="S4r-19"/>tar det ikke <w>u-naadigt</w> op.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Glem det da ikke saa snart du kommer hiem. De skal betales i Guld igien.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach ney Hr. Baron! <seg type="komm" target="S4r-25"/>det giøres ikke nødigt.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p><seg type="komm" target="S4r-27"/>Ej! det kommer mig paa et ud Hr. Jeronimus! det er ogsaa mindre Umage.</p>
+					</sp>
+					<pb ed="SS" n="648"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach gid jeg kunde leve den Dag, at jeg kunde <seg type="komm" target="S4r-30"/>erkiende den store Naade som mig er beviset.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Jeg forlanger intet andet af ham, end at han staaer paa sin Respect, saa at jeg ingen Skam skal have for min <seg type="komm" target="S4r-34"/>Recommendation.</p>
+					</sp>
+					<pb ed="A" n="S4v" facs="S4v"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg skal saamænd nok <seg type="komm" target="S4v-2"/>skikke mig saa, at Herren ikke skal fortryde paa den Naade, han har kastet paa sin ringe Tiener.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc6" n="Scene 6">
+					<head><hi rend="ant">Scen. 6.</hi></head>
+					<stage><seg type="komm" target="S4v-5"/>Leonard. Baronen. Jeronimus. Magdelone. Pernille.</stage>
+					<sp>
+						<speaker>Leonard <stage>med en <seg type="komm" target="S4v-7"/>Krabask.</stage></speaker>
+						<p>Det er mig sagt, at min Tiener skal <seg type="komm" target="S4v-8"/>løbe her i huset og  <seg type="komm" target="S4v-9"/>spille en <seg type="komm" target="S4v-9b"/>hob Comoedier. <seg type="komm" target="S4v-9c"/>Hans Tiener Hr. Jeronimus! om Forladelse at jeg kommer saa dristig.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Jeg er ikke saa lykkelig at jeg kand tale med ham <seg type="komm" target="S4v-12"/>formedelst denne fornemme Herre som er hos mig.</p>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Hvem er det?</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det er en Baron.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen. <stage>(hældende med Hovedet.)</stage></speaker>
+						<p><seg type="komm" target="S4v-19"/>Adieu Hr. Jeronimus jeg maa gaae.</p>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Hans Tiener Hr. Baron!</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Hans Tiener!</p>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Kiender <seg type="komm" target="S4v-25"/>han ikke mig?</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Ney jeg giør ikke.</p>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Saa kiender jeg <seg type="komm" target="S4v-29"/>min troe dig.</p>
+						<stage>(Prygler ham med Crabasken og Baronen skriger.)</stage>
+					</sp>
+					<pb ed="SS" n="649"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach Himel! er det mueligt? At en, der har givet den store <seg type="komm" target="S4v-33"/>Vizir Ørefigen, lader sig saa prygle.</p>
+					</sp>
+					<pb ed="A" n="S5r" facs="S5r"/>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Har jeg ladet mig giøre Klæder, <seg type="komm" target="S5r-2"/>at du skal <seg type="komm" target="S5r-2a"/>spielle Giæk med dem?</p>
+						<stage>(han trækker <seg type="komm" target="S5r-4"/>Kiolen af og Baronen staaer i <seg type="komm" target="S5r-4a"/>Liberie.)</stage>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Men sig mig du <seg type="komm" target="S5r-6"/>fortvilede Skiælm! hvad har drevet dig til at giøre saadane <seg type="komm" target="S5r-7"/>Optøjer?</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Ach Herre! slaae mig ikke, saa skal jeg bekiende alting.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach! jeg døer af <seg type="komm" target="S5r-11"/>Blusel over denne Hendelse.</p>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Bekiend da.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Jeg trængde til Penge, og som jeg hørdte at denne gamle rangsyge Nar <seg type="komm" target="S5r-16"/>kyssede Skræddere og Lakeier for de skulde tale for ham, saa tænkte jeg ved mig selv. Her er en Skilling at fortiene for dig. Hvor for jeg gav mig ud for en Baron. Synes Herren at det var nogen Synd at narre saadan gammel Abekat.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach jeg kand ikke meer. Gid jeg var i Graven?</p>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Men hvorfor gav du dig ud for en Baron.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Ikke uden for at curere ham for hans Rangsyge.</p>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Der er <seg type="komm" target="S5r-28"/>min troe ikke meget Ont i det.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach <seg type="komm" target="S5r-30"/>gid han faar en Ulykke saa vist som det var for andet; thi han har faaet over 700 <seg type="komm" target="S5r-31"/>Rdlr af mig.</p>
+					</sp>
+					<pb ed="SS" n="650"/>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Det er ikke sant Herre! jeg har ikke faaet en Skilling, han leverede dem til en anden ubekiendt Person, som fuldte mig <seg type="komm" target="S5r-34"/>hid.</p>
+					</sp>
+					<pb ed="A" n="S5v" facs="S5v"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ja det var til Dobre Podolsky. Hvor er han? Nu var han her.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Ja han er ikke saa let at faae fat paa. Det er en <seg type="komm" target="S5v-5"/>Landløber.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach jeg elendige Menniske! hvor skammelig er jeg bleven bedragen.</p>
+					</sp>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Begræd ikke saa meget <seg type="komm" target="S5v-11"/>jer <seg type="komm" target="S5v-11a"/>Forliis, Hr. Jeronimus! begræd heller jer Daarlighed og stræb at <seg type="komm" target="S5v-12"/>mage det saa, at denne Historie kommer ikke ud blant Folk.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Ach jeg seer og <seg type="komm" target="S5v-15"/>kiender min Daarlighed, men alt <seg type="komm" target="S5v-15a"/>forsilde, og jeg skiæmmer mig for min Kone og mine Børn. Lad Leonore komme ind.</p>
+					</sp>
+				</div>
+				<div type="scene" xml:id="act3sc7" n="Scene 7">
+					<head><hi rend="ant">Scen. 7.</hi></head>
+					<stage>Leonora, Leander, Personerne af forrige Scene.</stage>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Min Datter! jeg seer du kommer der med Monsieur Leander.</p>
+					</sp>
+					<sp>
+						<speaker>Leonore.</speaker>
+						<p>Ja <seg type="komm" target="S5v-24"/>min hierte Far vi <seg type="komm" target="S5v-24a"/>lader ikke af at elske hinanden <w>u-anseet</w> alle de Trudsler som os <seg type="komm" target="S5v-25"/>ere giordte.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="S5v-27"/>Bliver kun ved at elske hinanden. Jeg skal aldrig være jer meer imod. Og I Monsieur Leander! jeg beder jer tusindegange om Forladelse, at jeg har været saa <seg type="komm" target="S5v-29"/>kaaldsindig mod eder. Der var kommen en <seg type="komm" target="S5v-30"/>Raptus over mig, hvis Udfald har saaledes ydmyget mig, at jeg er kommen til mig selv igien, og fortryder min Daarlighed, <seg type="komm" target="S5v-32"/>sær den <seg type="komm" target="S5v-32a"/>slette Conduite jeg har føret mod ham.</p>
+					</sp> <pb ed="SS" n="651"/>
+					<sp>
+						<speaker>Leander.</speaker>
+						<p>Det er mig kiært at <seg type="komm" target="S5v-35"/>fornemme, at Hr. Jeronimus foragter <pb ed="A" n="S6r" facs="S6r"/>mig ikke meer. Hvad som har været Aarsag dertil kand jeg ikke vide, ligesaa lidt som jeg ved Aarsagen til denne sidste Forandring.</p>
+					</sp>
+					<sp>
+						<speaker>Baronen.</speaker>
+						<p>Jeg skal fortelle Monsieur den heele Historie.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hold Munden Monsieur Baron, eller jeg skal kløve dit Hovet. Dog jeg burdte heller takke end være vred paa ham; thi han har ved sit <seg type="komm" target="S6r-9"/>Gækkerie curreret mig. Men hvad pokker er det som jeg seer, er det ikke <hi rend="ant"><app type="tc"><lem><corr resp="ed">Dobre</corr></lem><rdg wit="A">Drobre</rdg></app> Podolsky</hi>? Som kommer tilbage. Her kand jeg komme til mine Penge igien.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>Min Herre jeg beder ydmygst han ikke vil <seg type="komm" target="S6r-13"/>fortryde paa <seg type="komm" target="S6r-13a"/>at vi har narret ham thi – – – –</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Hvor er min Penge din <seg type="komm" target="S6r-16"/>Gaudieb.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>Her er de alle sammen, først de 500 <seg type="komm" target="S6r-18"/>Rdlr, som vi for, at narre ham, sagde, skulde til Grævinden; <app type="tc"><lem><corr resp="ed">dernest  -</corr></lem><rdg wit="A">dernest.</rdg></app></p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Vær saa god at holde inde med den Specification, <seg type="komm" target="S6r-21"/>flye mig kun Pengene.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>Men jeg ved ikke om min Herre vil lade mig beholde de 100 Ducater, som jeg fik for <seg type="komm" target="S6r-25"/>min havde Umage.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>For din havde Umage? Du har fortient Galgen for din havde Umage.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>See der er de alle sammen. Jeg beder kun at Hr. Jeronimus ikke vil fatte noget Had til os, fordi vi narrede ham.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p><seg type="komm" target="S6r-33"/>Ey hold Munden.</p>
+					</sp>
+					<sp>
+						<speaker>Dobre P.</speaker>
+						<p>Jeg siger det kun for at undskylde mig, thi jeg skal aldrig narre ham oftere.</p>
+					</sp>
+					<pb ed="SS" n="652"/>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Du skal ey heller faae Leilighed dertil.</p>
+					</sp>
+					<pb ed="A" n="S6v" facs="S6v"/>
+					<sp>
+						<speaker>Leonard.</speaker>
+						<p>Saa <seg type="komm" target="S6v-2"/>gak din gang, og <seg type="komm" target="S6v-2a"/>incommoder ikke Manden meer, det giør mig ellers usigeligen ont Hr. Jeronimus at saadant skulde <seg type="komm" target="S6v-4"/>vederfares af min Tiener. Alt hvad jeg kand giøre det er at straffe ham og lade ham løbe.</p>
+					</sp>
+					<sp>
+						<speaker>Jeronimus.</speaker>
+						<p>Det er best Hr. Leonard at <seg type="komm" target="S6v-7"/>han beholder ham i Tieneste, og <seg type="komm" target="S6v-8"/>tilholder ham, at han ingen fortæller hvad som skeed er. Jeg vilde ellers ønske, at alle urimelig Rangsyge kunde <seg type="komm" target="S6v-10"/>refses ligesom jeg for deres Honnete Ambition.</p>
+					</sp>
+				</div>
+			</div>
+			<lb/>
+			<closer>E N D E</closer>
+		</body>
+	</text>
+</TEI>

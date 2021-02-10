@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://subversion.uib.no/repos/holberg-resources/public/holberg.rng" type="xml"?><?xml-stylesheet type="text/xml" href="holberg.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="da">
+		<fileDesc>
+			<titleStmt>
+				<title key="Epigr1737">Epigrammatum Libri Quinque</title>
+				<author>Ludvig Holberg</author>
+				<editor>Peter Zeeberg</editor>
+				<respStmt>
+					<persName>Niels Grotum</persName>
+					<resp>Korrekturlæsning</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition/>
+			</editionStmt>
+			<publicationStmt>
+				<pubPlace/>
+				<availability>
+					<p rend="head">Tekststatus:</p>
+					<p>Kommentarer er under udarbejdelse</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					
+					<witness xml:id="A"><title key="none">Ludovici Holbergii Opuscula quædam Latina</title>, Leipzig <date>1737</date>, s. 231-236. Benyttet eksemplar: Det Kgl. Bibliotek, Bl. S. 17765, 8vo.</witness>
+					<witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg af Carl S.
+						Petersen, bd. 9, 1928</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">latin</language>
+				
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2015-03-30" who="pz">fil oprettet</change>
+		</revisionDesc>
+	</teiHeader>
+
+	
+
+	<text xml:lang="lat" xml:id="Epigr1737" type="orig" subtype="Epigr1737" n="/tekster/Epigrammer/Epigrammer.page">
+
+		<front>
+			<titlePage xml:id="start" n="[Titelblad]">
+				<pb ed="A" n="229"/>
+				<pb ed="SS" n="175"/>
+				<docAuthor>LVDOVICI HOLBERGII</docAuthor>
+				<docTitle>
+					<titlePart type="main"><hi rend="big">EPIGRAMMATVM</hi>
+						<lb/>Libri Quinque.</titlePart>
+				</docTitle>
+			</titlePage>
+			<pb ed="A" n="230"/>
+			
+			
+			<pb ed="SS" n="176"/>
+			<div xml:id="preface" n="[Fortale]">
+			<pb ed="A" n="231"/>
+				<p><hi rend="init">P</hi>ost edita diversa <app type="tc"><lem><corr resp="ed">specimina</corr></lem><rdg wit="A">speciminà</rdg></app> in festivo &amp; joculari isto scribendi genere, quod popularium haud levem mihi favorem peperit, cumque non absque voluptate quadam manibus eorundem teri viderem satyras <app type="tc"><lem><corr resp="SS">et</corr></lem><rdg wit="A">in</rdg><rdg resp="SS">et</rdg></app> fabulas &amp; poemata, quorum conspectum exhibui in præcedentibus epistolis, statui horis subsicivis fallendi temporis gratiâ &amp; epigrammata quædam latinè conari, visurus, quid in isto scribendi genere auxilii a Musis expectari, posset. Eô intuitu condita sunt disticha nonnulla, quæ cum haud spernenda visa sint amico, cui dedi legenda, intermissum jam dudum impetum resumere ac in conamine persistere jubent. At dum ita fallendi temporis gratiâ illudo chartis, haud advertenti ad istam, quam vides molem, creverunt. Dubius tamen diu eram, an ederem, præsertim cum obturbas istas ac procellas, quas cierunt fabellæ ac carmina aculeata,nuntium his Musis mittere jam dudum decreveram. At hæsitationem istam expugnarunt amici, qui perlecto integro opere, delectare <pb ed="A" n="232"/>potius ac instruere, quam pungere epigrammata mea judicarunt. Horum judiciis fretus, bibliopolæ duobus abhinc annis novam editionem epistolæ meæ molienti Carmina hæc dedi edenda.</p>
+				<p rend="indent">Non deerunt, qui &amp; hos meos conatus oblique interpretentur;At spero quoque non defuturos, qui aliter judicabunt, præsertim cum e continuatione laborum meorum tandem animadverterint, qualis sit animus scribentis, &amp; cur tot molestiæ subeantur, nempe eum solum in finem, ut specimina dentur operum quorundam imprimis elegantiorum, quorum defectum objicere nobis solitæ sunt vicinæ gentes, &amp; ut habeat patria, quo crisi huic obviam eatur.</p>
+				<p rend="indent">Et sane hic fuit unicus scribendi scopus, nam peregrinationibus meis defunctus, cum animadverterim inter tot egregios poetas, quos septentrio noster produxit, nemini in mentem venisse comicum aliquod poema fingere, statui ad exemplum aliarum gentium in ea scribendi arte memet experiri, &amp; conditum est a me notissimum istud poema Heroico-Comicum, cujus mentio fit in epistola; <w>suc<pb ed="A" n="233"/>cessus</w> hujus operis ad alios defectus supplendos &amp; ad nova exhibenda specimina me acuit. Hinc satyræ, mox comœdiæ a me elaboratæ prodierunt. Porro, cum studium juris naturæ plerisque ignotum <pb ed="SS" n="178"/>viderem, etiam hanc inopiam sublevare aggressus, systema quoddam juris naturæ &amp; gentium Danico Idiomate exaravi. Eodem etiam intuitu conditum est Opus istud, quod statum Civilem &amp; Ecclesiasticum utriusque Regni complectitur. Imperfecta &amp; confusa erat Historia Daniæ, restabant lacunæ supplendæ &amp; suppletæ a me quodammodo sunt edita nuper historia Danica in tria volumina descripta. Jisdem stimulis excitor ad scribendam historiam Ecclesiasticam, cum nil praeter steriles quosdam annales heic editum constet.</p>
+				<p rend="indent">Hinc continuati istius laboris verus scopus omnibus tandem innotuit, &amp; ringi cessarunt Censores mei, cum viderint, non ex petulantia &amp; lascivia profluere tot scripta jocularia, sed indolem potius ac ingenium me argumento accommodare, ex. gr. nugari &amp; sales effundere in operibus, quæ nugas ac sales poscunt, severo vero ac atroci stylo uti, quando rei scribendæ lex &amp; necessitas ita jubet.</p>
+				<p rend="indent">Et cum hæc ita sint comparata erubescere <w>de<pb ed="A" n="234"/>bent</w> ii, qui conamina mea toties sufflaminare aggressi sunt; Et apud posteros male forsitan audient, qui viro de patria bene mereri <app type="tc"><lem><corr resp="SS">cupienti</corr></lem><rdg wit="A">eripienti</rdg></app> tot molestias exhibuerunt, &amp; adhuc exhibent</p>
+				<p rend="indent">Quod novissimum hoc opus spectat, testor nullius autoritate aut consilio impelli me potuisse ad epigrammata aculeata edenda. Sed, cum potior eorundem pars jam aliquot abhinc annis elaborata sit, non tam scribo, quam olim scripta, ne pereant, edo. Fateor nobis non defuisse epigrammatum scriptores. Instar omnium mihi est noster <app type="tc"><lem><corr resp="SS">Harderus</corr></lem><rdg wit="A">Handerus</rdg></app>, quem ipsi Oweno ob acumina, sales &amp; elegantiam styli præferre non dubitavi. Sed paucula tantùm istius autoris in eo 
+					genere extant epigrammata, plurima enim panegyrica sunt, licet tanta arte ac Venere concinnata, ut inimitabilia mihi ferè videantur. Idem dicendum de reliquis nostris poetis latinis, quos junctim duobus voluminibus edidit Illustrissimus &amp; doctissimus Fridericus Rostgaard, cui <app type="tc"><lem><corr resp="SS">ob servatos</corr></lem><rdg wit="A">observator</rdg></app> tot cives, qui alias forsitan periissent, civica corona debetur.</p>
+				<p rend="indent">Epigrammata, quæ heic sistuntur, ad tres <pb ed="A" n="235"/>classes referri possunt: Vel mere nugatoria sunt, vel dentata, vel philosophica. Prævalet numerus horum, quæ maximam partem paradoxa sunt, licet nugis &amp; salibus intermixta, adeo ut jucunda acoribus &amp; seria nugis sint condita, prout in cœna rite instruenda dulcibus cibis acres acutique miscentur, ut obtusus illis oblitusque stomachus his excitetur. Rogo  <pb ed="SS" n="179"/>proinde, ut materiæ potius attendat lector quam stylo, qui forsitan humilis nimis &amp; depressus quibusdam videbitur. Sufficit si judicet carmina mea perspicua, <app type="tc"><lem><corr resp="SS">salsa</corr></lem><rdg wit="A">salta</rdg></app>, festiva &amp; doctrinalia. Nam tantæ est molis epigrammata ritè scribere, ut inter tot epigrammatum scriptores vix tres vel quatuor videamus, quorum opera permanentia sint amp; hodie legantur. Hinc si rem tàrn arduam haut satis prospere tentaverim, sat mihi erit tentasse, sat erit, si judices lector nobili me conamine ad ardua tendentem magnis excidisse ausis.</p>
+				<p rend="indent">Fateor in opere isto sparsos esse sales nonnullos, qui displicebunt iis, quorum severæ aures facetiis offendi solent. At in tanto epigrammatum numero vix quatuor vel quinque reperiuntur, quæ ad hanc classem referri poterunt, &amp; quæ paulo liberiora videntur <w>ex<pb ed="A" n="236"/>cusari</w> possunt exemplis gravissimorum virorum, qui majori libertate usi sunt. Omnium manibus feruntur Oweni epigrammata, nonnunquam in ipsis scholis Juventuti explicantur, cum tamen haud pauca sint, quæ extra limites a severis Catonibus positos vagentur. Nimia in scriptis jocularibus castitas ac severitas interdum sterilitatis nomen accipit. Hinc quod de Oratore seculi sui dixit Plinius: Nihil peccat, nisi quod nihil peccat, de poetis aptiùs dicendum. Porro vocum naturalium simplex mentio non est obscena. Obscenum est quod bonis moribus convicium facit ac ad libidinem stimulat, aliasque pravas voluptates, quibus tam scriptis quam vitâ &amp; moribus obicem ponere semper conatus sum.</p>
+			
+			</div>
+		</front>
+		<body>
+
+				
+				<div xml:id="book2" n="Liber secundus">
+					<div xml:id="book2_001" n="107. In Portitorem Flaccum, qui cymbam sæpe locat meretrici Artemidoræ, cum quæstûs causâ provincias peragrare soleat illa">
+						<head type="h2">107</head><head type="h3"><hi rend="it">In Portitorem Flaccum, qui cymbam sæpe locat meretrici Artemidoræ, cum quæstûs causâ provincias peragrare soleat illa</hi></head><head type="h4"><hi rend="it">Ad Papilum</hi></head>
+							<lg>
+								<l>Flaccus sæpe suam cymbam locat Artemidoræ</l>
+								<l rend="indent">Hujus &amp; in cymba navigat ipse Charon.</l>
+								<l>Alternis vicibus conducitur atque locatur,</l>
+								<l rend="indent">Nam portatus heri portitor est hodie.</l>
+								<l>Hinc quis debitor est, quis creditor haud <app type="tc"><lem><corr resp="ed">patet</corr></lem><rdg wit="A">pa-patet<note type="last">(<q>pa-</q> in fine
+                                lineae positum)</note></rdg></app>, ille</l>
+								<l rend="indent">Vecturas limbi, lumbuli at hæcce refert.</l>
+								<l>Litè igitur natâ, si calculus est faciendus,</l>
+								<l rend="indent">Actio vecturæ, Papile, nulla datur.</l>
+							</lg>
+						
+					</div> 
+					<div xml:id="book2_002" n="141.">
+						<head type="h2">141</head>
+							<lg>
+								<l>Excepto se ipso nullos colit Artemidorus,</l>
+								<l rend="indent">Omnes mortales, te nisi tute colis.</l>
+							</lg>
+						
+					</div> 
+				</div>
+				
+				
+
+		</body>
+
+	</text>
+</TEI>

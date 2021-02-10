@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="no">
+        <fileDesc>
+            <titleStmt>
+                <title key="HypHist">De hypothetibus historiæ
+                    danicæ</title>
+                <author>Ludvig Holberg</author>
+                <editor>
+                    <persName>Eiliv Vinje</persName>
+                    <date>2009-07-02</date>
+                </editor>
+                <respStmt>
+                    <name>Børge Nordbø</name>
+                    <resp>TEI P5 koding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="restricted">
+                    <p rend="head">Tekststatus:</p>  
+                    <p>Ikke kommentert</p>
+                    <p>Faksimiler til manuskriptet mangler</p>
+                    <p>Tekstkritikk pågår</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">Codex Nidrosiensis 214a, 4to, <date>1731</date></witness>
+                    <witness xml:id="B"><title key="none">Kiøbenhavnske Samlinger af rare trykte og utrykte Piecer</title>, utg. Wille Høyberg, 1. bind: <title key="none">Holbergiana</title>, Kbh. <date>1755</date>, s. 403-34.</witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, utg. ved Carl S. Petersen 1913-63, bd. 5, Kbh. 1920. NB: Avvik fra utgaven <title key="none">Samlede Skrifter</title> er systematisk notert. 
+                        Når SS ikke er nevnt i en tekstkritisk note, betyr det at SS stemmer overens med LHS.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-01-09" who="nme">Endret tittelbladet til SS-versjonen (med manuskriptets små bokstaver og linjeoppsett). Obs: stemmer ikke med faksimilen.</change>
+            <change when="2015-01-06" who="nme">La inn ekstrakorrektur mot SS, unntatt på tittelbladet. Tekstgrunnlaget må vurderes, eventuelt endre til manuskript, i så fall også endre faksimiler.</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-02-14" who="nme">Fjernet antikvaoppmerking fra brødteksten.</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change><date>2012-12-19</date>NME: La inn front-koding, sjekkes.</change>
+            <change><date>2012-10-22</date>NME: Kodet apostrofer med entitet.</change>
+            <change><date>2012-08-12</date>TDR: tekst oppmerket</change>
+            <change><date>2012-08-12</date>TDR: 1. korrektur utført</change>
+            <change><date>2012-06-17</date>NME: Lagt inn start i xml:id og sjekket mot nye verkkoder.</change>
+            <change><date>2012-05-30</date>NME: Lagt inn trykkeår i listWit.</change>
+            <change><date>2012-02-28</date>NME: Omkodet div-er. Trenger front-koding.</change>
+            <change><date>2011-08-26</date>BN: La på faksimilar.</change>
+            <change><date>2011-03-21</date>BN: Oppretta</change>
+        </revisionDesc>
+    </teiHeader>
+<facsimile>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_403.jpg" xml:id="p403"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_404.jpg" xml:id="p404"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_405.jpg" xml:id="p405"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_406.jpg" xml:id="p406"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_407.jpg" xml:id="p407"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_408.jpg" xml:id="p408"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_409.jpg" xml:id="p409"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_410.jpg" xml:id="p410"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_411.jpg" xml:id="p411"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_412.jpg" xml:id="p412"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_413.jpg" xml:id="p413"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_414.jpg" xml:id="p414"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_415.jpg" xml:id="p415"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_416.jpg" xml:id="p416"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_417.jpg" xml:id="p417"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_418.jpg" xml:id="p418"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_419.jpg" xml:id="p419"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_420.jpg" xml:id="p420"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_421.jpg" xml:id="p421"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_422.jpg" xml:id="p422"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_423.jpg" xml:id="p423"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_424.jpg" xml:id="p424"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_425.jpg" xml:id="p425"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_426.jpg" xml:id="p426"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_427.jpg" xml:id="p427"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_428.jpg" xml:id="p428"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_429.jpg" xml:id="p429"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_430.jpg" xml:id="p430"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_431.jpg" xml:id="p431"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_432.jpg" xml:id="p432"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_433.jpg" xml:id="p433"/>
+    <graphic url="http://holbergsskrifter.no/image/Hypothesibus/jpg/DPP_434.jpg" xml:id="p434"/>
+</facsimile>
+    <text xml:lang="dk" xml:id="HypHist" type="orig" subtype="HypHist" n="/tekster/HypHist/HypHist.page">
+       <front>
+           <titlePage xml:id="start" n="[Tittelblad]">  
+                <pb ed="A" n="403" facs="p403"/>
+                <pb ed="SS" n="745"/>
+                
+                <docTitle>
+                    <titlePart type="sub">L. Holbergii
+                        <lb/>Solutio Problematis
+                        <lb/>de</titlePart>
+                    <titlePart type="main">hypothesibus Historiæ Danicæ,</titlePart>
+                        <titlePart type="sub">in
+                        <lb/>Collatione honorum Baccalaureatus
+                        <lb/>publice recitata
+                        <lb/>in 
+                        <lb/>Dom: Consistor: 1731.</titlePart>
+                    </docTitle>
+                    
+              
+                
+                
+           </titlePage>
+        </front>
+        
+        <body>
+            <div xml:id="chap" n="De hypothesibus historiæ danicæ">
+                <pb ed="A" n="405" facs="p405"/>
+                <pb ed="SS" n="747"/>
+           <p rend="noIndent"><w><hi rend="init">I</hi>nter</w> vitia hominum non minimum censeri
+                    debet illud, qvo vitiorum Domitores in contraria pelluntur. Hinc qvoties de
+                    reformandis aut moribus aut studiis agitur, cuncta mihi per ossa tremor currit,
+                    experientia satis edocto, non tam veteres tolli errores, qvam in novos ac
+                    oppositos transformari; nam eadem est censuræ ac febrium indoles, nimius semper
+                        <w>ca<shy/><pb ed="A" n="406" facs="p406"/>lor</w> nimio succedit frigori, cum mens
+                    humana calcaribus semel excitata, non reperiat modum consistendi: hinc non
+                    insulse philosopharis, præstantissime Candidate, si vitam nostram qvartanam aut
+                    tertianam definias. Olim qvævis portenta, aniles fabellas, inania somnia, ac
+                    crassissimas monasteriorum legendas avide arripiebamus; hodie vero, discussa
+                    ista, qva obsidebamur, caligine, in aliud oppositum lapsi, qvæ ante oculos
+                    posita sunt, in dubium vocamus. Nimium tunc omnia credebantur, nimium jam de
+                    omnibus dubitatur. Majores nostri barbarè loqvebantur; Barbariem hanc nos
+                    expugnaturi, pro particulis Grammaticalibus tanqvam pro aris et focis
+                        <w>pugna<shy/><pb ed="A" n="407" facs="p407"/>mus</w>. Impune olim scelera
+                    patrabantur Athenis, mox furto pomi capitale supplicium statuitur. Ferociam
+                    Romanorum temperaturus Numa in aliud extremum præceps ruit, hinc Roma, qvæ sub
+                    Romulo armorum erat officina, sub Pompilio fit Augurum ac Flaminum seminarium.
+                    Vidimus integras urbes, jam Martis jam Musarum domicilia. Vidimus in iisdem
+                    gentibus jam nimium zelum ac fervorem, jam nimium frigus ac desidiam notari.
+                    Veteres Ecclesiæ Antistites ac Martyrum cultores Semidiis cœlum replerunt; Hinc
+                    templa, sacella, ac compita tot sanctis obsita erant, ut facilius esset Deum
+                    qvam hominem invenire. Reformationem igitur poscebat Catalogus Sancto<shy/><pb ed="A" n="408" facs="p408"/>rum. Reformare aggressi sunt nonnulli
+                    posterioris ævi censores, sed cum fictis veros Sanctos, cum idolis ipsos
+                    cœli incolas è Paradiso præ nimio zelo præcipites egerunt. Hinc lepide de
+                    Censoribus qvibusdam dictum: Si pergant delectum agere, periculum est, ne
+                    vacuum ab incolis reddatur cœlum. Eodem vitio, si qvid judico, transversi
+                    aguntur novi apud nos historiæ Danicæ Censores. Enormem Regum seriem nobis dedit
+                    Saxo Grammaticus, enormiorem hypotheseos Gothlandicæ Sectatores. Utraque
+                    hypothesis reformationem poscebat. Confusio temporum, discrepantia ab historiis
+                    aliarum gentium, ipsa Regum acta satis monstrant, aut fictos esse plerosque
+                        <w>Re<shy/><pb ed="A" n="409" facs="p409"/>ges</w>, et in cerebris scriptorum
+                    tantum regnasse, aut Regulos fuisse, <pb ed="SS" n="748"/>qvos secundum ordinem
+                    successionis mendose disponit Saxo, cum tamen simul regnasse verisimile sit.</p>
+                    <p rend="indent">Vitium illud antiqvariis diu patuit, sed nemo medelam tentavit, neque tentare
+                    ausus est, qva ob operis difficultatem, qva ob metum invidiæ, ne notam
+                    incurrerent odiosæ novationis, ac tot tantosque viros, qvi hypothesi Saxonis
+                    tenaciter adhærebant, in se armarent. Tandem vero tantæ molis operi se accinxit
+                    Celeberrimus Islandus Tormodus Torfæus, novam exhibens seriem Dynastarum ac
+                    Regum Daniæ. Varie pro diversis animorum motibus <pb ed="A" n="410" facs="p410"/>exceptum est hoc opus. Qvidam in Antiqvitatibus Patriæ nugari nos jam desinere
+                    ajebant; Alii, qvi non sine indignatione videbant tantam antiqviorum Regum fieri
+                    stragem, aut in Pöeticos et imaginarios heröes transformari, qvorum res gestas
+                    tot notis ac commentationibus illustraverant, in autorem tanqvam audacem nimis
+                    et iniqvum Novatorem insurgunt. Hinc in sectas abire cœperunt historici nostri;
+                    nec animosius bella inter Reges ac Principes de finibus Regnorum geruntur, qvam
+                    inter utriusque hypotheseos sectatores de vindicanda aut destruenda Saxonis
+                    hypothesi. Qvi Vulgarem seqvuntur, indignum stipendio Regio clamant Torfæum, qvi
+                    historiam <w>anti<shy/><pb ed="A" n="411" facs="p411"/>qvam</w> mutilare, omneque decus
+                    ac ornamentum Septentrioni nostro detrahere aggressus est, præmia insuper
+                    stipulatus, ac si meritoria esset antiqvitatis Patriæ destructio. Qvi vero
+                    hypothesin Islandicam sectantur, nihil heic patriæ detrahi contendunt, semper
+                    enim meritoriam esse veritatis indagationem, neminique injuriam fieri, cui
+                    monstratur, qvod pede vel cubito brevior sit, qvam prout mente conceperat; nam
+                    eo ipso non tam corporis statura, qvam falsa de eadem concepta opinio
+                    deprimitur. Ita iniqve medico succenset nuper ægrotans, qvi durante cerebri
+                    intemperie, Cæsarem se somniavit, sed sanitati restitutus, ad sortem privati
+                    hominis reducitur; nam <pb ed="A" n="412" facs="p412"/>virtute Elebori ac manu
+                    medica non regnum sed stultitia amittitur. Qvis metatores sev Geometras Regis
+                    Christianissimi indignos præmio judicabit, qvod facta accuratiori regni
+                    dimensione, minorem aut arctiorem esse Galliam qvam pro opinione vulgari
+                    monstrabant. Pace eqvidem Saxonis, aliorumque, qvi antiqva tempora composuerunt,
+                    dicere licet, qvod hypothesis illa, qvæ Vulgaris audit, parum sibi constet; sive
+                    temporis antiqvitas spectetur, sive ordo Regum; nam si verum sit in Dania
+                    regnasse Danum, anteqvam Romulus et Remus lupam matrem sugerent, necesse est, ut
+                    auctior et duplo fere major reddatur Catalogus Saxonis, nisi Regibus plerisque
+                        <w>Nesto<shy/><pb ed="A" n="413" facs="p413"/>ream</w> ætatem tribuas; si historias
+                    et acta Regum cum annalibus vicinarum gentium conferas, intra limites longe
+                    arctiores restringenda est eadem series, plurimisque Monarchis sceptra
+                    extorqvenda, ut evitentur parachronismi, et chronologia qvodammodo
+                        <w>resti<shy/><pb ed="SS" n="749"/>tuatur</w>. Sed tantæ auctoritatis erat Saxo
+                    Grammaticus, vel potius Archiepiscopus Absalon, sub cujus ductu et auspiciis
+                    historiam gentis Danicæ contexuit, ut omnes qvi secuti sunt historici sc.
+                    Crantzius, Hvitfeldius, Pontanus, Svaningius, Meursius, aliique maximi nominis
+                    viri ne ungvem qvidem latum ab hypothesi ejus recedere ausi sint. <pb ed="A" n="414" facs="p414"/>Huc adde, qvod cum tot tantisque subsidiis in præfamine
+                    Operis instructum sese testetur ipse Saxo, temeraria visa sit plerisque tanti
+                    fortiterque adeo armati viri censura. Sed id qvod maxime invictum et
+                    inexpugnabilem historicum nostrum reddidisse visum est, autoritatem ejus maxime
+                    labefactavit. Nam cum ipse in proœmio operis sui testetur, se fidem veterum
+                    Thylensium sive scriptorum Islandicorum secutum, ac antiqvarii nonnulli temporis
+                    nostri, examine monumentorum Islandicorum curatius habito, viderent toto ab
+                    iisdem distare cœlo historiam Saxonis, satis patuit, nunqvam autores istos
+                    inspexisse, qvorum vestigiis se insistere profitetur, <w>qvocir<shy/><pb ed="A" n="415" facs="p415"/>ca</w> credebant etiam idem judicium ferri posse de
+                    reliqvis adminiculis, qvorum magnifica apud eundem Saxonem fit mentio. E
+                    lapidibus Runnicis exiguum solatium hauriri posse docuit in Thesauro
+                    Antiqvitatum Danicarum celeberrimus Thomas Bartholinus, cum obscuræ adeo sint
+                    pleræque inscriptiones, ut nulla ope et sagacitate humana sensus aliqvis inde
+                    erui possit, Veteresque, qvas Saxo latinè reddidit cantilenas paucas esse,
+                    parumque ad historiam, et nihil omnino ad doctrinam temporum facere. Cunctis
+                    his serio ad examen vocatis, delectuque habito monumentorum, qvorum larga in
+                    Islandia erat seges, novam et Saxoni è diametro oppositam historiam eo
+                        <w>condi<shy/><pb ed="A" n="416" facs="p416"/>dit</w> successu Torfæus, ut omnes
+                    hodie sagaciores critici, relictis antiqvis hypothesibus, Islandicam hypothesin
+                    uti tutiorem, verisimiliorem, ac annalibus exterarum gentium magis conformem
+                    amplecti non dubitent. Rejiciuntur in specimine Torfæi à catalogo Regum
+                    qvamplurimi Dynastæ, qvi aut ficti censentur, aut clientelari tantum nomine
+                    certis Regni provinciis præfuisse creduntur. Cuncta, qvæ in fidem hypotheseos
+                    suæ affert Torfæus, è monumentis Islandicis tanqvam è limpidissimis Antiqvitatum
+                    Septentrionalium fontibus hausit, cum soli fere in Septentrione Norvegi, sev
+                    Islandi, temporum suorum historias in literas mittere consveverint, cumque multi
+                    hodie <pb ed="A" n="417" facs="p417"/>monstrentur codices manuscripti, qvi
+                    magnæ antiqvitatis existimantur, qvique ab oculatis rerum, qvas memoriæ
+                    mandarunt, testibus conscripti sunt. Eosdem etiam ut egregios veritatis testes
+                    in excellentissimo Norvagiæ Chronico passim exscribit Septentrionis nostri
+                    Thucidides Snoro. Attamen non ita cœcè monumentorum Norvegicorum fidem seqvitur
+                    Torfæus, qvin identidem ad Annales aliarum gentium oculos circumferat,
+                    eorundemque testimoniis hypothesin suam illustret ac firmet. Hinc haud difficile
+                        <pb ed="SS" n="750"/>fuit Torfæo integras historicorum cohortes in castra
+                    sua pertrahere. Et facta mox tanta discessio ac transfugium à Sectatoribus
+                    Saxonis fuit, ut pauci hodie sint, qvi <w>vete<shy/><pb ed="A" n="418" facs="p418"/>ris</w> hypotheseos autoritatem seqvuntur, et qvi adhuc sub vexillis Saxonis
+                    militant, de iisdem idem judicium fertur, qvod de Sectatoribus Astronomiæ
+                    veteris, qvi post detectam à Copernico in Physica cœlesti ignorantiam adhuc
+                    veteri de qviete terræ mordicus adhærent.</p> 
+                        <p rend="indent">Ita egregia et laudabilis fuisset
+                    Historiæ Danicæ reformatio, si qviescere aut impetum sufflaminare potuissent
+                    Reformatores. Sed idem illis accidit, qvod aliis Censoribus, qvi effuso cursu in
+                    oppositos errores præcipites iverunt: Nam cum reformationem illam, qvæ ducibus
+                    monumentis Islandicis tam bene in historia remotiori processerat, ad viciniora
+                    Saxoni tempora <w>exten<shy/><pb ed="A" n="419" facs="p419"/>dere</w> ausi sint, extra
+                    orbitam vagari, ac codicibus suis nimium tribuere censentur, præsertim cum non
+                    solum pergant negligere Saxonem, qvem tamen longe alio pede in historia media
+                    metiri deberent, sed cessent etiam exterorum annalium ulteriorem rationem
+                    habere. Hinc igitur tela, qvæ nuper in hypotheseos vulgaris sectatores
+                    torqvebant, in ipsos, me judice, retorqveri possunt. Notant ipsi Saxonem, qvod
+                    nimium traditionibus suis dederit, nulla aut chronologiæ, aut aliorum
+                    celebriorum autorum ratione habita, notant discipulos Saxonis tanqvam stolide in
+                    Magistri verba jurantes. Hæ afferuntur belli causæ: His machinis arcem
+                    hypotheseos vulgaris <pb ed="A" n="420" facs="p420"/>expugnare aggrediuntur, et
+                    hoc solo fundamento nititur incepta reformatio. Sed nimio zelo abrepti monitorum
+                    mox immemores in idem erratum ruunt, nimium monumentis suis Islandicis
+                    indulgentes, ac non solum Saxonis, sed et aliorum fide dignissimorum annalium
+                    autoritatem insuper habentes. Cunctis enim Regibus ac Dynastis, qvi in
+                    Codicibus Islandicis non regnant, dicam scribunt, immisericorditer eosdem è
+                    solio præcipites dant, interregna pronunciant, ac extorta extorribus Monarchis
+                    sceptra in alios transferunt: Ita ingentem totius Daniæ, Norwegiæ, Sveciæ,
+                    Britanniæ ac Russiæ Monarcham constituunt Ivarum Vidfadmi, licet ejusdem neque
+                    Saxo, neque alius <pb ed="A" n="421" facs="p421"/>unqvam Scriptor meminerit;
+                            Sufficit, qvod aut in historia <app type="tc"><lem wit="A">Hrolfi</lem><rdg resp="SS">HRolfi</rdg></app>
+                             Krackii, aut in alio qvodam codice
+                    Thulensi reperiatur. Sed pace Reformatorum nostrorum dicendum est, qvod tanti
+                    Monarchæ imperium ignorare, aut silentio præterire neqviverint omnes aliæ
+                    gentes, ideoque verisimile sit, non in Dania, sed in solis Islandorum membranis
+                    regnasse Ivarum. Hinc liqvet, censuram merito incurrere ipsos censores, ac
+                    potestate censoria, qva insigniter adeo abusi sunt, debere privari. Potestate
+                    enim censoria abutuntur, ac crimen temeritatis non effugiunt, qvi Reges, qvos
+                    cunctæ gentes agnoscunt, soli respuunt, et novos, qvos alii ignorant, nobis
+                    obtrudunt. <pb ed="A" n="422" facs="p422"/>Nam si hypotheseos <pb ed="SS" n="751"/>Islandicæ autoritatem à Sigvardo Ring usque ad Gormonem sævum
+                    seqvamur, necesse est, ut novem aut decem Reges, qvorum non modo Saxo, sed et
+                    Annales Svecici, Saxonici, Bremenses, ac Gallici meminere, prorsus evanescant;
+                    necesse est, ut statuamus, historias temporum suorum ignorasse Scriptores fide
+                    dignissimos; necesse est, ut credamus, nubem pro Junone amplexum Eginardum
+                    Caroli Magni Secretarium, dum Gothofredum, Olaum et Henningum, qvi secundum
+                    hypothesin Islandicam duces tantum Slesvicenses existimantur, Reges Daniæ
+                    expresse nominet; mentio enim fit apud Aimonium Eginardum aliosque celebriores
+                    autores bellorum <pb ed="A" n="423" facs="p423"/>ac fœderum inter Carolum
+                    Magnum, Ludovicum Pium, et prædictos Principes, qvi Reges Danorum vocantur: Huc
+                    adde, qvod diversa de iisdem dicantur, qvæ non nisi in potentissimos Reges
+                    cadunt: Bella enim gerere cum Imperatoribus, qvales erant Carolus Magnus, et
+                    Ludovicus Pius, non bene convenit Regulis aut Ducibus Slesvicensibus;
+                    Instructissimis ac numerosissimis classibus maria infestare, non nisi de Regibus
+                    Daniæ tunc temporis dici potuit, ubi rerum maritimarum rudes adhuc erant
+                    Germani, solique Dani ac Norvegi marium Septentrionalium Domini erant. Dicuntur
+                    præterea Reges nonnulli Lethris, in ipso Siælandiæ meditullio sepulti. Denique
+                    in coortis <pb ed="A" n="424" facs="p424"/>inter fratres de imperio litibus
+                    qvidam Scanienses ac Sialandos, alii Cimbros in partes suas traxisse
+                    perhibentur. Ducibus ista Slesvicensibus aut Regulis Holsatiæ adscribere
+                    temerarium omnino est. Tanti sane à tempore Caroli Magni ponderis sunt
+                    testimonia Saxonis et Svenonis Agonis, qvi sub Canuto 6 ambo floruerunt, ut ob
+                    cantilenas aut historias qvasdam Islandicas rejici temere non debeant, præsertim
+                    cum fides eorum tot exteris testibus roboratur. Tandem si fides habeatur novæ
+                    hypothesi, ac duo tantum Reges inter Sigvardum Ring ac Gormonem Truculentum sint
+                    numerandi, necesse est, ut totidem Reges deleantur è catalogo Regum Sveciæ. Hic
+                        <pb ed="A" n="425" facs="p425"/>sane maximus est nodus, cujus solutio
+                    sudorem eliciat scriptoribus Islandicis. Præviderat objectionem Torfæus,
+                    ideoque solvere eandem tentavit hoc modo: Scriptor Historiæ Svecicæ, Johannes
+                    Gothus, Saxonem Grammaticum in componenda historia Svecica æmulatus, totidem
+                    finxit Reges, qvot Daniæ dederat Saxo, ne patria ejus antiqvitate censeretur
+                    ignobilior. Conjecturam hanc, qvamvis fateor valde mihi audacem apparere, non
+                    eqvidem planè rejicio in historia remotiore; at in recentiore, qvæ ad tempora
+                    Christianismi accedit, ubi Saxonis autoritas, qvæ per se satis momentosa est,
+                    testimoniis aliorum scriptorum corroboratur, tanqvam vana ac temeraria
+                        <w>sibi<shy/><pb ed="A" n="426" facs="p426"/>lum</w> meretur. Scripsit historiam
+                    sui temporis Eginardus in Francia, suam composuit Helmoldus in Slavia, Adamus
+                    Bremensis in Dania, dictante, ut ipse testatur, doctissimo Danorum Rege, <pb ed="SS" n="752"/>Svenone Estritio, qvi paulo post Canutum Magnum regnabat.
+                    Historiam suam condidit Saxo Grammaticus tempore Canuti 6. Paulo ante Saxonem
+                    Sveno Agonis. Omnes avtographi scriptores existimantur, nam qvod alter alterum
+                    non exscripserit, luce meridiana clarius est. Non eqvidem dubito, qvin
+                    commercium literarum inter Saxonem et Svenonem Agonis fuerit, præsertim cum
+                    illum hic contubernalem suum vocitet, sed si socia Saxonis opera in contexenda
+                    historia sua <w>u<shy/><pb ed="A" n="427" facs="p427"/>sus</w> fuisset Sveno, Skioldum
+                    Regni conditorem vix statuisset. Hæc cum ita sint, fatendum est absque miraculo
+                    à tot diversis scriptoribus non fingi potuisse eosdem Reges, et si in gratiam
+                    monumentorum Islandicorum tot tantorumque autorum, qvi diversis temporibus et
+                    diversis locis scripserunt, testimonia posthabenda sint, necesse est, ut
+                    Codicibus his Thulensibus theopnevstiam tribuamus, nam id solum à crimine iniqvæ
+                    censuræ nos vindicabit.</p> 
+                <p rend="indent">Sed si ad examen jam vocentur Codices isti, qvi soli ab
+                    Islandis veri fontes existimantur, unde aliarum gentium historiæ ac chronologiæ
+                    derivari <pb ed="A" n="428" facs="p428"/>debent, tantum abest, ut nulla omnino
+                    lima egeant, qvin haud raro monstra occurrant, qvibus domandis ipse Hercules vix
+                    sufficiet. Sola historia Regneri Lothbrock, qvam tamen mediæ historiæ multam
+                    lucem affundere credit Torfæus, tot scatet parachronismis, fabulis ac portentis,
+                    ut speciem potius ficti poëmatis heroici, qvam veræ historiæ, secundum qvam
+                    emendentur annales nostri, præ se ferat. Dicitur ex. gr. Regnerus bellum
+                    gessisse cum serpentibus, qvi filiam Regis Sveciæ custodiebant, ac si scena
+                    tragœdiæ in Africa aut Ægypto esset, ubi id genus monstra aluntur. Dicuntur
+                    filii ejus Londinum Angliæ metropolin condidisse, cum tamen <pb ed="A" n="429" facs="p429"/>Iulii Cæsaris tempore ejusdem urbis fit mentio. Taceo alia, qvæ
+                    inconditæ potius tragœdiæ circumforaneæ, qvam historiæ nomen merentur, cum totum
+                    opus desumtum ab Odyssea, libris Æneidos, ac historia Argonautarum videatur.
+                    Alia sane erunt armamentaria, unde depromenda sunt tela ad oppugnandas tot
+                    arces.</p> 
+                <p rend="indent">Et cum ex præmissis pateat, reformatione etiam egere hypothesin
+                    Islandicam, opus est, ut ponatur qvarta hypothesis, mixta è vulgari et nova.
+                    Recedendum puto à Saxonis Catalogo in <pb ed="A" n="430" facs="p430"/>historia
+                    antiqva, ubi rationes chronologicæ et vicinarum gentium annales recedere jubent,
+                    et redeundum, ubi eædem rationes reditum postulant. Medium hoc iter tutissimus
+                    ibis, præstantiss. Cand:. Et hanc ego viam, historiam Danicam scribere
+                    aggressus, calculis ex utraque parte serio positis, elegi. Relicto igitur
+                    Saxone, seqvor hypothesin Islandicam à Regni conditore Skioldo usque ad
+                    Sigvardum Ring, et rursus relicta hypothesi Islandica, redeo ad Saxonem à
+                    Sigvardo Ring usque ad tempora Gormonis Truculenti, ubi terminatur schisma
+                        <w>histo<shy/><pb ed="A" n="431" facs="p431"/>ricum</w>. Si hypotheseos <pb ed="SS" n="753"/>meæ ulteriorem rationem poscat præstantissimus Candidatus, sique
+                    qværat cur in historia primorum Regum seqvor hypothesin Islandicam, qvam parum
+                    adeo sibi constare ipse monstraverim in historia media, respondeo: cum in
+                    historia Saxonis antiqviori non nisi portenta, monstra, ac ingens chaos
+                    occurrant, è duobus malis eligendum esse minimum, et in prima periodo inter
+                    scruposas cotes potius cum Islandis navigandum, qvam aperte cum Saxone
+                    naufragium faciendum. Rursus in historia media, cum ruinam et præcipitia minetur
+                        <w>hy<shy/><pb ed="A" n="432" facs="p432"/>pothesis</w> nova, sed planius
+                    qvodammodo iter, licet non sine spinis, monstret vulgaris, conjicio me potius
+                    inter spinas Saxonis, ne cum Islandis in barathrum præceps eam. Ut brevi
+                    præcidam, rado litora Islandiæ, qvoties spes aliqva portus appareat, et in
+                    Daniam iter reflecto, cum constricta glacie maria impervios reddunt portus
+                    Islandiæ. Coecè tamen adeo in historia media non seqvor Saxonem, sed identidem
+                    recedo, qvoties lex historiæ recedere jubet, facem mihi præferente illustrissimo
+                    Hvitfeldio, qvi ex aliis Annalibus, imprimis Bremensibus, catalogum Saxonis
+                    emendat.</p> 
+                <p rend="indent"><pb ed="A" n="433" facs="p433"/>Hæc à me prolata sunt non eum in finem,
+                    ut novam in historia Septentrionali sectam formaturus sim, sed potius ut natas
+                    inter historicos nostros turbas componerem, et ut schismati mederer, qvod non
+                    minores heic movit procellas, qvam lites Theologicæ ciere alibi solent. Et cum
+                    non ignarus sim, qvanto fervore geruntur istiusmodi bella, tutissimum duxi
+                    medium inter Scyllam et Charybdin tenere cursum, ne alteri sectæ adhærendo
+                    alteram in me totam armarem: hinc mediator potius qvam novæ sectæ conditor
+                    nemini bellum moveo; postulo tantum, ut altera pars <pb ed="A" n="434" facs="p434"/>alteri nonnihil in pacis gratiam remittat, uti postulari solet
+                    à mediatoribus et controversiarum arbitris. Denique non tam ipse judico, qvam ad
+                    judicia aliorum provoco, cuncta qvæ attuli, maturiori aliorum disqvisitioni
+                    relinqvens.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

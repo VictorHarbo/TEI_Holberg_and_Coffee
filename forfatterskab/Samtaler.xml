@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="Saml">Samling af adskillige Nye Samtaler</title>
+                <author>Ludvig Holberg</author>
+                <editor>
+                    <persName/>
+               </editor>
+           </titleStmt>
+            <editionStmt>
+                <edition><date>1728</date></edition>
+           </editionStmt>
+        <publicationStmt>
+        <pubPlace/>
+        <availability>
+        <p rend="head">Tekststatus:</p>
+            <p>Indledning er under redigering</p>
+            <p>Ikke punktkommenteret</p>          
+        </availability>
+        </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Samling af adskillige nye Samtaler holdne for Tidsfordriv i disse Dage paa denne og hin Side af Elven</title>, <date>1728</date></witness>
+                    <witness xml:id="B"><title key="none">Samtale imellem tvende Kiøbmænd Montanus og Sylvester, oplagt igien efter adskillige got Folkes Begiering og formeeret med nye Spørsmaal</title>, <date>1729</date></witness>
+                    <witness xml:id="Høyberg"><title key="none">Kiøbenhavnske Samlinger af rare trykte og utrykte Piecer</title>, bd. 1: Holbergiana, udg. Wille Høyberg &amp; Chr. Schmidt, 1755, s. 119-218.</witness>
+                    <witness xml:id="Boye"><title key="none">Holbergiana. Smaa-Skrivter af og om Ludvig Friherre af Holberg</title>, Udgivne ved A.E. Boye, bd. 2, 1833, s. 1-43.</witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udgivne af Carl S. Petersen, bd. 5, 1920.</witness>
+                    <witness xml:id="Hansen">Max Kjær Hansen: <title key="none">Økonomen Ludvig Holberg</title>, 1954, s. 35-68.</witness>
+                    <witness xml:id="Billeskov"><title key="none">Ludvig Holberg, Værker i Tolv Bind</title>, udgivet med indledninger og kommentarer af F. J. Billeskov Jansen, bd. 8, 1970, s. 13-46. </witness>
+                </listWit>
+           </sourceDesc>
+       </fileDesc>        
+        <profileDesc>
+            <langUsage>
+                <language ident="dan">dansk</language>
+           </langUsage>
+       </profileDesc>        
+        <revisionDesc>
+            <change when="2015-08-14" who="fgj">faksimilelinks</change>
+            <change when="2015-02-24" who="ng">rettelser i app.crit.</change>
+            <change when="2015-02-24" who="ng">rettelser i app.crit.</change>
+            <change when="2015-01-21" who="ng">tekstkritik justeret efter Høyberg, Boye, Billeskov og Hansen</change>
+            <change when="2014-12-16" who="ng">enkelte rettelser</change>
+            <change when="2014-12-15" who="ng">indført læsninger fra B</change>
+            <change when="2014-12-12" who="ng">seg til tekstkritiske kommentarer</change>
+            <change when="2014-12-11" who="ng">tilføjet kommentarfil samt en enkelt bagatelrettelse</change>
+            <change when="2014-12-09" who="ng">tekstkritik</change>
+            <change when="2014-12-08" who="ng">tekstkritik til A 27</change>
+            <change when="2014-12-04">strukturopmærkning</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-01-24" who="fgj">tilføjet tekststatus</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change when="2012-09-06" who="fgj">validering, diverse tilretning, læst mod SS indtil s. 6</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage. Filen er fremdeles invalid.</change>
+            <change when="2012-03-03" who="fgj">filen oprettet som Samtaler.page, teksten klippet fra SS-scanningen men ellers ikke bearbejdet ud over indførelse af div-struktur.</change>
+      </revisionDesc>
+    </teiHeader>
+ <facsimile>
+    
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_003.jpg" xml:id="p1"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_004.jpg" xml:id="p2"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_005.jpg" xml:id="p3"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_006.jpg" xml:id="p4"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_007.jpg" xml:id="p5"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_008.jpg" xml:id="p6"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_009.jpg" xml:id="p7"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_010.jpg" xml:id="p8"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_011.jpg" xml:id="p9"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_012.jpg" xml:id="p10"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_013.jpg" xml:id="p11"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_014.jpg" xml:id="p12"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_015.jpg" xml:id="p13"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_016.jpg" xml:id="p14"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_017.jpg" xml:id="p15"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_018.jpg" xml:id="p16"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_019.jpg" xml:id="p17"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_020.jpg" xml:id="p18"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_021.jpg" xml:id="p19"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_022.jpg" xml:id="p20"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_023.jpg" xml:id="p21"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_024.jpg" xml:id="p22"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_025.jpg" xml:id="p23"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_026.jpg" xml:id="p24"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_027.jpg" xml:id="p25"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_028.jpg" xml:id="p26"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_029.jpg" xml:id="p27"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_030.jpg" xml:id="p28"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_031.jpg" xml:id="p29"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_032.jpg" xml:id="p30"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_033.jpg" xml:id="p31"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_034.jpg" xml:id="p32"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_035.jpg" xml:id="p33"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_036.jpg" xml:id="p34"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_037.jpg" xml:id="p35"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_038.jpg" xml:id="p36"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_039.jpg" xml:id="p37"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_040.jpg" xml:id="p38"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_041.jpg" xml:id="p39"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_042.jpg" xml:id="p40"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_043.jpg" xml:id="p41"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_044.jpg" xml:id="p42"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_045.jpg" xml:id="p43"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_046.jpg" xml:id="p44"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_047.jpg" xml:id="p45"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_048.jpg" xml:id="p46"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_049.jpg" xml:id="p47"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/nye_samtaler/holberg_samtaler_1728_050.jpg" xml:id="p48"/>
+   
+  </facsimile>
+    <text xml:lang="dan" xml:id="Saml" type="orig" subtype="Saml" n="/tekster/Samtaler/Samtaler.page">
+        <front>
+            <titlePage xml:id="start" n="[Titelblad]">
+                <pb ed="A" n="1" facs="p1"/>
+                <pb ed="SS" n="119"/>
+                <docTitle>
+                    <titlePart type="main">Samling
+                        <lb/>Af adskillige
+                        <lb/>Nye Samtaler</titlePart>
+                    <titlePart type="sub">Holdne
+                        <lb/>For Tidsfordriv i disse Dage
+                        <lb/>paa denne og hin Side
+                        <lb/>af Elven.</titlePart>
+                </docTitle>
+                <byline rend="center">Første Samling indeholder
+                    <lb/>Sex Samtaler,
+                    <lb/>Oversat paa Dansk efter det
+                    <lb/><w><hi rend="ant">Latin</hi>ske</w> <hi rend="ant">Exemplar</hi>,</byline>
+                <docImprint>Trykt til <hi rend="ant">Cöln</hi> Aar 1728.</docImprint>
+                <pb ed="A" n="2" facs="p2"/>
+            </titlePage>
+        </front>
+        <body>
+            <div xml:id="chap1" n="Første Samtale imellem tvende Handels-Mænd Lucius og Antonius">
+                <pb ed="A" n="3" facs="p3"/>
+                <pb ed="SS" n="121"/>
+                <head>Første Samtale<lb/>
+                    Imellem<lb/>
+                    Tvende <w>Handels-Mænd</w><lb/>
+                    <hi rend="ant">LUCIUS</hi><lb/>
+                    og<lb/>
+                    <hi rend="ant">ANTONIUS</hi>.</head>
+                <lb/>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p><w><hi rend="init">V</hi>Elkommen</w> hid min Hr. <hi rend="ant">Antoni!</hi> Jeg tænkte mindst paa at finde Jer her; Hvad got nyt fra Danmark? Det lader sig ansee, som at Biergene laver til Barsel hos Jer i Kiøbenhavn.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Og det lader sig ansee, som I havde nogle Sviin paa Skoven; thi jeg veed ikke hvad I vil sige med denne Snak.</p>
+                </sp>
+                <pb ed="A" n="4" facs="p4"/>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Kiære! fortæl os noget om det store Værk man smidder paa, angaaende det nye <w>Ost-Indiske</w> <hi rend="ant">Compagnie.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Det Ny, siger I, jeg veed ikke vi har noget nyt for; thi man kand allermindst sige om Danmark, det som tillegges adskillige andre Riger og Lande, at de bygger <hi rend="ant">Casteller</hi> i Luften; Vi holder os altiid ved det Gamle.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Ikke des mindre opretter I dog et ny <w>Ost-Indisk</w> <hi rend="ant">Compagnie.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Ingenlunde; Vi stifter ikke noget nyt, men søger alleene at rejse det gamle paa Fode, som er kommet noget paa Knæene.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Det er ikke alleeneste kommet paa Knæene, men jeg troer ikke rettere, end at det jo er gaaet reent under, og I venter nu, at der skal opstaae af Asken en ny <hi rend="ant">Phœnix</hi> langt hærligere end den Gamle, som skal flyve heele <hi rend="ant">Asien</hi> omkring, og hænte dens Riigdom hiem i Jeres Skriine, thi I taler ey alleene om, at optage Handelen paa <pb ed="SS" n="122"/>ny, mens endog at forøge den mangfoldig; <pb ed="A" n="5" facs="p5"/>Men, Kiære, siig mig, hvor venter I at faa de Vinger fra, som I vil flyve saa højt med?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTHONIUS.</hi></speaker>
+                    <p>Den samme GUd, som har ladet Jer Vingerne voxe saa lange, kand og hielpe os i Væjret, og velsigne vores lovlige Forehavende; Men I indbilder Jer, at I har alleene Lykken i Lummen, og at det er Jer alleene given at skyde Papegoyen af.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Det siger jeg ikke, at vi har alleene Lykken i Lummen, jeg raader kuns at I ikke flyver for høyt; thi hvis I kommer Solen for nær, da vil Jeres Vinger smelte, om de ere af Vox; Betænker hvorleedes det gick <hi rend="ant">Icarus</hi> i fordum Tiid.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Det har aldrig været de Danskes Maneer, at flyve for høyt, deslige <hi rend="ant">Caracterer</hi> passer sig bedre paa Jer andre.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men har I ikke hørt den haanlige Dom, som endeel Kiøbmænd nylig har fældet over dette Ostindiske <hi rend="ant">Compagnie.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Saadanne <w>Spotte-Gloser</w> <hi rend="ant">diverterer</hi> meer end anfægter os, eftersom de snarere <pb ed="A" n="6" facs="p6"/>giver Misundelse end Foragt tilkiende; Dersom vi gik frugtsommelige med daarlige Anslag; dersom vi ville opdage ubekiente Øer i det vilde Hav; dersom vi havde for at sende <hi rend="ant">Colonier</hi> til Maanen, da havde vore Anslag heller bleven beleed, end saa bitterlig <hi rend="ant">censurered;</hi> Vi legger derfor saadan Snak ikkun lidt paa Hiertet, og meere leer end skrekkes deraf; Thi, om end Udfaldet ikke skulle svare til vores Forhaabning i dette begyndte Værk, da kunde det derfor ikke kaldes saa urimelige Ting vi havde vovet, at <hi rend="ant">Phaëtons</hi> eller <hi rend="ant">Icari Epitaphium</hi> kunde passe sig paa os. Det er en aaben og slagen Vey vi pæger til, <hi rend="ant">Compagniets</hi> Love ere med Fornuft <hi rend="ant">conciperede</hi> førend de kom for Lyset, vi tilsiger ikke saa meget en forventlig Fordeel, som vi viiser for enhvers Øyen, hvor den er at finde; Vi anfanger ikke nogen ny, men søger at bringe paa Fode igien den gamle, men formedelst Tidernes Besværlighed, svæckede Handel, saa at vi ikke med nogen føye kand beskyldes for at omgaaes enten med Underfundighed eller  med daarlige Anslag; thi alle de, som kiender den Danske <hi rend="ant">Nations Caracter,</hi> holder dem <hi rend="ant">incapabel</hi> til at begaa Svig eller Bedrageri, det er lettere at beviise, at De er bleven <w>be<pb ed="A" n="7" facs="p7"/>dragen</w>, end at De har bedraget andre, det er ydermeere bekiendt, at det ikke er dette Folkes <hi rend="ant">Genie</hi> at bygge <hi rend="ant">Casteller</hi> i Luften, eller at roe sig for dybt ud; thi <pb ed="SS" n="123"/>de Danskes Forsigtighed gaaer ud til <hi rend="ant">Exces,</hi> saa at man snarere kand bebrejde dem alt for stor Betænksomhed end Forvovenhed.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men, eftersom denne Handel er da saa fordeelagtig og sicker, hvi fortsetter I den ikke alleene, hvi vil I giøre fremmede deelagtige i den Baade, som kunde blive imellem Jeres egne <w>Lands-Mænd</w>?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Hvilcken Snak; Ligesom vi vare de eeneste, der indbyder <w>Naboe-Folk</w> at træde i <hi rend="ant">Compagnie</hi> med os; Monne vi ikke ofte tager Part i <hi rend="ant">Etablissements</hi> hos andre <hi rend="ant">Nationer?</hi> og monne vi ikke mangen gang bliver formelig ombedet at træde i deres <hi rend="ant">Societeter?</hi> Der ere visse Stiftelser, som ingen lang Ophold kand lide, hvorudover saadanne <hi rend="ant">Invitationer</hi> ere nødvendige, derfor finder vi at endog de riigeste Folk ofte seer sig om fremmet Undsetning, ikke fordi dem selv fattes de Kræfter, som driver Hiulet paa slige <hi rend="ant">Machiner,</hi> men paa det at Værket skal komme til des hastigere Fuldkommenhed.</p>
+                </sp>
+                <pb ed="A" n="8" facs="p8"/>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men jeg troer nok, at af de Ting, hvorved Hiulene drives, er der ikke mange hiemme i Danmark; og det er heele Uløkken.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Der i tager I feyl, Min Herre; thi dersom kun nogle fleere af vores fornemme Mænd ville ræcke Værcket Haanden, skulle I inden en saare kort Tiid see det i fuldkommen Stand.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men just det, at Jeres store Folk tager saadant i Betænkning, viiser jo tydelig at
+Anslaget udi sig selv er ikke alt for vel overlagt. </p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Nej, holt lidt; Mon’ jeg skal troe, at alle formuende Folk hos Jer ere lutter Kiøbmænd? Bilder I Jer ind, at alle de, som ikke selv driver Handel, <hi rend="ant">disapproberer</hi> derfor Handelen? Der er mange Aarsager, hvorfor endeel vil ikke forsøge deres Løkke ved Kiøbmandskab; Nogle ere <hi rend="ant">occupperede</hi> i Embeder, som ikke tillader dem at tage Kiøbmandskab vare, andre ere fornøyet med <hi rend="ant">simpel</hi> Rente af deres Midler, og skiøtter ikke om at vove dem for at vinde meere; thi lad være Handel og Vandel ofte indbringer <w>sto<pb ed="A" n="9" facs="p9"/>re</w> <hi rend="ant">Profitter,</hi> saa er det dog et <w>Vove-Spil</w>, som giver og tager, hvorfore man siger for et Ordsprog: Vinde og tabe er Kiøbmands Brug; Deraf seer I Selv hvor meget I farer vild, og hvad for svage Piile I skyder med; thi efter Jeres <hi rend="ant"><w>Argu<pb ed="SS" n="124"/>ment</w>,</hi> skulle alle de, som ikke selv ere <w>Land-Mænd</w>, ogsaa fordømme Agerdyrkning, alle de, som ikke <hi rend="ant">applicerer</hi> sig til <hi rend="ant">Theologien</hi> være <hi rend="ant">Atheister,</hi> og alle de, som ikke giver sig i Krig, have <w>Hare-Hierter</w>, hvilket ikke vel kand rinde noget fornuftig Menniske i Sinde; Men at komme til Sagen igien, saa maa I vide, at os fattes ikke saa meget paa Ævne, som paa en god <hi rend="ant">Resolution;</hi> thi det koster langt meere Møye, at faa riige Folk her i Landet til at vove deres Midler over Søen, end udi Engeland og Holland, hvor <app type="tc"><lem><corr resp="ed">Indbyggerne til</corr></lem><rdg wit="A">Indbyggernetil</rdg></app> største deels ere opvante ved Kiøbmandskab, og derfor ligesom af en Naturens Drift kappes om at skyde deres Penge i saadan slags Handel; Men <hi rend="ant">Posito,</hi> at os fattedes Ævne og Vilkor, og at vores <hi rend="ant">Compagnie</hi> ikke kunde komme paa Fode uden ved fremmet Hielp, kand nogen vel kalde os for Daarer, at vi vil <hi rend="ant">associere</hi> os med andre for at fortsette den Handel, som vi med egne Kræfter ikke kunde bestride, eller, kand andre ansees <pb ed="A" n="10" facs="p10"/>for Daarer, fordi de paa de billigste <hi rend="ant">Conditioners</hi> Tilbydelse indlod sig med os, og hialp at <hi rend="ant">contribuere</hi> deres Formue og Bistand til saadan en Handels Haandthævelse?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Nej, Kiære, tie kun stille med de billige <hi rend="ant">Conditioner;</hi> thi hellers blotter I Jer selv alt for meget, i det ringeste ere de ikke grundet paa <hi rend="ant">Aristotelis</hi> gamle Regel, som er denne: „Ere Deelene, som indskydes i et Fællesskab, ulige, da bør Fortienestens Deele ogsaa blive <app type="tc"><lem><corr resp="Boye">ulige.”</corr></lem><rdg wit="A">ulige.</rdg><rdg resp="Boye">ulige.”</rdg><rdg resp="SS">ulige”.<note type="last">(<q>ulige.”</q> i det textkritiske tillæg)</note></rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Saa er det; og jeg veed ikke rettere, end at vi jo gandske nøye har taget samme Regel i Agt.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men, naar den Giæld, som hæfter paa <hi rend="ant">Compagniet,</hi> ikke bliver afsondret, og de ny <w><hi rend="ant">Societets-Interessenter</hi></w> skal først betale all den gamle Skyld, førend de maa komme i <hi rend="ant">Societetet,</hi> hvorleedes bliver da Billigheden og <hi rend="ant">Egaliteten</hi> taget i Agt; Svar mig til <app type="tc"><lem><corr resp="Høyberg">det!</corr></lem><rdg wit="A">det;</rdg><rdg resp="Høyberg">det!</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Det skal jeg og giøre paa staaende Fod; jeg setter for Exempel: I kiøber et stycke øde Jord, derpaa lader I opbygge et Huus, anlegge en Hauge, Jorden, som var øde og <pb ed="A" n="11" facs="p11"/>udyrket, lader I med Bekostning opbryde, giødne og drive, anskaffer Besetning af Qvæg og Bester, Harre og Ploug, og alt hvad der hør til, hvorpaa den største Deel af Jeres Formue forsmæltes; Nu kommer det dertil at Jorden skal besaaes, <w>Høst-Folk</w> skal leyes, Skibe skal hyres, der kand bringe Jordens Afgrøde til andre Lande, hvor den med Fordeel kand afsettes; Med Jeres egne Krafter kand I ikke komme alt dette afsted, I maa til at tage en i <hi rend="ant">Compagnie</hi> med Jer, I slutter da et Forbund med hinanden paa saadanne <hi rend="ant">Conditioner:</hi> De Bekostninger, som I har giort, førend <pb ed="SS" n="125"/><hi rend="ant">Societetet</hi> blev sluttet, og som moxen reent har udtømmet Jeres <hi rend="ant">Cassa,</hi> de skal ikke regnes for noget; Hvad Indkomst derimod Jorden bringer af sig, skal deeles i 2 liige Deele imellem Jer og Jeres <hi rend="ant">Compagnon;</hi> Synes Jer vel at saadant et Societet er indrettet efter <hi rend="ant">Aristotelis</hi> Regler.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Nej, for ingen Deel, nej! det blev et reent forbandet <hi rend="ant">Societet.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Ikke destomindre paastaaer I dog at antages i vores <hi rend="ant">Compagnie,</hi> paa lige samme Vilkor.</p>
+                </sp>
+                <pb ed="A" n="12" facs="p12"/>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Jeg begriber nu Jeres Meening, og jeg vil give Jer Ret i den Post; Men her staaer endnu andre Knuder tilbage, som I maa opløse mig; Vi seer af <app type="tc"><lem><corr resp="Høyberg">Erfarenhed</corr></lem><rdg wit="A">Erfahrened</rdg><rdg resp="Høyberg">Erfarenhed</rdg></app>, at det er en skarp Jord I dørker, og den Sæd I udsaaer, løber snarere op i Straa end i Ax; I har nu beseylet Ostindien over 100de Aar, men hvad I har fortient derved, det seer vi deraf, at I nu for Trangs skyld maa see Jer om fremmed Hielp; Vi veed den Ostindiske Handels Historie alt for vel; Vi har seet Begyndelsen og Fortgangen af Jeres Handel derpaa, og vi faaer snart Slutningen at see; Tael derfor ikke om <w>Guld-Bierge</w>, der er ingen, der troer Jer; Naar man legger inted til inted, bliver der inted.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Dersom I, som I vil foregive, havde seet Begyndelsen og Fortgangen af vor Handel, da talte I ikke saaleedes; Vor <hi rend="ant">Compagnie</hi> kand regnes iblant et med de Ældste, og saasom det har staaet ved Magt i en Tiid af meer end hundrede Aar, nemlig fra <hi rend="ant">Ao.</hi> 1617 indtil denne Dag, saa er det et Kiendetegn paa, at den Jord, vi dørker, er ikke saa skarp og ufrugtbar, at den gandske intet skulle give af sig; Thi, dersom den inted havde <pb ed="A" n="13" facs="p13"/>baaret uden Torn og Tidsel, og, dersom ikke et Aars riige Afgrøde havde bødet paa et andet Aars Misvæxt, da havde den vel for længst ligget øde og udyrket, thi det var jo vel en stor Daarlighed, at ville Aar efter Aar pløye og saae en Jord, som ikke gav andet igien end Torn og Tidsel; Og, om I end kand nævne een eller anden af <hi>Interessenterne,</hi> som er kommet tilbage, og har maat forlade <hi>Compagniet,</hi> da er det alt skeed ved andre uløckelige Hændelser; Den Handel vi driver med <hi rend="ant">Indianerne</hi> har vi ikke tiltaget os med Gevalt, men har erhværvet den i Kraft af formelige Packter og Forbund; De Byer og Fæstninger, som vi har eyet og endnu eyer, ere anlagt ikke med Magt, men med <w>Lands-Herrernes</w> Tilladelse og Samtycke, saa at vi, forsikret om de <hi rend="ant">Persianers</hi> saa vel som <hi rend="ant">Indianers</hi> Venskab og Velvillighed, kand med all Frihed seyle samt handle og vandle paa deres Kuster; Vel tilstaaer jeg, <pb ed="SS" n="126"/>at vores Handel i forrige Tider har stræcket sig videre, at vi har seylet saa vel paa <hi rend="ant">China,</hi> som paa <hi rend="ant">Indien</hi> og <hi rend="ant">Bengalen;</hi> jeg tilstaaer og, at den Handel er nu kommet noget i <hi rend="ant">Decadence,</hi> og endeel af de Oplags Steder, vi har haft paa samme Kuster, formedelst indfaldne Tidernes <w>Besvær<pb ed="A" n="14" facs="p14"/>lighed</w>, <hi rend="ant">negligerede,</hi> men de Vande, som vi saaleedes paa nogen Tiid ikke har beseylet, staaer os endnu aaben, de Havne vi har besøgt før er endnu ikke tilluckt for os, og vi lever i <app type="tc"><lem><corr resp="ed">den samme</corr></lem><rdg wit="A">densamme</rdg></app> gode Forstaaelse med omliggende Kæysere, Konger og <w>Lands-Herrer</w>, som i gamle Dage.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men, eftersom I taler om de forrige Tiders Vanskelighed, kand I ikke vente at den samme vil møde Jer <app type="tc"><lem><corr resp="Høyberg">endnu?</corr></lem><rdg wit="A">endnu.</rdg><rdg resp="Høyberg">endnu?</rdg><rdg resp="SS">endnu.</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Nej, der seer langt anderleedes ud hos os nu omstunder; den besværlige Krig er overstaaen, all Fiendtlighed er nedlagt, Riiget er cronet med en tryg og standhaftig Fred, vi lever derforuden under en Konge, der er stor i Krig, større endnu i Fred, der har saa mange Omsorge, som hand har Undersaatter, saa mange aarvaagne Øyen, som der er <w>Lande-Feyl</w> at bøde paa, der vaager for Landets Velfærd, naar vi andre sover; Hvor omhyggelig samme vores Naadige Konge lader Sig Landets Tarv, og i Særdeeleshed <hi rend="ant">Negotiens</hi> Opkomst gaae til Hierte, det vidner de mange priiselige Forordninger der er udgaaen, de mange hærlige Anstalter, der er føyet til Handelens <w>Befo<pb ed="A" n="15" facs="p15"/>dring</w>, de mange Misbrugs og <w>U-ordeners</w> Afskaffelser der er i <w>Værk-stillet</w>; Nu ere da de gamle Anstøds Steene afvæltet, de gamle Hindringer, som studsede <hi rend="ant">Negotien</hi> i sin Fart, skaffet af Veyen; Vores Mønt er sat paa en bedre Fod, vor <hi rend="ant">Commercie</hi> i bedre Stand, og vor Seylads, som ved Tidernes Besværlighed var hæmmet, er bragt paa ny igien i Fart; Vi beseyler nu med egne Skibe Franckerig og Spanien, vi hænter med egne Skibe fra første Haand alle de Vare vi behøver; Endeel af vore Naboer, som fant deres Regning ved forrige Tilstand, seer vel suurt der til, men den Danske og Norske Mand er munter og veltilfreds; thi den Taage som var i gamle Dage for vores Øyen, er nu bortdreven, vi er kommen af vor gamle Vildfarelse og seer nu nøyere end forhen ind i Sagen, og i alt det som tienner til Handelens Beste; Vi lucker nu Øynene bedre op, vi rydder all Hindring af Veyen, vi fatter Mod og Hierte, opmuntrer hinanden indbyrdes og bruger saa de Kræfter GUd har givet os; I kand derfor ikke undre Jer, om de <hi rend="ant">Indian</hi>ske <hi rend="ant">Compagnier</hi> ikke eene ligger stille i saadan <hi rend="ant">Conjoncturernes</hi> Forandring, at de jo søger ogsaa at reyse sig paa Fode igien og bringe sig i <pb ed="A" n="16" facs="p16"/>Væjret; ikke heller kand I med nogen føje indbilde Jer, at det er enten et svigagtigt eller daarligt Værck vi anfanger; Det er ikke om en ny Verden, eller om ubekiendte Lande ved Syder Polen, vi taler, ikke heller er det <pb ed="SS" n="127"/><w><hi rend="ant">Mississippi</hi>ske</w> Skatter, (som alleene laae skiult i <w><hi rend="ant">Project-</hi>Magernes</w> Hierner) vi praler med; det er til bekiendte Lande, bekiendte Folk, Venner og <w>Bunds-Forvante</w> vi seyler, og den Fordeel vi viiser til, er noget som falder hver Mand i Øynene; I farer derfor meget saare vild, om I vil dømme af det forbigangne om det <app type="tc"><lem><corr resp="ed">tilkommende</corr></lem><rdg wit="A">tilkommmende<note type="last">(<q>tilkommende</q> med geminationsstreg over sidste <q>m</q>)</note></rdg></app>; thi Feylen bestod udi den første Stiftelse deri, at de første <hi rend="ant">Interessenter</hi> skiød alt for liden <hi rend="ant">Capital</hi> sammen, men naar den Feyl nu remederes, og der samles saa stor en <hi rend="ant">Capital</hi> tilsammen, som der kand udfodres til at bestride saa stort et Værk med, da er der ingen Tviil paa, at Værket jo, med GUds Bistand, kand beholde en god og bestandig Varighed.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men meener I vel at visse <hi rend="ant">Nationer,</hi> som fra lang Tiid her spiller Mester i <hi rend="ant">Indien,</hi> vil ansee med Kaaldsindighed eller fordrage saadan Eders <hi rend="ant">Commercies</hi> Forøgelse?</p>
+                </sp>
+<pb ed="A" n="17" facs="p17"/>
+
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Meener I vel, at vore Naboer skulle fordrage, at vi pløyer og saaer vor Jord, at vi spiiser, naar vi ere hungrige og gaar til Sengs, naar Søvnen minder os?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>De faar vel taale det, som de med ingen Skin af ret kand forbyde Jer.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Saa faar de ogsaa taale, at vi søger vor Brød paa alle lovlige Veye, og i sær paa denne, som de lige saa liden ret har til at forhindre os i; Men her forfalder I uden for det vi begyndte vor <hi rend="ant">Discours</hi> om; thi her spørges gandske ikke, om vi har Ret til denne Handel; Alle <hi rend="ant">Nationer</hi> tilstaaer os vor ustridige Rettighed, det er alleene vores Anslag, som endeel finder Behag i at belee, men, imidlertid at de leer, saa gaar vi til Seyls, og vi skal lee en anden gang, naar <hi rend="ant">Touren</hi> kommer til os.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men hvad Tanker har I om den Forordning, der er udgaaen i <hi rend="ant">Hannower,</hi> at ingen maatte indskyde noget i det Kiøbenhavnske <hi rend="ant">Compagnie</hi> under 4re dobbelt <hi rend="ant">Capitals</hi> Forbrydelse?</p>
+                </sp>
+                <pb ed="A" n="18" facs="p18"/>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Jeg har de Tanker, at det staar enhver Herre frit for at udgive Forordninger i sit Land, og at hands Undersaatter bør rette sig derefter, og derfore, om de <hi rend="ant">Lyneborg</hi>ske Kiøbmænd end godvillig anmælte sig at træde i vor <hi rend="ant">Compagnie,</hi> antog vi dem dog ikke; for Resten tviiler jeg meget om, at det forholder sig saaleedes i Sandhed, som der <hi rend="ant">spargeres</hi> om denne Forordning; thi den siges at være saadan, som ikke <pb ed="SS" n="128"/>vel kunde ventes af et os saa nær og ved saa <hi rend="ant">intime</hi> Venskab <hi rend="ant">alliered</hi> Folk; Hvad Hollændernes gamle og nylig igien fornyede Foranstaltninger angaar, da er det ikkun <hi rend="ant">generalia,</hi> som ikke egentlig sigter til vort <hi rend="ant">Compagnie,</hi> og om de end saa giorde, da kand det deraf sees, at voris anfangede Værk er ikke saa aldeeles daarligt og <hi rend="ant">absurd;</hi> thi hvis det saa var, da havde andre jo ikke nødig at rette <hi rend="ant">Machiner</hi> an der imod. </p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Jeg begynder nu at finde <hi rend="ant">Raison</hi> i det I siger, og bliver I saa ved, skulle I snart faae mig selv overtalt, at lade mig tegne for et par <hi rend="ant">Actier</hi> i Jeres <hi rend="ant">Compagnie.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Jeg <hi rend="ant">pretenderer</hi> ikke, at I af mine <w>blot<pb ed="A" n="19" facs="p19"/>te</w> Ord skal lade Jer bevæge til at bifalde vores Anslag; Jeg vil I selv skal bruge Jeres Forstand, legge Jer Hierne selv i blød, tage <hi rend="ant">Conditionerne</hi> for Jer, og nøye gaae dem igiennem, overlegge dem med Jeres Venner, og bruge alle Jeres 5, eller om I maaskee har een meer end andre got Folk, Jeres 6 Sandser; thi naar I alvorlig betragter Værket, og <hi rend="ant">examinerer</hi> alting med Fornuft, da skal I befinde og tilstaae mig, at I har irret i Jeres Meening, og søgt at finde <hi rend="ant">Difficulteter</hi> hvor ingen var, at der ej behøves mange Ord eller stor Veltalenhed til at bringe Jer paa andre Tanker, eller at <hi rend="ant">inspirere</hi> Jer Lyst til at <hi rend="ant">interessere</hi> med os.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Men det er et dybsindigt Spørsmaal, som lenge og ofte er <hi rend="ant">ventileret</hi> imellem fornuftige Kiøbmænd, om den Ostindiske Handel, naar den end gik allerløckeligst, kand regnes for at være gavnlig eller skadelig?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p>Dersom her spørges hvad den er for <hi rend="ant">Europa</hi> i Almindelighed, da er inted vissere, end at den er høyst fordærvelig, efter som der <hi rend="ant">continuerlig</hi> flyder til Indien saasom en stridig Strøm af alt det Guld og Sølv, <pb ed="A" n="20" facs="p20"/>som kand skrabes sammen i <hi rend="ant">Europa,</hi> udgraves af Biergene i <hi rend="ant">America,</hi> og luttres af Sanden i <hi rend="ant">Africa,</hi> hvilket altsammen indsluttes ligesom i et ævigt Fængsel hos <hi rend="ant">Indianerne,</hi> og aldrig faar Lov at <hi rend="ant">circulere</hi> videre, eftersom de ikke trænger til nogen af de Fremmedes Vare; Her til kommer endnu, at den gemeene Mand i <hi rend="ant">Indien,</hi> enten af Frøgt for deres Høvdinger, som fører en stræng og Hovmodig Regiering eller ogsaa af Overtro, skiuler deres Liggendefæe i Jorden, hvor det mangen gang faaer Lov at ligge til Domme Dag; Derfor ligner <hi rend="ant">St. Euremont</hi> i hands <hi rend="ant">Piece,</hi> kaldet <hi rend="ant">Sir Politich,</hi> den store Jordens Klode ved et skræckeligt <hi rend="ant">Monstrum,</hi> som er plaget med <hi rend="ant">Obstruction,</hi> hvilken det ikke kand faae Bod for, uden der maatte <hi rend="ant">appliceres Indien</hi> en <hi rend="ant">Clyster,</hi> hvor ved aabet Liv, <pb ed="SS" n="129"/>eller Pengenes <hi rend="ant">Circulation,</hi> kunde tilveye bringes; Men, naar her tales om et Riige eller Land i Særdeeleshed, da kand mand ikke sige at den Ostindiske Handel er skadelig; thi alt hvad Varene koster os at indkiøbe i <hi rend="ant">Indien,</hi> det faaer vi igien med Rente af andre <hi rend="ant">Nationer,</hi> som vi <hi rend="ant">debiterer</hi> dem til, at jeg ikke skal tale om fleere Fordeele, saasom at der underholdes og <hi rend="ant">dresseres</hi> nogle tusinde <pb ed="A" n="21" facs="p21"/><hi rend="ant">Matroser</hi> ved denne Handel paa andre <hi rend="ant">Nationers</hi> Bekostning, item at mange, der er geraaden i Armod i deres Fæderne Land, og kommen derover i Haanhed og Foragt hos deres <w>Lands-Mænd</w>, begiver sig til <hi rend="ant">Indien</hi> for at flye for Fattigdom og Skiændsel; saa og, at unge Mennisker, der har taget galt afsted hiemme, forsendes didhen af Forældrene, og kommer ofte skikkelig hiem igien; thi Erfarenhed lærer, at den (saa kalded) <hi rend="ant"><w>Æqvinoctial-linie</w>,</hi> ligesom den kand giøre viise Folk galne, saa giør den mangen gang tvertimod galne Folk viise; <seg type="komm" target="p21-13"/>Hvis jeg havde meere Tiid skulle jeg meddeele Jer meer Oplysning, men jeg hør Vognmanden smække med Pidsken; jeg maa videre fort.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">LUCIUS.</hi></speaker>
+                    <p>Jeg haaber da vel, vi faaer hinanden at see, naar I kommer tilbage, <seg type="komm" target="p21-19"/><app type="var"><lem wit="A">men i hvilket <w>Kroe-Huus</w> skal jeg finde Jer?</lem><note>se kommentar</note></app></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">ANTONIUS.</hi></speaker>
+                    <p><seg type="komm" target="p21-22"/><app type="var"><lem wit="A">Jeg søger ikke noget <w>Kroe-Huus</w>,</lem><note>se kommentar</note></app> men <hi rend="ant">logerer</hi> mig gierne ind paa det beste Viinhuus, og om I lyster at snakke meere med mig om denne <hi rend="ant">Materie</hi> paa Hiemreysen, da skal I finde mig i dette Herbærg, hvor jeg altid pleyer at tage ind. <hi rend="ant">Adieu.</hi></p>
+                </sp>
+            </div>
+            <div xml:id="chap2" n="Anden Samtale imellem tvende Kiøbmænd, Sylvester og Montanus">
+                <pb ed="A" n="22" facs="p22"/>
+                <head><app type="var"><lem wit="A">Anden Samtale
+                    <lb/>Imellem Tvende Kiøbmænd,
+                    <lb/><hi rend="ant">SYLVESTER</hi> 
+                    <lb/>og 
+                    <lb/><hi rend="ant">MONTANUS</hi>.</lem><rdg wit="B">Samtale Imellem Tvende Kiøbmænd Montanus og Sylvester, Oplagt igien efter adskillige got Folkes Begiering og formeeret med Nye Spørsmaal. Trykt Aar 1729. <note>(titelblad)</note></rdg></app></head>
+                <lb/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p><w><hi rend="init">H</hi>ans</w> <app type="var"><lem wit="A">Tienere</lem><rdg wit="B">Tiener</rdg></app>, min Herre, det kommer mig for, som jeg har haft den Ære at see ham tilforn; Er hand ikke Een af de 4re <hi rend="ant">Species?</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Jeg veed ikke hvad hand vil sige dermed.</p>
+                </sp>
+                <pb ed="SS" n="130"/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Jeg meener, er hand ikke en <w>Handels-Mand</w> i Kiøbenhavn?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Jo, det er omtrent saa.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Hvordan staar det til nuomstunder i Kiøbenhavn?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Jeg takker skyldigst for Efterspørsel, Ret vel; Men hvordan staar det til her i Landet?</p>
+                </sp>
+                <pb ed="A" n="23" facs="p23"/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Jeg takker skyldigst for Efterspørsel, Ret forbandet ilde; Vore beste <w>Handels-Mænd</w> kommer efter Anseelse til at nære sig med at giøre Svovelsticker.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Hvi saa?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Det er jo let at begribe, naar all Handel skal forflyttes til Kiøbenhavn.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Jeg har ikke hørt tale uden om en vis slags Handel, nemlig Viin, Brændeviin, Salt og Tobak, som til dato af fremmede Skibe har været indbragt udi alle smaa Stæder og <hi rend="ant">Provincer,</hi> hvilken Handel, formedelst <w>høy-vigtige</w> Aarsager, ingen Bestandighed kunde have, saa at inted var meere fornøden end en betimelig <hi rend="ant">Reformation.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Men Landet har jo kundet staa i saa mange 100 Aar, da Handelen var paa den gamle Fod.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Hand har ret, <hi rend="ant">Monsieur,</hi> at Landet har staaet, men det er Spørsmaal, om det i den Post hvad Handelen angaar ikke havde kundet staae bedre; Landet stod ogsaa udi de <pb ed="A" n="24" facs="p24"/>Tider, da her var fast ikke et Kiøbmands Skib, men da de, saa kalte, <w>Hansee-Stæder</w> tilførte os alting indtil <w>Knappe-Naale</w>; Landet stod ogsaa, da Hollænderne og andre drev her en Handel, ligesom Spanierne fordum paa <hi rend="ant">America,</hi> det er: forsynede os med Dukketøy og <w>Nyrenberger-Kram</w>, og toge med sig tilbage Landets <hi rend="ant">Solide</hi> Vahre; Landet stod ogsaa i de Tider, da Hamborgerne <hi rend="ant">exercerede</hi> det, saa kaldte, <hi rend="ant">Jus Restringendi,</hi> hvorved alt det Korn, som kom paa <hi rend="ant">Elven,</hi> maatte først bringes til <hi rend="ant">Hamborg,</hi> hvor det maatte sælges for den Priis <hi rend="ant">Hamborgerne</hi> fandt for got at <pb ed="SS" n="131"/>sette derpaa; og siden af dem blev med Fordeel <hi rend="ant">debiteret</hi> til andre; men, om Landet i samme Tider ikke havde kundet staae bedre, det vil jeg give fornuftige Folk at betæncke.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Alt dette er got nok, men kommer denne Sag ikke ved; her spørges kun, hvorfor Kiøbenhavn alleene skal <hi rend="ant">florere,</hi> her spørges hvorfor nogle skal <hi rend="ant">tracteres</hi> som rette Børn og andre som <w>Stif-børn</w>; her spørges endelig, hvi lige Brødre ikke maa bære lige Kapper?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Dette Spørsmaal, <hi rend="ant">Monsieur,</hi> er Vand paa min Mølle; thi denne <hi rend="ant">Reformation</hi> <w>u<pb ed="A" n="25" facs="p25"/>di</w> <app type="var"><lem wit="A">Handlen</lem><rdg wit="B">Handelen</rdg></app> er just sat i Værk for at indføre Liighed, og at Kiøbenhavns Borgere, ikke skulle <hi rend="ant">tracteres</hi> som <w>Stif-Børn</w>; Uligheden bestod tilforn derudi, at <hi rend="ant">Provincerne</hi> kunde staae ved at sælge de 4re <hi rend="ant">Species</hi> en 3die deel lettere end Kiøbenhavn, hvoraf det kom maa I selv best vide, men vist er det at Kiøbenhavn uden denne høypriiselige <hi rend="ant">Reformation</hi> havde maat lucket Bod og gandske tage Skiltet ind.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Understaar I Jer da at beskylde os for <w>Told-Sviig</w>?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Aldeeles ikke, min Herre; thi det er noget, som jeg maatte beviise; jeg siger kun det, som er bekiendt, og som <hi rend="ant">Provincerne</hi> selv maa tilstaae, at Kiøbenhavn ikke kunde holde Kiøb med nogen anden <app type="var"><lem wit="A">Stad</lem><rdg wit="B">Stæd</rdg></app> i Landet; ja, jeg siger kuns, at hvis de smaa Stæder og <hi rend="ant">Provincer</hi> havde ført Handelen paa samme Maade og med lige Bekostning og Byrde som Kiøbenhavn, da havde de ikke solt saa let ja fast foræret Vahrene bort igien; Men hvad Aarsagen dertil kunde være, det giver jeg ham selv at betænke.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Hvor spisfindige og forblummede hands <pb ed="A" n="26" facs="p26"/>Ord end ere, saa begriber jeg dog ret vel Meeningen, som gaaer ud derpaa, at vi have begaaet <w>Told-Sviig</w>; jeg var tilfreds jeg havde Vidner paa hands Mund.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Lad det for Guds skyld ikke komme til <hi rend="ant">Proces,</hi> min Herre; thi der kunde muelig findes de, der trøstede sig til at kunde legge for Dagen, at der af Viin alleene ikke har været fortoldet saa meget som der udfodres til at forsyne Kirkerne med; men det er ikke mine Ord; jeg gaaer ikke saa vit; jeg siger kuns alleene det som I andre selv tilstaae, nemlig at <app type="tc"><lem><corr resp="ed">Kiøbenhavn</corr></lem><rdg wit="A">Kiøbenbavn</rdg></app> ikke kunde holde Kiøb med <hi rend="ant">Provincerne,</hi> uden de ligesom <pb ed="SS" n="132"/>vilde forære den halve Deel af Vahrene bort; hvilket ikke kunde skee uden med Stadens Undergang.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Hvad Undergang? Hand kand giøre mig gall med saadan Snak, Kiøbenhavn har jo aldrig været nogen <hi rend="ant">general</hi> <w>Stabel-Stad</w> tilforn, og har jo dog staaet.</p>
+                </sp>
+                <sp>
+                    <speaker>MONTANUS.</speaker>
+                    <p>At den har nogenlunde staaet udi Handelen er ikke at tilskrive andet end idelig Krige imellem andre <w>Søe-<hi rend="ant">Potentater</hi></w><hi rend="ant">,</hi> hvoraf dette Land har <hi rend="ant">profiteret;</hi> thi saasom <w>frem<pb ed="A" n="27" facs="p27"/>mede</w> <hi rend="ant">Puissancer</hi> vare <hi rend="ant">implicerede</hi> udi Krig som giorde deres Seylads <w>u-sikker</w>, hæntede <hi rend="ant">Provincerne</hi> frivilligen alle deres Vahre fra Kiøbenhavn, men da Bladet vendede sig, Fred blev slutted mellem ovenmelte <w>Søe-<hi rend="ant">Potentater</hi></w><hi rend="ant">,</hi> og Dannemark <app type="tc_var"><lem wit="B">derimod</lem><rdg wit="A">derover</rdg><rdg resp="SS">derover</rdg></app> var <app type="var"><lem wit="A">geraadet</lem><rdg wit="B">geraaden</rdg></app> udi Krig, da indsneeg sig den Misbrug, at Fremmede tilbragte alle <hi rend="ant">Provincerne</hi> fra anden og tredie Haand med smaa og store <app type="var"><lem wit="A">Fartøyer</lem><rdg wit="B">Fartøye</rdg></app> de Vahrer, som de godvilligen tilforn forsynede sig med i Kiøbenhavn; Denne Misbrug blev til en Vane endogsaa efter Freden, saasom visse Folk i <hi rend="ant">Provincerne</hi> saavelsom fremmede fandt deres Regning derved, men <hi rend="ant">Publicum</hi> og det Gemeene Beste alleene leed derunder; thi vores egen <hi rend="ant">Commercie</hi> gik derover reent forloren, vores reede Penge udaf Landet, vores Seylads forfalt, <hi rend="ant">Egaliteten</hi> udi Handel og Vandel blev <hi rend="ant">ruinered,</hi> og denne ædle Hoved- og <app type="tc"><lem><corr resp="ed">Handelstad blev</corr></lem><rdg wit="A">Handelstadblev</rdg></app> truet med vis Ødeleggelse; hand seer derfore min Herre, hvor fornøden denne <hi rend="ant">Reformation</hi> har været, og hvor meget den er grundet paa Billighed, at Kiøbenhavn, som forskaffer <hi rend="ant">Provincerne</hi> Aftrek og <hi rend="ant">Debit</hi> paa den største Deel af deres Vahre, bør derimod ogsaa, heller end Fremmede, forskaffes af <hi rend="ant">Provincerne</hi> Aftræk og <hi rend="ant">Debit</hi> paa de <pb ed="A" n="28" facs="p28"/>Vahre, som de igien behøver at forsynes med.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Tilforn klagede Kiøbenhavn alleene; men nu klage alle Stæder og <hi rend="ant"><app type="var"><lem wit="A">Provincierne</lem><rdg wit="B">Provincer</rdg></app>.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Det er sandt, <hi rend="ant">Monsieur,</hi> men her maa <hi rend="ant">examineres,</hi> om de sidstes Klagemaal er saa vel grundet som de førstes.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Naar alle eenstæmmig klage, saa maa man jo ufejlbar slutte at Klagemaalet er vel grundet.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Ikke altid, min Herre; thi enhver seer meere paa egen <hi rend="ant">Interesse,</hi> end paa Landets Nøtte; For <hi rend="ant">Exempel,</hi> om Forordning udgik at inted maatte bruges uden hvad som blev <hi rend="ant">fabriquered</hi> i Landet, kunde vel nogen holde saadan Anstalt for <app type="tc"><lem><corr resp="Høyberg">skadelig? Ikke</corr></lem><rdg wit="A B">skadelig, ikke</rdg><rdg resp="Høyberg">skadelig? ikke</rdg><rdg resp="Boye">skadelig? Ikke</rdg><rdg resp="SS">skadelig, ikke</rdg></app> <w>des<pb ed="SS" n="133"/>mindre</w> ville alle Kræmmere eenstæmmig klage derover; om Anstalt blev føyet, at alle <w>Kiøbsted-Folk</w> skulle gaae paa deres Been, ligesom Bønder, ville dog alle <hi rend="ant">delicate</hi> Folk tillige med Leyekudske og <hi rend="ant">Porteurs</hi> eenstemmig dadle saadan Anstalt, skiøndt den var nøttig baade for Sundhed og Pungen.</p>
+                </sp>
+                <pb ed="A" n="29" facs="p29"/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Stæderne og <hi rend="ant">Provincerne</hi> klage ikke alleene, men viise udtryckelig at de lide herved.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>En Kræmmer <app type="var"><lem wit="A">ville</lem><rdg wit="B">vil</rdg></app> ikke alleene klage, men endogsaa virkelig lide ved <hi rend="ant">Fabriquers</hi> Indførsel, og dog kand ingen nægte at jo intet meere <hi rend="ant">contribuerer</hi> til et Lands Velfært, end <hi rend="ant"><app type="var"><lem wit="A">Manufacturers</lem><rdg wit="B">Manufactures</rdg></app></hi> Stiftelse; ingen <hi rend="ant">Reformation,</hi> ingen Anstalt er saa nøttig at jo nogle maa lide derved.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Disse Exempler som <hi rend="ant">Monsieur</hi> <app type="tc"><lem wit="A B">herfrem fører</lem><rdg resp="Høyberg SS">her fremfører</rdg></app>, passer sig ikke: thi hand taler alleene om nogle faae Personer, som bør at lide for det Gemeene Beste, naar anderleedes ikke skee kand; Men her handles om alle Stæder og <hi rend="ant">Provincer;</hi> Kand hand vel nægte at jo alle baade klage og <app type="tc"><lem><corr resp="Høyberg">lide?</corr></lem><rdg wit="A B">lide.</rdg><rdg resp="Høyberg">lide?</rdg><rdg resp="SS">lide.</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Kand hand vel nægte, at Klagen og Lidelsen jo bestaar puur og alleene derudi; at de ved denne Forandring har tabt den Hærlighed at faae fremmede Vahre <w>ind-<hi rend="ant">practicered</hi></w> paa en sær fordeelagtig Maade? Hand maa vende Tingen paa hvad Kandt hand vil, saa finder hand dog aldrig nogen anden Kilde til saadan Lidelse og <w>formeent<pb ed="A" n="30" facs="p30"/>lig</w> Skade; De faa <hi rend="ant"><app type="var"><lem wit="A">privat</lem><rdg wit="B">private</rdg></app></hi> Personer, som fandt deres Regning ved forrige <w>U-Orden</w>, <app type="var"><lem wit="A">søger</lem><rdg wit="B">søge</rdg></app> nu at indbilde alle andre Stænder udi <hi rend="ant"><app type="tc"><lem wit="B">Provincerne</lem><rdg wit="A">Prcovineerne</rdg></app>,</hi> at de ogsaa faae en Ræm af Huden, saa at de første <app type="var"><lem wit="A">klager</lem><rdg wit="B">klage</rdg></app> af puur <hi rend="ant">Interesse,</hi> og de sidste af Vildfarelse, de første fordi de ikke meere maa fremture at berige sig paa det gemeene Bestes Bekostning, og de sidste eftersom man har bildet dem ind, at de ligesaa lit kunde finde deres Regning derved; Ja samme falske <hi rend="ant">Persuasioner</hi> gaae saa vit, at mange ere komne i Indbilding, at all Vanhæld som kand paakomme, flyder af denne <hi rend="ant">Reformation,</hi> saa at <w>Land-Manden</w> troer, at hand fik meere for sit Korn, Ejermanden meere for sit Huus og Gaard, hvis Handelen havde <app type="var"><lem wit="A">blevet</lem><rdg wit="B">bleven</rdg></app> paa forrige Fod; ja, det er venteligt, at mange Got Folk, hvis de i Tide ikke bliver bedre underrettet, vil ogsaa omsider lade sig binde paa Ermet, at den udi disse Lande <w>u-sædvanlige</w> <w><hi rend="ant">Tertian-</hi>Feber</w>, som paa et par Aar saa stærk har <hi rend="ant">grasseret,</hi> er ogsaa en <hi rend="ant">Suite</hi> af de 4re <hi rend="ant">Species</hi> ligesom den, der først har faaet i Hovedet, <app type="tc"><lem wit="B">at</lem><rdg wit="A">at, at</rdg></app> det spøger i Huuset, tager udi Tusmørke hver Stoel og Bænck for et Gespænst.</p>
+                </sp>
+                <pb ed="A" n="31" facs="p31"/>
+                <pb ed="SS" n="134"/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Men, naar <w>Land-Manden</w> seer for Øyne, at Vahrene stiger, er det da Vildfarelse eller Indbilding?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Det er ikke Vahrene, der stiger, men det er Told og <hi rend="ant">Consumtion</hi> der betales rigtigere af Varene nu end tilforn, i Følge af <app type="tc"><lem wit="B">de</lem><rdg wit="A">den</rdg><rdg resp="SS">den</rdg></app> Kongl. <w>Told-<hi rend="ant">Ordonancer</hi></w><hi rend="ant">,</hi> som for rum Tid siden ere udgivne og hvilke det eene Stæd og Land saa vel bør holde sig efterretlig som det andet, for Resten leverer Kiøbenhavn Varene ligesaa gode og for ligesaa god Priis som de Fremmede kand levere dem, alleene det Spanske Salt er den eeneste <hi rend="ant">Sortement</hi> som <app type="tc_var"><lem wit="B">kommer</lem><rdg wit="A">komme</rdg><rdg resp="SS">komme</rdg></app> lidet dyrere end tilforn, men den Skilling som her efter vil gives paa Skiæppen, er ikke af den Vigtighed, at Skaden kand <hi rend="ant">ballancere</hi> mod den Fordeel at Pengene bliver i Landet; Om man for Exempel gav lit meer for det Salt som <hi rend="ant">raffineres</hi> i Kiøbenhavn, end for Lyneborger Salt, da synes vel den Kiøbende at lide derved, men det er umodsigeligt at Landet jo vinder i Almindelighed; brug derfor Jer Fornuft, Min Herre, og legg udi en <w>Veye-Skaal</w> den ringe Ting, som maa gives meere for Tønden af det Spanske Salt, hvoraf <hi rend="ant">Consumtionen</hi> <pb ed="A" n="32" facs="p32"/>udi et hvert Huus dog er kuns maadelig, og legg i den anden <w>Veye-Skaal</w> de Kongelige Indkomsters rigtige Erleggelse, som tilveyebringes paa saadan billig Maade, Liighed og Orden udi Handelen, som er indført, <hi rend="ant">Commerciens</hi> Opkomst og Forøgelse, en utrolig <hi rend="ant">Sum</hi> Penge som aarlig gik af Landet, men nu forbliver hos os, og endelig den Fordeel det er, at saamange af Landets egne Børn underholdes og øves i Seyladsen; og see saa til hvilken Skaal vil meest veye; Sandelig, de som vil krympe sig ved at give nogle Skilling meere for en Skieppe Salt imod saa mange hærlige Fordeele, kand lignes med dem, der vægre sig for at anvænde en liden aarlig <hi rend="ant">Reparation</hi> paa deres Huuse, men <app type="var"><lem wit="A">bier</lem><rdg wit="B">bie</rdg></app> til den heele Bygning falder dem over Hovedet.</p>
+                </sp>
+                <sp>
+                    <speaker>SYLVESTER</speaker>
+                    <p>I taler, <hi rend="ant">Monsieur,</hi> om nogle <app type="tc"><lem wit="B">Skillinger</lem><rdg wit="A">Skilliger</rdg></app>, da dog Erfarenhed viiser os, at Saltet allereede er stegen til en <hi rend="ant">excessive</hi> Priis; saa at man seer alt hvor hen de Kiøbenhavnske Kiøbmænd <app type="var"><lem wit="A">sigter</lem><rdg wit="B">sigte</rdg></app>.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Dertil kand jeg svare tvende Ting, (1) at Saltet har været udi langt større Priis for nogle Aar siden, da Kiøbenhavn endnu ikke <pb ed="A" n="33" facs="p33"/>havde faaet disse <hi rend="ant">Privilegier,</hi> (2) at det er udregnet og kand beviises, at det med sidste Skibe hiembragte Salt er solt med Forliis; Aarsagen dertil er, at vi nuomstunder hænter det fra Spanien med egne Skibe.</p>
+                </sp>
+                <pb ed="SS" n="135"/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Det gaar over all Fornuft; Burde vi ikke da have det for bedre Kiøb?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Det kand maaskee gaae over <hi rend="ant">Monsieurs</hi> Fornuft, men ikke over deres som har giort sig <hi rend="ant">Ideé</hi> over Handel og Vandel.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Jeg maatte vel gierne spørge, om de fremmede Skibe, som tilforn bragte os Saltet, vare bygde af <w><hi rend="ant">Carduus-</hi>Papiir</w>, om Folkene, som derpaa underholtes kunde leve af Væjr og Vind, og om de altid havde Vinden i deres Lomme?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Deres Skibe vare bygde og underholtes med samme Bekostning som vore.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Og dog kunde en Engellænder og Hollænder sælge os Vahrene for langt bedre Kiøb; lad os ikke tale <app type="var"><lem wit="A">meer</lem><rdg wit="B">meere</rdg></app> herom, det er noget forbandet Tøy.</p>
+                </sp>
+                <pb ed="A" n="34" facs="p34"/>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Hør, min Herre, en <w><hi rend="ant">Retour-</hi>Vogn</w> er den giort af en Bog <w><hi rend="ant">Carduus-</hi>Papiir</w> eller af Træ, gaaer Hiulene derpaa af sig selv eller trækkes de af Heste?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Hvilket Spørsmaal! En <w><hi rend="ant">Retour-</hi>Vogn</w> er jo ikke anderleedes dannet end en anden <app type="tc"><lem><corr resp="Boye">Vogn.</corr></lem><rdg wit="A B">Vogn;</rdg><rdg resp="Boye">Vogn.</rdg><rdg resp="SS">Vogn;</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Og dog er Fragten med en <w><hi rend="ant">Retour-</hi>Vogn</w> en 3die deel lettere end med en anden Vogn?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Det er jo let at begribe; thi en <w><hi rend="ant">Retour-</hi>Vogn</w> maatte hellers gaae tom tilbage.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Lige saadan Beskaffenhed har det med de fremmede <hi rend="ant">Nationers</hi> Skibe, som bragte os Salt fra <hi rend="ant">Portugal;</hi> De samme gik først med Ladning til den <w>Middel-Landske</w> Søe, hvor de atter tog anden Ladning ind, som de <hi rend="ant">debiterede</hi> til <hi rend="ant">Portugal,</hi> derfra tog de Saltet ind i stæden for Baglast, som de solte til disse Nordiske Folk, og siden fore videre paa <w>Øster-Søen</w>; derforuden have de Fred med de Tyrkiske <w>Søe-Røvere</w>, saa <pb ed="SS" n="136"/>at de kand sejle med <w>u-<hi rend="ant">armerede</hi></w> Skibe, og følgelig giøre Reysen paa <app type="var"><lem wit="A">kortere</lem><rdg wit="B">kort</rdg></app> Tiid; Vi derimod <pb ed="A" n="35" facs="p35"/>giøre Spanske Reyser alleene for at hænte Salt, og maa bruge <hi rend="ant">armerede</hi> Skibe, eftersom vi ingen Fred have med Tyrken; Kand nu <hi rend="ant">Monsieur</hi> heraf begribe Aarsagen hvorfor vi ikke kand sælge Vahrene for den Priis som Engellænder og Hollænder?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Det begriber jeg nok; men var det da ikke bedre og mageligere at samme fremmede <hi rend="ant">Nationer</hi> bleve ved at tilbringe os slige Vare, hvorved vi sparte Omkostning og ikke <hi rend="ant">hazarderede</hi> <app type="var"><lem wit="A">vores</lem><rdg wit="B">vore</rdg></app> Skibe?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>At det var mageligere tilstaar jeg gierne; men hvorleedes denne Magelighed bekommer Landet og det Gemeene Beste, det har Erfarenhed lært os, og det har jeg nylig forhen klarlig nok <hi rend="ant">demonstreret</hi> for <hi rend="ant">Monsieur;</hi> <app type="var"><lem wit="A">Vores</lem><rdg wit="B">Vore</rdg></app> Naboer og de andre fremmede <hi rend="ant">Nationer</hi> som tilforn forsynede os med Vahre ere ikke Liebhabere af saadan Magelighed, og vi <app type="var"><lem wit="A">seer</lem><rdg wit="B">see</rdg></app> for <app type="var"><lem wit="A">vores</lem><rdg wit="B">vore</rdg></app> Øyen hvad deres Vindskibelighed og Umage har gavnet <app type="tc"><lem wit="B">dem.</lem><rdg wit="A">dem</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Men gaar Pengene ikke udaf Landet nu omstunder ligesom tilforn; thi jeg maatte gierne spørge for Exempel hvad Vahre man fører fra Kiøbenhavn til Spanien og <hi rend="ant">Portugal?</hi></p>
+                </sp>
+                <pb ed="A" n="36" facs="p36"/>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Jeg tilstaar at der gaar Penge udaf Landet, men langt fra ikke saa mange som tilforn; for Exempel: En Hollænder tager ind for 1000 Rixdlr. udi Salt i <hi rend="ant">St. Hubes</hi> eller <hi rend="ant">Lissabon,</hi> meener min Herre at hand sælger os det for samme Priis? <hi rend="ant">Monsr.</hi> Hollænder forstaar bedre at giøre sin Regning, hand vil i det ringeste have først saa meget som Udredningen og <w>Skibs-Folkets</w> Hyre og Underholdning beløber sig til; det var og synd at begiære at hands Umage skulle blive ubelønnet, Belønningen maa <hi rend="ant">proportioneres</hi> efter Reysens Længde og Besværlighed, og maa være stor, om den skal være tilstrækkelig; den Erstatning da som hand forlanger for alt dette, er egentlig de Penge, som gik ud af Landet tilforn meer end nu; at handle derfor med fremmede Skibe, er ikke andet, end erstatte fremmede den Omkostning, som giøres paa deres Skibe, og anvendes paa deres Folkes Underholdning, og deres egen Umages Betaling, hvilket altsammen kand beløbe sig til en utroelig <hi rend="ant">Summa,</hi> ja meer end toe gange saa meget som Vahrenes første Indkiøb er; Naar vi derimod handler med egne Skibe, bliver disse 2 tredie Deele af <hi rend="ant"><app type="var"><lem wit="A">Capitaler</lem><rdg wit="B">Capitalen</rdg></app> conserveret</hi> i <pb ed="A" n="37" facs="p37"/>Landet, og, skiønt Udgifterne ere store, <hi rend="ant">roullere</hi> de dog blant Undersaatterne selv, saa at Vahrenes første Indkiøb, <pb ed="SS" n="137"/>som er den mindste Deel, er det som gaar i fremmede Hænder; Med et Ord, Min Herre, er det et falsk <hi rend="ant">Principium</hi> at handle med egne Skibe, da maa man sige at hverken Engelland, Holland, Frankerig, vores Naboe Sverrig, som fast i alle Ting ere udi lige Vilkor med os, eller noget Land har forstaaet Handelens <hi rend="ant">Interesse</hi> saa vel som <hi rend="ant">Monsieur;</hi> thi man seer, at alle <hi rend="ant">Nationer</hi> der have lagt Vind paa <hi rend="ant">Commerciens</hi> Opkomst, have sat dette til Grundvold.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Hvad disse <hi rend="ant">Raisonnements</hi> angaar, da synes de at være grundige nok, og jeg fatter det, at enhver ærlig <hi rend="ant">Patriot</hi> bør sette <hi rend="ant">privat Interesse</hi> tilside for det Algemeene Beste, men jeg fatter ingenlunde, at man kand kalde det <hi rend="ant">privat Interesse,</hi> som angaar alle <w>Handels-Mænd</w> udi enhver Sted og <hi rend="ant">Province</hi> i det heele Riige; Naar alle finde sig besværget med en Ting, kand den ikke føre Navn af andet end en almindelig <w>Lande-Byrde</w>, uden at <hi rend="ant">Monsieur</hi> vil sige at ved det Ord <hi rend="ant">Publicum</hi> forstaaes nogle faa Borgere i Kiøbenhavn, hvilken <hi rend="ant">Definition</hi> ingen fornuftig <pb ed="A" n="38" facs="p38"/>Siæl kand <hi rend="ant">approbere,</hi> uden at man ogsaa vil <hi rend="ant">approbere</hi> den Beskrivelse en vis Mand fordum giorde over Jordens Klode, nemlig at den bestod fornemlig af 3 store Byer, <hi rend="ant">Hierusalem, Constantinopel</hi> og <hi rend="ant">Mariager.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p><hi rend="ant">Monsieur,</hi> jeg har tilforn tydelig forklaret ham, hvad her forstaaes ved det algemeene Beste, neml. at de Kongl. Indkomster settes paa en bedre Fod med Landets Fordeel, i det at tilligemed en Orden og Liighed indføres udi Handelen, <w>u-trolige</w> <w>Penge-<hi rend="ant">Summer</hi></w> som før gik ud, nu bliver i Landet, og en stor mængde Folk øves udi Seyladsen; men eftersom <hi rend="ant">Monsieur</hi> ikke vil lade sig nøye med min forhen giorde Forklaring, da vil jeg spørge ham, om hand da forstaar ved <hi rend="ant">Publicum</hi> Kiøbmændene udi de smaa Stæder og <hi rend="ant">Provincer?</hi> </p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>I det ringeste er det rimeligere at forstaa ved <hi rend="ant">Publicum</hi> Kiøbmænd udi alle <hi rend="ant">Provincer</hi> og Stæder end nogle faa Borgere udi een Stad.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Saa bliver da <hi rend="ant">Monsieurs Definition</hi> over <hi>Publicum</hi> denne: Ved <hi rend="ant">Publicum</hi> forstaaes <pb ed="A" n="39" facs="p39"/><hi rend="big">Peder Nielsen udi Aalborg, Jens Hansen udi Aarhuus, Peder Pedersen udi Ringkiøbing, Hans Michelsen udi Callundborg og nogle andre faa, som have al Handelen i Hænderne;</hi> Jeg veed ikke om Min Herre er Een af ovenmelte Personer.</p>
+                </sp>
+                <pb ed="SS" n="138"/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Nej, Min Herre, jeg er ikke een af de store Kiøbmænd udi <hi rend="ant">Provincerne,</hi> jeg har kuns en liden Handel, dog takker jeg GUd for daglig Brød.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Hvis <hi rend="ant">Monsieur</hi> er ikke en af de store Kiøbmænd i <hi rend="ant">Provincerne,</hi> da kand man sige, at hand har talet ikke alleene mod det almindelige Beste, men endog mod sin <hi rend="ant">privat Interesse;</hi> thi Erfarenhed viiser os, at een eller to Kiøbmænd udi hver Stad, have bemægtiget sig den heele Handel, saa at de andre har levet ligesom under deres Vinger; Saadan <w>u-orden</w> reyser sig gierne paa de Stæder, hvor der er <hi rend="ant">Confusion</hi> udi Handelen, og at een sælger Vahrene for bedre Kiøb end hans Naboe, men <w>U-lejligheden</w> ophæves ved denne nye Forordning, saa at den eene Kiøbmands Vilkor bliver ikke bedre end den <w>an<pb ed="A" n="40" facs="p40"/>dens</w>, og ingen faar meere Lejlighed at tvinge Handelen alleene; Hvis min Herre var en <hi rend="ant">Visiterer</hi> eller <w>Strand-Riider</w>, ville jeg ikke sige ham et Ord imod i den <hi rend="ant">Punct</hi> hvad <hi rend="ant">privat Interesse</hi> angaar, men, efterdi hand er en Kiøbmand og en af de smaa Kiøbmænd, da holder jeg for, at hand bør glæde sig ved denne Forandring lige saa høyt som Kiøbenhavns Borgere selv, som ikke forlanger andet end Ævne at <hi rend="ant">debitere</hi> deres Vahre; hvilken Ævne gives Jer ikke mindre end dem ved denne ny <hi rend="ant">Etablissement.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Jeg begynder saamænd at smage paa dette sidste; thi jeg kand ikke nægte at i alle de smaa Stæder, som mig er bekiendt her i Landet, en eller toe Kiøbmænd jo have været Mestere over den gandske Handel; Men de store Kiøbmænd vil da vist nok faae en Ufærd, dog det vil inted sige, thi vi andre ere jo ligesaa vel Borgere og gode Undersaatter som de.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p><seg type="komm" target="p40-24"/>Men, om jeg drister mig til at beviise at de store Kiøbmænd selv ikke alleene ey lide, men endog kand finde deres Regning ved denne <app type="tc"><lem><corr resp="ed">Forandring?</corr></lem><rdg wit="A B">Forandring.</rdg><rdg resp="SS">Forandring.</rdg></app></p>
+                </sp>
+                <pb ed="A" n="41" facs="p41"/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Nej, holt kuns inde dermed; thi det er at gaae alt for vidt.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>For at beviise dette af Anseelse store <hi rend="ant">Paradox,</hi> maa jeg forestille hvordan <hi rend="ant">Conjuncturerne</hi> vare efter den almindelige Fred udi <hi rend="ant">Europa,</hi> <app type="tc"><lem><corr resp="ed">Fremmede Skibe, da</corr></lem><rdg wit="A">FremmedeSkibe,da</rdg></app> Søen over alt var fredelig, løbe i utroelig Mængde icke alleene ind udi alle smaa Stæder og Havne, men endog <hi rend="ant">debiterede</hi> deres Vahre langs ved <w>Strand-Breddene</w> til <w>Land-<pb ed="SS" n="139"/>Manden</w>, og saasom ingen af Parterne fandt sig ilde ved saadan Handel, er det troligt, hvis det havde varet længere, da denne sidste Misbrug havde end voxet meere til; Men, hvad var <hi rend="ant">Suiten</hi> deraf? Proprietarier, Forpagtere, Præster og Bønder ville ikke meere trænge hverken til de store eller smaa Kiøbmænd i Kiøbstæderne, saa at de samme havde blevne ligesaa forlegne med deres Vare som <app type="tc"><lem><corr resp="ed">Kiøbenh. Borgere</corr></lem><rdg wit="A">Kiøbenh.Borgere</rdg></app>; Landmanden <app type="tc"><lem><corr resp="ed">maa icke</corr></lem><rdg wit="A">maaicke</rdg></app> befatte sig uden med sin Handtering, som er <app type="tc"><lem><corr resp="ed">at leve</corr></lem><rdg wit="A">atleve</rdg></app> af Avling og af Jordens Grøde, Kiøbmanden derimod ved at bringe fornødne <app type="tc"><lem wit="B">fremmede</lem><rdg wit="A">freemmde <note>(<q>freemde</q> med geminationsstreg over <q>m</q>)</note></rdg></app> Vahre til Landmanden igien; Men dette var tilforn <hi rend="ant">confunderet,</hi> og <hi rend="ant">Confusionen</hi> var endda bleven større, hvis denne <app type="tc"><lem><corr resp="ed">ypperlige <hi rend="ant">Reformation</hi></corr></lem><rdg wit="A">ypperligeReformation</rdg></app> ikke var skeed; thi hvad ville der blive af Kiøbmænd, naar Forpagtere <app type="tc"><lem><corr resp="ed">og Bønder</corr></lem><rdg wit="A">ogBønder</rdg></app> skulle komme i den Stand, at de kunde sætte Skilte ud, og male over Dørene i <w>Lands-Byerne</w>: <hi rend="big">Her sælges foruden Korn, Smør, Ost, Høe og <w>Lang-Halm</w>, endogsaa super fine Drapper med Silke og uldne Stoffer, item skiønne Spanske og Franske Viine og Brændeviine, Salt, <app type="tc"><lem><corr resp="ed"><w>To<pb ed="A" n="42" facs="p42"/>bak</w> &amp;c.</corr></lem><rdg wit="A">Tobak&amp;c.</rdg></app> Og det for bedre Kiøb end udi nogen <hi rend="ant">privilegeret</hi> Kiøbstæd;</hi> <hi rend="ant">Monsieur</hi> kand da her af let slutte, at, hvis Handelen havde <hi rend="ant">continuered</hi> paa forrige Fod, da baade Jere store og smaa Kiøbmænd selv havde maat sukke efter den <hi rend="ant">Reformation,</hi> som de nu meene at lide ved? Maa hand ikke selv tilstaae mig det?</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p><seg type="komm" target="p42-9"/><app type="var"><lem wit="A">Jeg har ikke et Ord at sige derimod;</lem><rdg wit="B"><note type="last">har et længere indskud i stedet for denne sætning, se kommentar</note></rdg></app> men man giæmmer gierne det Beste til sidst, jeg har endnu een <w>Hoved-<hi rend="ant">Instance</hi></w> at giøre, som maaskee vil komme ham til at sveede.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Siig kun frit frem, har jeg løset de andre Knuder, saa haaber jeg ogsaa at løse denne.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Det maa blive til en anden Tiid, jeg vil ikke besværge <hi rend="ant">Monsieur</hi> med saa meget paa eengang.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Det skulle giøre mig ont, om hand forlod mig uden at have faaet Fornøyelse udi alting; Siig kun frem, jeg har ret Lyst til at sveede.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Hør Monsieur, jeg tilstaar gierne, at det er nødvændigt at handle med egne Skibe, at der bør være store <w>Stapel-Stæder</w>, og at en stor Stapelstad bør have et stort Opland for Vahrenes <hi rend="ant">Debit;</hi> jeg tilstaar ogsaa at ingen Stad udi Riiget er beqvæmmere dertil end Kiøbenhavn; Men siig mig, hvorfor skal Kiøbnhavn være <pb ed="SS" n="140"/>den eeneste <w>Stapel-Stad</w> for det heele Riige, hvorfor skal det heele Riiges Handel <hi rend="ant">concentrere</hi> udi een eeneste Stad; thi <pb ed="A" n="43" facs="p43"/>hvor stor og anseelig Kiøbenhavn end er, saa kand den dog neppe <hi rend="ant">ballancere</hi> mod 4re eller 6 af de andre beste Stæder.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>For at besvare dette sidste Spørsmaal, maa jeg forestille ham Kiøbenhavns Vigtighed, hvorover hand maaskee ikke har giort sig nogen ret <hi rend="ant">Ideè;</hi> Vilde jeg alleene tale om Stadens <hi rend="ant">Circumference</hi> og Begreb, og i den Post alleene ligne den ved 4re eller 6 af de beste Stæder udi Riget, da tilstaar jeg gierne, at jeg kom til at sveede over Spørsmaalet efter min Herres Spaadom; thi naar man støbte 4re af de største Danske Steder sammen, vilde deraf blive en Stad, ikke alleene saa stor, men fast større end Kiøbenhavn; Men, naar jeg betragter Kiøbenhavn med rette Øyne, og seer, at derudi er en stor Kongl. <w>Hoff-Stat</w>, et <hi rend="ant">Academie</hi> for tvende Riiger, en anseelig <w>Krigs-Flode</w>, en talrig <hi rend="ant">Gvarnison,</hi> som fast kand passeere for en <w>Krigs-Hær</w>, nogle 1000de Matroser, som der have stedse varende <w>Boe-Pæl</w>, Riigets allmindelige Tøyhuus, <hi rend="ant">Magaziner,</hi> alle høje <hi rend="ant">Collegier</hi> &amp;c. Da begynder de andre foromtalte Stæder, hvor gode og vigtige de end kand være, at synes ligesom <hi rend="ant">Atomi</hi> eller <w>Sole-Gran</w> for mine Øyne; thi jeg vil give <hi rend="ant">Monsieur</hi> forlov at betragte endog de største fremmede Stæder udi <hi rend="ant">Europa,</hi> for at eftersee om hand kand finde een eeneste Stad, hvorudi det heele Riiges Hærlighed og Styrke saaleedes er <hi rend="ant">concentrered,</hi> som udi Kiøbenhavn; Betragter jeg Stadens <hi rend="ant">Situation</hi> og Beqvæmhed for Handelen, da er den saadan, at den bekiendte Engelske Skribent, der tog sig for at <pb ed="A" n="44" facs="p44"/>igiennemhegle og dadle alt hvad som fandtes udi Landet indtil smaa Griise og Giæslinge, dog understod sig ikke at ligne nogen Stad i <hi rend="ant">Europa</hi> mod Kiøbenhavn i den Henseende uden <hi rend="ant">Constantinopel;</hi>  Naar nu denne eene Stad er <hi rend="ant">suffisant</hi> nok til at forsørge det gandske Riige, til hvad ende skulle der beskikkes fleere dertil? der kand bedre haves Øye over et Sted end over fleere, at <hi rend="ant">Ordonancen</hi> rigtig efterleves og Tolden rigtig erlegges, hvoraf den saa høyfornødne <hi rend="ant">Egalitet</hi> i Handelen skal flyde, og uden hvilken det gandske Værk var til ingen Nøtte; Nu har Kiøbenhavn frem for andre Stæder den Beqvæmmelighed af <w>om-<hi rend="ant">circlede</hi></w> Volde, mange <w>Tilsyns-Mænd</w>, og Kongens Nerværelse, Beqvæmmelighed af <hi rend="ant">Situation</hi> for Øster og <w>Vester-Søen</w>, saa <app type="tc"><lem><corr resp="ed">vel som</corr></lem><rdg wit="A">velsom</rdg></app> for alle <hi rend="ant">Provincerne</hi>, en hærlig <app type="var"><lem wit="A"><w>Skibs-Reed</w></lem><rdg wit="B">Skibs-Reede</rdg></app> og Havn, som fattes moxen paa alle de andre Stæder, og Mængde af Kiøbmænd; Er og den eeneste Stad i Dannemark, hvor alle <hi rend="ant">Provincernes</hi> Skibe strømmer til for at afsette deres <w>Lands-<hi rend="ant">Producter</hi></w><hi rend="ant">,</hi> saa at de med langt større Beqvæmlighed og Fordeel kand paa <hi rend="ant">Retouren</hi> tage de 4re <hi rend="ant">Species</hi> ind, heller end Baglast af Steen og Sand, som de tilforn indtog med Bekostning, for at kaste den ud igien ved deres Hiemkomst, derimod om der var fleere <w><hi rend="ant">Stapel-</hi>Stæder</w>, <pb ed="SS" n="141"/>da, saasom Skibene ikke havde andet Erinde derhen end at hænte disse 4re <hi rend="ant">Species,</hi> efterdi den eene Kiøbsted haver Landets Vahre <app type="tc"><lem><corr resp="ed">for</corr></lem><rdg wit="A">sor</rdg></app> lige det samme Kiøb, som den anden, saa at det var uriimelig, at den eene Kiøbsted ville føre sit Korn og feede Vahre til den anden, gik de dem <hi rend="ant">necessariò</hi> forbi, fordi Reysen vilde falde dem langt kostbarere, naar <pb ed="A" n="45" facs="p45"/>de skulle gaa med baglastede Skibe, og søgte heller Kiøbenhavn, hvor de kunde bringe Ladning hen og tage Ladning tilbage, saasom Kiøbenhavn <w>u-omgiængelig</w> maa have <hi rend="ant">Provincernes</hi> Afgrøde, eftersom der i <hi rend="ant">Faveur</hi> af <hi rend="ant">Provincerne</hi> er sat saa høy Told paa uden Rigs <hi rend="ant">Victualier,</hi> at Kiøbenhavn derimod ikke andensteds fra kand vorde forsynet; hvorudover disse andre gode <w>Stapel-Stæder</w> ville snart geraade i <hi rend="ant">Decadence,</hi> med mindre de kunde finde <hi rend="ant">Moyen</hi> at giøre sig noget <hi rend="ant">à parte</hi> Snit ved Told og <hi rend="ant">Consumption,</hi> hvilket igien fordærvede Kiøbenhavn, <hi rend="ant">ruinerede Egaliteten,</hi> svæckede de Kongl. <hi rend="ant">Intrader,</hi> og indførte den gamle <hi rend="ant">Confusion;</hi> Vil man herimod sige, at saadant kommer an paa gode <hi rend="ant">Inspecteurer</hi> og <hi rend="ant">Visiterere</hi>, hvilke kand findes ligesaa vel udi <hi rend="ant">Provincerne</hi> som udi Kiøbenhavn, da lærer forrige Tiders Erfarenhed os, at naar fremmet Handel er tillat andre Stæder, da kand Kiøbenhavn ey alleene ikke holde Kiøb med dem, men maa reent undergaae, endskiønt der er gode <hi rend="ant">Inspecteurer</hi> saavel der som her, saa at, at nægte dette er at nægte forrige Tiders Historie, og at tale mod Erfarenhed, som udi alle Ting er den beste Lærer; Alt dette viiser da ikke alleene at det er fornøden at Kiøbenhavn er den eeneste <w><hi rend="ant">Stapel-</hi>Stad</w> for det heele Riige, men endog at <hi rend="ant">Provincernes</hi> Velfært beroer derpaa, at Kiøbenhavn heller kand tiltage, blive Folkeriig og stor, end at den skulle aftage, svækkes og <hi rend="ant">ruineres.</hi></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p><seg type="komm" target="p45-30"/><app type="var"><lem wit="A">Jeg har min Troe, ikke et eeneste Ord at sige mod alt dette, men tvert imod</lem><rdg wit="B"><note type="last">har et indskud, der bl.a. erstatter denne sætning, se kommentar</note></rdg></app> takker <hi rend="ant">Monsieur,</hi> at hand har ført mig af Vildfarelse, og jeg skal udstrøe hands Lærdom allevegne, hvor jeg kommer i Landet.</p>
+                </sp>
+                <pb ed="A" n="46" facs="p46"/>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Hand giør vel der udi min Herre; thi mange <w>Got-Folk</w> ere virkelig i Vildfarelse og behøver Oplysning, og ingen meere end de som meest krympte sig, nemlig Kiøbmænd udi Stæderne, hvilke herved kand være forvissede om tvende Ting udi Fremtiden (1) at dem Ævne gives at <hi rend="ant">debitere</hi> deres Vare, hvert Sted til sit <hi rend="ant"><app type="var"><lem wit="A">Destrict</lem><rdg wit="B">District</rdg></app></hi> (2) at ikke een eller toe bemidlede Mænd udi en heel Stad skal som tilforn anmasse sig Handelen alleene; thi, naar den eene ikke kand give bedre Kiøb end den anden, søger den Kiøbende den nærmeste Boed, enten den tilhører den riige eller den fattige Kiøbmand; ikke at tale om <w>U-eenighed</w>, Misundelse og Mistanke som derved i <w>Kiøbmands-Standen</w> udrøddes; Thi de smaa Kiøbmænd indbilte sig tilforn, at de bleve <pb ed="SS" n="142"/>under <hi rend="ant">minerede</hi> af de store, og at de sidste, saasom de havde de Ting udi Hænderne, der driver Hiulet, altid vare lykkeligere udi deres <hi rend="ant">Negotiationer</hi> med Toldere og <hi rend="ant">Visiterere,</hi> af hvilke de altid kunde <hi rend="ant"><app type="var"><lem wit="A">stipullere</lem><rdg wit="B">stipulere</rdg></app></hi> sig tvende smaa Tiennester, neml. [1] at de ville <app type="tc"><lem><corr resp="ed">tabe Synet</corr></lem><rdg wit="A">tabeSynet</rdg></app>, naar en riig Kiøbmands Skib kom i Havnen [2] at de ville see skarpere end de pleyede, naar den Fattige skulle losse; om Mistanken var vel grundet eller ey lader jeg staae ved sit Værd; jeg siger kun at saadan Mistanke regierede i Stæderne, og det, som er <app type="tc_var"><lem wit="B">bekiendt</lem><rdg wit="A">bekiendte</rdg><rdg resp="SS">bekiendte</rdg></app>, nemlig at en Kiøbmand kunde sælge Vahrene lettere end en anden, og derved tildrage sig Handelen frem for alle de andre; Lader os derfor samtlig glæde os over denne <hi rend="ant">Reformation</hi> udi Handelen, lader os i steden for at <hi rend="ant">criticere</hi> Værket, <hi rend="ant">criticere</hi> vor egen forrige Blindhed, lader os takke GUd der har aabnet vore Øyne, <pb ed="A" n="47" facs="p47"/>der har givet os en Konge, hvis største Vellyst er Undersaatternes Lyksalighed, hvis idelige <hi rend="ant">Meditationer</hi> paa Landets Opkomst, og hvis <w>høy-viise</w> Betænksomhed kand forsikre os om, at disse Anstalter ere vel grundede; Lader os takke GUd der har lært os at mærke vore Skrøbeligheder, at kiende vore egne Kræfter og see hen lit i Tiden; Lader os ikke <app type="tc"><lem wit="B">underkaste</lem><rdg wit="A">uderkaste</rdg></app> os fremmede <hi rend="ant">Nationers Censur</hi> og Domme ved at klage over det som er os allernyttigst, og at ligesom derved viise, at vi ingen <hi rend="ant">Ideè</hi> haver over det, som kaldes en ret <hi rend="ant">solide</hi> Handel; thi at glæde sig over, at een og anden Ting kand til en Tid sælges for got kiøb, og derimod med <app type="tc"><lem wit="B">Kaaldsindighed</lem><rdg wit="A">Kaadsindighed</rdg><rdg resp="SS">Kaadsindighed</rdg></app> <app type="tc"><lem><corr resp="ed">ansee Landets Styrke</corr></lem><rdg wit="A">anseeLandetsStyrke</rdg></app> svækket, Pengene daglig formindsket, Seyladsen forsømmet, og en stor Deel fattige Medborgere at lide Nød for Mangel af <hi rend="ant">Employ,</hi> hvorved de kand finde deres Lives Ophold, er noget som fast kand henregnes til <app type="tc"><lem><corr resp="Høyberg"><hi rend="ant">Stupidite.</hi></corr></lem><rdg wit="A B">Stupidite;</rdg><rdg resp="Høyberg">Stupidite.</rdg><rdg resp="SS">Stupidite;</rdg></app></p>
+                    <p>Endelig lader os besynderlig see til, at vi ikke strax taber Modet over een eller anden <hi rend="ant">Apparent</hi> Vanskelighed, som i Begyndelsen kand møde, <app type="var"><lem wit="A">mens</lem><rdg wit="B">men</rdg></app> med Tiden, naar Seyladsen kommer i Drift, ikke alleene vil ophæves, men forvandles til lutter Beqvæmlighed og Velstand; Værket er endnu som i Fødselen, Besværligheden falder eene udi Øynene, men Nøtten og Fordeelen kand endnu ikke være saa kiendelig; Man seer for Exempel og raaber paa, at nogle Vahre stige, formedelst <hi rend="ant">armerede</hi> Skibes Underholdning, men eftertænker ikke, at Toe <hi rend="ant">armerede</hi> Skibe kand beskytte begge Rigers <w>Spanie-Farer</w>, saavelsom de nu <app type="var"><lem wit="A">beskytter</lem><rdg wit="B">beskytte</rdg></app> 2 eller 3 Skibe, og at, jo meer Handelen kommer i gang, jo mindre besværlig bliver <hi rend="ant">armerede</hi> <app type="var"><lem wit="A"><w>Skibs-Underholdning</w></lem><rdg wit="B">Skibes-Underholdning</rdg></app>, jo mindre <pb ed="A" n="48" facs="p48"/>kostbart bliver det, at seyle under <hi rend="ant">Convoy,</hi> og jo lettere kand man sælge Vahrene; Hvis man altid havde ladet sig skræcke udi Begyndelsen, da havde de hærligste <hi rend="ant">Entrepriser,</hi> hvorved vi nu seer adskillige <hi rend="ant">Nationer</hi> blomstre, blevet frugtesløse, da havde Engelændere endnu været Høkere for andre Folk, de forenede <hi rend="ant">Provincer</hi> ikke svæmmed udi Velstand, ja den fierde og riigeste Deel af Jorden, nemlig <hi rend="ant">America,</hi> havde endnu været et <w>u-bekiendt</w> Land.</p>
+                </sp>
+                <pb ed="SS" n="143"/>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Hør min Herre! Vi komme sammen som Fiender, og skilles ad de beste Venner, saadan Virkning har hans Tale giort hos mig.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Jeg vilde ønske, at den kunde giøre samme Virkning hos alle andre. </p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Derpaa tviler jeg aldeeles ikke. Ønsker derfor inderlig, at hand vilde lade disse sine Betænkninger ved Trykken <hi rend="ant">publicere,</hi> thi visse Folk troer en Ting endda <app type="tc"><lem><corr resp="ed">fastere</corr></lem><rdg wit="A">fa stere</rdg></app>, naar de seer det prænted.</p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">MONTANUS.</hi></speaker>
+                    <p>Jeg saae heller, at en anden paatog sig den Umage; thi man underkaster sig ofte derved adskillige umilde Domme: Man vilde, for <hi rend="ant">Exempel,</hi> <app type="tc"><lem><corr resp="Boye">sige –</corr></lem><rdg wit="A B">sige.</rdg><rdg resp="Høyberg">sige – – –</rdg><rdg resp="Boye">sige –</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker><hi rend="ant">SYLVESTER.</hi></speaker>
+                    <p>Man maa sige, hvad man sige vil, saa staaer det dog altid fast, at det er en <hi rend="ant">merite</hi> at stifte Fred og Eenighed blant Medborgere, og at enhver ærlig <hi rend="ant">Patriot</hi> er forbunden efter GUds, Naturens og alle borgerlige Love at styre Klammerie, sær om det reiser sig af <seg type="komm" target="p48-32"/><app type="var"><lem wit="A">Vildfarelse.</lem><rdg wit="B"><note type="last">har herefter tilføjet yderligere to replikker, se kommentar</note></rdg></app></p>
+                </sp>
+            </div>
+        </body>
+    </text>
+</TEI>

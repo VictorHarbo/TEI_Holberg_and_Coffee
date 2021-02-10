@@ -1,0 +1,182 @@
+---
+title: "Digital analyse af Ludvig Holbergs forfatterskab med fokus på kaffe og andre luksusvarer"
+author: "Victor Harbo Olesen"
+date: "28/01/2021"
+output:
+  html_document: default
+  pdf_document: default
+---
+# Indledning
+I dette dokument vil jeg lave forskellige analyser ud fra Holbergs samlede forfatterskab. Jeg fik ideen til at undersøge hele Holbergs forfatterskab, da jeg fandt ud af, at det ligger digitaliseret på holbergskrifter.dk. Jeg sendte en forespørgsel til folkene bag sitet og fik igennem dem tilsendt hele hans forfatterskab, på 109 tekster.  
+
+```{r chunk 1 - load libraries, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(tidytext)
+library(tei2r)
+library(ggwordcloud)
+```
+
+# Import og cleaning af data
+Dataen her er hentet hos holberskrifter.dk, med tilladelse fra Det Danske Sprog- og Litteraturselskab og Universitetet i Bergen, som begge skal have en stor tak for adgangen. Teksterne er hentet i XML format, det vil sige at dataen lige nu ikke ligger som den mest læsbare tekst, hverken for mennesket eller for computeren, Heldigvis kan man med et par linjer kode trække tekst ud af disse filer, som både er nemmere for os at læse og som giver mere mening at arbejde videre med. 
+
+
+```{r chunk 2 - load data, warning=FALSE, message=FALSE}
+read_tei <- function(folder) {
+  list.files(folder, pattern = '\\.xml$', full.names = TRUE) %>%
+    map_dfr(~.x %>% parseTEI(.,node = "text") %>%tibble())
+}
+
+tekster <- read_tei("/Users/vhol/Documents/Rprojects/Holbergskaffe/forfatterskab")
+```
+
+Dataanalysen er baseret på Tidy Data Principet fra tidytext pakken. Ideen bag dette princip er at man tager tekster og bryder dem ned i individuelle ord. Når man gør dette vil der være et ord per række i datasættet.
+
+Det næste der skal ske med dataen er, at den skal transformeres til tidytext formatet, som kort er nævnt ovenfor. Derudover fjernes forstyrrende elementer som punktumer uden mellemrum mellem ordene, så alle ord tælles hver for sig. Grunden til, at punktumer fjernes fra teksten, er fordi de er forstyrende for maskinlæsningen af teksten. Eksempel: I sætningen "... og sådan blev det.Nu måtte han ..." tæller computeren syv ord, fordi den læser "det.Nu", som et ord og ikke to forskellige. 
+
+```{r chunk 3 - convert to tidytext format}
+tekster <- rename(tekster, text = .)
+data.frame(lapply(tekster, function(x) {gsub("[.]", " ", x)})) -> tekster
+data.frame(lapply(tekster, function(x) {gsub("[:]", " ", x)})) -> tekster
+data.frame(lapply(tekster, function(x)
+  {str_replace_all(x, "([a-å])([0-9])","\\1 \\2")})) -> tekster
+data.frame(lapply(tekster, function(x)
+  {str_replace_all(x, "([0-9])([a-åA-Å])","\\1 \\2")})) -> tekster
+tekster %>% 
+  unnest_tokens(word, text) %>% 
+  select(word, everything()) -> tekster_tidy
+```
+# Analyse 
+
+Nu hvor dataen er indlæst og sat sammen til en stor tekst mængde er det muligt at regne på, hvor mange gange Holberg nævner kaffe i løbet af hans forfatterskab. Her skal vi igen huske, at kaffe staves anderledes på Holbergs tid end nu til dags. I koden har jeg brugt 17 forskellige kafferelaterede begreber. Disse ord er alle hentet fra https://holbergordbog.dk/, det samme gør sig gældende for the og tobaksordene længere nede. 
+
+```{r chunk 4 - counting coffee}
+kaffe_ord <- c("caffee", "caffe", "cafe", "café", "caffée", "coffee", "caffee-bord",
+               "caffee-bønner", "caffee-drik", "caffee-drikken", "caffee-drikker",
+               "caffee-huus", "kafé", "caffee-tand", "cafee", "caffeé")
+kaffe_total <- filter(tekster_tidy, word %in% kaffe_ord)
+```
+
+Resultatet er 99 observationer af ordet kaffe på den ene eller anden måde. Kigger vi nærmere på de resultater, der er fundet i dataframen "kaffe_antal" ser vi, at computeren kun har fundet de steder hvor der er enkelte ord. Det skyldes vores data format, tidy-data princippet har brudt bindingerne op, således, at caffee-drikker ikke findes. istedet findes "caffee" og "drikker". I dette tilfælde tælles der altså en ekstra forekomst af "caffee". I kodestykket nedenfor vises de 99 fremkomster af ord der har noget med kaffe at gøre.
+
+```{r chunk 5 - showing results}
+kaffe_total %>% 
+  count(word, sort = TRUE) -> kaffe_antal
+kaffe_antal
+```
+
+Hvis man vil forsøge at sætte antallet af gange kaffe er nævnt op imod hele Holbergs forfatterskab, kan man udregne hvor stor en procentdel ordene om kaffe udgør af hans samlede antal ord. 
+```{r chunk 6 - getting percentage}
+99/4844038*100
+```
+Ordene om kaffe udgør altså 0.002043749% af Holbergs samlede forfatterskab.
+
+# Kontekst
+Man kan spørge sig selv om ordene om kaffe udgør en specielt stor mængde af Holbergs forfatterskab. Dette kan imidlertid være en smule svært at svare på, da ord aldrig står alene. Konteksten rundt om ordene kan ikke fanges med denne metode. Derimod kan man sammenligne resultatet med undersøgelser af andre luksusvarer, her the og tobak. 
+
+```{r chunk 7 - counting tea and tobacco}
+the_ord <- c("thee", "the", "thée", "thé", "tee")
+the_total <- filter(tekster_tidy, word %in% the_ord)
+the_total %>% 
+  count(word, sort = TRUE) -> the_antal
+
+tobak_ord <- c("tobak", "toback", "tobac", "tobach", "tabak",
+               "tabac", "tobaks", "tabaks", "tabacs")
+tobak_total <- filter(tekster_tidy, word %in% tobak_ord)
+tobak_total %>% 
+  count(word, sort = TRUE) -> tobak_antal
+
+# The procent:
+182/4844038*100
+# Tobak procent:
+130/4844038*100
+```
+Her ses det, at Holberg nævner the og tobak henholdsvis 182 og 130 gange. De nævnes altså en smule mere end kaffe. Det svarer til at 0.003757196% af Holbergs forfatterskab er ord om the og 0.002683711% er ord om tobak. 
+
+Det kunne være interessant at se hvordan disse tal om luksusvarer ser ud i forhold til andre ting, som Ludvig Holberg skriver om. For at vi kan det, er vi nødt til at have en ide om hvilke ord, der bruges mest i Holbergs tekster. 
+
+# Mest brugte ord hos Holberg
+I det følgende stykke kode, ser vi hvilke ord der fremkommer hyppigst i Holbergs forfatterskab.
+```{r chunk 8 - words Holberg uses}
+tekster_tidy %>% 
+  count(word, sort = TRUE) %>% 
+  top_n(150)
+```
+For det første kan vi se en masse stopord, men hvis man bladrer i listen ser man også ord som konge og historie, der er brugt henholdsvis 4927 og 3532 gange. Nedenfor udregnes hvor stor en procentdel af forfatterskabet disse to ord fylder. 
+````{r chunk 9 - percentage of konge and historie}
+# procent for konge
+4927/4844038*100
+
+# procent for historie
+3532/4844038*100
+```
+Resultatet er her, at selve ordet konge udgør 0.1017127% af Holbergs forfatterskab, mens ordet historie udgør 0.07291437% af forfatterskabet. Begge ord bruges altså væsentligt mere, end hele ordforrådet om luksusvarerne.
+
+# Datasæt uden stopord
+Her vil jeg forsøge, at fjerne stopordene fra datasættet, så det, som er vigtigt for dataen nemmere kan ses i visualiseringer. Den stopordsliste der bruges, er en moderne dansk liste, hvor der er tilføjet de 150 mest brugte stopord fra Holbergs forfatterskab.
+```{r chunk 10 - removing stopwords, message=FALSE}
+stopord <- read_csv("stopord.txt")
+tekster_tidy %>% 
+  anti_join(stopord, by = "word") %>% 
+  count(word, sort = TRUE) %>% 
+  select(word, n) -> tekster_tidy_nostops
+```
+
+Ordet "caffee" indtager en 5728'ne plads ud af de 161330 unikke ord, som Holberg har skrevet, der ikke er stopord.
+```{r chunk 11 - caffee ranked}
+slice(tekster_tidy_nostops, 5728)
+```
+# Visualiseringer
+I dette afsnit kommer Holbergs forfatterskab frem på en anden måde end hvis man læste det som vi normalt gør. Jeg vil forsøge, at lave forskellige visualiseringer, der kan sige noget om hele hans forfatterskab.
+
+```{r chunk 11 - wordcloud}
+tekster_tidy_nostops %>% 
+  top_n(40) %>%
+  ggplot(aes(label = word, size = n, color = n)) +
+  geom_text_wordcloud() +
+  scale_size_area(max_size = 10) +
+  theme_minimal() +
+  scale_color_gradient(low = "blue", high = "red")
+```
+
+I denne wordcloud ses de 40 mest brugte ord i Holbergs forfatterskab. Jo større ordet er og jo mere rødt det er, betyder at ordet er brugt meget. Hvis man hellere vil have nogle tal på, kan man få dataen frem i et histogram, som gøres i kodeblokken nedenunder.
+
+```{r chunk 11 - histogram}
+tekster_tidy_nostops %>% 
+  top_n(40) %>% 
+  ggplot(aes(x = word, y = n)) +
+  geom_col(fill="#3399FF", colour="black") +
+  coord_flip() +
+  theme_minimal()
+```
+
+Ovenfor ses de 40 mest brugte ord i Holbergs forfatterskab på en anden måde. Her vises dataen i et histogram, hvor man også kan få en ide om, hvor mange gange det enkelte ord har været brugt. I de næste visualiseringer sættes luksusvarerne fra Holbergs forfatterskab op i forskellige visualiseringer. 
+
+# Visualisering af luksus
+I de følgende visualiseringer vises, hvor meget Holberg har skrevet om de forskellige luksusvarer. 
+```{r chunk 12 - luxurygoods spelling}
+luksusvarer <- rbind(kaffe_antal, the_antal, tobak_antal)
+luksusvarer %>% 
+  ggplot(aes(x = word, y = n)) +
+  geom_col(fill="#3399FF", colour="black") +
+  coord_flip() +
+  theme_minimal()
+```
+
+Dette histogram viser brugen af de forskellige stavemåder, det ville måske give mere mening som en wordcloud, hvor man hurtigt får et overblik over, hvad der bruges mest.
+```{r chunk 13 - luxury wordcloud}
+luksusvarer <- arrange(luksusvarer, desc(n))
+luksusvarer %>% 
+  ggplot(aes(label = word, size = n, color = n)) +
+  geom_text_wordcloud() +
+  scale_size_area(max_size = 20) +
+  theme_minimal() +
+  scale_color_gradient(low = "black", high = "red")
+```
+
+Her står det altså klart, at ordet "the" blev brugt mest at ordene om kaffe, the og tobak. The blev efterfulgt, af "tobak" som nr to og "caffee" som nr tre.
+\newpage
+
+# Referencer
+Denne analyse er lavet på baggrund af materiale fra Det Danske Sprog- og Litteraturselskab og Universitetet i Bergen.  
+Hvis man er interesseret i at dykke ned i Holbergs forfatterskab ligger det tilgængeligt på: http://holbergsskrifter.dk/  
+Analysen har også gjort brug af Holbergordbogen, der kan findes på: https://holbergordbog.dk

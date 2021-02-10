@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="dan">	
+		<fileDesc>
+			<titleStmt>
+				<title key="Sgan">Sganarels Reyse til Det Philosophiske Land</title>
+				<author>Ludvig Holberg</author>
+				<editor>Karen Skovgaard-Petersen</editor>
+			</titleStmt>
+			<editionStmt>
+				<edition/>
+			</editionStmt>
+			<publicationStmt>
+				<pubPlace/>
+				<availability>
+					<p rend="head"/>
+					<p/>
+					<p/>
+					<p/>      
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="A"><title key="none">Den Danske Skue-Plads, Syvende Tome</title>, <date>1754</date>.</witness>
+					<witness xml:id="Thielo1752"><title key="none">Carl August Thielo: Anden Samling af de Oder, som paa den Danske Skueplads udi Kiöbenhafn ere blevne opførte</title>, 1752.</witness>
+					<witness xml:id="udg1758"><title key="none">Den Danske Skue-Plads, Syvende Tome</title>, <date>1758</date>.</witness>
+					
+					<witness xml:id="udg1788"><title key="none">Den Danske Skue-Plads, Syvende Tome</title>, <date>1788</date>.</witness>
+					<witness xml:id="Rahbek"><title key="none">Ludvig Holbergs udvalgte Skrifter</title>, udg. K.L. Rahbek, bd. 5, 1805.</witness>	
+					<witness xml:id="Boye"><title key="none">Den danske Skueplads eller Ludvig Holbergs samtlige Comoedier i eet Bind</title>, udg. A.E. Boye, 1843.</witness>
+					
+					<witness xml:id="Liebenberg"><title key="none">Ludvig Holbergs Comedier</title>, udg. F.L. Liebenberg, bd. 7, 1853.</witness>
+					<witness xml:id="Liebenberg1870"><title key="none">Holbergs Comedier i tre bind.</title>, udg. F.L. Liebenberg, bd. 3, 1870.</witness>
+					<witness xml:id="Liebenberg1876"><title key="none">Den danske Skueplads eller Holbergs Comedier.</title>, udg. F.L. Liebenberg, 1876.</witness>
+					<witness xml:id="Martensen"><title key="none">Holbergs Komedier</title>, udg. Julius Martensen, bd. 11, 1904.</witness>
+					<witness xml:id="SS">Ludvig Holbergs Samlede Skrifter, udgivne af Carl S. Petersen, bd. 17, 1942. NB: Afvigelser fra udgaven 
+						<title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>
+					<witness xml:id="Roos"><title key="none">Holberg, Comoedierne og de populære Skrifter. Festudgaven</title>, Kbh. 1922-25; <title key="none">Comoedierne</title>, udg. Carl Roos, bd. 3, 1924.</witness>
+					
+				</listWit>
+			</sourceDesc>
+		</fileDesc>		
+		<profileDesc>
+			<langUsage>
+				<language ident="dan">dansk</language>
+			</langUsage>
+		</profileDesc>		
+		<revisionDesc>
+			<change when="2015-10-23" who="ksp/fgj">nye tekstrettelser: ingen; &gt; ingen, (L8v), Taalmodighed; &gt; Taalmodighed, (L8v), Staden. &gt; Staden, (M4v), seet: &gt; seet. (N3v). Korrekturrettelse: mand &gt; Mand (L8v)</change>
+			<change when="2015-10-22" who="fgj">korrekturrettelser: lys &gt; Lys (M8r), 3di &gt; 3die (N2v, l. 1), har jeg &gt; har ieg (N2v), 1 ste &gt; 1ste (N3r, skal ikke på ændringsliste), Hvilken &gt; hvilken (N3r), kodet bagatelnote ihi &gt; thi (N3r), Holder &gt; holder (N3r), Hvilket Syn? &gt; hvilket Syn? (N3v), 1 ste &gt; 1ste (N4r, skal ikke på ændringslisten), græde &gt; græde, (N4v), bagatelnote San dserne (N4v), Klare &gt; klare (N5r), Sganarel &gt; Sganarel. (N5v)</change>
+			<change when="2015-10-21" who="fgj">kodet tankestreger. Slettet Boye1852 og Brix fra listWit da de ikke indgår i app. Korrekturrettelser: høye &gt; Høye (L6r), kodet manglende stage om (sagte.) (L6r), begaved &gt; begavet (L7v), machiner &gt; Machiner (L8r), kodet Abit antikva (M1r), spør &gt; spør. (M2v), haar &gt; Haar (M6r), mere &gt; meere (M6v), kodet Abeunt i antikva</change>
+			<change when="2015-08-07" who="ng">anmærkninger fra tilsyn (efter forarbejde af tb)</change>
+			<change when="2014-10-22" who="ksp">udg 1758 og 1788 tilføjet</change>
+			<change when="2013-05-02" who="ksp">emendering påbegyndt</change>
+			<change when="2013-03-30" who="ksp">note til kommentar indsat ved scene 7</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+			<change when="2013-01-24" who="fgj">tilføjelse af tekststatus</change>
+			<change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+			<change when="2012-09-01" who="fgj">faksimileliste og -referencer indsat</change>
+			<change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+			<change when="2011-12-05" who="rbn">indsat nye div-værdier</change>
+			<change when="2011-09-12">Anjas SS-korrektur fra okt/nov. 2010 uploadet til repositorium</change>
+			<change when="2009-02-18" who="ng">filen oprettet, rudimentær strukturopmærkning</change>
+		</revisionDesc>		
+	</teiHeader>
+	
+	<facsimile>
+		<graphic n="171" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00175.jpg" xml:id="L4r"/>
+		<graphic n="172" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00176.jpg" xml:id="L4v"/>
+		<graphic n="173" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00177.jpg" xml:id="L5r"/>
+		<graphic n="174" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00178.jpg" xml:id="L5v"/>
+		<graphic n="175" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00179.jpg" xml:id="L6r"/>
+		<graphic n="176" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00180.jpg" xml:id="L6v"/>
+		<graphic n="177" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00181.jpg" xml:id="L7r"/>
+		<graphic n="178" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00182.jpg" xml:id="L7v"/>
+		<graphic n="179" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00183.jpg" xml:id="L8r"/>
+		<graphic n="180" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00184.jpg" xml:id="L8v"/>
+		<graphic n="181" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00185.jpg" xml:id="M1r"/>
+		<graphic n="182" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00186.jpg" xml:id="M1v"/>
+		<graphic n="183" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00187.jpg" xml:id="M2r"/>
+		<graphic n="184" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00188.jpg" xml:id="M2v"/>
+		<graphic n="185" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00189.jpg" xml:id="M3r"/>
+		<graphic n="186" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00190.jpg" xml:id="M3v"/>
+		<graphic n="187" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00191.jpg" xml:id="M4r"/>
+		<graphic n="188" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00192.jpg" xml:id="M4v"/>
+		<graphic n="189" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00193.jpg" xml:id="M5r"/>
+		<graphic n="190" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00194.jpg" xml:id="M5v"/>
+		<graphic n="191" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00195.jpg" xml:id="M6r"/>
+		<graphic n="192" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00196.jpg" xml:id="M6v"/>
+		<graphic n="193" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00197.jpg" xml:id="M7r"/>
+		<graphic n="194" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00198.jpg" xml:id="M7v"/>
+		<graphic n="195" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00199.jpg" xml:id="M8r"/>
+		<graphic n="196" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00200.jpg" xml:id="M8v"/>
+		<graphic n="197" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00201.jpg" xml:id="N1r"/>
+		<graphic n="198" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00202.jpg" xml:id="N1v"/>
+		<graphic n="199" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00203.jpg" xml:id="N2r"/>
+		<graphic n="200" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00204.jpg" xml:id="N2v"/>
+		<graphic n="201" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00205.jpg" xml:id="N3r"/>
+		<graphic n="202" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00206.jpg" xml:id="N3v"/>
+		<graphic n="203" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00207.jpg" xml:id="N4r"/>
+		<graphic n="204" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00208.jpg" xml:id="N4v"/>
+		<graphic n="205" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00209.jpg" xml:id="N5r"/>
+		<graphic n="206" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_danskeskueplads7_1754/dan_skue_t7_00210.jpg" xml:id="N5v"/>		
+	</facsimile>
+	
+	<text xml:lang="dan" xml:id="Sgan" type="orig" subtype="Sgan" n="/tekster/skuespill/Sganarel/Sganarel.page">
+		<front>
+			<titlePage xml:id="start" n="[Titelblad]">
+				<pb ed="A" n="L4r" facs="L4r"/>
+				<pb ed="SS" n="601"/>
+				<docTitle>
+					<titlePart type="main"><hi rend="ant">SGANARELS</hi> 
+						<lb/>Reyse <lb/>til <lb/>Det Philosophiske Land.</titlePart>
+					<lb/>
+					<titlePart type="sub"><hi rend="ant">COMOEDIE</hi> 
+						<lb/>udi <lb/>Een <hi rend="ant">ACT</hi>.</titlePart>
+					<lb/>
+					<titlePart>Hvorudi skiemtes med de gamle 
+						<lb/>Philosophiske Secter.</titlePart>
+				</docTitle>
+			</titlePage>
+			<div xml:id="castlist" n="[Rolleliste]">
+				<pb ed="A" n="L4v" facs="L4v"/>
+				<pb ed="SS" n="602"/>
+				<castList rend="center">
+					<head><w>Hoved-Personerne</w> 
+						<lb/>i <hi rend="ant">Comœdien</hi>.</head>
+				<castItem>
+					<role><seg type="komm" target="L4v-3"/>Sganarel.</role>
+				</castItem>
+				<castItem>
+					<role><seg type="komm" target="L4v-4"/>Leander.</role>
+				</castItem>
+				<castItem>
+					<role><seg type="komm" target="L4v-5"/>Philosophi kand tages i Fleng.</role>
+				</castItem>
+					<castItem><role><seg type="komm" target="L4v-6"/>Iligemaade Qvinderne, hvilke maa være udi saadan Dragt som de 3 Gracier have.</role>
+					
+				</castItem>
+				</castList>
+			</div>
+		</front>		
+		<body>
+			<div xml:id="act" n="[Tekst]">
+			<div type="scene" xml:id="sc1" n="Scene 1">
+				<pb ed="A" n="L5r" facs="L5r"/>
+				<pb ed="SS" n="603"/>
+				<head><seg type="komm" target="L5r-1"/><hi rend="ant">Scen. 1.</hi></head>
+				<sp>
+					<speaker>Sganarell <stage>(alleene med oprakte Hænder.)</stage></speaker>
+					<p><w><hi rend="init">H</hi>immelen</w> skee Lov, at vi endeligen efter saa megen Besværlighed ere komne til den <seg type="komm" target="L5r-4"/>forlangte Stad, hvor vi agte at fæste Boelig. Hvad kand være behageligere, end at boe iblant lutter Philosopher, hvor vi faaer <seg type="komm" target="L5r-6"/>intet uden Viisdom at høre. Jeg er træt og udmattet af Reysen; men naar jeg <seg type="komm" target="L5r-8a"/>stiller mig for Øyne, at det <seg type="komm" target="L5r-8b"/>forønskede Maal er lykkeligen naaet, <seg type="komm" target="L5r-9"/>synes mig, at jeg faaer nye Kræfter igien. Min <app type="tc"><lem wit="A">Hr.</lem><rdg resp="udg1758">Herre <note type="last">(fulgt af flere senere udgivere)</note></rdg></app> Leander, som med <seg type="komm" target="L5r-11a"/><w>Reyse-Tøyet</w> er uden for Porten, har <seg type="komm" target="L5r-11b"/>skikket mig hid for i Veyen at <seg type="komm" target="L5r-12"/>betinge Herberg. Men jeg seer her ingen Folk: Det er saa stille, som det kunde være Nat. Saadant <seg type="komm" target="L5r-14"/>holder jeg Beviis paa god Skik og Orden. Jeg maa derfor banke paa første Port, for at faae nogen i Tale.</p>
+					<stage>(Han banker paa.)</stage>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc2" n="Scene 2">
+				<head><seg type="komm" target="L5r-17"/><hi rend="ant">Scen. 2.</hi></head>
+				<stage>Sganarel, en <seg type="komm" target="L5r-18"/>Philosophus, (med et langt Skiæg.)</stage>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Der seer jeg een at komme. Viisdommen staaer afmalet i hans Pande. Hr. <seg type="komm" target="L5r-22"/>Magister tager ikke ugunstig op, at jeg spørger <seg type="komm" target="L5r-23a"/>ham, om han intet Herberge <seg type="komm" target="L5r-23b"/>veed for <seg type="komm" target="L5r-23c"/>tvende fremmede Personer.</p>
+					<stage>(Philosophen svarer intet, men <seg type="komm" target="L5r-25"/>gisper alleene.)</stage>
+					<p>Hr. <seg type="komm" target="L5r-26a"/>Doctor <seg type="komm" target="L5r-26b"/>gav han maaskee intet Agt paa mit Spørsmaal?</p>
+					<stage>(Philosophen tier og gisper <app type="tc"><lem><corr resp="ed">igien.)</corr></lem><rdg wit="A">igien.</rdg></app></stage>
+					<p>Jeg spurte, om han ikke veed et got Herberge for tvende reysende Personer.</p>
+					<stage>(Philosophen gispende 3die gang seende paa Solen, <app type="tc"><lem><corr resp="ed">siger.)</corr></lem><rdg wit="A">siger.</rdg></app></stage>
+				</sp>
+				<pb ed="A" n="L5v" facs="L5v"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p><seg type="komm" target="L5v-3"/>Efter Solen maae Klokken være 9.</p>
+				</sp>
+				<pb ed="SS" n="604"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Jeg spørger hverken om Klokken eller Solen, jeg spørger om et Herberg.</p>
+					<stage>(Philosophen gisper 4de gang og gaaer <app type="tc"><lem><corr resp="ed">ud.</corr></lem><rdg wit="A">ud</rdg></app> Sganarelle gisper efter <app type="tc"><lem><corr resp="ed">ham.)</corr></lem><rdg wit="A">ham.</rdg></app></stage>
+					<p>Hvis denne Karl skal være en viis Mand, saa er han ikke til nogen Nytte, <seg type="komm" target="L5v-9"/>saasom han taler ikke; men gisper Viisdommen ud; men jeg maa see til, at jeg faaer fat paa en anden, som taler lit meer, og gisper lidt mindre.</p>
+					<stage>(Han banker paa en anden Dør.)</stage>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc3" n="Scene 3">
+				<head><seg type="komm" target="L5v-13"/><hi rend="ant">Scen. 3.</hi></head>
+				<stage>Sganarelle, en <seg type="komm" target="L5v-14"/>Heraclitisk Philosophus.</stage>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p><seg type="komm" target="L5v-16"/>Har han noget at tale med mig?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Jeg er en fremmet Person, som <seg type="komm" target="L5v-18"/>tillige med en fremmed Herre er kommen til denne Stad, efter en besværlig og <seg type="komm" target="L5v-20"/>møysom Reyse. Vi haver med Taalmodighed udstaaet alle de <seg type="komm" target="L5v-21a"/>Uleyligheder, som Reysen har ført med sig, <seg type="komm" target="L5v-21b"/>udi Haab at – – –</p>
+					<stage>(Philosophen hyler og græder.)</stage>
+					<p>De Taarer, som Hr. Doctor fælder, ere <seg type="komm" target="L5v-24"/>Prøver paa hans Ædelhiertighed og Medlidenhed: men nu er alting forglemt, efterdi – – –</p>
+					<stage>(Philosophen hyler igien.)</stage>
+					<p>Jeg siger, at alting er forglemt. Nu forlanger jeg alleene, at Hr. Doctor vil beviise os den Tieneste, at skaffe os et got Herberg for Betaling.</p>
+					<stage>(Philosophen hyler igien.)</stage>
+					<pb ed="A" n="L6r" facs="L6r"/>
+					<p><stage>(sagte)</stage> Denne Mand er jo ligesaa gall, som den første.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Hvad meener I ved den første?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Den første Mand, som jeg her anmodede om det samme, svarede mig noget <seg type="komm" target="L6r-7"/>hen i Taaget, saa at jeg blev gandske forvirret derover.</p>
+				</sp>
+				<pb ed="SS" n="605"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<stage>(Hyler igien; og Sganarelle efteraber ham.)</stage>
+					<p>I siger at I blev gandske forvirret derover.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ja vist; kunde jeg vel andet, naar – – –</p>
+					<stage>(Philosophen hyler igien; og Sganarelle støder ham for Rumpen, og de hyler begge <seg type="komm" target="L6r-15"/>tillige.)</stage>
+					<p>Nu kand du have Aarsage til at hyle. Hvilke forbandede <seg type="komm" target="L6r-17"/>Grimasser disse Philosophi haver. Men der seer jeg en anden gaae over Gaden. Han seer glad, og <seg type="komm" target="L6r-18"/>tækkelig ud. Af ham vil jeg nok faae Oplysning udi dette <seg type="komm" target="L6r-19"/>Koglerie.</p>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc4" n="Scene 4">
+				<head><seg type="komm" target="L6r-20"/><hi rend="ant">Scen. 4.</hi></head>
+				<stage>Sganarelle, en <seg type="komm" target="L6r-21"/>Democritisk Philosophus.</stage>
+				<sp>
+					<speaker>Sganarelle.</speaker>
+					<p>Maae jeg tale et Ord med hans Høye Ærværdighed?</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Ja gierne, saa længe som han lyster.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarelle <stage><app type="tc"><lem><corr resp="ed">(sagte.)</corr></lem><rdg wit="A">(sagte.</rdg></app></stage></speaker>
+					<p>Denne Mand er gandske <seg type="komm" target="L6r-27"/>maneerlig. <stage>(høyt)</stage> Jeg har her haft <seg type="komm" target="L6r-28"/>særdeeles Hendelser.</p>
+				</sp>
+				<pb ed="A" n="L6v" facs="L6v"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p><seg type="komm" target="L6v-2"/>Hvi saa?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Jeg har her talet med tvende Philosopher. Jeg spurdte den 1ste, om hand ikke <seg type="komm" target="L6v-5"/>vidste noget Herberg; Men i Stæden for at svare paa mit Spørsmaal, <seg type="komm" target="L6v-6"/>gispede han, og omsider sagde, at Klokken var 9, mon den Mand kand være rigtig i Hovedet.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Ha ha ha, hi hi ha ha – – –</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ja, Hr. Magister har nok Aarsag at lee deraf, jeg kand selv ikke <seg type="komm" target="L6v-13"/>bare mig for Latter, naar jeg tænker derpaa.</p>
+					<stage>(de leer begge <seg type="komm" target="L6v-15"/>tillige.)</stage>
+				</sp>
+				<pb ed="SS" n="606"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Men hvad Svar fik I af den anden?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Den anden hylede ved hvert Spørsmaal, og græd, som han var pidsket.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Ha ha ha hi hi ha ha – – – –</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Mig synes, at han var nok saa Gall, som den første.</p>
+					<stage>(de leer atter sterkt <app type="tc"><lem><corr resp="ed">tillige.)</corr></lem><rdg wit="A">tillige)</rdg></app></stage>
+					<p>Hvad kand man vel <seg type="komm" target="L6v-27"/>dømme om saadanne Mennesker?</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Ha ha ha hi hi ha ha – – Jeg seer ellers paa Jeres Dragt og Skikkelse, at I er en Fremmed.</p>
+				</sp>
+				<pb ed="A" n="L7r" facs="L7r"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ja, Hr. Magister. Jeg er fra et langt bortliggende Land.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Et langt bortliggende Land? ha ha hi ha – – –</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Det er jo ikke noget at lee af.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Hvad er jeres Ærende her?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Det er for at omgaaes med <w>Lærde-Mænd</w>, og at underviises i Viisdom.</p>
+					<stage>(Philosophen leer igien.)</stage>
+					<p>Ey min Herre! <seg type="komm" target="L7r-14"/>holdt dog Maade med denne Latter, og lad os tale lidt alvorlig sammen.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Alvorlig sammen siger I? ha ha hi – – –</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Hvad Diævelen er dog dette? holdt engang op at lee, og siig mig hvor et got Herberg <seg type="komm" target="L7r-20"/>er at bekomme.</p>
+				</sp>
+				<pb ed="SS" n="607"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Et got Herberg, siger I?</p>
+					<stage>(han gaaer leende bort.)</stage>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ey, saa lee din Hals i tu, dit Beest. Den eene Philosoph er jo her galere, end den anden. Jeg er saa forvirret over disse Hændelser, at <seg type="komm" target="L7r-27"/>jeg veed ikke, enten jeg sover eller <seg type="komm" target="L7r-28"/>vaager: skal dette være Viisdommens Stad, saa maatte jeg gierne viide hvad man kand kalde en <seg type="komm" target="L7r-29"/>Daarekiste. Lad mig nu <seg type="komm" target="L7r-30"/>samle det eene med det andet, for at kunde berette min Herre alting <seg type="komm" target="L7r-31"/>omstændigen.</p>
+				</sp>
+			</div>			
+			<div type="scene" xml:id="sc5" n="Scene 5">
+				<pb ed="A" n="L7v" facs="L7v"/>
+				<head><seg type="komm" target="L7v-1"/><hi rend="ant">Scen. 5.</hi></head>
+				<stage><app type="tc"><lem><corr resp="ed">Sganarel.</corr></lem><rdg wit="A">Sganarel..</rdg></app> En nye Philosoph.</stage>
+				<stage>(Imedens Sganarelle staaer og grunder kommer der en nye Philosoph, <seg type="komm" target="L7v-4"/>stærk gaaende og løber ham <app type="tc"><lem><corr resp="ed">omkuld.)</corr></lem><rdg wit="A">omkuld.</rdg></app></stage>
+				<sp>
+					<speaker>Sganarelle.</speaker>
+					<p><seg type="komm" target="L7v-7"/>Hvad for en Ulykke vil dette sige. <seg type="komm" target="L7v-7b"/>Hvi handler I saaledes med mig: hvad Ondt har jeg giort.</p>
+				</sp>
+					<stage>Philosophen reyser ham op <seg type="komm" target="L7v-9"/>efter Benene.</stage>				
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Ey, ey, jeg tager Beenene i stæden for Armene. Jeg beder 1000 Gange om Forladelse. Forseelsen <seg type="komm" target="L7v-13"/>reyser sig deraf, at jeg har for skarpt Syn.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p><seg type="komm" target="L7v-15a"/>Mig synes, at det <seg type="komm" target="L7v-15b"/>heller maae reyse sig deraf, at I er <seg type="komm" target="L7v-16"/><w>Star-Blind</w>.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Min Herre, <seg type="komm" target="L7v-18"/>det skarpe Syn, som Naturen har begavet mig med, foraarsager at Jeg intet kand see, som er nær ved mig.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Hvis Naturen ikke havde anden Gave at give jer, maatte I ønske, at hun havde beholdet sin Gave selv.</p>
+				</sp>
+				<pb ed="SS" n="608"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Ney min Herre. Jeg kand derimod see hvad andre ikke seer, mit skarpe Syn gaaer indtil Indvoldene af en Ting, og <app type="tc"><lem><corr resp="udg1758">fæster</corr></lem><rdg wit="A">fæste</rdg><rdg resp="udg1758 udg1788 Rahbek Boye Liebenberg Roos">fæster</rdg><rdg resp="SS">fæste</rdg></app> sig paa <seg type="komm" target="L7v-27"/>Kiærnen deraf, som er skiulet for andre.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarelle.</speaker>
+					<p>Det gaaer over min Forstand.</p>
+				</sp>
+				<pb ed="A" n="L8r" facs="L8r"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Det er dog saa, min Herre. Derfor fører jeg Navn af den <seg type="komm" target="L8r-3"/>subtile Doctor. Men jeg seer, at han er en fremmet Person: Hvad <app type="tc"><lem><corr resp="ed">er hans</corr></lem><rdg wit="A">erhans</rdg></app> Ærende her? Hvis jeg kand gaae ham til Haande udi noget skal det være mig en Fornøyelse.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p><seg type="komm" target="L8r-8"/>Jeg takker skyldigst. Jeg vil kun for det første spørge, om man her kand faae et got Herberg for tvende Personer?</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Saadanne gemeene og grove Ting bekymrer jeg mig ey om: Men vil I vide noget <seg type="komm" target="L8r-13"/>in Philosophia occulta, saa er jeg til <app type="tc"><lem><corr resp="ed">Tieneste.</corr></lem><rdg wit="A">Tieneste</rdg></app></p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ney, ney! Jeg spør kun om – – – –</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Som for Exempel, <seg type="komm" target="L8r-18"/>om Magnetens Kraft, om Siælens Beskaffenhed, om Blodets <app type="tc"><lem><corr resp="ed">Circulation</corr></lem><rdg wit="A">Circculation</rdg></app>; om Myrers og Mygs Egenskab, om andre Insecters <seg type="komm" target="L8r-20"/>indvortes Dannelse om – – –</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ney ney <seg type="komm" target="L8r-22"/>i Dievels Skind. Jeg spør kun om – – –</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Eller om I vil vide noget om <seg type="komm" target="L8r-25"/>Dyrenes Siæle, om de ere Machiner, eller levende Creature, om <seg type="komm" target="L8r-26"/>Nominales eller Reales bør kaldes <seg type="komm" target="L8r-27"/>orthodoxi Philosophi.</p>
+				</sp>
+					<stage>(Medens han <seg type="komm" target="L8r-28"/>saa taler, render Sganarell ham omkuld, og undskylder sig ogsaa med sit skarpe Syn. Den subtile Philosophus reyser sig strax igien, slaaer Sganarel need paa Jorden, giver ham brav Hugg, og forlader ham <app type="tc"><lem><corr resp="ed">liggende.)</corr></lem><rdg wit="A">liggende.</rdg></app></stage>				
+			</div>			
+			<div type="scene" xml:id="sc6" n="Scene 6">
+				<pb ed="A" n="L8v" facs="L8v"/>
+				<pb ed="SS" n="609"/>
+				<head><seg type="komm" target="L8v-1"/><hi rend="ant">Scen. 6.</hi></head>
+				<stage>Sganarel. en <seg type="komm" target="L8v-2"/>Astrologus. <lb/>(med en Kikkert som observerer.)</stage>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ach Ach! er der <app type="tc"><lem><corr resp="udg1758">ingen,</corr></lem><rdg wit="A">ingen;</rdg><rdg resp="udg1758">ingen,</rdg><rdg resp="SS">ingen;</rdg></app> som kand reyse mig op. Ach hielp en stakkels <seg type="komm" target="L8v-6"/>forslagen Mand som ikke kand reyse sig selv.</p>
+				</sp>
+				<sp>
+					<speaker>Astrologus. <stage>(seende sig om.)</stage></speaker>
+					<p><seg type="komm" target="L8v-9"/>Hvo er, som raaber. Der ligger jo en halv død Mand. <seg type="komm" target="L8v-10"/>Hvad skader jer? Min Ven?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Hielp mig op igien, Min Herre! Jeg er falden udi onde Menneskers Hænder, som har slaaet mig saaledes, at mine Lemmer er knusede.</p>
+				</sp>
+				<sp>
+					<speaker>Astrologus.</speaker>
+					<p>Det giør mig <seg type="komm" target="L8v-16"/>hiertelig ont; Jeg er pligtig til at hielpe min Næste; Jeg beder alleene om lidt <app type="tc"><lem><corr resp="udg1758">Taalmodighed,</corr></lem><rdg wit="A">Taalmodighed;</rdg><rdg resp="udg1758">Taalmodighed,</rdg><rdg resp="SS">Taalmodighed;</rdg></app> indtil jeg faaer efterseet udi min Astrologiske Bog, om mand udi denne Maaned, og paa denne Dag udi Maaneden, maae foretage sig noget af Vigtighed <stage>(han blader i Bogen)</stage> ney min Herre, det gaaer ikke an paa denne Tiid. Jeg seer, at det er den 14 Dag udi den Maaned <seg type="komm" target="L8v-22"/>Morian, paa hvilken man efter astrologiske Regler intet vigtigt maae foretage sig. <seg type="komm" target="L8v-24"/>Vil min Herre have Taalmodighed til Solen gaaer need, saa kand jeg hielpe ham, uden at overtræde Astrologiske Regler.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Saadanne Regler kand <seg type="komm" target="L8v-28"/>ingen uden Fanden have dicteret. <seg type="komm" target="L8v-29"/>Kand det vel være nogen Tiid forbudet at hielpe sin Næste.</p>
+				</sp>
+				<pb ed="A" n="M1r" facs="M1r"/>
+				<sp>
+					<speaker>Astrologus.</speaker>
+					<p><seg type="komm" target="M1r-2"/>Visseligen baade er og kand det være.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ach! Jeg elendige Menneske! ulyksalig var den Dag, da vi besluttede at komme til denne Bye.</p>
+				</sp>
+				<sp>
+					<speaker>Astrologus.</speaker>
+					<p>Siig ikke det min Herre! I er kommen udi en Stad, hvor <seg type="komm" target="M1r-8a"/>de 9 Viisdoms Gudinder have <seg type="komm" target="M1r-8b"/>fæstet Sæde.</p>
+				</sp>
+				<pb ed="SS" n="610"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>I maa heller sige 9 Helvedes Gudinder, eller 9 Ulykker; thi – – – –</p>
+				</sp>
+				<sp>
+					<speaker>Astrologus.</speaker>
+					<p><seg type="komm" target="M1r-13"/>Overiiler jer ikke, styrer jer Affecter og have Taalmodighed til mod Aften, da skal jeg med al Fornøyelse gaae jer til haande. <seg type="komm" target="M1r-15"/>Adieu saa længe.</p>
+					<stage><seg type="komm" target="M1r-16"/>(<hi rend="ant">Abit.</hi>)</stage>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc7" n="Scene 7">
+				<head><seg type="komm" target="M1r-17"/><hi rend="ant">Scen. 7.</hi></head>
+				<stage>Sganarelle. En <seg type="komm" target="M1r-18"/>Sceptisk Philosophus.</stage>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ach! ach! er der dog ingen medliden Siæl udi den heele Stad.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Jeg hører en at raabe. Der seer jeg en stakkels Mand, som er kommen til Skade.</p>
+					<stage>(Han reyser ham op.)</stage>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Tusind Tak Hr. Doctor: det er mig dog kiært, at jeg finder et ærligt eller et klogt Menneske udi denne høylærde Stad.</p>
+				</sp>
+				<pb ed="A" n="M1v" facs="M1v"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p><seg type="komm" target="M1v-2"/>Hvad skader jer, min Ven?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Jeg er saaledes bleven <seg type="komm" target="M1v-4"/>slagen, og medhandlet af en af jeres <seg type="komm" target="M1v-5"/><w>Ordens-Brødre</w>, som kaldte sig en <seg type="komm" target="M1v-5b"/>subtil Philosoph; men paa mig <seg type="komm" target="M1v-6"/>lod han kun see liden Subtilitet.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Men er <seg type="komm" target="M1v-8"/>i vis derpaa?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Skulde jeg ikke være vis paa det, som nyeligen er skeet.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Jeres Syn kand have bedraget jer.</p>
+				</sp>
+				<pb ed="SS" n="611"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Saa har dog ikke Følelsen bedraget mig; det kand mine <seg type="komm" target="M1v-14"/>forslagne Lemmer bekræfte.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Følelsen, som er en af de 5 Sandser, kand bedrage, ligesaa vel som Synet.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Det er jo en forbandet <seg type="komm" target="M1v-20"/>forkeert Snak: I saae jo selv, at jeg laae paa Gaden, og raabte om Hielp.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p><seg type="komm" target="M1v-23"/>Det kommer mig vel saa for. Men – – –</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p><seg type="komm" target="M1v-25"/>Gid I faae en Ulykke med jer men. I hialp mig jo selv op igien.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Det kand maaskee være.</p>
+				</sp>
+				<pb ed="A" n="M2r" facs="M2r"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Saa kand jeg jo tage min Taksigelse tilbage igien.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p><seg type="komm" target="M2r-4"/>Maaskee.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Maaskee, Maaskee: Hør min gode Maaskee; <seg type="komm" target="M2r-7"/>Om en handlede saaledes med jer, hvad vilde I da sige?</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Jeg vilde ikke andet sige, end at <seg type="komm" target="M2r-9"/>det Syntes saa at være.</p>
+					<stage>(Sganarel gier ham 3 gode Rapp.)</stage>
+					<p>Au, au, er det ikke uforskammet at handle saaledes med en <seg type="komm" target="M2r-13"/>Philosopho.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Maaskee.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Og saaledes at belønne Velgierninger.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Maaskee, maaskee.</p>
+				</sp>
+				<pb ed="SS" n="612"/>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Ach, ach! min arme Rygg.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Følelsen er en af de 5 Sandser, som kand bedrage saavel, som Synet.</p>
+				</sp>
+				<sp>
+					<speaker>Philosophen.</speaker>
+					<p>Jeg maa strax hiem at <seg type="komm" target="M2r-26"/>smøre min Rygg.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p><seg type="komm" target="M2r-28"/>Gak til Bloksbierg, og smør din lærde Hierne. Den behøver <seg type="komm" target="M2r-29"/>heller Smørelse end Ryggen. Hvis jeg ikke <w>ven<pb ed="A" n="M2v" facs="M2v"/>tede</w> hvert Øyeblik <seg type="komm" target="M2v-1"/>min Principal Leander, tog jeg strax Flugten herfra, for ikke at underkastes fleere <seg type="komm" target="M2v-2"/>fortredelige Hændelser. Gid han vilde skynde sig. Men der seer jeg hand kommer, han skal faae alting ligesaa <seg type="komm" target="M2v-4"/>friskt, som jeg har faaet det.</p>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc8" n="Scene 8">
+				<head><seg type="komm" target="M2v-6"/><hi rend="ant">Scen. 8.</hi></head>
+				<stage>Leander. Sganarel.</stage>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p><seg type="komm" target="M2v-9"/>Nu! <seg type="komm" target="M2v-9a"/>hvor gaaer det Sganarelle? har du <seg type="komm" target="M2v-9b"/>faaet opspurdt et got Herberg?</p>
+					<stage>(Sganarel svarer intet men <seg type="komm" target="M2v-11"/>gisper.)</stage>
+					<p><seg type="komm" target="M2v-12"/>Hør du ikke, hvad jeg spør.</p>
+					<stage>(Han gisper paa nye.)</stage>
+					<p>Jeg troer, at du <seg type="komm" target="M2v-14"/>est bleven baade blind og <seg type="komm" target="M2v-14b"/>maaleløs.</p>
+					<stage>(Han gisper igien.)</stage>
+					<p>Staae ikke her og driv Spot med mig. Kand du ikke svare til mit Spørsmaal.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Hvad er det som <seg type="komm" target="M2v-19"/>Monsieur vil vide.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Jeg spør, om du har opspurdt noget Herberg.</p></sp>
+				<sp><speaker>Sganarel <stage>seende paa Himmelen gisper og svarer.</stage></speaker>
+					<p>Jeg seer, at <seg type="komm" target="M2v-23"/>efter Solen Klokken maa være 9.</p>
+				</sp>
+				<pb ed="SS" n="613"/>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Hvad Pokker er dog dette. Jeg troer at Karlen er forhexet, kiender du mig ikke meer?</p>
+					<stage>(Sganarel hyler og græder.)</stage>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Siig mig dog; hvor du har været, og <seg type="komm" target="M2v-29"/>hvad dig er vederfaret.</p>
+					<pb ed="A" n="M3r" facs="M3r"/>
+					<stage>(Han hyler igien.)</stage>
+					<p>Ey! hvilken ulyksalig Hændelse er ikke denne.</p>
+					<stage>(Han hyler igien.)</stage>
+					<p>Kiender du ikke mig, som er din <seg type="komm" target="M3r-4"/>Principal.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Min Principal? Ha ha hi hi ha.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Jeg merker at han har faaet Skade paa Forstanden.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ha ha hi ha.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Mon Stadens Luft skulde kunde føre saadant med sig?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ha ha – – – – Ney min Herre! <seg type="komm" target="M3r-14"/>Mig fattes intet paa Forstanden: Men jeg kand intet <seg type="komm" target="M3r-15"/>vist Svar give paa Spørsmaalet.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Kand du ikke sige Ja eller Ney.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Maaskee.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Hvad vil du sige med dit maaskee?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Intet af <seg type="komm" target="M3r-24"/>noget betydende.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Vil du drive Spot med mig, saa skal det gaae dig ilde.</p>
+				</sp>
+				<pb ed="SS" n="614"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Jeg driver aldeeles ingen Spott med Monsieur.</p>
+				</sp>
+				<pb ed="A" n="M3v" facs="M3v"/>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Er det ikke at drive Spot, naar du svarer <seg type="komm" target="M3v-2"/>hen i Taaget til hvert Spørsmaal.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p><seg type="komm" target="M3v-5"/>Herren synes kun saa: thi man kand ikke <seg type="komm" target="M3v-5a"/>forlade sig paa Sandserne, som alle ere <seg type="komm" target="M3v-6"/>bedragelige.</p>
+				</sp>
+				<sp>
+					<speaker>Leander <stage><seg type="komm" target="M3v-7"/>løfter paa sin Stok.</stage></speaker>
+					<p>Ney, nu gaaer det for vidt.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Det gaaer ogsaa for vidt. Nu vil jeg tale lidt alvorligen, og sige dette, at det var en ulyksalig Tiid og Time, vi besluttede at giøre denne Reyse. Alle disse <seg type="komm" target="M3v-12"/>Complimenter, som jeg har <app type="tc"><lem><corr resp="udg1758">giort</corr></lem><rdg wit="A">giort,</rdg><rdg resp="udg1758">giort <note type="last">(fulgt af udg1788 Rahbek Boye Liebenberg Martensen Roos)</note></rdg><rdg resp="SS">giort,</rdg></app> min Herre, ere de samme, <seg type="komm" target="M3v-13"/>som mig ere giorte af alle de Philosopher, som jeg har talet med, og hvilke jeg giver ham ligesaa <seg type="komm" target="M3v-15"/>varme, som jeg selv har faaet dem. Staden er fuld af sprænglærde <seg type="komm" target="M3v-16"/>Stoknarre.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Jeg meenede, <seg type="komm" target="M3v-18"/>at Lærdom og Viisdom fuldte sammen.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Jeg, <seg type="komm" target="M3v-20"/>min Troe ligeledes.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Jeg har ikke andet hørt.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Men jeg <seg type="komm" target="M3v-24"/>har anderledes følet.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Hvoraf kand dog vel saadant <seg type="komm" target="M3v-26"/>reyse sig?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Alting er skadeligt, naar man giør formeget deraf. Et Glas Viin opmuntrer Sindet, men drikker man formeget deraf, saa bliver Hiernen <seg type="komm" target="M3v-30"/>philosophisk og forstyrret. <w>Vin<pb ed="A" n="M4r" facs="M4r"/>den</w> driver Skibet frem, men blæser den forstærkt, kuldseyler man. Ingen Mad er sundere, end <seg type="komm" target="M4r-2"/>Meelgrød, men <seg type="komm" target="M4r-3"/>overlader man Maven med formeget deraf, kand man æde sig en Feber paa Halsen. Saaledes kand det være beskaffed med disse <seg type="komm" target="M4r-5"/>Philosophi, hvilke for megen Lærdom har giort <seg type="komm" target="M4r-5b"/>rasende.</p>
+				</sp>
+				<pb ed="SS" n="615"/>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Paa den Maade havde det været bedre at blive hiemme.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Jeg meener det samme: Men der seer jeg nogle Qvinder. De synes gandske menneskelige og <seg type="komm" target="M4r-11"/>tamme.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Vi maae holde os lidt tilside, for at see hvorledes de <seg type="komm" target="M4r-14"/>bær sig ad.</p>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc9" n="Scene 9">
+				<head><seg type="komm" target="M4r-15"/><hi rend="ant">Scen. 9.</hi></head>
+				<stage><seg type="komm" target="M4r-16"/>3 Qvinder. Sganarel. Leander.</stage>
+				<sp>
+					<speaker>1ste Qvinde.</speaker>
+					<p>Ach Søster! <seg type="komm" target="M4r-18"/>mig længes inderligen efter at see den fremmede Person, som nyeligen skal være hidkommen.</p>
+				</sp>
+				<sp>
+					<speaker>2den Qvinde.</speaker>
+					<p>Jeg <seg type="komm" target="M4r-21"/>min troe ikke mindre. Jeg har hørt, at det skal være en meget deylig Person.</p>
+				</sp>
+				<sp>
+					<speaker>3die Qvinde.</speaker>
+					<p>Jeg er allerede <seg type="komm" target="M4r-24"/>slagen af Kierlighed, førend jeg har faaet ham at see.</p>
+				</sp>
+				<sp>
+					<speaker>1ste Qvinde.</speaker>
+					<p>Min Stuepige, som har seet ham, siger at han er <seg type="komm" target="M4r-27"/>den anden Paris.</p>
+				</sp>
+				<pb ed="A" n="M4v" facs="M4v"/>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Er han Paris, saa vil jeg nok være Helene. Men see, der staaer jo <seg type="komm" target="M4v-3"/>et heelt Par. Det maa være de samme, som vi <seg type="komm" target="M4v-4"/>løbe gall efter.</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Det er uden Tvivl de samme; de see anderledes ud, end vore <seg type="komm" target="M4v-7"/>skimlede og forrustede Philosopher.</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Det maa du <seg type="komm" target="M4v-9"/>vel sige, Syster. See engang hvilket <seg type="komm" target="M4v-9a"/>net og kruset Haar den eene har.</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>See hvilken <seg type="komm" target="M4v-12"/>Taille.</p>
+				</sp>
+				<pb ed="SS" n="616"/>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>See, hvilke <seg type="komm" target="M4v-14"/>nætte Been den anden haver. Mine Tænder løber <seg type="komm" target="M4v-15"/>alt i Vand. Vi maae strax give os i Snak med dem.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Velkommen hid til <app type="tc"><lem><corr resp="ed">Staden,</corr></lem><rdg wit="A">Staden.</rdg><rdg resp="udg1758">Staden,</rdg><rdg resp="SS">Staden.</rdg></app> I gode Mænd! hvad er jer Ærende?</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Førend vi svare her til, maa vi først vide, om I ere Philosopher eller Mennesker.</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Jo vist ere vi Mennesker. Det maae vi jo <seg type="komm" target="M4v-24"/>endelig <app type="tc"><lem><corr resp="Rahbek">vide.</corr></lem><rdg wit="A">vide</rdg><rdg resp="Rahbek">vide.</rdg><rdg resp="SS">vide</rdg></app> Syster! de meene, at vi ere ikke Mennesker.</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Vi ere ikke alleene Mennesker. Men endogsaa <seg type="komm" target="M4v-27"/>tamme og tienstagtige Mennesker, <seg type="komm" target="M4v-28"/>helst mod Fremmede.</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p><seg type="komm" target="M4v-30"/>Det maae du vel sige to gange Syster. Ha ha – – hvilket underligt Spørsmaal, om vi ere Mennesker.</p>
+				</sp>
+				<pb ed="A" n="M5r" facs="M5r"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Got, saa maae jeg da sige jer dette, at vi ere hidkomne for at <seg type="komm" target="M5r-3"/>opspørge et got Herberg. Vi har til den Ende raadført os med nogle Philosopher. Men den eene svarede <seg type="komm" target="M5r-5"/>hen i Taaget. Den anden <seg type="komm" target="M5r-5b"/>begegnede mig med Graad, den 3die med Latter, og den fierde vilde see paa Himmelen hvad Svar han skulde give.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Kiære Venner! <seg type="komm" target="M5r-9"/>agter saadant ey. Deres Studeringer giør dem <seg type="komm" target="M5r-10"/>rasende. Det maae vi, desværre, dagligen <seg type="komm" target="M5r-10b"/>finde, som ere deres Hustruer.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Ere I deres Hustruer?</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p><seg type="komm" target="M5r-15"/>Ja, vi have Navnet deraf. Men – –</p>
+					<stage>(De sukke alle og græde.)</stage>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Hvad vil det sige, at I have alleene det blotte Navn?</p>
+				</sp>
+				<pb ed="SS" n="617"/>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p><seg type="komm" target="M5r-20"/>De fordybe sig saaledes i Studeringer, at de forsømme de meest magtpaaliggende Ting. De forglemme det fornemste, som er Ægteskabs Pligt. Er det ikke sandt, Syster?</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Jo alt for sandt.</p>
+					<stage>(De græde alle 3 bitterligen.)</stage>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Hvad meene I ved Ægteskabs Pligt?</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Siig du det Syster, som har været længst giftet.</p>
+				</sp>
+				<pb ed="A" n="M5v" facs="M5v"/>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Lad Margrethe sige det.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Lad Lucie sige det.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p><seg type="komm" target="M5v-6"/>Jeg <app type="tc"><lem wit="A">kand ey</lem><rdg resp="Liebenberg1876">kan <note type="last">(fulgt af Martensen)</note></rdg></app> slutte, hvad I meener kiære Børn.</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Hvis een og anden <seg type="komm" target="M5v-8"/>ærlig Fremmed Reysende ikke iblant gik os lidt til Haande, maatte vi reent forgaae: Er det ikke sandt Syster?</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Jo alt for sandt.</p>
+					<stage>(De græde væmodigen igien.)</stage>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Men tillade jeres Mænd, at I frit omgaaes med Fremmede.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Vore Mænd? dem kand vi <seg type="komm" target="M5v-17"/>endeligen narre, ligesaa meget <seg type="komm" target="M5v-18"/>som os lyster.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p><seg type="komm" target="M5v-20"/>Hvis saa er, saa skal I gode Madamer nok blive hiulpene.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p><seg type="komm" target="M5v-23"/>Jeg siger 1000de Tak.</p>
+				</sp>
+				<pb ed="SS" n="618"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Hr. Principal. Nu faaer jeg ret Lyst til at blive her. <seg type="komm" target="M5v-25"/>Det staaer nu kun paa at faae et got Herberg.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Vil de gode Herrer tage til Takke udi vores Huus, saa er det til Tieneste.</p>
+				</sp>
+				<pb ed="A" n="M6r" facs="M6r"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Men <seg type="komm" target="M6r-2"/>hendes Mand er jo ogsaa en Philosophus.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Ja, men ikke saadan een, som I omtaler. Han er Doctor udi Lægekonsten. De slags Folk studere kun <seg type="komm" target="M6r-5"/>maadelig; thi deres Praxis tillader dem ikke at læse ret meget. Jeg er forsikkret om, at I bliver vel imodtagne af min Mand; <seg type="komm" target="M6r-8"/>kommer kun ind med mig, saa skal den Sag snart blive afgiort.</p>
+					<stage>(Hun leder dem ind.)</stage>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc10" n="Scene 10">
+				<head><seg type="komm" target="M6r-11"/><hi rend="ant">Scen. 10.</hi></head>
+				<stage>De to andre Qvinder <app type="tc"><lem><corr resp="ed">(alleene.)</corr></lem><rdg wit="A">(alleene.</rdg></app></stage>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Hierte Syster! var det ikke to behagelige Personer? hvilken af dem syntes dig best om?</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p><seg type="komm" target="M6r-16"/>De stode mig begge an: <seg type="komm" target="M6r-16a"/>Allerhelst den, som havde det krusede Haar. Det var min Troe en Lekkerbidsken.</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p><seg type="komm" target="M6r-19"/>Mig synes nok saa got om den anden.</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>De syntes at være komne fra langt bortliggende Lande, det kunde man see paa deres Ansigt og <seg type="komm" target="M6r-23"/>Gebærder.</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Men hvad mon deres Ærende kand være?</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Deres Ærende kand ikke være andet, end andre <w>frem<pb ed="A" n="M6v" facs="M6v"/>mede</w> Folks, som <seg type="komm" target="M6v-1a"/>tænke her at finde Viisdom, <seg type="komm" target="M6v-1b"/>saasom Staden vrimler af Philosopher, og <seg type="komm" target="M6v-2"/>derudover kaldes Viisdommens Stad.</p>
+				</sp>
+				<pb ed="SS" n="619"/>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Da finde de ikke her, hvad de lede efter.</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Derudi har Syster ret; <seg type="komm" target="M6v-7"/>et er at være lærd, et andet at være klog. Hvad duer Lærdom til, naar den <seg type="komm" target="M6v-8"/>vanskaber Folk.</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>Min Mand er saa <seg type="komm" target="M6v-11"/>henrykt udi Studeringer, <seg type="komm" target="M6v-11b"/>at han tit sidder til Bords, uden at æde, saa at han staaer fastende op fra Bordet, indbildende sig at han er mæt.</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Min Mand har ikke mindre <seg type="komm" target="M6v-15"/>Grimacer.</p>
+				</sp>
+				<sp>
+					<speaker>Første Qvinde.</speaker>
+					<p>At vore Doctore udi Lægekonsten ere lidt <seg type="komm" target="M6v-17"/>maneerligere, end de andre, kommer vel deraf, at de studere ikke saa meget, og at de ere meere blandt Folk.</p>
+				</sp>
+				<sp>
+					<speaker>Anden Qvinde.</speaker>
+					<p>Det er sandt nok; Endeel af dem har dog ogsaa slemme <seg type="komm" target="M6v-22"/>Nøkker. <seg type="komm" target="M6v-22b"/>Mig længes derfor at vide, <seg type="komm" target="M6v-23"/>hvordan de Fremmede vil blive fornøyede med denne Doctor. Men jeg seer dem at komme ud igien. Jeg frygter derfor, at de har kun faaet <seg type="komm" target="M6v-25"/>slet Audience. Men vi maae hen at fortælle vore Naboesker, hvad vi har seet.</p>
+				</sp>
+					<stage>(<seg type="komm" target="M6v-27"/><hi rend="ant">Abeunt.</hi>)</stage>
+			</div>			
+			<div type="scene" xml:id="sc11" n="Scene 11">
+				<pb ed="A" n="M7r" facs="M7r"/>
+				<head><seg type="komm" target="M7r-1"/><hi rend="ant">Scen. 11.</hi></head>
+				<stage>Leander. Sganarel.</stage>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Denne Mand er meget <seg type="komm" target="M7r-4"/>maneerlig og høflig. Han  <seg type="komm" target="M7r-5"/>bød os ikke alleene sit Huus til, men endogsaa uden Betalning.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Nu begynder jeg at komme mig lidt igien; thi jeg mærker, at man <seg type="komm" target="M7r-8"/>og kand finde nogle lærde Folk <seg type="komm" target="M7r-8b"/>uden Grimacer.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>De andre af hans Medbrødre vare og alle civiliserede Mænd.</p>
+				</sp>
+				<pb ed="SS" n="620"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Jeg troer, at de ere alle Doctore udi Lægekonsten.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Ja vist. Vor <seg type="komm" target="M7r-16"/>tilkommende Vert sagde mig, at det var det heele Medicinske <seg type="komm" target="M7r-17"/>Facultet, som var samlet i hans Huus, <seg type="komm" target="M7r-18"/>og var det derfor, at han ikke kunde tale med os længer denne gang. <seg type="komm" target="M7r-19"/>Men der er en Ting, som jeg grubler over. Jeg kand ikke begribe, hvad det skulde betyde, at de beskuede os saa nøye, og at de hviskede <seg type="komm" target="M7r-21"/>derhos saa meget sammen.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Det kand vel ikke betyde andet, end at vor Skikkelse og Dragt er fremmet og usædvanlig for dem.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Det kand vel ogsaa være, men – – –</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ey Hr. I grubler over slet intet. Jeg for min Part er <pb ed="A" n="M7v" facs="M7v"/><seg type="komm" target="M7v-1"/>vel fornøyet med, at vi har faaet saa got Herberg. Men jeg seer, at Qvinderne ere <seg type="komm" target="M7v-2"/>alt borte.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Jeg kand tænke, at de ere hen at fortælle og tilkiendegive vor Ankomst for deres Naboersker.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Saa vidt jeg begriber, kand en Fremmed her giøre sin Lykke blant disse Doctorinder: Thi de ere alle meget <seg type="komm" target="M7v-8"/>tamme. Men der kommer vor Vertinde med en Flaske Viin.</p>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc12" n="Scene 12">
+				<head><hi rend="ant"><seg type="komm" target="M7v-10"/>Scen. 12.</hi></head>
+				<stage>Den 3die Qvinde. Leander. Sganarel.</stage>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>I gode Herrer! <seg type="komm" target="M7v-13"/>lader Tiden ikke være dem for lang. Saa snart min Mand bliver færdig med Facultetet, og hans <w>Med-Colleger</w> gaae bort, vil han have den Ære at tale videre med dem. <seg type="komm" target="M7v-16"/>Imidlertid har han befalet mig at holde dem med Selskab.</p>
+					<stage>(Hun skiænker et <app type="tc"><lem><corr resp="udg1758">Glas, som</corr></lem><rdg wit="A">Glas som,</rdg><rdg resp="udg1758">Glas, som</rdg></app> hun giver Leander, og derpaa <seg type="komm" target="M7v-19"/>sukker hun, og græder.)</stage>
+				</sp>
+				<pb ed="SS" n="621"/>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Hvad ligger <seg type="komm" target="M7v-21"/>hende paa Hierte, Madame, efterdi hun sukker saa dybt.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel <stage>(sagte.)</stage></speaker>
+					<p>Jeg er vis paa, at hun fremkommer med en Elskovs Erklæring.</p>
+				</sp>
+					<stage>(Hun skiænker et andet Glas i for Sganarel, sukker og græder ligeledes.)</stage>				
+				<pb ed="A" n="M8r" facs="M8r"/>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Min hierte Madame! hun maae tilkiendegive, hvad som har bragt hende udi den Bedrøvelse.</p>
+					<stage>(Hun sukker og græder igien.)</stage>
+					<p>Forklar os da Aarsagen. Jeg brænder af Begiærlighed efter at vide saadant.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>I gode Herrer! I ere komne udi et meget <seg type="komm" target="M8r-8"/>honet Huus.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p><seg type="komm" target="M8r-10"/>Derom er jeg forsikkret.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Min Huusbond <seg type="komm" target="M8r-12a"/>passerer for en af de oprigtigste og <seg type="komm" target="M8r-12b"/>tienstagtigste Mænd udi Staden.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Man tvivler ikke derom Madam.</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Men <seg type="komm" target="M8r-17a"/>saasom han <seg type="komm" target="M8r-17b"/>tillige med sparer hverken Omkostning eller Umage, naar han <seg type="komm" target="M8r-18"/>seer sig derved at kunde erhverve nøyere Kundskab i Medicinen, og at forbedre <seg type="komm" target="M8r-19"/>Konsten, saa har han, da han saae de gode Herrer, og betragtede <seg type="komm" target="M8r-21"/>deres rare Skabning, ikke udaf mindste Ondskab; men allene for at <seg type="komm" target="M8r-22"/>give Medicinen noget Lys, besluttet at lade dem begge <seg type="komm" target="M8r-23"/>Anatomere.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Hvad vil det sige: Anatomere.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Det vil sige Sganarel: At lade din Mave <app type="tc"><lem><corr resp="ed1758">opskiære.</corr></lem><rdg wit="A">opskiære?</rdg><rdg resp="SS">opskiære?</rdg></app></p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p><app type="tc"><lem><corr resp="ed">Hvad,</corr></lem><rdg wit="A">Hvad</rdg><rdg resp="udg1758">Hvad? <note type="last">(fulgt af udg1788 Rahbek m.fl.)</note></rdg><rdg resp="SS">Hvad</rdg></app> at lade min Mave opskiære?</p>
+				</sp>
+				<pb ed="A" n="M8v" facs="M8v"/>
+				<pb ed="SS" n="622"/>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Jeg kand forsikkre, at det skeer ikke af nogen Ondskab; thi han har stor <seg type="komm" target="M8v-3"/>Godhed for Fremmede.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p><seg type="komm" target="M8v-5"/>Han maa have Diævelen, og ikke Godhed: Naar han vil skiære Maven op paa en ærlig Karl. <seg type="komm" target="M8v-6"/>Vi har vel reyset Hr. Principal.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Men, er det hendes Alvor, Madame, eller skiemter hun med os?</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Det er gandske fast besluttet. Jeg var <seg type="komm" target="M8v-12"/>færdig at daane, da jeg hørte det.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Men kand hun ikke ved sin Forbøn afvende saadan Ulykke?</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p><seg type="komm" target="M8v-17a"/>Ney, Tingen er besluttet <seg type="komm" target="M8v-17b"/>efter de fleeste stæmmer udi Facultetet. Man veed at Docterne   <seg type="komm" target="M8v-18"/>aldrig staae fra deres Meening, helst, naar en Ting er besluttet af et heelt Facultet.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel <stage>(grædende.)</stage></speaker>
+					<p>Er her da ingen <seg type="komm" target="M8v-21"/>Byefogd, som man kand appellere til?</p>
+				</sp>
+				<sp>
+					<speaker>Tredie Qvinde.</speaker>
+					<p>Byefogden selv er <seg type="komm" target="M8v-23"/>Stads Physicus, hvilken aldrig forhindrer Doctores udi et Foretagende, som <seg type="komm" target="M8v-24"/>sigter til at oplyse Anatomien.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Vi har vel reyst Herre.</p>
+				</sp>
+				<sp>
+					<speaker>Leander <stage>(paa Knæ.)</stage></speaker>
+					<p>Ach Madame, tænk paa Midler at redde os uskyldige Mennesker.</p>
+				</sp>
+				<pb ed="A" n="N1r" facs="N1r"/>
+				<sp>
+					<speaker>Sganarel <stage>(ogsaa paa Knæ.)</stage></speaker>
+					<p><app type="tc"><lem><corr resp="ed">Ach!</corr></lem><rdg wit="A">Ach?</rdg></app> Madame <seg type="komm" target="N1r-2"/>forbarmer jer over mig. Jeg har kun en eeneste Mave, som jeg umueligen kand undvære.</p>
+				</sp>
+				<sp>
+					<speaker>3die Qvinde.</speaker>
+					<p>Hører kiære Venner! hvis I vil tage mig og mine Søstre, som ere gifte til 2de Philosopher med jer, og føre os bort til <seg type="komm" target="N1r-7"/>jer <w>Fæderne-Land</w>, vil vi give os paa <pb ed="SS" n="623"/>Flugten sammen. <seg type="komm" target="N1r-8"/>Staaer kun op, og forbliver her, indtil jeg bringer dem hid: thi de ere ligesaa kiæde af deres Mænd, som jeg er af min.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Bliv da ikke længe borte Madame.</p>
+				</sp>
+					<stage>(hun gaaer.)</stage>				
+			</div>
+			<div type="scene" xml:id="sc13" n="Scene 13">
+				<head><seg type="komm" target="N1r-14"/><hi rend="ant">Scen. 13.</hi></head>
+				<stage>Leander. Sganarel.</stage>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Det var et Fandens Indfald, da vi <seg type="komm" target="N1r-17"/>toge os for at fæste Boelig i denne Philosophiske Stad.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Man lærer heraf, at <seg type="komm" target="N1r-20"/>det er ikke alt Guld, som glimrer; Jeg tvivler ikke paa, at Staden jo vrimler af lærde Mænd: Men man mærker ikke, at deres Levnet svarer til deres Lærdom; <seg type="komm" target="N1r-23"/>thi mange læse alleene for at blive <app type="tc"><lem><corr resp="ed">lærdere</corr></lem><rdg wit="A">lærde re <note type="last">(bindestreg mangler ved linjeskift)</note></rdg></app>, men ey for at blive klogere.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p><seg type="komm" target="N1r-26"/>Herren maae sige, at de læse alleene for at blive galne. Saadan Stad burte oprykkes med Roed, og alle dens Beboere ødelegges.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Du maa heller sige <seg type="komm" target="N1r-30"/>Aarelades, eller sættes i <seg type="komm" target="N1r-30b"/>Daareki<pb ed="A" n="N1v" facs="N1v"/>sten; thi det er just ikke af Ondskab; men af formegen Lærdom, de ere <seg type="komm" target="N1v-2"/>rasende.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Er det ikke Ondskab at ville skiære Maven op paa <seg type="komm" target="N1v-4"/>got Folk. <seg type="komm" target="N1v-5"/>Mig synes, at jeg føler allereede Kniven udi min Mave.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Jeg <seg type="komm" target="N1v-7"/>bekiender, at saadanne Folk burde <seg type="komm" target="N1v-8"/>udrøddes: men de andre fortiene alleene at <seg type="komm" target="N1v-9"/>belees. Jeg mærker ellers, at disse Philosophi maae være deelte udi adskillige Secter. Den, som græd, maae følge <seg type="komm" target="N1v-11"/>Heracliti, den som loe, <seg type="komm" target="N1v-12"/><app type="tc"><lem><corr resp="udg1758">Democriti</corr></lem><rdg wit="A">af Democriti</rdg><rdg resp="udg1758">Democriti<note type="last">(fulgt af udg1788 Rahbek Martensen Boye Roos)</note></rdg><rdg resp="Liebenberg1870">[maa være] af Democriti</rdg><note> (jf. komm.)</note></app> Sect, og <app type="tc"><lem wit="A">at den</lem><rdg resp="udg1758 udg1788 Rahbek Boye">den</rdg></app> som tvivlede om alting, maae være en <seg type="komm" target="N1v-13"/>Scepticus.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Hvem af disse kand man <seg type="komm" target="N1v-15"/>holde for at være meest gall.</p>
+				</sp>
+				<pb ed="SS" n="624"/>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>De ere alle lige galne, skiøndt hver paa sin Maade. Qvinderne maae vi derimod prise.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Ja vist! i sær om de vil holde deres løfte.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Jeg lever udi det Haab: thi jeg merker at de leve ikke fornøyede med disse <seg type="komm" target="N1v-24"/>Philosophi.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Gid de ville komme noget snart; thi hvert Øyeblik er mig saa <app type="tc"><lem><corr resp="udg1758">langt</corr></lem><rdg wit="A">lang</rdg><rdg resp="1758 1788">langt </rdg></app>, som en Dag.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Taalmodighed, Sganarel! vi have intet andet at <seg type="komm" target="N1v-29"/>forlade os paa, end deres Hielp. <w>Qvinde-List</w> er stor, og der behøves ikke megen Konst til at narre Mænd, som gaae <seg type="komm" target="N1v-32"/>hen i Taaget.</p>
+				</sp>
+				<pb ed="A" n="N2r" facs="N2r"/>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Hvis jeg lykkeligen kommer udaf denne Fare, skal jeg <seg type="komm" target="N2r-3"/>beflitte mig paa, at forfølge alle Philosopher.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Ikke alle, men dem alleene, som giøre Misbrug af Philosophien; thi ligesom nogle Vanskabes af dens Misbrug, saa forbedres og poleres andre af dens rette Brug. Men der seer jeg de gode Qvinder komme.</p>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc14" n="Scene 14">
+				<head><seg type="komm" target="N2r-9"/><hi rend="ant">Scen. 14.</hi></head>
+				<stage>Leander. Sganarel. de 3 Qvinder (med smaa Skrine under Armene) <seg type="komm" target="N2r-12a"/>item <seg type="komm" target="N2r-12b"/>Polyphemus.</stage>
+				<sp>
+					<speaker>3die Qvinde.</speaker>
+					<p>Tiden har maaskee faldet dem lang I gode Venner.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Vi have talt hvert Minut.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Og jeg hvert Øyeblik.</p>
+				</sp>
+				<pb ed="SS" n="625"/>
+				<sp>
+					<speaker>3die Qvinde.</speaker>
+					<p>Nu stoler vi paa jeres Løfter, at I ikke forlader os, naar I komme i Sikkerhed.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Vi skal derfore <seg type="komm" target="N2r-23"/>lade see taknemmelighed, saa længe, som vi leve.</p>
+				</sp>
+				<pb ed="A" n="N2v" facs="N2v"/>
+				<sp>
+					<speaker>3die Qvinde.</speaker>
+					<p>Disse Skrine, som ere fulde af Guld og kostbare Steene, skal vi føre med os.</p>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<p>Nu har ieg min Aande igien, og føler ingen Smerte i Tarmene meere.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Men I gode Fruer? Jeg frygter at jere Mænd vil strax <seg type="komm" target="N2v-9"/>efter sætte os, og at det sidste kand blive værre, end det første.</p>
+				</sp>
+				<sp>
+					<speaker>3die Qvinde.<stage> (<seg type="komm" target="N2v-11"/>viisende paa Polyphemus.)</stage></speaker>
+					<p>Vi har i Leedtog med os denne <seg type="komm" target="N2v-12"/>forslagne Person, som stedse gaaer os til Haande, naar vi vil narre disse Philosopher.</p>
+				</sp>
+				<sp>
+					<speaker>Polyphemus.</speaker>
+					<p>Jeg skal nok ved en <seg type="komm" target="N2v-15a"/>Invention <seg type="komm" target="N2v-15b"/>hindre, at I ikke skal blive <seg type="komm" target="N2v-16"/>eftersatte.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Men kiære! hvori bestaaer den Invention.</p>
+				</sp>
+				<sp>
+					<speaker>Polyphemus.</speaker>
+					<p>Det kand jeg ikke sige. <seg type="komm" target="N2v-21"/>Forlader jer kun paa mig, og <seg type="komm" target="N2v-22"/>slaaer all Bekymring af Hovedet. Skiuler jer her først ved Hiørnet, indtil Stormen er forbi.</p>
+				</sp>
+					<stage>(de skiule sig i en <app type="tc"><lem><corr resp="ed">Krog.</corr></lem><rdg wit="A">Krog,</rdg></app>)</stage>
+			</div>
+			<div type="scene" xml:id="sc15" n="Scene 15">
+				<head><seg type="komm" target="N2v-25"/><hi rend="ant">Scen. 15.</hi></head>
+				<stage><seg type="komm" target="N2v-26"/>Doctoren, med 3 Philosopher <lb/>(som kommer ind een efter anden.)</stage>
+				<sp>
+					<speaker>Docteren <stage>(i fuld Løb.)</stage></speaker>
+					<p>Hvad for en Ulykke er dette? Jeg seer ikke de fremmede <pb ed="A" n="N3r" facs="N3r"/> meer, ey heller min Hustrue, og mit Skrin er opbrudt. Hey! Hey! hvor er I henne? Alle mine Lemmer zittre og bæve. Min Hustru maa have <seg type="komm" target="N3r-3"/>aabenbaret dem Facultetets Forsæt, og maae <pb ed="SS" n="626"/>have taget Flugten med dem. Ach Himmel! hvilken ulyksalig Hændelse. Jeg kand sige, at jeg aldrig har haft større Begiærlighed til at anatomere nogen, end disse tvende Personer <seg type="komm" target="N3r-7"/>besynderlig den med Kaaben; <app type="tc"><lem><corr resp="ed">thi</corr></lem><rdg wit="A">ihi</rdg></app> det kom mig for, <seg type="komm" target="N3r-8"/>at hands indvortes Skabning vilde erhverve stort Lys udi Anatomien.</p>
+				</sp>
+				<sp>
+					<speaker>1ste Philosoph. <stage>(i fuld løb.)</stage></speaker>
+					<p>A, a, a, <seg type="komm" target="N3r-11"/>jeg er om en Hals, mit <w>Penge-Skrin</w> er borte, og min Hustrue er ingen Stæds at finde.</p>
+				</sp>
+				<sp>
+					<speaker>2den Philosoph. <stage>(ligeledes.)</stage></speaker>
+					<p>Hey, hey, <seg type="komm" target="N3r-14"/>hielper alle, som hielpe kand, mit Skab er brudt, og mit <seg type="komm" target="N3r-15"/>Liggendefæe, som var mig kiærere end mit Liv, er borte. Ach! Jeg elendige Mand, hvis jeg ikke faaer min Skat igien, hænger jeg mig af Sorg.</p>
+				</sp>
+				<sp>
+					<speaker>3die Philosoph <stage>(kommer løbende ind.)</stage></speaker>
+					<p>Hey, hey, hey! <seg type="komm" target="N3r-19"/>holder paa Tyven. Jeg er bestaalen, alle mine <seg type="komm" target="N3r-20"/>Leddikker ere aabne og den hvorudi Guld og Klenodier laae forvaret, er borte. Hvor er min <app type="tc"><lem><corr resp="ed">Hustrue,</corr></lem><rdg wit="A">Hustrue</rdg><rdg resp="udg1758 udg1788">Hustrue? <note type="last">(fulgt af senere udgivere)</note></rdg><rdg resp="SS">Hustrue</rdg></app> her er <app type="tc"><lem><corr resp="ed">ingen</corr></lem><rdg wit="A">iugen</rdg></app> Tid at bortgive. Jeg maa løbe I fuld Galop til Stads <app type="tc"><lem><corr resp="ed">Porten</corr></lem><rdg wit="A">Porteu</rdg></app>.</p>
+					<stage>(han render de andre omkuld. De Reyse sig op igien slaaer Hænderne sammen, huje og skrige.)</stage>
+					<p><seg type="komm" target="N3r-26"/>Hvad fattes jer kiære Brødre?</p>
+				</sp>
+				<sp>
+					<speaker>Docteren.</speaker>
+					<p><seg type="komm" target="N3r-28"/>Tvende fremmede Gautyve, som nyeligen vare komne i mit Huus, ere bortløbne med min <app type="tc"><lem><corr resp="ed">Hustrue</corr></lem><rdg wit="A">Hustrne</rdg></app> og mine Penge.</p>
+				</sp>
+				<sp>
+					<speaker>3die Philosoph.</speaker>
+					<p>Det er gaaet mig ligeledes.</p>
+				</sp>
+				<pb ed="A" n="N3v" facs="N3v"/>
+				<sp>
+					<speaker>Docteren.</speaker>
+					<p>Det er ikke den første Gang vore Hustruer har <seg type="komm" target="N3v-2"/>skuffet os. Vi maae strax kalde paa <seg type="komm" target="N3v-3"/><w>Byens-Folk</w>, for at <seg type="komm" target="N3v-3b"/>eftersætte dem.</p>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc16" n="Scene 16">
+				<head><seg type="komm" target="N3v-5"/><hi rend="ant">Scen. 16.</hi></head>
+				<stage>Polyphemus og de forrige.</stage>
+				<stage>Polyphemus. <lb/>(kommer ind nedkastende sig <seg type="komm" target="N3v-8"/><w>Næse-gruus</w>.)</stage>
+				<sp>
+					<speaker>Docteren.</speaker>
+					<p>Det er jo vor gode Ven Polyphemus, <seg type="komm" target="N3v-10"/>hvad Ulykke mon ham er vederfaren? han er maaskee ogsaa bestaalen. Hør Polyphemus hvad skader dig?</p>
+				</sp>
+				<pb ed="SS" n="627"/>
+				<sp>
+					<speaker>Polyphemus.</speaker>
+					<p>Ach hvilken Hændelse? hvilket Syn?</p>
+				</sp>
+				<sp>
+					<speaker>Docteren.</speaker>
+					<p><seg type="komm" target="N3v-16"/>Stat op, kiender du os ikke?</p>
+				</sp>
+				<sp>
+					<speaker>Polyphemus.</speaker>
+					<p>Ach hvilket forunderligt Syn, som saaledes har <app type="tc"><lem><corr resp="udg1758">fordunklet</corr></lem><rdg wit="A">fordunket</rdg><rdg resp="udg1758">fordunklet</rdg></app> mine Øyen, at jeg fast ikke kand <seg type="komm" target="N3v-19"/>skille noget.</p>
+				</sp>
+				<sp>
+					<speaker>Docteren.</speaker>
+					<p>Siig os da, hvad du har <app type="tc"><lem><corr resp="ed">seet.</corr></lem><rdg wit="A">seet <note>fulgt af ulæselig type i</note></rdg></app></p>
+				</sp>
+				<sp>
+					<speaker>Polyphemus.</speaker>
+					<p>For et Øyeblik siden; Da Jeg gik ud paa Marken, saae jeg tvende Personer i usædvanlige klæder, havende 3 <pb ed="A" n="N4r" facs="N4r"/><seg type="komm" target="N4r-2"/>Matroner med sig. De samme vinkede ad mig, og, da jeg kom dem nær, sagde den eene: Gak strax ind udi Staden, og forkynd, hvad du har seet. Jeg er <seg type="komm" target="N4r-3"/>Jupiter, og denne <app type="tc"><lem><corr resp="udg1758">Person</corr></lem><rdg wit="A">Person,</rdg><rdg resp="udg1758">Person</rdg><rdg resp="SS">Person,</rdg></app> er <seg type="komm" target="N4r-4"/>Mercurius. Vi have paataget os Menneskelig Skikkelse, og ere nedsteegne af Himmelen for at bortføre disse 3 dydige Matroner, og at sætte dem <seg type="komm" target="N4r-6"/>blant Gudindernes Tall, <seg type="komm" target="N4r-7"/>saasom jeg har holdet dem for gode at leve længere blandt syndige Mennesker: videre sagde han, <seg type="komm" target="N4r-8"/>forehold deres Mænd, at de have syndet mod Himmelen ved de haarde Ord, som de have ladet falde mod den øverste blant Guderne, og at saadan Synd maae saaledes forsones, at de strax forføye sig hver Hiem til sit Huus, at de der udi 3 Dage faste og bede, og at de siden Jupiter og <seg type="komm" target="N4r-13"/>Mercurio til Ære stifte en aarlig Fæst, som skal føre <app type="tc"><lem><corr resp="ed">Navn</corr></lem><rdg wit="A">Ndvn <note type="last">(med antikva-d)</note></rdg></app> <app type="tc"><lem><corr resp="ed">af</corr></lem><rdg wit="A">nf</rdg></app> <w>Bortførelsens-Fæst</w>. Da hand dette havde udtalet, begyndte alle at skinne som Solen, og foer op igiennem Luften.</p>
+				</sp>
+				<sp>
+					<speaker><stage>Alle Philosophi løfte Hænderne op og raabe.</stage></speaker>
+					<p><seg type="komm" target="N4r-18"/><hi rend="ant">O Magnum Miraculum.</hi></p>
+				</sp>
+				<sp>
+					<speaker>Polyphemus.</speaker>
+					<p>Jeg kand endnu see et <seg type="komm" target="N4r-20"/>Skimt af dem. See engang op imod Himlen paa den høyre Side, hvor jeg peger.</p>
+				</sp>
+				<sp>
+					<speaker>Een Philosoph <stage>(grædende.)</stage></speaker>
+					<p>Vist nok er det, jeg seer ogsaa et glimt deraf. Kiære Brødre, lader os strax gaae Hiem, for at efterleve Himmelens Befaling.</p>
+					<stage>(de falde paa Knæe og synge.)</stage>
+				</sp>
+				<pb ed="SS" n="628"/>
+				<sp>
+					<speaker>1ste Philosoph.</speaker>
+					<p><seg type="komm" target="N4r-28"/><hi rend="ant">O! felices animæ, vivæ in coelum raptæ.</hi></p>
+				</sp>
+				<sp>
+					<speaker><seg type="komm" target="N4r-29"/>Tutti.</speaker>
+					<p><seg type="komm" target="N4r-30"/><hi rend="ant">Orate pro nobis.</hi></p>
+				</sp>
+				<pb ed="A" n="N4v" facs="N4v"/>
+				<sp>
+					<speaker>2den Philosoph.</speaker>
+					<p><seg type="komm" target="N4v-2"/><hi rend="ant">Qvas dignatus Jupiter reddere immortales.</hi></p>
+				</sp>
+				<sp>
+					<speaker>Tutti.</speaker>
+					<p><hi rend="ant">Orate pro nobis.</hi></p>
+				</sp>
+				<sp>
+					<speaker>3die Philosoph.</speaker>
+					<p><seg type="komm" target="N4v-6"/><hi rend="ant">O! novæ cœlicolæ! Lucia, Margaretha, cum dilecta Agatha.</hi></p>
+				</sp>
+				<sp>
+					<speaker>Tutti.</speaker>
+					<p><hi rend="ant">Orate pro nobis.</hi></p>
+					<stage>(de reyse sig derpaa og gaae bort.)</stage>
+				</sp>
+			</div>
+			<div type="scene" xml:id="sc17" n="Scene 17">
+				<head><seg type="komm" target="N4v-11"/><hi rend="ant">Scen. 17.</hi></head>
+				<stage>Polyphemus. Leander. Sganarel. de 3 Qvinder.</stage>
+				<sp>
+					<speaker>Polyphemus.</speaker>
+					<p><seg type="komm" target="N4v-15"/>Kommer nu frem igien. I mærker af dette Puds, at man kand narre disse Spræng Lærde, og <seg type="komm" target="N4v-16"/>i Studeringer henrykte Karle, ligesaa meget som man vil.</p>
+				</sp>
+				<sp>
+					<speaker>Leander.</speaker>
+					<p>Naar denne Sag bliver oplyset, vil der blive stor <seg type="komm" target="N4v-19"/>Allarm: thi det kand dog ikke længe <seg type="komm" target="N4v-20"/>dølges.</p>
+				</sp>
+				<sp>
+					<speaker>Polyphemus.</speaker>
+					<p>Naar vi alle ere komne i Sikkerhed, maae alting gierne aabenbares. Da vil <seg type="komm" target="N4v-23"/>den eenes Latter nok <seg type="komm" target="N4v-23a"/>sagtes, <seg type="komm" target="N4v-23b"/>den anden vil faae <seg type="komm" target="N4v-24"/>Ret Aarsag at græde, og <seg type="komm" target="N4v-24a"/>den 3die vil ikke nægte <app type="tc"><lem><corr resp="ed">Sandserne</corr></lem><rdg wit="A">San dserne</rdg></app> meer.</p>
+				</sp>
+				<stage>(de takke ham alle og derpaa synge efterfølgende <seg type="komm" target="N4v-26"/>Viise.) </stage>
+				<pb ed="A" n="N5r" facs="N5r"/>
+				<pb ed="SS" n="629"/>
+				<sp>
+					<speaker><app type="var"><lem wit="A">1ste Qvinde</lem><rdg wit="Thielo1752">Philosophens Kone</rdg></app>.</speaker>
+					<lg>
+						<l>Farvel du Philosophisk Land</l>
+						<l rend="indent">Jeg Ryggen til dig <app type="tc"><lem><corr resp="udg1758">vender,</corr></lem><rdg wit="A">vender</rdg><rdg resp="udg1758">vender,</rdg><rdg resp="SS">vender</rdg></app> </l>
+						<l><seg type="komm" target="N5r-4"/>Paa andet Stæd en bedre Mand</l>
+						<l rend="indent">Jeg falder nok i <app type="tc"><lem><corr resp="udg1758">Hænder,</corr></lem><rdg wit="A">Hænder</rdg><rdg resp="udg1758">Hænder,</rdg><rdg resp="SS">Hænder</rdg> </app></l>
+						<l><seg type="komm" target="N5r-6"/>Hvor findes Folk, skiønt <app type="var"><lem wit="A">mindre</lem><rdg wit="Thielo1752">ej saa</rdg></app> lærd</l>
+						<l rend="indent"><seg type="komm" target="N5r-7"/>Men ey deslige Haser,</l>
+						<l>Hvor Koner er i <app type="var"><lem wit="A">meere</lem><rdg wit="Thielo1752">bedre</rdg></app> værd,</l>
+						<l rend="indent"><seg type="komm" target="N5r-9"/><app type="var"><lem wit="A">Ey</lem><rdg wit="Thielo1752">End</rdg></app> <app type="tc"><lem wit="A">pleyes</lem><rdg resp="Liebenberg">plages</rdg></app> med Grimacer.</l>
+					</lg>
+				</sp>
+				<sp>
+					<speaker><app type="var"><lem wit="A">2den Qvinde</lem><rdg wit="Thielo1752">2. Philosophens Kone</rdg></app>.</speaker>
+					<lg>
+						<l>Democritus vil meer ey lee</l>
+						<l rend="indent">Men heller fælde Taare</l>
+						<l>Saa tit, som denne Hændelse</l>
+						<l rend="indent"><seg type="komm" target="N5r-14"/>Han Sindet stiller <app type="tc"><lem><corr resp="Liebenberg">fore.</corr></lem><rdg wit="A">fore</rdg><rdg resp="Liebenberg">fore.</rdg><rdg resp="SS">fore</rdg> </app></l>
+						<l><seg type="komm" target="N5r-15"/>Med føye Heraclitus vil</l>
+						<l rend="indent">Herefter stedse <app type="tc"><lem><corr resp="ed">græde,</corr></lem><rdg wit="A">græde</rdg><rdg resp="SS">græde</rdg> </app></l>
+						<l>Thi dette store <seg type="komm" target="N5r-17"/><w>Skue-Spill</w></l>
+						<l rend="indent">Vil Skiæg og Kinde væde.</l>
+					</lg>
+				</sp>
+				<sp>
+					<speaker><app type="var"><lem wit="A">3die Qvinde</lem><rdg wit="Thielo1752">3. Philosophens Kone</rdg></app>.</speaker>
+					<lg>
+						<l>Den klare Sandhed <seg type="komm" target="N5r-20"/>Pyrrho før</l>
+						<l rend="indent">Ey kunde see med <app type="tc"><lem><corr resp="Martensen">Brille,</corr></lem><rdg wit="A">Brille</rdg><rdg resp="Martensen">Brille,</rdg><rdg resp="SS">Brille</rdg> </app></l>
+						<l><seg type="komm" target="N5r-22"/>Sig neppe nu fordriste tør</l>
+						<l rend="indent">Med <app type="tc"><lem><corr resp="udg1758">Tvivlsmaal</corr></lem><rdg wit="A">Tvilvsmaal</rdg><rdg resp="udg1758">Tvivlsmaal</rdg></app> Folk at drille,</l>
+						<l><seg type="komm" target="N5r-24"/>Vor Stoicus og ikke her</l>
+						<l rend="indent">Sin Lærdom vil <app type="tc"><lem><corr resp="Rahbek">forfægte,</corr></lem><rdg wit="A">forfægte</rdg><rdg resp="Rahbek">forfægte,</rdg><rdg resp="SS">forfægte</rdg></app></l>
+						<l>Ey mod Affecter tale meer</l>
+						<l rend="indent">Og Passioner nægte.</l></lg>
+						<lg><l><app type="var"><lem>Med <note type="last">uden blank linje i A; de sidste 8 linjer, <q>Med ... Kryster,</q> er udeladt hos Thielo)</note></lem></app> mine Søstre <seg type="komm" target="N5r-28"/>gandske vist</l>
+						<l rend="indent"><seg type="komm" target="N5r-29"/>Jeg skulde og formeene</l>
+						<l><seg type="komm" target="N5r-30"/>At <w>Stierne-Kigren</w> denne List</l>
+						<l rend="indent"><app type="tc"><lem><corr resp="ed">Kand</corr></lem><rdg wit="A">Kaud</rdg></app> og til Lærdom tiene.</l>
+						<l>Thi <seg type="komm" target="N5r-32"/>om paa Himlen hand er klog</l>
+						<l rend="indent">Sig af sin Viisdom <app type="tc"><lem><corr resp="udg1758">bryster,</corr></lem><rdg wit="A">bryster</rdg><rdg resp="udg1758">bryster,</rdg><rdg resp="SS">bryster</rdg></app></l>
+						<l>Saa herpaa Jorden er han dog</l>
+						<l rend="indent">En Nar, en Stymper, Kryster.</l>
+					</lg>
+				</sp>
+				<pb ed="A" n="N5v" facs="N5v"/>
+				<pb ed="SS" n="630"/>
+				<sp>
+					<speaker>Leander.</speaker>
+					<lg>
+						<l>Her <app type="var"><lem wit="A">et</lem><rdg wit="Thielo1752">man</rdg></app> Exempel viise kand</l>
+						<l rend="indent">Og haver lagt for Dagen</l>
+						<l><seg type="komm" target="N5v-4"/>At Skiæg og Kaabe hos en Mand</l>
+						<l rend="indent">Giør meget lidt til Sagen.</l>
+					</lg>
+				</sp>
+				<sp>
+					<speaker>Sganarel.</speaker>
+					<lg>
+						<l>Jeg med jer andre stemmer i</l>
+						<l rend="indent">Og vil min Sorg begrave</l>
+						<l>Og takker Himlen 10 Gang ti</l>
+						<l rend="indent">At jeg beholdt min Mave.</l>
+					</lg>
+				</sp>
+			</div>
+			</div>
+		</body>
+	</text>
+</TEI>

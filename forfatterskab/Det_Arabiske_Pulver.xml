@@ -1,0 +1,2023 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="Arab">Det Arabiske Pulver</title>
+                <author>Ludvig Holberg</author>
+                <editor>Karen Skovgaard-Petersen</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace><ref/></pubPlace>             
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Hans Mikkelsens Comoedier. Sammenskrefne for Den Danske Skue-Plads. Anden Tome</title>, <date>1724</date>. Det Kgl. Bibliotek, M, 37818, 12mo.</witness>
+                    <witness xml:id="a">Eftertryk af A, 1725.</witness>
+                    <witness xml:id="B"><title key="none">Den Danske Skue-Plads</title>, Anden Tome, 1731. Det Kgl. Bibliotek, M, 37823, 8vo.</witness>
+                    <witness xml:id="C">Optryk af B, 1742.</witness>
+                    <witness xml:id="udg1758"><title key="none">Den Danske Skue-Plads, Anden Tome</title>, s.a. [1758]. 2. høpffnerske optryk.</witness>
+                    <witness xml:id="udg1788"><title key="none">Den Danske Skue-Plads, Anden Tome</title>, s.a. [1788]. 3. høpffnerske optryk.</witness>	
+                    
+                    <witness xml:id="Rahbek"><title key="none">Ludvig Holbergs udvalgte Skrifter</title>, udg. K.L. Rahbek, bd. 2, 1804.</witness>
+                    <witness xml:id="Boye"><title key="none">Den danske Skueplads eller Ludvig Holbergs samtlige Comoedier i eet Bind</title>, udg. A.E. Boye, 1843.</witness>
+                    <witness xml:id="Lange">....</witness>
+                    <witness xml:id="Liebenberg"><title key="none">Ludvig Holbergs Comedier</title>, udg. F.L. Liebenberg, bd. 2,1847.</witness>
+                    <witness xml:id="Martensen"><title key="none">Holbergs Komedier</title>, udg. Julius Martensen, bd. 8, 1901.</witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg.  Carl S. Petersen, bd. 3, 1915. NB: Afvigelser fra udgaven <title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>                
+                    <witness xml:id="Roos"><title key="none">Holberg, Comoedierne og de populære Skrifter. Festudgaven</title>, 1922-25; 
+                        <title key="none">Comoedierne</title>, udg. Carl Roos, bd. 1, 1923.</witness>
+                    <witness xml:id="Brix"><title key="none">Ludvig Holbergs Comoedier</title>, udg. Hans Brix, bd. 1, 1930 (2. udg.).</witness>                    
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dan">dansk</language>
+                
+            </langUsage>
+        </profileDesc>      
+        <revisionDesc>
+            <change when="2016-05-09" who="fgj">tekstrettelse N2v, l. 3, Poet. &gt; Poet tilbagekaldt</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-01-03" who="fgjksp">bemærkninger anført med # kigget igennem. Enkelte mangler (især vedr. de arabiske vrøvleord). Tjek også det tysk-danske blandingssprog</change>
+            <change when="2013-01-03" who="fgj">færdig med kontrollæsning af teksten; bemærkninger anført med #</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>       
+            <change when="2012-12-05" who="ksp">emendering genoptaget. B (1731) tjekkes løbende.  a C kun anført efter SS. Skal tjekkes!!</change>
+            <change when="2012-08-24" who="amj">indsat faksimilereferencer</change>
+            <change when="2012-08-23" who="fgj">indsat faksimileliste</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+            <change when="2012-01-13" who="ksp">emendering påbegyndt. B (1731) tjekkes løbende.  a C kun anført efter SS. Skal tjekkes!!</change>
+            <change when="2011-11-10" who="fgj">ændret div-attributter id til xml:id og toc til n</change>
+            <change when="2011" who="rbn">færdig med kommentarreferencer</change>
+            <change when="2011-09-06" who="rbn">indsat nye div-værdier</change>
+            <change when="2011-08-12" who="fgj">(kopi af) filen lagt tilbage i filebase/holberg/tekster, så Rune kan indsætte kommentarreferencer</change>
+            <change when="2011-02-24" who="fgj">forskellig oprydning i fejlkodning; placeringer af stage dog ikke gået efter</change>
+            <change when="2010-09-11" who="FGJ">omdøbt fra det_arabiske_pulver.xml til Det_Arabiske_Pulver.page og lagt i repositorium/plone</change>
+            <change when="2010-06-24" who="CZ">tilrettet mhp. generering af pdf til komediefolket</change>
+        </revisionDesc>
+    </teiHeader>
+
+<facsimile>
+    <graphic n="251" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_255.jpg" xml:id="L5r"/>
+    <graphic n="252" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_256.jpg" xml:id="L5v"/>
+    <graphic n="253" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_257.jpg" xml:id="L6r"/>
+    <graphic n="254" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_258.jpg" xml:id="L6v"/>
+    <graphic n="255" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_259.jpg" xml:id="L7r"/>
+    <graphic n="256" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_260.jpg" xml:id="L7v"/>
+    <graphic n="257" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_261.jpg" xml:id="L8r"/>
+    <graphic n="258" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_262.jpg" xml:id="L8v"/>
+    <graphic n="259" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_263.jpg" xml:id="L9r"/>
+    <graphic n="260" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_264.jpg" xml:id="L9v"/>
+    <graphic n="261" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_265.jpg" xml:id="L10r"/>
+    <graphic n="262" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_266.jpg" xml:id="L10v"/>
+    <graphic n="263" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_267.jpg" xml:id="L11r"/>
+    <graphic n="264" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_268.jpg" xml:id="L11v"/>
+    <graphic n="265" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_269.jpg" xml:id="L12r"/>
+    <graphic n="266" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_270.jpg" xml:id="L12v"/>
+    <graphic n="267" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_271.jpg" xml:id="M1r"/>
+    <graphic n="268" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_272.jpg" xml:id="M1v"/>
+    <graphic n="269" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_273.jpg" xml:id="M2r"/>
+    <graphic n="270" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_274.jpg" xml:id="M2v"/>
+    <graphic n="271" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_275.jpg" xml:id="M3r"/>
+    <graphic n="272" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_276.jpg" xml:id="M3v"/>
+    <graphic n="273" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_277.jpg" xml:id="M4r"/>
+    <graphic n="274" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_278.jpg" xml:id="M4v"/>
+    <graphic n="275" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_279.jpg" xml:id="M5r"/>
+    <graphic n="276" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_280.jpg" xml:id="M5v"/>
+    <graphic n="277" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_281.jpg" xml:id="M6r"/>
+    <graphic n="278" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_282.jpg" xml:id="M6v"/>
+    <graphic n="279" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_283.jpg" xml:id="M7r"/>
+    <graphic n="280" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_284.jpg" xml:id="M7v"/>
+    <graphic n="281" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_285.jpg" xml:id="M8r"/>
+    <graphic n="282" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_286.jpg" xml:id="M8v"/>
+    <graphic n="283" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_287.jpg" xml:id="M9r"/>
+    <graphic n="284" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_288.jpg" xml:id="M9v"/>
+    <graphic n="285" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_289.jpg" xml:id="M10r"/>
+    <graphic n="286" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_290.jpg" xml:id="M10v"/>
+    <graphic n="287" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_291.jpg" xml:id="M11r"/>
+    <graphic n="288" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_292.jpg" xml:id="M11v"/>
+    <graphic n="289" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_293.jpg" xml:id="M12r"/>
+    <graphic n="290" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_294.jpg" xml:id="M12v"/>
+    <graphic n="291" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_295.jpg" xml:id="N1r"/>
+    <graphic n="292" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_296.jpg" xml:id="N1v"/>
+    <graphic n="293" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_297.jpg" xml:id="N2r"/>
+    <graphic n="294" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_298.jpg" xml:id="N2v"/>
+    <graphic n="295" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_299.jpg" xml:id="N3r"/>
+    <graphic n="296" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_300.jpg" xml:id="N3v"/>
+    <graphic n="297" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_301.jpg" xml:id="N4r"/>
+    <graphic n="298" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_302.jpg" xml:id="N4v"/>
+    <graphic n="299" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_303.jpg" xml:id="N5r"/>
+    <graphic n="300" url="https://kb.dk/imageService/online_master_arkiv_5/non-archival/Books/dsl/Holberg/holberg_comoedier2_1724/hansmick_2t_1724_304.jpg" xml:id="N5v"/>
+    
+</facsimile>
+
+
+
+    <text xml:lang="dan" xml:id="Arab" type="orig" subtype="Arab" n="/tekster/skuespill/Det_Arabiske_Pulver/Det_Arabiske_Pulver.page">
+        <front>
+            <titlePage xml:id="start" n="[Titelblad]">
+                <pb ed="A" n="L5r" facs="L5r"/>
+                <pb ed="SS" n="165"/>
+                <docTitle>
+                    <titlePart type="main"><seg type="komm" target="L5r-1"/>Det <lb/>Arabiske Pulver</titlePart>
+                    <lb/>
+                    <titlePart type="sub"><hi rend="ant">Comœdie</hi></titlePart>
+                </docTitle>
+                <lb/>
+<byline rend="center"><app type="var"><lem wit="A a">Forestilled 
+    <lb/>Paa 
+    <lb/>Den Danske <w>Skue-plads</w>
+    <lb/>1724</lem><rdg wit="B C">udi <lb/>En <hi rend="ant">ACT</hi></rdg></app>.</byline>
+            </titlePage>
+            <div xml:id="castlist" n="[Rolleliste]">
+            <pb ed="A" n="L5v" facs="L5v"/>
+            <pb ed="SS" n="166"/>
+             <castList>
+                 <head><w>Hoved-Personerne</w> i <hi rend="ant">Comœdien</hi>.</head>
+                    <castItem><role>Polidor.</role>
+                        <actor><seg type="komm" target="L5v-3a"/><app type="var"><lem wit="A">M.  <seg type="komm" target="L5v-3b"/>Ramel</lem><rdg wit="B C"><note>dette og de flg. skuespillernavne er ikke anført i</note></rdg></app>.</actor></castItem>
+                    <castItem><role>Henrich.</role>
+                        <actor>M. <seg type="komm" target="L5v-4"/>Wegner.</actor></castItem>
+                    <castItem><role><seg type="komm" target="L5v-5"/>Oldfux.</role>
+                        <actor>M. <seg type="komm" target="L5v-5b"/>Ulsø.</actor></castItem>
+                    <castItem><role>Andreas.</role>
+                        <actor>M. <seg type="komm" target="L5v-6"/>Lindorff.</actor></castItem>
+                 <castItem><role><seg type="komm" target="L5v-7"/>Leonora.</role>
+                     <actor>Madam <seg type="komm" target="L5v-7b"/>Coffre.</actor></castItem>
+                 <castItem><role><seg type="komm" target="L5v-8"/>Pernille.</role>
+                     <actor><seg type="komm" target="L5v-8b"/>Mad. <seg type="komm" target="L5v-8c"/>Montaigu.</actor></castItem>
+                    <castItem><role>Jøden.</role>
+                        <actor><seg type="komm" target="L5v-9a"/>Monsr. <seg type="komm" target="L5v-9"/>Piloi.</actor></castItem>
+                 <castItem><role><seg type="komm" target="L5v-10"/>Leander.</role>
+                     <actor> Monsr. <seg type="komm" target="L5v-10b"/>Schou.</actor></castItem>
+             </castList>
+             </div>   
+        </front>
+
+        <body>
+            <div xml:id="act" n="[Tekst]">
+            <div type="scene" xml:id="sc1" n="Scene 1">
+                <pb ed="A" n="L6r" facs="L6r"/>
+                <pb ed="SS" n="167"/>
+                    <head><hi rend="ant">Scen. 1.</hi></head>
+                    <stage>Andreas. Oldfux.</stage>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><w><hi rend="init">D</hi>enne</w> By er dog ikke saa liden som jeg havde bildet
+                            mig ind. Her er ogsaa <seg type="komm" target="L6r-6"/>en Hob smukke Huse, hvilket gir tilkiende at her
+                            maa boe <seg type="komm" target="L6r-7"/>formuende Folk. Men see! <seg type="komm" target="L6r-8"/>jeg er aldrig ærlig, om det ikke er min
+                            gamle Cammerat Andreas, som jeg ikke haver seet i saa mange Aar. Andreas
+                            er det dig eller din <seg type="komm" target="L6r-11"/>Gienfærd?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Ej <hi rend="ant_it"><seg type="komm" target="L6r-13"/>Monfrere</hi> Oldfux! er det muligt,
+                            at jeg skal have den Lykke at finde dig her saa <seg type="komm" target="L6r-15"/>uformodentlig?</p></sp>
+                
+                <stage>De omfavner, kysser hinanden, og græder.</stage>
+                       
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Ach! min erlige Ven og troe <seg type="komm" target="L6r-18"/>Stalbroder! jeg er <seg type="komm" target="L6r-19"/>ferdig at daane af Glæde
+                            at see dig her. Jeg tænkte at du havde været <seg type="komm" target="L6r-20"/>hængt for mange Aar siden.
+                            Men jeg <seg type="komm" target="L6r-21"/>merker, at du <seg type="komm" target="L6r-22"/>forstaar din Profession; thi det er ingen Konst at
+                            stiæle, det kand en grov <seg type="komm" target="L6r-23"/>Bunde giøre, men at stiæle saaledes, at mand
+                            aldrig blir greben, det kalder jeg at forstaa sit <seg type="komm" target="L6r-26"/>Handverk.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p><seg type="komm" target="L6r-28"/>Jeg takker skyldigst, <hi rend="ant_it">Monfrere</hi>,                            
+                            for de gode Tanker du har om mig. Det er mig ikke liden Fornøjelse at
+                            <seg type="komm" target="L6r-30"/>være berømmet af <w>saa<pb ed="A" n="L6v" facs="L6v"/>dan</w> <seg type="komm" target="L6v-1"/>braf Mand, som du <seg type="komm" target="L6v-1b"/>est.
+                            Jeg takker <seg type="komm" target="L6v-2"/>ellers mine Forældre for god <seg type="komm" target="L6v-2b"/>Optugtelse og Formaning, som <seg type="komm" target="L6v-3"/>jeg
+                            haver ført mig til Nytte allevegne, hvor jeg har været i Verden; saa jeg
+                            kand sige, uden at rose mig selv, <hi rend="ant_it">Monfrere</hi>, 
+                            at jeg har <seg type="komm" target="L6v-6"/>aldrig været greben meere paa
+                            mine Gierninger end en gang, da jeg dog kom temmelig vel derfra; thi jeg
+                            <seg type="komm" target="L6v-8"/>miste <seg type="komm" target="L6v-9"/>ikke meere end toe af mine Øren.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><seg type="komm" target="L6v-11"/>Ej <hi rend="ant_it">Bagatelle</hi>! et par Øren meer
+                            eller mindre, <seg type="komm" target="L6v-12"/>det vil ikke meget sige. Jeg merker at det er derfor at <app type="tc_var"><lem wit="C">du</lem><rdg wit="A a B">de</rdg></app>
+                            gaar med <seg type="komm" target="L6v-13"/>den Polske Hue.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Ja vist, derfor hilser jeg Folk <seg type="komm" target="L6v-15"/>ikke anderledes end Officererne naar de
+                            trekker op paa Vagt, bukkende mig lit, <seg type="komm" target="L6v-17"/>leggende Haanden paa <app type="tc"><lem><corr resp="Rahbek">Huen;</corr></lem><rdg wit="A a B C">Huen/</rdg><rdg resp="Rahbek">Huen;</rdg><rdg resp="SS">Huen/</rdg></app> mange
+                            sige derfor, at jeg er <seg type="komm" target="L6v-19a"/>storagtig, men de giør mig <seg type="komm" target="L6v-19b"/>min Tro stor uret; thi
+                            jeg er <seg type="komm" target="L6v-20"/>ikke mindre end storagtig. Men <seg type="komm" target="L6v-21"/>hvorledes har det ellers behaget
+                                <hi rend="ant_it">Monfrere</hi> at leve.</p>
+                    </sp>
+                    <pb ed="SS" n="168"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Ret vel: Jeg har kundet <seg type="komm" target="L6v-25"/>komme til rette med alle Folk, hvor jeg har
+                            været, foruden med disse forbandede <seg type="komm" target="L6v-26"/>Byfogder, der en og anden gang har
+                            villet <hi rend="ant_it"><seg type="komm" target="L6v-27"/>attaqvere</hi> mig paa mit
+                            ærlige Navn og Rygte. For 14 Dage siden havde jeg at bestille med en som
+                            lod mig <seg type="komm" target="L6v-30"/>sætte, men jeg, for at undgaa <seg type="komm" target="L6v-30b"/>Vitløftighed, sneg mig af
+                            Arresten; thi mand vinder ikke <pb ed="A" n="L7r" facs="L7r"/>meget, <hi rend="ant_it">Monfrere</hi>, ved <seg type="komm" target="L7r-1"/>Processer.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Det er sant nok, <hi rend="ant_it">Monfrere</hi>! jeg har
+                            ogsaa <seg type="komm" target="L7r-4"/>merket, at disse Byfogder ere slemme Folk, som ikke kand lade
+                            <seg type="komm" target="L7r-5"/>ærlige Folk være i Roe.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>                        
+                        <p>Ja de ere saa misundelige, at, saa snart en braf Mand har <seg type="komm" target="L7r-8"/>forhvervet sig
+                            en Skilling, søger de at skille ham der ved igien.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Dyden er allevegne forfult.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>                       
+                        <p><seg type="komm" target="L7r-13"/>Besynderlig af ens egne Landsmænd, derfor har jeg forsvoret aldrig at
+                            komme i min <seg type="komm" target="L7r-15"/><w>Fød-By</w> oftere.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Men hvad vil du nu bestille her?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>                      
+                        <p>Jeg har min Tro endnu ikke <seg type="komm" target="L7r-19"/>betænkt mig derpaa. <seg type="komm" target="L7r-20"/>Ørkesløs gad jeg ikke
+                            være; thi <seg type="komm" target="L7r-21"/>Ørkesløshed er Fandens <w>Hoved-Pude</w>; jeg har gaaet <seg type="komm" target="L7r-22"/>fast alle
+                            Professioner igiennem, i <seg type="komm" target="L7r-23"/>Augsburg var jeg <seg type="komm" target="L7r-23b"/>Doctor Medicinæ, og
+                            practicerede længe med stor Profit indtil <seg type="komm" target="L7r-25"/>Facultetet af puur Misundelse
+                            <seg type="komm" target="L7r-25b"/>formeerede mig en Proces, og vilde have mig hengt, <seg type="komm" target="L7r-27a"/>da jeg dog <seg type="komm" target="L7r-27b"/>skikkede
+                            mig saaledes i mit <app type="tc"><lem><corr resp="ed">Embede</corr></lem><rdg wit="A">Emkede</rdg></app>, at ingen af mine Patienter kunde klage over
+                            mig.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Jeg troer det nok; thi jeg <seg type="komm" target="L7r-31"/>haaber, at de døde alle. 
+                       </p>
+                    </sp>
+                <pb ed="A" n="L7v" facs="L7v"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Ja det er sant. <seg type="komm" target="L7v-2"/>Men midlertid bleve de dog af med deris Sygdomme. Havde
+                            jeg haft Penge til at fortsætte min Proces med Docterne, skulle jeg
+                            kunde have <seg type="komm" target="L7v-4"/>overbevist dem hvad Karle de vare, hvorledes de plagede
+                            stakkels Patienter verre end Bødler heele Aar, <seg type="komm" target="L7v-7"/>da jeg derimod aldrig
+                            opholt en Patient over 3 Dage. Der ere adskillige rige Folk udi
+                            Augsburg, som maa tilskrive mine Recepter ald deris Velfærd; thi hafde
+                            jeg ikke saa hastig <seg type="komm" target="L7v-12"/>curered deris kiære Forældre, havde de endnu <seg type="komm" target="L7v-13"/>maat
+                            <seg type="komm" target="L7v-13b"/>bie efter deris <seg type="komm" target="L7v-14"/>Arvedeel, <pb ed="SS" n="169"/>som dem efter <seg type="komm" target="L7v-14b"/>Naturens
+                            Ret tilkom. <seg type="komm" target="L7v-15"/>Jeg skulde kun alleene producered deris <seg type="komm" target="L7v-16"/>Attester mod de
+                            andre Doctere om min Dygtighed. Men jeg besluttede heller at forlade
+                            Staden, førend jeg vilde have med de Karle at bestille; thi de dømmer
+                            <app type="var"><lem wit="A">der udi</lem><rdg wit="B">derudi</rdg></app> deris egen Sag: Og naar en er først dømt af med Livet, og bleven
+                            hengt, kommer hand siden ingen Vej, endskiønt hand appellerer hundrede
+                            gange.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Der i har <hi rend="ant_it">Monfrere</hi> ret.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>I <seg type="komm" target="L7v-28a"/>Nürenberg var jeg <seg type="komm" target="L7v-28b"/>Prophet, og spaade lenge for Penge: var i stor
+                            <seg type="komm" target="L7v-29"/>Reputation i Begyndelsen; thi mine Spaadomme <seg type="komm" target="L7v-30"/>traf adskillige gange
+                            lykkelig ind for mig; men, som <seg type="komm" target="L7v-31a"/>Geisten er ikke altid <seg type="komm" target="L7v-31b"/>lige hos et 
+                            <w>Menni<pb ed="A" n="L8r" facs="L8r"/>ske</w>, og jeg spaade noget, som angik <hi rend="ant_it"><seg type="komm" target="L8r-1"/>Republiqven</hi>, hvilket falt
+                            anderledes ud, vilde man <seg type="komm" target="L8r-3"/>tage mig ved <w>Vinge-Benet</w>. Men det var min
+                            Lykke, at jeg var en Prophet; thi jeg spaade ogsaa om mig selv, hvilket
+                            dog ikke er enhver Prophet <seg type="komm" target="L8r-6"/>medgiven, nemlig, om jeg havde kommet til
+                            <seg type="komm" target="L8r-7"/>Examen, det skulle have gaaet forbandet galt med mig, hvorfor jeg <seg type="komm" target="L8r-9"/>smurte
+                            mine Støvle, og gik i tide bort.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Jeg havde min Troe ogsaa kundet spaa det samme, <seg type="komm" target="L8r-12"/>hvorvel jeg aldrig har
+                            øvet mig i den Konst.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>                     
+                        <p>I <seg type="komm" target="L8r-15a"/>Francfurt am Mayn <seg type="komm" target="L8r-15b"/>agerede jeg <seg type="komm" target="L8r-15c"/>Figtmester, fik en stor Hob <seg type="komm" target="L8r-16"/>Skolarer, som
+                            alle gav mig Penge <seg type="komm" target="L8r-17"/>paa Haanden, men, da Figtskolen skulle <seg type="komm" target="L8r-18"/>gaa an, tænkte
+                            jeg ved mig selv, hvad nytter det unge Mennisker, at de lære at figte.
+                            De stole kun siden derpaa, blive <seg type="komm" target="L8r-21"/>forvovende, og kand komme i Ulykke.
+                            <seg type="komm" target="L8r-22"/>Hvor udover for at <seg type="komm" target="L8r-23"/>forekomme saadant jeg reiste hemmelig bort.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p><seg type="komm" target="L8r-26"/>Gavst du da Skolarene deris Penge tilbage?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej <hi rend="ant_it">Monfrere</hi>! jeg vidste ikke at
+                            finde dem saa i en hast, tilmed <seg type="komm" target="L8r-29"/>havde jeg <w>Reise-Penge</w> nødig. Dog <seg type="komm" target="L8r-30"/>paa det
+                            de skulle ikke tænke at jeg vilde bedrage dem, laante jeg ogsaa nogle
+                            Penge af min Vert, <seg type="komm" target="L8r-32"/>til et Tegn at <pb ed="A" n="L8v" facs="L8v"/>jeg vilde komme
+                            tilbage igien. Fra Frankfurth reiste jeg til <seg type="komm" target="L8v-2a"/>Strasburg, hvor jeg <seg type="komm" target="L8v-2b"/>gaf mig
+                            ud for <seg type="komm" target="L8v-3"/>Politicus.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Men hvordan kunde det lade sig giøre?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>                    
+                        <p>Det gik skiønt, jeg læste noget i <seg type="komm" target="L8v-7"/>Hübners Politiske Fragen besynderlig i
+                            <seg type="komm" target="L8v-8"/>det Capitel, som handler om Strasburg, og omliggende Stæder, gaf mig ud
+                            for en <w>Adels<pb ed="SS" n="170"/>mand</w>, <seg type="komm" target="L8v-11"/>giorde mig en grundig og ærbar
+                            Miine, hvilket ikke er det <seg type="komm" target="L8v-12a"/>ringeste, som <seg type="komm" target="L8v-12b"/>udfordres af en Politicus,
+                            <seg type="komm" target="L8v-13"/>reprimanderede derforuden alle <seg type="komm" target="L8v-14"/>Magistratens Gierninger, fant Feil ved
+                            alle ting i Staden, hvor ved jeg kom i saadan <seg type="komm" target="L8v-16"/>Reputation, at jeg fik en
+                            Bestilling, hvilket jeg dog ikke vilde antage, førend  mand gaf mig et
+                            Aars <seg type="komm" target="L8v-18"/><hi rend="ant_it">Gage</hi> forud. Men da jeg havde faaet Pengene, tænkte jeg ved mig
+                            self: <app type="tc"><lem><corr resp="ed">du</corr></lem><rdg wit="A">dn</rdg></app> kunde nok <seg type="komm" target="L8v-20"/>tienne til andet end til at sidde med en <seg type="komm" target="L8v-21"/>lumpen Pen i
+                            Haanden om Dagen, reiste derfor smukt bort uden at tage Afskeed, ved
+                            hvilken sidste <seg type="komm" target="L8v-23"/>Conduite jeg overbevisede dem, som <seg type="komm" target="L8v-24"/>tvilede om min
+                            Dygtighed, at jeg var en stor Politicus. I <seg type="komm" target="L8v-26"/>Cøln, hvor vi vare sammen
+                            sidst, <seg type="komm" target="L8v-26a"/>agerede jeg en <seg type="komm" target="L8v-27"/><w>Stierne-Kiger</w>, i London en <seg type="komm" target="L8v-27b"/>Guldmager, i <seg type="komm" target="L8v-28a"/>Antwerpen
+                            en <seg type="komm" target="L8v-28b"/>Helgen, hvilken <seg type="komm" target="L8v-29"/>Profession gaf mig af alle meest Penge; thi Folk
+                            ofrede til mit Huus lige som til en Kirke, <seg type="komm" target="L8v-31a"/>at jeg skulde <seg type="komm" target="L8v-31b"/>giøre Forbønner
+                            for dem. 
+                       </p>
+                    </sp>
+                <pb ed="A" n="L9r" facs="L9r"/>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Men hvorfor blef du ikke ved den Profession?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><seg type="komm" target="L9r-5"/>Ret som jeg stod paa Gaden engang, og <seg type="komm" target="L9r-6"/>formanede Folk til Gudsfrygt, kom
+                            en af mine gamle Cammerater, hvilken <seg type="komm" target="L9r-7"/>saae mig under Øjnene, brast i
+                            Latter, og sagde til de Omstaaende: Denne Mand, som I <seg type="komm" target="L9r-9"/>holde for en
+                            Helgen, er en af de største <seg type="komm" target="L9r-10"/>Skielme der kand gaa paa Jorden. Men min
+                            <seg type="komm" target="L9r-11"/>Credit var saa stor, at Folk <seg type="komm" target="L9r-12"/>bleve færdig til at steene <seg type="komm" target="L9r-13"/>den som Helgens
+                            Bespottere. Dog <seg type="komm" target="L9r-14"/>allarmerede den Hendelse mig saa meget, at jeg turde
+                            ikke være meer i Byen men reiste hid hen.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Hvad vil du nu tage dig for?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Jeg veed min Troe ikke self, hvad jeg vil <seg type="komm" target="L9r-21"/>agere. Jeg vil tælle paa mine
+                            Knapper; hvilken Profession, som falder paa den sidste Knap, den vil jeg
+                            <seg type="komm" target="L9r-23"/>tage an.</p> 
+                        <stage>Begynder at tælle.</stage> 
+                        <p>Doctor, Prophet, Figtmester, Spiller, Politicus, Guldmager, <w>Stierne-Kiger</w>, Helgen.</p> 
+                        <stage>Tæller fra først igien, og treffer paa Guldmager.</stage> 
+                        <p>Ja jeg maa giøre Guld, og du maa være mig behielpelig.
+                       </p>
+                    </sp>
+                <pb ed="A" n="L9v" facs="L9v"/>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Hvad jeg kand være til Tienneste, skal ikke <hi rend="ant_it"><seg type="komm" target="L9v-3"/>manqvere</hi>.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Hør Andreas! jeg har her <seg type="komm" target="L9v-5"/>hundrede Rixdlr. Guld, som er stødte til Pulver;
+                            de skal du <seg type="komm" target="L9v-7"/>menge <seg type="komm" target="L9v-7b"/>blant andet. Du skal slaa en <seg type="komm" target="L9v-8"/>Boed op paa Torvet, og
+                            <seg type="komm" target="L9v-8b"/>holde til fals <pb ed="SS" n="171"/>samme Pulver; men ikke selge det
+                            til <app type="tc_var"><lem wit="a B C">nogen</lem><rdg wit="A">nøgen</rdg></app> <seg type="komm" target="L9v-10"/>uden de <seg type="komm" target="L9v-10b"/>spør om det Arabiske Pulver. Det er alt hvad du skal
+                            have i dit Hoved. Lad kun mig sørge for Resten. De hundrede Rixdlr. skal
+                            <seg type="komm" target="L9v-13"/>profitere os 4000. See! der har du Guldet, kun strax hen, og giør
+                            som jeg siger dig, og sæt dig paa Torvet. Naar jeg haver 4000 Rixdlr,
+                            skal du <seg type="komm" target="L9v-16"/>bekomme den Fierdedeel der af.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Andreas.</speaker>
+                        <p>Got got, inden en halv Time skal jeg være <seg type="komm" target="L9v-20"/>færdig med min <seg type="komm" target="L9v-20b"/>Kram.</p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc2" n="Scene 2">
+                    <head><hi rend="ant">Scen. 2.</hi></head>
+                    <stage>En Jøde. Oldfux.</stage>
+                    <sp>
+                        <speaker>Jøden.</speaker>                   
+                        <p><seg type="komm" target="L9v-24"/>Sein Diener! mein Herr! hat er was zu skacheren.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej nu intet <seg type="komm" target="L9v-27"/>Smauts. Jeg er nys kommen hid til Byen. Men i Morgen, naar
+                            jeg begynder at arbeide, kand I faa noget Guld, men <seg type="komm" target="L9v-30"/>med Condition, at I
+                            ikke siger <pb ed="A" n="L10r" facs="L10r"/>det til nogen, ellers <seg type="komm" target="L10r-1"/>har jeg ingen
+                            Roe for Folk. Jeg giør ellers ikke meere Guld paa engang end jeg kand
+                            bruge til en Maaneds <seg type="komm" target="L10r-4"/>Fortæring: men vil nogen lære Konsten af mig,
+                            koster det <seg type="komm" target="L10r-5"/>4000 Rixdlr.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Soe kand Herren Guld giøren?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>                  
+                        <p>Ja saa lit til Husbehov.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L10r-11"/>Da mit kand Messier sig viel insinueren hos en vornehm Herr, der hier
+                            wohnt.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Hvad er hans Navn?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L10r-16a"/>Sin Nahm ist Polidor. <seg type="komm" target="L10r-16b"/>Han har viel Zeit und stuere Penge daran gevennet,
+                            aber vergebens. Hand <seg type="komm" target="L10r-18"/>spandirer gern 4000 Rdlr. paa den Kunst at <seg type="komm" target="L10r-19"/>leeren.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Er det ellers en <seg type="komm" target="L10r-21"/>skikkelig Mand?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L10r-23"/>Ein allerlibster Her ein gelehrter Man, und en stuer Naturkundiger.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Hans Studeringer hielper ham ikke meget til den Kunst, jeg kand lære den
+                            lige <pb ed="SS" n="172"/>saa <seg type="komm" target="L10r-28"/>snart til en Bonde, som til den
+                            allerlærdeste Mand; thi Konsten bestaar kun i <seg type="komm" target="L10r-29"/>en ringe Videnskab, og
+                            nogle smaa <seg type="komm" target="L10r-30"/>Cermonier, som mand maa i agt tage. 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="L10v" facs="L10v"/>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Hand er ellers af saa mange bedragen bleven, at hand ingen vil meer
+                            <seg type="komm" target="L10v-3"/>glauben.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>                 
+                        <p>Han har stor Ret; thi Verden er nu omstunder fuld af Bedragerie. Jeg
+                            <app type="tc"><lem><corr resp="ed">forlanger</corr></lem><rdg wit="A">sorlanger</rdg> </app> derfor ikke, at hand skal troe mig meer end en anden, førend
+                            hand seer Prøven, og <seg type="komm" target="L10v-9"/>faar Troen i Hænderne.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L10v-11"/>Trekker da Messier Guld von ander Metal?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><seg type="komm" target="L10v-13"/>Ej lapperie! det er ikke Umagen værd. Jeg kand giøre Guld af alle <app type="tc_var"><lem><corr resp="Liebenberg">Ting.
+                            Adieu</corr></lem><rdg wit="A">Ting Adieu</rdg><rdg wit="B C">ting, adieu</rdg><rdg resp="Liebenberg">Ting. Adieu</rdg><rdg resp="SS">Ting Adieu</rdg></app>! jeg maa til mit <seg type="komm" target="L10v-15"/>Logement.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L10v-17"/>Woe logire der Herr?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Her nest ved i <seg type="komm" target="L10v-19"/>Phassanen. Vil I komme til mig i Morgen kand I faa noget
+                            Guld hos mig?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Gut gut. <seg type="komm" target="L10v-23"/>Adiees soe lang.</p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc3" n="Scene 3">
+                    <head><hi rend="ant">Scen. 3.</hi></head>
+                    <stage>Henrich. Jøden.</stage>                    
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L10v-27"/>Der Kerl hat en erlig Angesicht, aber ich glaube ihm dog nicht, ehr ich
+                            Probe sehe, ich muß doch die Historie dem Herren Polidor fortællen.</p>
+                                <stage>Banker paa.</stage>
+                    </sp>
+                    <pb ed="A" n="L11r" facs="L11r"/>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hvem vil I tale <app type="tc"><lem><corr resp="ed">med, <seg type="komm" target="L11r-2"/>Benjamen?</corr></lem><rdg wit="A a B C">med? Benjamen!</rdg><rdg resp="Liebenberg Roos">med? Benjamin!</rdg><rdg resp="SS">med? Benjamen!</rdg><rdg resp="Brix">med, Benjamin?</rdg></app></p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Ich vil tale <seg type="komm" target="L11r-4"/>mit dem Herren Polidor.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Da kand I ikke faa ham nu i Tale, <seg type="komm" target="L11r-6"/>det jeg troer; thi nu er det <seg type="komm" target="L11r-7"/>hans onde
+                            Time paa Dagen at hand har Feberen.</p>
+                    </sp>
+                    <pb ed="SS" n="173"/>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L11r-10"/>Har hand den lang Fiber hat.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Nej ikke over i 20 Aar.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>                
+                        <p>Ey Snack ich saa ihm joe for 3 Dagen siden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jeg veed ikke rettere end hand har Feberen. Naar jeg seer en Mand den
+                            hedeste Tid om Sommeren staae i <seg type="komm" target="L11r-18"/>Gløer op til Ørene, slutter jeg enten
+                            hand er gal eller hand har Feberen.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Ha ha nu forstaar ich din Mening. <seg type="komm" target="L11r-22"/>Er operirt itzund.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jeg veed ikke enten hand opererer, eller <seg type="komm" target="L11r-26"/>purgerer, jeg troer det er lige
+                            meget; thi ald den Tid hand har arbeidet paa at giøre Guld har hand ikke
+                            vundet saa meget, at hand kand kiøbe sig en <seg type="komm" target="L11r-29"/>Strikke for, naar en gang
+                            alle hans Midler er bortsat paa det <seg type="komm" target="L11r-31"/>lapperie, og hand vil henge sig af
+                            <seg type="komm" target="L11r-31b"/>Armod. <pb ed="A" n="L11v" facs="L11v"/>Hand <seg type="komm" target="L11v-1"/>gir heller ingen Audientz, naar hand
+                            har med de <seg type="komm" target="L11v-2"/>Forretninger at bestille.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L11v-4"/>Aber ich faar vel Audientz, wen du siger daß en Goldmacher neulig hier
+                            er komen, der vil Proben giøren, ehr hand Recompants forlangen.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Ja hvis saa er saa faar I ham nok i Tale; thi ellers, <seg type="komm" target="L11v-10"/>om en sagde ham jer Huus er i Brand, der er en vil <seg type="komm" target="L11v-11"/>tage jer Frue med Vold, Tyve er indbrut i
+                            Huset, <seg type="komm" target="L11v-12"/>det bevegede ham aldelis intet at gaa fra sine Sager; men det er
+                            endelig noget, som jeg <seg type="komm" target="L11v-14"/>tøer sige ham.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L11v-17"/>Gaa den straxen <app type="tc"><lem><corr resp="Rahbek">ind,</corr></lem><rdg wit="A a B C">ind</rdg><rdg resp="Rahbek">ind,</rdg><rdg resp="SS">ind</rdg></app> ich weis nicht wie lang hand bliver in der Stadt.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hand sidder her i den yderste Stue: jeg vil raabe udenfor Vinduet; thi
+                            jeg <seg type="komm" target="L11v-21"/>tør ikke gaa ind.</p> 
+                        <stage>Raaber sagte 3 <app type="tc"><lem><corr resp="ed">gange.</corr></lem><rdg wit="A">gange</rdg></app></stage>
+                        <p>Herre! Herre! Her Polidor!</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor <stage><app type="tc"><lem><corr resp="ed">indenfor.</corr></lem>
+                            <rdg wit="A">indenfor</rdg></app></stage></speaker>
+                        <p>Hvad er det for en Slyngel, som tør raabe paa mig?</p>
+                    </sp>
+                    <pb ed="SS" n="174"/>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jeg har noget at sige Herren, som er højst Magt paaliggende. 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="L12r" facs="L12r"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Og jeg har noget at <seg type="komm" target="L12r-2"/>smøre din Ryg med, som skal lære at lade mig være i
+                            Roe en anden gang.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Her er en fremmed Mand ude, som kand giøre skiønt <seg type="komm" target="L12r-7"/>Arabisk Guld!</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Lad ham <seg type="komm" target="L12r-9"/>bie. Nu kommer jeg strax.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Tænkte jeg det ikke vel. Det er <seg type="komm" target="L12r-11"/>Magneten, som alleene trækker ham ud.
+                       </p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc4" n="Scene 4">
+                    <head><hi rend="ant">Scen. 4.</hi></head>
+                    <stage>Polidor. Jøden. Henrich.</stage>
+                <stage>Polidor i sin <seg type="komm" target="L12r-15"/><w>Slop-Raak</w> med et <seg type="komm" target="L12r-15b"/>Lær Forklæde for, førende en nedslagen
+                    bred Hat paa Hovedet, en <seg type="komm" target="L12r-17"/>Puster paa <seg type="komm" target="L12r-17b"/>Axelen hengende, og en <seg type="komm" target="L12r-18"/>Ildtang i
+                    Haanden, gandske <seg type="komm" target="L12r-19"/>kulled i Ansigtet.</stage>                   
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Hvor er den Mand som kand giøre Guld?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="L12r-23"/>Ich talte nylig mit ihn han logirt in dem Phassan.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Vil hand <seg type="komm" target="L12r-26"/>og lære Konsten til andre?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Ja. <seg type="komm" target="L12r-28"/>Aber er ist forbandet dyr.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>               
+                        <p>Hvad forlanger hand da? 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="L12v" facs="L12v"/>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Er verlangt <seg type="komm" target="L12v-2"/>4000 <app type="tc_var"><lem wit="B C">Rdlr.</lem><rdg wit="A a">Rdrl.</rdg></app></p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Det er noget meget.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Det er ikke meget; jeg vilde gierne give ham en Tønde Guld, om jeg havde den; thi <seg type="komm" target="L12v-8"/>hvad vilde jeg estimere det naar jeg siden kunde <seg type="komm" target="L12v-9"/>giøre igien ti
+                            dobbelt saa meget.</p>
+                    </sp>
+
+                    <pb ed="SS" n="175"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Raader du mig da Henrich! at give de Penge?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jeg raader Herren at henge baade Guldmageren og Jøden op: thi den ene er
+                            en Jøde, og den anden, garanterer jeg for, er <seg type="komm" target="L12v-17"/>lige saa god som de andre,
+                            som har bedraget Herren saa ofte.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Hør Benjamin! vil du <seg type="komm" target="L12v-20"/>cavere for ham, at hand ikke bedrager mig?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Nej Her! <seg type="komm" target="L12v-23"/>ich sag danck. <seg type="komm" target="L12v-23b"/>Ich kiender ham nicht weiter als daß ich engang
+                            mit ham har talt: hand maa for sig selber caveren. Han <app type="tc"><lem wit="A a B C">tilbyden</lem><rdg resp="Rahbek Brix">tilbyder</rdg></app> sig erst
+                            Proben to giøren ehr er was verlangt.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Det er jo et <seg type="komm" target="L12v-29"/>resonabelt Tilbud. See til Benjamin! at du kand bringe ham
+                            hid <seg type="komm" target="L12v-30"/>som af dig self; thi <seg type="komm" target="L12v-31"/>jeg vil ikke lade mig merke, <pb ed="A" n="M1r" facs="M1r"/>at jeg er meget <seg type="komm" target="M1r-1"/>forlegen for at <seg type="komm" target="M1r-1b"/>lære ham Konsten af.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p>Ich wil strax der hen gaa.</p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc5" n="Scene 5">
+                    <head><hi rend="ant">Scen. 5.</hi></head>
+                    <stage>Leonora. Polidor. Henrich. Pernille.</stage>                  
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ej Gud bevare os <seg type="komm" target="M1r-8"/>min Hierte! I <seg type="komm" target="M1r-9"/>seer verre ud end Fanden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Mit Arbejde, <seg type="komm" target="M1r-11"/>Madam, fører intet andet med sig.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>              
+                        <p><seg type="komm" target="M1r-14"/>I maa vel sige det fører ikke andet med; thi <seg type="komm" target="M1r-15"/>hvad Frugter har I nu seet
+                            udi de mange Aar I har <seg type="komm" target="M1r-16"/>plavet jer med det forbandede <seg type="komm" target="M1r-17"/>Tøjerie.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p><seg type="komm" target="M1r-19"/>Tag jer vare hvad I siger, Madam; og gif den ædelste Profession i Verden
+                            ikke saadan Titel.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Herren har ret at Professionen er ædel; thi <seg type="komm" target="M1r-24"/>ingen uden rige og fornemme
+                            Folk kand <seg type="komm" target="M1r-25"/>practicere den. Den er ogsaa <seg type="komm" target="M1r-25b"/>nyttelig for et Menniskes
+                            Siæl.</p>
+                    </sp>
+
+
+                    <pb ed="SS" n="176"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Det er ogsaa at gaa noget for vit.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Men jeg skal bevise det <seg type="komm" target="M1r-30"/>klarlig for Herren. <pb ed="A" n="M1v" facs="M1v"/>
+                            Fattigdom er nyttig for et Menniskes Siæl, Guldmageri viser Vejen til
+                            Fattigdom, <hi rend="ant_it"><seg type="komm" target="M1v-3"/>ergo</hi> er den nyttig for
+                            et Menniskes Siæl.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Hør Madam! I maa ikke <seg type="komm" target="M1v-5"/>have <seg type="komm" target="M1v-5b"/>slige næsevise <w>Tienneste-Folk</w> i jer Brød.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Min Hierte! Pernille har ret, og intet fornuftig Menniske kand <seg type="komm" target="M1v-9"/>dadle
+                            hendes Ord. Man kand bevise af jer eget Exempel tilstrekkelig, hvilke
+                            Frugter den Profession fører med.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p><seg type="komm" target="M1v-14"/>Naar det kommer, saa kommer det paa engang.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Ja vist kommer det paa engang. Herren <seg type="komm" target="M1v-18"/>distilerer, kaager, syder, gryder
+                            saa længe, indtil hand sætter omsider Ild paa Huset, og saa kommer
+                            <seg type="komm" target="M1v-20"/>Armoden paa engang.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>I har arbeidet 10 Aar derpaa og bliver I endnu 10 Aar derved <seg type="komm" target="M1v-23"/>kommer I at
+                            gribe til et Handverk for at fortienne Føde.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Ja giøre <seg type="komm" target="M1v-26"/>Svovelstikker af Armod.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Du Næsevis! <seg type="komm" target="M1v-28"/>hen til din <seg type="komm" target="M1v-28a"/>Rock, det er nok saa tienligt, og Madam, <seg type="komm" target="M1v-28b"/>gak ind
+                            og sye paa jer <seg type="komm" target="M1v-30"/>Ramme, og lad mig være <seg type="komm" target="M1v-30b"/>uskaaren. 
+                       </p>
+                    </sp>
+                   <pb ed="A" n="M2r" facs="M2r"/>
+                    <sp>
+                        <speaker>Pernille. </speaker>
+                        <p><seg type="komm" target="M2r-2"/>Fruen skal nok sy paa Ramme, saa snart Herren vil lade hende faa noget af
+                            det Guld, som hand haver giort; thi, <seg type="komm" target="M2r-4"/>saasom Herren giør saa meget Guld
+                            om Dagen, <seg type="komm" target="M2r-5"/>har vi ikke fornøden at brodere med Silke.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p><seg type="komm" target="M2r-8"/>Jeg troer Fanden rider den Pige. <seg type="komm" target="M2r-8b"/>Var det ikke for min Ære – Hør jeg skal
+                            inden faa Dage <seg type="komm" target="M2r-10"/>binde Munden paa jer, og I skal see <seg type="komm" target="M2r-11"/>Frugten af mit
+                            Arbeide. Her er kommen en fremmed mand til Byen, som vil <seg type="komm" target="M2r-12"/>giøre Prøve for
+                            mig.</p>
+                    </sp>
+                    <pb ed="SS" n="177"/>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p><seg type="komm" target="M2r-15"/>Den? hand er det største <seg type="komm" target="M2r-15b"/>Skarn og Bedrager, som kand gaa paa Jorden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p><seg type="komm" target="M2r-18"/>Kiender du ham da?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Det er jo en <seg type="komm" target="M2r-20"/>Antichrist? er det ikke saa man kalder Guldmagerne paa
+                            Latin?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Du vil sige Alchymist. Jo det er en Guldmager. Men, hvor af veedst du at
+                            hand er Bedrager?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+   <p>Jo fordi hand er en Guldmager.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Du skal faa en Ulykke, hvis du ikke holder din Mund. Vil du ogsaa giøre
+                            mig til en Bedrager? 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="M2v" facs="M2v"/>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+   <p>Ja hvad andet? Herren bedrager sig self, bedrager sin Frue, bedrager sine
+                            Børn. Jeg skal sige Sandhed, om det skal koste mit Lif. Hør hvad jeg
+                            siger førend jeg gaar: Det var nok saa <seg type="komm" target="M2v-6"/>tienligt, i Steden for at
+       <seg type="komm" target="M2v-7"/>consulere en Guldmager, at <seg type="komm" target="M2v-7b"/>have Bud efter en <seg type="komm" target="M2v-8"/><w>Vasker-Kone</w>, der kunde tage
+       Kullet og Skarnet af Herrens Ansigt.</p>
+                        <stage>Gaar ud.</stage>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Madam! jeg vil ikke have den Pige lenger i Huset.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ej min Hierte! I maa ikke <seg type="komm" target="M2v-15"/>regne hende det til onde. Hun er en tro og
+                            ærlig Pige, og hvad hun taler, er af puur <seg type="komm" target="M2v-17"/>Nidkierhed!</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Madam! giør mig den Tienneste, at gaa lit ud, nu vil jeg være alleene.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Hiertelig gierne.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Herre! der kommer <seg type="komm" target="M2v-24"/>min Troe Jøden med Guldmageren. <seg type="komm" target="M2v-25"/>Skam faa ham hand
+                            <seg type="komm" target="M2v-26"/>maatte giøre sig saa meget Guld at hand kunde kiøbe sig en smuk Klædning
+                            for.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ej du kiender ikke Guldmagere: De ere alle af ringe <seg type="komm" target="M2v-30"/>Anseelse; see her
+                            Henrich! tag <pb ed="A" n="M3r" facs="M3r"/>den <seg type="komm" target="M3r-1"/>Puster og <seg type="komm" target="M3r-1b"/>Ildtang ind og <seg type="komm" target="M3r-1c"/>fly mig
+                            en <seg type="komm" target="M3r-2"/>Peruqve i Steden for Hatten. </p>
+                    </sp>
+                <stage>Henrich løber efter en Peruqve, og sætter den paa Herrens Hoved.</stage>                   
+             </div>
+            <div type="scene" xml:id="sc6" n="Scene 6">
+                <pb ed="SS" n="178"/>
+                    <head><hi rend="ant">Scen. 6.</hi></head>
+                    <stage>Oldfux. Jøden. Polidor. Henrich.</stage>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="M3r-8"/>Herr! hir ist der Man. Ich havde stuur Müde mit ham, ehr ich ihm mit mig
+                            krigen kønte. Nu kan Heeren selber mit ham tale.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p><seg type="komm" target="M3r-12"/>Serviteur min Herre! det er mig kiert at finde Folk af min Profession.
+                            Naar var Ankomsten her til Byen?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Det kand <seg type="komm" target="M3r-15"/>skille ham ligemeget enten jeg kom i Dag eller i Gaar.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich <stage><app type="tc_var"><lem><corr resp="udg1758">sagte.</corr></lem>
+                            <rdg wit="A a">sagde</rdg><rdg wit="B">sagde:</rdg><rdg wit="C">sagte:</rdg><rdg resp="udg1758">sagte.</rdg><rdg resp="SS">sagte</rdg></app></stage></speaker>
+                        <p>Den Karl er <seg type="komm" target="M3r-16"/>kort for Hovedet.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ja Henrich! alle store Konstenere ere <seg type="komm" target="M3r-21"/>capricieux. Jeg vilde ønske, at jeg
+                            ellers kunde være min Herre noget til Tienneste her paa Steden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Min Herre! den største Tienneste I kand giøre mig, det er at spare med
+                            jere <seg type="komm" target="M3r-27"/>Complimenter. Hvad Tienneste kand hand vel ellers giøre mig?
+                       </p>
+                    </sp>
+                    <pb ed="A" n="M3v" facs="M3v"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Et Menniske kand altid være det andet til Tienneste; jeg meener, at,
+                            <seg type="komm" target="M3v-3"/>saasom hand er fremmed her paa Steden, saa kand jeg giøre ham bekient
+                            med <seg type="komm" target="M3v-5"/>got Folk.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Got Folk ha ha <app type="tc_var"><lem wit="B C">ha,</lem><rdg wit="A a">ha</rdg><rdg resp="SS">ha</rdg></app> <seg type="komm" target="M3v-7"/>har hand saa god Forraad paa dem? jeg har nu reist
+                            heele Verden omkring, men jeg har ikke kundet treffe got Folk. Jeg har
+                            fundet alleene en god Mand i Verden, det var min <seg type="komm" target="M3v-11"/>Mester
+                            <w>Albufagomar-Fagius</w> en Araber af <seg type="komm" target="M3v-12"/>Geburt. Han var from og meere <seg type="komm" target="M3v-13"/>medliden
+                            mod <seg type="komm" target="M3v-13b"/>umælende Creatur end et Menniske er mod det andet. Jeg erindrer, at,
+                            da hans Kat laa engang og sov paa hans <seg type="komm" target="M3v-16"/><w>Kiole-Erme</w>, og hans <seg type="komm" target="M3v-17"/>Bedestund
+                            samme Tid falt <app type="tc_var"><lem wit="B C">ind; da</lem><rdg wit="A a">ind. Da</rdg><rdg resp="SS">ind. Da</rdg></app>, paa det hand ikke skulle forstyrre Katten i sin
+                            rolige Søvn, klippede han Støkket af Kiolen, hvorpaa Katten hvilede.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+     <p>Det kalder jeg Medlidenhed i en høj Grad. Slige Folk findes ikke hos os.
+         Kommer <seg type="komm" target="M3v-24"/>min Herre nu da fra <seg type="komm" target="M3v-24b"/>Arabien?</p>
+                    </sp>
+
+
+                    <pb ed="SS" n="179"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej Monsieur! jeg kommer fra Maanen. Jeg veed ikke, hvortil <seg type="komm" target="M3v-27"/>slige
+                            Spørsmaal tienner.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p> Man skal have noget at begynde sin Tale med.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><seg type="komm" target="M3v-31a"/>Jeg er ganske ikke for de <seg type="komm" target="M3v-31b"/>Præludier. Har <pb ed="A" n="M4r" facs="M4r"/>hand noget
+                            at sige mig, da maa hand strax gaa til <seg type="komm" target="M4r-2"/>Materien; thi Tiden er kostbar
+                            for mig.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Jeg har hørt, at min Herre er <seg type="komm" target="M4r-4"/>Adeptus.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Kand nok være.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Og, saasom jeg ogsaa udi mange Aar har <seg type="komm" target="M4r-9"/>lagt mig efter det <seg type="komm" target="M4r-9b"/>Videnskab, saa
+                            søger jeg altid Leilighed at tale med Folk af den Profession.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Hvad <seg type="komm" target="M4r-13"/><w>Vej-Viser</w> har Monsieur haft?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Jeg haver giennemlæst de allerbeste <seg type="komm" target="M4r-15"/>Autores.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>De allerstørste Autores ere de allerstørste Slyngle, som ikke self veed
+                            hvad de har skrevet. Jeg studerede udi 10 Aar forgieves; thi jeg var
+                            lige saa klog den sidste Dag som den første, men den store
+                            <app type="var"><lem wit="A">Albufagomarfagius</lem><rdg wit="B">Albufagomar-Fagius</rdg></app> lærte mig det i en Time, som jeg ikke kunde hitte paa
+                            i saa mange Aar.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Vil min Herre ikke lære mig Konsten for en <seg type="komm" target="M4r-26"/>Recompence?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Jeg har udi 6 Aar, siden jeg forlod min <seg type="komm" target="M4r-29"/>Mester, ikke villet lære den til
+                            noget Menniske; thi det har været mig forbuden, men for et half Aar
+                            siden har jeg <seg type="komm" target="M4r-31"/>paa Ansøgning <pb ed="A" n="M4v" facs="M4v"/>bekommet et saadan
+                            Svar, som Monsieur kand see af dette hans Brev dateret den 23 af den
+                            Maaned <seg type="komm" target="M4v-3"/>Gorael 603 Aar fra <seg type="komm" target="M4v-3b"/>Hegira. See her hvad hand skriver derom: <hi rend="ant_it"><seg type="komm" target="M4v-5"/>Allabricamo Triel Sluki, Elmacino Eben Alfantara Masaki 
+                                Gombada.</hi></p>
+                    </sp>
+                    <pb ed="SS" n="180"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Jeg forstaar slet intet Arabisk.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Videre. <hi rend="ant_it"><seg type="komm" target="M4v-10"/>Mihynki <app type="tc_var"><lem wit="A a">Carassa</lem><rdg wit="B C">Caraffa</rdg><rdg resp="udg1758 udg1788 Rahbek Liebenberg Martensen SS Roos Brix">Caraffa</rdg></app> <app type="tc_var"><lem wit="a C">Almanzera</lem><rdg wit="A B">Almanzcra</rdg><rdg resp="Liebenberg">Almanzcra</rdg><rdg resp="Martensen SS Roos">Almanzora</rdg></app> Tarif
+                                    Elbrunadora Alcantara.</hi>
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+    <p>Hvad skal det Ord <hi rend="ant_it">Alcantara</hi>
+        betyde? der er <seg type="komm" target="M4v-14"/>en Sted i Spanien, som heder saa?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Det Ord <hi rend="ant_it">Alcantara</hi> betyder en Sum
+                            Penge, som i Europæiske Mynt beløber sig til 4000 <seg type="komm" target="M4v-18"/>Rdlr; thi den Sum
+                            Penge <seg type="komm" target="M4v-18b"/>tilstæder hand mig at tage af den, der lærer Konsten.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+         <p>Men Monsieur maa vel tage mindre, om hand vil?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej hør hvad hand skriver derom: <hi rend="ant_it"><seg type="komm" target="M4v-24"/>Aitzema
+                                    cranganor Monomotapa Lacangandaro Mihopi Madagascar
+                                    rencollavát.</hi>
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+        <p>Jeg forstaar det ikke. Men skriver hand, at Monsieur maa ikke tage
+                            ringere, end de 4000 Rdlr? 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="M5r" facs="M5r"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Ej! han hører jo, at der staar <hi rend="ant_it"><seg type="komm" target="M5r-2"/>Mihopi
+                                    Madagascar rencolavet.</hi>
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Men om Monsieur vilde giøre det af <hi rend="ant_it"><seg type="komm" target="M5r-5"/>Generositet</hi> 
+                            for slet intet?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej hand gir en <seg type="komm" target="M5r-8"/>grundig <hi rend="ant_it"><seg type="komm" target="M5r-8b"/>Raison</hi>,
+                            hvorfore man maa ikke giøre det for intet: See her: 
+                            <hi rend="ant_it"><seg type="komm" target="M5r-10"/>Bramini <app type="tc"><lem wit="A a B C">Muhames</lem><rdg resp="udg 1758 udg1788 Rahbek Roos">Muhamed</rdg><rdg resp="Liebenberg">Muhames</rdg><rdg resp="SS">Muhamet</rdg></app> Nadir Elaocombra Caffares Canunor 
+                                    Elcanan.</hi> Vil derfor Monsieur lære Konsten koster den
+                            4000 Rdlr.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Det er noget meget, men maatte jeg tage den Frihed at spørge, <seg type="komm" target="M5r-15"/>at,
+                            <seg type="komm" target="M5r-15a"/>eftersom min Herre kand giøre Guld, hvad da de Penge kand nytte?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>At jeg ikke maa giøre det for <app type="tc_var"><lem wit="B C">intet,</lem><rdg wit="A a">intet</rdg><rdg wit="SS">intet</rdg></app> derfor har jeg min store Mesters
+                            skriftlige Ordre samt den Raison hand gir dertil her i Brevet, nemlig:
+                            <hi rend="ant_it"><seg type="komm" target="M5r-22"/><app type="tc"><lem wit="A a B C">Boamirci</lem><rdg resp="SS Roos">Bramini</rdg></app> Muhamed Nadir.</hi>
+                            <pb ed="SS" n="181"/>Det samme Spørsmaal som Monsieur giør til mig kand
+                            jeg ogsaa giøre til ham. Nemlig, <seg type="komm" target="M5r-25"/>hvad kand det komme ham an paa nogle
+                            1000 Rdlr, naar hand kand strax af intet giøre Penge igien.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ja ja det kand være got nok, men jeg vilde ellers sige noget, dersom hand
+                            ikke vilde <seg type="komm" target="M5r-31"/>tage det ilde op.
+                       </p>
+                    </sp> 
+                    <pb ed="A" n="M5v" facs="M5v"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Jeg kand giette hvad hand vil sige. Hand er bleven bedragen af saa mange,
+                            hvorfor skulde hand da tro mig?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Nej min Herre havde, <seg type="komm" target="M5v-6"/>min Troe, ikke <seg type="komm" target="M5v-7"/>ført det i saa slet en Stiil. Hand
+                            havde i <app type="tc"><lem><corr resp="ed">det</corr></lem><rdg wit="A">dee</rdg></app> <seg type="komm" target="M5v-8"/>ringeste, i Steden for det Ord bedrage, <seg type="komm" target="M5v-9"/>sat paa en høflig
+                            Maade trompere.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Monsieur har <app type="tc_var"><lem wit="B C">ret,</lem><rdg wit="A a">ret</rdg><rdg resp="SS">ret</rdg></app> jeg priser hans Forsigtighed. Jeg <seg type="komm" target="M5v-12"/>begierer ikke, at hand
+                            skal tro mig, forlanger derfor ikke Pengene forud, men allene
+                            Forsikring, at de skal blive mig betalt, saa snart hand har seet Prøven
+                            paa mit <seg type="komm" target="M5v-16"/>Videnskab.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Vel an! jeg vil <seg type="komm" target="M5v-18"/>sætte Pengene ned hos denne Jøde, hvilken skal levere dem
+                            strax til Monsieur, naar <app type="tc_var"><lem wit="a B C">jeg</lem><rdg wit="A">jer</rdg></app> seer Prøven.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Got. Dermed er jeg <seg type="komm" target="M5v-23"/>fornøjet. Jeg maa ind med ham at besee hans
+                Laboratorium om det er <seg type="komm" target="M5v-24"/>beqvem dertil.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ja vil hand behage at spadsere ind.</p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc7" n="Scene 7">
+                    <head><hi rend="ant">Scen. 7.</hi>   
+                    </head>
+                    <stage>Henrich. Leonora. Pernille. </stage>                
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jeg gad gierne vide hvordan det <seg type="komm" target="M5v-30"/>løber <pb ed="A" n="M6r" facs="M6r"/>af. Jeg er
+                            bange for min Herres Penge. Men der kommer Fruen med Pernille.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+         <p>Henrich! hvor er Herren?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hand er gaaed lit ind, og, naar hand kommer ud igien, er hand enten
+                            Keiser eller <seg type="komm" target="M6r-8"/>Staader. Hand har slutted en Contract med den ny Guldmager,
+                            som bringer ham til en af Delene.</p>
+                    </sp>
+                <pb ed="SS" n="182"/>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Forlanger da Guldmageren Penge for at <seg type="komm" target="M6r-13"/>lære Konsten?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Der bliver levert 4000 <seg type="komm" target="M6r-15"/>Rdlr. til Jøden Benjamin, hvilke Guldmageren skal
+                            have, naar hand har <seg type="komm" target="M6r-17"/>giort sin Konst <seg type="komm" target="M6r-17b"/>probat.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ach! min heele Krop skielver allerrede; thi jeg er vis paa, at der er
+                            Bedrageri under.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Nej! Skam faa Herren, hand var forsigtig nok der i, at hand vil have
+                            Prøve først, og, naar Prøven er probat, saa er de Penge vel anvente.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>De Penge allene, som hand betinger sig <seg type="komm" target="M6r-28"/>gir Bedrageri tilkiende; thi <seg type="komm" target="M6r-28b"/>hvad
+                            skulde en der kand giøre Guld forlange Penge af andre.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jo hand gaf min Herre <seg type="komm" target="M6r-31"/>Raison derfor. 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="M6v" facs="M6v"/>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Jeg kand ikke begribe, hvad Raison hand kand give dertil.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jo Raison dertil skal være denne <hi rend="ant_it"><seg type="komm" target="M6v-5"/>Alcantara
+                                    Aben Ezra Mahomet podolski 
+                            <app type="tc"><lem><corr resp="ed">Scabhalsias</corr></lem><rdg wit="A">Scabhalfias</rdg></app> komai:</hi> den
+                            Raison fant Herren for at være god, og <seg type="komm" target="M6v-8"/>mig syntes at den kunde ogsaa
+                            lade sig høre.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Hvad er det da paa Dansk?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Det veed <app type="tc_var"><lem wit="a A B">jeg</lem><rdg wit="A"><note>mgl. i</note></rdg></app> <seg type="komm" target="M6v-13"/>min Troe ikke. Forstaar jeg Arabisk?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Du <seg type="komm" target="M6v-16"/>Taadse! naar du ikke forstaar det, hvordan kand du da <seg type="komm" target="M6v-17"/>finde Raison
+                            derudi?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jo Guldmageren forklarede Ordene for os siden saaledes 
+                            <hi rend="ant_it"><seg type="komm" target="M6v-20"/>Spelamdisimo Madagascar hemancino
+                                Rencolavet.</hi>
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Endnu er jeg lige klog.</p>
+                    </sp>
+
+
+                    <pb ed="SS" n="183"/>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jeg min Troe lige saa: men nok er det, at hand faar ingen Penge førend
+                            hand har giort nogle gange Prøve. Men der kommer de. Det er best at vi
+                            gaar ind, thi hand vil være allene med Guldmageren.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ach Ach! <seg type="komm" target="M6v-31"/>mit Blod spaar mig intet got; <pb ed="A" n="M7r" facs="M7r"/>men, naar
+                            jeg ret eftertænker det, saa er det lige got; thi, enten hand ruineres
+                            paa en Dag, eller et Aar, det kommer paa et ud.</p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc8" n="Scene 8">
+                    <head><hi rend="ant">Scen. 8.</hi></head>
+                    <stage>Oldfux. Polidor.</stage>               
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej min Herre! jeg <app type="tc"><lem><corr resp="ed">vil</corr></lem><rdg wit="A B">vilde</rdg><rdg resp="SS">vilde</rdg><note>(jf. Holbergordbogen s.v. <q>ville</q> 8.1</note></app> aldelis ikke have med <seg type="komm" target="M7r-9"/>Operationen at bestille,
+                            paa det hand ingen <seg type="komm" target="M7r-10"/>Mistanke skal fatte. Har hand kommen saa meget
+                            <seg type="komm" target="M7r-11"/>Mercurius i <seg type="komm" target="M7r-11b"/>Panden, som jeg sagde.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ja vist.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><seg type="komm" target="M7r-16"/>Kaager det ogsaa ved en sagte Ild?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ja alting er <seg type="komm" target="M7r-18"/>efter deris Ordonance.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nu kommer Hemmeligheden, som bestaar udi visse <seg type="komm" target="M7r-20"/>kraftige Arabiske Ord, som
+                            Monsieur skal repetere 3 gange medens Operationen skeer, see her har jeg
+                            dem skreven om hand kand læse dem.</p> 
+                        <stage>Tar Papiret og <app type="tc"><lem><corr resp="ed">læser.</corr></lem><rdg wit="A">læser</rdg></app>                            </stage>
+                        <p><hi rend="ant_it"><seg type="komm" target="M7r-26"/><app type="tc"><lem><corr resp="Liebenberg">Eregamdlug ere</corr></lem><rdg wit="A a B C">Eregamdlugere</rdg><rdg resp="Liebenberg">Eregamdlug ere<note type="last">(se komm.)</note></rdg></app> <app type="tc"><lem wit="C">Eregardeb</lem><rdg wit="A a B">Eregardel</rdg></app> go ud ne
+                                ran.</hi>
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Dette skal hand paa Knæ repetere 3 gange.</p>
+                        <stage>Polidor repeterer det 3 gange.</stage>
+                                  </sp>
+                    <pb ed="A" n="M7v" facs="M7v"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Det er sant. Hand har jo ogsaa kommet det Arabiske Pulver i Panden?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Nej, Monsieur har intet Arabisk Pulver <app type="tc_var"><lem wit="B C">talet</lem><rdg wit="A">tale</rdg><rdg wit="a">talt</rdg><rdg resp="SS">talt</rdg></app> om.</p>
+                    </sp>
+                    <pb ed="SS" n="184"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Ej Ej! det er det <seg type="komm" target="M7v-8"/>allerfornemmeste, thi uden det kand Operationen ikke
+                            skee.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Men, hvor faar mand det Pulver?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Disse <seg type="komm" target="M7v-13"/>Nürenbergere pleje allevegne at <seg type="komm" target="M7v-14"/>sidde paa Torvet dermed. Det bruges
+                            <seg type="komm" target="M7v-14b"/>ellers til at tage Pletter af Klæder med. Man kand faa en <seg type="komm" target="M7v-16"/>temmelig
+                            <seg type="komm" target="M7v-16b"/>Qvantitet for en <seg type="komm" target="M7v-17"/>Mark, thi de Karle vide ikke samme Pulvers rette <seg type="komm" target="M7v-18"/>Dyd.
+                            Lad Tienneren i en hast springe hen paa Torvet.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+               <p>Henrich!</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Herre!</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Spring hen paa Torvet, og kiøb noget Arabisk Pulver for en Mark.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hos hvem skal jeg kiøbe det?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>De fleste Nürenbergere plejer have det blant <seg type="komm" target="M7v-31"/>anden Kram. 
+                       </p>
+                    </sp>
+                <stage>Henrich gaar bort.</stage>
+                    <pb ed="A" n="M8r" facs="M8r"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ach Himmel! hvo skulde tænke at det Pulver havde saadan Dyd?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><seg type="komm" target="M8r-5"/>Alting synes at være ringe, naar man først faar det at vide.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Er der ellers noget andet at <seg type="komm" target="M8r-8"/>tage i agt?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej ellers intet. Den Seddel, hvorpaa de Arabiske Ord staar skreven, maa
+                            Monsieur bevare som et <seg type="komm" target="M8r-12"/>liggende Fæ, thi der udi bestaar den hele
+                            Hemmelighed.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Men, <seg type="komm" target="M8r-15"/>naar skal mand komme det Arabiske Pulver udi Panden?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><seg type="komm" target="M8r-18"/>Tiden <app type="tc"><lem wit="A a B C">gir</lem><rdg resp="Rahbek Liebenberg">giør</rdg></app> 
+                            intet til Sagen, naar det kun skeer, medens det kaager. See der
+                            kommer Tienneren tilbage. Jeg <seg type="komm" target="M8r-20"/>viste nok, at de har det allevegne.</p>
+                    </sp>
+
+
+                    <pb ed="SS" n="185"/>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Her er 8 <seg type="komm" target="M8r-23"/>ß. tilbage Herre! jeg fik mit hele Tørklæde fult for 8 ß.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p><seg type="komm" target="M8r-26"/>Gak nu ind, og kom en god Haand fuld udi Panden.</p>
+                    </sp>
+                    <stage>De gaar ind.</stage>          
+                </div>
+            <div type="scene" xml:id="sc9" n="Scene 9">
+                
+                <pb ed="A" n="M8v" facs="M8v"/>
+                    <head><hi rend="ant">Scen. 9.</hi></head>
+                    <sp>
+                        <speaker>Oldfux <stage>alleene.</stage></speaker>
+                        <p>Det gaar skiønt. Jeg skal lade ham endnu <seg type="komm" target="M8v-4a"/>operere et par gange, <seg type="komm" target="M8v-4b"/>at hand
+                            kand des mere <seg type="komm" target="M8v-5"/>bestyrkes. Thi det slaar aldrig feil, at hand <seg type="komm" target="M8v-6a"/>jo faar
+                            henved <seg type="komm" target="M8v-6b"/>10 Rdlr. af de to Haandfuld Pulver, hand kommer i Panden. Naar
+                            jeg saa faar Pengene, reiser jeg og min Cammerat Andreas af Byen, og lar
+                            den gode Herre sørge for, hvor hand kand faa meer Arabisk Pulver ha ha
+                            <app type="tc"><lem><corr resp="udg1788">ha!</corr></lem><rdg wit="A B C">ha</rdg>
+                                <rdg resp="udg1788">ha!</rdg><rdg resp="SS">ha</rdg></app> 
+                            det bliver artigt nok, naar hand siden <seg type="komm" target="M8v-12"/>har Bud efter det, som aldrig har været til i Verden, og, naar hand faar at høre, at <seg type="komm" target="M8v-15a"/>aldrig nogen <seg type="komm" target="M8v-15b"/>veed
+                            af det Arabiske Pulver at sige. Jeg <seg type="komm" target="M8v-16"/>skiller denne Mand ved 4000 Rdlr, og
+                            dog giør ham en Tienneste, som hand bør takke mig for; thi hand lærer
+                            saa meget af denne Historie, at hand forlader <seg type="komm" target="M8v-20"/>sit Galskab, overlader til
+                            andre det Handverk at giøre Guld. Min Cammerat Andreas har ellers
+                            fortient den Fierdedeel af Pengene, thi hand har <seg type="komm" target="M8v-23"/>viislig og trolig
+                            forrettet <seg type="komm" target="M8v-24"/>sit Verk; jeg har kient ham <seg type="komm" target="M8v-24b"/>for mange Aar, og veed, <seg type="komm" target="M8v-25"/>at hand
+                            ingen uden mig eftergiver noget udi Hurtighed, thi jeg hafde ellers ikke
+                            betrod ham dertil; men der kommer Herren tilbage.</p>
+                    </sp>
+                    <pb ed="A" n="M9r" facs="M9r"/>
+                </div>
+            <div type="scene" xml:id="sc10" n="Scene 10">
+                    <head><hi rend="ant">Scen. 10.</hi></head>
+                    <stage>Oldfux. Polidor.</stage>
+                    <sp>
+                        <speaker>Polidor <stage>omfavnende og kyssende Oldfux.</stage></speaker>
+                        <p>Ach min Herre! Himmelen selv har ført eder <seg type="komm" target="M9r-5"/>hid, for at belønne mig for
+                            mit lange Arbeide og mange Aars <seg type="komm" target="M9r-6"/>Svede, som jeg længe <seg type="komm" target="M9r-7"/>frugtesløs har
+                            anvendt. <seg type="komm" target="M9r-7b"/>Konsten er probat, I har fortient <seg type="komm" target="M9r-8"/>redelig de 4000 <seg type="komm" target="M9r-9"/>Rdlr, ja
+                            dobbelt saa meget.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Jeg vil ikke have <seg type="komm" target="M9r-11"/>en Skilling meer end hvad vor <seg type="komm" target="M9r-12"/>Accord er.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ach! nu skal jeg <seg type="komm" target="M9r-14"/>stoppe Munden til paa dem, som <seg type="komm" target="M9r-15"/>idelig har <seg type="komm" target="M9r-15b"/>beleed <app type="tc_var"><lem wit="B C">mig,</lem><rdg wit="A">mig</rdg><rdg resp="SS">mig</rdg></app> og
+                            triumphere over mine Uvenner, og dem, der har vendet mig Ryggen, <seg type="komm" target="M9r-17"/>saasom
+                            de har frygted, <pb ed="SS" n="186"/>at jeg skulde <seg type="komm" target="M9r-18"/>geraade udi Armod,
+                            og derfor glemt alle de Velgierninger, jeg har <seg type="komm" target="M9r-19"/>beviist dem udi min
+                            Velstand.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Ja min Herre! <seg type="komm" target="M9r-22"/>Verdens Maade er ikke anderledes.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Men nu kand jeg foragte dem <seg type="komm" target="M9r-25"/>igien.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej det skal min Herre ikke giøre; thi det fornemste, som min store
+                            Mester Albufagomarfagius <seg type="komm" target="M9r-29"/>recommenderer sine <seg type="komm" target="M9r-29b"/>Discipler er Ydmyghed. Min
+                            Herre seer <w>hvor<pb ed="A" n="M9v" facs="M9v"/>dan</w> mit <seg type="komm" target="M9v-1"/>Væsen er. Jeg kand <seg type="komm" target="M9v-1b"/>føre
+                            mig op som en <seg type="komm" target="M9v-2"/>Første, om jeg vilde, men det er imod vor <seg type="komm" target="M9v-3"/>Fundatz; hvilket
+                            er Aarsag at man ikke vil troe, at vi forstaar den <seg type="komm" target="M9v-4"/>Edle Konst, <seg type="komm" target="M9v-5"/>efterdi
+                            vi <seg type="komm" target="M9v-5b"/>stille os an som fattige Folk.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Jeg skal ogsaa efterleve hans <seg type="komm" target="M9v-7"/>Formaninger, hvor om hand kand forsikre
+                            Albufagomarfagius, til hvilken jeg beder at <seg type="komm" target="M9v-9"/>formelde min ydmygste
+                            Respect, naar I skriver ham til.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Det skal ikke <hi rend="ant_it"><seg type="komm" target="M9v-12"/>manqvere</hi>.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>See her min Herre der er mit <seg type="komm" target="M9v-14"/>Zignet, hvilket, naar I <seg type="komm" target="M9v-15"/>flyer til Jøden
+                            Benjamin, faar I strax Pengene.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Forsøg <seg type="komm" target="M9v-18"/>nok for Sikkerhed <seg type="komm" target="M9v-18b"/>en Operation.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ja vil Monsieur blive her saa længe, <seg type="komm" target="M9v-21"/>imidlertid skal min Kone holde ham
+                            med Selskab.</p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc11" n="Scene 11">
+                    <head><hi rend="ant">Scen. 11.</hi></head>
+                    <stage>Oldfux. Leonora. Pernille.</stage>             
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ach min Herre! gid jeg kunde hitte paa saa  <seg type="komm" target="M9v-27"/>kraftige Ord, som jeg ønskede
+                            for at tilkiende give min Taknemmelighed med.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Min kiære Frue hendes Herre er en <seg type="komm" target="M9v-30"/><w>dy<pb ed="A" n="M10r" facs="M10r"/>dig</w> Mand,
+                            <seg type="komm" target="M10r-1"/>for den <app type="tc"><lem><corr resp="ed">Aarsag</corr></lem><rdg wit="A">Aarsar</rdg></app> skyld har jeg <seg type="komm" target="M10r-2"/>aabenbaret ham min <seg type="komm" target="M10r-2b"/>Konst.</p>
+                    </sp> 
+                <stage>Pernille kysser ham paa Haanden.</stage>
+                    <pb ed="SS" n="187"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Det er alt for <seg type="komm" target="M10r-5"/>ydmygt <seg type="komm" target="M10r-5b"/>Mademoiselle! min haand er ogsaa noget <seg type="komm" target="M10r-6"/>skiden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Ach nej det er en kostbar Haand, som er <seg type="komm" target="M10r-9"/>vært at kysse meer end engang.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p><seg type="komm" target="M10r-11"/>Vil min Herre ikke forsmaa den Ring, og bære den for min Skyld.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej min kiære Frue! jeg tager aldelis ingen Gaver af hende.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ach jo min Herre! jeg vil tage det op som et Venskabs Tegn af ham,
+                            forsmaa den ikke, jeg beder ydmygst.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Ach min Herre! giør dog Fruen den Fornøjelse.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>For ikke at <seg type="komm" target="M10r-24"/>giøre Fruen imod, vil jeg tage imod den.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Ach min Herre gid jeg havde ogsaa noget got at forære ham. Vil hand ikke
+                            forsmaa denne <seg type="komm" target="M10r-29"/><w>Skue-Penge</w>, som jeg har arvet efter mine Forældre.
+                       </p>
+                    </sp>
+                    <pb ed="A" n="M10v" facs="M10v"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Det var Synd at berøve hende <seg type="komm" target="M10v-2"/>sin Arvedeel.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Ach min Herre! jeg slipper ham ikke, førend hand tager imod den.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Jeg vil da <seg type="komm" target="M10v-7"/>forvare den for hendes skyld, og <seg type="komm" target="M10v-8"/>skikke hende en af Guld
+                            igien. Men der kommer Herren tilbage.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p> Ach Ach min Glæde er saa stor at jeg neppe kand <seg type="komm" target="M10v-12"/>skikke mig deri. <seg type="komm" target="M10v-12b"/>Konsten
+                            er probat. Jeg fik lige saa meget Guld ved den sidste <seg type="komm" target="M10v-14"/>Operation. Ach jeg
+                            beder at min Herre vil besøge mig hver Dag saa lenge hand er her i
+                            Staden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Det <app type="tc"><lem><corr resp="ed">skal</corr></lem><rdg wit="A">skai</rdg></app> ikke <seg type="komm" target="M10v-18"/>manqvere. Jeg bliver maa skee nogle Maaneder her paa
+                            Steden.</p>
+                    </sp>
+                    <pb ed="SS" n="188"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Vil hand ikke giøre mig den Ære at spise med mig til <seg type="komm" target="M10v-22"/>Middag.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Nej jeg faar ikke Lejlighed; men jeg vil nok have den Ære at spise med
+                            ham til Aften: nu har jeg nogle smaa Forretninger.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Jeg vil da ikke opholde ham; Pengene faar hand hos Jøden, saa snart hand
+                            viser ham <seg type="komm" target="M10v-30"/>Zignetet. 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="M11r" facs="M11r"/>
+                    <sp>
+                        <speaker>Oldfux.</speaker>
+                        <p>Jeg <seg type="komm" target="M11r-2"/>tviler ikke <app type="tc"><lem><corr resp="Liebenberg">derpaa. <seg type="komm" target="M11r-2a"/>Adieu</corr></lem><rdg wit="A a">derpaa Adieu</rdg><rdg wit="B C">derpaa, adieu</rdg><rdg resp="Liebenberg">derpaa. Adieu</rdg></app>  saa lenge.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Adieu <seg type="komm" target="M11r-4"/>jeg recommenderer mig med mit hele Huus.</p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc12" n="Scene 12">
+                    <head><hi rend="ant">Scen. 12.</hi></head>
+                    <stage>Polidor. Leonora. Pernille. Henrich.</stage>            
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Nu <seg type="komm" target="M11r-9"/>Madam! hvad siger I nu? har jeg nu ødelagt jer Huus ved mit daarlige
+                            Arbeide?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ach min <seg type="komm" target="M11r-13"/>Hierte! <seg type="komm" target="M11r-13b"/>regn mig ikke min Ubetænksomhed til onde.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Jeg beder ogsaa <seg type="komm" target="M11r-16"/>ydmygest, at Herren vil <seg type="komm" target="M11r-17"/>forlade mig at jeg saa <seg type="komm" target="M11r-17b"/>dristig
+                            mangen gang har <seg type="komm" target="M11r-18"/>spotted dermed.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p> Jeg forlader jer det <seg type="komm" target="M11r-20"/>Børn lille af mit gandske Hierte, vil I kun lære
+                            der af en anden gang ikke at <seg type="komm" target="M11r-22"/>raisonnere om Sager, som overgaar jer
+                            Forstand. See Henrich! hvor kommer du fra?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Ach Herre! er det sant?</p>
+                    </sp>
+                    <sp>
+                        <speaker><app type="tc"><lem><corr resp="ed">Polidor</corr></lem><rdg wit="A">Polido</rdg></app>.</speaker>
+                        <p>Hvad er sant?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>At Herren kand giøre Guld. 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="M11v" facs="M11v"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ja Henrich det er gandske rigtig, men hvor har du faaet det at vide?</p>
+                    </sp>
+
+
+                    <pb ed="SS" n="189"/>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Ach <seg type="komm" target="M11v-5"/>det er alt over den hele By: jeg hørte det først af <seg type="komm" target="M11v-6a"/>Viintapperen,
+                            <seg type="komm" target="M11v-6"/>hernest ved: hand <seg type="komm" target="M11v-7"/>recommenderede sig sytten gange udi min gode <app type="tc_var"><lem wit="B C">Affection og Bevaagenhed,</lem><rdg wit="A a">Affection/ og Bevaagenhed</rdg></app> skienkte et stor Glas <seg type="komm" target="M11v-9"/>Carnali Sek for mig, <app type="tc"><lem><corr resp="ed">og</corr></lem><rdg wit="A">øg</rdg></app> vilde ikke
+                            have en Skilling derfor, <seg type="komm" target="M11v-10a"/>da <seg type="komm" target="M11v-10"/>den sultne Hund dog aldrig <seg type="komm" target="M11v-11"/>tilforen har
+                            villet give mig et Glas Brendevin uden at jeg lagde Penge først paa
+                            Bordet.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>See engang hvordan Verden er; saa snart det gaar en vel, saa søger alle
+                            ens Venskab, men jeg kand ikke begribe hvordan saadant kand <seg type="komm" target="M11v-18"/>spørges saa
+                            hastig.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                       <p>Jøden maa have sagt det først til en, og, naar en faar en Ting først at
+                            vide, er det strax over den hele By. Alle Mennisker, som saae mig paa
+                            Gaden, hilsede mig, som jeg kunde have været en <seg type="komm" target="M11v-24"/><w>Palts-Greve</w>, og
+                           Christoffer <seg type="komm" target="M11v-25"/><w>Smør-Blomster</w>, som <seg type="komm" target="M11v-25b"/>aldrig har villet seet paa mig tilforen,
+                            bukkede sig saa dybt, at hand nær havde faldet i Rendesteenen: men jeg
+                            gik <seg type="komm" target="M11v-28"/>min Troe ligesaa <seg type="komm" target="M11v-29"/>stout ham forbi, som hand har gaaet mig forbi
+                            tilforen. 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="M12r" facs="M12r"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Der banker vist Henrich! <seg type="komm" target="M12r-2"/>gak til Døren.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Det er Monsieur Leander, som vil have den Ære at <seg type="komm" target="M12r-5"/>opvarte Herren.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ej Ej! er det muligt? den Mand har foragtet mig i sit Hierte tilforn.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Siig Henrich at vi <seg type="komm" target="M12r-10"/>gir ikke slige Folk Audientz.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ach nej Madam! lad os <seg type="komm" target="M12r-12"/>skikke os i vor Medgang. Hand maa vel komme ind.
+                       </p>
+                    </sp>
+                </div>
+            <div type="scene" xml:id="sc13" n="Scene 13">
+                    <head><hi rend="ant">Scen. 13.</hi></head>
+                    <stage>Leander. Personerne af forige <hi rend="ant_it">Scene</hi>.
+                   </stage>
+          <sp>
+                        <speaker>Leander.</speaker>
+              <p>Ach min allerkiæreste <seg type="komm" target="M12r-18"/>Her Polidor! det er mig en usigelig Glæde at see
+                            ham <app type="tc"><lem wit="A a B C">med</lem><rdg resp="Liebenberg">ved</rdg></app> god Helbred: jeg kand ikke beskrive hvilken inderlig Hiertens
+                            Lengsel jeg har haft efter at see ham.</p>
+                    </sp>
+
+
+                    <pb ed="SS" n="190"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Jeg har ikke kundet merke det; thi jeg har adskillige gange vildet besøge
+                            ham, men hand har <seg type="komm" target="M12r-26"/>negtet sig hiemme, og, naar jeg har seet ham paa
+                            Gaden, har hand aldrig villet hilse mig.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leander.</speaker>
+                        <p>Ach min allerkiæreste Her Polidor! hand <pb ed="A" n="M12v" facs="M12v"/>giør mig
+                            sin allerringeste Tienner uret; thi jeg krever Himmelen til Vidne, at
+                            der er intet Menniske til paa Jorden, som jeg har saa stor <seg type="komm" target="M12v-4"/>Estime for.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p> Monsieur! <seg type="komm" target="M12v-6"/>hand sparer med sine Complimenter – –</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p><seg type="komm" target="M12v-9"/>Nej Herr! jeg troer nok at Her Leander er hans Ven, thi, saa snart hand
+                            fik at vide den Lykke <seg type="komm" target="M12v-11"/>Herren var vederfaret, blef hand saa forandret, at
+                            hand er <seg type="komm" target="M12v-12"/>færdig at briste af Kierlighed til ham.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Leander.</speaker>
+                        <p>Jeg <seg type="komm" target="M12v-15"/>svær ved alt det som helligt er, at jeg <seg type="komm" target="M12v-16"/>altid er den samme, som jeg
+                            har været, og at den Lykke som min <seg type="komm" target="M12v-17"/>gunstige Herre er vederfaret aldeles
+                            ikke er Aarsag til min <seg type="komm" target="M12v-19"/>Hidkomst. Jeg har altid <seg type="komm" target="M12v-19b"/>prefereret Herren for
+                            alle de Mennisker jeg har kient, og <seg type="komm" target="M12v-21"/>agter mig for den største Lykke at
+                            være en af hans <seg type="komm" target="M12v-22"/>ringeste <seg type="komm" target="M12v-22b"/>Clienter.</p>
+                    </sp>
+                    <sp>
+                        <speaker> <app type="tc"><lem><corr resp="ed">Polidor</corr></lem><rdg wit="A">Polider</rdg></app>.</speaker>
+                        <p>Det kand nok være Monsieur! nu maa jeg gaa fra <app type="tc"><lem wit="B C">dem,</lem><rdg wit="A a">dem</rdg><rdg resp="SS">dem</rdg></app> jeg har noget at
+                            bestille.</p>
+                        <stage>Gaar ind.</stage>
+                    </sp>                   
+                    <sp>
+                        <speaker>Leander <stage>kysser Henrich.</stage></speaker>
+                        <p>Ach min <seg type="komm" target="M12v-28"/>hierte <seg type="komm" target="M12v-28a"/>Monsieur von Henrich! jeg beder at I vil være min Ven og
+                            <seg type="komm" target="M12v-29"/>Velyndere, vil I da? 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="N1r" facs="N1r"/>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Ach hvorfor skulde jeg ikke <app type="tc"><lem><corr resp="udg1788">det?</corr></lem><rdg wit="A a B C">det</rdg><rdg resp="SS">det</rdg></app> <hi rend="ant_it"><seg type="komm" target="N1r-2"/>Serviteur
+                            <app type="tc_var"><lem wit="A B C">treshumble</lem><rdg wit="a">tres humble</rdg><rdg resp="SS">tres humble</rdg></app></hi>.</p>
+                    </sp>
+                    <stage>Kysser hinanden igien.</stage>
+                <stage>Tre andre <seg type="komm" target="N1r-5"/>skrammererede Herrer kommer ind og omfavner Henrich, og gaar
+                        ind til Polidor med Leander.</stage>
+                <stage>Leanders Frue kommer ind <app type="tc_var"><lem wit="B C">og kysser</lem><rdg wit="A a">kysser</rdg><rdg resp="SS">kysser</rdg></app> <seg type="komm" target="N1r-8"/>Leonoræ Forklæde.</stage>
+
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ej min kiære Frue! hvor kommer den store Ydmyghed fra?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Fruen.</speaker>
+                        <p>Ach naadige Frue! kand nogen være <app type="tc"><lem><corr resp="Boye">for ydmyg mod</corr></lem><rdg wit="A a B C">ydmyg mod</rdg><rdg resp="udg1788">ydmyg med</rdg><rdg resp="Rahbek SS">ydmyg mod</rdg><rdg resp="Boye">for ydmyg mod<note type="last">(fulgt af Liebenberg Martensen Roos Brix)</note></rdg><rdg resp="Lange">ydmyg nok mod</rdg></app> 
+                             en Dame af hendes <seg type="komm" target="N1r-15"/>Qvaliteter.
+                            Hun er jo som et Lys for alle her i Staden.</p>
+                    </sp>
+                    
+                    
+                   <pb ed="SS" n="191"/>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Da har hun aldelis ikke havt de Tanker om mig <seg type="komm" target="N1r-19"/>tilforen.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Fruen.</speaker>
+                        <p>Jeg tør ikke sværge i naadige Frues <seg type="komm" target="N1r-21"/><app type="tc_var"><lem wit="B C">Presence</lem><rdg wit="A a">Precence</rdg><rdg resp="SS">Precence</rdg></app>; men, hvis jeg torde sværge,
+                            vilde jeg <seg type="komm" target="N1r-23"/>ved min højeste Eed bevise at –</p>
+                    </sp>
+                    <stage>Tre andre Fruer kommer ind og kysser ogsaa paa hendes Forklæde.</stage>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>I gode Fruer! lad os gaa ind i en anden Stue. Jeg seer hele Verden vil
+                            her ind. Vi kand derfor ikke længer blive her i <w>For-Stuen</w>.</p>
+                    </sp> 
+                <pb ed="A" n="N1v" facs="N1v"/>
+                            <stage>Henrich og Pernille blir allene, <seg type="komm" target="N1v-1"/>de 3 Cavelerer kommer ind og
+                                <seg type="komm" target="N1v-2"/>giør dybe Complementer for Polidor, som er inden for, saa at den ene
+                                falder paa Hovedet, kysser Henrich, og <seg type="komm" target="N1v-5"/>recommenderer sig før de
+                                gaar. Fruerne giør ligesaa, og kysser Pernille paa Haanden.</stage>
+                       
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Gaar ikke det <seg type="komm" target="N1v-9"/>skiønt til Henrich! alle disse 3 Fruer kyssede mig paa
+                            Haanden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Da <seg type="komm" target="N1v-12"/>fikst du endda meere <seg type="komm" target="N1v-12b"/>Højtid end jeg, thi Herrene kyssede mig <seg type="komm" target="N1v-13"/>kun paa
+                            Munden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Man kand i denne Historie <seg type="komm" target="N1v-15"/>tilstrekkelig <seg type="komm" target="N1v-16"/>speigle sig paa Verden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Ja hvem <app type="tc"><lem><corr resp="ed">skulde</corr></lem><rdg wit="A">stulde</rdg></app> have tænkt at <seg type="komm" target="N1v-18"/>slig en gemeen Kisselinke, som du <seg type="komm" target="N1v-19"/>est,
+                            skulde faa Haandkys af fornemme Fruer.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Ja det maa du vel sige, og at saadan <seg type="komm" target="N1v-23"/>Grovbrødsmund som din er skulde
+                            blive kyssed af slige fornemme Herrer: Men der standser en <seg type="komm" target="N1v-25"/>Hob Vogner,
+                            vi faar nok flere <seg type="komm" target="N1v-26"/>Opvartninger.</p>
+                    </sp> 
+                <stage>To Herrer med to Fruer kommer ind
+                                og <seg type="komm" target="N1v-28"/>begierer den Naade at faa Herren i Tale.</stage>                      
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>I <seg type="komm" target="N1v-31"/>got Folk jeg veed ikke, om Herren og <pb ed="A" n="N2r" facs="N2r"/>Fruen gir
+                            Audients. Dog <seg type="komm" target="N2r-2"/>blir kun staaende til de kommer ud.</p>
+                    </sp> 
+                <stage>Henrich
+                                <seg type="komm" target="N2r-3"/>rangerer dem ved den ene Side, midlertid kommer <app type="var"><lem wit="A">2</lem><rdg wit="B">tvende</rdg></app> <seg type="komm" target="N2r-4"/><app type="var"><lem wit="A a">sortklæde</lem><rdg wit="B C">sortklædde</rdg></app> Karle
+                                ind.</stage>                       
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hvad er I for Folk?</p>
+                    </sp>
+                    <pb ed="SS" n="192"/>
+                    <sp>
+                        <speaker><seg type="komm" target="N2r-8"/>Poet.</speaker>
+                        <p>Vi ere Poeter.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Got, I kommer <seg type="komm" target="N2r-11"/>ret beleiligt. En Kat døde for mig i Gaar, som jeg vil have
+                            giort nogle <seg type="komm" target="N2r-13"/>smukke Vers over.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Poet.</speaker>
+                        <p>Monsieur har at befale over vore <seg type="komm" target="N2r-15"/>ringe <seg type="komm" target="N2r-16"/>Venas.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich <stage>sagte.</stage></speaker>
+                        <p><seg type="komm" target="N2r-18"/>Gid I faar en Ulykke I liderlige Hunde!</p> 
+                        <stage>Højt.</stage> 
+                        <p>Hvad er ellers jer <seg type="komm" target="N2r-20"/>Begiering?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Poet.</speaker>
+                        <p>Vi har nogle ringe Vers at <seg type="komm" target="N2r-22"/>offerere <app type="tc"><lem><corr resp="ed">Herren</corr></lem><rdg wit="A">Herrren</rdg></app> og Fruen til <seg type="komm" target="N2r-23"/>Berømmelse.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Got, blir staaende ved den anden Side, til Herskabet kommer ud. Vil I
+                            Hunde tage jere Hatte af? veed I ikke hvad Huus I er udi?</p>
+                    </sp> 
+                <stage>De tage Hattene af og stirre paa Jorden.</stage>                       
+                    <sp>
+                        <speaker>Henrich <stage>spadserer frem og tilbage.</stage></speaker>
+                            <pb ed="A" n="N2v" facs="N2v"/>
+                        <p>Hør Karle! hvor mange Vers kand I giøre om Dagen?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Poet. <stage>bukkende sig.</stage>
+                        </speaker>
+                        <p><seg type="komm" target="N2v-4"/>Det er ligesom Geisten er.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Kand I sætte mig et Riim paa det Ord Henrich Larsen?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Poet.</speaker>
+                        <p>Det er noget vanskelig.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Ej da maa I være nogle Slyngle af Poeter. Hør kand I ogsaa giøre Vers paa
+                            <hi rend="ant_it"><seg type="komm" target="N2v-13"/>Solut</hi> Stiil?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Poet.</speaker>
+                        <p>Nej Monsieur det er <seg type="komm" target="N2v-15"/>mod Naturen.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hvad? Er det mod Naturen? vil I giøre mig til en <seg type="komm" target="N2v-18"/>Giek? I <seg type="komm" target="N2v-18b"/>Skabhalse!</p>
+                    </sp>
+                    <sp>
+                        <speaker>Poet.</speaker>
+                        <p><seg type="komm" target="N2v-20"/>Det være langt fra.</p>
+                    </sp>
+
+
+
+                    <pb ed="SS" n="193"/>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hvor mange <seg type="komm" target="N2v-22"/>Pesser <seg type="komm" target="N2v-22a"/>giør det paa et Vers? jeg har glemt det <seg type="komm" target="N2v-23"/>Pedanteri
+                            igien.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Poeter.</speaker>
+                        <p><seg type="komm" target="N2v-25"/>Det er ligesom Versene ere til.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hvad Snak! ere ikke alle Vers lige lange, men <seg type="komm" target="N2v-28"/>hvor kommer det at I aldrig
+                            har giort Vers Herskabet til Ære tilforen, da de dog har fortient samme
+                            Berømmelse <seg type="komm" target="N2v-30"/>altid som nu. 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="N3r" facs="N3r"/>
+                    <sp>
+                        <speaker>Poet.</speaker>
+                        <p>Fordi vi har ikke haft den Lykke at kiende deris <seg type="komm" target="N3r-3"/>Dyder <seg type="komm" target="N3r-3b"/>førend nu.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>I maa heller sige I har ikke villet kiende deris Dyder forend I <seg type="komm" target="N3r-6"/>fik høre
+                            deris Velstand: om jeg kand <seg type="komm" target="N3r-7"/>formaa noget hos Herren, da skal vi min
+                            Troe lade henge en Poet hver Dag indtil den hele <seg type="komm" target="N3r-9"/>Nation blir udryddet.
+                            Men der kommer Herren og Fruen, nu kand I høre hvad de selv siger.</p>
+                    </sp>
+                            <stage>Polidor og Leonora kommer ind udi deris <seg type="komm" target="N3r-13"/>Stads.</stage>
+                       
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Henrich! spring strax og hent mig noget af samme Pulver for en Daler, saa
+                            <seg type="komm" target="N3r-16"/>har du ikke fornøden at løbe saa tit.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Det skal skee Herre!</p> 
+                        <stage>Henrich gaar ud.</stage>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Hvad er eders <seg type="komm" target="N3r-22"/>Forlangende I got Folk! vil I tale med mig?</p>
+                    </sp>   
+                <stage>De træder frem giør dybe <seg type="komm" target="N3r-24"/>Complementer, og siger, de  <seg type="komm" target="N3r-25"/>ene kommer for at
+                            giøre deris <seg type="komm" target="N3r-26"/>underdanige Opvartning, og for at høre om Herren har
+                                noget at befale. Fruerne giør ligeledes med Leonora, og kysser paa
+                                hendes Forklæde. Poeterne træde <seg type="komm" target="N3r-30"/>siden frem og <seg type="komm" target="N3r-30a"/>offerere deris Papir.
+                                </stage>                         
+                    <pb ed="A" n="N3v" facs="N3v"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Hvad er det for Papiir?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Poet.</speaker>
+                        <p>Det er nogle ringe Vers <seg type="komm" target="N3v-4"/>Herren og Fruen til Berømmelse.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Hør I got Folk allesammen! da Verden gik mig imod, og mand tænkte, at jeg
+                            ved lang forgieves Arbeide <seg type="komm" target="N3v-9"/>havde sat mig ganske til Side, fant I aldelis
+                            ingen Dyder <pb ed="SS" n="194"/>hos mig, men foragtede mit Huus, og
+                            talede med <seg type="komm" target="N3v-12"/>Haanhed om min Person. Men nu, <app type="tc"><lem wit="A B C">at</lem><rdg resp="udg1788 Rahbek Boye Martensen">da</rdg></app> mit Arbeide er faldet vel
+                            ud, og mit Huus velsignes med Rigdom, see I nu alle det med Øjne som I
+                            <seg type="komm" target="N3v-15"/>tilforen ikke kunde see med Briller; om jeg nu var den største Taabe,
+                            holt I mig for en <seg type="komm" target="N3v-17"/>Salomon; om jeg var den hesligste Mand, kaldte I mig
+                            en <seg type="komm" target="N3v-19"/>Absalon; om jeg <seg type="komm" target="N3v-19b"/>inclinerede til <seg type="komm" target="N3v-19c"/>intet uden Ondskab, <seg type="komm" target="N3v-20"/>holt I mig for
+                            den dydigste. Saaledes er Verden nu omstunder. Den <seg type="komm" target="N3v-22"/>estimerer ingen uden
+                            den, som er lykkelig; <app type="tc_var"><lem wit="B">O!</lem><rdg wit="A">O</rdg><rdg resp="SS">O</rdg></app> saa snart Lykken falder, falder <seg type="komm" target="N3v-23"/>og Kierlighed og
+                            <seg type="komm" target="N3v-24"/>Estime: Bilder eder aldrig ind, at min <seg type="komm" target="N3v-25"/>Enfoldighed er saa stor, at jeg
+                            <seg type="komm" target="N3v-25b"/>jo kand merke eders Falskhed; thi –</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Ach Herre hvad er dog dette. Tilforen kunde jeg faa saa meget Arabisk
+                            Pulver som jeg kunde bære for 8 <seg type="komm" target="N3v-30"/>ß. men nu kand jeg ikke faa <seg type="komm" target="N3v-31"/>et Korn om
+                            jeg vilde give en Tønde Guld derfor. 
+                       </p>
+                    </sp>
+                    <pb ed="A" n="N4r" facs="N4r"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Hvad er det du siger?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hvor jeg har været paa Torv og i Apoteke, leer de af mig, og siger at jeg
+                            <seg type="komm" target="N4r-5"/>løber med Limstangen.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ach Himmel! hvad er dog dette?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Jeg frygter Herre at vi er bedragen; thi alle Folk siger at der er  <seg type="komm" target="N4r-11"/>aldrig
+                            saadant Arabisk Pulver til. Men <seg type="komm" target="N4r-12"/>hillement! hvad vil denne Mand?</p>
+                    </sp>
+                                <stage>Verten i Phasanen kommer indløbende klæd som en Kok.</stage>                       
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Er I gal Mand? tør I løbe saadan ind i en fornemme Herres Stue?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Verten.</speaker>
+                        <p>Ach Ach havde jeg ikke arvet det <seg type="komm" target="N4r-20"/>Begere, <seg type="komm" target="N4r-21"/>havde jeg aldrig villet fortryt
+                            derpaa saa meget.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Jeg seer at det er Kokken, som boer her lige over. See til at du kand faa
+                            ham hiem, at hand kand komme <seg type="komm" target="N4r-25"/>i Rolighed igien; thi den stakkels Mand <seg type="komm" target="N4r-26"/>er
+                            kommen i Raseri.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Kokken.</speaker>
+                        <p>Ach havde ikke mine kiære Forældres Navn staaet derpaa.</p>
+                    </sp>
+                    
+                    <pb ed="A" n="N4v" facs="N4v"/>
+                    <pb ed="SS" n="195"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Det giør mig dog <seg type="komm" target="N4v-2"/>hjertelig ont: thi det er en <seg type="komm" target="N4v-3"/>skikkelig Mand, og den
+                            beste Kok i Staden.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Kokken.</speaker>
+                        <p>Skeen <seg type="komm" target="N4v-6"/>gik ogsaa Fanden i Vold, og, naar jeg <seg type="komm" target="N4v-7"/>seer til, er vel andet gaaet
+                            med.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Hør Mester Christoffer! har I længe været gal? <stage>(sagte)</stage>
+                            <seg type="komm" target="N4v-10"/>havde jeg et Riis at true ham med saa blef hand nok god.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Kokken.</speaker>
+                        <p>Mand kand nok blive gal af saadant.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p><seg type="komm" target="N4v-15"/>Hvad skader jer? Mester Christoffer!</p>
+                    </sp>
+                    <sp>
+                        <speaker>Kokken.</speaker>
+                        <p>En fremmed Person, som <seg type="komm" target="N4v-17"/>gaf sig ud for en Guldmager er <seg type="komm" target="N4v-18"/>løben af mit Huus
+                            og har taget et <w>Sølv-Bæger</w> og en <w>Sølv-Skee</w> med sig. Jeg <seg type="komm" target="N4v-20"/>trode ham vel,
+                            eftersom jeg hørte at hand gik udi Her Polidors Huus. Hand havde hos sig
+                            nylig før hand reiste en enøjet Dievel udi lange sorte Klæder.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>Havde hand ikke ogsaa en Polsk Hue paa.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Kokken.</speaker>
+                        <p>Jo og et sort <seg type="komm" target="N4v-27"/>Plaster paa Øjet.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Henrich.</speaker>
+                        <p>A – – – – <seg type="komm" target="N4v-29"/>vi er om en Hals. Det var just den der <seg type="komm" target="N4v-30"/>solte mig det Arabiske
+                            Pulver.
+                       </p>
+                    </sp>
+                    <pb ed="A" n="N5r" facs="N5r"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Ach Ach jeg <seg type="komm" target="N5r-2"/>er skilt ved mine 4000 Rdlr.</p>
+                    </sp>
+                <stage>De fremmede, saa vel som
+                            Poeterne, sætte deris Hatte paa, og spadsere <seg type="komm" target="N5r-4"/>dristig over
+                                Gulvet.</stage>                      
+                    <sp>
+                        <speaker>Jøden <stage>kommer ind.</stage></speaker>
+                        <p><seg type="komm" target="N5r-7"/>Ist di Goldmacher nicht hir. Ich ham en Juvel gab da hand Pengene von mir
+                            fik.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Det er mig kiert, I er ogsaa bedragen; thi I bragte mig ham hid.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Jøden.</speaker>
+                        <p><seg type="komm" target="N5r-13"/>War das ein Bedriger? au au au min kostbare Juvel.</p>
+                    </sp>
+
+
+
+
+                    <pb ed="SS" n="196"/>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Jeg har ikke andet for min 4000 Rdlr. end et lidet Stykke Papir, hvorpaa
+                            staar nogle Arabiske Ord, som jeg skulde læse naar <seg type="komm" target="N5r-19"/>Operation <seg type="komm" target="N5r-19b"/>skeede.
+                       </p>
+                    </sp>
+                    <sp>
+                        <speaker>En af de fremmede.</speaker>
+                        <p>Lad mig see. Jeg forstaar noget Arabisk. Ej det er aldrig Arabisk, <seg type="komm" target="N5r-22"/>ej
+                            heller blir. Hvad Pokker er det? naar jeg læser det sidste Ord bag fra
+                            staar der Nar. Lad nu see det første, her staar min Tro alle Guldmagere
+                            ere Bedragere og du en Nar ha ha ha.</p>
+                    </sp>
+                    <stage>De gaar alle ud leende,
+                        Poeterne giør bagvente Complementer, saa at de vende Rumpen til
+                                Polidor.</stage>
+                     
+                    <pb ed="A" n="N5v" facs="N5v"/>
+                    <sp>
+                        <speaker>Leonora.</speaker>
+                        <p>Ach jeg forærede ham min beste Ring oven i Kiøbet.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pernille.</speaker>
+                        <p>Ach jeg fortryder ikke saa meget paa den <seg type="komm" target="N5v-6"/><w>Skue-Penge</w> jeg gaf ham, som at
+                            jeg kyssede paa den <seg type="komm" target="N5v-7"/>Rakkerknegts skiden Haand.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Polidor.</speaker>
+                        <p>Lad os gaa ind, vi vil reise paa Landet og boe paa det lidet <seg type="komm" target="N5v-10"/>Gods vi
+                            endnu har tilbage. Jeg vil aldrig befatte mig mere med Guldmageri, men
+                            overlade det til min største Fiende. Det har bragt mig <seg type="komm" target="N5v-13"/>fast til Armod,
+                            og mange andre brave Folk med. Gid got Folk engang af dette og <seg type="komm" target="N5v-15"/>deslige
+                            Exempler vilde lære at <seg type="komm" target="N5v-16"/>tage sig vare.</p>
+                        </sp>
+                <stage>De gaar alle ud, Jøden og Kokken <seg type="komm" target="N5v-17"/>hylende.</stage>
+                    
+                <stage><seg type="komm" target="N5v-18"/><hi rend="ant">Finis.</hi></stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

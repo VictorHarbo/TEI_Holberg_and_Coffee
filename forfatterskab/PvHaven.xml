@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="no">
+        <fileDesc>
+            <titleStmt>
+                <title key="FortPvHaven">Fortale til Peder von Havens Reise udi Rusland</title>
+                <author>Ludvig Holberg</author>
+                <editor>
+                    <persName>Eiliv Vinje</persName>
+                </editor>
+                <respStmt>
+                    <persName>Tone Merete Bruvik</persName>
+                    <resp>Koding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Første versjon, <date when="2009-09-23">2009-09-23</date></p>
+                
+            </editionStmt>
+            <publicationStmt>
+                <availability status="restricted">
+                    <p rend="head">Tekststatus:</p>
+                    <p>Kommentering pågår</p>
+                </availability>
+                
+            </publicationStmt>
+
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">Peder von Haven: Reise udi Rusland <date>1743</date></witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, utg. ved Carl S. Petersen 1913-63, bd. 14, Kbh. 1934. NB: Avvik fra utgaven <title key="none">Samlede Skrifter</title> er systematisk notert. 
+                        Når SS ikke er nevnt i en tekstkritisk note, betyr det at SS stemmer overens med LHS.</witness>
+                    <witness xml:id="PvHaven2003">Peter von Haven: Reise udi Rusland</witness>
+                </listWit>
+            </sourceDesc>
+
+        </fileDesc>
+        <revisionDesc>
+            <change when="2015-01-06" who="nme">La til )( i faksimilelenker i front.</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change><date>2012-10-22</date>NME: Kodet apostrofer med entitet.</change>
+            <change><date>2012-06-17</date>NME: Lagt inn start i xml:id og sjekket mot nye verkkoder.</change>
+            <change><date>2012-05-30</date>NME: Lagt inn trykkeår i listWit.</change>
+            <change><date>2012-05-11</date>NME: rettet faksimilelenker.</change>
+            <change><date>2012-02-29</date>NME: la inn target-attributter.</change>
+            <change><date>2012-01-03</date>NME: Omkodet div-er.</change>
+            <change><date>2010-01-07</date>TMB: Rettet en feil i referansen til
+                faksimilene.</change>
+            <change><date>2009-10-13</date>TMB: Rettet opp header i henhold til nytt
+                skjema.</change>
+            <change><date>2009-06-24</date>EV: Fjernet skjulte linjenummer; ryddet i myke
+                bindestreker</change>
+            <change><date>2009-05-18</date>TMB: Rettet feil med linjenr, og fjerne orddelinger ved
+                linjeskrift.</change>
+            <change><date>2009-05-15</date>EV: Opprettet</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+
+    <facsimile>
+        <graphic url="http://holbergsskrifter.no/image/Peder von Havens Reise udi Rusland/DPP_001.jpg" xml:id="p5r"/>
+        <graphic url="http://holbergsskrifter.no/image/Peder von Havens Reise udi Rusland/DPP_002.jpg" xml:id="p5v"/>
+        <graphic url="http://holbergsskrifter.no/image/Peder von Havens Reise udi Rusland/DPP_003.jpg" xml:id="p6r"/>
+        <graphic url="http://holbergsskrifter.no/image/Peder von Havens Reise udi Rusland/DPP_004.jpg" xml:id="p6v"/>
+        <graphic url="http://holbergsskrifter.no/image/Peder von Havens Reise udi Rusland/DPP_005.jpg" xml:id="p7r"/>
+        <graphic url="http://holbergsskrifter.no/image/Peder von Havens Reise udi Rusland/DPP_006.jpg" xml:id="p7v"/>
+    </facsimile>
+
+    <text xml:lang="dk" xml:id="FortPvHaven" type="orig" subtype="FortPvHaven" n="/tekster/PvHaven/PvHaven.page">
+ 
+        <body>
+            <div xml:id="start" n="Fortale til Peder von Havens Reise udi Rusland"> 
+                <pb ed="A" n=")(5r" facs="p5r"/>
+                <head><hi rend="ant">L. H<hi rend="kapit">olbergs</hi></hi><lb/> Betænkning over dette Skrift.</head>
+             <p rend="noIndent"><w><hi rend="init">D</hi>ette</w> Skrift, som <seg type="komm" target="p5r-5">Autor</seg> efter min tilskyndelse har
+                 forfærdiget, kand <seg type="komm" target="p5r-7">recommenderes</seg> udi <w>ad<shy/><pb ed="A" n=")(5v" facs="p5v"/>skillige</w> henseender: thi derudi gives afrisning paa Ryslands nu
+                    værende rette tilstand; eftersom de beskrivelser, som tilforn ere komne for
+                    lyset om dette mægtige herredom, ere forfattede enten udi dets fødsel eller udi
+                    dets opvæxt: det er enten udi den tid, da den store Monarch <seg type="komm" target="p5v-10">Petrus Alexiovitz</seg> begyndte at lægge grundvold <pb ed="A" n=")(6r" facs="p6r"/>til sin store bygning, eller, da hand var midt udi arbeidet. De
+                 fornemmeste Autores, som derom have skrevet, nemlig <seg type="komm" target="p6r-5">Perry, en
+                        Engelænder, og Autor til det forandrede Rysland</seg>, have viiset os hvad
+                    Rysland kunde blive; Men dette skrift er det første som viiser hvad det nu
+                    omstunder virkeligen er. Videre kand Skriftet <pb ed="A" n=")(6v" facs="p6v"/>recommenderes i henseende til, at det er skrevet udi god <seg type="komm" target="p6v-3">gout</seg>, og med skiønsomhed: indeholder og adskillige <seg type="komm" target="p6v-4">curiositeter</seg>, som ikke alle ere bekiendte. Jeg haver igiennemlæset
+                    den største deel deraf, og det med behag: og hvis skriftet befalder alle saa vel
+                    som det har befaldet mig, kand Autor være forsikret om dets <seg type="komm" target="p6v-12">afgang</seg>. Det var at ønske, at flere af vore landsmænd med samme flid
+                    vilde <pb ed="A" n=")(7r" facs="p7r"/>føre i pennen hvad de have seet og lært paa
+                    deres udenlandske reiser: Men det er at beklage, at af saa mange hundrede
+                    reisende personer der ikke er funden nogen, der med saadant have <seg type="komm" target="p7r-7">regaleret</seg> <w>fæderne-landet</w> ved deres tilbagekomst: Saa at de
+                 intet kand anføre til beviis paa deres udenlands reiser uden <seg type="komm" target="p7r-12a">attestata</seg> fra de <seg type="komm" target="p7r-12b">Vexelerere</seg>, som havde <seg type="komm" target="p7r-13">remitteret</seg> dem penge, item nogle <seg type="komm" target="p7r-14"><w>grima<shy/><pb ed="A" n=")(7v" facs="p7v"/>cer</w></seg> og nye <seg type="komm" target="p7v-1">fasons</seg> paa klæder. Autor har derimod gaaet en anden vey, og viiser
+                    ved sin tilbagekomst ved dette fornuftige skrift, at han ikke allene har reiset,
+                    men endog reiset udi det forsæt at lære selv og at instruere andre.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

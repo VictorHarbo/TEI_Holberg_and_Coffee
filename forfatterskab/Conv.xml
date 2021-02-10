@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="Conv">Betænkning om Conventicler</title>
+                <author>Ludvig Holberg</author>
+                <editor> </editor>
+            <respStmt>
+                <name>Børge Nordbø</name>
+                <resp>Koding</resp>
+            </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="restricted">
+                    <p rend="head">Tekststatus:</p>
+                    <p>Kommentering pågår</p>
+                    </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Lud: Holbergs Betænkning om Conventicler</title>. Avskrift ved Benjamin Dass <date>1733</date>. Cod. Nidr. 214f, Gunnerusbiblioteket, Trondheim</witness>
+                    <witness xml:id="B"><title key="none">Kiøbenhavnske Samlinger af rare trykte og utrykte Piecer</title>, utg. Wille Høyberg, 1. bind: <title key="none">Holbergiana</title>, Kbh. <date>1755</date>, s. 219-32.
+                    </witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, utg. ved Carl S. Petersen 1913-63, bd. 9, Kbh. 1928. NB: Avvik fra utgaven <title key="none">Samlede Skrifter</title> er systematisk notert. 
+                        Når SS ikke er nevnt i en tekstkritisk note, betyr det at SS stemmer overens med LHS.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> </profileDesc>
+        <revisionDesc>
+            <change when="2013-06-03" who="nme">Gjennomgikk tekstkritiske noter.</change>          
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>          
+            <change when="2013-02-14" who="nme">La inn faksimiler og lenker til manuskriptet (A). Utkommenterte og endret faksimilelenkene til B. Kommentarlenkene går fortsatt til sidetallene i B, er trolig ok. 
+                Transkriberte tekst på forsiden og sjekket mot avskrift i SS bd. 18. Latin håndskrift er kodet "ant", endres på sikt til "lathd".</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>             
+            <change><date>2012-12-17</date>NME: teksten er foreløpig korrekturlest mot SS sin avskrift, og sjekket mot rettelseslister. Vi bør få den korrekturlest mot manuskriptet på sikt.</change>
+            <change><date>2012-12-14</date>EV: 3. korrektur mot SS</change>
+            <change><date>2012-10-22</date>NME: Kodet apostrofer med entitet.</change>
+            <change><date>2012-10-03</date>EV: Retta éin korrekturfeil.</change>
+            <change><date>2012-06-17</date>NME: Lagt inn start i xml:id og sjekket mot nye verkkoder.</change>
+            <change><date>2012-05-30</date>NME: Lagt inn trykkeår i listWit i B, sjekk om det er riktig trykkeår eller om det skal være 1733 for manuskriptet. OK.</change>
+            <change><date>2012-02-29</date>NME: Faksimilen er gal i forhold til det som er valgt som grunntekst. OK, rettet opp.</change>
+            <change><date>2012-02-29</date>NME: endret target-verdi i kommentarlenker fra Conv til p.</change>
+            <change><date>2012-01-03</date>NME: omkodet div-er.</change>
+            <change><date>2010-06-15</date>Tone Merete Bruvik: byttet om A og B vitnene igjen. Det skal være slik at avskrift er A og førstetrykk er B.</change>
+            <change><date>2010-06-09</date>Tone Merete Bruvik: byttet om A og B vitnene.</change>
+            <change><date>2010-06-09</date>EV: tilføyingar</change>
+            <change><date>2010-04-15</date>EV: tekstkritikk</change>
+            <change><date>2010-04-14</date>EV: 2. korrektur</change>
+            <change><date>2010-04-14</date>EV: 1. korrektur</change>
+            <change><date>2010-03-08</date>BN: Oppretta</change>
+
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/01.jpg" xml:id="p0r"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/02.jpg" xml:id="p0v"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/03.jpg" xml:id="p1r"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/04.jpg" xml:id="p1v"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/05.jpg" xml:id="p2r"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/06.jpg" xml:id="p2v"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/07.jpg" xml:id="p3r"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/08.jpg" xml:id="p3v"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/09.jpg" xml:id="p4r"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/10.jpg" xml:id="p4v"/>
+        <graphic url="http://holbergsskrifter.no/image/Conventicler%201733/jpg/11.jpg" xml:id="p5r"/>
+                
+        
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_001.JPG" xml:id="p220"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_002.JPG" xml:id="p221"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_003.JPG" xml:id="p222"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_004.JPG" xml:id="p223"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_005.JPG" xml:id="p224"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_006.JPG" xml:id="p225"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_007.JPG" xml:id="p226"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_008.JPG" xml:id="p227"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_009.JPG" xml:id="p228"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_010.JPG" xml:id="p229"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_011.JPG" xml:id="p230"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_012.JPG" xml:id="p231"/>
+        <graphic url="http://holbergsskrifter.no/image/conventicler_%20skreven_%201733/jpg/DPP_013.JPG" xml:id="p232"/>
+    </facsimile>
+    <text xml:lang="dk" xml:id="Conv" type="orig" subtype="Conv" n="/tekster/Conv/Conv.page">
+        <front>
+            <titlePage xml:id="start" n="[Tittelblad]">
+            
+                <lb/>
+            <pb ed="A" n="0r" facs="p0r"/>
+                <lb/>
+                <pb ed="A" n="0v" facs="p0v"/>
+                <lb/>
+                <pb ed="A" n="1r" facs="p1r"/>
+                <epigraph><p>cfr Forordn. af 7<hi rend="sup">de</hi> Octob. 1733.</p>
+                </epigraph>
+                <lb/>
+                <lb/>
+                <lb/>
+                <docTitle>
+                     <titlePart type="main"><hi rend="ant">Lud: Holbergs</hi> Betænkning
+                        <lb/>om
+                        <lb/><seg type="komm" target="p219-1"/><hi rend="ant">Conventicler</hi>, skreven 
+                        <lb/>1733.</titlePart>
+                </docTitle>
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+                <lb/>
+                <epigraph><p>Denne Betænkning havde <hi rend="ant">Prof. Holberg</hi> tænkt at indføre i den 3die <hi rend="ant">Tome</hi> af Hans Danske Historie; men han forandrede siden 
+                    sine tanker, hvorfor man der finder kun den blotte forordning, i hvis anledning her <hi rend="ant">raisonneres</hi>, og derhos en ganske
+                    kort <hi rend="ant">critiqve</hi>. Denne <hi rend="ant">copie</hi> er ellers udskrevet efter <hi rend="ant">autors</hi>
+          egen haand, men dog mod hans villie og vidende.</p></epigraph>
+            </titlePage>
+        </front>
+        <body>
+            <div xml:id="chap" n="Betænkning om Conventicler">
+               <pb ed="A" n="1v" facs="p1v"/>
+                
+                <p rend="noIndent"><note place="margin"><app type="var">
+                    <lem wit="A">1655.</lem><note type="last">mgl. i B</note></app></note>Man 
+                <app type="var">
+                    <lem wit="A">merker ellers,</lem>
+                    <rdg wit="B">merker</rdg>
+                </app> af <seg type="komm" target="p221-1">en Forordning</seg> <app type="var">
+                    <lem wit="A">af den</lem>
+                    <rdg wit="B">den</rdg>
+                </app> 24 <hi rend="ant">Nov</hi>. at der udi dette aar have opreiset <app type="var">
+                        <lem wit="A">sig</lem>
+                        <rdg wit="B">sig i Kiøbenhavn</rdg>
+                    </app> adskillige <hi rend="ant"><seg type="komm" target="p221-2">Separatister</seg>,</hi> hvilke
+                have afsondret sig fra den offentlige Guds tieneste, og stiftet hemmelige
+                Forsamlinger. Disse Forsamlinger søgte H. <hi rend="ant">Maj</hi>: strax ved et
+                strængt forbud at qvæle i deres fødsel, ikke saa meget fordi vrang lærdom der blev
+                lært som formedelst de onde <hi rend="ant">Suiter</hi>, som Erfarenhed viiser at
+                flyde af dislige <hi rend="ant">Conventicler</hi>, hvis Stiftere og <hi rend="ant">
+                    <seg type="komm" target="p222-1">Directeurs</seg>
+                </hi> tage anledning af nogle Geistliges <seg type="komm" target="p222-2">Efterladenhed</seg> at afmale den offentlige og med love <hi rend="ant">etablerede</hi> Guds tieneste med sort farve, og at <seg type="komm" target="p222-3"><hi rend="ant">formere</hi> sig</seg> andre i deres tanker
+                renere og helligere Menigheder, og saasom Almuen i sær <w>Qvinde-kiøn</w>, af intet lader
+                sig hastigere indtage end af udvortes hellighed, saa seer man slige hemmelige
+                Forsamlinger at tillvoxe med en utroelig hastighed, og at æde om sig som en kræft
+                igiennem it helt land. Intet synes i begyndelsen mere <w>u-skyldigt</w> end slige <hi rend="ant">conventicler</hi>, efterdi de som derover føre <hi rend="ant">direction</hi>, <seg type="komm" target="p222-4">foregive</seg> i begyndelsen sig ikke een finger bred at vige
+                fra landets <hi rend="ant">Religion</hi>, men søge allene at skiærpe Christendommen,
+                    og at bringe den till dis større fuldkommenhed, saa
+                at det er ikke troen, <app type="tc">
+                    <lem wit="B">men</lem>
+                    <rdg wit="A">med</rdg>
+                </app> Troens øvelse, som de igiennemheile. Men som <hi rend="ant">simple
+                    Separationer</hi> tit foraarsage større <w>u-roelighed</w> end virkelige vrange
+                meninger, saa er undertiden mere fornødent at have vaagedt øje over <hi rend="ant">Separatister</hi> end falske lærere; de sidste foruroelige allene kirken, men
+                de første sætte <seg type="komm" target="p223-1">tilligemed</seg> kirken ogsaa
+                staten i bevægelse, saa som Regieringer ikke <seg type="komm" target="p223-2">lide</seg>, at <hi rend="ant">private</hi> folk paa egen haand foretage mindste
+                    <hi rend="ant">Reformation</hi> enten udi verslige eller geistlige sager. Og har
+                det derfor <seg type="komm" target="p223-3">fornemmeligen</seg> været i den
+                henseende at den høje øvrighed saa vel her som paa andre steder har søgt at hindre
+                dislige <pb ed="A" n="2r" facs="p2r"/>
+                    <app type="tc">
+                    <lem>
+                        <corr resp="ed">foretagender</corr></lem><rdg wit="A">foreta- foretagender</rdg><note>(ved sideskift)</note></app>. Men Erfarenhed har derforuden viiset, at af hemmelige Forsamlinger avles
+                    adskillige andre <hi rend="ant">monstra</hi> og
+                vanskabte <app type="var">
+                    <lem wit="A">fostre,</lem>
+                    <rdg wit="B">Fostre;</rdg>
+                </app> ti naar En faaer først i hovedet, at Guds tienesten kand skee beqvemmere udi
+                sin egen stue end udi kirkerne, og at en skrædders og skomagers <hi rend="ant">
+                    <seg type="komm" target="p224-1">haranqve</seg>
+                </hi> kand opbygge mere end Præsternes prædikener, <hi rend="ant">tracterer</hi> han
+                ikke allene den offentlige Guds tieneste med foragt og koldsindighed, <seg type="komm" target="p224-2">men omsider og fatter mistanke</seg> till
+                lærdommen selv. Intet er ogsaa mere naturligt, end at naar en borger og
+                handverksmand seer sig ligesom <hi rend="ant">autorisered</hi> till at forklare <app type="tc">
+                    <lem wit="B">Guds</lem>
+                    <rdg wit="A">Gud</rdg></app> ord, og merker, at han høres med <hi rend="ant">admiration</hi> og andagt, at han
+                jo søger at <seg type="komm" target="p224-3">konstle</seg> først paa <hi rend="ant">methoden</hi> og siden paa <hi rend="ant">materien</hi>, og saasom
+                hans andre forretninger tillade ham ikke at sætte paa papir, hvad han i forsamlinger
+                vill sige, og han <seg type="komm" target="p225-1">derover</seg> maa <hi rend="ant"><seg type="komm" target="p225-2">extemporere</seg>,</hi> flyde deraf 2de ting (1) at han
+                ofte end ogsaa mod sin <hi rend="ant">intention</hi> støder an mod een og anden
+                Troens artikel, og siger det, som han ellers ikke havde sagt, hvis han havde haft
+                tid till at <hi rend="ant">
+                    <seg type="komm" target="p225-3">præmeditere</seg>
+                </hi> sin tale, (2) at han <pb ed="SS" n="4"/>selv seer sig an med store <app type="tc">
+                    <lem>
+                        <corr resp="SS">øjen</corr></lem>
+                    <rdg wit="A">øjen,</rdg>
+                    <rdg resp="SS">øjen</rdg>
+                </app> og som <seg type="komm" target="p225-4">en <w><hi rend="ant">Apostoli</hi>sk</w>
+                    person</seg>, der uden foregaaende <hi rend="ant">meditation</hi> kand tale af
+                Aandens indskydelse. Det første giver saaledes anledning till kietterie, og af det
+                sidste udspirer den saa kaldte <hi rend="ant">Fanaticismus</hi>, som er en naturlig
+                    <hi rend="ant">svite</hi> af hemmelige og <hi rend="ant">separerede</hi>
+                Forsamlinger, og omsider falder ud till en aabenbare daarlighed, helst hos dem, som
+                ere af <w><hi rend="ant">melancholi</hi>sk</w> <hi rend="ant"><seg type="komm" target="p225-5">complexion</seg>,</hi> hvilke udi dislige hellige <hi rend="ant">societeter</hi> giøre den
+                største og mest talrige <hi rend="ant">classe</hi>, og som af alle ere mest
+                vanskelige at bringe paa den rette vei igien, saasom de af ingen <hi rend="ant">argumenter</hi> lade sig bevæge, men følge deres indvortes drift, og tagende
+                    <hi rend="ant"><seg type="komm" target="p226-1">qvid pro qvo</seg>,</hi>
+                    tillskrive Aandens indskydelse 
+                    <pb ed="A" n="2v" facs="p2v"/>hvad som ellers er en naturlig virkning af deres
+                svage <hi rend="ant">temperament</hi>, ja <hi rend="ant">
+                    <seg type="komm" target="p226-2">confunderende</seg>
+                </hi> Guds frygt og andagt med <hi rend="ant">misantropie</hi> og tungsindighed,
+                hvilket er at giøre sig en slett <hi rend="ant">idée</hi> om den christelig Troe,
+                der aldeles ikke bestaaer udi <hi rend="ant">grimacer</hi> og sure ansigter, som
+                visse <hi rend="ant">bizarre </hi><w><hi rend="ant">Philosophi</hi>ske</w> <hi rend="ant">Secters</hi>, men udi
+                kierlighed till Gud og <hi rend="ant">Socialitet</hi> i henseende till andre
+                mennisker. Og er det derudi, at den geistlige lærdom <hi rend="ant">distingveres</hi> blant alle andre, og hvorudi vor store Leremesters og hans hellige disciplers levnet skall være os
+                till <app type="var">
+                    <lem wit="A">exempel,</lem>
+                    <rdg wit="B">Exempel;</rdg>
+                </app> ti man seer dem ikke at have søgt skove og udørkener, og skyet andre
+                mennisker som smitsome Sygdome, men tvertimod at de have været ydmyge, tækkelige og
+                omgiængelige, og søgt fornemmeligen at indprente os kierlighed till Gud, at elske og
+                ære ham som en Fader, og ikke at frygte for ham som en Busemand. Man har <app type="var">
+                    <lem wit="A">kon</lem>
+                    <rdg wit="B">kun</rdg>
+                </app> at
+                sammenligne <hi rend="ant">Apostelens Pauli</hi> levnet og lærdom med <hi rend="ant"><seg type="komm" target="p227-1">Heracliti</seg>,</hi> for strax at see,
+                at den førstes flyde af en sand Guds frygt, og den sidstes af <seg type="komm" target="p227-2">forderved Blod og Vædsker</seg>. Ja ligesom man maa <hi rend="ant">distingvere</hi> hidsighed fra tapperhed, saa maa man ogsaa nøje <hi rend="ant">distingvere Religion</hi> og andagt fra tungsindighed, ti saasom den
+                            rette tapperhed og <hi rend="ant">heroismus</hi>
+                findes hos <hi rend="ant">
+                    <seg type="komm" target="p228-1">tempererede</seg>
+                </hi> folk, saa findes den rette Guds frygt hos dem, der <seg type="komm" target="p228-2">med betænksomhed</seg> gaae till verks, og tage fornuften
+                till <w>vei-viiser</w>, og hos hvilke findes en bestandig lighed saa vel <seg type="komm" target="p228-3">udi <hi rend="ant">principiis</hi></seg> som i levnet, ti om
+                saadane menniskers Guds frygt kand man være forsikred, men ikke om andres, hvis
+                andagt drives af blodets og vædskernes <hi rend="ant"><seg type="komm" target="p228-4">fermentation</seg>,</hi> og ligesom <hi rend="ant">Thermometra</hi> falde og stige med veirliget, ti deres <hi rend="ant">
+                    <seg type="komm" target="p228-5">devotion</seg>
+                    </hi> kommer <pb ed="A" n="3r" facs="p3r"/>stødvis, og ved <seg type="komm" target="p228-6">paroxysmer</seg>,
+                saa at ingen end ikke de selv, kand viide, om deres andagt villde blive i morgen,
+                saadan som den var i dag. Saadane ere fructerne af <hi rend="ant">separate</hi>
+                hellige <hi rend="ant">societeter</hi>, og den deraf flydende <hi rend="ant">Fanaticismo</hi>, saa at det som i begyndelsen var <hi rend="ant">Politiens</hi> og Geistlighedens <hi rend="ant">affaire</hi> at dempe, kand omsider behøves at henviises till de <w><hi rend="ant">Medicin</hi>ske</w> <hi rend="ant">Faculteter</hi>. Saasom man nu for
+                nogle aar siden havde lært af den store <seg type="komm" target="p229-1">Engelske
+                        <hi rend="ant">Revolution</hi></seg>, hvad virkning saadant kand have, naar
+                det tager overhaand (ti den store Engelske <hi rend="ant"><app type="tc">
+                        <lem wit="A">Tragoedie</lem>
+                        <rdg resp="SS">Tragædie</rdg>
+                        <rdg wit="B">Tragœdie</rdg></app>,</hi> som kuldkastede <hi rend="ant">Religionen</hi> og staten, havde
+                selv same begyndelse, nemlig hemmelige Forsamlinger, stedsevarende <seg type="komm" target="p229-2">invectiver</seg> mod den offentlige Guds tieneste, <seg type="komm" target="p229-3">forventelse af</seg> det 1000 aars jordiske Rige,
+                hvortill man i tide skulde <hi rend="ant">præparere</hi> sig, <hi rend="ant"><seg type="komm" target="p229-4">rigueur</seg>,</hi> udvortes <hi rend="ant">devotion</hi>, spaadome, <hi rend="ant"><seg type="komm" target="p229-5"><w>com<pb ed="SS" n="5"/>munio</w> 
+                        bonorum</seg>,</hi> lighed at forplante blant
+                mennisker, og andet dislige) saa fandt H: <hi rend="ant">Maj</hi>: nødigt i tide at
+                    raade bod derpaa. Den Forordning, som den 24 <hi rend="ant">Novembr</hi>: <app type="var">
+                        <lem wit="A">blev</lem>
+                        <rdg wit="B">1655 blev</rdg>
+                    </app> <hi rend="ant">publicered</hi> mod hemmelige <app type="var">
+                            <lem wit="A">Forsamlinger</lem>
+                            <rdg wit="B">Forsamlinger i Kiøbenhavn</rdg></app>, lyder <app type="tc">
+                                <lem wit="B">saaledes:</lem>
+                                <rdg wit="A">saaledes</rdg></app> <note n="(a)" place="bottom">
+                    <ref type="refMark">(a)</ref>
+                    <seg type="komm" target="p229-6">Edict: contra Conventic: Hafn. 24 Nov:
+                        1655.</seg>
+                </note></p>
+                            
+                    <p rend="indent">Vi Friderik den Tredie <hi rend="ant">etc</hi>.
+                giøre alle vitterligt, at eftersom vore kiere Forfædre saa vel som vi stedse have
+                    <seg type="komm" target="p230-1">derhen den fornemste omsorg og bekymring
+                    henvendt</seg>, at Guds hellige og sande ord herudi disse Riger kand purt og
+                    uforfalskedt blive <seg type="komm" target="p230-2"/>erholdet, og bevaret, og Vi dog maa erfare, at <seg type="komm" target="p230-3">den
+                    Mester, som hveden med klinten vaager efter at undertrykke og forderve</seg>,
+                forsøger det hellige <w>Præste-Embede</w> og <hi rend="ant">
+                    <seg type="komm" target="p230-4">Ministerium</seg>
+                </hi> at bringe i foragt, i sær <pb ed="A" n="3v" facs="p3v"/>ogsaa med <app type="var">
+                    <lem wit="A">hemmelige</lem>
+                    <rdg wit="B">hemmelige, og</rdg>
+                </app> skadelige Samqvemme dem som ikke
+                bedre forstaaer efter haanden fra vore kirker og den derudi vedtagen brugel. Guds
+                tieneste at forlede, hvorudover vi ville alle og Eenhver særdeles all Over- og
+                    <app type="var">
+                        <lem wit="A"><w>Under-Øvrighed</w> særdeles</lem>
+                        <rdg wit="B">Under-Øvrighed,</rdg>
+                    </app> have befalet strængeligen derover at holde, som de agte for
+                    os at forsvare etc. </p>
+            <p rend="indent">Ved denne Forordning synes saadan misbrug ganske at have ophøret, efterdi intet mere
+                udi Historien derom tales. Og har jeg fundet fornødent at give en <w><hi rend="ant">Philosophi</hi>sk</w> Betænkning derover, saasom det er bekiendt, at mange i vor
+                tid paa adskillige steder i <hi rend="ant">Evropa</hi> have udi hemmelige
+                Forsamlinger søgt at forplante selsomme <hi rend="ant">principia</hi>, som heller
+                sigte till at <seg type="komm" target="p231-1">befodre</seg>
+                <hi rend="ant">desperation</hi> og fortvilelse, end Guds frygt og andagt; det samme har i nogen tid været <hi rend="ant">materie</hi> till <hi rend="ant">discurs</hi> og daglige fortrædelige <hi rend="ant">disputer</hi>,
+                hvorover retsindige og fredelskende folk hierteligen have gremmet sig, og derfor
+                ønsket, i steden for adskillige skiemtsome udstrøede Skrifter, hvorved Sygdommen
+                heller <hi rend="ant">
+                    <seg type="komm" target="p231-2">irriteres</seg>
+                </hi> end hæves, at see nogle alvorlige Betænkninger derover, som i mine tanker best
+                kunde skee ved at give en grundig beskrivelse over <hi rend="ant">Religionen</hi>, Guds frygt og nidkierhed, og eftersee,
+                om den <seg type="komm" target="p232-1">passer sig efter</seg>
+                    <hi rend="ant">Separatisternes</hi> lærdom, om den ogsaa passer sig efter deres
+                eget levnet, og om ikke ofte <hi rend="ant">Religion</hi> af vildfarelse <hi rend="ant">confunderes</hi> med overtroe, Guds frygt med tungsindighed,
+                nidkierhed <pb ed="A" n="4r" facs="p4r"/>med hofmod, og <hi rend="ant">
+                    <seg type="komm" target="p232-2">austeritet</seg>
+                </hi> med misundelse,
+                nøjere at <hi rend="ant">revidere</hi> deres lærdom og <hi rend="ant">morale</hi>,
+                saa at de i steden for at have afskye for andre, skulde maaskee begynde at faae
+                afskye for dem selv, og <hi rend="ant">
+                    <seg type="komm" target="p232-3">sedes belli</seg>
+                </hi> eller krigen skulde forfløttes fra kirkerne till deres egne Forsamlings huse.</p>
+                <pb ed="A" n="4v" facs="p4v"/>
+                <lb/>
+                <pb ed="A" n="5r" facs="p5r"/>
+                
+</div>
+        </body>
+    </text>
+</TEI>

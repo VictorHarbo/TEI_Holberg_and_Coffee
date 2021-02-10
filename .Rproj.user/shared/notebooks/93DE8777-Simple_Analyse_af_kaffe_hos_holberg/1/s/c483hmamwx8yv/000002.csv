@@ -1,0 +1,6 @@
+"0","read_tei <- function(folder) {"
+"0","  list.files(folder, pattern = '\\.xml$', full.names = TRUE) %>%"
+"0","    map_dfr(~.x %>% parseTEI(.,node = ""text"") %>%tibble())"
+"0","}"
+"0",""
+"0","tekster <- read_tei(""/Users/vhol/Documents/Rprojects/Holbergskaffe/forfatterskab"")"

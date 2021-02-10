@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="Fursman">Fortale til Fursmans Le Théâtre Danois</title>
+                <author>Ludvig Holberg</author>
+                <editor>Peter Zeeberg</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace/>
+                <availability>
+                    <p rend="head">Tekststatus:</p>
+                    <p>Ikke punktkommenteret</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Le Théâtre Danois par Mr. Louis Holberg, traduit du Danois par Mr. G. Fursman, divisé en six tomes. Tome I,</title> 
+                        Kbh. <date>1746</date>. NB: Dette tryk har brødteksten i kursiv med fremhævninger i ordinær. Af hensyn til læsbarheden er dette i nærværende udgave gengivet omvendt, så kursiv gengives som ordinær og vice versa.</witness>
+                    
+                    <witness xml:id="B"><title key="none">Le Théâtre Danois par Monsr. Louis Baron de Holberg, traduit du Danois par Mr. G. Fursman. Tome Premier,</title> Kbh. 1747</witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udg. Carl S. Petersen, bd. 15, Kbh. 1935. NB: Afvigelser fra udgaven 
+                        <title key="none">Samlede Skrifter</title> er systematisk noteret. Når SS ikke er nævnt i en tekstkritisk note, betyder det at SS stemmer overens med LHS.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>      
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">fransk</language>
+                <language ident="lat">latin</language>
+            </langUsage>
+        </profileDesc>        
+        <revisionDesc>
+            <change when="2015-08-14" who="fgj">indsat faksimilelinks</change>
+            <change when="2015-06-03" who="ng">opmærkning, korrektur efter SS; "ingen Textkritik er foretaget, da en saadan ikke har været nødvendig" iflg. SS app. (bd. 18, s. 180)</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-01-22" who="fgj">justeret listWit og indsat tekststatus.</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i div</change>
+            <change when="2012-02-08" who="fgj">filen oprettet og let tilrettet, men ikke korrekturlæst</change>
+        </revisionDesc>        
+    </teiHeader>
+    <facsimile>
+ <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/fursman/le_theatre_01.jpg" xml:id="p1"/>   
+   <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/fursman/le_theatre_02.jpg" xml:id="p2"/>
+   
+   
+     
+     
+    
+    
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/fursman/le_theatre_07.jpg" xml:id="p7"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/fursman/le_theatre_08.jpg" xml:id="p8"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/fursman/le_theatre_09.jpg" xml:id="p9"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/fursman/le_theatre_10.jpg" xml:id="p10"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/fursman/le_theatre_11.jpg" xml:id="p11"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/fursman/le_theatre_12.jpg" xml:id="p12"/>
+  </facsimile>
+
+<text xml:lang="fra" xml:id="Fursman" type="orig" subtype="Fursman" n="/tekster/skuespill//Fursman/Fursman.page">
+<body>
+    <div xml:id="start" n="Preface de l’auteur">
+        <pb ed="A" n="1" facs="p1"/>
+        <lb/>
+        <pb ed="A" n="2" facs="p2"/>
+        <lb/>
+        <lb/>
+    <pb ed="A" n="7" facs="p7"/><pb ed="SS" n="251"/>
+        <head>PREFACE<lb/>
+        DE L’AUTEUR.</head>
+         <p><w><hi rend="init">J</hi>e</w> n’entreprendrai point de donner ici l’Histoire de mes Comédies: Je n’en ai rien dit dans l’original Danois, àfin de ne point répetter ce que j’en avois écrit dans la prémiére partie de mes Opuscules Latins, auxquels on peut auoir recours, si l’on souhaite. Dans cette Préface je me borne uniquement à parler de la Traduction Françoise, faite par Mr. G. Fursman, &amp; je déclare, que j’ai vu &amp; lu cette Traduction, que je la trouve conforme à l’Original, &amp; que je l’approuve.</p>
+        <p rend="indent">Cette Traduction comprend toutes mes Comédies au nombre de <w>vingt-six</w>; &amp; toute vanité à part je puis dire, qu’elles ont eu du succès, tant sur le Théâtre Danois, que sur le Théâtre Allemand. Je souhaiterois, qu’elles fussent également <pb ed="A" n="8" facs="p8"/>goûtées en François, &amp; je n’en désespére pas, malgré le préjugé, <app type="tc"><lem wit="A">où</lem><rdg resp="SS">oú</rdg></app> l’on est en France contre les Ouvrages d’Esprit, qui viennent de nos Pays septentrionaux.</p>
+        <p rend="indent">On dira <w>peut-être</w>, que ces Comédies ne sont pas entiérement dans le goût moderne du Théâtre de Paris. J’en conviens, &amp; je me serois bien gardé de tomber dans ce goût. Ecrire de pareilles Comédies, c’est proprement faire de beaux Dialogues, qui n’ont aucune ressemblance aux Piéces de Théâtre: <hi rend="it"><foreign xml:lang="lat">Artificium istud jam periit.</foreign></hi> J’ai entendu à Paris des gens de bon goût se plaindre de ce défaut. Cependant ils s’en prenoient moins aux Auteurs, qu’aux <w>Petits-Maîtres</w>, qui présentement maîtrisent le Théâtre de Paris, &amp; ne veulent que de ces Comédies, qui font bâiller les vrais Connoisseurs.</p>
+        <p rend="indent">Quant à moi, j’ai tâché de faire revivre le goût du siécle de Plaute &amp; le goût du siécle précédent. Plaute donc parmi les Anciens, &amp; Moliére  son <w>Imi<pb ed="A" n="9" facs="p9"/>tateur</w> parmi les Modernes, ont été mes Guides. J’ai suivi leurs traces quelquefois jusque dans leurs irrégularités; car on peut dire de quelques Auteurs Comiques de nôtre tems, ce que Pline dit des Orateurs &amp; des Poétes:</p>
+        <l><hi rend="it"><foreign xml:lang="lat">Peccant, quia nihil peccant.</foreign></hi></l>
+        <p rend="indent">Si je parle d’irrégularités, c’est que quelques Journalistes, qui ont cependant fait grand cas de mes Comédies, ont néanmoins prétendu y trouver <pb ed="SS" n="252"/>deux choses à redire. Ils ont cru, que les Caractéres étoient un peu trop outrés, &amp; ils ont dit, que je n’observois pas toujours <hi rend="it">l’unité du lieu &amp; du tems.</hi></p>
+        <p rend="indent">Je passe aisément condamnation par rapport au prémier reproche, mais Moliére, à qui on a reproché la même chose, a plaidé ma cause d’avance. C’est de propos délibéré, que j’ai quelquefois chargé les couleurs &amp; outré les peintures; l’expérience m’ayant appris, que la justesse demandée par des Académiciens, qui ne sont pas toujours Juges compétens <pb ed="A" n="10" facs="p10"/>dans ce genre d’écrire, gâte souvent une Comédie, &amp; la rend languissante. Mr. Grimarest a justifié Moliére d’un semblable reproche, en disant, qu’il connoissoit le point de vuë du Théâtre, qui demande de gros traits, pour affecter le Public. C’étoit la cause de l’indocilité de ce grand Homme, c’est aussi la cause de la mienne.</p>
+        <p rend="indent">A l’égard de ce qu’on objecte, que je n’ai pas toujours observé <hi rend="it">l’unité du Lieu &amp; du Tems,</hi> je puis dire, que j’ai suivi cette regle du Théâtre dans la plupart de mes Comédies. La seconde Piéce, sous le titre d’ <hi rend="it">Henri &amp; Perrine</hi> en est entre autres une preuve. Avec cela on y peut remarquer, que personne ne se fait voir sur le Théâtre, que les Spectateurs ne l’attendent. Du reste il est impossible de garder ces regles dans toutes les Piéces. On sçait que chaque Comédie doit contenir une Histoire bien liée, &amp; il y en a peu, qui souffrent, qu’on les renferme dans un seul Cabinet, ou dans une seule Maison. Les meilleures Comédies sont sujettes à ce défaut; elles ne laissent pas <pb ed="A" n="11" facs="p11"/>avec cela de passer pour belles, &amp; même plus belles, que quantité d’autres, qui quoique ces regles y soient scrupuleusement observées, sont fades &amp; insipides.</p>
+        <p rend="indent">Il ne suffit pas, qu’une Piéce soit partagée en quelques Actes &amp; en un certain nombre de Scènes, ni que l’Histoire soit représentée dans un seul Appartement &amp;c. avec tout cet appareil elle ne mérite pas le nom de Comédie, à moins qu’on n’y trouve une Histoire bien liée, une Catastrophe éclatante, &amp; ce que les Anciens appelloient <hi rend="it">Festivité,</hi> ce qui est l’ame du Théâtre.</p>
+        <p rend="indent">Pour juger sainement du mérite de ce Théâtre Danois, il faut faire attention, que les Scènes ne sont pas à Paris, ni dans quelque autre Ville de France; mais la plupart à Copenhague. C’est la raison pourquoi le Traducteur  n’a pas jugé à propos d’y faire de changemens; ce n’eût plus été peindre les moeurs de notre Septentrion, ni donner une Traduction, mais déguiser des Comédies du Nord en les habillant à la Françoise. Il a dit:</p>
+        <l><pb ed="A" n="12" facs="p12"/><hi rend="it"><foreign xml:lang="lat">Hic Rhodus; hic salta.</foreign></hi></l>
+        <p rend="indent"><pb ed="SS" n="253"/>C’est par la même raison, qu’il a retenu presque tous les noms &amp; les Caractéres Danois; car on jouë quelquefois de simples Bourgeois, quelquefois des Artisans de Copenhague, &amp; non de Faux Marquis François.</p>
+        <p rend="indent">Cependant il n’y a pas absolument si loin des Moeurs &amp; des Caractéres d’une Nation à l’autre, que les François ne puissent profiter de la critique de la plupart des défauts, dont on fait ici la peinture d’après nature: car les Hommes dans tous les Pays policés, sont à <app type="tc"><lem wit="A B">peu-près</lem><note>(ved linjeskift)</note><rdg resp="SS">peupres</rdg></app> les mêmes, sur tout par rapport aux passions; de sorte qu’en critiquant les défauts des Danois, on peut fort bien dire à quantité d’Etrangers!</p>
+        <l><hi rend="it"><foreign xml:lang="lat">De te fabula narratur.</foreign></hi></l>        
+    </div>
+</body>
+</text>
+</TEI>

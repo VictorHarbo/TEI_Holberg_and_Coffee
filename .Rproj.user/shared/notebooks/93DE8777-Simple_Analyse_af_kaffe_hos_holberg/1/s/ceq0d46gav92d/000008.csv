@@ -1,0 +1,9 @@
+"0","tekster_tidy_nostops %>% "
+"0","  top_n(40) %>%"
+"0","  ggplot(aes(label = word, size = n, color = n)) +"
+"0","  geom_text_wordcloud() +"
+"0","  scale_size_area(max_size = 10) +"
+"0","  theme_minimal() +"
+"0","  scale_color_gradient(low = ""blue"", high = ""red"")"
+"2","Selecting by n
+"

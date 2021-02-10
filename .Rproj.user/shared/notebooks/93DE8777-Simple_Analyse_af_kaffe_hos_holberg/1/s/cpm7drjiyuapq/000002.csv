@@ -1,0 +1,5 @@
+"0","tekster_tidy %>% "
+"0","  count(word, sort = TRUE) %>% "
+"0","  top_n(150)"
+"2","Selecting by n
+"

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://holbergsskrifter.no/schema/holberg.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="dan">
+        <fileDesc>
+            <titleStmt>
+                <title key="Dial">Fasciculi novorum qvorundam dialogorum</title>
+                <author>Ludvig Holberg</author>
+                <editor>
+                    <persName/>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>1728</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <pubPlace/>
+                <availability>
+                    <p rend="head">Tekststatus:</p>
+                    <p>Kommentarer er under redigering</p>
+                    <p>Faksimiler er under udarbejdelse</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A"><title key="none">Fasciculi novorum qvorundam dialogorum, qvi cis &amp; trans Albim diebûs hîsce, fallendi temporis gratiâ, habiti sunt</title>, <date>1728</date>. Det kongelige Bibliotek B 7098/500 8vo (ex. 2).</witness>
+                    <witness xml:id="B"><title key="none">Fasciculi novorum qvorundam dialogorum, qvi cis &amp; trans Albim diebus hisce, fallendi temporis gratia, habiti sunt</title>, <date>1728</date>. Det kongelige Bibliotek 34:4,-318 8vo (ex. 1).  
+                    Bemærk at A og B har enslydende titelblade, men let varierende opsætning: A har linjedeling i DIALOGO-RUM, circumflex over Diebûs hîsce, gratiâ samt typîs, og komma efter COLONIÆ. B har COLONIÆ typis i kursiv.</witness>
+                    <witness xml:id="Samtaler"><title key="none">Samling af adskillige nye Samtaler holdne for Tidsfordriv i disse Dage paa denne og hin Side af Elven</title>, <date>1728</date></witness>
+                    <witness xml:id="SS"><title key="none">Ludvig Holbergs Samlede Skrifter</title>, udgivne af Carl S. Petersen, bd. 5, 1920.</witness>
+                    <witness xml:id="Kragelund"><title key="none">Ludvig Holberg, Latinske Smaaskrifter</title>, ved A. Kragelund, bd. 1, 1974.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">latin</language>
+                <language ident="grc">græsk</language>
+            </langUsage>
+        </profileDesc>        
+        <revisionDesc>
+            <change when="2015-08-14" who="fgj">faksimilelinks</change>
+            <change when="2015-04-20" who="cf">kommentarer</change>
+            <change when="2015-04-19" who="cf">kommentarer</change>
+            <change when="2015-04-18" who="cf">kommentarer</change>
+            <change when="2015-02-24" who="ng">rettelser i app.crit.</change>
+            <change when="2015-02-23" who="ng">rettelser i app.crit.</change>
+            <change when="2015-01-08" who="ng">rettet titleStmt/title m.m., indsat title i listWit/witness</change>
+            <change when="2015-01-07" who="ng">rettet listWit</change>
+            <change when="2015-01-06" who="ng"> til pdf af B i listWit/witness</change>
+            <change when="2014-12-16" who="ng">enkelte rettelser</change>
+            <change when="2014-12-15" who="ng">tekstkritik justeret efter konsultation af B</change>
+            <change when="2014-12-12" who="ng">tekstkritik justeret efter konsultation af B</change>
+            <change when="2014-12-11" who="ng">tekstkritik</change>
+            <change when="2014-12-10" who="ng">tekstkritik</change>
+            <change when="2014-12-04" who="ng">strukturopmærkning</change>
+            <change when="2013-02-20" who="prog">Reference to rng file changed by program change-rng.py</change>
+            <change when="2013-01-24" who="fgj">tilføjet tekststatus</change>
+            <change when="2012-12-20" who="prog">Encoding of broken words done by program mend-broken-words.py</change>
+            <change when="2012-10-22" who="fgj">ændret 'title' fra Dialogus inter duos etc. til Fasciculi novorum dialogorum</change>
+            <change when="2012-06-15" who="fgj">indsat elementet date i listWit og xml:id="start" i titlePage</change>
+            <change when="2012-03-24" who="fgj">kodet og valideret, korrekturlæst mod SS.</change>
+            <change when="2012-03-01" who="fgj">filen oprettet som Dialogus.page, 
+            teksten klippet fra SS-scanningen men ellers ikke bearbejdet eller kodet ud over titelbladet.</change>
+       </revisionDesc>
+    </teiHeader>
+    
+        <facsimile>
+   
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_03.jpg" xml:id="p1r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_04.jpg" xml:id="p1v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_05.jpg" xml:id="p2r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_06.jpg" xml:id="p2v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_07.jpg" xml:id="p3r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_08.jpg" xml:id="p3v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_09.jpg" xml:id="p4r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_10.jpg" xml:id="p4v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_11.jpg" xml:id="p5r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_12.jpg" xml:id="p5v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_13.jpg" xml:id="p6r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_14.jpg" xml:id="p6v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_15.jpg" xml:id="p7r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_16.jpg" xml:id="p7v"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_17.jpg" xml:id="p8r"/>
+    <graphic url="https://kb.dk/imageService/w1024/online_master_arkiv_3/non-archival/Books/dsl/Holberg/dialogus/holberg_dialogus_1728_18.jpg" xml:id="p8v"/>
+    
+  </facsimile>
+    
+    
+    
+    <text xml:lang="lat" xml:id="Dial" type="orig" subtype="Dial" n="/tekster/Fasciculi/Dialogus.page">
+        <front>
+            <titlePage xml:id="start" n="[Titelblad]">
+                <pb ed="A" n=")(1r" facs="p1r"/><pb ed="SS" n="108"/>
+                <docTitle>
+                    <titlePart type="main">Fasciculi Novorum
+                        <lb/>qvorundam
+                        <lb/>DIALOGORUM,</titlePart>
+                    <titlePart type="sub">Qvi
+                        <lb/>Cis &amp; trans Albim
+                        <lb/>Diebûs hîsce,
+                        <lb/>Fallendi temporis gratiâ,
+                        <lb/>Habiti sunt.</titlePart>
+                </docTitle>
+                <byline rend="center">Fasciculus primus continet<lb/>
+                    DIALOGOS SEX.</byline>
+                <docImprint>
+                    <pubPlace>COLONIÆ</pubPlace>, <publisher>typîs P. M.</publisher>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div xml:id="body" n="Dialogus inter duos mercatores Lucium et Antonium">
+                <pb ed="A" n=")(1v" facs="p1v"/><pb ed="SS" n="109"/>
+                <head>DIALOGUS (I.) inter duos<lb/>
+                    Mercatores<lb/>
+                    LUCIUM &amp; ANTONIUM.</head>
+                <lb/>
+                <sp>
+                    <speaker>LUCIUS.</speaker>
+                    <p><w><hi rend="init">S</hi>alve</w> mi Antoni! <seg type="komm" target="p1v-5"/>Qvid tu <seg type="komm" target="p1v-5a"/>huc loci insolens? <seg type="komm" target="p1v-6"/>qvid novi è <app type="tc"><lem><corr resp="ed">Dania?</corr></lem><rdg wit="A">Dania⸮</rdg></app> Audio jam <seg type="komm" target="p1v-7"/>montes parturire in metropoli vestra.</p>
+                </sp>
+                <sp>
+                    <speaker>ANTONIUS.</speaker>
+                    <p>Et ego te <seg type="komm" target="p1v-9"/>insanire audio; nam <seg type="komm" target="p1v-9a"/>qvid sibi velit oratio ista, non capio.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p><seg type="komm" target="p1v-12"/>Assem tibi dabo, ut narres mihi auream istam fabulam de <seg type="komm" target="p1v-13"/>nova, qvæ jam sub incude est, societate Indicâ.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Nîl novi, si qvid memini, meditamur: Nam de Dania eadem dici neqveunt, qvæ de aliis qvibusdam Regnis ac Rebuspublicis, scilicet, qvod semper <seg type="komm" target="p1v-19"/>aliqvid monstri alant. <seg type="komm" target="p1v-20"/>Antiqvum nos semper obtinemus.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Et tamen novam societatem Indicam struitis.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Novam societatem non <seg type="komm" target="p1v-24"/>fingimus, sed nutanti manûs tantùm porrigimus.</p>
+                </sp>
+                <pb ed="A" n=")(2r" facs="p2r"/>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p><app type="tc"><lem><corr resp="ed">Non nutat</corr></lem><rdg wit="A">Nonnutat</rdg></app> solùm societas ista, sed, nî fallar, penitus collapsa est. Sed credo è cineribus vos <seg type="komm" target="p2r-4"/><app type="tc"><lem wit="A B">novam ac antiqvâ nobiliorem exspectare Phœnicem, qvæ totam Asiam circumvolabit, <seg type="komm" target="p2r-6"/>Crœsi divitias ad vos reportatura<note type="last">(<q>expectare</q> pro <q>exspectare</q> B)</note></lem><note type="last">vide comm.</note></app>. Nam, non solùm de restaurandis, sed etiam de augendis commerciis <seg type="komm" target="p2r-8"/>magna jam sonatis; sed <seg type="komm" target="p2r-9"/>dic <app type="var"><lem wit="A">sodes;</lem><rdg wit="B">sodes:</rdg></app> qvis Deus vobis has alas <app type="tc"><lem><corr resp="ed">dabit?</corr></lem><rdg wit="A B">dabit.</rdg><rdg wit="Samtaler"><note>quæstionem reddit</note></rdg><rdg resp="SS">dabit.</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Idem Deus, qvi vobis alas aptavit, <seg type="komm" target="p2r-12"/>nostri etiam curam aget. Sed <seg type="komm" target="p2r-13"/>creditis, vobis solis omnia qvadrata currere, <seg type="komm" target="p2r-14"/>vósqve solos incuboni, ut ajunt, pileum <app type="tc"><lem wit="A B">rapuisse.</lem><rdg wit="Samtaler"><note>affirmationem reddit</note></rdg><rdg resp="Kragelund"><note>in quæstionem vertit</note></rdg></app></p>
+                </sp>
+                <pb ed="SS" n="110"/>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Absit, ut credam nostri tantummodò curam agere Deum. Moneo tantùm, ne <seg type="komm" target="p2r-19"/>cupidine cœli tacti altiùs iter agatis; nam in vicinia solis tabescunt alæ, si cereæ sint. Memores igitur estote casûs Icarici.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p><seg type="komm" target="p2r-23"/>Ardua nimis &amp; abrupta <seg type="komm" target="p2r-23a"/>mente concipere ab indole Danorum semper alienum fuit. Meliùs vos <seg type="komm" target="p2r-25"/>funambulos agitis.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Sed audivistine <seg type="komm" target="p2r-27"/>aculeatam mercatorum qvorundam crisin in societatem Indiæ <app type="tc"><lem><corr resp="ed">Orientalis?</corr></lem><rdg wit="A B">Orientalis.</rdg><rdg wit="Samtaler"><note>quæstionem ordine verborum reddit, sed non quæstionaliter interpungit</note></rdg><rdg resp="SS">Orientalis.</rdg></app></p>
+                </sp>
+                <pb ed="A" n=")(2v" facs="p2v"/>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Titillant me, <seg type="komm" target="p2v-1"/>non pungunt aculei isti, invidiam potiùs, <app type="tc"><lem wit="A B">qvàm</lem><rdg resp="SS">qvam</rdg></app> contemptum præ se ferentes. Si stolidi essent conatus nostri; siqve ageretur de insula Maris Atlantici detegenda, aut de coloniis in globum lunarem ducendis, riderent ii, qvi jam <seg type="komm" target="p2v-7"/>ringunt ac <seg type="komm" target="p2v-8"/>fulmina jaculantur. Igitur parùm me movent <seg type="komm" target="p2v-9"/>fabulæ, qvas vibrant, oblectant potiùs, qvàm exterrent murmura ista. Nam, si vel incœptis nostris non responderet eventus, non adeò <seg type="komm" target="p2v-12"/>magnis excidimus ausis, ut epitaphium <seg type="komm" target="p2v-13"/><app type="tc"><lem wit="B">Phaëthontis</lem><rdg wit="A">Phaėthontis</rdg></app> aut <seg type="komm" target="p2v-13a"/>Icari huc aptari possit. Nîl novi comminiscimur, nîl ardui conamur: <seg type="komm" target="p2v-15"/>Via, qvam monstramus, plana ac pervia est, leges Societatis prudenter digestæ anteqvàm latæ, lucrum non tam promittimus, qvàm monstramus, commercia non tam instituimus, qvàm instituta, sed ob difficultates temporum intermissa, restauramus. Nulla igitur heic, neqve fraudis, neqve stolidi conaminis est suspicio: Omnes <app type="tc"><lem><corr resp="SS">enim,</corr></lem><rdg wit="A B">enim;</rdg><rdg resp="SS">enim,</rdg></app> qvibus <seg type="komm" target="p2v-23"/>Danorum indoles perspecta est, dolosos ac fallaciarum fabros non suspicantur, sciunt, circumventos sæpe ab aliis, nunqvam verò alios circumvenisse: sciunt porrò, non esse proprium huic genti <seg type="komm" target="p2v-28"/>vana ac inania imaginari, umbras sectari, &amp; in excelsa, qvæ <w>præcipi<pb ed="A" n=")(3r" facs="p3r"/>tia</w> minantur, niti. Nam <seg type="komm" target="p3r-1"/>cauti usqve ad reprehensionem Dani sæpius timiditatis, qvàm temeritatis notam incurrunt.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>At, cùm proficuum adeo ac tutum sit commercium, cur <seg type="komm" target="p3r-6"/>propriô marte <seg type="komm" target="p3r-6a"/>vela non facitis? cur lucri, qvod solis popularibus vindicari potest, alii reddantur <app type="tc"><lem wit="B">participes</lem><rdg wit="A">paticipes</rdg></app>?</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Qvasi vero soli nos simus, qvi vicinas gentes, ut societatem nobiscum ineant, invitamus. Nonne societatibus aliorum gentium nos sæpe nomina damus? <pb ed="SS" n="111"/>Nonne, contractibus aleæ, ut subscribamus, sæpe à vicinis rebuspublicis solenniter rogamur? Res, qvæ longam moram non patiuntur, sæpe necessitatem hanc exprimunt. Qvocirca haud rarò videmus <app type="tc"><lem wit="A">à</lem><rdg wit="B">a</rdg><rdg resp="SS">a</rdg></app> gentibus maximè opulentis invitationes ejusmodi fieri, non qvia <seg type="komm" target="p3r-20"/>nervo rerum <seg type="komm" target="p3r-20a"/><app type="tc_var"><lem wit="B">gerendarum</lem><rdg resp="SS">gerundarum</rdg><note type="last">(vide comm.)</note></app> destitutæ sunt, sed qvò res eò celeriùs conficiatur.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>At vobis deest nervus rerum gerendarum, &amp; <seg type="komm" target="p3r-25"/>hinc illæ lacrymæ.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Falleris, mi Luci: Nam si pauci è viris principibus adduci possent, <seg type="komm" target="p3r-28"/>ut nomina profiterentur, totum negotium brevì confectum videres.</p>
+                </sp>
+                <pb ed="A" n=")(3v" facs="p3v"/>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Sed ista, si qvid judico, principum virorum hæsitatio suscepti negotii stoliditatem graphicè exprimit.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Sed heus tu! an omnes apud vos lautioris fortunæ homines sint <app type="tc_var"><lem><corr resp="ed">mercatores?</corr></lem><rdg wit="A">mercatores,</rdg><rdg wit="B">mercatores.</rdg><rdg wit="Samtaler"><note>quæstionem reddit</note></rdg><rdg resp="SS">mercatores,</rdg></app> an omnes, qvi mercaturam non exercent, mercaturam eô ipsô <app type="tc"><lem><corr resp="ed">damnant?</corr></lem><rdg wit="A B">damnant.</rdg><rdg wit="Samtaler"><note>quæstionem reddit</note></rdg><rdg resp="SS">damnant.</rdg></app> Variæ sunt causæ, cur id vitæ genus sectari nolint nonnulli; Qvidam publicîs negotiîs distenti mercaturæ vacare neqveunt, alii reditibûs ordinariîs acqviescentes aleam subire nolunt. Nam, <seg type="komm" target="p3v-14"/>etsi cumulatiore sæpe mensurâ reddat, qvæ acceperit mercatura, est tamen res aleæ, qvæ <seg type="komm" target="p3v-16"/>instar Oceani fluxu ac refluxu crescit, decrescitqve. Vides igitur qvàm graviter hallucinaris, qvàmqve hebetia sunt tela, qvæ torqves. Qvippe ex hypothesi tua flueret, omnes etiam, qvi agros non colunt, agriculturam damnare, omnes, qvi <seg type="komm" target="p3v-22"/>sacris mysteriis initiari nolunt, atheos esse, omnes deniqve, qvi castra non seqvuntur, cervos aut lepores esse, id qvod nulli sanæ mentis homini in mentem venit. Sed, ut ad ea, unde digressus sum, redeam, dico, non tam facultates nobis qvàm animum deesse, qvippe majoris heic molis est opulentos homines in societates nauticas <pb ed="A" n=")(4r" facs="p4r"/>trahere, qvàm in Anglia ac Hollandia, ubi incolæ maximam partem hisce qvæstibus assveti qvasi naturalî qvodam impetu ad cultum Mercurii feruntur. Sed positô, qvod desint nobis facultates, qvódqve nativô ac propriô succô nutriri ac maturescere neqveat societas ista. An igitur stolidi tibi videamur, si, cum propriis viribus molem sustinere neqveamus, sociâ aliorum operâ <app type="tc"><lem><corr resp="ed">utamur?</corr></lem><rdg wit="A B">utamur!</rdg><rdg wit="Samtaler"><note>quæstionem reddit</note></rdg><rdg resp="SS">utamur!</rdg></app> An stolidi sint alii, qvi sub æqvissimis conditionibus ad fœdera ejusmodi invitati pecuniam ac operam <app type="tc"><lem><corr resp="ed">conferunt?</corr></lem><rdg wit="A B">conferunt.</rdg><rdg wit="Samtaler"><note>quæstionem reddit</note></rdg><rdg resp="SS">conferunt.</rdg></app></p>
+                </sp>
+                <pb ed="SS" n="112"/>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Cùm æqvitatem conditionum jactas, te ipsum prodis. Nam eæ sunt, qvibus vix subscriberet Aristoteles, qvi hanc regulam ponit: <seg type="komm" target="p4r-18"/><foreign xml:lang="grc">Ἐν χρημάτων <app type="tc"><lem><corr resp="SS">κοινωνίᾳ</corr></lem><rdg wit="A B">κοινωνία</rdg><rdg resp="SS">κοινωνίᾳ</rdg></app> πλείω λαμβάνουσι οἱ συμβαλλόμενοι πλείω.</foreign> i. e. si ineqvales sint partes, sive <hi rend="it">actiones,</hi> uti loqvi amant mercatores, in rem communem collatæ, partes etiam lucri fiant pro rata.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Ita est. Et nos sanè regulæ hujus observantissimi fuimus.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>At, si æs alienum, qvô laboratis, in rationem non veniat, síqve cuncta, qvæ fecistis <seg type="komm" target="p4r-29"/>nomina, expungant novi socii, anteqvam <pb ed="A" n=")(4v" facs="p4v"/>in societatem recipiantur, nulla apparet æqvitatis <app type="tc"><lem wit="B">observantia.</lem><rdg wit="A">observantia</rdg></app> Velim <seg type="komm" target="p4v-2"/>explices hunc æstum.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Explicatum tibi dabo, &amp; qvidem talî exemplô. Mercatus es, mi Luci, fundum aliqvem, qvem hortîs ac ædificiîs ornasti, agros, qvi steriles ac inculcati jacebant, operariis mercede conductis fodiendos ac stercorandos dedisti, utensilia &amp; instrumenta rustica parâsti, omnes deniqve facultates huic apparatui insumsisti. Jam verò agitur de agro seminando, de messoribus conducendis, de instruendis naviculis, qvæ frumentum ad gentes remotas devehant. Attritæ sunt vires tuæ, socium qværis, initur societas hîs legibûs, ut nullâ ratione habitâ sumptuum, qvi ante initam societatem deplumem te reddiderunt, reditus agrorum æqvaliter inter te &amp; socium distribuantur. An secundum regulam Aristotelis formata tibi videretur talis societas?</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p><seg type="komm" target="p4v-23"/>Minimè gentium. Nam inter societates, qvas vocant <seg type="komm" target="p4v-24"/>leoninas, ea referri deberet.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Et tu tamen iîsdem legibûs in societatem nostram admitti postulas.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Capio jam mentem tuam, &amp; æqvitatem <pb ed="A" n=")(5r" facs="p5r"/>postulati agnosco. Sed restant alii scrupuli, qvi mihi eximendi sunt. Experientiâ edocti sumus, agrum, qvem colitis, valde scruposum esse, ac semina, qvæ spargitis, in stramina potiùs, qvàm aristas abire. Integrum jam seculum ad Indos navigatis, qvô verò successu, arguunt angustiæ, qvibûs circumventi opem aliorum jam imploratis: Nota nimis <pb ed="SS" n="113"/>nobis est historia Indiæ Orientalis. Vidimus originem &amp; progressum, &amp; videbimus brevi catastrophen. Noli igitur <seg type="komm" target="p5r-12"/>aureos montes jactare. Nemini fidem facies. <seg type="komm" target="p5r-13"/>Ex nihilo fit nîl.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Si nota tibi esset origo societatis, si noti progressûs, audaciam comprimeres, <seg type="komm" target="p5r-16"/>lingvæ temperares. Inter societates antiqviores numerari debet societas nostra, cujus duratio ab anno 1617. ad hoc usqve tempus indicat agrum, qvem colimus, non adeò <seg type="komm" target="p5r-21"/>sterilem ac effœtum esse, ut nihil producat, nam si <seg type="komm" target="p5r-22"/>zizaniæ, qvàm frumenti feracior fuisset, <seg type="komm" target="p5r-23"/>síqve unius anni fallacem fidem non excusâsset alterius anni duplicatum fœnus, jam dudum <seg type="komm" target="p5r-25"/>derelictus jacuisset: Nam stultum fuisset <seg type="komm" target="p5r-26"/>sterili per tot annos arenam versâsse aratrô; Et, si unum vel alium nominare potueris socium, qvi ad angustias redactus <seg type="p5r-29"/>societati renunciare <w>coa<pb ed="A" n=")(5v" facs="p5v"/>ctus</w> fuit, aliis calamitatibus id imputari debet. Commercia, qvæ cum Indis habemus, non <seg type="komm" target="p5v-3"/>vî extorta sunt, sed solidîs pactîs nituntur, Urbes ac arces, qvas possedimus, &amp; adhuc possidemus, non invitîs, sed permittentibûs litorum Indicorum Dominîs, extructa sunt, adeò ut benevolentiâ tam Persarum, qvàm Indorum muniti libera commeandi contrahendíqve facultate gaudeamus. Concedo eqvidem latiùs olim se extendisse commercia nostra, litoràqve tam Serum qvàm Indorum ac sinûs Persici à navigiis nostris freqventata; concedo etiam intermissam jam esse navigationem istam, locáqve, qvæ in iisdem litoribus occupavimus, ob incidentes temporum difficultates neglecta esse; sed litora, qvæ ad tempus omisimus, adhuc nobis pervia sunt, portus, qvos freqventavimus, adhuc patent, ac favor Imperatorum, Regum ac Regulorum idem est, qvi fuit olim.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Sed nonne eædem difficultates hodie vobis metuendæ sunt?</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Longè alia jam est hujus Regni facies, deferbuit jam furor belli, <seg type="komm" target="p5v-27"/>cedunt arma togæ, parta est tuta ac solida pax, ad clavum septentrionis nostri sedet <seg type="komm" target="p5v-29"/>Rex, magnus in <pb ed="A" n=")(6r" facs="p6r"/>bello, major verò in pace, cui, qvot subditi, tot curæ, qvot res reformandæ, <seg type="komm" target="p6r-2"/>tot vigiles oculi: Nam <seg type="komm" target="p6r-3"/>dum <seg type="komm" target="p6r-3a"/>altùm dormiunt subditi, solus <app type="tc"><lem wit="A">salutì</lem><rdg wit="B">saluti</rdg><rdg resp="SS">saluti</rdg></app> eorum invigilat, dum sopor tenet oculos nostros, pervigilium Illi indicunt Regnorum curæ. Qvantùm Regi nostro cordi sit <seg type="komm" target="p6r-7"/>salus Reipublicæ, imprimis verò societatum mercatoriarum, testantur tot salutares leges, tot gratæ mercatoribus sanctiones, tot fraudum inhibitiones; sublata jam vitia sunt, qvæ cursum commercii sufflaminabant, cessant antiqvæ qverelæ. <seg type="komm" target="p6r-13"/>Reformata est <w>mo<pb ed="SS" n="114"/>neta</w>, reformatæ leges mercatoriæ, restauratæ societates temporum injuriâ nutantes. Propriîs jam velîs <seg type="komm" target="p6r-16"/>litora Gallica ac Iberica radimus, propriîs carinîs merces è portubus remotissimis exportamus. <seg type="komm" target="p6r-18"/>Ringunt <seg type="komm" target="p6r-18a"/>vicina qvædam emporia, qvæ succô nostrô nitescebant; gestiunt verò Dani ac Norvegi; nam <seg type="komm" target="p6r-20"/>discussa, qvâ olim obsidebamur,  caligine, <seg type="komm" target="p6r-21"/>remotáqve errorum nebulâ, penitiùs ea, qvæ ad salutem commercii faciunt, inspicimus, ac curiosiùs omnia rimamur. Tollimus oculos, compedes frangimus, animos erigimus, movemus lacertos, proprias vires intuemur, ac nos invicem hortamur. Desinas igitur mirari, si solæ societates Indicæ in ista rerum conversione <seg type="komm" target="p6r-29"/>desidiæ non <w>indormi<pb ed="A" n=")(6v" facs="p6v"/>ant</w>, si solæ veternum non excutiant. Desinas etiam fraudes aut stultitiam heic suspicari, ubi nec novum Orbem aut <seg type="komm" target="p6v-3"/>terras australes incognitas fingimus, nec divitias <seg type="komm" target="p6v-5"/>Misisippicas jactamus, qvæ in solis <seg type="komm" target="p6v-5a"/>thrasonum cerebris positæ erant. Ad nota, amica &amp; hospitalia litora nos navigamus, lucrum, qvod sub oculis positum est, <seg type="komm" target="p6v-8"/>digito monstramus. Errant igitur, qvi futura è præteritis imaginantur. Nam vitium olim fuit in prima concoctione ob tenuitatem sortis à primis societatis conditoribus collatæ, sublato verò hoc vitio &amp; acqvisita ea pecuniæ summa, qvæ tantæ rei nervos datura est, in æternum stabit societas, modò <seg type="komm" target="p6v-15"/>conatus foveat uberétqve Deus.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>At credis æqvô animô passuras <seg type="komm" target="p6v-18"/>gentes nonnullas, qvæ in India diu latéqve dominantur, hæc commerciorum <app type="tc"><lem><corr resp="ed">incrementa?</corr></lem><rdg wit="A B">incrementa.</rdg><rdg wit="Samtaler"><note>quæstionem reddit</note></rdg><rdg resp="SS">incrementa.</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Credis tu, passuras gentes nobis vicinas, ut agros nostros colamus, ut cibum capiamus, cùm <seg type="komm" target="p6v-24"/>latret venter, aut ut cubitum eamus, cùm sopore <app type="tc"><lem><corr resp="ed">opprimamur?</corr></lem><rdg wit="A B">opprimamur.</rdg><rdg wit="Samtaler"><note>quæstionem reddit</note></rdg><rdg resp="SS">opprimamur.</rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Necesse est, ut patiantur ea, qvæ nullâ juris specie impediri possunt.</p>
+                </sp>
+                <pb ed="A" n=")(7r" facs="p7r"/>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Ita etiam necesse est, ut concedant nobis ultro citróqve commeandi facultatem, qvæ non majorî juris specie impediri potest. Sed jam ad alia delaberis; nam nulla est juris qvæstio. Agnoscunt omnes jura nostra, rident tantùm conatûs; sed, dum rident, nos vela facimus, &amp; ridebimus, cum nos tetigerit ordo.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>At qvid judicas de <seg type="komm" target="p7r-11"/>Edicto Hanoveriano, qvô sub pœna qvadrupli cautum est, ne qvis pecuniam conferat in societatem <app type="tc"><lem wit="B">Hafniensem?</lem><rdg wit="A">Hafniensem.</rdg><rdg wit="Samtaler"><note>quæstionem reddit</note></rdg><rdg resp="SS">Hafniensem.</rdg></app></p>
+                </sp>
+                <pb ed="SS" n="115"/>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Puto, unicuiqve Principi liberum esse leges ferre, qvibus subditi observantiam debent. Ideoqve vel sponte sese offerentes mercatores Luneburgicos in societatem non recipimus. De cœtero valde dubito, an genuinum sit illud edictum, nam tale dicitur esse, qvale à gente nobis amicissima ac conjunctissima exspectari neqvit. Qvod attinet <seg type="komm" target="p7r-24"/>Batavorum olim lata, ac nuper renovata plebiscita, generalia ea sunt, qvæ in societatem nostram speciatim non diriguntur; Et, si vel maximè in societatem hanc <app type="var"><lem wit="A">collineant</lem><rdg wit="B">collineent</rdg></app>, monstrant, non prorsus <seg type="komm" target="p7r-27"/>vana ac inania esse conamina nostra; nam si <pb ed="A" n=")(7v" facs="p7v"/>umbras sectaremur, non opus esset ejusmodi cautelis.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p><seg type="komm" target="p7v-4"/>Jam non solùm me pungit eloqventia tua, sed aculeos etiam in animo relinqvit, parúmqve abest, si pergas ita fari, qvin ipse adducar, ut pecunias in societatem vestram conferam.</p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Nolo, ut <seg type="komm" target="p7v-10"/>delinimentis aurium ductus in sententiam meam eas. Volo ut judices, ut leges fœderis ad examen seriò voces, ut senatum amicorum habeas, ut omnes qvinqve sensus adhibeas, &amp; si fortè sex tibi sint, ut sextum etiam in subsidium adsciscas. Nam re seriò pensitatâ, <seg type="komm" target="p7v-16"/>calculîsqve in utraqve parte positîs, fateberis <seg type="komm" target="p7v-17"/>nodum te in scirpo qvæsiisse, fateberis nullis heic opus esse orationis aculeis, nullo ad persvadendum rhetore.</p>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Sed gravis diu est qvæstio, &amp; magnîs sæpe motibûs inter mercatores agitata, an commercium Indiæ Orientalis, si vel prosperè ac è voto fluat, damnosum an proficuum <app type="tc"><lem wit="A B">sit.</lem><rdg wit="Samtaler"><note>quæstionem obliquam reddit, sed quæstionaliter interpungit</note></rdg></app></p>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p>Si qvæstio sit de tota Europa, nullum est dubium, qvin valde noxium sit, cum ad Indos perpetuô qvasi torrente devolvatur, qvicqvid auri argentíqve in Europa <seg type="komm" target="p7v-29"/>corradi, <pb ed="A" n=")(8r" facs="p8r"/>qvicqvid è visceribus Novi Orbis erui, qvicqvid deniqve ex arenis Afrorum elici potest, id qvod perpetuô qvasi carcere ab Indis clausum asservatur, nullúsqve per circulationem fit refluxus, cum Indi mercibus exoticis non indigeant. Huc adde, qvod vulgus, sive metu superiorum, qvi superbè ac impotenter dominantur, sive <app type="tc"><lem><corr resp="SS">superstitione</corr></lem><rdg wit="A B">superstione</rdg><rdg resp="SS">superstitione</rdg></app> in viscera terræ thesauros abscondat, æternùm haud raro perituros. Qvocirca heros fabulæ <seg type="komm" target="p8r-11"/>Euvremontianæ Sir Poletick globum terraqveum ingens fingit monstrum obstructione alvi vexatum, qvódqve curari neqviret, nisi Indiæ applicarentur <seg type="komm" target="p8r-15"/>cucurbitæ clysteribus infusæ, <pb ed="SS" n="116"/>qvæ, sublatîs intestinorum vitiîs, solutionem alvi seu <seg type="komm" target="p8r-16"/>circulationem argenti producerent. Si vero qvæstio sit de regno sive republica aliqva peculiari, non idem judicium ferendum est. Nam <seg type="komm" target="p8r-20"/>flumina ista argentea, qvæ in tot ostia ad Indos excurrunt, totidem fontibus supplentur à gentibus Europæ mediterraneis, qvibus coemtas Indorum merces cum lucro revendimus. Taceo alia commoda, qvod scilicet virtute hujus commercii <app type="tc"><lem wit="A">aliqvòt</lem><rdg wit="B">aliqvot</rdg><rdg resp="SS">aliqvot</rdg></app> nautarum millia in re navali instruantur, <seg type="komm" target="p8r-27"/>sumptibûsqve aliarum gentium nutriantur. Huc adde, qvod multi, qvi conturbarunt in patria, &amp; <seg type="komm" target="p8r-29"/>ob paupertatem <w>ri<pb ed="A" n=")(8v" facs="p8v"/>diculi</w> facti sunt, ad Indos currant, contemptum simul ac pauperiem fugientes. Deniqve, qvod non pauci juvenes ob dissolutos mores à parentibus <seg type="komm" target="p8v-4"/>ad Indos relegentur, unde prudentiores sæpe redeunt. Nam experientia docet, <seg type="komm" target="p8v-6"/>lineam æqvinoctialem, ut sapientes reddit insipientes, ita vice versa insipientes sæpe reddere sapientes.</p>
+                    <lg rend="it">
+                        <l><seg type="komm" target="p8v-9"/>His alias poteram plures subnectere causas;</l>
+                        <l>Sed jumenta vocant, &amp; sol inclinat. Eundum est;</l>
+                        <l>Nam mihi jam dudum commotâ mulio virgâ</l>
+                        <l part="I">Innuit.</l>
+                    </lg>
+                </sp>
+                <sp>
+                    <speaker>LUC.</speaker>
+                    <p>Reducem te brevi exspecto, sed, ut etiam versibûs tecum agam,</p>
+                    <l rend="it"><seg type="komm" target="p8v-16"/>Ede ubi consistes, in qva te qværo proseucha.</l>
+                </sp>
+                <sp>
+                    <speaker>ANT.</speaker>
+                    <p><seg type="komm" target="p8v-18"/><app type="var"><lem wit="A B">Aut insanis tu, aut versûs facis;</lem><rdg wit="Samtaler"><note>om.</note></rdg></app> non proseuchas nos sed melioris notæ cauponas qværimus. Sed si lubeat plura de hac re fabulari, reducem me qværas in hac caupona, ubi stabulari soleo.</p>
+                </sp>
+            </div>
+        </body>
+    </text>
+</TEI>

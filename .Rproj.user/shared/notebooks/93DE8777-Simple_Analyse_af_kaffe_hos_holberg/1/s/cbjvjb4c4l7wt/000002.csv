@@ -1,0 +1,8 @@
+"0","tekster_tidy_nostops %>% "
+"0","  top_n(40) %>% "
+"0","  ggplot(aes(x = word, y = n)) +"
+"0","  geom_col(fill=""#3399FF"", colour=""black"") +"
+"0","  coord_flip() +"
+"0","  theme_minimal()"
+"2","Selecting by n
+"
