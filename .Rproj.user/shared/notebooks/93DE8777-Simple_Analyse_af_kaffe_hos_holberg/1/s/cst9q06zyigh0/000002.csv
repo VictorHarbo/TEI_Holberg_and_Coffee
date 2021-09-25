@@ -1,3 +1,0 @@
-"0","kaffe_total %>% "
-"0","  count(word, sort = TRUE) -> kaffe_antal"
-"0","kaffe_antal"

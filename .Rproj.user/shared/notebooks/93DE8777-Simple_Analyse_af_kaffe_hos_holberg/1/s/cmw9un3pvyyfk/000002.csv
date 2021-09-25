@@ -1,6 +1,0 @@
-"0","luksusvarer <- rbind(kaffe_antal, the_antal, tobak_antal)"
-"0","luksusvarer %>% "
-"0","  ggplot(aes(x = word, y = n)) +"
-"0","  geom_col(fill=""#3399FF"", colour=""black"") +"
-"0","  coord_flip() +"
-"0","  theme_minimal()"

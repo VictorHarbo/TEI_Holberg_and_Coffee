@@ -1,5 +1,0 @@
-"0","stopord <- read_csv(""stopord.txt"")"
-"0","tekster_tidy %>% "
-"0","  anti_join(stopord, by = ""word"") %>% "
-"0","  count(word, sort = TRUE) %>% "
-"0","  select(word, n) -> tekster_tidy_nostops"

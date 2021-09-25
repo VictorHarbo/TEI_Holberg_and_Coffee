@@ -159,7 +159,8 @@ luksusvarer %>%
   ggplot(aes(x = word, y = n)) +
   geom_col(fill="#3399FF", colour="black") +
   coord_flip() +
-  theme_minimal()
+  theme_minimal() +
+  labs(title="Words in Ludvig Holbergs authorship related to tobacco, coffee and tea")
 ```
 
 Dette histogram viser brugen af de forskellige stavemåder, det ville måske give mere mening som en wordcloud, hvor man hurtigt får et overblik over, hvad der bruges mest.

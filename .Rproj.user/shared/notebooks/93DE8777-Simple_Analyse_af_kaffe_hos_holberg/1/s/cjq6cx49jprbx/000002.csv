@@ -1,7 +1,0 @@
-"0","luksusvarer <- arrange(luksusvarer, desc(n))"
-"0","luksusvarer %>% "
-"0","  ggplot(aes(label = word, size = n, color = n)) +"
-"0","  geom_text_wordcloud() +"
-"0","  scale_size_area(max_size = 20) +"
-"0","  theme_minimal() +"
-"0","  scale_color_gradient(low = ""black"", high = ""red"")"
